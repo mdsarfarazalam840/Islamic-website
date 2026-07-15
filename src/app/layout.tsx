@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import { Inter, Playfair_Display, Noto_Naskh_Arabic } from "next/font/google"
 import { Navbar } from "@/components/layout/Navbar"
+import { ErrorBoundary } from "@/components/shared/ErrorBoundary"
 import { Footer } from "@/components/layout/Footer"
 import { MobileNav } from "@/components/layout/MobileNav"
 import { Providers } from "@/components/providers"
@@ -77,9 +78,11 @@ export default function RootLayout({
             Skip to main content
           </a>
           <Navbar />
-          <main id="main-content" className="flex-1 pt-16 pb-16 md:pb-0" role="main">
-            {children}
-          </main>
+          <ErrorBoundary>
+            <main id="main-content" className="flex-1 pt-16 pb-16 md:pb-0" role="main">
+              {children}
+            </main>
+          </ErrorBoundary>
           <Footer />
           <MobileNav />
         </Providers>

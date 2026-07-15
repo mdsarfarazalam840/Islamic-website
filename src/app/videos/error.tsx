@@ -1,23 +1,26 @@
 "use client"
 
-export default function VideosError({
-  error,
-  reset,
-}: {
+import { AlertTriangle } from "lucide-react"
+import { Button } from "@/components/ui/button"
+
+interface ErrorProps {
   error: Error & { digest?: string }
   reset: () => void
-}) {
+}
+
+export default function VideosError({ error, reset }: ErrorProps) {
   return (
-    <div className="mx-auto max-w-7xl px-4 sm:px-6 py-8">
-      <div className="flex flex-col items-center justify-center gap-4 p-8 text-center" role="alert">
-        <p className="text-muted-foreground">Could not load video library.</p>
-        <button
-          onClick={reset}
-          className="text-secondary hover:underline text-sm"
-        >
-          Try again
-        </button>
+    <div className="flex min-h-[50dvh] flex-col items-center justify-center gap-4 p-8 text-center">
+      <div className="flex size-12 items-center justify-center rounded-full bg-destructive/10">
+        <AlertTriangle className="size-6 text-destructive" />
       </div>
+      <h2 className="text-xl font-semibold">Something went wrong</h2>
+      <p className="max-w-md text-sm text-muted-foreground">
+        {error.message || "An unexpected error occurred while loading this page."}
+      </p>
+      <Button variant="default" onClick={reset}>
+        Try again
+      </Button>
     </div>
   )
 }

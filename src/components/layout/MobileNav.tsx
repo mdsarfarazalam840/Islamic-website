@@ -3,6 +3,7 @@
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { BookOpen, MessageSquareText, Video, Search, Home } from "lucide-react"
+import { ThemeToggle } from "@/components/shared/ThemeToggle"
 import { cn } from "@/lib/utils"
 
 const mobileLinks = [
@@ -39,6 +40,7 @@ export function MobileNav() {
             </Link>
           )
         })}
+        <ThemeToggle />
       </div>
     </nav>
   )
