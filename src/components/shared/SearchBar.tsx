@@ -28,6 +28,7 @@ export function SearchBar({ placeholder = "Search the Quran...", className }: Se
   // Build Fuse index lazily
   useEffect(() => {
     if (fuse || !loaded || !surahs.length) return
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setLoading(true)
     const allAyahs: { ayah: Ayah; surahName: string; surahNumber: number }[] = []
     const surahNames = new Map(surahs.map((s) => [s.number, s.name]))

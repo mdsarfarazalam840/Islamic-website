@@ -100,6 +100,7 @@ function Scene() {
 export function HeroScene3D() {
   const [mounted, setMounted] = useState(false)
 
+  // eslint-disable-next-line react-hooks/set-state-in-effect
   useEffect(() => { setMounted(true) }, [])
 
   if (!mounted) return <div className="absolute inset-0 geometric-bg" />

@@ -9,6 +9,7 @@ export function useSurahAyahs(surahNumber: number) {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setLoading(true)
     fetch(`/data/quran/surah-${surahNumber}.json`)
       .then((r) => r.json())

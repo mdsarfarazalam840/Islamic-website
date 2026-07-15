@@ -19,6 +19,7 @@ export function LanguageSwitcher() {
   const [language, setLanguageState] = useState("en")
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMounted(true)
     const stored = localStorage.getItem(STORAGE_KEY)
     if (stored) setLanguageState(stored)
