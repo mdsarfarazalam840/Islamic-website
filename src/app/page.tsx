@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { BookOpen, MessageSquareText, Video, Search, ArrowRight, Library, BookMarked } from "lucide-react"
 import { buttonVariants } from "@/components/ui/button"
-import { HeroScene3D } from "@/components/three/HeroScene3D"
+import { DynamicHero } from "@/components/three/DynamicHero"
 import { getAllSurahs } from "@/lib/quran/surahs"
 import { getAllAyahs } from "@/lib/quran/translations"
 
@@ -48,7 +48,7 @@ export default function HomePage() {
   return (
     <div className="flex flex-col">
       <section className="relative flex min-h-[60dvh] flex-col items-center justify-center overflow-hidden px-4">
-        <HeroScene3D />
+        <DynamicHero />
         <div className="absolute inset-0 lantern-glow" />
         <div className="relative z-10 flex flex-col items-center gap-6 text-center max-w-3xl">
           <div className="flex items-center gap-3">
