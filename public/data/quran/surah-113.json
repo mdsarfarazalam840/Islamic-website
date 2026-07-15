@@ -1,0 +1,62 @@
+[
+  {
+    "number": 6226,
+    "surahNumber": 113,
+    "ayahNumber": 1,
+    "juz": 30,
+    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ",
+    "translations": {
+      "en": "SAY: \"I SEEK refuge with the Lord of rising day",
+      "hi": "(ऐ रसूल) तुम कह दो कि मैं सुबह के मालिक की",
+      "ur": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ"
+    }
+  },
+  {
+    "number": 6227,
+    "surahNumber": 113,
+    "ayahNumber": 2,
+    "juz": 30,
+    "arabic": "مِن شَرِّ مَا خَلَقَ",
+    "translations": {
+      "en": "From the evil of what He has created,",
+      "hi": "हर चीज़ की बुराई से जो उसने पैदा की पनाह माँगता हूँ",
+      "ur": "مِنْ شَرِّ مَا خَلَقَ"
+    }
+  },
+  {
+    "number": 6228,
+    "surahNumber": 113,
+    "ayahNumber": 3,
+    "juz": 30,
+    "arabic": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
+    "translations": {
+      "en": "And the evil of evening darkness when it overspreads,",
+      "hi": "और अंधेरीरात की बुराई से जब उसका अंधेरा छा जाए",
+      "ur": "وَمِنْ شَرِّ غَاسِقٍ إِذَا وَقَبَ"
+    }
+  },
+  {
+    "number": 6229,
+    "surahNumber": 113,
+    "ayahNumber": 4,
+    "juz": 30,
+    "arabic": "وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِى ٱلْعُقَدِ",
+    "translations": {
+      "en": "From the evil of sorceresses who blow incantations on knots,",
+      "hi": "और गन्डों पर फूँकने वालियों की बुराई से",
+      "ur": "وَمِنْ شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ"
+    }
+  },
+  {
+    "number": 6230,
+    "surahNumber": 113,
+    "ayahNumber": 5,
+    "juz": 30,
+    "arabic": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+    "translations": {
+      "en": "From the evil of the envier when he envies.",
+      "hi": "(जब फूँके) और हसद करने वाले की बुराई से",
+      "ur": "وَمِنْ شَرِّ حَاسِدٍ إِذَا حَسَدَ"
+    }
+  }
+]

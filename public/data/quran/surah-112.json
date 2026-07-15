@@ -1,0 +1,50 @@
+[
+  {
+    "number": 6222,
+    "surahNumber": 112,
+    "ayahNumber": 1,
+    "juz": 30,
+    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ هُوَ ٱللَّهُ أَحَدٌ",
+    "translations": {
+      "en": "SAY: \"HE IS God the one the most unique,",
+      "hi": "(ऐ रसूल) तुम कह दो कि ख़ुदा एक है",
+      "ur": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ قُلْ هُوَ اللَّهُ أَحَدٌ"
+    }
+  },
+  {
+    "number": 6223,
+    "surahNumber": 112,
+    "ayahNumber": 2,
+    "juz": 30,
+    "arabic": "ٱللَّهُ ٱلصَّمَدُ",
+    "translations": {
+      "en": "God the immanently indispensable.",
+      "hi": "ख़ुदा बरहक़ बेनियाज़ है",
+      "ur": "اللَّهُ الصَّمَدُ"
+    }
+  },
+  {
+    "number": 6224,
+    "surahNumber": 112,
+    "ayahNumber": 3,
+    "juz": 30,
+    "arabic": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+    "translations": {
+      "en": "He has begotten no one, and is begotten of none.",
+      "hi": "न उसने किसी को जना न उसको किसी ने जना,",
+      "ur": "لَمْ يَلِدْ وَلَمْ يُولَدْ"
+    }
+  },
+  {
+    "number": 6225,
+    "surahNumber": 112,
+    "ayahNumber": 4,
+    "juz": 30,
+    "arabic": "وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
+    "translations": {
+      "en": "There is no one comparable to Him.\"",
+      "hi": "और उसका कोई हमसर नहीं",
+      "ur": "وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ"
+    }
+  }
+]

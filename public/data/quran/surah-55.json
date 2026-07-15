@@ -1,0 +1,938 @@
+[
+  {
+    "number": 4902,
+    "surahNumber": 55,
+    "ayahNumber": 1,
+    "juz": 27,
+    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ٱلرَّحْمَٰنُ",
+    "translations": {
+      "en": "AR-RAHMAN",
+      "hi": "बड़ा मेहरबान (ख़ुदा)",
+      "ur": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ الرَّحْمَٰنُ"
+    }
+  },
+  {
+    "number": 4903,
+    "surahNumber": 55,
+    "ayahNumber": 2,
+    "juz": 27,
+    "arabic": "عَلَّمَ ٱلْقُرْءَانَ",
+    "translations": {
+      "en": "Bestowed the Qur'an,",
+      "hi": "उसी ने क़ुरान की तालीम फरमाई",
+      "ur": "عَلَّمَ الْقُرْآنَ"
+    }
+  },
+  {
+    "number": 4904,
+    "surahNumber": 55,
+    "ayahNumber": 3,
+    "juz": 27,
+    "arabic": "خَلَقَ ٱلْإِنسَٰنَ",
+    "translations": {
+      "en": "Created man,",
+      "hi": "उसी ने इन्सान को पैदा किया",
+      "ur": "خَلَقَ الْإِنْسَانَ"
+    }
+  },
+  {
+    "number": 4905,
+    "surahNumber": 55,
+    "ayahNumber": 4,
+    "juz": 27,
+    "arabic": "عَلَّمَهُ ٱلْبَيَانَ",
+    "translations": {
+      "en": "And taught him to express clearly.",
+      "hi": "उसी ने उनको (अपना मतलब) बयान करना सिखाया",
+      "ur": "عَلَّمَهُ الْبَيَانَ"
+    }
+  },
+  {
+    "number": 4906,
+    "surahNumber": 55,
+    "ayahNumber": 5,
+    "juz": 27,
+    "arabic": "ٱلشَّمْسُ وَٱلْقَمَرُ بِحُسْبَانٍۢ",
+    "translations": {
+      "en": "The sun and moon revolve to a computation;",
+      "hi": "सूरज और चाँद एक मुक़र्रर हिसाब से चल रहे हैं",
+      "ur": "الشَّمْسُ وَالْقَمَرُ بِحُسْبَانٍ"
+    }
+  },
+  {
+    "number": 4907,
+    "surahNumber": 55,
+    "ayahNumber": 6,
+    "juz": 27,
+    "arabic": "وَٱلنَّجْمُ وَٱلشَّجَرُ يَسْجُدَانِ",
+    "translations": {
+      "en": "And the grasses and the trees bow (to Him) in adoration.",
+      "hi": "और बूटियाँ बेलें, और दरख्त (उसी को) सजदा करते हैं",
+      "ur": "وَالنَّجْمُ وَالشَّجَرُ يَسْجُدَانِ"
+    }
+  },
+  {
+    "number": 4908,
+    "surahNumber": 55,
+    "ayahNumber": 7,
+    "juz": 27,
+    "arabic": "وَٱلسَّمَآءَ رَفَعَهَا وَوَضَعَ ٱلْمِيزَانَ",
+    "translations": {
+      "en": "He raised the sky and set the Balance",
+      "hi": "और उसी ने आसमान बुलन्द किया और तराजू (इन्साफ) को क़ायम किया",
+      "ur": "وَالسَّمَاءَ رَفَعَهَا وَوَضَعَ الْمِيزَانَ"
+    }
+  },
+  {
+    "number": 4909,
+    "surahNumber": 55,
+    "ayahNumber": 8,
+    "juz": 27,
+    "arabic": "أَلَّا تَطْغَوْا۟ فِى ٱلْمِيزَانِ",
+    "translations": {
+      "en": "So that none may err against the scales,",
+      "hi": "ताकि तुम लोग तराज़ू (से तौलने) में हद से तजाउज़ न करो",
+      "ur": "أَلَّا تَطْغَوْا فِي الْمِيزَانِ"
+    }
+  },
+  {
+    "number": 4910,
+    "surahNumber": 55,
+    "ayahNumber": 9,
+    "juz": 27,
+    "arabic": "وَأَقِيمُوا۟ ٱلْوَزْنَ بِٱلْقِسْطِ وَلَا تُخْسِرُوا۟ ٱلْمِيزَانَ",
+    "translations": {
+      "en": "And observe correct measure, weigh with justice, and not cheat the balance.",
+      "hi": "और ईन्साफ के साथ ठीक तौलो और तौल कम न करो",
+      "ur": "وَأَقِيمُوا الْوَزْنَ بِالْقِسْطِ وَلَا تُخْسِرُوا الْمِيزَانَ"
+    }
+  },
+  {
+    "number": 4911,
+    "surahNumber": 55,
+    "ayahNumber": 10,
+    "juz": 27,
+    "arabic": "وَٱلْأَرْضَ وَضَعَهَا لِلْأَنَامِ",
+    "translations": {
+      "en": "He positioned the earth for all the creatures:",
+      "hi": "और उसी ने लोगों के नफे क़े लिए ज़मीन बनायी",
+      "ur": "وَالْأَرْضَ وَضَعَهَا لِلْأَنَامِ"
+    }
+  },
+  {
+    "number": 4912,
+    "surahNumber": 55,
+    "ayahNumber": 11,
+    "juz": 27,
+    "arabic": "فِيهَا فَٰكِهَةٌۭ وَٱلنَّخْلُ ذَاتُ ٱلْأَكْمَامِ",
+    "translations": {
+      "en": "There are fruits of all kinds on it, and date-palms with their clusters sheathed,",
+      "hi": "कि उसमें मेवे और खजूर के दरख्त हैं जिसके ख़ोशों में ग़िलाफ़ होते हैं",
+      "ur": "فِيهَا فَاكِهَةٌ وَالنَّخْلُ ذَاتُ الْأَكْمَامِ"
+    }
+  },
+  {
+    "number": 4913,
+    "surahNumber": 55,
+    "ayahNumber": 12,
+    "juz": 27,
+    "arabic": "وَٱلْحَبُّ ذُو ٱلْعَصْفِ وَٱلرَّيْحَانُ",
+    "translations": {
+      "en": "Grain with husk, and fragrant grasses.",
+      "hi": "और अनाज जिसके साथ भुस होता है और ख़ुशबूदार फूल",
+      "ur": "وَالْحَبُّ ذُو الْعَصْفِ وَالرَّيْحَانُ"
+    }
+  },
+  {
+    "number": 4914,
+    "surahNumber": 55,
+    "ayahNumber": 13,
+    "juz": 27,
+    "arabic": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "translations": {
+      "en": "How many favours of your Lord will then both of you deny?",
+      "hi": "तो (ऐ गिरोह जिन व इन्स) तुम दोनों अपने परवरदिगार की कौन कौन सी नेअमतों को न मानोगे",
+      "ur": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ"
+    }
+  },
+  {
+    "number": 4915,
+    "surahNumber": 55,
+    "ayahNumber": 14,
+    "juz": 27,
+    "arabic": "خَلَقَ ٱلْإِنسَٰنَ مِن صَلْصَٰلٍۢ كَٱلْفَخَّارِ",
+    "translations": {
+      "en": "He created man of fermented clay dried tinkling hard like earthen ware,",
+      "hi": "उसी ने इन्सान को ठीकरे की तरह खन खनाती हुई मिटटी से पैदा किया",
+      "ur": "خَلَقَ الْإِنْسَانَ مِنْ صَلْصَالٍ كَالْفَخَّارِ"
+    }
+  },
+  {
+    "number": 4916,
+    "surahNumber": 55,
+    "ayahNumber": 15,
+    "juz": 27,
+    "arabic": "وَخَلَقَ ٱلْجَآنَّ مِن مَّارِجٍۢ مِّن نَّارٍۢ",
+    "translations": {
+      "en": "And created jinns from the white-hot flame of fire.",
+      "hi": "और उसी ने जिन्नात को आग के शोले से पैदा किया",
+      "ur": "وَخَلَقَ الْجَانَّ مِنْ مَارِجٍ مِنْ نَارٍ"
+    }
+  },
+  {
+    "number": 4917,
+    "surahNumber": 55,
+    "ayahNumber": 16,
+    "juz": 27,
+    "arabic": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "translations": {
+      "en": "How many favours of your Lord will you then deny?",
+      "hi": "तो (ऐ गिरोह जिन व इन्स) तुम अपने परवरदिगार की कौन कौन सी नेअमतों से मुकरोगे",
+      "ur": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ"
+    }
+  },
+  {
+    "number": 4918,
+    "surahNumber": 55,
+    "ayahNumber": 17,
+    "juz": 27,
+    "arabic": "رَبُّ ٱلْمَشْرِقَيْنِ وَرَبُّ ٱلْمَغْرِبَيْنِ",
+    "translations": {
+      "en": "Lord of the two Easts, Lord of the two Wests.",
+      "hi": "वही जाड़े गर्मी के दोनों मशरिकों का मालिक है और दोनों मग़रिबों का (भी) मालिक है",
+      "ur": "رَبُّ الْمَشْرِقَيْنِ وَرَبُّ الْمَغْرِبَيْنِ"
+    }
+  },
+  {
+    "number": 4919,
+    "surahNumber": 55,
+    "ayahNumber": 18,
+    "juz": 27,
+    "arabic": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "translations": {
+      "en": "How many favours of your Lord will then both of you deny?",
+      "hi": "तो (ऐ जिनों) और (आदमियों) तुम अपने परवरदिगार की किस किस नेअमत से इन्कार करोगे",
+      "ur": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ"
+    }
+  },
+  {
+    "number": 4920,
+    "surahNumber": 55,
+    "ayahNumber": 19,
+    "juz": 27,
+    "arabic": "مَرَجَ ٱلْبَحْرَيْنِ يَلْتَقِيَانِ",
+    "translations": {
+      "en": "He has set two seas in motion that flow side by side together,",
+      "hi": "उसी ने दरिया बहाए जो बाहम मिल जाते हैं",
+      "ur": "مَرَجَ الْبَحْرَيْنِ يَلْتَقِيَانِ"
+    }
+  },
+  {
+    "number": 4921,
+    "surahNumber": 55,
+    "ayahNumber": 20,
+    "juz": 27,
+    "arabic": "بَيْنَهُمَا بَرْزَخٌۭ لَّا يَبْغِيَانِ",
+    "translations": {
+      "en": "With an interstice between them which they cannot cross.",
+      "hi": "दो के दरमियान एक हद्दे फ़ासिल (आड़) है जिससे तजाउज़ नहीं कर सकते",
+      "ur": "بَيْنَهُمَا بَرْزَخٌ لَا يَبْغِيَانِ"
+    }
+  },
+  {
+    "number": 4922,
+    "surahNumber": 55,
+    "ayahNumber": 21,
+    "juz": 27,
+    "arabic": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "translations": {
+      "en": "How many favours of your Lord will then both of you deny? --",
+      "hi": "तो (ऐ जिन व इन्स) तुम दोनों अपने परवरदिगार की किस किस नेअमत को झुठलाओगे",
+      "ur": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ"
+    }
+  },
+  {
+    "number": 4923,
+    "surahNumber": 55,
+    "ayahNumber": 22,
+    "juz": 27,
+    "arabic": "يَخْرُجُ مِنْهُمَا ٱللُّؤْلُؤُ وَٱلْمَرْجَانُ",
+    "translations": {
+      "en": "Out of them come pearls and coral.",
+      "hi": "इन दोनों दरियाओं से मोती और मूँगे निकलते हैं",
+      "ur": "يَخْرُجُ مِنْهُمَا اللُّؤْلُؤُ وَالْمَرْجَانُ"
+    }
+  },
+  {
+    "number": 4924,
+    "surahNumber": 55,
+    "ayahNumber": 23,
+    "juz": 27,
+    "arabic": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "translations": {
+      "en": "How many favours of your Lord will you then deny?",
+      "hi": "(तो जिन व इन्स) तुम दोनों अपने परवरदिगार की कौन कौन सी नेअमत को न मानोगे",
+      "ur": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ"
+    }
+  },
+  {
+    "number": 4925,
+    "surahNumber": 55,
+    "ayahNumber": 24,
+    "juz": 27,
+    "arabic": "وَلَهُ ٱلْجَوَارِ ٱلْمُنشَـَٔاتُ فِى ٱلْبَحْرِ كَٱلْأَعْلَٰمِ",
+    "translations": {
+      "en": "His are the high-sailed vessels in deep ocean like the mountains.",
+      "hi": "और जहाज़ जो दरिया में पहाड़ों की तरह ऊँचे खड़े रहते हैं उसी के हैं",
+      "ur": "وَلَهُ الْجَوَارِ الْمُنْشَآتُ فِي الْبَحْرِ كَالْأَعْلَامِ"
+    }
+  },
+  {
+    "number": 4926,
+    "surahNumber": 55,
+    "ayahNumber": 25,
+    "juz": 27,
+    "arabic": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "translations": {
+      "en": "How many favours of your Lord will then both of you deny?",
+      "hi": "तो (ऐ जिन व इन्स) तुम अपने परवरदिगार की किस किस नेअमत को झुठलाओगे",
+      "ur": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ"
+    }
+  },
+  {
+    "number": 4927,
+    "surahNumber": 55,
+    "ayahNumber": 26,
+    "juz": 27,
+    "arabic": "كُلُّ مَنْ عَلَيْهَا فَانٍۢ",
+    "translations": {
+      "en": "All that is on the earth is passing,",
+      "hi": "जो (मख़लूक) ज़मीन पर है सब फ़ना होने वाली है",
+      "ur": "كُلُّ مَنْ عَلَيْهَا فَانٍ"
+    }
+  },
+  {
+    "number": 4928,
+    "surahNumber": 55,
+    "ayahNumber": 27,
+    "juz": 27,
+    "arabic": "وَيَبْقَىٰ وَجْهُ رَبِّكَ ذُو ٱلْجَلَٰلِ وَٱلْإِكْرَامِ",
+    "translations": {
+      "en": "But abiding is the glory of your Lord, full of majesty and beneficence.",
+      "hi": "और सिर्फ तुम्हारे परवरदिगार की ज़ात जो अज़मत और करामत वाली है बाक़ी रहेगी",
+      "ur": "وَيَبْقَىٰ وَجْهُ رَبِّكَ ذُو الْجَلَالِ وَالْإِكْرَامِ"
+    }
+  },
+  {
+    "number": 4929,
+    "surahNumber": 55,
+    "ayahNumber": 28,
+    "juz": 27,
+    "arabic": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "translations": {
+      "en": "How many favours of your Lord will you then deny?",
+      "hi": "तो तुम दोनों अपने मालिक की किस किस नेअमत से इन्कार करोगे",
+      "ur": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ"
+    }
+  },
+  {
+    "number": 4930,
+    "surahNumber": 55,
+    "ayahNumber": 29,
+    "juz": 27,
+    "arabic": "يَسْـَٔلُهُۥ مَن فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ كُلَّ يَوْمٍ هُوَ فِى شَأْنٍۢ",
+    "translations": {
+      "en": "All those there are in the heavens and the earth turn to Him with solicitation, intent on His purpose all the time.",
+      "hi": "और जितने लोग सारे आसमान व ज़मीन में हैं (सब) उसी से माँगते हैं वह हर रोज़ (हर वक्त) मख़लूक के एक न एक काम में है",
+      "ur": "يَسْأَلُهُ مَنْ فِي السَّمَاوَاتِ وَالْأَرْضِ ۚ كُلَّ يَوْمٍ هُوَ فِي شَأْنٍ"
+    }
+  },
+  {
+    "number": 4931,
+    "surahNumber": 55,
+    "ayahNumber": 30,
+    "juz": 27,
+    "arabic": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "translations": {
+      "en": "How many favours of your Lord will you then deny?",
+      "hi": "तो तुम दोनों अपने सरपरस्त की कौन कौन सी नेअमत से मुकरोगे",
+      "ur": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ"
+    }
+  },
+  {
+    "number": 4932,
+    "surahNumber": 55,
+    "ayahNumber": 31,
+    "juz": 27,
+    "arabic": "سَنَفْرُغُ لَكُمْ أَيُّهَ ٱلثَّقَلَانِ",
+    "translations": {
+      "en": "We shall soon be free to turn to you, O weary caravans,",
+      "hi": "(ऐ दोनों गिरोहों) हम अनक़रीब ही तुम्हारी तरफ मुतावज्जे होंगे",
+      "ur": "سَنَفْرُغُ لَكُمْ أَيُّهَ الثَّقَلَانِ"
+    }
+  },
+  {
+    "number": 4933,
+    "surahNumber": 55,
+    "ayahNumber": 32,
+    "juz": 27,
+    "arabic": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "translations": {
+      "en": "How many favours of your Lord will you then deny?",
+      "hi": "तो तुम दोनों अपने पालने वाले की किस किस नेअमत को न मानोगे",
+      "ur": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ"
+    }
+  },
+  {
+    "number": 4934,
+    "surahNumber": 55,
+    "ayahNumber": 33,
+    "juz": 27,
+    "arabic": "يَٰمَعْشَرَ ٱلْجِنِّ وَٱلْإِنسِ إِنِ ٱسْتَطَعْتُمْ أَن تَنفُذُوا۟ مِنْ أَقْطَارِ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ فَٱنفُذُوا۟ ۚ لَا تَنفُذُونَ إِلَّا بِسُلْطَٰنٍۢ",
+    "translations": {
+      "en": "O society of jinns and men, cross the bounds of the heavens and the earth if you have the ability, then pass beyond them; but you cannot unless you acquire the law.",
+      "hi": "ऐ गिरोह जिन व इन्स अगर तुममें क़ुदरत है कि आसमानों और ज़मीन के किनारों से (होकर कहीं) निकल (कर मौत या अज़ाब से भाग) सको तो निकल जाओ (मगर) तुम तो बग़ैर क़ूवत और ग़लबे के निकल ही नहीं सकते (हालॉ कि तुममें न क़ूवत है और न ही ग़लबा)",
+      "ur": "يَا مَعْشَرَ الْجِنِّ وَالْإِنْسِ إِنِ اسْتَطَعْتُمْ أَنْ تَنْفُذُوا مِنْ أَقْطَارِ السَّمَاوَاتِ وَالْأَرْضِ فَانْفُذُوا ۚ لَا تَنْفُذُونَ إِلَّا بِسُلْطَانٍ"
+    }
+  },
+  {
+    "number": 4935,
+    "surahNumber": 55,
+    "ayahNumber": 34,
+    "juz": 27,
+    "arabic": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "translations": {
+      "en": "How many favours of your Lord will you then deny?",
+      "hi": "तो तुम अपने परवरदिगार की किस किस नेअमत को झुठलाओगे",
+      "ur": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ"
+    }
+  },
+  {
+    "number": 4936,
+    "surahNumber": 55,
+    "ayahNumber": 35,
+    "juz": 27,
+    "arabic": "يُرْسَلُ عَلَيْكُمَا شُوَاظٌۭ مِّن نَّارٍۢ وَنُحَاسٌۭ فَلَا تَنتَصِرَانِ",
+    "translations": {
+      "en": "Let loose at you will be smokeless flames of fire so that you will not be able to defend yourselves.",
+      "hi": "(गुनाहगार जिनों और आदमियों जहन्नुम में) तुम दोनो पर आग का सब्ज़ शोला और सियाह धुऑं छोड़ दिया जाएगा तो तुम दोनों (किस तरह) रोक नहीं सकोगे",
+      "ur": "يُرْسَلُ عَلَيْكُمَا شُوَاظٌ مِنْ نَارٍ وَنُحَاسٌ فَلَا تَنْتَصِرَانِ"
+    }
+  },
+  {
+    "number": 4937,
+    "surahNumber": 55,
+    "ayahNumber": 36,
+    "juz": 27,
+    "arabic": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "translations": {
+      "en": "How many favours of your Lord will then both of you deny?",
+      "hi": "फिर तुम दोनों अपने परवरदिगार की किस किस नेअमत से इन्कार करोगे",
+      "ur": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ"
+    }
+  },
+  {
+    "number": 4938,
+    "surahNumber": 55,
+    "ayahNumber": 37,
+    "juz": 27,
+    "arabic": "فَإِذَا ٱنشَقَّتِ ٱلسَّمَآءُ فَكَانَتْ وَرْدَةًۭ كَٱلدِّهَانِ",
+    "translations": {
+      "en": "When the sky will split asunder, and turn rosy like the dregs of annointing oil,",
+      "hi": "फिर जब आसमान फट कर (क़यामत में) तेल की तरह लाल हो जाऐगा",
+      "ur": "فَإِذَا انْشَقَّتِ السَّمَاءُ فَكَانَتْ وَرْدَةً كَالدِّهَانِ"
+    }
+  },
+  {
+    "number": 4939,
+    "surahNumber": 55,
+    "ayahNumber": 38,
+    "juz": 27,
+    "arabic": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "translations": {
+      "en": "Which of the favours of your Lord will you then deny?",
+      "hi": "तो तुम दोनों अपने परवरदिगार की किस किस नेअमत से मुकरोगे",
+      "ur": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ"
+    }
+  },
+  {
+    "number": 4940,
+    "surahNumber": 55,
+    "ayahNumber": 39,
+    "juz": 27,
+    "arabic": "فَيَوْمَئِذٍۢ لَّا يُسْـَٔلُ عَن ذَنۢبِهِۦٓ إِنسٌۭ وَلَا جَآنٌّۭ",
+    "translations": {
+      "en": "Neither man nor jinn will be questioned on that day about his sin.",
+      "hi": "तो उस दिन न तो किसी इन्सान से उसके गुनाह के बारे में पूछा जाएगा न किसी जिन से",
+      "ur": "فَيَوْمَئِذٍ لَا يُسْأَلُ عَنْ ذَنْبِهِ إِنْسٌ وَلَا جَانٌّ"
+    }
+  },
+  {
+    "number": 4941,
+    "surahNumber": 55,
+    "ayahNumber": 40,
+    "juz": 27,
+    "arabic": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "translations": {
+      "en": "How many favours of your Lord will you then deny?",
+      "hi": "तो तुम दोनों अपने मालिक की किस किस नेअमत को न मानोगे",
+      "ur": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ"
+    }
+  },
+  {
+    "number": 4942,
+    "surahNumber": 55,
+    "ayahNumber": 41,
+    "juz": 27,
+    "arabic": "يُعْرَفُ ٱلْمُجْرِمُونَ بِسِيمَٰهُمْ فَيُؤْخَذُ بِٱلنَّوَٰصِى وَٱلْأَقْدَامِ",
+    "translations": {
+      "en": "The sinners will be recognised by their marks, and seized by the forelock and their feet.",
+      "hi": "गुनाहगार लोग तो अपने चेहरों ही से पहचान लिए जाएँगे तो पेशानी के पटटे और पाँव पकड़े (जहन्नुम में डाल दिये जाएँगे)",
+      "ur": "يُعْرَفُ الْمُجْرِمُونَ بِسِيمَاهُمْ فَيُؤْخَذُ بِالنَّوَاصِي وَالْأَقْدَامِ"
+    }
+  },
+  {
+    "number": 4943,
+    "surahNumber": 55,
+    "ayahNumber": 42,
+    "juz": 27,
+    "arabic": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "translations": {
+      "en": "Which of the favours of your Lord will you then deny?",
+      "hi": "आख़िर तुम दोनों अपने परवरदिगार की किस किस नेअमत से इन्कार करोगे",
+      "ur": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ"
+    }
+  },
+  {
+    "number": 4944,
+    "surahNumber": 55,
+    "ayahNumber": 43,
+    "juz": 27,
+    "arabic": "هَٰذِهِۦ جَهَنَّمُ ٱلَّتِى يُكَذِّبُ بِهَا ٱلْمُجْرِمُونَ",
+    "translations": {
+      "en": "This is Hell the sinners called a lie.",
+      "hi": "(फिर उनसे कहा जाएगा) यही वह जहन्नुम है जिसे गुनाहगार लोग झुठलाया करते थे",
+      "ur": "هَٰذِهِ جَهَنَّمُ الَّتِي يُكَذِّبُ بِهَا الْمُجْرِمُونَ"
+    }
+  },
+  {
+    "number": 4945,
+    "surahNumber": 55,
+    "ayahNumber": 44,
+    "juz": 27,
+    "arabic": "يَطُوفُونَ بَيْنَهَا وَبَيْنَ حَمِيمٍ ءَانٍۢ",
+    "translations": {
+      "en": "They will go round and around between it and boiling water.",
+      "hi": "ये लोग दोज़ख़ और हद दरजा खौलते हुए पानी के दरमियान (बेक़रार दौड़ते) चक्कर लगाते फिरेंगे",
+      "ur": "يَطُوفُونَ بَيْنَهَا وَبَيْنَ حَمِيمٍ آنٍ"
+    }
+  },
+  {
+    "number": 4946,
+    "surahNumber": 55,
+    "ayahNumber": 45,
+    "juz": 27,
+    "arabic": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "translations": {
+      "en": "Which of the favours of your Lord will you then deny?",
+      "hi": "तो तुम दोनों अपने परवरदिगार की किस किस नेअमत को न मानोगे",
+      "ur": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ"
+    }
+  },
+  {
+    "number": 4947,
+    "surahNumber": 55,
+    "ayahNumber": 46,
+    "juz": 27,
+    "arabic": "وَلِمَنْ خَافَ مَقَامَ رَبِّهِۦ جَنَّتَانِ",
+    "translations": {
+      "en": "But for him who lived in awe of the sublimity of his Lord, there will be two gardens --",
+      "hi": "और जो शख्स अपने परवरदिगार के सामने खड़े होने से डरता रहा उसके लिए दो दो बाग़ हैं",
+      "ur": "وَلِمَنْ خَافَ مَقَامَ رَبِّهِ جَنَّتَانِ"
+    }
+  },
+  {
+    "number": 4948,
+    "surahNumber": 55,
+    "ayahNumber": 47,
+    "juz": 27,
+    "arabic": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "translations": {
+      "en": "How many favours of your Lord will then both of you deny? --",
+      "hi": "तो तुम दोनों अपने परवरदिगार की कौन कौन सी नेअमत से इन्कार करोगे",
+      "ur": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ"
+    }
+  },
+  {
+    "number": 4949,
+    "surahNumber": 55,
+    "ayahNumber": 48,
+    "juz": 27,
+    "arabic": "ذَوَاتَآ أَفْنَانٍۢ",
+    "translations": {
+      "en": "Full of overhanging branches --",
+      "hi": "दोनों बाग़ (दरख्तों की) टहनियों से हरे भरे (मेवों से लदे) हुए",
+      "ur": "ذَوَاتَا أَفْنَانٍ"
+    }
+  },
+  {
+    "number": 4950,
+    "surahNumber": 55,
+    "ayahNumber": 49,
+    "juz": 27,
+    "arabic": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "translations": {
+      "en": "Which of the favours of your Lord will you then deny? --",
+      "hi": "फिर दोनों अपने सरपरस्त की किस किस नेअमतों को झुठलाओगे",
+      "ur": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ"
+    }
+  },
+  {
+    "number": 4951,
+    "surahNumber": 55,
+    "ayahNumber": 50,
+    "juz": 27,
+    "arabic": "فِيهِمَا عَيْنَانِ تَجْرِيَانِ",
+    "translations": {
+      "en": "With two springs of water flowing through them both. --",
+      "hi": "इन दोनों में दो चश्में जारी होंगें",
+      "ur": "فِيهِمَا عَيْنَانِ تَجْرِيَانِ"
+    }
+  },
+  {
+    "number": 4952,
+    "surahNumber": 55,
+    "ayahNumber": 51,
+    "juz": 27,
+    "arabic": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "translations": {
+      "en": "Which of the favours of your Lord will then both of you deny?",
+      "hi": "तो तुम दोनों अपने परवरदिगार की किस किस नेअमत से मुकरोगे",
+      "ur": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ"
+    }
+  },
+  {
+    "number": 4953,
+    "surahNumber": 55,
+    "ayahNumber": 52,
+    "juz": 27,
+    "arabic": "فِيهِمَا مِن كُلِّ فَٰكِهَةٍۢ زَوْجَانِ",
+    "translations": {
+      "en": "In both of them there will be every kind of fruits in pairs. --",
+      "hi": "इन दोनों बाग़ों में सब मेवे दो दो किस्म के होंगे",
+      "ur": "فِيهِمَا مِنْ كُلِّ فَاكِهَةٍ زَوْجَانِ"
+    }
+  },
+  {
+    "number": 4954,
+    "surahNumber": 55,
+    "ayahNumber": 53,
+    "juz": 27,
+    "arabic": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "translations": {
+      "en": "Which of the favours of your Lord will then both of you deny? --",
+      "hi": "तुम दोनों अपने परवरदिगार की किस किस नेअमत से इन्कार करोगे",
+      "ur": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ"
+    }
+  },
+  {
+    "number": 4955,
+    "surahNumber": 55,
+    "ayahNumber": 54,
+    "juz": 27,
+    "arabic": "مُتَّكِـِٔينَ عَلَىٰ فُرُشٍۭ بَطَآئِنُهَا مِنْ إِسْتَبْرَقٍۢ ۚ وَجَنَى ٱلْجَنَّتَيْنِ دَانٍۢ",
+    "translations": {
+      "en": "Reclining there on carpets lined with brocade, fruits of the garden hanging low within reach.",
+      "hi": "यह लोग उन फ़र्शों पर जिनके असतर अतलस के होंगे तकिये लगाकर बैठे होंगे तो दोनों बाग़ों के मेवे (इस क़दर) क़रीब होंगे (कि अगर चाहे तो लगे हुए खालें)",
+      "ur": "مُتَّكِئِينَ عَلَىٰ فُرُشٍ بَطَائِنُهَا مِنْ إِسْتَبْرَقٍ ۚ وَجَنَى الْجَنَّتَيْنِ دَانٍ"
+    }
+  },
+  {
+    "number": 4956,
+    "surahNumber": 55,
+    "ayahNumber": 55,
+    "juz": 27,
+    "arabic": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "translations": {
+      "en": "How many favours of your Lord will then both of you deny?",
+      "hi": "तो तुम दोनों अपने मालिक की किस किस नेअमत को न मानोगे",
+      "ur": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ"
+    }
+  },
+  {
+    "number": 4957,
+    "surahNumber": 55,
+    "ayahNumber": 56,
+    "juz": 27,
+    "arabic": "فِيهِنَّ قَٰصِرَٰتُ ٱلطَّرْفِ لَمْ يَطْمِثْهُنَّ إِنسٌۭ قَبْلَهُمْ وَلَا جَآنٌّۭ",
+    "translations": {
+      "en": "In them maidens with averted glances, undeflowered by man or by jinn before them, --",
+      "hi": "इसमें (पाक दामन ग़ैर की तरफ ऑंख उठा कर न देखने वाली औरतें होंगी जिनको उन से पहले न किसी इन्सान ने हाथ लगाया होगा) और जिन ने",
+      "ur": "فِيهِنَّ قَاصِرَاتُ الطَّرْفِ لَمْ يَطْمِثْهُنَّ إِنْسٌ قَبْلَهُمْ وَلَا جَانٌّ"
+    }
+  },
+  {
+    "number": 4958,
+    "surahNumber": 55,
+    "ayahNumber": 57,
+    "juz": 27,
+    "arabic": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "translations": {
+      "en": "Which of the favours of your Lord will then both of you deny? --",
+      "hi": "तो तुम दोनों अपने परवरदिगार की किन किन नेअमतों को झुठलाओगे",
+      "ur": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ"
+    }
+  },
+  {
+    "number": 4959,
+    "surahNumber": 55,
+    "ayahNumber": 58,
+    "juz": 27,
+    "arabic": "كَأَنَّهُنَّ ٱلْيَاقُوتُ وَٱلْمَرْجَانُ",
+    "translations": {
+      "en": "As though rubies and pearls.",
+      "hi": "(ऐसी हसीन) गोया वह (मुजस्सिम) याक़ूत व मूँगे हैं",
+      "ur": "كَأَنَّهُنَّ الْيَاقُوتُ وَالْمَرْجَانُ"
+    }
+  },
+  {
+    "number": 4960,
+    "surahNumber": 55,
+    "ayahNumber": 59,
+    "juz": 27,
+    "arabic": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "translations": {
+      "en": "Which of the favours of your Lord will then both of you deny?",
+      "hi": "तो तुम दोनों अपने परवरदिगार की किन किन नेअमतों से मुकरोगे",
+      "ur": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ"
+    }
+  },
+  {
+    "number": 4961,
+    "surahNumber": 55,
+    "ayahNumber": 60,
+    "juz": 27,
+    "arabic": "هَلْ جَزَآءُ ٱلْإِحْسَٰنِ إِلَّا ٱلْإِحْسَٰنُ",
+    "translations": {
+      "en": "Should the reward of goodness be aught else but goodness? --",
+      "hi": "भला नेकी का बदला नेकी के सिवा कुछ और भी है",
+      "ur": "هَلْ جَزَاءُ الْإِحْسَانِ إِلَّا الْإِحْسَانُ"
+    }
+  },
+  {
+    "number": 4962,
+    "surahNumber": 55,
+    "ayahNumber": 61,
+    "juz": 27,
+    "arabic": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "translations": {
+      "en": "How many favours of your Lord will then both of you deny? --",
+      "hi": "फिर तुम दोनों अपने मालिक की किस किस नेअमत को झुठलाओगे",
+      "ur": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ"
+    }
+  },
+  {
+    "number": 4963,
+    "surahNumber": 55,
+    "ayahNumber": 62,
+    "juz": 27,
+    "arabic": "وَمِن دُونِهِمَا جَنَّتَانِ",
+    "translations": {
+      "en": "And besides these two other gardens --",
+      "hi": "उन दोनों बाग़ों के अलावा दो बाग़ और हैं",
+      "ur": "وَمِنْ دُونِهِمَا جَنَّتَانِ"
+    }
+  },
+  {
+    "number": 4964,
+    "surahNumber": 55,
+    "ayahNumber": 63,
+    "juz": 27,
+    "arabic": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "translations": {
+      "en": "Which of the favours of your Lord will then both of you deny? --",
+      "hi": "तो तुम दोनों अपने पालने वाले की किस किस नेअमत से इन्कार करोगे",
+      "ur": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ"
+    }
+  },
+  {
+    "number": 4965,
+    "surahNumber": 55,
+    "ayahNumber": 64,
+    "juz": 27,
+    "arabic": "مُدْهَآمَّتَانِ",
+    "translations": {
+      "en": "Of darkest verdant green --",
+      "hi": "दोनों निहायत गहरे सब्ज़ व शादाब",
+      "ur": "مُدْهَامَّتَانِ"
+    }
+  },
+  {
+    "number": 4966,
+    "surahNumber": 55,
+    "ayahNumber": 65,
+    "juz": 27,
+    "arabic": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "translations": {
+      "en": "How many favours of your Lord will then both of you deny? --",
+      "hi": "तो तुम दोनों अपने सरपरस्त की किन किन नेअमतों को न मानोगे",
+      "ur": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ"
+    }
+  },
+  {
+    "number": 4967,
+    "surahNumber": 55,
+    "ayahNumber": 66,
+    "juz": 27,
+    "arabic": "فِيهِمَا عَيْنَانِ نَضَّاخَتَانِ",
+    "translations": {
+      "en": "With two fountains gushing constantly, --",
+      "hi": "उन दोनों बाग़ों में दो चश्में जोश मारते होंगे",
+      "ur": "فِيهِمَا عَيْنَانِ نَضَّاخَتَانِ"
+    }
+  },
+  {
+    "number": 4968,
+    "surahNumber": 55,
+    "ayahNumber": 67,
+    "juz": 27,
+    "arabic": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "translations": {
+      "en": "How many favours of your Lord will then both of you deny? --",
+      "hi": "तो तुम दोनों अपने परवरदिगार की किस किस नेअमत से मुकरोगे",
+      "ur": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ"
+    }
+  },
+  {
+    "number": 4969,
+    "surahNumber": 55,
+    "ayahNumber": 68,
+    "juz": 27,
+    "arabic": "فِيهِمَا فَٰكِهَةٌۭ وَنَخْلٌۭ وَرُمَّانٌۭ",
+    "translations": {
+      "en": "With fruits in them, and dates and pomegranates --",
+      "hi": "उन दोनों में मेवें हैं खुरमें और अनार",
+      "ur": "فِيهِمَا فَاكِهَةٌ وَنَخْلٌ وَرُمَّانٌ"
+    }
+  },
+  {
+    "number": 4970,
+    "surahNumber": 55,
+    "ayahNumber": 69,
+    "juz": 27,
+    "arabic": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "translations": {
+      "en": "How many favours of your Lord will then both of you deny? --",
+      "hi": "तो तुम दोनों अपने मालिक की किन किन नेअमतों को झुठलाओगे",
+      "ur": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ"
+    }
+  },
+  {
+    "number": 4971,
+    "surahNumber": 55,
+    "ayahNumber": 70,
+    "juz": 27,
+    "arabic": "فِيهِنَّ خَيْرَٰتٌ حِسَانٌۭ",
+    "translations": {
+      "en": "In them good and comely maidens --",
+      "hi": "उन बाग़ों में ख़ुश ख़ुल्क और ख़ूबसूरत औरतें होंगी",
+      "ur": "فِيهِنَّ خَيْرَاتٌ حِسَانٌ"
+    }
+  },
+  {
+    "number": 4972,
+    "surahNumber": 55,
+    "ayahNumber": 71,
+    "juz": 27,
+    "arabic": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "translations": {
+      "en": "How many favours of your Lord will you then deny? --",
+      "hi": "तो तुम दोनों अपने मालिक की किन किन नेअमतों को झुठलाओगे",
+      "ur": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ"
+    }
+  },
+  {
+    "number": 4973,
+    "surahNumber": 55,
+    "ayahNumber": 72,
+    "juz": 27,
+    "arabic": "حُورٌۭ مَّقْصُورَٰتٌۭ فِى ٱلْخِيَامِ",
+    "translations": {
+      "en": "Houris cloistered in pavilions --",
+      "hi": "वह हूरें हैं जो ख़ेमों में छुपी बैठी हैं",
+      "ur": "حُورٌ مَقْصُورَاتٌ فِي الْخِيَامِ"
+    }
+  },
+  {
+    "number": 4974,
+    "surahNumber": 55,
+    "ayahNumber": 73,
+    "juz": 27,
+    "arabic": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "translations": {
+      "en": "How many favours of your Lord will you then deny? --",
+      "hi": "फिर तुम दोनों अपने परवरदिगार की कौन कौन सी नेअमत से इन्कार करोगे",
+      "ur": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ"
+    }
+  },
+  {
+    "number": 4975,
+    "surahNumber": 55,
+    "ayahNumber": 74,
+    "juz": 27,
+    "arabic": "لَمْ يَطْمِثْهُنَّ إِنسٌۭ قَبْلَهُمْ وَلَا جَآنٌّۭ",
+    "translations": {
+      "en": "Undeflowered by man or by jinn before them, --",
+      "hi": "उनसे पहले उनको किसी इन्सान ने उनको छुआ तक नहीं और न जिन ने",
+      "ur": "لَمْ يَطْمِثْهُنَّ إِنْسٌ قَبْلَهُمْ وَلَا جَانٌّ"
+    }
+  },
+  {
+    "number": 4976,
+    "surahNumber": 55,
+    "ayahNumber": 75,
+    "juz": 27,
+    "arabic": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "translations": {
+      "en": "How many favours of your Lord will then both of you deny? --",
+      "hi": "फिर तुम दोनों अपने मालिक की किस किस नेअमत से मुकरोगे",
+      "ur": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ"
+    }
+  },
+  {
+    "number": 4977,
+    "surahNumber": 55,
+    "ayahNumber": 76,
+    "juz": 27,
+    "arabic": "مُتَّكِـِٔينَ عَلَىٰ رَفْرَفٍ خُضْرٍۢ وَعَبْقَرِىٍّ حِسَانٍۢ",
+    "translations": {
+      "en": "Reclining on green cushions and rich carpets excellent.",
+      "hi": "ये लोग सब्ज़ कालीनों और नफीस व हसीन मसनदों पर तकिए लगाए (बैठे) होंगे",
+      "ur": "مُتَّكِئِينَ عَلَىٰ رَفْرَفٍ خُضْرٍ وَعَبْقَرِيٍّ حِسَانٍ"
+    }
+  },
+  {
+    "number": 4978,
+    "surahNumber": 55,
+    "ayahNumber": 77,
+    "juz": 27,
+    "arabic": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "translations": {
+      "en": "How many favours of your Lord will you then deny?",
+      "hi": "फिर तुम अपने परवरदिगार की किन किन नेअमतों से इन्कार करोगे",
+      "ur": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ"
+    }
+  },
+  {
+    "number": 4979,
+    "surahNumber": 55,
+    "ayahNumber": 78,
+    "juz": 27,
+    "arabic": "تَبَٰرَكَ ٱسْمُ رَبِّكَ ذِى ٱلْجَلَٰلِ وَٱلْإِكْرَامِ",
+    "translations": {
+      "en": "Blessed be the name of your Lord, full of majesty and beneficience.",
+      "hi": "(ऐ रसूल) तुम्हारा परवरदिगार जो साहिबे जलाल व करामत है उसी का नाम बड़ा बाबरकत है",
+      "ur": "تَبَارَكَ اسْمُ رَبِّكَ ذِي الْجَلَالِ وَالْإِكْرَامِ"
+    }
+  }
+]

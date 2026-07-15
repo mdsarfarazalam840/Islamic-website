@@ -1,0 +1,74 @@
+[
+  {
+    "number": 6231,
+    "surahNumber": 114,
+    "ayahNumber": 1,
+    "juz": 30,
+    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ",
+    "translations": {
+      "en": "SAY: \"I SEEK refuge with the Lord of men,",
+      "hi": "(ऐ रसूल) तुम कह दो मैं लोगों के परवरदिगार",
+      "ur": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ النَّاسِ"
+    }
+  },
+  {
+    "number": 6232,
+    "surahNumber": 114,
+    "ayahNumber": 2,
+    "juz": 30,
+    "arabic": "مَلِكِ ٱلنَّاسِ",
+    "translations": {
+      "en": "The King of men,",
+      "hi": "लोगों के बादशाह",
+      "ur": "مَلِكِ النَّاسِ"
+    }
+  },
+  {
+    "number": 6233,
+    "surahNumber": 114,
+    "ayahNumber": 3,
+    "juz": 30,
+    "arabic": "إِلَٰهِ ٱلنَّاسِ",
+    "translations": {
+      "en": "The God of men,",
+      "hi": "लोगों के माबूद की (शैतानी)",
+      "ur": "إِلَٰهِ النَّاسِ"
+    }
+  },
+  {
+    "number": 6234,
+    "surahNumber": 114,
+    "ayahNumber": 4,
+    "juz": 30,
+    "arabic": "مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ",
+    "translations": {
+      "en": "From the evil of him who breathes temptations into the minds of men,",
+      "hi": "वसवसे की बुराई से पनाह माँगता हूँ",
+      "ur": "مِنْ شَرِّ الْوَسْوَاسِ الْخَنَّاسِ"
+    }
+  },
+  {
+    "number": 6235,
+    "surahNumber": 114,
+    "ayahNumber": 5,
+    "juz": 30,
+    "arabic": "ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ",
+    "translations": {
+      "en": "Who suggests evil thoughts to the hearts of men --",
+      "hi": "जो (ख़ुदा के नाम से) पीछे हट जाता है जो लोगों के दिलों में वसवसे डाला करता है",
+      "ur": "الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ"
+    }
+  },
+  {
+    "number": 6236,
+    "surahNumber": 114,
+    "ayahNumber": 6,
+    "juz": 30,
+    "arabic": "مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ",
+    "translations": {
+      "en": "From among the jinns and men.",
+      "hi": "जिन्नात में से ख्वाह आदमियों में से",
+      "ur": "مِنَ الْجِنَّةِ وَالنَّاسِ"
+    }
+  }
+]

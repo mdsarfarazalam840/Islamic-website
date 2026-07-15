@@ -1,0 +1,602 @@
+[
+  {
+    "number": 5623,
+    "surahNumber": 77,
+    "ayahNumber": 1,
+    "juz": 29,
+    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلْمُرْسَلَٰتِ عُرْفًۭا",
+    "translations": {
+      "en": "I CALL TO WITNESS those who are sent consecutively,",
+      "hi": "हवाओं की क़सम जो (पहले) धीमी चलती हैं",
+      "ur": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ وَالْمُرْسَلَاتِ عُرْفًا"
+    }
+  },
+  {
+    "number": 5624,
+    "surahNumber": 77,
+    "ayahNumber": 2,
+    "juz": 29,
+    "arabic": "فَٱلْعَٰصِفَٰتِ عَصْفًۭا",
+    "translations": {
+      "en": "And those that strike violently,",
+      "hi": "फिर ज़ोर पकड़ के ऑंधी हो जाती हैं",
+      "ur": "فَالْعَاصِفَاتِ عَصْفًا"
+    }
+  },
+  {
+    "number": 5625,
+    "surahNumber": 77,
+    "ayahNumber": 3,
+    "juz": 29,
+    "arabic": "وَٱلنَّٰشِرَٰتِ نَشْرًۭا",
+    "translations": {
+      "en": "And those that revive by quickening,",
+      "hi": "और (बादलों को) उभार कर फैला देती हैं",
+      "ur": "وَالنَّاشِرَاتِ نَشْرًا"
+    }
+  },
+  {
+    "number": 5626,
+    "surahNumber": 77,
+    "ayahNumber": 4,
+    "juz": 29,
+    "arabic": "فَٱلْفَٰرِقَٰتِ فَرْقًۭا",
+    "translations": {
+      "en": "And those that distinguish distinctly,",
+      "hi": "फिर (उनको) फाड़ कर जुदा कर देती हैं",
+      "ur": "فَالْفَارِقَاتِ فَرْقًا"
+    }
+  },
+  {
+    "number": 5627,
+    "surahNumber": 77,
+    "ayahNumber": 5,
+    "juz": 29,
+    "arabic": "فَٱلْمُلْقِيَٰتِ ذِكْرًا",
+    "translations": {
+      "en": "And those that bring down the Reminder",
+      "hi": "फिर फरिश्तों की क़सम जो वही लाते हैं",
+      "ur": "فَالْمُلْقِيَاتِ ذِكْرًا"
+    }
+  },
+  {
+    "number": 5628,
+    "surahNumber": 77,
+    "ayahNumber": 6,
+    "juz": 29,
+    "arabic": "عُذْرًا أَوْ نُذْرًا",
+    "translations": {
+      "en": "To end all argument or to warn.",
+      "hi": "ताकि हुज्जत तमाम हो और डरा दिया जाए",
+      "ur": "عُذْرًا أَوْ نُذْرًا"
+    }
+  },
+  {
+    "number": 5629,
+    "surahNumber": 77,
+    "ayahNumber": 7,
+    "juz": 29,
+    "arabic": "إِنَّمَا تُوعَدُونَ لَوَٰقِعٌۭ",
+    "translations": {
+      "en": "What is promised will surely come to pass.",
+      "hi": "कि जिस बात का तुमसे वायदा किया जाता है वह ज़रूर होकर रहेगा",
+      "ur": "إِنَّمَا تُوعَدُونَ لَوَاقِعٌ"
+    }
+  },
+  {
+    "number": 5630,
+    "surahNumber": 77,
+    "ayahNumber": 8,
+    "juz": 29,
+    "arabic": "فَإِذَا ٱلنُّجُومُ طُمِسَتْ",
+    "translations": {
+      "en": "When the stars are obliterated,",
+      "hi": "फिर जब तारों की चमक जाती रहेगी",
+      "ur": "فَإِذَا النُّجُومُ طُمِسَتْ"
+    }
+  },
+  {
+    "number": 5631,
+    "surahNumber": 77,
+    "ayahNumber": 9,
+    "juz": 29,
+    "arabic": "وَإِذَا ٱلسَّمَآءُ فُرِجَتْ",
+    "translations": {
+      "en": "The heavens split asunder,",
+      "hi": "और जब आसमान फट जाएगा",
+      "ur": "وَإِذَا السَّمَاءُ فُرِجَتْ"
+    }
+  },
+  {
+    "number": 5632,
+    "surahNumber": 77,
+    "ayahNumber": 10,
+    "juz": 29,
+    "arabic": "وَإِذَا ٱلْجِبَالُ نُسِفَتْ",
+    "translations": {
+      "en": "The mountains reduced to dust and blown away,",
+      "hi": "और जब पहाड़ (रूई की तरह) उड़े उड़े फिरेंगे",
+      "ur": "وَإِذَا الْجِبَالُ نُسِفَتْ"
+    }
+  },
+  {
+    "number": 5633,
+    "surahNumber": 77,
+    "ayahNumber": 11,
+    "juz": 29,
+    "arabic": "وَإِذَا ٱلرُّسُلُ أُقِّتَتْ",
+    "translations": {
+      "en": "And when the time comes for raising the little girls (buried alive) --",
+      "hi": "और जब पैग़म्बर लोग एक मुअय्यन वक्त पर जमा किए जाएँगे",
+      "ur": "وَإِذَا الرُّسُلُ أُقِّتَتْ"
+    }
+  },
+  {
+    "number": 5634,
+    "surahNumber": 77,
+    "ayahNumber": 12,
+    "juz": 29,
+    "arabic": "لِأَىِّ يَوْمٍ أُجِّلَتْ",
+    "translations": {
+      "en": "For what day is that time fixed?",
+      "hi": "(फिर) भला इन (बातों) में किस दिन के लिए ताख़ीर की गयी है",
+      "ur": "لِأَيِّ يَوْمٍ أُجِّلَتْ"
+    }
+  },
+  {
+    "number": 5635,
+    "surahNumber": 77,
+    "ayahNumber": 13,
+    "juz": 29,
+    "arabic": "لِيَوْمِ ٱلْفَصْلِ",
+    "translations": {
+      "en": "The Day of Judgement.",
+      "hi": "फ़ैसले के दिन के लिए",
+      "ur": "لِيَوْمِ الْفَصْلِ"
+    }
+  },
+  {
+    "number": 5636,
+    "surahNumber": 77,
+    "ayahNumber": 14,
+    "juz": 29,
+    "arabic": "وَمَآ أَدْرَىٰكَ مَا يَوْمُ ٱلْفَصْلِ",
+    "translations": {
+      "en": "How will you comprehend what the Day of Judgement is?",
+      "hi": "और तुमको क्या मालूम की फ़ैसले का दिन क्या है",
+      "ur": "وَمَا أَدْرَاكَ مَا يَوْمُ الْفَصْلِ"
+    }
+  },
+  {
+    "number": 5637,
+    "surahNumber": 77,
+    "ayahNumber": 15,
+    "juz": 29,
+    "arabic": "وَيْلٌۭ يَوْمَئِذٍۢ لِّلْمُكَذِّبِينَ",
+    "translations": {
+      "en": "Alas the woe that day for those who deny!",
+      "hi": "उस दिन झुठलाने वालों की मिट्टी ख़राब है",
+      "ur": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ"
+    }
+  },
+  {
+    "number": 5638,
+    "surahNumber": 77,
+    "ayahNumber": 16,
+    "juz": 29,
+    "arabic": "أَلَمْ نُهْلِكِ ٱلْأَوَّلِينَ",
+    "translations": {
+      "en": "Have We not destroyed the earlier generations?",
+      "hi": "क्या हमने अगलों को हलाक नहीं किया",
+      "ur": "أَلَمْ نُهْلِكِ الْأَوَّلِينَ"
+    }
+  },
+  {
+    "number": 5639,
+    "surahNumber": 77,
+    "ayahNumber": 17,
+    "juz": 29,
+    "arabic": "ثُمَّ نُتْبِعُهُمُ ٱلْءَاخِرِينَ",
+    "translations": {
+      "en": "So shall We make the later ones to follow them.",
+      "hi": "फिर उनके पीछे पीछे पिछलों को भी चलता करेंगे",
+      "ur": "ثُمَّ نُتْبِعُهُمُ الْآخِرِينَ"
+    }
+  },
+  {
+    "number": 5640,
+    "surahNumber": 77,
+    "ayahNumber": 18,
+    "juz": 29,
+    "arabic": "كَذَٰلِكَ نَفْعَلُ بِٱلْمُجْرِمِينَ",
+    "translations": {
+      "en": "That is what We shall do to those who are guilty of crime.",
+      "hi": "हम गुनेहगारों के साथ ऐसा ही किया करते हैं",
+      "ur": "كَذَٰلِكَ نَفْعَلُ بِالْمُجْرِمِينَ"
+    }
+  },
+  {
+    "number": 5641,
+    "surahNumber": 77,
+    "ayahNumber": 19,
+    "juz": 29,
+    "arabic": "وَيْلٌۭ يَوْمَئِذٍۢ لِّلْمُكَذِّبِينَ",
+    "translations": {
+      "en": "Alas the woe that day for those who deny!",
+      "hi": "उस दिन झुठलाने वालों की मिट्टी ख़राब है",
+      "ur": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ"
+    }
+  },
+  {
+    "number": 5642,
+    "surahNumber": 77,
+    "ayahNumber": 20,
+    "juz": 29,
+    "arabic": "أَلَمْ نَخْلُقكُّم مِّن مَّآءٍۢ مَّهِينٍۢ",
+    "translations": {
+      "en": "Did We not create you from contemptible water?",
+      "hi": "क्या हमने तुमको ज़लील पानी (मनी) से पैदा नहीं किया",
+      "ur": "أَلَمْ نَخْلُقْكُمْ مِنْ مَاءٍ مَهِينٍ"
+    }
+  },
+  {
+    "number": 5643,
+    "surahNumber": 77,
+    "ayahNumber": 21,
+    "juz": 29,
+    "arabic": "فَجَعَلْنَٰهُ فِى قَرَارٍۢ مَّكِينٍ",
+    "translations": {
+      "en": "Then We lodged you in a secure place (the womb)",
+      "hi": "फिर हमने उसको एक मुअय्यन वक्त तक",
+      "ur": "فَجَعَلْنَاهُ فِي قَرَارٍ مَكِينٍ"
+    }
+  },
+  {
+    "number": 5644,
+    "surahNumber": 77,
+    "ayahNumber": 22,
+    "juz": 29,
+    "arabic": "إِلَىٰ قَدَرٍۢ مَّعْلُومٍۢ",
+    "translations": {
+      "en": "For a certain appointed time,",
+      "hi": "एक महफूज़ मक़ाम (रहम) में रखा",
+      "ur": "إِلَىٰ قَدَرٍ مَعْلُومٍ"
+    }
+  },
+  {
+    "number": 5645,
+    "surahNumber": 77,
+    "ayahNumber": 23,
+    "juz": 29,
+    "arabic": "فَقَدَرْنَا فَنِعْمَ ٱلْقَٰدِرُونَ",
+    "translations": {
+      "en": "Then We facilitated (your birth). How well do We calculate!",
+      "hi": "फिर (उसका) एक अन्दाज़ा मुक़र्रर किया तो हम कैसा अच्छा अन्दाज़ा मुक़र्रर करने वाले हैं",
+      "ur": "فَقَدَرْنَا فَنِعْمَ الْقَادِرُونَ"
+    }
+  },
+  {
+    "number": 5646,
+    "surahNumber": 77,
+    "ayahNumber": 24,
+    "juz": 29,
+    "arabic": "وَيْلٌۭ يَوْمَئِذٍۢ لِّلْمُكَذِّبِينَ",
+    "translations": {
+      "en": "Alas the woe that day for those who deny!",
+      "hi": "उन दिन झुठलाने वालों की ख़राबी है",
+      "ur": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ"
+    }
+  },
+  {
+    "number": 5647,
+    "surahNumber": 77,
+    "ayahNumber": 25,
+    "juz": 29,
+    "arabic": "أَلَمْ نَجْعَلِ ٱلْأَرْضَ كِفَاتًا",
+    "translations": {
+      "en": "Have We not made the earth a repository",
+      "hi": "क्या हमने ज़मीन को ज़िन्दों और मुर्दों को समेटने वाली नहीं बनाया",
+      "ur": "أَلَمْ نَجْعَلِ الْأَرْضَ كِفَاتًا"
+    }
+  },
+  {
+    "number": 5648,
+    "surahNumber": 77,
+    "ayahNumber": 26,
+    "juz": 29,
+    "arabic": "أَحْيَآءًۭ وَأَمْوَٰتًۭا",
+    "translations": {
+      "en": "For the living and the dead,",
+      "hi": "और उसमें ऊँचे ऊँचे अटल पहाड़ रख दिए",
+      "ur": "أَحْيَاءً وَأَمْوَاتًا"
+    }
+  },
+  {
+    "number": 5649,
+    "surahNumber": 77,
+    "ayahNumber": 27,
+    "juz": 29,
+    "arabic": "وَجَعَلْنَا فِيهَا رَوَٰسِىَ شَٰمِخَٰتٍۢ وَأَسْقَيْنَٰكُم مَّآءًۭ فُرَاتًۭا",
+    "translations": {
+      "en": "And placed in it lofty and broad stablisers, and gave you sweet water to drink?",
+      "hi": "और तुम लोगों को मीठा पानी पिलाया",
+      "ur": "وَجَعَلْنَا فِيهَا رَوَاسِيَ شَامِخَاتٍ وَأَسْقَيْنَاكُمْ مَاءً فُرَاتًا"
+    }
+  },
+  {
+    "number": 5650,
+    "surahNumber": 77,
+    "ayahNumber": 28,
+    "juz": 29,
+    "arabic": "وَيْلٌۭ يَوْمَئِذٍۢ لِّلْمُكَذِّبِينَ",
+    "translations": {
+      "en": "Alas the woe that day for those who deny!",
+      "hi": "उस दिन झुठलाने वालों की ख़राबी है",
+      "ur": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ"
+    }
+  },
+  {
+    "number": 5651,
+    "surahNumber": 77,
+    "ayahNumber": 29,
+    "juz": 29,
+    "arabic": "ٱنطَلِقُوٓا۟ إِلَىٰ مَا كُنتُم بِهِۦ تُكَذِّبُونَ",
+    "translations": {
+      "en": "\"Go to what you used to deny;",
+      "hi": "जिस चीज़ को तुम झुठलाया करते थे अब उसकी तरफ़ चलो",
+      "ur": "انْطَلِقُوا إِلَىٰ مَا كُنْتُمْ بِهِ تُكَذِّبُونَ"
+    }
+  },
+  {
+    "number": 5652,
+    "surahNumber": 77,
+    "ayahNumber": 30,
+    "juz": 29,
+    "arabic": "ٱنطَلِقُوٓا۟ إِلَىٰ ظِلٍّۢ ذِى ثَلَٰثِ شُعَبٍۢ",
+    "translations": {
+      "en": "Go to the shadow with three ramifications,",
+      "hi": "(धुएँ के) साये की तरफ़ चलो जिसके तीन हिस्से हैं",
+      "ur": "انْطَلِقُوا إِلَىٰ ظِلٍّ ذِي ثَلَاثِ شُعَبٍ"
+    }
+  },
+  {
+    "number": 5653,
+    "surahNumber": 77,
+    "ayahNumber": 31,
+    "juz": 29,
+    "arabic": "لَّا ظَلِيلٍۢ وَلَا يُغْنِى مِنَ ٱللَّهَبِ",
+    "translations": {
+      "en": "Neither shady nor protecting against the blazing Fire.",
+      "hi": "जिसमें न ठन्डक है और न जहन्नुम की लपक से बचाएगा",
+      "ur": "لَا ظَلِيلٍ وَلَا يُغْنِي مِنَ اللَّهَبِ"
+    }
+  },
+  {
+    "number": 5654,
+    "surahNumber": 77,
+    "ayahNumber": 32,
+    "juz": 29,
+    "arabic": "إِنَّهَا تَرْمِى بِشَرَرٍۢ كَٱلْقَصْرِ",
+    "translations": {
+      "en": "It will throw out sparks as logs of wood",
+      "hi": "उससे इतने बड़े बड़े अंगारे बरसते होंगे जैसे महल",
+      "ur": "إِنَّهَا تَرْمِي بِشَرَرٍ كَالْقَصْرِ"
+    }
+  },
+  {
+    "number": 5655,
+    "surahNumber": 77,
+    "ayahNumber": 33,
+    "juz": 29,
+    "arabic": "كَأَنَّهُۥ جِمَٰلَتٌۭ صُفْرٌۭ",
+    "translations": {
+      "en": "So like golden camels.\"",
+      "hi": "गोया ज़र्द रंग के ऊँट हैं",
+      "ur": "كَأَنَّهُ جِمَالَتٌ صُفْرٌ"
+    }
+  },
+  {
+    "number": 5656,
+    "surahNumber": 77,
+    "ayahNumber": 34,
+    "juz": 29,
+    "arabic": "وَيْلٌۭ يَوْمَئِذٍۢ لِّلْمُكَذِّبِينَ",
+    "translations": {
+      "en": "Alas the woe that day for those who deny!",
+      "hi": "उस दिन झुठलाने वालों की ख़राबी है",
+      "ur": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ"
+    }
+  },
+  {
+    "number": 5657,
+    "surahNumber": 77,
+    "ayahNumber": 35,
+    "juz": 29,
+    "arabic": "هَٰذَا يَوْمُ لَا يَنطِقُونَ",
+    "translations": {
+      "en": "They will not be able to speak that day,",
+      "hi": "ये वह दिन होगा कि लोग लब तक न हिला सकेंगे",
+      "ur": "هَٰذَا يَوْمُ لَا يَنْطِقُونَ"
+    }
+  },
+  {
+    "number": 5658,
+    "surahNumber": 77,
+    "ayahNumber": 36,
+    "juz": 29,
+    "arabic": "وَلَا يُؤْذَنُ لَهُمْ فَيَعْتَذِرُونَ",
+    "translations": {
+      "en": "Nor given leave to make excuses.",
+      "hi": "और उनको इजाज़त दी जाएगी कि कुछ उज्र माअज़ेरत कर सकें",
+      "ur": "وَلَا يُؤْذَنُ لَهُمْ فَيَعْتَذِرُونَ"
+    }
+  },
+  {
+    "number": 5659,
+    "surahNumber": 77,
+    "ayahNumber": 37,
+    "juz": 29,
+    "arabic": "وَيْلٌۭ يَوْمَئِذٍۢ لِّلْمُكَذِّبِينَ",
+    "translations": {
+      "en": "Alas the woe that day for those who deny!",
+      "hi": "उस दिन झुठलाने वालों की तबाही है",
+      "ur": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ"
+    }
+  },
+  {
+    "number": 5660,
+    "surahNumber": 77,
+    "ayahNumber": 38,
+    "juz": 29,
+    "arabic": "هَٰذَا يَوْمُ ٱلْفَصْلِ ۖ جَمَعْنَٰكُمْ وَٱلْأَوَّلِينَ",
+    "translations": {
+      "en": "That will be the Day of Reckoning. Gathered will be (you) and the earlier (generations).",
+      "hi": "यही फैसले का दिन है (जिस में) हमने तुमको और अगलों को इकट्ठा किया है",
+      "ur": "هَٰذَا يَوْمُ الْفَصْلِ ۖ جَمَعْنَاكُمْ وَالْأَوَّلِينَ"
+    }
+  },
+  {
+    "number": 5661,
+    "surahNumber": 77,
+    "ayahNumber": 39,
+    "juz": 29,
+    "arabic": "فَإِن كَانَ لَكُمْ كَيْدٌۭ فَكِيدُونِ",
+    "translations": {
+      "en": "So if you have any plot to devise against Me, then devise it.",
+      "hi": "तो अगर तुम्हें कोई दाँव करना हो तो आओ चल चुको",
+      "ur": "فَإِنْ كَانَ لَكُمْ كَيْدٌ فَكِيدُونِ"
+    }
+  },
+  {
+    "number": 5662,
+    "surahNumber": 77,
+    "ayahNumber": 40,
+    "juz": 29,
+    "arabic": "وَيْلٌۭ يَوْمَئِذٍۢ لِّلْمُكَذِّبِينَ",
+    "translations": {
+      "en": "Alas the woe that day for those who deny!",
+      "hi": "उस दिन झुठलाने वालों की ख़राबी है",
+      "ur": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ"
+    }
+  },
+  {
+    "number": 5663,
+    "surahNumber": 77,
+    "ayahNumber": 41,
+    "juz": 29,
+    "arabic": "إِنَّ ٱلْمُتَّقِينَ فِى ظِلَٰلٍۢ وَعُيُونٍۢ",
+    "translations": {
+      "en": "Those who take heed for themselves and fear God, will be amidst shade and springs of water,",
+      "hi": "बेशक परहेज़गार लोग (दरख्तों की) घनी छाँव में होंगे",
+      "ur": "إِنَّ الْمُتَّقِينَ فِي ظِلَالٍ وَعُيُونٍ"
+    }
+  },
+  {
+    "number": 5664,
+    "surahNumber": 77,
+    "ayahNumber": 42,
+    "juz": 29,
+    "arabic": "وَفَوَٰكِهَ مِمَّا يَشْتَهُونَ",
+    "translations": {
+      "en": "And such fruits as they desire.",
+      "hi": "और चश्मों और आदमियों में जो उन्हें मरग़ूब हो",
+      "ur": "وَفَوَاكِهَ مِمَّا يَشْتَهُونَ"
+    }
+  },
+  {
+    "number": 5665,
+    "surahNumber": 77,
+    "ayahNumber": 43,
+    "juz": 29,
+    "arabic": "كُلُوا۟ وَٱشْرَبُوا۟ هَنِيٓـًٔۢا بِمَا كُنتُمْ تَعْمَلُونَ",
+    "translations": {
+      "en": "\"Eat and drink with relish as reward for what you had done.\"",
+      "hi": "(दुनिया में) जो अमल करते थे उसके बदले में मज़े से खाओ पियो",
+      "ur": "كُلُوا وَاشْرَبُوا هَنِيئًا بِمَا كُنْتُمْ تَعْمَلُونَ"
+    }
+  },
+  {
+    "number": 5666,
+    "surahNumber": 77,
+    "ayahNumber": 44,
+    "juz": 29,
+    "arabic": "إِنَّا كَذَٰلِكَ نَجْزِى ٱلْمُحْسِنِينَ",
+    "translations": {
+      "en": "That is how We reward the good.",
+      "hi": "मुबारक हम नेकोकारों को ऐसा ही बदला दिया करते हैं",
+      "ur": "إِنَّا كَذَٰلِكَ نَجْزِي الْمُحْسِنِينَ"
+    }
+  },
+  {
+    "number": 5667,
+    "surahNumber": 77,
+    "ayahNumber": 45,
+    "juz": 29,
+    "arabic": "وَيْلٌۭ يَوْمَئِذٍۢ لِّلْمُكَذِّبِينَ",
+    "translations": {
+      "en": "Alas the woe that day for those who deny!",
+      "hi": "उस दिन झुठलाने वालों की ख़राबी है",
+      "ur": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ"
+    }
+  },
+  {
+    "number": 5668,
+    "surahNumber": 77,
+    "ayahNumber": 46,
+    "juz": 29,
+    "arabic": "كُلُوا۟ وَتَمَتَّعُوا۟ قَلِيلًا إِنَّكُم مُّجْرِمُونَ",
+    "translations": {
+      "en": "Eat and enjoy for a while: You are certainly sinners.",
+      "hi": "(झुठलाने वालों) चन्द दिन चैन से खा पी लो तुम बेशक गुनेहगार हो",
+      "ur": "كُلُوا وَتَمَتَّعُوا قَلِيلًا إِنَّكُمْ مُجْرِمُونَ"
+    }
+  },
+  {
+    "number": 5669,
+    "surahNumber": 77,
+    "ayahNumber": 47,
+    "juz": 29,
+    "arabic": "وَيْلٌۭ يَوْمَئِذٍۢ لِّلْمُكَذِّبِينَ",
+    "translations": {
+      "en": "Alas the woe that day for those who deny!",
+      "hi": "उस दिन झुठलाने वालों की मिट्टी ख़राब है",
+      "ur": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ"
+    }
+  },
+  {
+    "number": 5670,
+    "surahNumber": 77,
+    "ayahNumber": 48,
+    "juz": 29,
+    "arabic": "وَإِذَا قِيلَ لَهُمُ ٱرْكَعُوا۟ لَا يَرْكَعُونَ",
+    "translations": {
+      "en": "When it is said to them: \"Bow in homage,\" they do not bow.",
+      "hi": "और जब उनसे कहा जाता है कि रूकूउ करों तो रूकूउ नहीं करते",
+      "ur": "وَإِذَا قِيلَ لَهُمُ ارْكَعُوا لَا يَرْكَعُونَ"
+    }
+  },
+  {
+    "number": 5671,
+    "surahNumber": 77,
+    "ayahNumber": 49,
+    "juz": 29,
+    "arabic": "وَيْلٌۭ يَوْمَئِذٍۢ لِّلْمُكَذِّبِينَ",
+    "translations": {
+      "en": "Alas the woe that day for those who deny!",
+      "hi": "उस दिन झुठलाने वालों की ख़राबी है",
+      "ur": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ"
+    }
+  },
+  {
+    "number": 5672,
+    "surahNumber": 77,
+    "ayahNumber": 50,
+    "juz": 29,
+    "arabic": "فَبِأَىِّ حَدِيثٍۭ بَعْدَهُۥ يُؤْمِنُونَ",
+    "translations": {
+      "en": "In what other lore after this will they then believe?",
+      "hi": "अब इसके बाद ये किस बात पर ईमान लाएँगे",
+      "ur": "فَبِأَيِّ حَدِيثٍ بَعْدَهُ يُؤْمِنُونَ"
+    }
+  }
+]

@@ -1,0 +1,230 @@
+[
+  {
+    "number": 5949,
+    "surahNumber": 87,
+    "ayahNumber": 1,
+    "juz": 30,
+    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ سَبِّحِ ٱسْمَ رَبِّكَ ٱلْأَعْلَى",
+    "translations": {
+      "en": "GLORIFY THE NAME of your Lord, most high,",
+      "hi": "ऐ रसूल अपने आलीशान परवरदिगार के नाम की तस्बीह करो",
+      "ur": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ سَبِّحِ اسْمَ رَبِّكَ الْأَعْلَى"
+    }
+  },
+  {
+    "number": 5950,
+    "surahNumber": 87,
+    "ayahNumber": 2,
+    "juz": 30,
+    "arabic": "ٱلَّذِى خَلَقَ فَسَوَّىٰ",
+    "translations": {
+      "en": "Who creates and proportions,",
+      "hi": "जिसने (हर चीज़ को) पैदा किया",
+      "ur": "الَّذِي خَلَقَ فَسَوَّىٰ"
+    }
+  },
+  {
+    "number": 5951,
+    "surahNumber": 87,
+    "ayahNumber": 3,
+    "juz": 30,
+    "arabic": "وَٱلَّذِى قَدَّرَ فَهَدَىٰ",
+    "translations": {
+      "en": "Who determines and directs,",
+      "hi": "और दुरूस्त किया और जिसने (उसका) अन्दाज़ा मुक़र्रर किया फिर राह बतायी",
+      "ur": "وَالَّذِي قَدَّرَ فَهَدَىٰ"
+    }
+  },
+  {
+    "number": 5952,
+    "surahNumber": 87,
+    "ayahNumber": 4,
+    "juz": 30,
+    "arabic": "وَٱلَّذِىٓ أَخْرَجَ ٱلْمَرْعَىٰ",
+    "translations": {
+      "en": "Who brings out the pastures",
+      "hi": "और जिसने (हैवानात के लिए) चारा उगाया",
+      "ur": "وَالَّذِي أَخْرَجَ الْمَرْعَىٰ"
+    }
+  },
+  {
+    "number": 5953,
+    "surahNumber": 87,
+    "ayahNumber": 5,
+    "juz": 30,
+    "arabic": "فَجَعَلَهُۥ غُثَآءً أَحْوَىٰ",
+    "translations": {
+      "en": "Then reduces them to rusty rubbish.",
+      "hi": "फिर ख़ुश्क उसे सियाह रंग का कूड़ा कर दिया",
+      "ur": "فَجَعَلَهُ غُثَاءً أَحْوَىٰ"
+    }
+  },
+  {
+    "number": 5954,
+    "surahNumber": 87,
+    "ayahNumber": 6,
+    "juz": 30,
+    "arabic": "سَنُقْرِئُكَ فَلَا تَنسَىٰٓ",
+    "translations": {
+      "en": "We shall make you recite (the Qur'an) so that you will not forget it,",
+      "hi": "हम तुम्हें (ऐसा) पढ़ा देंगे कि कभी भूलो ही नहीं",
+      "ur": "سَنُقْرِئُكَ فَلَا تَنْسَىٰ"
+    }
+  },
+  {
+    "number": 5955,
+    "surahNumber": 87,
+    "ayahNumber": 7,
+    "juz": 30,
+    "arabic": "إِلَّا مَا شَآءَ ٱللَّهُ ۚ إِنَّهُۥ يَعْلَمُ ٱلْجَهْرَ وَمَا يَخْفَىٰ",
+    "translations": {
+      "en": "Unless God may please. He knows the visible and knows what is hidden.",
+      "hi": "मगर जो ख़ुदा चाहे (मन्सूख़ कर दे) बेशक वह खुली बात को भी जानता है और छुपे हुए को भी",
+      "ur": "إِلَّا مَا شَاءَ اللَّهُ ۚ إِنَّهُ يَعْلَمُ الْجَهْرَ وَمَا يَخْفَىٰ"
+    }
+  },
+  {
+    "number": 5956,
+    "surahNumber": 87,
+    "ayahNumber": 8,
+    "juz": 30,
+    "arabic": "وَنُيَسِّرُكَ لِلْيُسْرَىٰ",
+    "translations": {
+      "en": "We shall take you slowly towards ease.",
+      "hi": "और हम तुमको आसान तरीके की तौफ़ीक़ देंगे",
+      "ur": "وَنُيَسِّرُكَ لِلْيُسْرَىٰ"
+    }
+  },
+  {
+    "number": 5957,
+    "surahNumber": 87,
+    "ayahNumber": 9,
+    "juz": 30,
+    "arabic": "فَذَكِّرْ إِن نَّفَعَتِ ٱلذِّكْرَىٰ",
+    "translations": {
+      "en": "So remind them if reminder is profitable:",
+      "hi": "तो जहाँ तक समझाना मुफ़ीद हो समझते रहो",
+      "ur": "فَذَكِّرْ إِنْ نَفَعَتِ الذِّكْرَىٰ"
+    }
+  },
+  {
+    "number": 5958,
+    "surahNumber": 87,
+    "ayahNumber": 10,
+    "juz": 30,
+    "arabic": "سَيَذَّكَّرُ مَن يَخْشَىٰ",
+    "translations": {
+      "en": "Those who fear will understand.",
+      "hi": "जो खौफ रखता हो वह तो फौरी समझ जाएगा",
+      "ur": "سَيَذَّكَّرُ مَنْ يَخْشَىٰ"
+    }
+  },
+  {
+    "number": 5959,
+    "surahNumber": 87,
+    "ayahNumber": 11,
+    "juz": 30,
+    "arabic": "وَيَتَجَنَّبُهَا ٱلْأَشْقَى",
+    "translations": {
+      "en": "Only the wretch will turn aside,",
+      "hi": "और बदबख्त उससे पहलू तही करेगा",
+      "ur": "وَيَتَجَنَّبُهَا الْأَشْقَى"
+    }
+  },
+  {
+    "number": 5960,
+    "surahNumber": 87,
+    "ayahNumber": 12,
+    "juz": 30,
+    "arabic": "ٱلَّذِى يَصْلَى ٱلنَّارَ ٱلْكُبْرَىٰ",
+    "translations": {
+      "en": "Who will burn in the terrible Fire,",
+      "hi": "जो (क़यामत में) बड़ी (तेज़) आग में दाख़िल होगा",
+      "ur": "الَّذِي يَصْلَى النَّارَ الْكُبْرَىٰ"
+    }
+  },
+  {
+    "number": 5961,
+    "surahNumber": 87,
+    "ayahNumber": 13,
+    "juz": 30,
+    "arabic": "ثُمَّ لَا يَمُوتُ فِيهَا وَلَا يَحْيَىٰ",
+    "translations": {
+      "en": "In which he will neither die nor live.",
+      "hi": "फिर न वहाँ मरेगा ही न जीयेगा",
+      "ur": "ثُمَّ لَا يَمُوتُ فِيهَا وَلَا يَحْيَىٰ"
+    }
+  },
+  {
+    "number": 5962,
+    "surahNumber": 87,
+    "ayahNumber": 14,
+    "juz": 30,
+    "arabic": "قَدْ أَفْلَحَ مَن تَزَكَّىٰ",
+    "translations": {
+      "en": "Surely he will succeed who grows in goodness,",
+      "hi": "वह यक़ीनन मुराद दिली को पहुँचा जो (शिर्क से) पाक हो",
+      "ur": "قَدْ أَفْلَحَ مَنْ تَزَكَّىٰ"
+    }
+  },
+  {
+    "number": 5963,
+    "surahNumber": 87,
+    "ayahNumber": 15,
+    "juz": 30,
+    "arabic": "وَذَكَرَ ٱسْمَ رَبِّهِۦ فَصَلَّىٰ",
+    "translations": {
+      "en": "And recites the name of his Lord and serves with devotion.",
+      "hi": "और अपने परवरदिगार का ज़िक्र करता और नमाज़ पढ़ता रहा",
+      "ur": "وَذَكَرَ اسْمَ رَبِّهِ فَصَلَّىٰ"
+    }
+  },
+  {
+    "number": 5964,
+    "surahNumber": 87,
+    "ayahNumber": 16,
+    "juz": 30,
+    "arabic": "بَلْ تُؤْثِرُونَ ٱلْحَيَوٰةَ ٱلدُّنْيَا",
+    "translations": {
+      "en": "But no, you prefer the life of the world,",
+      "hi": "मगर तुम लोग दुनियावी ज़िन्दगी को तरजीह देते हो",
+      "ur": "بَلْ تُؤْثِرُونَ الْحَيَاةَ الدُّنْيَا"
+    }
+  },
+  {
+    "number": 5965,
+    "surahNumber": 87,
+    "ayahNumber": 17,
+    "juz": 30,
+    "arabic": "وَٱلْءَاخِرَةُ خَيْرٌۭ وَأَبْقَىٰٓ",
+    "translations": {
+      "en": "Though the life to come is better and abiding.",
+      "hi": "हालॉकि आख़ोरत कहीं बेहतर और देर पा है",
+      "ur": "وَالْآخِرَةُ خَيْرٌ وَأَبْقَىٰ"
+    }
+  },
+  {
+    "number": 5966,
+    "surahNumber": 87,
+    "ayahNumber": 18,
+    "juz": 30,
+    "arabic": "إِنَّ هَٰذَا لَفِى ٱلصُّحُفِ ٱلْأُولَىٰ",
+    "translations": {
+      "en": "This is surely in the earlier Books,",
+      "hi": "बेशक यही बात अगले सहीफ़ों",
+      "ur": "إِنَّ هَٰذَا لَفِي الصُّحُفِ الْأُولَىٰ"
+    }
+  },
+  {
+    "number": 5967,
+    "surahNumber": 87,
+    "ayahNumber": 19,
+    "juz": 30,
+    "arabic": "صُحُفِ إِبْرَٰهِيمَ وَمُوسَىٰ",
+    "translations": {
+      "en": "The Books of Abraham and Moses.",
+      "hi": "इबराहीम और मूसा के सहीफ़ों में भी है",
+      "ur": "صُحُفِ إِبْرَاهِيمَ وَمُوسَىٰ"
+    }
+  }
+]

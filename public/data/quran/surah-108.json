@@ -1,0 +1,38 @@
+[
+  {
+    "number": 6205,
+    "surahNumber": 108,
+    "ayahNumber": 1,
+    "juz": 30,
+    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِنَّآ أَعْطَيْنَٰكَ ٱلْكَوْثَرَ",
+    "translations": {
+      "en": "HAVE SURELY given you pre-eminence (in numbers and following);",
+      "hi": "(ऐ रसूल) हमनें तुमको को कौसर अता किया,",
+      "ur": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ إِنَّا أَعْطَيْنَاكَ الْكَوْثَرَ"
+    }
+  },
+  {
+    "number": 6206,
+    "surahNumber": 108,
+    "ayahNumber": 2,
+    "juz": 30,
+    "arabic": "فَصَلِّ لِرَبِّكَ وَٱنْحَرْ",
+    "translations": {
+      "en": "So serve your Lord with full dedication and sacrifice.",
+      "hi": "तो तुम अपने परवरदिगार की नमाज़ पढ़ा करो",
+      "ur": "فَصَلِّ لِرَبِّكَ وَانْحَرْ"
+    }
+  },
+  {
+    "number": 6207,
+    "surahNumber": 108,
+    "ayahNumber": 3,
+    "juz": 30,
+    "arabic": "إِنَّ شَانِئَكَ هُوَ ٱلْأَبْتَرُ",
+    "translations": {
+      "en": "It is surely your opponents whose line will come to end.",
+      "hi": "और क़ुर्बानी दिया करो बेशक तुम्हारा दुश्मन बे औलाद रहेगा",
+      "ur": "إِنَّ شَانِئَكَ هُوَ الْأَبْتَرُ"
+    }
+  }
+]

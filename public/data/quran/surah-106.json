@@ -1,0 +1,50 @@
+[
+  {
+    "number": 6194,
+    "surahNumber": 106,
+    "ayahNumber": 1,
+    "juz": 30,
+    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ لِإِيلَٰفِ قُرَيْشٍ",
+    "translations": {
+      "en": "SINCE THE QURAISH have been united,",
+      "hi": "चूँकि क़ुरैश को जाड़े और गर्मी के सफ़र से मानूस कर दिया है",
+      "ur": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ لِإِيلَافِ قُرَيْشٍ"
+    }
+  },
+  {
+    "number": 6195,
+    "surahNumber": 106,
+    "ayahNumber": 2,
+    "juz": 30,
+    "arabic": "إِۦلَٰفِهِمْ رِحْلَةَ ٱلشِّتَآءِ وَٱلصَّيْفِ",
+    "translations": {
+      "en": "United to fit out caravans winter and summer,",
+      "hi": "तो उनको मानूस कर देने की वजह से",
+      "ur": "إِيلَافِهِمْ رِحْلَةَ الشِّتَاءِ وَالصَّيْفِ"
+    }
+  },
+  {
+    "number": 6196,
+    "surahNumber": 106,
+    "ayahNumber": 3,
+    "juz": 30,
+    "arabic": "فَلْيَعْبُدُوا۟ رَبَّ هَٰذَا ٱلْبَيْتِ",
+    "translations": {
+      "en": "Let them worship the Lord of this House,",
+      "hi": "इस घर (काबा) के मालिक की इबादत करनी चाहिए",
+      "ur": "فَلْيَعْبُدُوا رَبَّ هَٰذَا الْبَيْتِ"
+    }
+  },
+  {
+    "number": 6197,
+    "surahNumber": 106,
+    "ayahNumber": 4,
+    "juz": 30,
+    "arabic": "ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍۢ وَءَامَنَهُم مِّنْ خَوْفٍۭ",
+    "translations": {
+      "en": "Who provided them against destitution and gave them security against fear.",
+      "hi": "जिसने उनको भूख में खाना दिया और उनको खौफ़ से अमन अता किया",
+      "ur": "الَّذِي أَطْعَمَهُمْ مِنْ جُوعٍ وَآمَنَهُمْ مِنْ خَوْفٍ"
+    }
+  }
+]

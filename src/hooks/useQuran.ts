@@ -87,7 +87,7 @@ export function useSurahList() {
 export function useQuran() {
   const surahs = useState<Surah[]>(() => getAllSurahs())[0]
   const ayahCache = useRef<Map<number, Ayah[]>>(new Map())
-  const [, setLoaded] = useState(false)
+  const [loaded, setLoaded] = useState(false)
 
   useEffect(() => {
     async function loadAll() {
@@ -107,5 +107,5 @@ export function useQuran() {
     return ayahCache.current.get(surahNumber) ?? []
   }, [])
 
-  return { surahs, getAyahs }
+  return { surahs, getAyahs, loaded }
 }

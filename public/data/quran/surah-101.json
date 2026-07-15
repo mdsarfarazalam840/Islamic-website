@@ -1,0 +1,134 @@
+[
+  {
+    "number": 6158,
+    "surahNumber": 101,
+    "ayahNumber": 1,
+    "juz": 30,
+    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ٱلْقَارِعَةُ",
+    "translations": {
+      "en": "THE STARTLING CALAMITY.",
+      "hi": "खड़खड़ाने वाली",
+      "ur": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ الْقَارِعَةُ"
+    }
+  },
+  {
+    "number": 6159,
+    "surahNumber": 101,
+    "ayahNumber": 2,
+    "juz": 30,
+    "arabic": "مَا ٱلْقَارِعَةُ",
+    "translations": {
+      "en": "What is the startling calamity?",
+      "hi": "वह खड़खड़ाने वाली क्या है",
+      "ur": "مَا الْقَارِعَةُ"
+    }
+  },
+  {
+    "number": 6160,
+    "surahNumber": 101,
+    "ayahNumber": 3,
+    "juz": 30,
+    "arabic": "وَمَآ أَدْرَىٰكَ مَا ٱلْقَارِعَةُ",
+    "translations": {
+      "en": "How will you comprehend what the startling calamity is? --",
+      "hi": "और तुम को क्या मालूम कि वह खड़खड़ाने वाली क्या है",
+      "ur": "وَمَا أَدْرَاكَ مَا الْقَارِعَةُ"
+    }
+  },
+  {
+    "number": 6161,
+    "surahNumber": 101,
+    "ayahNumber": 4,
+    "juz": 30,
+    "arabic": "يَوْمَ يَكُونُ ٱلنَّاسُ كَٱلْفَرَاشِ ٱلْمَبْثُوثِ",
+    "translations": {
+      "en": "A Day on which human beings would be like so many scattered moths,",
+      "hi": "जिस दिन लोग (मैदाने हश्र में) टिड्डियों की तरह फैले होंगे",
+      "ur": "يَوْمَ يَكُونُ النَّاسُ كَالْفَرَاشِ الْمَبْثُوثِ"
+    }
+  },
+  {
+    "number": 6162,
+    "surahNumber": 101,
+    "ayahNumber": 5,
+    "juz": 30,
+    "arabic": "وَتَكُونُ ٱلْجِبَالُ كَٱلْعِهْنِ ٱلْمَنفُوشِ",
+    "translations": {
+      "en": "The mountains like the tufts of carded wool.",
+      "hi": "और पहाड़ धुनकी हुई रूई के से हो जाएँगे",
+      "ur": "وَتَكُونُ الْجِبَالُ كَالْعِهْنِ الْمَنْفُوشِ"
+    }
+  },
+  {
+    "number": 6163,
+    "surahNumber": 101,
+    "ayahNumber": 6,
+    "juz": 30,
+    "arabic": "فَأَمَّا مَن ثَقُلَتْ مَوَٰزِينُهُۥ",
+    "translations": {
+      "en": "Then he whose deeds shall weigh heavier in the scale",
+      "hi": "तो जिसके (नेक आमाल) के पल्ले भारी होंगे",
+      "ur": "فَأَمَّا مَنْ ثَقُلَتْ مَوَازِينُهُ"
+    }
+  },
+  {
+    "number": 6164,
+    "surahNumber": 101,
+    "ayahNumber": 7,
+    "juz": 30,
+    "arabic": "فَهُوَ فِى عِيشَةٍۢ رَّاضِيَةٍۢ",
+    "translations": {
+      "en": "Will have a tranquil life;",
+      "hi": "वह मन भाते ऐश में होंगे",
+      "ur": "فَهُوَ فِي عِيشَةٍ رَاضِيَةٍ"
+    }
+  },
+  {
+    "number": 6165,
+    "surahNumber": 101,
+    "ayahNumber": 8,
+    "juz": 30,
+    "arabic": "وَأَمَّا مَنْ خَفَّتْ مَوَٰزِينُهُۥ",
+    "translations": {
+      "en": "But he whose deeds are lighter in the balance",
+      "hi": "और जिनके आमाल के पल्ले हल्के होंगे",
+      "ur": "وَأَمَّا مَنْ خَفَّتْ مَوَازِينُهُ"
+    }
+  },
+  {
+    "number": 6166,
+    "surahNumber": 101,
+    "ayahNumber": 9,
+    "juz": 30,
+    "arabic": "فَأُمُّهُۥ هَاوِيَةٌۭ",
+    "translations": {
+      "en": "Will have the Abyss for abode.",
+      "hi": "तो उनका ठिकाना न रहा",
+      "ur": "فَأُمُّهُ هَاوِيَةٌ"
+    }
+  },
+  {
+    "number": 6167,
+    "surahNumber": 101,
+    "ayahNumber": 10,
+    "juz": 30,
+    "arabic": "وَمَآ أَدْرَىٰكَ مَا هِيَهْ",
+    "translations": {
+      "en": "How will you comprehend what that is?",
+      "hi": "और तुमको क्या मालूम हाविया क्या है",
+      "ur": "وَمَا أَدْرَاكَ مَا هِيَهْ"
+    }
+  },
+  {
+    "number": 6168,
+    "surahNumber": 101,
+    "ayahNumber": 11,
+    "juz": 30,
+    "arabic": "نَارٌ حَامِيَةٌۢ",
+    "translations": {
+      "en": "It is the scorching fire.",
+      "hi": "वह दहकती हुई आग है",
+      "ur": "نَارٌ حَامِيَةٌ"
+    }
+  }
+]

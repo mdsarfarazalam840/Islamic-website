@@ -1,0 +1,38 @@
+[
+  {
+    "number": 6177,
+    "surahNumber": 103,
+    "ayahNumber": 1,
+    "juz": 30,
+    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلْعَصْرِ",
+    "translations": {
+      "en": "TIME AND AGE are witness",
+      "hi": "नमाज़े अस्र की क़सम",
+      "ur": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ وَالْعَصْرِ"
+    }
+  },
+  {
+    "number": 6178,
+    "surahNumber": 103,
+    "ayahNumber": 2,
+    "juz": 30,
+    "arabic": "إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ",
+    "translations": {
+      "en": "Man is certainly loss,",
+      "hi": "बेशक इन्सान घाटे में है",
+      "ur": "إِنَّ الْإِنْسَانَ لَفِي خُسْرٍ"
+    }
+  },
+  {
+    "number": 6179,
+    "surahNumber": 103,
+    "ayahNumber": 3,
+    "juz": 30,
+    "arabic": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ",
+    "translations": {
+      "en": "Except those who believe, and do good and enjoin truth on one another, and enjoin one another to bear with fortitude (the trials that befall).",
+      "hi": "मगर जो लोग ईमान लाए, और अच्छे काम करते रहे और आपस में हक़ का हुक्म और सब्र की वसीयत करते रहे",
+      "ur": "إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَتَوَاصَوْا بِالْحَقِّ وَتَوَاصَوْا بِالصَّبْرِ"
+    }
+  }
+]

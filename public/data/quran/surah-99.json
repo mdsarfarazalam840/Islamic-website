@@ -1,0 +1,98 @@
+[
+  {
+    "number": 6139,
+    "surahNumber": 99,
+    "ayahNumber": 1,
+    "juz": 30,
+    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِذَا زُلْزِلَتِ ٱلْأَرْضُ زِلْزَالَهَا",
+    "translations": {
+      "en": "WHEN THE WORLD is shaken up by its cataclysm,",
+      "hi": "जब ज़मीन बड़े ज़ोरों के साथ ज़लज़ले में आ जाएगी",
+      "ur": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ إِذَا زُلْزِلَتِ الْأَرْضُ زِلْزَالَهَا"
+    }
+  },
+  {
+    "number": 6140,
+    "surahNumber": 99,
+    "ayahNumber": 2,
+    "juz": 30,
+    "arabic": "وَأَخْرَجَتِ ٱلْأَرْضُ أَثْقَالَهَا",
+    "translations": {
+      "en": "And the earth throws out its burdens,",
+      "hi": "और ज़मीन अपने अन्दर के बोझे (मादनयात मुर्दे वग़ैरह) निकाल डालेगी",
+      "ur": "وَأَخْرَجَتِ الْأَرْضُ أَثْقَالَهَا"
+    }
+  },
+  {
+    "number": 6141,
+    "surahNumber": 99,
+    "ayahNumber": 3,
+    "juz": 30,
+    "arabic": "وَقَالَ ٱلْإِنسَٰنُ مَا لَهَا",
+    "translations": {
+      "en": "And man enquires: \"What has come over it?\"",
+      "hi": "और एक इन्सान कहेगा कि उसको क्या हो गया है",
+      "ur": "وَقَالَ الْإِنْسَانُ مَا لَهَا"
+    }
+  },
+  {
+    "number": 6142,
+    "surahNumber": 99,
+    "ayahNumber": 4,
+    "juz": 30,
+    "arabic": "يَوْمَئِذٍۢ تُحَدِّثُ أَخْبَارَهَا",
+    "translations": {
+      "en": "That day it will narrate its annals,",
+      "hi": "उस रोज़ वह अपने सब हालात बयान कर देगी",
+      "ur": "يَوْمَئِذٍ تُحَدِّثُ أَخْبَارَهَا"
+    }
+  },
+  {
+    "number": 6143,
+    "surahNumber": 99,
+    "ayahNumber": 5,
+    "juz": 30,
+    "arabic": "بِأَنَّ رَبَّكَ أَوْحَىٰ لَهَا",
+    "translations": {
+      "en": "For your Lord will have commanded it.",
+      "hi": "क्योंकि तुम्हारे परवरदिगार ने उसको हुक्म दिया होगा",
+      "ur": "بِأَنَّ رَبَّكَ أَوْحَىٰ لَهَا"
+    }
+  },
+  {
+    "number": 6144,
+    "surahNumber": 99,
+    "ayahNumber": 6,
+    "juz": 30,
+    "arabic": "يَوْمَئِذٍۢ يَصْدُرُ ٱلنَّاسُ أَشْتَاتًۭا لِّيُرَوْا۟ أَعْمَٰلَهُمْ",
+    "translations": {
+      "en": "That day people will proceed separately to be shown their deeds.",
+      "hi": "उस दिन लोग गिरोह गिरोह (अपनी कब्रों से) निकलेंगे ताकि अपने आमाल को देखे",
+      "ur": "يَوْمَئِذٍ يَصْدُرُ النَّاسُ أَشْتَاتًا لِيُرَوْا أَعْمَالَهُمْ"
+    }
+  },
+  {
+    "number": 6145,
+    "surahNumber": 99,
+    "ayahNumber": 7,
+    "juz": 30,
+    "arabic": "فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًۭا يَرَهُۥ",
+    "translations": {
+      "en": "Whosoever has done even an atom's weight of good will behold it;",
+      "hi": "तो जिस शख्स ने ज़र्रा बराबर नेकी की वह उसे देख लेगा",
+      "ur": "فَمَنْ يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُ"
+    }
+  },
+  {
+    "number": 6146,
+    "surahNumber": 99,
+    "ayahNumber": 8,
+    "juz": 30,
+    "arabic": "وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍۢ شَرًّۭا يَرَهُۥ",
+    "translations": {
+      "en": "And whosoever has done even an atom's weight of evil will behold that.",
+      "hi": "और जिस शख्स ने ज़र्रा बराबर बदी की है तो उसे देख लेगा",
+      "ur": "وَمَنْ يَعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا يَرَهُ"
+    }
+  }
+]

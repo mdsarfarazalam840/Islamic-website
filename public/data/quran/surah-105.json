@@ -1,0 +1,62 @@
+[
+  {
+    "number": 6189,
+    "surahNumber": 105,
+    "ayahNumber": 1,
+    "juz": 30,
+    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَٰبِ ٱلْفِيلِ",
+    "translations": {
+      "en": "HAVE YOU NOT seen how your Lord dealt with the people of the elephants?",
+      "hi": "ऐ रसूल क्या तुमने नहीं देखा कि तुम्हारे परवरदिगार ने हाथी वालों के साथ क्या किया",
+      "ur": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَابِ الْفِيلِ"
+    }
+  },
+  {
+    "number": 6190,
+    "surahNumber": 105,
+    "ayahNumber": 2,
+    "juz": 30,
+    "arabic": "أَلَمْ يَجْعَلْ كَيْدَهُمْ فِى تَضْلِيلٍۢ",
+    "translations": {
+      "en": "Did He not make their plan go wrong,",
+      "hi": "क्या उसने उनकी तमाम तद्बीरें ग़लत नहीं कर दीं (ज़रूर)",
+      "ur": "أَلَمْ يَجْعَلْ كَيْدَهُمْ فِي تَضْلِيلٍ"
+    }
+  },
+  {
+    "number": 6191,
+    "surahNumber": 105,
+    "ayahNumber": 3,
+    "juz": 30,
+    "arabic": "وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ",
+    "translations": {
+      "en": "And sent hordes of chargers flying against them,",
+      "hi": "और उन पर झुन्ड की झुन्ड चिड़ियाँ भेज दीं",
+      "ur": "وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ"
+    }
+  },
+  {
+    "number": 6192,
+    "surahNumber": 105,
+    "ayahNumber": 4,
+    "juz": 30,
+    "arabic": "تَرْمِيهِم بِحِجَارَةٍۢ مِّن سِجِّيلٍۢ",
+    "translations": {
+      "en": "(While) you were pelting them with stones of porphyritic lava,",
+      "hi": "जो उन पर खरन्जों की कंकरियाँ फेकती थीं",
+      "ur": "تَرْمِيهِمْ بِحِجَارَةٍ مِنْ سِجِّيلٍ"
+    }
+  },
+  {
+    "number": 6193,
+    "surahNumber": 105,
+    "ayahNumber": 5,
+    "juz": 30,
+    "arabic": "فَجَعَلَهُمْ كَعَصْفٍۢ مَّأْكُولٍۭ",
+    "translations": {
+      "en": "And turned them into pastured fields of corn?",
+      "hi": "तो उन्हें चबाए हुए भूस की (तबाह) कर दिया",
+      "ur": "فَجَعَلَهُمْ كَعَصْفٍ مَأْكُولٍ"
+    }
+  }
+]

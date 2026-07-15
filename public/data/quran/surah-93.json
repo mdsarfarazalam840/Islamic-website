@@ -1,0 +1,134 @@
+[
+  {
+    "number": 6080,
+    "surahNumber": 93,
+    "ayahNumber": 1,
+    "juz": 30,
+    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلضُّحَىٰ",
+    "translations": {
+      "en": "I CALL TO witness the early hours of morning,",
+      "hi": "(ऐ रसूल) पहर दिन चढ़े की क़सम",
+      "ur": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ وَالضُّحَىٰ"
+    }
+  },
+  {
+    "number": 6081,
+    "surahNumber": 93,
+    "ayahNumber": 2,
+    "juz": 30,
+    "arabic": "وَٱلَّيْلِ إِذَا سَجَىٰ",
+    "translations": {
+      "en": "And the night when dark and still,",
+      "hi": "और रात की जब (चीज़ों को) छुपा ले",
+      "ur": "وَاللَّيْلِ إِذَا سَجَىٰ"
+    }
+  },
+  {
+    "number": 6082,
+    "surahNumber": 93,
+    "ayahNumber": 3,
+    "juz": 30,
+    "arabic": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ",
+    "translations": {
+      "en": "Your Lord has neither left you, nor despises you.",
+      "hi": "कि तुम्हारा परवरदिगार न तुमको छोड़ बैठा और (न तुमसे) नाराज़ हुआ",
+      "ur": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ"
+    }
+  },
+  {
+    "number": 6083,
+    "surahNumber": 93,
+    "ayahNumber": 4,
+    "juz": 30,
+    "arabic": "وَلَلْءَاخِرَةُ خَيْرٌۭ لَّكَ مِنَ ٱلْأُولَىٰ",
+    "translations": {
+      "en": "What is to come is better for you than what has gone before;",
+      "hi": "और तुम्हारे वास्ते आख़ेरत दुनिया से यक़ीनी कहीं बेहतर है",
+      "ur": "وَلَلْآخِرَةُ خَيْرٌ لَكَ مِنَ الْأُولَىٰ"
+    }
+  },
+  {
+    "number": 6084,
+    "surahNumber": 93,
+    "ayahNumber": 5,
+    "juz": 30,
+    "arabic": "وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَىٰٓ",
+    "translations": {
+      "en": "For your Lord will certainly give you, and you will be content.",
+      "hi": "और तुम्हारा परवरदिगार अनक़रीब इस क़दर अता करेगा कि तुम ख़ुश हो जाओ",
+      "ur": "وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَىٰ"
+    }
+  },
+  {
+    "number": 6085,
+    "surahNumber": 93,
+    "ayahNumber": 6,
+    "juz": 30,
+    "arabic": "أَلَمْ يَجِدْكَ يَتِيمًۭا فَـَٔاوَىٰ",
+    "translations": {
+      "en": "Did He not find you an orphan and take care of you?",
+      "hi": "क्या उसने तुम्हें यतीम पाकर (अबू तालिब की) पनाह न दी (ज़रूर दी)",
+      "ur": "أَلَمْ يَجِدْكَ يَتِيمًا فَآوَىٰ"
+    }
+  },
+  {
+    "number": 6086,
+    "surahNumber": 93,
+    "ayahNumber": 7,
+    "juz": 30,
+    "arabic": "وَوَجَدَكَ ضَآلًّۭا فَهَدَىٰ",
+    "translations": {
+      "en": "Did He not find you perplexed, and show you the way?",
+      "hi": "और तुमको एहकाम से नावाकिफ़ देखा तो मंज़िले मक़सूद तक पहुँचा दिया",
+      "ur": "وَوَجَدَكَ ضَالًّا فَهَدَىٰ"
+    }
+  },
+  {
+    "number": 6087,
+    "surahNumber": 93,
+    "ayahNumber": 8,
+    "juz": 30,
+    "arabic": "وَوَجَدَكَ عَآئِلًۭا فَأَغْنَىٰ",
+    "translations": {
+      "en": "Did He not find you poor and enrich you?",
+      "hi": "और तुमको तंगदस्त देखकर ग़नी कर दिया",
+      "ur": "وَوَجَدَكَ عَائِلًا فَأَغْنَىٰ"
+    }
+  },
+  {
+    "number": 6088,
+    "surahNumber": 93,
+    "ayahNumber": 9,
+    "juz": 30,
+    "arabic": "فَأَمَّا ٱلْيَتِيمَ فَلَا تَقْهَرْ",
+    "translations": {
+      "en": "So do not oppress the orphan,",
+      "hi": "तो तुम भी यतीम पर सितम न करना",
+      "ur": "فَأَمَّا الْيَتِيمَ فَلَا تَقْهَرْ"
+    }
+  },
+  {
+    "number": 6089,
+    "surahNumber": 93,
+    "ayahNumber": 10,
+    "juz": 30,
+    "arabic": "وَأَمَّا ٱلسَّآئِلَ فَلَا تَنْهَرْ",
+    "translations": {
+      "en": "And do not drive the beggar away,",
+      "hi": "माँगने वाले को झिड़की न देना",
+      "ur": "وَأَمَّا السَّائِلَ فَلَا تَنْهَرْ"
+    }
+  },
+  {
+    "number": 6090,
+    "surahNumber": 93,
+    "ayahNumber": 11,
+    "juz": 30,
+    "arabic": "وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ",
+    "translations": {
+      "en": "And keep recounting the favours of your Lord.",
+      "hi": "और अपने परवरदिगार की नेअमतों का ज़िक्र करते रहना",
+      "ur": "وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ"
+    }
+  }
+]

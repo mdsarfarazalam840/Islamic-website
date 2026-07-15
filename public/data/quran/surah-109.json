@@ -1,0 +1,74 @@
+[
+  {
+    "number": 6208,
+    "surahNumber": 109,
+    "ayahNumber": 1,
+    "juz": 30,
+    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ يَٰٓأَيُّهَا ٱلْكَٰفِرُونَ",
+    "translations": {
+      "en": "SAY: \"O YOU unbelievers,",
+      "hi": "(ऐ रसूल) तुम कह दो कि ऐ काफिरों",
+      "ur": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ قُلْ يَا أَيُّهَا الْكَافِرُونَ"
+    }
+  },
+  {
+    "number": 6209,
+    "surahNumber": 109,
+    "ayahNumber": 2,
+    "juz": 30,
+    "arabic": "لَآ أَعْبُدُ مَا تَعْبُدُونَ",
+    "translations": {
+      "en": "I do not worship what you worship,",
+      "hi": "तुम जिन चीज़ों को पूजते हो, मैं उनको नहीं पूजता",
+      "ur": "لَا أَعْبُدُ مَا تَعْبُدُونَ"
+    }
+  },
+  {
+    "number": 6210,
+    "surahNumber": 109,
+    "ayahNumber": 3,
+    "juz": 30,
+    "arabic": "وَلَآ أَنتُمْ عَٰبِدُونَ مَآ أَعْبُدُ",
+    "translations": {
+      "en": "Nor do you worship who I worship,",
+      "hi": "और जिस (ख़ुदा) की मैं इबादत करता हूँ उसकी तुम इबादत नहीं करते",
+      "ur": "وَلَا أَنْتُمْ عَابِدُونَ مَا أَعْبُدُ"
+    }
+  },
+  {
+    "number": 6211,
+    "surahNumber": 109,
+    "ayahNumber": 4,
+    "juz": 30,
+    "arabic": "وَلَآ أَنَا۠ عَابِدٌۭ مَّا عَبَدتُّمْ",
+    "translations": {
+      "en": "Nor will I worship what you worship,",
+      "hi": "और जिन्हें तुम पूजते हो मैं उनका पूजने वाला नहीं",
+      "ur": "وَلَا أَنَا عَابِدٌ مَا عَبَدْتُمْ"
+    }
+  },
+  {
+    "number": 6212,
+    "surahNumber": 109,
+    "ayahNumber": 5,
+    "juz": 30,
+    "arabic": "وَلَآ أَنتُمْ عَٰبِدُونَ مَآ أَعْبُدُ",
+    "translations": {
+      "en": "Nor will you worship who I worship:",
+      "hi": "और जिसकी मैं इबादत करता हूँ उसकी तुम इबादत करने वाले नहीं",
+      "ur": "وَلَا أَنْتُمْ عَابِدُونَ مَا أَعْبُدُ"
+    }
+  },
+  {
+    "number": 6213,
+    "surahNumber": 109,
+    "ayahNumber": 6,
+    "juz": 30,
+    "arabic": "لَكُمْ دِينُكُمْ وَلِىَ دِينِ",
+    "translations": {
+      "en": "To you your way, to me my way",
+      "hi": "तुम्हारे लिए तुम्हारा दीन मेरे लिए मेरा दीन",
+      "ur": "لَكُمْ دِينُكُمْ وَلِيَ دِينِ"
+    }
+  }
+]

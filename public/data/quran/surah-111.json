@@ -1,0 +1,62 @@
+[
+  {
+    "number": 6217,
+    "surahNumber": 111,
+    "ayahNumber": 1,
+    "juz": 30,
+    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ تَبَّتْ يَدَآ أَبِى لَهَبٍۢ وَتَبَّ",
+    "translations": {
+      "en": "DESTROYED WILL BE the hands of Abu Lahab, and he himself will perish.",
+      "hi": "अबु लहब के हाथ टूट जाएँ और वह ख़ुद सत्यानास हो जाए",
+      "ur": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ تَبَّتْ يَدَا أَبِي لَهَبٍ وَتَبَّ"
+    }
+  },
+  {
+    "number": 6218,
+    "surahNumber": 111,
+    "ayahNumber": 2,
+    "juz": 30,
+    "arabic": "مَآ أَغْنَىٰ عَنْهُ مَالُهُۥ وَمَا كَسَبَ",
+    "translations": {
+      "en": "Of no avail shall be his wealth, nor what he has acquired.",
+      "hi": "(आख़िर) न उसका माल ही उसके हाथ आया और (न) उसने कमाया",
+      "ur": "مَا أَغْنَىٰ عَنْهُ مَالُهُ وَمَا كَسَبَ"
+    }
+  },
+  {
+    "number": 6219,
+    "surahNumber": 111,
+    "ayahNumber": 3,
+    "juz": 30,
+    "arabic": "سَيَصْلَىٰ نَارًۭا ذَاتَ لَهَبٍۢ",
+    "translations": {
+      "en": "He will be roasted in the fire,",
+      "hi": "वह बहुत भड़कती हुई आग में दाख़िल होगा",
+      "ur": "سَيَصْلَىٰ نَارًا ذَاتَ لَهَبٍ"
+    }
+  },
+  {
+    "number": 6220,
+    "surahNumber": 111,
+    "ayahNumber": 4,
+    "juz": 30,
+    "arabic": "وَٱمْرَأَتُهُۥ حَمَّالَةَ ٱلْحَطَبِ",
+    "translations": {
+      "en": "And his wife, the portress of fire wood,",
+      "hi": "और उसकी जोरू भी जो सर पर ईंधन उठाए फिरती है",
+      "ur": "وَامْرَأَتُهُ حَمَّالَةَ الْحَطَبِ"
+    }
+  },
+  {
+    "number": 6221,
+    "surahNumber": 111,
+    "ayahNumber": 5,
+    "juz": 30,
+    "arabic": "فِى جِيدِهَا حَبْلٌۭ مِّن مَّسَدٍۭ",
+    "translations": {
+      "en": "Will have a strap of fibre rope around her neck.",
+      "hi": "और उसके गले में बटी हुई रस्सी बँधी है",
+      "ur": "فِي جِيدِهَا حَبْلٌ مِنْ مَسَدٍ"
+    }
+  }
+]

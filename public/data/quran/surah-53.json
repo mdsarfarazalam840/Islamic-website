@@ -1,0 +1,746 @@
+[
+  {
+    "number": 4785,
+    "surahNumber": 53,
+    "ayahNumber": 1,
+    "juz": 27,
+    "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلنَّجْمِ إِذَا هَوَىٰ",
+    "translations": {
+      "en": "I CALL TO witness the star of the pleiades when it has dipped",
+      "hi": "तारे की क़सम जब टूटा",
+      "ur": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ وَالنَّجْمِ إِذَا هَوَىٰ"
+    }
+  },
+  {
+    "number": 4786,
+    "surahNumber": 53,
+    "ayahNumber": 2,
+    "juz": 27,
+    "arabic": "مَا ضَلَّ صَاحِبُكُمْ وَمَا غَوَىٰ",
+    "translations": {
+      "en": "That your companion is not confused, nor has he gone astray,",
+      "hi": "कि तुम्हारे रफ़ीक़ (मोहम्मद) न गुमराह हुए और न बहके",
+      "ur": "مَا ضَلَّ صَاحِبُكُمْ وَمَا غَوَىٰ"
+    }
+  },
+  {
+    "number": 4787,
+    "surahNumber": 53,
+    "ayahNumber": 3,
+    "juz": 27,
+    "arabic": "وَمَا يَنطِقُ عَنِ ٱلْهَوَىٰٓ",
+    "translations": {
+      "en": "Neither does he speak of his own will.",
+      "hi": "और वह तो अपनी नफ़सियानी ख्वाहिश से कुछ भी नहीं कहते",
+      "ur": "وَمَا يَنْطِقُ عَنِ الْهَوَىٰ"
+    }
+  },
+  {
+    "number": 4788,
+    "surahNumber": 53,
+    "ayahNumber": 4,
+    "juz": 27,
+    "arabic": "إِنْ هُوَ إِلَّا وَحْىٌۭ يُوحَىٰ",
+    "translations": {
+      "en": "This is only revelation communicated,",
+      "hi": "ये तो बस वही है जो भेजी जाती है",
+      "ur": "إِنْ هُوَ إِلَّا وَحْيٌ يُوحَىٰ"
+    }
+  },
+  {
+    "number": 4789,
+    "surahNumber": 53,
+    "ayahNumber": 5,
+    "juz": 27,
+    "arabic": "عَلَّمَهُۥ شَدِيدُ ٱلْقُوَىٰ",
+    "translations": {
+      "en": "Bestowed on him by the Supreme Intellect,",
+      "hi": "इनको निहायत ताक़तवर (फ़रिश्ते जिबरील) ने तालीम दी है",
+      "ur": "عَلَّمَهُ شَدِيدُ الْقُوَىٰ"
+    }
+  },
+  {
+    "number": 4790,
+    "surahNumber": 53,
+    "ayahNumber": 6,
+    "juz": 27,
+    "arabic": "ذُو مِرَّةٍۢ فَٱسْتَوَىٰ",
+    "translations": {
+      "en": "Lord of power and wisdom. So he acquired poise and balance,",
+      "hi": "जो बड़ा ज़बरदस्त है और जब ये (आसमान के) ऊँचे (मुशरक़ो) किनारे पर था तो वह अपनी (असली सूरत में) सीधा खड़ा हुआ",
+      "ur": "ذُو مِرَّةٍ فَاسْتَوَىٰ"
+    }
+  },
+  {
+    "number": 4791,
+    "surahNumber": 53,
+    "ayahNumber": 7,
+    "juz": 27,
+    "arabic": "وَهُوَ بِٱلْأُفُقِ ٱلْأَعْلَىٰ",
+    "translations": {
+      "en": "And reached the highest pinnacle.",
+      "hi": "फिर करीब हो (और आगे) बढ़ा",
+      "ur": "وَهُوَ بِالْأُفُقِ الْأَعْلَىٰ"
+    }
+  },
+  {
+    "number": 4792,
+    "surahNumber": 53,
+    "ayahNumber": 8,
+    "juz": 27,
+    "arabic": "ثُمَّ دَنَا فَتَدَلَّىٰ",
+    "translations": {
+      "en": "Then he drew near and drew closer",
+      "hi": "(फिर जिबरील व मोहम्मद में) दो कमान का फ़ासला रह गया",
+      "ur": "ثُمَّ دَنَا فَتَدَلَّىٰ"
+    }
+  },
+  {
+    "number": 4793,
+    "surahNumber": 53,
+    "ayahNumber": 9,
+    "juz": 27,
+    "arabic": "فَكَانَ قَابَ قَوْسَيْنِ أَوْ أَدْنَىٰ",
+    "translations": {
+      "en": "Until a space of two bow (arcs) or even less remained,",
+      "hi": "बल्कि इससे भी क़रीब था",
+      "ur": "فَكَانَ قَابَ قَوْسَيْنِ أَوْ أَدْنَىٰ"
+    }
+  },
+  {
+    "number": 4794,
+    "surahNumber": 53,
+    "ayahNumber": 10,
+    "juz": 27,
+    "arabic": "فَأَوْحَىٰٓ إِلَىٰ عَبْدِهِۦ مَآ أَوْحَىٰ",
+    "translations": {
+      "en": "When He revealed to His votary what He revealed.",
+      "hi": "ख़ुदा ने अपने बन्दे की तरफ जो 'वही' भेजी सो भेजी",
+      "ur": "فَأَوْحَىٰ إِلَىٰ عَبْدِهِ مَا أَوْحَىٰ"
+    }
+  },
+  {
+    "number": 4795,
+    "surahNumber": 53,
+    "ayahNumber": 11,
+    "juz": 27,
+    "arabic": "مَا كَذَبَ ٱلْفُؤَادُ مَا رَأَىٰٓ",
+    "translations": {
+      "en": "His heart did not falsify what he perceived.",
+      "hi": "तो जो कुछ उन्होने देखा उनके दिल ने झूठ न जाना",
+      "ur": "مَا كَذَبَ الْفُؤَادُ مَا رَأَىٰ"
+    }
+  },
+  {
+    "number": 4796,
+    "surahNumber": 53,
+    "ayahNumber": 12,
+    "juz": 27,
+    "arabic": "أَفَتُمَٰرُونَهُۥ عَلَىٰ مَا يَرَىٰ",
+    "translations": {
+      "en": "Will you dispute with him what he saw?",
+      "hi": "तो क्या वह (रसूल) जो कुछ देखता है तुम लोग उसमें झगड़ते हो",
+      "ur": "أَفَتُمَارُونَهُ عَلَىٰ مَا يَرَىٰ"
+    }
+  },
+  {
+    "number": 4797,
+    "surahNumber": 53,
+    "ayahNumber": 13,
+    "juz": 27,
+    "arabic": "وَلَقَدْ رَءَاهُ نَزْلَةً أُخْرَىٰ",
+    "translations": {
+      "en": "He saw Him indeed another time",
+      "hi": "और उन्होने तो उस (जिबरील) को एक बार (शबे मेराज) और देखा है",
+      "ur": "وَلَقَدْ رَآهُ نَزْلَةً أُخْرَىٰ"
+    }
+  },
+  {
+    "number": 4798,
+    "surahNumber": 53,
+    "ayahNumber": 14,
+    "juz": 27,
+    "arabic": "عِندَ سِدْرَةِ ٱلْمُنتَهَىٰ",
+    "translations": {
+      "en": "By the Lote-tree beyond which none can pass,",
+      "hi": "सिदरतुल मुनतहा के नज़दीक",
+      "ur": "عِنْدَ سِدْرَةِ الْمُنْتَهَىٰ"
+    }
+  },
+  {
+    "number": 4799,
+    "surahNumber": 53,
+    "ayahNumber": 15,
+    "juz": 27,
+    "arabic": "عِندَهَا جَنَّةُ ٱلْمَأْوَىٰٓ",
+    "translations": {
+      "en": "Close to which is the Garden of Tranquility,",
+      "hi": "उसी के पास तो रहने की बेहिश्त है",
+      "ur": "عِنْدَهَا جَنَّةُ الْمَأْوَىٰ"
+    }
+  },
+  {
+    "number": 4800,
+    "surahNumber": 53,
+    "ayahNumber": 16,
+    "juz": 27,
+    "arabic": "إِذْ يَغْشَى ٱلسِّدْرَةَ مَا يَغْشَىٰ",
+    "translations": {
+      "en": "When the Lote-tree was covered over with what it was covered over;",
+      "hi": "जब छा रहा था सिदरा पर जो छा रहा था",
+      "ur": "إِذْ يَغْشَى السِّدْرَةَ مَا يَغْشَىٰ"
+    }
+  },
+  {
+    "number": 4801,
+    "surahNumber": 53,
+    "ayahNumber": 17,
+    "juz": 27,
+    "arabic": "مَا زَاغَ ٱلْبَصَرُ وَمَا طَغَىٰ",
+    "translations": {
+      "en": "Neither did sight falter nor exceed the bounds.",
+      "hi": "(उस वक्त भी) उनकी ऑंख न तो और तरफ़ माएल हुई और न हद से आगे बढ़ी",
+      "ur": "مَا زَاغَ الْبَصَرُ وَمَا طَغَىٰ"
+    }
+  },
+  {
+    "number": 4802,
+    "surahNumber": 53,
+    "ayahNumber": 18,
+    "juz": 27,
+    "arabic": "لَقَدْ رَأَىٰ مِنْ ءَايَٰتِ رَبِّهِ ٱلْكُبْرَىٰٓ",
+    "translations": {
+      "en": "Indeed he saw some of the greatest signs of His Lord.",
+      "hi": "और उन्होने यक़ीनन अपने परवरदिगार (की क़ुदरत) की बड़ी बड़ी निशानियाँ देखीं",
+      "ur": "لَقَدْ رَأَىٰ مِنْ آيَاتِ رَبِّهِ الْكُبْرَىٰ"
+    }
+  },
+  {
+    "number": 4803,
+    "surahNumber": 53,
+    "ayahNumber": 19,
+    "juz": 27,
+    "arabic": "أَفَرَءَيْتُمُ ٱللَّٰتَ وَٱلْعُزَّىٰ",
+    "translations": {
+      "en": "Have you considered Lat and 'Uzza,",
+      "hi": "तो भला तुम लोगों ने लात व उज्ज़ा और तीसरे पिछले मनात को देखा",
+      "ur": "أَفَرَأَيْتُمُ اللَّاتَ وَالْعُزَّىٰ"
+    }
+  },
+  {
+    "number": 4804,
+    "surahNumber": 53,
+    "ayahNumber": 20,
+    "juz": 27,
+    "arabic": "وَمَنَوٰةَ ٱلثَّالِثَةَ ٱلْأُخْرَىٰٓ",
+    "translations": {
+      "en": "And Manat, the other third (of the pagan deities)?",
+      "hi": "(भला ये ख़ुदा हो सकते हैं)",
+      "ur": "وَمَنَاةَ الثَّالِثَةَ الْأُخْرَىٰ"
+    }
+  },
+  {
+    "number": 4805,
+    "surahNumber": 53,
+    "ayahNumber": 21,
+    "juz": 27,
+    "arabic": "أَلَكُمُ ٱلذَّكَرُ وَلَهُ ٱلْأُنثَىٰ",
+    "translations": {
+      "en": "Are there sons for you, and daughters for Him?",
+      "hi": "क्या तुम्हारे तो बेटे हैं और उसके लिए बेटियाँ",
+      "ur": "أَلَكُمُ الذَّكَرُ وَلَهُ الْأُنْثَىٰ"
+    }
+  },
+  {
+    "number": 4806,
+    "surahNumber": 53,
+    "ayahNumber": 22,
+    "juz": 27,
+    "arabic": "تِلْكَ إِذًۭا قِسْمَةٌۭ ضِيزَىٰٓ",
+    "translations": {
+      "en": "This is certainly an unjust apportioning.",
+      "hi": "ये तो बहुत बेइन्साफ़ी की तक़सीम है",
+      "ur": "تِلْكَ إِذًا قِسْمَةٌ ضِيزَىٰ"
+    }
+  },
+  {
+    "number": 4807,
+    "surahNumber": 53,
+    "ayahNumber": 23,
+    "juz": 27,
+    "arabic": "إِنْ هِىَ إِلَّآ أَسْمَآءٌۭ سَمَّيْتُمُوهَآ أَنتُمْ وَءَابَآؤُكُم مَّآ أَنزَلَ ٱللَّهُ بِهَا مِن سُلْطَٰنٍ ۚ إِن يَتَّبِعُونَ إِلَّا ٱلظَّنَّ وَمَا تَهْوَى ٱلْأَنفُسُ ۖ وَلَقَدْ جَآءَهُم مِّن رَّبِّهِمُ ٱلْهُدَىٰٓ",
+    "translations": {
+      "en": "These are only names which you and your fathers have invented. No authority was sent down by God for them. They only follow conjecture and wish-fulfilment, even though guidance had come to them already from their Lord.",
+      "hi": "ये तो बस सिर्फ नाम ही नाम है जो तुमने और तुम्हारे बाप दादाओं ने गढ़ लिए हैं, ख़ुदा ने तो इसकी कोई सनद नाज़िल नहीं की ये लोग तो बस अटकल और अपनी नफ़सानी ख्वाहिश के पीछे चल रहे हैं हालॉकि उनके पास उनके परवरदिगार की तरफ से हिदायत भी आ चुकी है",
+      "ur": "إِنْ هِيَ إِلَّا أَسْمَاءٌ سَمَّيْتُمُوهَا أَنْتُمْ وَآبَاؤُكُمْ مَا أَنْزَلَ اللَّهُ بِهَا مِنْ سُلْطَانٍ ۚ إِنْ يَتَّبِعُونَ إِلَّا الظَّنَّ وَمَا تَهْوَى الْأَنْفُسُ ۖ وَلَقَدْ جَاءَهُمْ مِنْ رَبِّهِمُ الْهُدَىٰ"
+    }
+  },
+  {
+    "number": 4808,
+    "surahNumber": 53,
+    "ayahNumber": 24,
+    "juz": 27,
+    "arabic": "أَمْ لِلْإِنسَٰنِ مَا تَمَنَّىٰ",
+    "translations": {
+      "en": "Can ever man get what he desires?",
+      "hi": "क्या जिस चीज़ की इन्सान तमन्ना करे वह उसे ज़रूर मिलती है",
+      "ur": "أَمْ لِلْإِنْسَانِ مَا تَمَنَّىٰ"
+    }
+  },
+  {
+    "number": 4809,
+    "surahNumber": 53,
+    "ayahNumber": 25,
+    "juz": 27,
+    "arabic": "فَلِلَّهِ ٱلْءَاخِرَةُ وَٱلْأُولَىٰ",
+    "translations": {
+      "en": "To God belong the End and the Beginning.",
+      "hi": "आख़ेरत और दुनिया तो ख़ास ख़ुदा ही के एख्तेयार में हैं",
+      "ur": "فَلِلَّهِ الْآخِرَةُ وَالْأُولَىٰ"
+    }
+  },
+  {
+    "number": 4810,
+    "surahNumber": 53,
+    "ayahNumber": 26,
+    "juz": 27,
+    "arabic": "۞ وَكَم مِّن مَّلَكٍۢ فِى ٱلسَّمَٰوَٰتِ لَا تُغْنِى شَفَٰعَتُهُمْ شَيْـًٔا إِلَّا مِنۢ بَعْدِ أَن يَأْذَنَ ٱللَّهُ لِمَن يَشَآءُ وَيَرْضَىٰٓ",
+    "translations": {
+      "en": "Many as the angels be in heaven their intercession will not avail in the least without God's permission for whomsoever He please and approve.",
+      "hi": "और आसमानों में बहुत से फरिश्ते हैं जिनकी सिफ़ारिश कुछ भी काम न आती, मगर ख़ुदा जिसके लिए चाहे इजाज़त दे दे और पसन्द करे उसके बाद (सिफ़ारिश कर सकते हैं)",
+      "ur": "۞ وَكَمْ مِنْ مَلَكٍ فِي السَّمَاوَاتِ لَا تُغْنِي شَفَاعَتُهُمْ شَيْئًا إِلَّا مِنْ بَعْدِ أَنْ يَأْذَنَ اللَّهُ لِمَنْ يَشَاءُ وَيَرْضَىٰ"
+    }
+  },
+  {
+    "number": 4811,
+    "surahNumber": 53,
+    "ayahNumber": 27,
+    "juz": 27,
+    "arabic": "إِنَّ ٱلَّذِينَ لَا يُؤْمِنُونَ بِٱلْءَاخِرَةِ لَيُسَمُّونَ ٱلْمَلَٰٓئِكَةَ تَسْمِيَةَ ٱلْأُنثَىٰ",
+    "translations": {
+      "en": "Those who do not believe in the Hereafter give the angels names of females.",
+      "hi": "जो लोग आख़ेरत पर ईमान नहीं रखते वह फ़रिश्तों के नाम रखते हैं औरतों के से नाम हालॉकि उन्हें इसकी कुछ ख़बर नहीं",
+      "ur": "إِنَّ الَّذِينَ لَا يُؤْمِنُونَ بِالْآخِرَةِ لَيُسَمُّونَ الْمَلَائِكَةَ تَسْمِيَةَ الْأُنْثَىٰ"
+    }
+  },
+  {
+    "number": 4812,
+    "surahNumber": 53,
+    "ayahNumber": 28,
+    "juz": 27,
+    "arabic": "وَمَا لَهُم بِهِۦ مِنْ عِلْمٍ ۖ إِن يَتَّبِعُونَ إِلَّا ٱلظَّنَّ ۖ وَإِنَّ ٱلظَّنَّ لَا يُغْنِى مِنَ ٱلْحَقِّ شَيْـًۭٔا",
+    "translations": {
+      "en": "Yet they have no knowledge of this, and follow nothing but conjecture, but conjecture cannot replace the truth.",
+      "hi": "वह लोग तो बस गुमान (ख्याल) के पीछे चल रहे हैं, हालॉकि गुमान यक़ीन के बदले में कुछ भी काम नहीं आया करता,",
+      "ur": "وَمَا لَهُمْ بِهِ مِنْ عِلْمٍ ۖ إِنْ يَتَّبِعُونَ إِلَّا الظَّنَّ ۖ وَإِنَّ الظَّنَّ لَا يُغْنِي مِنَ الْحَقِّ شَيْئًا"
+    }
+  },
+  {
+    "number": 4813,
+    "surahNumber": 53,
+    "ayahNumber": 29,
+    "juz": 27,
+    "arabic": "فَأَعْرِضْ عَن مَّن تَوَلَّىٰ عَن ذِكْرِنَا وَلَمْ يُرِدْ إِلَّا ٱلْحَيَوٰةَ ٱلدُّنْيَا",
+    "translations": {
+      "en": "So you turn away from him who turns away from Our rememberance and wants nothing but the life of this world:",
+      "hi": "तो जो हमारी याद से रदगिरदानी करे ओर सिर्फ दुनिया की ज़िन्दगी ही का तालिब हो तुम भी उससे मुँह फेर लो",
+      "ur": "فَأَعْرِضْ عَنْ مَنْ تَوَلَّىٰ عَنْ ذِكْرِنَا وَلَمْ يُرِدْ إِلَّا الْحَيَاةَ الدُّنْيَا"
+    }
+  },
+  {
+    "number": 4814,
+    "surahNumber": 53,
+    "ayahNumber": 30,
+    "juz": 27,
+    "arabic": "ذَٰلِكَ مَبْلَغُهُم مِّنَ ٱلْعِلْمِ ۚ إِنَّ رَبَّكَ هُوَ أَعْلَمُ بِمَن ضَلَّ عَن سَبِيلِهِۦ وَهُوَ أَعْلَمُ بِمَنِ ٱهْتَدَىٰ",
+    "translations": {
+      "en": "This is the farthest limit of their knowledge. Surely your Lord alone knows best who has strayed away from the path and who has come to guidance.",
+      "hi": "उनके इल्म की यही इन्तिहा है तुम्हारा परवरदिगार, जो उसके रास्ते से भटक गया उसको भी ख़ूब जानता है, और जो राहे रास्त पर है उनसे भी ख़ूब वाक़िफ है",
+      "ur": "ذَٰلِكَ مَبْلَغُهُمْ مِنَ الْعِلْمِ ۚ إِنَّ رَبَّكَ هُوَ أَعْلَمُ بِمَنْ ضَلَّ عَنْ سَبِيلِهِ وَهُوَ أَعْلَمُ بِمَنِ اهْتَدَىٰ"
+    }
+  },
+  {
+    "number": 4815,
+    "surahNumber": 53,
+    "ayahNumber": 31,
+    "juz": 27,
+    "arabic": "وَلِلَّهِ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ لِيَجْزِىَ ٱلَّذِينَ أَسَٰٓـُٔوا۟ بِمَا عَمِلُوا۟ وَيَجْزِىَ ٱلَّذِينَ أَحْسَنُوا۟ بِٱلْحُسْنَى",
+    "translations": {
+      "en": "To God belongs whatever is in the heavens and the earth, that He may requite those who do evil, in accordance with their deeds, and those who do good with good.",
+      "hi": "और जो कुछ आसमानों में है और जो कुछ ज़मीन में है (ग़रज़ सब कुछ) ख़ुदा ही का है, ताकि जिन लोगों ने बुराई की हो उनको उनकी कारस्तानियों की सज़ा दे और जिन लोगों ने नेकी की है (उनकी नेकी की जज़ा दे)",
+      "ur": "وَلِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ لِيَجْزِيَ الَّذِينَ أَسَاءُوا بِمَا عَمِلُوا وَيَجْزِيَ الَّذِينَ أَحْسَنُوا بِالْحُسْنَى"
+    }
+  },
+  {
+    "number": 4816,
+    "surahNumber": 53,
+    "ayahNumber": 32,
+    "juz": 27,
+    "arabic": "ٱلَّذِينَ يَجْتَنِبُونَ كَبَٰٓئِرَ ٱلْإِثْمِ وَٱلْفَوَٰحِشَ إِلَّا ٱللَّمَمَ ۚ إِنَّ رَبَّكَ وَٰسِعُ ٱلْمَغْفِرَةِ ۚ هُوَ أَعْلَمُ بِكُمْ إِذْ أَنشَأَكُم مِّنَ ٱلْأَرْضِ وَإِذْ أَنتُمْ أَجِنَّةٌۭ فِى بُطُونِ أُمَّهَٰتِكُمْ ۖ فَلَا تُزَكُّوٓا۟ أَنفُسَكُمْ ۖ هُوَ أَعْلَمُ بِمَنِ ٱتَّقَىٰٓ",
+    "translations": {
+      "en": "As for those who avoid the greater sins and shameful acts, except minor trespasses, your Lord's forgiveness surely has great amplitude. He is fully knowledgeable of you as He produced you from the earth, and since you were a foetus in your mother's womb. So do not assert your goodness; he is better who takes heed and preserves himself.",
+      "hi": "जो सग़ीरा गुनाहों के सिवा कबीरा गुनाहों से और बेहयाई की बातों से बचे रहते हैं बेशक तुम्हारा परवरदिगार बड़ी बख्यिश वाला है वही तुमको ख़ूब जानता है जब उसने तुमको मिटटी से पैदा किया और जब तुम अपनी माँ के पेट में बच्चे थे तो (तकब्बुर) से अपने नफ्स की पाकीज़गी न जताया करो जो परहेज़गार है उसको वह ख़ूब जानता है",
+      "ur": "الَّذِينَ يَجْتَنِبُونَ كَبَائِرَ الْإِثْمِ وَالْفَوَاحِشَ إِلَّا اللَّمَمَ ۚ إِنَّ رَبَّكَ وَاسِعُ الْمَغْفِرَةِ ۚ هُوَ أَعْلَمُ بِكُمْ إِذْ أَنْشَأَكُمْ مِنَ الْأَرْضِ وَإِذْ أَنْتُمْ أَجِنَّةٌ فِي بُطُونِ أُمَّهَاتِكُمْ ۖ فَلَا تُزَكُّوا أَنْفُسَكُمْ ۖ هُوَ أَعْلَمُ بِمَنِ اتَّقَىٰ"
+    }
+  },
+  {
+    "number": 4817,
+    "surahNumber": 53,
+    "ayahNumber": 33,
+    "juz": 27,
+    "arabic": "أَفَرَءَيْتَ ٱلَّذِى تَوَلَّىٰ",
+    "translations": {
+      "en": "Have you seen him who turns his back,",
+      "hi": "भला (ऐ रसूल) तुमने उस शख़्श को भी देखा जिसने रदगिरदानी की",
+      "ur": "أَفَرَأَيْتَ الَّذِي تَوَلَّىٰ"
+    }
+  },
+  {
+    "number": 4818,
+    "surahNumber": 53,
+    "ayahNumber": 34,
+    "juz": 27,
+    "arabic": "وَأَعْطَىٰ قَلِيلًۭا وَأَكْدَىٰٓ",
+    "translations": {
+      "en": "Who gives but little, and is niggardly?",
+      "hi": "और थोड़ा सा (ख़ुदा की राह में) दिया और फिर बन्द कर दिया",
+      "ur": "وَأَعْطَىٰ قَلِيلًا وَأَكْدَىٰ"
+    }
+  },
+  {
+    "number": 4819,
+    "surahNumber": 53,
+    "ayahNumber": 35,
+    "juz": 27,
+    "arabic": "أَعِندَهُۥ عِلْمُ ٱلْغَيْبِ فَهُوَ يَرَىٰٓ",
+    "translations": {
+      "en": "Has he knowledge of the Unknown that he perceives everything?",
+      "hi": "क्या उसके पास इल्मे ग़ैब है कि वह देख रहा है",
+      "ur": "أَعِنْدَهُ عِلْمُ الْغَيْبِ فَهُوَ يَرَىٰ"
+    }
+  },
+  {
+    "number": 4820,
+    "surahNumber": 53,
+    "ayahNumber": 36,
+    "juz": 27,
+    "arabic": "أَمْ لَمْ يُنَبَّأْ بِمَا فِى صُحُفِ مُوسَىٰ",
+    "translations": {
+      "en": "Has he not heard what is contained in the Book of Moses,",
+      "hi": "क्या उसको उन बातों की ख़बर नहीं पहुँची जो मूसा के सहीफ़ों में है",
+      "ur": "أَمْ لَمْ يُنَبَّأْ بِمَا فِي صُحُفِ مُوسَىٰ"
+    }
+  },
+  {
+    "number": 4821,
+    "surahNumber": 53,
+    "ayahNumber": 37,
+    "juz": 27,
+    "arabic": "وَإِبْرَٰهِيمَ ٱلَّذِى وَفَّىٰٓ",
+    "translations": {
+      "en": "And of Abraham who fulfilled his trust? --",
+      "hi": "और इबराहीम के (सहीफ़ों में)",
+      "ur": "وَإِبْرَاهِيمَ الَّذِي وَفَّىٰ"
+    }
+  },
+  {
+    "number": 4822,
+    "surahNumber": 53,
+    "ayahNumber": 38,
+    "juz": 27,
+    "arabic": "أَلَّا تَزِرُ وَازِرَةٌۭ وِزْرَ أُخْرَىٰ",
+    "translations": {
+      "en": "That no one who carries a burden bears another's load;",
+      "hi": "जिन्होने (अपना हक़) (पूरा अदा) किया इन सहीफ़ों में ये है, कि कोई शख़्श दूसरे (के गुनाह) का बोझ नहीं उठाएगा",
+      "ur": "أَلَّا تَزِرُ وَازِرَةٌ وِزْرَ أُخْرَىٰ"
+    }
+  },
+  {
+    "number": 4823,
+    "surahNumber": 53,
+    "ayahNumber": 39,
+    "juz": 27,
+    "arabic": "وَأَن لَّيْسَ لِلْإِنسَٰنِ إِلَّا مَا سَعَىٰ",
+    "translations": {
+      "en": "That a man receives but only that for which he strives;",
+      "hi": "और ये कि इन्सान को वही मिलता है जिसकी वह कोशिश करता है",
+      "ur": "وَأَنْ لَيْسَ لِلْإِنْسَانِ إِلَّا مَا سَعَىٰ"
+    }
+  },
+  {
+    "number": 4824,
+    "surahNumber": 53,
+    "ayahNumber": 40,
+    "juz": 27,
+    "arabic": "وَأَنَّ سَعْيَهُۥ سَوْفَ يُرَىٰ",
+    "translations": {
+      "en": "That his endeavours will be judged,",
+      "hi": "और ये कि उनकी कोशिश अनक़रीेब ही (क़यामत में) देखी जाएगी",
+      "ur": "وَأَنَّ سَعْيَهُ سَوْفَ يُرَىٰ"
+    }
+  },
+  {
+    "number": 4825,
+    "surahNumber": 53,
+    "ayahNumber": 41,
+    "juz": 27,
+    "arabic": "ثُمَّ يُجْزَىٰهُ ٱلْجَزَآءَ ٱلْأَوْفَىٰ",
+    "translations": {
+      "en": "And only then will he receive his recompense in full;",
+      "hi": "फिर उसका पूरा पूरा बदला दिया जाएगा",
+      "ur": "ثُمَّ يُجْزَاهُ الْجَزَاءَ الْأَوْفَىٰ"
+    }
+  },
+  {
+    "number": 4826,
+    "surahNumber": 53,
+    "ayahNumber": 42,
+    "juz": 27,
+    "arabic": "وَأَنَّ إِلَىٰ رَبِّكَ ٱلْمُنتَهَىٰ",
+    "translations": {
+      "en": "And that to your Lord is your returning;",
+      "hi": "और ये कि (सबको आख़िर) तुम्हारे परवरदिगार ही के पास पहुँचना है",
+      "ur": "وَأَنَّ إِلَىٰ رَبِّكَ الْمُنْتَهَىٰ"
+    }
+  },
+  {
+    "number": 4827,
+    "surahNumber": 53,
+    "ayahNumber": 43,
+    "juz": 27,
+    "arabic": "وَأَنَّهُۥ هُوَ أَضْحَكَ وَأَبْكَىٰ",
+    "translations": {
+      "en": "That it is He who makes you happy and morose,",
+      "hi": "और ये कि वही हँसाता और रूलाता है",
+      "ur": "وَأَنَّهُ هُوَ أَضْحَكَ وَأَبْكَىٰ"
+    }
+  },
+  {
+    "number": 4828,
+    "surahNumber": 53,
+    "ayahNumber": 44,
+    "juz": 27,
+    "arabic": "وَأَنَّهُۥ هُوَ أَمَاتَ وَأَحْيَا",
+    "translations": {
+      "en": "And He who ordains death and life;",
+      "hi": "और ये कि वही मारता और जिलाता है",
+      "ur": "وَأَنَّهُ هُوَ أَمَاتَ وَأَحْيَا"
+    }
+  },
+  {
+    "number": 4829,
+    "surahNumber": 53,
+    "ayahNumber": 45,
+    "juz": 27,
+    "arabic": "وَأَنَّهُۥ خَلَقَ ٱلزَّوْجَيْنِ ٱلذَّكَرَ وَٱلْأُنثَىٰ",
+    "translations": {
+      "en": "That He created pairs, male and female,",
+      "hi": "और ये कि वही नर और मादा दो किस्म (के हैवान) नुत्फे से जब (रहम में) डाला जाता है",
+      "ur": "وَأَنَّهُ خَلَقَ الزَّوْجَيْنِ الذَّكَرَ وَالْأُنْثَىٰ"
+    }
+  },
+  {
+    "number": 4830,
+    "surahNumber": 53,
+    "ayahNumber": 46,
+    "juz": 27,
+    "arabic": "مِن نُّطْفَةٍ إِذَا تُمْنَىٰ",
+    "translations": {
+      "en": "From a drop of semen when emitted;",
+      "hi": "पैदा करता है",
+      "ur": "مِنْ نُطْفَةٍ إِذَا تُمْنَىٰ"
+    }
+  },
+  {
+    "number": 4831,
+    "surahNumber": 53,
+    "ayahNumber": 47,
+    "juz": 27,
+    "arabic": "وَأَنَّ عَلَيْهِ ٱلنَّشْأَةَ ٱلْأُخْرَىٰ",
+    "translations": {
+      "en": "That the second creation is incumbent on Him;",
+      "hi": "और ये कि उसी पर (कयामत में) दोबारा उठाना लाज़िम है",
+      "ur": "وَأَنَّ عَلَيْهِ النَّشْأَةَ الْأُخْرَىٰ"
+    }
+  },
+  {
+    "number": 4832,
+    "surahNumber": 53,
+    "ayahNumber": 48,
+    "juz": 27,
+    "arabic": "وَأَنَّهُۥ هُوَ أَغْنَىٰ وَأَقْنَىٰ",
+    "translations": {
+      "en": "That it is He who makes you rich and contented;",
+      "hi": "और ये कि वही मालदार बनाता है और सरमाया अता करता है,",
+      "ur": "وَأَنَّهُ هُوَ أَغْنَىٰ وَأَقْنَىٰ"
+    }
+  },
+  {
+    "number": 4833,
+    "surahNumber": 53,
+    "ayahNumber": 49,
+    "juz": 27,
+    "arabic": "وَأَنَّهُۥ هُوَ رَبُّ ٱلشِّعْرَىٰ",
+    "translations": {
+      "en": "That He is the Lord of Sirius;",
+      "hi": "और ये कि वही योअराए का मालिक है",
+      "ur": "وَأَنَّهُ هُوَ رَبُّ الشِّعْرَىٰ"
+    }
+  },
+  {
+    "number": 4834,
+    "surahNumber": 53,
+    "ayahNumber": 50,
+    "juz": 27,
+    "arabic": "وَأَنَّهُۥٓ أَهْلَكَ عَادًا ٱلْأُولَىٰ",
+    "translations": {
+      "en": "That it was He who destroyed the 'Ad of old,",
+      "hi": "और ये कि उसी ने पहले (क़ौमे) आद को हलाक किया",
+      "ur": "وَأَنَّهُ أَهْلَكَ عَادًا الْأُولَىٰ"
+    }
+  },
+  {
+    "number": 4835,
+    "surahNumber": 53,
+    "ayahNumber": 51,
+    "juz": 27,
+    "arabic": "وَثَمُودَا۟ فَمَآ أَبْقَىٰ",
+    "translations": {
+      "en": "And Thamud, and did not leave them,",
+      "hi": "और समूद को भी ग़रज़ किसी को बाक़ी न छोड़ा",
+      "ur": "وَثَمُودَ فَمَا أَبْقَىٰ"
+    }
+  },
+  {
+    "number": 4836,
+    "surahNumber": 53,
+    "ayahNumber": 52,
+    "juz": 27,
+    "arabic": "وَقَوْمَ نُوحٍۢ مِّن قَبْلُ ۖ إِنَّهُمْ كَانُوا۟ هُمْ أَظْلَمَ وَأَطْغَىٰ",
+    "translations": {
+      "en": "Like the people of Noah before them, who were surely oppressors and rebellious;",
+      "hi": "और (उसके) पहले नूह की क़ौम को बेशक ये लोग बड़े ही ज़ालिम और बड़े ही सरकश थे",
+      "ur": "وَقَوْمَ نُوحٍ مِنْ قَبْلُ ۖ إِنَّهُمْ كَانُوا هُمْ أَظْلَمَ وَأَطْغَىٰ"
+    }
+  },
+  {
+    "number": 4837,
+    "surahNumber": 53,
+    "ayahNumber": 53,
+    "juz": 27,
+    "arabic": "وَٱلْمُؤْتَفِكَةَ أَهْوَىٰ",
+    "translations": {
+      "en": "And He overthrew the Cities of the Plain,",
+      "hi": "और उसी ने (क़ौमे लूत की) उलटी हुई बस्तियों को दे पटका",
+      "ur": "وَالْمُؤْتَفِكَةَ أَهْوَىٰ"
+    }
+  },
+  {
+    "number": 4838,
+    "surahNumber": 53,
+    "ayahNumber": 54,
+    "juz": 27,
+    "arabic": "فَغَشَّىٰهَا مَا غَشَّىٰ",
+    "translations": {
+      "en": "So that they were covered over by what they were covered over.",
+      "hi": "(फिर उन पर) जो छाया सो छाया",
+      "ur": "فَغَشَّاهَا مَا غَشَّىٰ"
+    }
+  },
+  {
+    "number": 4839,
+    "surahNumber": 53,
+    "ayahNumber": 55,
+    "juz": 27,
+    "arabic": "فَبِأَىِّ ءَالَآءِ رَبِّكَ تَتَمَارَىٰ",
+    "translations": {
+      "en": "How many favours of your Lord will you then deny?",
+      "hi": "तो तू (ऐ इन्सान आख़िर) अपने परवरदिगार की कौन सी नेअमत पर शक़ किया करेगा",
+      "ur": "فَبِأَيِّ آلَاءِ رَبِّكَ تَتَمَارَىٰ"
+    }
+  },
+  {
+    "number": 4840,
+    "surahNumber": 53,
+    "ayahNumber": 56,
+    "juz": 27,
+    "arabic": "هَٰذَا نَذِيرٌۭ مِّنَ ٱلنُّذُرِ ٱلْأُولَىٰٓ",
+    "translations": {
+      "en": "He who warns you is one of the warners of old.",
+      "hi": "ये (मोहम्मद भी अगले डराने वाले पैग़म्बरों में से एक डरने वाला) पैग़म्बर है",
+      "ur": "هَٰذَا نَذِيرٌ مِنَ النُّذُرِ الْأُولَىٰ"
+    }
+  },
+  {
+    "number": 4841,
+    "surahNumber": 53,
+    "ayahNumber": 57,
+    "juz": 27,
+    "arabic": "أَزِفَتِ ٱلْءَازِفَةُ",
+    "translations": {
+      "en": "What is to come is imminent.",
+      "hi": "कयामत क़रीब आ गयी",
+      "ur": "أَزِفَتِ الْآزِفَةُ"
+    }
+  },
+  {
+    "number": 4842,
+    "surahNumber": 53,
+    "ayahNumber": 58,
+    "juz": 27,
+    "arabic": "لَيْسَ لَهَا مِن دُونِ ٱللَّهِ كَاشِفَةٌ",
+    "translations": {
+      "en": "There is no one to unveil it apart from God.",
+      "hi": "ख़ुदा के सिवा उसे कोई टाल नहीं सकता",
+      "ur": "لَيْسَ لَهَا مِنْ دُونِ اللَّهِ كَاشِفَةٌ"
+    }
+  },
+  {
+    "number": 4843,
+    "surahNumber": 53,
+    "ayahNumber": 59,
+    "juz": 27,
+    "arabic": "أَفَمِنْ هَٰذَا ٱلْحَدِيثِ تَعْجَبُونَ",
+    "translations": {
+      "en": "Are you astonished at this news,",
+      "hi": "तो क्या तुम लोग इस बात से ताज्जुब करते हो और हँसते हो",
+      "ur": "أَفَمِنْ هَٰذَا الْحَدِيثِ تَعْجَبُونَ"
+    }
+  },
+  {
+    "number": 4844,
+    "surahNumber": 53,
+    "ayahNumber": 60,
+    "juz": 27,
+    "arabic": "وَتَضْحَكُونَ وَلَا تَبْكُونَ",
+    "translations": {
+      "en": "And keep laughing and do not weep,",
+      "hi": "और रोते नहीं हो",
+      "ur": "وَتَضْحَكُونَ وَلَا تَبْكُونَ"
+    }
+  },
+  {
+    "number": 4845,
+    "surahNumber": 53,
+    "ayahNumber": 61,
+    "juz": 27,
+    "arabic": "وَأَنتُمْ سَٰمِدُونَ",
+    "translations": {
+      "en": "Indulging in pleasantries?",
+      "hi": "और तुम इस क़दर ग़ाफ़िल हो तो ख़ुदा के आगे सजदे किया करो",
+      "ur": "وَأَنْتُمْ سَامِدُونَ"
+    }
+  },
+  {
+    "number": 4846,
+    "surahNumber": 53,
+    "ayahNumber": 62,
+    "juz": 27,
+    "arabic": "فَٱسْجُدُوا۟ لِلَّهِ وَٱعْبُدُوا۟ ۩",
+    "translations": {
+      "en": "Bow instead in adoration before God and worship Him.",
+      "hi": "और (उसी की) इबादत किया करो (62) सजदा",
+      "ur": "فَاسْجُدُوا لِلَّهِ وَاعْبُدُوا ۩"
+    }
+  }
+]

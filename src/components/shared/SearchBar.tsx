@@ -15,7 +15,7 @@ interface SearchBarProps {
 
 export function SearchBar({ placeholder = "Search the Quran...", className }: SearchBarProps) {
   const router = useRouter()
-  const { surahs, getAyahs } = useQuran()
+  const { surahs, getAyahs, loaded } = useQuran()
   const [query, setQuery] = useState("")
   const [results, setResults] = useState<{ ayah: Ayah; surahName: string; surahNumber: number }[]>([])
   const [open, setOpen] = useState(false)
@@ -27,7 +27,7 @@ export function SearchBar({ placeholder = "Search the Quran...", className }: Se
 
   // Build Fuse index lazily
   useEffect(() => {
-    if (fuse || !surahs.length) return
+    if (fuse || !loaded || !surahs.length) return
     setLoading(true)
     const allAyahs: { ayah: Ayah; surahName: string; surahNumber: number }[] = []
     const surahNames = new Map(surahs.map((s) => [s.number, s.name]))
@@ -50,7 +50,7 @@ export function SearchBar({ placeholder = "Search the Quran...", className }: Se
       includeScore: true,
     }))
     setLoading(false)
-  }, [fuse, surahs, getAyahs])
+  }, [fuse, surahs, getAyahs, loaded])
 
   const handleSearch = useCallback((value: string) => {
     setQuery(value)
