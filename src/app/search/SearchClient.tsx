@@ -10,6 +10,27 @@ import { loadAllHadiths } from "./hadithData"
 import { loadVideosForSearch } from "./videoData"
 import type { Ayah, Surah, Hadith, Video as VideoType } from "@/types"
 
+const QURAN_KEYS = [
+  { name: "translations.en", weight: 1 },
+  { name: "translations.hi", weight: 0.8 },
+  { name: "translations.ur", weight: 0.8 },
+  { name: "arabic", weight: 0.6 },
+]
+
+const HADITH_KEYS = [
+  { name: "english", weight: 1 },
+  { name: "arabic", weight: 0.6 },
+  { name: "narrator", weight: 0.4 },
+  { name: "bookName", weight: 0.3 },
+]
+
+const SEARCH_OPTIONS = {
+  threshold: 0.4,
+  distance: 100,
+  minMatchCharLength: 2,
+  includeScore: true,
+}
+
 type ContentTab = "quran" | "hadith" | "videos"
 
 const tabLabels: Record<ContentTab, { label: string; icon: typeof Search }> = {
@@ -59,53 +80,92 @@ export function SearchClient() {
       setLoadingData(true)
       const status = { quran: false, hadith: false, videos: false }
 
+      // Load Quran: single combined file + pre-built search index
       try {
-        const allAyahs: Ayah[] = []
-        for (let i = 1; i <= 114; i++) {
-          const res = await fetch(`/data/quran/surah-${i}.json`)
-          const data: Ayah[] = await res.json()
-          allAyahs.push(...data)
+        const [ayahsRes, indexRes] = await Promise.all([
+          fetch("/data/quran/quran-all.json"),
+          fetch("/data/quran/quran-search-index.json"),
+        ])
+        if (ayahsRes.ok && indexRes.ok) {
+          const [allAyahs, indexData] = await Promise.all([
+            ayahsRes.json() as Promise<Ayah[]>,
+            indexRes.json(),
+          ])
+          const index = Fuse.parseIndex<Ayah>(indexData)
+          setQuranFuse(new Fuse(allAyahs, SEARCH_OPTIONS, index))
+          status.quran = true
         }
-        setQuranFuse(
-          new Fuse(allAyahs, {
-            keys: [
-              { name: "translations.en", weight: 1 },
-              { name: "translations.hi", weight: 0.8 },
-              { name: "translations.ur", weight: 0.7 },
-              { name: "arabic", weight: 0.5 },
-            ],
-            threshold: 0.4,
-            distance: 100,
-            minMatchCharLength: 2,
-          })
-        )
-        status.quran = true
       } catch (err) {
         console.error("Failed to load Quran data:", err)
       }
-
-      try {
-        const allHadiths = await loadAllHadiths()
-        if (allHadiths.length > 0) {
-          setHadithFuse(
-            new Fuse(allHadiths, {
-              keys: [
-                { name: "english", weight: 1 },
-                { name: "arabic", weight: 0.6 },
-                { name: "narrator", weight: 0.3 },
-                { name: "bookName", weight: 0.2 },
-              ],
-              threshold: 0.4,
-              distance: 100,
-              minMatchCharLength: 2,
-            })
-          )
+      // Fallback: if pre-built index failed, try loading individual files
+      if (!status.quran) {
+        try {
+          const allAyahs: Ayah[] = []
+          for (let i = 1; i <= 114; i++) {
+            const res = await fetch(`/data/quran/surah-${i}.json`)
+            const data: Ayah[] = await res.json()
+            allAyahs.push(...data)
+          }
+          setQuranFuse(new Fuse(allAyahs, { keys: QURAN_KEYS, ...SEARCH_OPTIONS }))
+          status.quran = true
+        } catch (err) {
+          console.error("Failed to load Quran data (fallback):", err)
         }
-        status.hadith = true
+      }
+
+      // Load Hadith: single combined file + pre-built search index
+      try {
+        const [hadithRes, indexRes] = await Promise.all([
+          fetch("/data/hadith/hadith-all.json"),
+          fetch("/data/hadith/hadith-search-index.json"),
+        ])
+        if (hadithRes.ok && indexRes.ok) {
+          const [allHadithsRaw, indexData] = await Promise.all([
+            hadithRes.json(),
+            indexRes.json(),
+          ])
+          const allHadiths: Hadith[] = allHadithsRaw.map((h: any) => ({
+            id: `${h.collection}-${h.number}`,
+            collection: h.collection,
+            bookId: h.bookId,
+            bookName: h.bookName || "",
+            chapterId: h.chapterId,
+            chapterName: h.chapterName || "",
+            hadithNumber: h.number,
+            arabic: h.arabic || "",
+            english: h.english || "",
+            narrator: h.narrator || "",
+            grade: h.grade || "",
+            reference: {
+              collection: h.collection === "bukhari" ? "Sahih al-Bukhari" : "Sahih Muslim",
+              book: h.bookName || "",
+              hadithNumber: h.number,
+              bookNumber: h.bookId,
+            },
+            tags: [],
+          }))
+          const index = Fuse.parseIndex<Hadith>(indexData)
+          setHadithFuse(new Fuse(allHadiths, SEARCH_OPTIONS, index))
+          status.hadith = true
+        }
       } catch (err) {
         console.error("Failed to load Hadith data:", err)
       }
+      // Fallback: load via individual book files
+      if (!status.hadith) {
+        try {
+          const allHadiths = await loadAllHadiths()
+          if (allHadiths.length > 0) {
+            setHadithFuse(new Fuse(allHadiths, { keys: HADITH_KEYS, ...SEARCH_OPTIONS }))
+          }
+          status.hadith = true
+        } catch (err) {
+          console.error("Failed to load Hadith data (fallback):", err)
+        }
+      }
 
+      // Load Videos
       try {
         const allVideos = await loadVideosForSearch()
         if (allVideos.length > 0) {
@@ -116,9 +176,7 @@ export function SearchClient() {
                 { name: "description", weight: 0.7 },
                 { name: "scholarName", weight: 0.4 },
               ],
-              threshold: 0.4,
-              distance: 100,
-              minMatchCharLength: 2,
+              ...SEARCH_OPTIONS,
             })
           )
         }

@@ -1,6 +1,10 @@
+import fs from "node:fs"
+import path from "node:path"
 import Fuse from "fuse.js"
 import type { Hadith } from "@/types"
 import { getAllHadiths } from "./translations"
+
+const DATA_DIR = path.join(process.cwd(), "public", "data", "hadith")
 
 const cache = new Map<string, Fuse<Hadith>>()
 
@@ -10,17 +14,32 @@ function getFuse(collectionId: string): Fuse<Hadith> | null {
   const hadiths = getAllHadiths(collectionId)
   if (hadiths.length === 0) return null
 
-  const fuse = new Fuse(hadiths, {
-    keys: [
-      { name: "english", weight: 1 },
-      { name: "arabic", weight: 0.6 },
-      { name: "narrator", weight: 0.4 },
-      { name: "bookName", weight: 0.3 },
-    ],
-    threshold: 0.4,
-    distance: 100,
-    minMatchCharLength: 2,
-  })
+  const indexPath = path.join(DATA_DIR, collectionId, `${collectionId}-search-index.json`)
+
+  let fuse: Fuse<Hadith>
+  // Use pre-built index if available
+  if (fs.existsSync(indexPath)) {
+    const indexData = JSON.parse(fs.readFileSync(indexPath, "utf-8"))
+    const index = Fuse.parseIndex<Hadith>(indexData)
+    fuse = new Fuse(hadiths, {
+      threshold: 0.4,
+      distance: 100,
+      minMatchCharLength: 2,
+    }, index)
+  } else {
+    // Fallback: build index at runtime
+    fuse = new Fuse(hadiths, {
+      keys: [
+        { name: "english", weight: 1 },
+        { name: "arabic", weight: 0.6 },
+        { name: "narrator", weight: 0.4 },
+        { name: "bookName", weight: 0.3 },
+      ],
+      threshold: 0.4,
+      distance: 100,
+      minMatchCharLength: 2,
+    })
+  }
 
   cache.set(collectionId, fuse)
   return fuse

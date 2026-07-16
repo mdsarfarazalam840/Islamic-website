@@ -1,24 +1,43 @@
+import fs from "node:fs"
+import path from "node:path"
 import Fuse from "fuse.js"
 import type { Ayah } from "@/types"
 import { getAllAyahs } from "./translations"
+
+const DATA_DIR = path.join(process.cwd(), "public", "data", "quran")
 
 let fuseInstance: Fuse<Ayah> | null = null
 
 function getFuse(): Fuse<Ayah> {
   if (!fuseInstance) {
     const ayahs = getAllAyahs()
-    fuseInstance = new Fuse(ayahs, {
-      keys: [
-        { name: "translations.en", weight: 1 },
-        { name: "translations.hi", weight: 0.8 },
-        { name: "translations.ur", weight: 0.8 },
-        { name: "arabic", weight: 0.6 },
-      ],
-      threshold: 0.4,
-      distance: 100,
-      includeScore: true,
-      minMatchCharLength: 2,
-    })
+    const indexPath = path.join(DATA_DIR, "quran-search-index.json")
+
+    // Use pre-built index if available
+    if (fs.existsSync(indexPath)) {
+      const indexData = JSON.parse(fs.readFileSync(indexPath, "utf-8"))
+      const index = Fuse.parseIndex<Ayah>(indexData)
+      fuseInstance = new Fuse(ayahs, {
+        threshold: 0.4,
+        distance: 100,
+        includeScore: true,
+        minMatchCharLength: 2,
+      }, index)
+    } else {
+      // Fallback: build index at runtime
+      fuseInstance = new Fuse(ayahs, {
+        keys: [
+          { name: "translations.en", weight: 1 },
+          { name: "translations.hi", weight: 0.8 },
+          { name: "translations.ur", weight: 0.8 },
+          { name: "arabic", weight: 0.6 },
+        ],
+        threshold: 0.4,
+        distance: 100,
+        includeScore: true,
+        minMatchCharLength: 2,
+      })
+    }
   }
   return fuseInstance
 }

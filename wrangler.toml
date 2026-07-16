@@ -3,3 +3,15 @@ pages_build_output_dir = ".next"
 pages_build_command = "npm run build"
 compatibility_date = "2026-07-15"
 compatibility_flags = ["nodejs_compat"]
+
+# D1 database for bookmarks & reading progress
+[[d1_databases]]
+binding = "DB"
+database_name = "quran-db"
+database_id = "ade531b8-1ac5-47fd-9762-9a1c61bef592"
+
+# KV namespace for caching YouTube API & search results
+[[kv_namespaces]]
+binding = "CACHE"
+id = "abe4c73df3c54f4b99a4e10e19332f39"
+preview_id = ""

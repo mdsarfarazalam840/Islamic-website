@@ -3,6 +3,8 @@ import { getAllSurahs } from "@/lib/quran/surahs"
 import { scholars } from "@/config/scholars"
 import { getAllHadiths, getCollection } from "@/lib/hadith/translations"
 
+export const dynamic = "force-static"
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = "https://quran-website.pages.dev"
 

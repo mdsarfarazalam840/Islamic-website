@@ -3,6 +3,14 @@ import { scholars } from "@/config/scholars"
 import { getMockVideos, getMockVideosByScholar, getMockVideosByCategory } from "./videos"
 import type { Video } from "@/types"
 
+function isValidChannelId(id: string): boolean {
+  return id.startsWith("UC") && id.length > 10
+}
+
+function isBrowser(): boolean {
+  return typeof window !== "undefined"
+}
+
 interface YouTubeSearchResult {
   id: { videoId: string }
   snippet: {
@@ -32,46 +40,68 @@ function setCache(key: string, data: Video[]) {
   cache.set(key, { data, timestamp: Date.now() })
 }
 
-export async function fetchVideosFromYouTube(channelId: string): Promise<Video[]> {
-  const cached = getFromCache(`channel:${channelId}`)
-  if (cached) return cached
+function transformYouTubeResponse(channelId: string, data: any): Video[] {
+  const scholar = scholars.find((s) => s.channelId === channelId)
+  if (!data.items) return []
+  return data.items.map((item: YouTubeSearchResult, index: number) => ({
+    id: `yt-${channelId}-${index}`,
+    youtubeId: item.id.videoId,
+    title: item.snippet.title,
+    description: item.snippet.description,
+    scholarId: scholar?.id || "unknown",
+    scholarName: item.snippet.channelTitle,
+    thumbnail: item.snippet.thumbnails.medium?.url || item.snippet.thumbnails.high?.url || "",
+    duration: "",
+    publishedAt: item.snippet.publishedAt,
+    category: "spirituality",
+    views: 0,
+  }))
+}
 
+async function fetchViaProxy(channelId: string): Promise<Video[] | null> {
+  const res = await fetch(`/api/youtube?channelId=${channelId}&maxResults=20`)
+  if (!res.ok) return null
+  const data = await res.json()
+  return transformYouTubeResponse(channelId, data)
+}
+
+async function fetchDirect(channelId: string): Promise<Video[]> {
   const apiKey = apiConfig.youtube.apiKey
   if (!apiKey) {
     console.warn("YouTube API key not configured, using mock data")
     return []
   }
+  const searchUrl = new URL(`${apiConfig.youtube.baseUrl}/search`)
+  searchUrl.searchParams.set("part", "snippet")
+  searchUrl.searchParams.set("channelId", channelId)
+  searchUrl.searchParams.set("order", "date")
+  searchUrl.searchParams.set("maxResults", "20")
+  searchUrl.searchParams.set("type", "video")
+  searchUrl.searchParams.set("videoDuration", "medium")
+  searchUrl.searchParams.set("key", apiKey)
+  const response = await fetch(searchUrl.toString())
+  if (!response.ok) throw new Error(`YouTube API error: ${response.status}`)
+  const data = await response.json()
+  return transformYouTubeResponse(channelId, data)
+}
+
+export async function fetchVideosFromYouTube(channelId: string): Promise<Video[]> {
+  if (!isValidChannelId(channelId)) return []
+
+  const cached = getFromCache(`channel:${channelId}`)
+  if (cached) return cached
 
   try {
-    const searchUrl = new URL(`${apiConfig.youtube.baseUrl}/search`)
-    searchUrl.searchParams.set("part", "snippet")
-    searchUrl.searchParams.set("channelId", channelId)
-    searchUrl.searchParams.set("order", "date")
-    searchUrl.searchParams.set("maxResults", "20")
-    searchUrl.searchParams.set("type", "video")
-    searchUrl.searchParams.set("key", apiKey)
-
-    const response = await fetch(searchUrl.toString())
-    if (!response.ok) throw new Error(`YouTube API error: ${response.status}`)
-
-    const data = await response.json()
-    const scholar = scholars.find((s) => s.channelId === channelId)
-
-    const videos: Video[] = data.items.map((item: YouTubeSearchResult, index: number) => ({
-      id: `yt-${channelId}-${index}`,
-      youtubeId: item.id.videoId,
-      title: item.snippet.title,
-      description: item.snippet.description,
-      scholarId: scholar?.id || "unknown",
-      scholarName: item.snippet.channelTitle,
-      thumbnail: item.snippet.thumbnails.medium?.url || item.snippet.thumbnails.high?.url || "",
-      duration: "",
-      publishedAt: item.snippet.publishedAt,
-      category: "spirituality",
-      views: 0,
-    }))
-
-    setCache(`channel:${channelId}`, videos)
+    let videos: Video[]
+    if (isBrowser()) {
+      const proxyResult = await fetchViaProxy(channelId)
+      videos = proxyResult ?? await fetchDirect(channelId)
+    } else {
+      videos = await fetchDirect(channelId)
+    }
+    if (videos.length > 0) {
+      setCache(`channel:${channelId}`, videos)
+    }
     return videos
   } catch (error) {
     console.error("Failed to fetch YouTube videos:", error)
@@ -92,7 +122,7 @@ export async function getAllVideos(): Promise<Video[]> {
 
   const allVideos: Video[] = []
   for (const scholar of scholars) {
-    if (scholar.channelId && scholar.channelId !== "UC...") {
+    if (isValidChannelId(scholar.channelId)) {
       const videos = await fetchVideosFromYouTube(scholar.channelId)
       allVideos.push(...videos)
     }
@@ -115,7 +145,7 @@ export async function getVideosByScholar(scholarId: string): Promise<Video[]> {
   const apiKey = apiConfig.youtube.apiKey
   const scholar = scholars.find((s) => s.id === scholarId)
 
-  if (!apiKey || !scholar || scholar.channelId === "UC...") {
+  if (!apiKey || !scholar || !isValidChannelId(scholar.channelId)) {
     const mockVideos = getMockVideosByScholar(scholarId)
     setCache(`scholar:${scholarId}`, mockVideos)
     return mockVideos

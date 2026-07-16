@@ -98,6 +98,34 @@ export function getBookHadiths(collectionId: string, bookId: number): Hadith[] {
 }
 
 export function getAllHadiths(collectionId: string): Hadith[] {
+  // Prefer combined file (faster single read)
+  const combinedPath = path.join(DATA_DIR, collectionId, `${collectionId}-all.json`)
+  if (fs.existsSync(combinedPath)) {
+    const data = fs.readFileSync(combinedPath, "utf-8")
+    const raw = JSON.parse(data)
+    return raw.map((h: any) => ({
+      id: `${collectionId}-${h.number}`,
+      collection: collectionId,
+      bookId: h.bookId,
+      bookName: h.bookName,
+      chapterId: h.chapterId,
+      chapterName: h.chapterName,
+      hadithNumber: h.number,
+      arabic: h.arabic,
+      english: h.english,
+      narrator: h.narrator,
+      grade: h.grade,
+      reference: {
+        collection: collectionId === "bukhari" ? "Sahih al-Bukhari" : "Sahih Muslim",
+        book: h.bookName,
+        hadithNumber: h.number,
+        bookNumber: h.bookId,
+      },
+      tags: [],
+    }))
+  }
+
+  // Fallback to per-book files
   const meta = readCollectionMeta(collectionId)
   if (!meta) return []
   const bookIds = Object.keys(meta.books).map(Number)
@@ -112,6 +140,14 @@ export function getAllHadiths(collectionId: string): Hadith[] {
 export function getHadithById(id: string): Hadith | null {
   const [collection, num] = id.split("-")
   const numId = Number(num)
+
+  // Use combined file if available
+  const combinedPath = path.join(DATA_DIR, collection, `${collection}-all.json`)
+  if (fs.existsSync(combinedPath)) {
+    const all = getAllHadiths(collection)
+    return all.find((h) => h.hadithNumber === numId) || null
+  }
+
   const meta = readCollectionMeta(collection)
   if (!meta) return null
   const bookIds = Object.keys(meta.books).map(Number)

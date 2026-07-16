@@ -1,5 +1,6 @@
 import fs from "node:fs"
 import path from "node:path"
+import Fuse from "fuse.js"
 
 const CDN = "https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1"
 const OUTPUT_DIR = path.resolve("public/data/hadith")
@@ -195,9 +196,66 @@ async function main() {
       }
 
       console.log(`  ✓ Saved ${totalSaved} hadiths across ${Object.keys(groupedByBook).length} books`)
+
+      // Save combined file for client-side search (no pretty-print to minimize size)
+      const allForCollection = Object.values(groupedByBook).flat()
+      fs.writeFileSync(
+        path.join(dir, `${collection.id}-all.json`),
+        JSON.stringify(allForCollection),
+      )
+      console.log(`  ✓ Saved ${collection.id}-all.json (${allForCollection.length} hadiths)`)
+
+      // Build and save pre-computed Fuse.js search indexes
+      const hadithIndex = Fuse.createIndex(
+        [
+          { name: "english", weight: 1 },
+          { name: "arabic", weight: 0.6 },
+          { name: "narrator", weight: 0.4 },
+          { name: "bookName", weight: 0.3 },
+        ],
+        allForCollection,
+      )
+      fs.writeFileSync(
+        path.join(dir, `${collection.id}-search-index.json`),
+        JSON.stringify(hadithIndex.toJSON()),
+      )
+      console.log(`  ✓ Saved ${collection.id}-search-index.json`)
     } catch (err) {
       console.error(`  ✗ Failed to fetch: ${err instanceof Error ? err.message : err}`)
     }
+  }
+
+  // Build combined hadith file + search index for all collections (used by client-side search)
+  let allHadithsCombined: any[] = []
+  for (const collection of COLLECTIONS) {
+    const combinedPath = path.join(OUTPUT_DIR, collection.id, `${collection.id}-all.json`)
+    if (fs.existsSync(combinedPath)) {
+      const data = JSON.parse(fs.readFileSync(combinedPath, "utf-8"))
+      allHadithsCombined.push(...data.map((h: any) => ({ ...h, collection: collection.id })))
+    }
+  }
+
+  if (allHadithsCombined.length > 0) {
+    fs.writeFileSync(
+      path.join(OUTPUT_DIR, "hadith-all.json"),
+      JSON.stringify(allHadithsCombined),
+    )
+    console.log(`  ✓ Saved hadith-all.json (${allHadithsCombined.length} hadiths from all collections)`)
+
+    const combinedIndex = Fuse.createIndex(
+      [
+        { name: "english", weight: 1 },
+        { name: "arabic", weight: 0.6 },
+        { name: "narrator", weight: 0.4 },
+        { name: "bookName", weight: 0.3 },
+      ],
+      allHadithsCombined,
+    )
+    fs.writeFileSync(
+      path.join(OUTPUT_DIR, "hadith-search-index.json"),
+      JSON.stringify(combinedIndex.toJSON()),
+    )
+    console.log("  ✓ Saved hadith-search-index.json")
   }
 
   console.log("\n✓ Hadith data fetch complete!\n")

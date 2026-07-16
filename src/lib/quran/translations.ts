@@ -15,6 +15,16 @@ export function getSurahAyahs(surahNumber: number): Ayah[] {
 
 export function getAllAyahs(): Ayah[] {
   if (allAyahsCache) return allAyahsCache
+
+  // Prefer combined file (faster single read)
+  const combinedPath = path.join(DATA_DIR, "quran-all.json")
+  if (fs.existsSync(combinedPath)) {
+    const data = fs.readFileSync(combinedPath, "utf-8")
+    allAyahsCache = JSON.parse(data) as Ayah[]
+    return allAyahsCache
+  }
+
+  // Fallback to per-surah files
   const ayahs: Ayah[] = []
   for (let i = 1; i <= 114; i++) {
     const surahAyahs = getSurahAyahs(i)
