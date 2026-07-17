@@ -8,26 +8,31 @@ interface SurahCardProps {
 }
 
 export function SurahCard({ surah }: SurahCardProps) {
+  const isMeccan = surah.revelationType === "meccan"
+
   return (
     <Link
       href={`/quran/${surah.number}`}
-      className="group flex items-center justify-between rounded-xl border border-border/50 bg-card p-4 transition-all duration-200 hover:border-secondary/50 hover:shadow-lg hover:shadow-secondary/5"
+      className="group flex items-center justify-between rounded-xl border border-border/20 bg-card/40 p-5 transition-all duration-300 hover:border-gold-dim/30 hover:gold-shadow"
     >
-      <div className="flex items-center gap-3">
-        <span className="flex size-10 shrink-0 items-center justify-center rounded-lg bg-secondary/10 text-sm font-medium text-secondary">
+      <div className="flex items-center gap-4">
+        <span className="flex size-11 shrink-0 items-center justify-center rounded-xl bg-gold-dim/10 text-sm font-semibold text-gold-light border border-gold-dim/20 group-hover:border-gold-dim/40 transition-colors">
           {surah.number}
         </span>
         <div>
-          <p className="font-medium text-foreground group-hover:text-secondary transition-colors">
+          <p className="font-medium text-foreground group-hover:text-gold-light transition-colors duration-300">
             {surah.name}
           </p>
-          <p className="text-xs text-muted-foreground">
-            {surah.revelationType} &middot; {surah.ayahCount} verses
-            {surah.juz.length > 0 && ` \u00b7 Juz ${surah.juz.join(", ")}`}
+          <p className="text-xs text-muted-foreground mt-0.5">
+            <span className={isMeccan ? "text-gold-dim/70" : "text-emerald/70"}>
+              {isMeccan ? "Meccan" : "Medinan"}
+            </span>
+            {" · "}{surah.ayahCount} verses
+            {surah.juz.length > 0 && ` · Juz ${surah.juz.join(", ")}`}
           </p>
         </div>
       </div>
-      <span className="text-lg font-arabic text-secondary/70">{surah.nameArabic}</span>
+      <span className="text-xl font-arabic text-gold-dim/60 group-hover:text-gold-light/80 transition-colors duration-300">{surah.nameArabic}</span>
     </Link>
   )
 }

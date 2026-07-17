@@ -117,7 +117,7 @@ export function HadithSearch({ collectionId, books }: HadithSearchProps) {
             onChange={(e) => handleSearch(e.target.value)}
             placeholder={loadingData ? "Loading hadith data..." : "Search hadith by keyword..."}
             disabled={loadingData}
-            className="w-full rounded-xl border border-border/50 bg-card px-10 py-3 text-sm text-foreground placeholder:text-muted-foreground outline-none focus:border-secondary/50 transition-colors disabled:opacity-50"
+            className="w-full rounded-xl border border-border/20 bg-card/40 px-10 py-3 text-sm text-foreground placeholder:text-muted-foreground outline-none focus:border-gold-dim/40 transition-colors disabled:opacity-50"
             aria-label="Search hadith"
           />
           {query && (
@@ -131,8 +131,8 @@ export function HadithSearch({ collectionId, books }: HadithSearchProps) {
           className={cn(
             "rounded-xl border p-3 transition-all",
             showFilters || selectedBook
-              ? "border-secondary/50 bg-secondary/10 text-secondary"
-              : "border-border/50 bg-card text-muted-foreground hover:text-foreground",
+              ? "border-gold-dim/30 bg-gold-dim/10 text-gold-light"
+              : "border-border/20 bg-card/40 text-muted-foreground hover:text-gold-dim",
           )}
           aria-label="Filter"
         >
@@ -141,7 +141,7 @@ export function HadithSearch({ collectionId, books }: HadithSearchProps) {
       </div>
 
       {showFilters && (
-        <div className="rounded-xl border border-border/50 bg-card p-4">
+        <div className="rounded-xl border border-gold-dim/15 bg-card/40 p-4">
           <p className="text-xs font-medium text-muted-foreground mb-2 uppercase tracking-wider">Book Filter</p>
           <div className="flex flex-wrap gap-1.5 max-h-40 overflow-y-auto">
             <button
@@ -149,8 +149,8 @@ export function HadithSearch({ collectionId, books }: HadithSearchProps) {
               className={cn(
                 "rounded-lg px-2.5 py-1 text-xs font-medium transition-all",
                 !selectedBook
-                  ? "bg-secondary/20 text-secondary"
-                  : "bg-surface text-muted-foreground hover:text-foreground",
+                  ? "bg-gold-dim/20 text-gold-light border border-gold-dim/20"
+                  : "bg-space-mid/20 text-muted-foreground hover:text-gold-dim border border-transparent",
               )}
             >
               All Books
@@ -162,8 +162,8 @@ export function HadithSearch({ collectionId, books }: HadithSearchProps) {
                 className={cn(
                   "rounded-lg px-2.5 py-1 text-xs font-medium transition-all",
                   selectedBook === book.id
-                    ? "bg-secondary/20 text-secondary"
-                    : "bg-surface text-muted-foreground hover:text-foreground",
+                    ? "bg-gold-dim/20 text-gold-light border border-gold-dim/20"
+                    : "bg-space-mid/20 text-muted-foreground hover:text-gold-dim border border-transparent",
                 )}
               >
                 {book.id}. {book.name.length > 25 ? book.name.slice(0, 25) + "..." : book.name}
@@ -175,14 +175,14 @@ export function HadithSearch({ collectionId, books }: HadithSearchProps) {
 
       {loadingData && (
         <div className="flex items-center justify-center gap-3 py-16">
-          <Loader2 className="size-5 animate-spin text-secondary" />
+          <Loader2 className="size-5 animate-spin text-gold-light" />
           <p className="text-sm text-muted-foreground">Loading hadith data...</p>
         </div>
       )}
 
       {!loadingData && loading && (
         <div className="flex items-center justify-center gap-3 py-8">
-          <Loader2 className="size-5 animate-spin text-secondary" />
+          <Loader2 className="size-5 animate-spin text-gold-light" />
           <p className="text-sm text-muted-foreground">Searching...</p>
         </div>
       )}

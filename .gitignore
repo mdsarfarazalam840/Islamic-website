@@ -46,3 +46,6 @@ next-env.d.ts
 install.ps1
 .superpowers/sdd/progress.md
 .superpowers/
+test*
+.opencode*
+

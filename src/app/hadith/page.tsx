@@ -14,9 +14,9 @@ export default function HadithPage() {
   return (
     <div className="mx-auto max-w-7xl px-4 sm:px-6 py-8">
       <div className="flex items-center gap-3 mb-8">
-        <MessageSquareText className="size-6 text-secondary" />
+        <MessageSquareText className="size-6 text-gold-light" />
         <div>
-          <h1 className="text-2xl font-display font-bold text-foreground">Hadith Collections</h1>
+          <h1 className="text-2xl font-display gold-gradient-text font-bold">Hadith Collections</h1>
           <p className="text-sm text-muted-foreground">Authentic sayings of the Prophet Muhammad (ﷺ)</p>
         </div>
       </div>
@@ -35,7 +35,7 @@ export default function HadithPage() {
         ))}
       </div>
 
-      <div className="mt-8 rounded-xl border border-border/50 bg-card p-6">
+      <div className="mt-8 rounded-xl border border-gold-dim/15 bg-card/40 p-6">
         <h2 className="text-lg font-display font-semibold text-foreground mb-4">
           About These Collections
         </h2>

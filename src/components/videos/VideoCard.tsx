@@ -17,41 +17,41 @@ export function VideoCard({ video, onPlay, index = 0 }: VideoCardProps) {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.4, delay: index * 0.05, ease: "easeOut" }}
-      className="group cursor-pointer rounded-xl border border-border/50 bg-card overflow-hidden transition-all duration-300 hover:border-secondary/50 hover:shadow-lg hover:shadow-secondary/5"
+      className="group cursor-pointer rounded-xl border border-border/20 bg-card/40 overflow-hidden transition-all duration-300 hover:border-gold-dim/30 hover:gold-shadow"
       onClick={() => onPlay(video)}
       role="button"
       tabIndex={0}
       onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") onPlay(video) }}
       aria-label={`Play ${video.title}`}
     >
-      <div className="relative aspect-video bg-surface overflow-hidden">
+      <div className="relative aspect-video bg-space-mid/30 overflow-hidden">
         <img
           src={video.thumbnail}
           alt={video.title}
-          className="size-full object-cover transition-transform duration-500 group-hover:scale-110"
+          className="size-full object-cover transition-transform duration-700 group-hover:scale-110"
           loading="lazy"
           onError={(e) => {
             (e.target as HTMLImageElement).src = "/images/icons/favicon.svg"
           }}
         />
-        <div className="absolute inset-0 flex items-center justify-center bg-black/0 transition-all duration-300 group-hover:bg-black/40">
-          <div className="flex size-12 items-center justify-center rounded-full bg-secondary/90 text-background opacity-0 transition-all duration-300 group-hover:opacity-100 group-hover:scale-110">
-            <Play className="size-5 fill-current ml-0.5" />
+        <div className="absolute inset-0 flex items-center justify-center bg-space-deep/0 transition-all duration-500 group-hover:bg-space-deep/50">
+          <div className="flex size-14 items-center justify-center rounded-full gold-gradient-bg text-space-deep opacity-0 transition-all duration-500 group-hover:opacity-100 group-hover:scale-110 gold-shadow-lg">
+            <Play className="size-6 fill-current ml-0.5" />
           </div>
         </div>
-        <div className="absolute bottom-2 right-2 rounded-md bg-black/80 px-2 py-0.5 text-xs text-white">
+        <div className="absolute bottom-2 right-2 rounded-md bg-space-deep/90 px-2 py-0.5 text-xs text-gold-light border border-gold-dim/20">
           {video.duration}
         </div>
-        <div className="absolute top-2 left-2 rounded-md bg-secondary/90 px-2 py-0.5 text-xs font-medium text-background">
+        <div className="absolute top-2 left-2 rounded-md bg-gold-dim/90 px-2 py-0.5 text-xs font-medium text-space-deep">
           {video.category}
         </div>
       </div>
 
-      <div className="p-3 space-y-2">
-        <h3 className="text-sm font-medium text-foreground line-clamp-2 leading-snug group-hover:text-secondary transition-colors">
+      <div className="p-4 space-y-2">
+        <h3 className="text-sm font-medium text-foreground line-clamp-2 leading-snug group-hover:text-gold-light transition-colors duration-300">
           {video.title}
         </h3>
-        <p className="text-xs text-muted-foreground">{video.scholarName}</p>
+        <p className="text-xs text-gold-dim/70">{video.scholarName}</p>
         <div className="flex items-center gap-3 text-xs text-muted-foreground">
           <span className="flex items-center gap-1">
             <Eye className="size-3" />

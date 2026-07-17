@@ -16,26 +16,11 @@ const labels: Record<Language, string> = {
   ur: "اردو",
 }
 
-export function TranslationTabs({ active, onChange, showAll = true }: TranslationTabsProps) {
+export function TranslationTabs({ active, onChange }: TranslationTabsProps) {
   const languages: Language[] = ["en", "hi", "ur"]
 
   return (
-    <div className="flex items-center gap-1 rounded-lg bg-surface p-1" role="tablist">
-      {showAll && (
-        <button
-          role="tab"
-          aria-selected={active === "en"}
-          onClick={() => onChange("en")}
-          className={cn(
-            "rounded-md px-3 py-1.5 text-xs font-medium transition-all duration-200",
-            active === "en"
-              ? "bg-secondary/20 text-secondary shadow-sm"
-              : "text-muted-foreground hover:text-foreground",
-          )}
-        >
-          {labels.en}
-        </button>
-      )}
+    <div className="flex items-center gap-1 rounded-lg bg-space-mid/20 p-1 border border-gold-dim/10" role="tablist">
       {languages.map((lang) => (
         <button
           key={lang}
@@ -43,10 +28,10 @@ export function TranslationTabs({ active, onChange, showAll = true }: Translatio
           aria-selected={active === lang}
           onClick={() => onChange(lang)}
           className={cn(
-            "rounded-md px-3 py-1.5 text-xs font-medium transition-all duration-200",
+            "rounded-md px-3 py-1.5 text-xs font-medium transition-all duration-200 flex-1",
             active === lang
-              ? "bg-secondary/20 text-secondary shadow-sm"
-              : "text-muted-foreground hover:text-foreground",
+              ? "bg-gold-dim/20 text-gold-light border border-gold-dim/20"
+              : "text-muted-foreground hover:text-gold-dim border border-transparent",
           )}
         >
           {labels[lang]}

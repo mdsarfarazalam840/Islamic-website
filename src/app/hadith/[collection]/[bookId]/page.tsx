@@ -51,20 +51,20 @@ export default async function BookPage({ params }: Props) {
     <div className="mx-auto max-w-4xl px-4 sm:px-6 py-8">
       <Link
         href={`/hadith/${collection}`}
-        className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground mb-6 transition-colors"
+        className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-gold-light mb-6 transition-colors"
       >
         <ArrowLeft className="size-4" />
         Back to books
       </Link>
 
       <div className="flex items-start gap-4 mb-8">
-        <div className="flex size-12 shrink-0 items-center justify-center rounded-xl bg-secondary/10 text-secondary">
+        <div className="flex size-12 shrink-0 items-center justify-center rounded-xl bg-gold-dim/10 text-gold-light border border-gold-dim/20">
           <BookOpen className="size-6" />
         </div>
         <div>
           <div className="flex items-center gap-2">
-            <h1 className="text-xl font-display font-bold text-foreground">{book.name}</h1>
-            <span className="rounded-lg bg-secondary/10 px-2 py-0.5 text-[10px] font-medium text-secondary">
+            <h1 className="text-xl font-display gold-gradient-text font-bold">{book.name}</h1>
+            <span className="rounded-lg bg-gold-dim/15 px-2 py-0.5 text-[10px] font-medium text-gold-light border border-gold-dim/20">
               Book {book.id}
             </span>
           </div>
@@ -75,7 +75,7 @@ export default async function BookPage({ params }: Props) {
       </div>
 
       {hadiths.length === 0 ? (
-        <div className="rounded-xl border border-border/50 bg-card p-10 text-center">
+        <div className="rounded-xl border border-gold-dim/15 bg-card/40 p-10 text-center">
           <BookOpen className="size-12 text-muted-foreground/40 mx-auto mb-4" />
           <p className="text-lg text-muted-foreground">No hadith found in this book.</p>
         </div>

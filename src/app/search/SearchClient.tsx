@@ -243,11 +243,12 @@ export function SearchClient() {
   const allLoaded = dataStatus.quran && dataStatus.hadith && dataStatus.videos
 
   return (
-    <div className="mx-auto max-w-4xl px-4 sm:px-6 py-8">
-      <div className="flex items-center gap-3 mb-6">
-        <Search className="size-6 text-secondary" />
+    <div className="mx-auto max-w-4xl px-4 sm:px-6 py-8 relative">
+      <div className="search-beam absolute inset-0 pointer-events-none" />
+      <div className="flex items-center gap-3 mb-6 relative">
+        <Search className="size-6 text-gold-light" />
         <div>
-          <h1 className="text-2xl font-display font-bold text-foreground">Search</h1>
+          <h1 className="text-2xl font-display gold-gradient-text font-bold">Search</h1>
           <p className="text-sm text-muted-foreground">
             Search across Quran, Hadith, and Videos
           </p>
@@ -294,7 +295,7 @@ export function SearchClient() {
                 className={cn(
                   "flex items-center gap-1.5 rounded-md px-3 py-1.5 text-xs font-medium transition-all",
                   activeTab === key
-                    ? "bg-secondary text-background shadow-sm"
+                    ? "gold-gradient-bg text-space-deep shadow-sm"
                     : "text-muted-foreground hover:text-foreground",
                 )}
               >
@@ -314,7 +315,7 @@ export function SearchClient() {
 
       {loadingData && (
         <div className="flex items-center justify-center gap-3 py-16">
-          <Loader2 className="size-5 animate-spin text-secondary" />
+          <Loader2 className="size-5 animate-spin text-gold-light" />
           <div>
             <p className="text-sm text-foreground">Loading search data...</p>
             <p className="text-xs text-muted-foreground mt-0.5">
@@ -328,7 +329,7 @@ export function SearchClient() {
 
       {!loadingData && loading && (
         <div className="flex items-center justify-center gap-3 py-8">
-          <Loader2 className="size-5 animate-spin text-secondary" />
+          <Loader2 className="size-5 animate-spin text-gold-light" />
           <p className="text-sm text-muted-foreground">Searching...</p>
         </div>
       )}
@@ -356,7 +357,7 @@ export function SearchClient() {
                 >
                   <div className="flex items-start justify-between gap-3 mb-2">
                     <div className="flex items-center gap-2">
-                      <span className="rounded bg-secondary/10 px-2 py-0.5 text-xs font-medium text-secondary">
+                      <span className="rounded bg-gold-dim/15 px-2 py-0.5 text-xs font-medium text-gold-light">
                         {r.ayah.surahNumber}:{r.ayah.ayahNumber}
                       </span>
                       {surah && (
@@ -381,7 +382,7 @@ export function SearchClient() {
 
             if (r.type === "hadith") {
               const h = r.hadith
-              const collectionColor = h.collection === "bukhari" ? "text-secondary" : "text-emerald"
+              const collectionColor = h.collection === "bukhari" ? "text-gold-light" : "text-emerald"
               return (
                 <Link
                   key={`hadith-${h.id}`}
@@ -436,7 +437,7 @@ export function SearchClient() {
                     </div>
                     <div className="min-w-0 flex-1">
                       <div className="flex items-start justify-between gap-2">
-                        <h3 className="text-sm font-medium text-foreground line-clamp-2 group-hover:text-secondary transition-colors">
+                        <h3 className="text-sm font-medium text-foreground line-clamp-2 group-hover:text-gold-light transition-colors">
                           {v.title}
                         </h3>
                         <ArrowRight className="size-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity shrink-0 mt-0.5" />
@@ -444,7 +445,7 @@ export function SearchClient() {
                       <p className="text-xs text-muted-foreground mt-1">{v.scholarName}</p>
                       <p className="text-xs text-muted-foreground/60 mt-0.5 line-clamp-1">{v.description}</p>
                       <div className="flex items-center gap-2 mt-1.5">
-                        <span className="rounded bg-secondary/10 px-1.5 py-0.5 text-[10px] font-medium text-secondary">
+                        <span className="rounded bg-gold-dim/15 px-1.5 py-0.5 text-[10px] font-medium text-gold-light">
                           {v.category}
                         </span>
                         {v.duration && (

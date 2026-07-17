@@ -35,19 +35,19 @@ export default async function ScholarPage({ params }: Props) {
         Back to scholars
       </Link>
 
-      <div className="flex items-start gap-4 mb-8">
-        <div className="flex size-16 shrink-0 items-center justify-center rounded-full bg-secondary/10 text-secondary text-2xl font-bold">
+      <div className="flex items-start gap-5 mb-8">
+        <div className="flex size-16 shrink-0 items-center justify-center rounded-full bg-gold-dim/10 text-gold-light text-2xl font-bold border border-gold-dim/20">
           {s.name.charAt(0)}
         </div>
         <div className="min-w-0">
-          <h1 className="text-2xl font-display font-bold text-foreground">{s.name}</h1>
-          <span className="text-sm text-muted-foreground font-arabic">{s.nameAr}</span>
+          <h1 className="text-2xl font-display gold-gradient-text font-bold">{s.name}</h1>
+          <span className="text-sm text-gold-dim/60 font-arabic">{s.nameAr}</span>
           <p className="text-muted-foreground mt-2 max-w-2xl">{s.bio}</p>
           <div className="flex flex-wrap gap-2 mt-3">
             {s.categories.map((cat) => (
               <span
                 key={cat}
-                className="rounded-full bg-secondary/10 px-3 py-0.5 text-xs font-medium text-secondary"
+                className="rounded-full bg-gold-dim/10 px-3 py-0.5 text-xs font-medium text-gold-light border border-gold-dim/20"
               >
                 {cat}
               </span>
