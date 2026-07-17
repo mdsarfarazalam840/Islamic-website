@@ -7,6 +7,7 @@ import { Menu, X, Search, BookOpen, Video, MessageSquareText, Home } from "lucid
 import { Button } from "@/components/ui/button"
 import { ThemeToggle } from "@/components/shared/ThemeToggle"
 import { cn } from "@/lib/utils"
+import { motion, AnimatePresence } from "framer-motion"
 
 const navLinks = [
   { href: "/quran", label: "Quran", icon: BookOpen },
@@ -151,58 +152,66 @@ export function Navbar() {
         )}
       </header>
 
-      {hidden && (
-        <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 hidden md:block">
-          <div
-            className="flex flex-col items-center"
-            onMouseEnter={() => setLanternOpen(true)}
-            onMouseLeave={() => setLanternOpen(false)}
+      <AnimatePresence>
+        {hidden && (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: 20 }}
+            transition={{ duration: 0.3, ease: "easeOut" }}
+            className="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 hidden md:block"
           >
-            {lanternOpen && (
-              <div
-                className="mb-3 glass-gold rounded-xl p-2 shadow-2xl min-w-40"
-              >
-                <nav className="flex flex-col gap-1">
-                  {lanternLinks.map(({ href, label, icon: Icon }) => {
-                    const isActive = pathname === href || (href !== "/" && pathname.startsWith(href))
-                    return (
-                      <Link
-                        key={href}
-                        href={href}
-                        onClick={() => setLanternOpen(false)}
-                        className={cn(
-                          "flex items-center gap-3 px-3 py-2 rounded-lg text-sm font-medium transition-colors",
-                          isActive
-                            ? "text-gold-light bg-gold-dim/15"
-                            : "text-muted-foreground hover:text-gold-light hover:bg-gold-dim/10"
-                        )}
-                      >
-                        <Icon className="size-4" />
-                        {label}
-                      </Link>
-                    )
-                  })}
-                  <div className="border-t border-gold-dim/20 pt-1 mt-1">
-                    <ThemeToggle />
-                  </div>
-                </nav>
-              </div>
-            )}
-            <button
-              onClick={() => setLanternOpen(!lanternOpen)}
-              className={cn(
-                "flex items-center justify-center size-12 rounded-full transition-all duration-300 lantern-orb",
-                "gold-gradient-bg text-space-deep shadow-lg",
-                "hover:scale-110 hover:gold-shadow-lg",
-                lanternOpen ? "scale-110 gold-shadow-lg" : ""
-              )}
-              aria-label="Navigation menu"
+            <div
+              className="flex flex-col items-center"
+              onMouseEnter={() => setLanternOpen(true)}
+              onMouseLeave={() => setLanternOpen(false)}
             >
-              <Menu className="size-5" />
-            </button>
-          </div>
-        </div>
-      )}
+              {lanternOpen && (
+                <div
+                  className="mb-3 glass-gold rounded-xl p-2 shadow-2xl min-w-40"
+                >
+                  <nav className="flex flex-col gap-1">
+                    {lanternLinks.map(({ href, label, icon: Icon }) => {
+                      const isActive = pathname === href || (href !== "/" && pathname.startsWith(href))
+                      return (
+                        <Link
+                          key={href}
+                          href={href}
+                          onClick={() => setLanternOpen(false)}
+                          className={cn(
+                            "flex items-center gap-3 px-3 py-2 rounded-lg text-sm font-medium transition-colors",
+                            isActive
+                              ? "text-gold-light bg-gold-dim/15"
+                              : "text-muted-foreground hover:text-gold-light hover:bg-gold-dim/10"
+                          )}
+                        >
+                          <Icon className="size-4" />
+                          {label}
+                        </Link>
+                      )
+                    })}
+                    <div className="border-t border-gold-dim/20 pt-1 mt-1">
+                      <ThemeToggle />
+                    </div>
+                  </nav>
+                </div>
+              )}
+              <button
+                onClick={() => setLanternOpen(!lanternOpen)}
+                className={cn(
+                  "flex items-center justify-center size-12 rounded-full transition-all duration-300 lantern-orb",
+                  "gold-gradient-bg text-space-deep shadow-lg",
+                  "hover:scale-110 hover:gold-shadow-lg",
+                  lanternOpen ? "scale-110 gold-shadow-lg" : ""
+                )}
+                aria-label="Navigation menu"
+              >
+                <Menu className="size-5" />
+              </button>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </>
   )
 }

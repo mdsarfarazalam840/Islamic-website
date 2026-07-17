@@ -49,3 +49,5 @@ install.ps1
 test*
 .opencode*
 
+docs/
+
