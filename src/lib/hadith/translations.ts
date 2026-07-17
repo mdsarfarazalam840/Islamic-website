@@ -1,12 +1,13 @@
 import fs from "node:fs"
 import path from "node:path"
-import type { Hadith } from "@/types"
+import type { Hadith, HadithCollectionId } from "@/types"
+import { getCollectionDisplayName } from "./collections"
 
 const DATA_DIR = path.join(process.cwd(), "public", "data", "hadith")
 
 export interface HadithBookMeta {
   id: number
-  collection: "bukhari" | "muslim"
+  collection: HadithCollectionId
   name: string
   hadithCount: number
 }
@@ -36,7 +37,7 @@ function readBookHadiths(collectionId: string, bookId: number): Hadith[] {
   const raw = JSON.parse(data)
   return raw.map((h: any) => ({
     id: `${collectionId}-${h.number}`,
-    collection: collectionId,
+    collection: collectionId as HadithCollectionId,
     bookId: h.bookId,
     bookName: h.bookName,
     chapterId: h.chapterId,
@@ -44,10 +45,11 @@ function readBookHadiths(collectionId: string, bookId: number): Hadith[] {
     hadithNumber: h.number,
     arabic: h.arabic,
     english: h.english,
+    urdu: h.urdu ?? "",
     narrator: h.narrator,
     grade: h.grade,
     reference: {
-      collection: collectionId === "bukhari" ? "Sahih al-Bukhari" : "Sahih Muslim",
+      collection: getCollectionDisplayName(collectionId),
       book: h.bookName,
       hadithNumber: h.number,
       bookNumber: h.bookId,
@@ -58,8 +60,11 @@ function readBookHadiths(collectionId: string, bookId: number): Hadith[] {
 
 export function getCollections(): HadithCollectionMeta[] {
   const collections: HadithCollectionMeta[] = []
-  for (const id of ["bukhari", "muslim"]) {
-    const meta = readCollectionMeta(id)
+  if (!fs.existsSync(DATA_DIR)) return collections
+  const dirs = fs.readdirSync(DATA_DIR, { withFileTypes: true })
+    .filter((d) => d.isDirectory() && !d.name.startsWith("."))
+  for (const dir of dirs) {
+    const meta = readCollectionMeta(dir.name)
     if (meta) collections.push(meta)
   }
   return collections
@@ -83,7 +88,7 @@ export function getBooksForCollection(collectionId: string): HadithBookMeta[] {
     const name = meta?.books?.[bookId.toString()] ?? `Book ${bookId}`
     books.push({
       id: bookId,
-      collection: collectionId as "bukhari" | "muslim",
+      collection: collectionId as HadithCollectionId,
       name,
       hadithCount: hadiths.length,
     })
@@ -98,14 +103,13 @@ export function getBookHadiths(collectionId: string, bookId: number): Hadith[] {
 }
 
 export function getAllHadiths(collectionId: string): Hadith[] {
-  // Prefer combined file (faster single read)
   const combinedPath = path.join(DATA_DIR, collectionId, `${collectionId}-all.json`)
   if (fs.existsSync(combinedPath)) {
     const data = fs.readFileSync(combinedPath, "utf-8")
     const raw = JSON.parse(data)
     return raw.map((h: any) => ({
       id: `${collectionId}-${h.number}`,
-      collection: collectionId,
+      collection: collectionId as HadithCollectionId,
       bookId: h.bookId,
       bookName: h.bookName,
       chapterId: h.chapterId,
@@ -113,10 +117,11 @@ export function getAllHadiths(collectionId: string): Hadith[] {
       hadithNumber: h.number,
       arabic: h.arabic,
       english: h.english,
+      urdu: h.urdu ?? "",
       narrator: h.narrator,
       grade: h.grade,
       reference: {
-        collection: collectionId === "bukhari" ? "Sahih al-Bukhari" : "Sahih Muslim",
+        collection: getCollectionDisplayName(collectionId),
         book: h.bookName,
         hadithNumber: h.number,
         bookNumber: h.bookId,
@@ -125,7 +130,6 @@ export function getAllHadiths(collectionId: string): Hadith[] {
     }))
   }
 
-  // Fallback to per-book files
   const meta = readCollectionMeta(collectionId)
   if (!meta) return []
   const bookIds = Object.keys(meta.books).map(Number)
@@ -141,7 +145,6 @@ export function getHadithById(id: string): Hadith | null {
   const [collection, num] = id.split("-")
   const numId = Number(num)
 
-  // Use combined file if available
   const combinedPath = path.join(DATA_DIR, collection, `${collection}-all.json`)
   if (fs.existsSync(combinedPath)) {
     const all = getAllHadiths(collection)

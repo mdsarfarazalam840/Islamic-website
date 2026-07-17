@@ -10,6 +10,7 @@ import { TranslationTabs } from "./TranslationTabs"
 import { JuzNavigator } from "./JuzNavigator"
 import { getAllSurahs } from "@/lib/quran/surahs"
 import { cn } from "@/lib/utils"
+import { useFontSize, getFontSizeClass } from "@/hooks/useFontSize"
 
 interface QuranReaderProps {
   surah: Surah
@@ -22,6 +23,7 @@ export function QuranReader({ surah, ayahs }: QuranReaderProps) {
   const [translationLang, setTranslationLang] = useState<TranslationLang>("en")
   const [showTranslation, setShowTranslation] = useState(true)
   const [currentJuz, setCurrentJuz] = useState<number>(ayahs[0]?.juz ?? 1)
+  const { level } = useFontSize()
 
   const juzBoundaries = useMemo(() => {
     const boundaries: { juz: number; ayahNumber: number }[] = []
@@ -108,7 +110,7 @@ export function QuranReader({ surah, ayahs }: QuranReaderProps) {
       <div className="space-y-6 lg:order-2 order-2">
         {/* Surah header */}
         <div className="text-center py-8 border-b border-gold-dim/10">
-          <h2 className="text-3xl md:text-4xl font-arabic text-gold-light leading-[2.2]" dir="rtl">
+          <h2 className={cn("font-arabic text-gold-light leading-[2.2]", getFontSizeClass(level, "quranArabic"))} dir="rtl">
             {surah.nameArabic}
           </h2>
           <p className="text-lg font-display text-foreground mt-2 font-semibold">
@@ -122,8 +124,8 @@ export function QuranReader({ surah, ayahs }: QuranReaderProps) {
         {/* Basmala */}
         {surah.number !== 1 && surah.number !== 9 && (
           <div className="text-center py-6">
-            <p className="text-2xl md:text-3xl font-arabic text-gold-dim/70 leading-[2.2]" dir="rtl">
-              بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+            <p className={cn("font-arabic text-gold-dim/70 leading-[2.2]", getFontSizeClass(level, "quranArabic"))} dir="rtl">
+              بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
             </p>
             <hr className="gold-divider mt-4" />
           </div>

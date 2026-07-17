@@ -5,7 +5,7 @@ import { getCollections } from "@/lib/hadith/translations"
 
 export const metadata: Metadata = {
   title: "Hadith Collections — Noor",
-  description: "Explore authentic Hadith collections — Sahih al-Bukhari and Sahih Muslim.",
+  description: "Explore authentic Hadith collections — the six canonical books (Kutub as-Sittah) and more.",
 }
 
 export default function HadithPage() {
@@ -21,7 +21,7 @@ export default function HadithPage() {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {collections.map((collection) => (
           <CollectionCard
             key={collection.id}
@@ -53,6 +53,15 @@ export default function HadithPage() {
             <strong className="text-foreground">Sahih Muslim</strong> is the second most authentic collection,
             compiled by Imam Muslim. It shares ~2,000 hadith with Bukhari but includes unique narrations
             with different chains of transmission.
+          </p>
+          <p>
+            The <strong className="text-foreground">Sunan books</strong> (Abu Dawud, Tirmidhi, Nasa&apos;i, Ibn Majah)
+            complement the two Sahihs by organizing hadith according to Islamic jurisprudence (fiqh),
+            covering topics of daily practice, legal rulings, and ethics.
+          </p>
+          <p>
+            <strong className="text-foreground">Muwatta Malik</strong>, compiled by Imam Malik ibn Anas,
+            is one of the earliest hadith collections and forms the foundation of the Maliki school of jurisprudence.
           </p>
         </div>
       </div>

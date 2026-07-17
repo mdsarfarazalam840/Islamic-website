@@ -5,11 +5,15 @@ import { ArrowLeft, BookOpen, BookMarked, Search } from "lucide-react"
 import { getCollection, getBooksForCollection } from "@/lib/hadith/translations"
 import { HadithSearch } from "@/components/hadith/HadithSearch"
 
+import type { HadithCollectionId } from "@/types"
+
 interface Props {
   params: Promise<{ collection: string }>
 }
 
-const validCollections = ["bukhari", "muslim"]
+const validCollections: HadithCollectionId[] = [
+  "bukhari", "muslim", "abudawud", "tirmidhi", "nasai", "ibnmajah", "malik",
+]
 
 export function generateStaticParams() {
   return validCollections.map((collection) => ({ collection }))

@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 import type { Ayah, Surah } from "@/types"
 import { AyahActions } from "./AyahActions"
 import { cn } from "@/lib/utils"
+import { useFontSize, getFontSizeClass } from "@/hooks/useFontSize"
 
 interface AyahDisplayProps {
   ayah: Ayah
@@ -15,6 +16,7 @@ interface AyahDisplayProps {
 
 export function AyahDisplay({ ayah, surah, translationLang, showTranslation, index }: AyahDisplayProps) {
   const isFirstAyah = ayah.ayahNumber === 1 && index === 0
+  const { level } = useFontSize()
 
   return (
     <motion.div
@@ -42,7 +44,7 @@ export function AyahDisplay({ ayah, surah, translationLang, showTranslation, ind
           <p
             className={cn(
               "font-arabic text-foreground leading-[2.2]",
-              isFirstAyah ? "text-3xl md:text-4xl" : "text-2xl md:text-3xl"
+              getFontSizeClass(level, "quranArabic"),
             )}
             dir="rtl"
           >
@@ -60,7 +62,7 @@ export function AyahDisplay({ ayah, surah, translationLang, showTranslation, ind
 
         {showTranslation && (
           <div className="mt-4 border-t border-gold-dim/10 pt-4">
-            <p className="text-sm leading-relaxed text-muted-foreground">
+            <p className={cn("leading-relaxed text-muted-foreground", getFontSizeClass(level, "translation"))}>
               {ayah.translations[translationLang] || "Translation not available"}
             </p>
           </div>

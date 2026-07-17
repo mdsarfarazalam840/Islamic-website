@@ -1,4 +1,5 @@
 import type { Hadith } from "@/types"
+import { COLLECTION_DISPLAY_NAMES } from "@/lib/hadith/collections"
 
 function getCollectionDir(collection: string) {
   return `/data/hadith/${collection}`
@@ -7,7 +8,7 @@ function getCollectionDir(collection: string) {
 function transformHadith(h: any, collection: string): Hadith {
   return {
     id: `${collection}-${h.number}`,
-    collection: collection as "bukhari" | "muslim",
+    collection: collection as Hadith["collection"],
     bookId: h.bookId,
     bookName: h.bookName,
     chapterId: h.chapterId,
@@ -15,10 +16,11 @@ function transformHadith(h: any, collection: string): Hadith {
     hadithNumber: h.number,
     arabic: h.arabic || "",
     english: h.english || "",
+    urdu: h.urdu || "",
     narrator: h.narrator || "",
     grade: h.grade || "",
     reference: {
-      collection: collection === "bukhari" ? "Sahih al-Bukhari" : "Sahih Muslim",
+      collection: COLLECTION_DISPLAY_NAMES[collection as keyof typeof COLLECTION_DISPLAY_NAMES] ?? collection,
       book: h.bookName,
       hadithNumber: h.number,
       bookNumber: h.bookId,
@@ -41,7 +43,6 @@ export async function loadHadithCollectionMeta(collection: string): Promise<{
 }
 
 export async function loadCollectionHadiths(collection: string): Promise<Hadith[]> {
-  // Prefer combined file (single fetch)
   try {
     const res = await fetch(`${getCollectionDir(collection)}/${collection}-all.json`)
     if (res.ok) {
@@ -52,7 +53,6 @@ export async function loadCollectionHadiths(collection: string): Promise<Hadith[
     // Fall through to book-by-book loading
   }
 
-  // Fallback: load from individual book files (batched)
   const meta = await loadHadithCollectionMeta(collection)
   if (!meta) return []
 
@@ -79,10 +79,11 @@ export async function loadCollectionHadiths(collection: string): Promise<Hadith[
   return all
 }
 
+const ALL_COLLECTIONS = ["bukhari", "muslim", "abudawud", "tirmidhi", "nasai", "ibnmajah", "malik"]
+
 export async function loadAllHadiths(): Promise<Hadith[]> {
-  const [bukhari, muslim] = await Promise.all([
-    loadCollectionHadiths("bukhari"),
-    loadCollectionHadiths("muslim"),
-  ])
-  return [...bukhari, ...muslim]
+  const results = await Promise.all(
+    ALL_COLLECTIONS.map((c) => loadCollectionHadiths(c)),
+  )
+  return results.flat()
 }

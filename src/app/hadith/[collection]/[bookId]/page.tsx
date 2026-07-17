@@ -4,12 +4,17 @@ import { notFound } from "next/navigation"
 import { ArrowLeft, BookOpen } from "lucide-react"
 import { getCollection, getBookHadiths, getBooksForCollection } from "@/lib/hadith/translations"
 import { HadithCard } from "@/components/hadith/HadithCard"
+import { FontSizeControls } from "@/components/shared/FontSizeControls"
+
+import type { HadithCollectionId } from "@/types"
 
 interface Props {
   params: Promise<{ collection: string; bookId: string }>
 }
 
-const validCollections = ["bukhari", "muslim"]
+const validCollections: HadithCollectionId[] = [
+  "bukhari", "muslim", "abudawud", "tirmidhi", "nasai", "ibnmajah", "malik",
+]
 
 export async function generateStaticParams() {
   const params: { collection: string; bookId: string }[] = []
@@ -37,7 +42,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function BookPage({ params }: Props) {
   const { collection, bookId } = await params
 
-  if (!validCollections.includes(collection)) notFound()
+  if (!validCollections.includes(collection as HadithCollectionId)) notFound()
   const meta = getCollection(collection)
   if (!meta) notFound()
 
@@ -86,6 +91,8 @@ export default async function BookPage({ params }: Props) {
           ))}
         </div>
       )}
+
+      <FontSizeControls />
     </div>
   )
 }

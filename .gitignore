@@ -48,6 +48,6 @@ install.ps1
 .superpowers/
 test*
 .opencode*
-
+graphify*
 docs/
 

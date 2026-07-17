@@ -5,6 +5,7 @@ import { Bookmark, Copy, Check, Quote } from "lucide-react"
 import { useState, useCallback } from "react"
 import { cn } from "@/lib/utils"
 import { useBookmarks } from "@/hooks/useBookmarks"
+import { useFontSize, getFontSizeClass } from "@/hooks/useFontSize"
 import { getGradeColor, getGradeBadge } from "@/lib/hadith/references"
 import type { Hadith } from "@/types"
 
@@ -43,6 +44,7 @@ function SanadChain({ narrators }: { narrators?: string }) {
 
 export function HadithCard({ hadith, index = 0 }: HadithCardProps) {
   const { isBookmarked, toggleBookmark } = useBookmarks()
+  const { level } = useFontSize()
   const [copied, setCopied] = useState(false)
 
   const bookmarkId = `hadith-${hadith.id}`
@@ -50,7 +52,9 @@ export function HadithCard({ hadith, index = 0 }: HadithCardProps) {
   const gradeColor = getGradeColor(hadith.grade)
 
   const handleCopy = useCallback(async () => {
-    const text = `${hadith.english}\n\n— ${hadith.reference.collection}, ${hadith.reference.book} (Hadith ${hadith.hadithNumber})${hadith.narrator ? `\nNarrated by ${hadith.narrator}` : ""}${hadith.grade ? `\nGrade: ${hadith.grade}` : ""}`
+    const parts = [hadith.english]
+    if (hadith.urdu) parts.push(hadith.urdu)
+    const text = `${parts.join("\n\n")}\n\n— ${hadith.reference.collection}, ${hadith.reference.book} (Hadith ${hadith.hadithNumber})${hadith.narrator ? `\nNarrated by ${hadith.narrator}` : ""}${hadith.grade ? `\nGrade: ${hadith.grade}` : ""}`
     try {
       await navigator.clipboard.writeText(text)
       setCopied(true)
@@ -128,7 +132,7 @@ export function HadithCard({ hadith, index = 0 }: HadithCardProps) {
       )}
 
       {hadith.arabic && (
-        <p className="text-xl leading-[2.2] font-arabic text-foreground mb-3 text-right" dir="rtl">
+        <p className={cn("leading-[2.2] font-arabic text-foreground mb-3 text-right", getFontSizeClass(level, "hadithArabic"))} dir="rtl">
           {hadith.arabic}
         </p>
       )}
@@ -141,9 +145,15 @@ export function HadithCard({ hadith, index = 0 }: HadithCardProps) {
         </p>
       )}
 
-      <p className="text-sm leading-relaxed text-foreground/90">
+      <p className={cn("leading-relaxed text-foreground/90", getFontSizeClass(level, "translation"))}>
         {hadith.english}
       </p>
+
+      {hadith.urdu && (
+        <p className={cn("leading-relaxed text-foreground/80 mt-3 pt-3 border-t border-border/10 font-arabic", getFontSizeClass(level, "translation"))} dir="rtl">
+          {hadith.urdu}
+        </p>
+      )}
 
       <div className="mt-3 pt-3 border-t border-gold-dim/10 flex flex-wrap gap-x-4 gap-y-1 text-[11px] text-muted-foreground">
         <span>{hadith.reference.collection}</span>

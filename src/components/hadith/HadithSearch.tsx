@@ -5,6 +5,7 @@ import { Search, Loader2, X, Filter } from "lucide-react"
 import Fuse from "fuse.js"
 import { HadithCard } from "./HadithCard"
 import { cn } from "@/lib/utils"
+import { COLLECTION_DISPLAY_NAMES } from "@/lib/hadith/collections"
 import type { Hadith, HadithBook } from "@/types"
 
 interface HadithSearchProps {
@@ -40,10 +41,11 @@ export function HadithSearch({ collectionId, books }: HadithSearchProps) {
             hadithNumber: h.number,
             arabic: h.arabic,
             english: h.english,
+            urdu: h.urdu ?? "",
             narrator: h.narrator,
             grade: h.grade,
             reference: {
-              collection: collectionId === "bukhari" ? "Sahih al-Bukhari" : "Sahih Muslim",
+              collection: COLLECTION_DISPLAY_NAMES[collectionId as keyof typeof COLLECTION_DISPLAY_NAMES] ?? collectionId,
               book: h.bookName,
               hadithNumber: h.number,
               bookNumber: h.bookId,

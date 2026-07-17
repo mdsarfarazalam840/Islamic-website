@@ -6,6 +6,7 @@ import Fuse from "fuse.js"
 import Link from "next/link"
 import { cn } from "@/lib/utils"
 import { getAllSurahs } from "@/lib/quran/surahs"
+import { COLLECTION_DISPLAY_NAMES } from "@/lib/hadith/collections"
 import { loadAllHadiths } from "./hadithData"
 import { loadVideosForSearch } from "./videoData"
 import type { Ayah, Surah, Hadith, Video as VideoType } from "@/types"
@@ -135,10 +136,11 @@ export function SearchClient() {
             hadithNumber: h.number,
             arabic: h.arabic || "",
             english: h.english || "",
+            urdu: h.urdu || "",
             narrator: h.narrator || "",
             grade: h.grade || "",
             reference: {
-              collection: h.collection === "bukhari" ? "Sahih al-Bukhari" : "Sahih Muslim",
+              collection: COLLECTION_DISPLAY_NAMES[h.collection as keyof typeof COLLECTION_DISPLAY_NAMES] ?? h.collection,
               book: h.bookName || "",
               hadithNumber: h.number,
               bookNumber: h.bookId,
