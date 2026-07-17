@@ -51,7 +51,7 @@ export function QuranReader({ surah, ayahs }: QuranReaderProps) {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-[280px_1fr_260px] gap-6">
       {/* Left Panel — Navigation & Surah Info */}
-      <div className="space-y-4 lg:sticky lg:top-24 lg:self-start lg:order-1 order-2">
+      <div className="space-y-4 lg:sticky lg:top-24 lg:self-start lg:order-1 order-3">
         <div className="rounded-xl border border-gold-dim/15 bg-card/50 p-4">
           <div className="flex items-center gap-2 mb-3">
             <BookOpen className="size-4 text-gold-light" />
@@ -105,7 +105,7 @@ export function QuranReader({ surah, ayahs }: QuranReaderProps) {
       </div>
 
       {/* Center Panel — Arabic Text (Sacred Scroll) */}
-      <div className="space-y-6 lg:order-2 order-1">
+      <div className="space-y-6 lg:order-2 order-2">
         {/* Surah header */}
         <div className="text-center py-8 border-b border-gold-dim/10">
           <h2 className="text-3xl md:text-4xl font-arabic text-gold-light leading-[2.2]" dir="rtl">
@@ -152,7 +152,7 @@ export function QuranReader({ surah, ayahs }: QuranReaderProps) {
       </div>
 
       {/* Right Panel — Translations & Controls */}
-      <div className="space-y-4 lg:sticky lg:top-24 lg:self-start lg:order-3 order-3">
+      <div className="space-y-4 lg:sticky lg:top-24 lg:self-start lg:order-3 order-1">
         <div className="rounded-xl border border-gold-dim/15 bg-card/50 p-4">
           <div className="flex items-center justify-between mb-3">
             <span className="text-xs font-medium text-gold-light uppercase tracking-wider flex items-center gap-1.5">
