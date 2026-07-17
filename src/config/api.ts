@@ -5,7 +5,7 @@ export const apiConfig = {
       arabic: "quran-uthmani",
       english: "en.ahmedali",
       hindi: "hi.hindi",
-      urdu: "ur.urdu",
+      urdu: "ur.jalandhry",
     },
   },
   hadith: {

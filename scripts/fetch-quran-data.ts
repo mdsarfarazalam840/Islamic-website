@@ -134,7 +134,7 @@ async function main() {
   const editions: { key: string; file: string }[] = [
     { key: "en.ahmedali", file: "en.ahmedali.json" },
     { key: "hi.hindi", file: "hi.hindi.json" },
-    { key: "ur.urdu", file: "ur.urdu.json" },
+    { key: "ur.jalandhry", file: "ur.jalandhry.json" },
   ]
 
   const arabicData = await fetchArabic()

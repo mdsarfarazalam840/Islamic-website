@@ -153,27 +153,14 @@ export function Navbar() {
 
       {hidden && (
         <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 hidden md:block">
-          <div className="relative">
-            <button
-              onClick={() => setLanternOpen(!lanternOpen)}
-              onMouseEnter={() => setLanternOpen(true)}
-              onMouseLeave={() => setLanternOpen(false)}
-              className={cn(
-                "flex items-center justify-center size-12 rounded-full transition-all duration-300 lantern-orb",
-                "gold-gradient-bg text-space-deep shadow-lg",
-                "hover:scale-110 hover:gold-shadow-lg",
-                lanternOpen ? "scale-110 gold-shadow-lg" : ""
-              )}
-              aria-label="Navigation menu"
-            >
-              <Menu className="size-5" />
-            </button>
-
+          <div
+            className="flex flex-col items-center"
+            onMouseEnter={() => setLanternOpen(true)}
+            onMouseLeave={() => setLanternOpen(false)}
+          >
             {lanternOpen && (
               <div
-                className="absolute bottom-16 left-1/2 -translate-x-1/2 glass-gold rounded-xl p-2 shadow-2xl min-w-40"
-                onMouseEnter={() => setLanternOpen(true)}
-                onMouseLeave={() => setLanternOpen(false)}
+                className="mb-3 glass-gold rounded-xl p-2 shadow-2xl min-w-40"
               >
                 <nav className="flex flex-col gap-1">
                   {lanternLinks.map(({ href, label, icon: Icon }) => {
@@ -201,6 +188,18 @@ export function Navbar() {
                 </nav>
               </div>
             )}
+            <button
+              onClick={() => setLanternOpen(!lanternOpen)}
+              className={cn(
+                "flex items-center justify-center size-12 rounded-full transition-all duration-300 lantern-orb",
+                "gold-gradient-bg text-space-deep shadow-lg",
+                "hover:scale-110 hover:gold-shadow-lg",
+                lanternOpen ? "scale-110 gold-shadow-lg" : ""
+              )}
+              aria-label="Navigation menu"
+            >
+              <Menu className="size-5" />
+            </button>
           </div>
         </div>
       )}
