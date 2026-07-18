@@ -1,6 +1,5 @@
 import fs from "node:fs"
 import path from "node:path"
-import Fuse from "fuse.js"
 
 const CDN = "https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1"
 const OUTPUT_DIR = path.resolve("public/data/hadith")
@@ -295,23 +294,6 @@ async function main() {
         JSON.stringify(allForCollection),
       )
       console.log(`  ✓ Saved ${collection.id}-all.json (${allForCollection.length} hadiths)`)
-
-      // Build and save pre-computed Fuse.js search indexes
-      const hadithIndex = Fuse.createIndex(
-        [
-          { name: "english", weight: 1 },
-          { name: "arabic", weight: 0.6 },
-          { name: "urdu", weight: 0.5 },
-          { name: "narrator", weight: 0.4 },
-          { name: "bookName", weight: 0.3 },
-        ],
-        allForCollection,
-      )
-      fs.writeFileSync(
-        path.join(dir, `${collection.id}-search-index.json`),
-        JSON.stringify(hadithIndex.toJSON()),
-      )
-      console.log(`  ✓ Saved ${collection.id}-search-index.json`)
     } catch (err) {
       console.error(`  ✗ Failed to fetch: ${err instanceof Error ? err.message : err}`)
     }
@@ -333,22 +315,6 @@ async function main() {
       JSON.stringify(allHadithsCombined),
     )
     console.log(`  ✓ Saved hadith-all.json (${allHadithsCombined.length} hadiths from all collections)`)
-
-    const combinedIndex = Fuse.createIndex(
-      [
-        { name: "english", weight: 1 },
-        { name: "arabic", weight: 0.6 },
-        { name: "urdu", weight: 0.5 },
-        { name: "narrator", weight: 0.4 },
-        { name: "bookName", weight: 0.3 },
-      ],
-      allHadithsCombined,
-    )
-    fs.writeFileSync(
-      path.join(OUTPUT_DIR, "hadith-search-index.json"),
-      JSON.stringify(combinedIndex.toJSON()),
-    )
-    console.log("  ✓ Saved hadith-search-index.json")
   }
 
   console.log("\n✓ Hadith data fetch complete!\n")

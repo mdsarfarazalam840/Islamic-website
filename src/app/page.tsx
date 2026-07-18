@@ -16,11 +16,11 @@ const quickLinks = [
   },
   {
     title: "Hadith",
-    description: "Explore Sahih Bukhari and Sahih Muslim collections",
+    description: "Explore 7 authentic Hadith collections",
     icon: MessageSquareText,
     href: "/hadith",
     gradient: "from-emerald/20 to-emerald/5",
-    stats: "Bukhari · Muslim",
+    stats: "7 Collections · 36,000+ Hadiths",
   },
   {
     title: "Videos",
@@ -156,7 +156,7 @@ export default function HomePage() {
                 Authentic sayings of the Prophet (PBUH)
               </p>
               <p className="text-xs text-gold-dim/60 mt-2">
-                Sahih Bukhari &middot; Sahih Muslim
+                Kutub as-Sittah &middot; Muwatta Malik
               </p>
             </div>
             <div className="text-center group">

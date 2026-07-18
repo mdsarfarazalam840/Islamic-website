@@ -14,7 +14,7 @@ const features = [
   },
   {
     title: "Hadith",
-    description: "Authentic Hadith collections including Sahih al-Bukhari and Sahih Muslim.",
+    description: "Authentic Hadith collections — the six canonical books (Kutub as-Sittah) and Muwatta Malik.",
     icon: Library,
   },
   {

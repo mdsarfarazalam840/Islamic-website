@@ -9,7 +9,7 @@ import { getAllSurahs } from "@/lib/quran/surahs"
 import { COLLECTION_DISPLAY_NAMES } from "@/lib/hadith/collections"
 import { loadAllHadiths } from "./hadithData"
 import { loadVideosForSearch } from "./videoData"
-import type { Ayah, Surah, Hadith, Video as VideoType } from "@/types"
+import type { Ayah, Hadith, Video as VideoType } from "@/types"
 
 const QURAN_KEYS = [
   { name: "translations.en", weight: 1 },
@@ -30,6 +30,15 @@ const SEARCH_OPTIONS = {
   distance: 100,
   minMatchCharLength: 2,
   includeScore: true,
+}
+
+function useDebounce<T>(value: T, delay: number): T {
+  const [debouncedValue, setDebouncedValue] = useState(value)
+  useEffect(() => {
+    const timer = setTimeout(() => setDebouncedValue(value), delay)
+    return () => clearTimeout(timer)
+  }, [value, delay])
+  return debouncedValue
 }
 
 type ContentTab = "quran" | "hadith" | "videos"
@@ -62,8 +71,6 @@ type SearchResult = QuranResult | HadithResult | VideoResult
 
 export function SearchClient() {
   const [query, setQuery] = useState("")
-  const [results, setResults] = useState<SearchResult[]>([])
-  const [loading, setLoading] = useState(false)
   const [searched, setSearched] = useState(false)
   const [activeTab, setActiveTab] = useState<ContentTab>("quran")
   const [quranFuse, setQuranFuse] = useState<Fuse<Ayah> | null>(null)
@@ -72,6 +79,7 @@ export function SearchClient() {
   const [loadingData, setLoadingData] = useState(true)
   const [dataStatus, setDataStatus] = useState({ quran: false, hadith: false, videos: false })
   const inputRef = useRef<HTMLInputElement>(null)
+  const debouncedQuery = useDebounce(query, 300)
 
   const surahs = getAllSurahs()
   const surahMap = useMemo(() => new Map(surahs.map((s) => [s.number, s])), [surahs])
@@ -81,7 +89,7 @@ export function SearchClient() {
       setLoadingData(true)
       const status = { quran: false, hadith: false, videos: false }
 
-      // Load Quran: single combined file + pre-built search index
+      // Load Quran: single combined file + pre-built search index (fastest)
       try {
         const [ayahsRes, indexRes] = await Promise.all([
           fetch("/data/quran/quran-all.json"),
@@ -95,11 +103,16 @@ export function SearchClient() {
           const index = Fuse.parseIndex<Ayah>(indexData)
           setQuranFuse(new Fuse(allAyahs, SEARCH_OPTIONS, index))
           status.quran = true
+          setDataStatus({ ...status })
+        } else if (ayahsRes.ok) {
+          const allAyahs: Ayah[] = await ayahsRes.json()
+          setQuranFuse(new Fuse(allAyahs, { keys: QURAN_KEYS, ...SEARCH_OPTIONS }))
+          status.quran = true
+          setDataStatus({ ...status })
         }
       } catch (err) {
         console.error("Failed to load Quran data:", err)
       }
-      // Fallback: if pre-built index failed, try loading individual files
       if (!status.quran) {
         try {
           const allAyahs: Ayah[] = []
@@ -110,12 +123,13 @@ export function SearchClient() {
           }
           setQuranFuse(new Fuse(allAyahs, { keys: QURAN_KEYS, ...SEARCH_OPTIONS }))
           status.quran = true
+          setDataStatus({ ...status })
         } catch (err) {
           console.error("Failed to load Quran data (fallback):", err)
         }
       }
 
-      // Load Hadith: single combined file + pre-built search index
+      // Load Hadith: single combined file + pre-built search index (fastest)
       try {
         const [hadithRes, indexRes] = await Promise.all([
           fetch("/data/hadith/hadith-all.json"),
@@ -150,11 +164,37 @@ export function SearchClient() {
           const index = Fuse.parseIndex<Hadith>(indexData)
           setHadithFuse(new Fuse(allHadiths, SEARCH_OPTIONS, index))
           status.hadith = true
+          setDataStatus({ ...status })
+        } else if (hadithRes.ok) {
+          const allHadithsRaw = await hadithRes.json()
+          const allHadiths: Hadith[] = allHadithsRaw.map((h: any) => ({
+            id: `${h.collection}-${h.number}`,
+            collection: h.collection,
+            bookId: h.bookId,
+            bookName: h.bookName || "",
+            chapterId: h.chapterId,
+            chapterName: h.chapterName || "",
+            hadithNumber: h.number,
+            arabic: h.arabic || "",
+            english: h.english || "",
+            urdu: h.urdu || "",
+            narrator: h.narrator || "",
+            grade: h.grade || "",
+            reference: {
+              collection: COLLECTION_DISPLAY_NAMES[h.collection as keyof typeof COLLECTION_DISPLAY_NAMES] ?? h.collection,
+              book: h.bookName || "",
+              hadithNumber: h.number,
+              bookNumber: h.bookId,
+            },
+            tags: [],
+          }))
+          setHadithFuse(new Fuse(allHadiths, { keys: HADITH_KEYS, ...SEARCH_OPTIONS }))
+          status.hadith = true
+          setDataStatus({ ...status })
         }
       } catch (err) {
         console.error("Failed to load Hadith data:", err)
       }
-      // Fallback: load via individual book files
       if (!status.hadith) {
         try {
           const allHadiths = await loadAllHadiths()
@@ -162,6 +202,7 @@ export function SearchClient() {
             setHadithFuse(new Fuse(allHadiths, { keys: HADITH_KEYS, ...SEARCH_OPTIONS }))
           }
           status.hadith = true
+          setDataStatus({ ...status })
         } catch (err) {
           console.error("Failed to load Hadith data (fallback):", err)
         }
@@ -183,6 +224,7 @@ export function SearchClient() {
           )
         }
         status.videos = true
+        setDataStatus({ ...status })
       } catch (err) {
         console.error("Failed to load Video data:", err)
       }
@@ -197,52 +239,50 @@ export function SearchClient() {
     (q: string) => {
       setQuery(q)
       if (!q.trim()) {
-        setResults([])
         setSearched(false)
         return
       }
-      setLoading(true)
       setSearched(true)
-
-      const trimmed = q.trim()
-      const allResults: SearchResult[] = []
-
-      if (activeTab === "quran" && quranFuse) {
-        const raw = quranFuse.search(trimmed)
-        allResults.push(
-          ...raw.slice(0, 30).map((r) => ({ type: "quran" as const, ayah: r.item, score: r.score }))
-        )
-      }
-
-      if (activeTab === "hadith" && hadithFuse) {
-        const raw = hadithFuse.search(trimmed)
-        allResults.push(
-          ...raw.slice(0, 30).map((r) => ({ type: "hadith" as const, hadith: r.item, score: r.score }))
-        )
-      }
-
-      if (activeTab === "videos" && videoFuse) {
-        const raw = videoFuse.search(trimmed)
-        allResults.push(
-          ...raw.slice(0, 30).map((r) => ({ type: "video" as const, video: r.item, score: r.score }))
-        )
-      }
-
-      allResults.sort((a, b) => (a.score ?? 1) - (b.score ?? 1))
-      setResults(allResults.slice(0, 50))
-      setLoading(false)
     },
-    [activeTab, quranFuse, hadithFuse, videoFuse],
+    [],
   )
+
+  const results = useMemo(() => {
+    if (!debouncedQuery.trim()) return []
+
+    const trimmed = debouncedQuery.trim()
+    const allResults: SearchResult[] = []
+
+    if (activeTab === "quran" && quranFuse) {
+      const raw = quranFuse.search(trimmed)
+      allResults.push(
+        ...raw.slice(0, 30).map((r) => ({ type: "quran" as const, ayah: r.item, score: r.score }))
+      )
+    }
+
+    if (activeTab === "hadith" && hadithFuse) {
+      const raw = hadithFuse.search(trimmed)
+      allResults.push(
+        ...raw.slice(0, 30).map((r) => ({ type: "hadith" as const, hadith: r.item, score: r.score }))
+      )
+    }
+
+    if (activeTab === "videos" && videoFuse) {
+      const raw = videoFuse.search(trimmed)
+      allResults.push(
+        ...raw.slice(0, 30).map((r) => ({ type: "video" as const, video: r.item, score: r.score }))
+      )
+    }
+
+    allResults.sort((a, b) => (a.score ?? 1) - (b.score ?? 1))
+    return allResults.slice(0, 50)
+  }, [debouncedQuery, activeTab, quranFuse, hadithFuse, videoFuse])
 
   const clearSearch = () => {
     setQuery("")
-    setResults([])
     setSearched(false)
     inputRef.current?.focus()
   }
-
-  const allLoaded = dataStatus.quran && dataStatus.hadith && dataStatus.videos
 
   return (
     <div className="mx-auto max-w-4xl px-4 sm:px-6 py-8 relative">
@@ -266,13 +306,8 @@ export function SearchClient() {
             value={query}
             onChange={(e) => handleSearch(e.target.value)}
             onKeyDown={(e) => { if (e.key === "Enter") handleSearch(query) }}
-            placeholder={
-              loadingData
-                ? "Loading search data..."
-                : `Search ${activeTab} by keyword...`
-            }
-            disabled={loadingData}
-            className="w-full rounded-xl border border-border/50 bg-card px-10 py-3 text-sm text-foreground placeholder:text-muted-foreground outline-none focus:border-secondary/50 transition-colors disabled:opacity-50"
+            placeholder={`Search ${activeTab} by keyword...`}
+            className="w-full rounded-xl border border-border/50 bg-card px-10 py-3 text-sm text-foreground placeholder:text-muted-foreground outline-none focus:border-secondary/50 transition-colors"
             aria-label="Search"
           />
           {query && (
@@ -293,7 +328,7 @@ export function SearchClient() {
                 key={key}
                 role="tab"
                 aria-selected={activeTab === key}
-                onClick={() => { setActiveTab(key); if (query) handleSearch(query) }}
+                onClick={() => { setActiveTab(key) }}
                 className={cn(
                   "flex items-center gap-1.5 rounded-md px-3 py-1.5 text-xs font-medium transition-all",
                   activeTab === key
@@ -307,7 +342,7 @@ export function SearchClient() {
             ))}
           </div>
 
-          {!loadingData && allLoaded && results.length > 0 && (
+          {results.length > 0 && (
             <p className="text-xs text-muted-foreground">
               {results.length} result{results.length !== 1 ? "s" : ""}
             </p>
@@ -316,27 +351,13 @@ export function SearchClient() {
       </div>
 
       {loadingData && (
-        <div className="flex items-center justify-center gap-3 py-16">
-          <Loader2 className="size-5 animate-spin text-gold-light" />
-          <div>
-            <p className="text-sm text-foreground">Loading search data...</p>
-            <p className="text-xs text-muted-foreground mt-0.5">
-              {dataStatus.quran ? "✓" : "..."} Quran &middot;
-              {dataStatus.hadith ? " ✓" : " ..."} Hadith &middot;
-              {dataStatus.videos ? " ✓" : " ..."} Videos
-            </p>
-          </div>
+        <div className="flex items-center gap-2 py-3 text-xs text-muted-foreground">
+          <Loader2 className="size-3 animate-spin text-gold-light" />
+          <span>Loading: {dataStatus.quran ? "✓" : "..."} Quran · {dataStatus.hadith ? "✓" : "..."} Hadith · {dataStatus.videos ? "✓" : "..."} Videos</span>
         </div>
       )}
 
-      {!loadingData && loading && (
-        <div className="flex items-center justify-center gap-3 py-8">
-          <Loader2 className="size-5 animate-spin text-gold-light" />
-          <p className="text-sm text-muted-foreground">Searching...</p>
-        </div>
-      )}
-
-      {!loadingData && !loading && searched && results.length === 0 && (
+      {searched && results.length === 0 && (
         <div className="flex flex-col items-center justify-center py-16 text-center">
           <Search className="size-12 text-muted-foreground/20 mb-4" />
           <p className="text-lg font-medium text-foreground">No results found</p>
@@ -346,7 +367,7 @@ export function SearchClient() {
         </div>
       )}
 
-      {!loadingData && results.length > 0 && (
+      {results.length > 0 && (
         <div className="mt-6 space-y-3">
           {results.map((r) => {
             if (r.type === "quran") {
@@ -465,7 +486,7 @@ export function SearchClient() {
         </div>
       )}
 
-      {!loadingData && !searched && (
+      {!searched && (
         <div className="flex flex-col items-center justify-center py-16 text-center">
           <Search className="size-12 text-muted-foreground/20 mb-4" />
           <p className="text-muted-foreground text-sm">

@@ -103,33 +103,6 @@ export function getBookHadiths(collectionId: string, bookId: number): Hadith[] {
 }
 
 export function getAllHadiths(collectionId: string): Hadith[] {
-  const combinedPath = path.join(DATA_DIR, collectionId, `${collectionId}-all.json`)
-  if (fs.existsSync(combinedPath)) {
-    const data = fs.readFileSync(combinedPath, "utf-8")
-    const raw = JSON.parse(data)
-    return raw.map((h: any) => ({
-      id: `${collectionId}-${h.number}`,
-      collection: collectionId as HadithCollectionId,
-      bookId: h.bookId,
-      bookName: h.bookName,
-      chapterId: h.chapterId,
-      chapterName: h.chapterName,
-      hadithNumber: h.number,
-      arabic: h.arabic,
-      english: h.english,
-      urdu: h.urdu ?? "",
-      narrator: h.narrator,
-      grade: h.grade,
-      reference: {
-        collection: getCollectionDisplayName(collectionId),
-        book: h.bookName,
-        hadithNumber: h.number,
-        bookNumber: h.bookId,
-      },
-      tags: [],
-    }))
-  }
-
   const meta = readCollectionMeta(collectionId)
   if (!meta) return []
   const bookIds = Object.keys(meta.books).map(Number)
@@ -144,12 +117,6 @@ export function getAllHadiths(collectionId: string): Hadith[] {
 export function getHadithById(id: string): Hadith | null {
   const [collection, num] = id.split("-")
   const numId = Number(num)
-
-  const combinedPath = path.join(DATA_DIR, collection, `${collection}-all.json`)
-  if (fs.existsSync(combinedPath)) {
-    const all = getAllHadiths(collection)
-    return all.find((h) => h.hadithNumber === numId) || null
-  }
 
   const meta = readCollectionMeta(collection)
   if (!meta) return null

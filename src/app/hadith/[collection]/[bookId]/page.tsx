@@ -2,8 +2,8 @@ import type { Metadata } from "next"
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { ArrowLeft, BookOpen } from "lucide-react"
-import { getCollection, getBookHadiths, getBooksForCollection } from "@/lib/hadith/translations"
-import { HadithCard } from "@/components/hadith/HadithCard"
+import { getCollection, getBooksForCollection } from "@/lib/hadith/translations"
+import { HadithBookClient } from "@/components/hadith/HadithBookClient"
 import { FontSizeControls } from "@/components/shared/FontSizeControls"
 
 import type { HadithCollectionId } from "@/types"
@@ -50,8 +50,6 @@ export default async function BookPage({ params }: Props) {
   const book = books.find((b) => b.id === Number(bookId))
   if (!book) notFound()
 
-  const hadiths = getBookHadiths(collection, Number(bookId))
-
   return (
     <div className="mx-auto max-w-4xl px-4 sm:px-6 py-8">
       <Link
@@ -74,23 +72,16 @@ export default async function BookPage({ params }: Props) {
             </span>
           </div>
           <p className="text-sm text-muted-foreground mt-1">
-            {meta.name} &middot; {hadiths.length} hadith{hadiths.length !== 1 ? "s" : ""}
+            {meta.name} &middot; {book.hadithCount} hadith{book.hadithCount !== 1 ? "s" : ""}
           </p>
         </div>
       </div>
 
-      {hadiths.length === 0 ? (
-        <div className="rounded-xl border border-gold-dim/15 bg-card/40 p-10 text-center">
-          <BookOpen className="size-12 text-muted-foreground/40 mx-auto mb-4" />
-          <p className="text-lg text-muted-foreground">No hadith found in this book.</p>
-        </div>
-      ) : (
-        <div className="space-y-3">
-          {hadiths.map((hadith, i) => (
-            <HadithCard key={hadith.id} hadith={hadith} index={i} />
-          ))}
-        </div>
-      )}
+      <HadithBookClient
+        collection={collection as HadithCollectionId}
+        bookId={Number(bookId)}
+        totalHadiths={book.hadithCount}
+      />
 
       <FontSizeControls />
     </div>
