@@ -5,6 +5,7 @@ import { BookOpen } from "lucide-react"
 import { HadithCard } from "./HadithCard"
 import type { Hadith, HadithCollectionId } from "@/types"
 import { getCollectionDisplayName } from "@/lib/hadith/collections"
+import { assetPath } from "@/lib/utils"
 
 interface RawHadith {
   number: number
@@ -55,7 +56,7 @@ export function HadithBookClient({ collection, bookId, totalHadiths }: Props) {
   const [error, setError] = useState<string | null>(null)
 
   useEffect(() => {
-    fetch(`/data/hadith/${collection}/books/book-${bookId}.json`)
+    fetch(assetPath(`/data/hadith/${collection}/books/book-${bookId}.json`))
       .then((r) => {
         if (!r.ok) throw new Error("Failed to load hadiths")
         return r.json()

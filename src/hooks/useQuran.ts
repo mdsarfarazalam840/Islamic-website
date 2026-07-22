@@ -3,6 +3,7 @@
 import { useState, useEffect, useCallback, useRef } from "react"
 import type { Ayah, Surah } from "@/types"
 import { getAllSurahs } from "@/lib/quran/surahs"
+import { assetPath } from "@/lib/utils"
 
 export function useSurahAyahs(surahNumber: number) {
   const [ayahs, setAyahs] = useState<Ayah[]>([])
@@ -11,7 +12,7 @@ export function useSurahAyahs(surahNumber: number) {
   useEffect(() => {
     // eslint-disable-next-line react-hooks/set-state-in-effect
     setLoading(true)
-    fetch(`/data/quran/surah-${surahNumber}.json`)
+    fetch(assetPath(`/data/quran/surah-${surahNumber}.json`))
       .then((r) => r.json())
       .then((data: Ayah[]) => {
         setAyahs(data)
@@ -94,7 +95,7 @@ export function useQuran() {
     async function loadAll() {
       const fetches = surahs.map(async (surah) => {
         if (ayahCache.current.has(surah.number)) return
-        const res = await fetch(`/data/quran/surah-${surah.number}.json`)
+        const res = await fetch(assetPath(`/data/quran/surah-${surah.number}.json`))
         const data: Ayah[] = await res.json()
         ayahCache.current.set(surah.number, data)
       })

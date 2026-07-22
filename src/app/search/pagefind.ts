@@ -25,6 +25,7 @@ export interface PagefindMeta {
   // Hadith
   collection?: string
   collectionName?: string
+  bookId?: string
   book?: string
   hadithNumber?: string
   narrator?: string

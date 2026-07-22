@@ -4,7 +4,7 @@ import { useState, useCallback, useRef, useEffect } from "react"
 import { Search, Loader2, X, Filter } from "lucide-react"
 import Fuse from "fuse.js"
 import { HadithCard } from "./HadithCard"
-import { cn } from "@/lib/utils"
+import { cn, assetPath } from "@/lib/utils"
 import { COLLECTION_DISPLAY_NAMES } from "@/lib/hadith/collections"
 import type { Hadith, HadithBook } from "@/types"
 
@@ -29,7 +29,7 @@ export function HadithSearch({ collectionId, books }: HadithSearchProps) {
       try {
         const allHadiths: Hadith[] = []
         for (const book of books) {
-          const res = await fetch(`/data/hadith/${collectionId}/books/book-${book.id}.json`)
+          const res = await fetch(assetPath(`/data/hadith/${collectionId}/books/book-${book.id}.json`))
           const data = await res.json()
           const mapped: Hadith[] = data.map((h: any) => ({
             id: `${collectionId}-${h.number}`,

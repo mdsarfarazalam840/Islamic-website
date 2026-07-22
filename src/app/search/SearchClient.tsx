@@ -94,9 +94,13 @@ function pagefindToHadith(d: PagefindResultData): HadithResult | null {
   const m = d.meta
   const collection = (m.collection ?? "") as Hadith["collection"]
   const hadithNumber = Number(m.hadithNumber ?? "0")
-  // url looks like /hadith/{collection}/{bookId}#hadith-{collection}-{number}
-  const bookId = Number(d.url.split("/")[3]?.split("#")[0] ?? "0")
-  if (!collection || !hadithNumber) return null
+  // url looks like /hadith/{collection}/{bookId}#hadith-{collection}-{number}.
+  // On the subpath deploy Pagefind prepends the basePath (/<repo>/…), so a
+  // fixed segment index breaks; take the last path segment before the anchor,
+  // and prefer the bookId baked into meta when present.
+  const bookIdFromUrl = d.url.split("#")[0].split("/").filter(Boolean).pop() ?? ""
+  const bookId = Number(m.bookId ?? bookIdFromUrl ?? "0")
+  if (!collection || !hadithNumber || !Number.isFinite(bookId)) return null
   return {
     type: "hadith",
     excerpt: d.excerpt,

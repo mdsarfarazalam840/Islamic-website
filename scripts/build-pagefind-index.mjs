@@ -112,6 +112,9 @@ async function main() {
           title: `${COLLECTION_DISPLAY[col] ?? col} — Hadith ${h.number}`,
           collection: col,
           collectionName: COLLECTION_DISPLAY[col] ?? col,
+          // Bake the bookId into meta so the client never has to parse it back
+          // out of the URL (which is basePath-prefixed on the subpath deploy).
+          bookId: String(h.bookId ?? 1),
           book: h.bookName ?? "",
           hadithNumber: String(h.number),
           narrator: h.narrator ?? "",
