@@ -18,7 +18,8 @@ function getLatestTag() {
 
 function getCommitsSinceTag(tag) {
   const range = tag ? `${tag}..HEAD` : '--root';
-  const log = execSync(`git log ${range} --oneline --no-decorate`, { encoding: 'utf8' }).trim();
+  // --no-merges drops "Merge pull request …" commits, which are noise in a changelog.
+  const log = execSync(`git log ${range} --oneline --no-decorate --no-merges`, { encoding: 'utf8' }).trim();
   return log ? log.split('\n').map(line => {
     const match = line.match(/^(\S+)\s(.*)/);
     return match ? { hash: match[1], message: match[2] } : { hash: '', message: line };
@@ -92,7 +93,15 @@ function generateChangelogSection(version, commits) {
 
 function setOutput(key, value) {
   if (GITHUB_OUTPUT) {
-    fs.appendFileSync(GITHUB_OUTPUT, `${key}=${value}\n`);
+    if (/[\r\n]/.test(value)) {
+      // Multiline values must use GitHub Actions' heredoc syntax, otherwise the
+      // newlines break the key=value format. Escaping them to "\n" would make
+      // them show up literally in the release body — which is the bug we're fixing.
+      const delimiter = `EOF_${key}_${value.length}`;
+      fs.appendFileSync(GITHUB_OUTPUT, `${key}<<${delimiter}\n${value}\n${delimiter}\n`);
+    } else {
+      fs.appendFileSync(GITHUB_OUTPUT, `${key}=${value}\n`);
+    }
   }
   console.log(`${key}=${value}`);
 }
@@ -116,4 +125,4 @@ fs.writeFileSync(CHANGELOG_PATH, changelog + '\n\n' + existingChangelog);
 
 setOutput('new_version', newVersion);
 setOutput('bump_type', bumpType);
-setOutput('changelog', changelog.replace(/\n/g, '\\n'));
+setOutput('changelog', changelog);
