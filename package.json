@@ -12,9 +12,10 @@
     "lint": "eslint",
     "fetch:quran": "tsx scripts/fetch-quran-data.ts",
     "fetch:hadith": "tsx scripts/fetch-hadith-data.ts",
+    "fetch:youtube": "tsx scripts/fetch-youtube-data.ts",
     "build:search-index": "tsx scripts/build-search-indices.ts",
     "build:pagefind": "node scripts/build-pagefind-index.mjs",
-    "fetch:all": "npm run fetch:quran && npm run fetch:hadith && npm run build:search-index && npm run build:pagefind"
+    "fetch:all": "npm run fetch:quran && npm run fetch:hadith && npm run fetch:youtube && npm run build:search-index && npm run build:pagefind"
   },
   "dependencies": {
     "@base-ui/react": "^1.6.0",

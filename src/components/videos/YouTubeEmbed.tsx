@@ -46,7 +46,7 @@ export function YouTubeEmbed({ videoId, title, onClose }: YouTubeEmbedProps) {
         <div className="relative rounded-xl overflow-hidden bg-space-deep border border-gold-dim/20 shadow-2xl gold-shadow">
           <div className="relative aspect-video">
             <iframe
-              src={`https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`}
+              src={`https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&rel=0`}
               title={title}
               className="absolute inset-0 size-full"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

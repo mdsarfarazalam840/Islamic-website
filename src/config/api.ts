@@ -16,9 +16,10 @@ export const apiConfig = {
     },
   },
   youtube: {
-    // The API key is intentionally NOT here. It lives only on the Cloudflare
-    // Pages Function (functions/api/youtube.ts) as a server-side env var so it
-    // never ships to the browser. The client fetches via the /api/youtube proxy.
+    // Real video data is pre-generated at build time from each channel's public
+    // RSS feed (scripts/fetch-youtube-data.ts) into public/data/youtube/*.json.
+    // No API key ships to the browser and none is needed at all — the RSS feed
+    // is public. cacheTTL controls the in-memory client cache in lib/youtube/api.ts.
     baseUrl: "https://www.googleapis.com/youtube/v3",
     cacheTTL: 3600000,
   },

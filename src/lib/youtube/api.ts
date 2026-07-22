@@ -1,24 +1,8 @@
 import { apiConfig } from "@/config/api"
 import { scholars } from "@/config/scholars"
+import { assetPath } from "@/lib/utils"
 import { getMockVideos, getMockVideosByScholar } from "./videos"
 import type { Video } from "@/types"
-
-function isValidChannelId(id: string): boolean {
-  return id.startsWith("UC") && id.length > 10
-}
-
-interface YouTubeSearchResult {
-  id: { videoId: string }
-  snippet: {
-    title: string
-    description: string
-    thumbnails: { medium: { url: string }; high: { url: string } }
-    publishedAt: string
-    channelTitle: string
-  }
-  contentDetails?: { duration: string }
-  statistics?: { viewCount: string }
-}
 
 const cache = new Map<string, { data: Video[]; timestamp: number }>()
 
@@ -36,55 +20,22 @@ function setCache(key: string, data: Video[]) {
   cache.set(key, { data, timestamp: Date.now() })
 }
 
-function transformYouTubeResponse(
-  channelId: string,
-  data: { items?: YouTubeSearchResult[] },
-): Video[] {
-  const scholar = scholars.find((s) => s.channelId === channelId)
-  if (!data.items) return []
-  return data.items.map((item: YouTubeSearchResult, index: number) => ({
-    id: `yt-${channelId}-${index}`,
-    youtubeId: item.id.videoId,
-    title: item.snippet.title,
-    description: item.snippet.description,
-    scholarId: scholar?.id || "unknown",
-    scholarName: item.snippet.channelTitle,
-    thumbnail: item.snippet.thumbnails.medium?.url || item.snippet.thumbnails.high?.url || "",
-    duration: "",
-    publishedAt: item.snippet.publishedAt,
-    category: "spirituality",
-    views: 0,
-  }))
-}
-
-// The YouTube Data API key lives only on the Cloudflare Pages Function
-// (functions/api/youtube.ts) — never in the browser bundle. So all fetching
-// goes through the /api/youtube proxy. Metadata fetches at the edge are not
-// viewer-region locked, so this also surfaces channels that aren't browsable
-// in every country. On a static export there is no request-time server, so
-// this always runs in the browser.
-async function fetchViaProxy(channelId: string): Promise<Video[] | null> {
-  const res = await fetch(`/api/youtube?channelId=${channelId}&maxResults=20`)
-  if (!res.ok) return null
-  const data = await res.json()
-  return transformYouTubeResponse(channelId, data)
-}
-
-export async function fetchVideosFromYouTube(channelId: string): Promise<Video[]> {
-  if (!isValidChannelId(channelId)) return []
-
-  const cached = getFromCache(`channel:${channelId}`)
-  if (cached) return cached
-
+// Real video data is pre-generated at build time by scripts/fetch-youtube-data.ts
+// (pulled from each channel's public YouTube RSS feed on a US-based CI runner,
+// so region-restricted channels still resolve and no API key/quota/billing is
+// involved) and shipped as static JSON under public/data/youtube/. This site is
+// a static export on GitHub Pages — there is no request-time server, so the old
+// /api/youtube Cloudflare proxy never runs. We read the static files here and
+// fall back to mock data only when a file is missing or empty.
+async function fetchStaticJson(file: string): Promise<Video[] | null> {
   try {
-    const videos = (await fetchViaProxy(channelId)) ?? []
-    if (videos.length > 0) {
-      setCache(`channel:${channelId}`, videos)
-    }
-    return videos
+    const res = await fetch(assetPath(`/data/youtube/${file}`))
+    if (!res.ok) return null
+    const data = (await res.json()) as Video[]
+    return Array.isArray(data) ? data : null
   } catch (error) {
-    console.error("Failed to fetch YouTube videos:", error)
-    return []
+    console.error("Failed to load YouTube data:", error)
+    return null
   }
 }
 
@@ -92,25 +43,16 @@ export async function getAllVideos(): Promise<Video[]> {
   const cached = getFromCache("all")
   if (cached) return cached
 
-  // Always attempt the proxy; the key lives server-side so there's no local
-  // signal telling us whether live data is available. Fall back to mock data
-  // only when the proxy yields nothing (misconfigured key, quota, offline).
-  const allVideos: Video[] = []
-  for (const scholar of scholars) {
-    if (isValidChannelId(scholar.channelId)) {
-      const videos = await fetchVideosFromYouTube(scholar.channelId)
-      allVideos.push(...videos)
-    }
-  }
+  const videos = (await fetchStaticJson("all.json")) ?? []
 
-  if (allVideos.length === 0) {
+  if (videos.length === 0) {
     const mockVideos = getMockVideos()
     setCache("all", mockVideos)
     return mockVideos
   }
 
-  setCache("all", allVideos)
-  return allVideos
+  setCache("all", videos)
+  return videos
 }
 
 export async function getVideosByScholar(scholarId: string): Promise<Video[]> {
@@ -119,13 +61,13 @@ export async function getVideosByScholar(scholarId: string): Promise<Video[]> {
 
   const scholar = scholars.find((s) => s.id === scholarId)
 
-  if (!scholar || !isValidChannelId(scholar.channelId)) {
+  if (!scholar) {
     const mockVideos = getMockVideosByScholar(scholarId)
     setCache(`scholar:${scholarId}`, mockVideos)
     return mockVideos
   }
 
-  const videos = await fetchVideosFromYouTube(scholar.channelId)
+  const videos = (await fetchStaticJson(`${scholarId}.json`)) ?? []
   const enriched = videos.map((v) => ({ ...v, scholarId, scholarName: scholar.name }))
 
   if (enriched.length === 0) {
