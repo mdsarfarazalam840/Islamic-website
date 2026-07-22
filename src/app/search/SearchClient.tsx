@@ -1,36 +1,29 @@
 "use client"
 
-import { useState, useCallback, useRef, useEffect, useMemo } from "react"
+import { useState, useRef, useEffect, useMemo } from "react"
 import { Search, BookOpen, Loader2, ArrowRight, X, MessageSquareText, Video } from "lucide-react"
 import Fuse from "fuse.js"
 import Link from "next/link"
+import { useSearchParams } from "next/navigation"
 import { cn } from "@/lib/utils"
 import { getAllSurahs } from "@/lib/quran/surahs"
 import { COLLECTION_DISPLAY_NAMES } from "@/lib/hadith/collections"
-import { loadAllHadiths } from "./hadithData"
 import { loadVideosForSearch } from "./videoData"
+import { getPagefind, type PagefindResultData } from "./pagefind"
 import type { Ayah, Hadith, Video as VideoType } from "@/types"
 
-const QURAN_KEYS = [
-  { name: "translations.en", weight: 1 },
-  { name: "translations.hi", weight: 0.8 },
-  { name: "translations.ur", weight: 0.8 },
-  { name: "arabic", weight: 0.6 },
-]
-
-const HADITH_KEYS = [
-  { name: "english", weight: 1 },
-  { name: "arabic", weight: 0.6 },
-  { name: "narrator", weight: 0.4 },
-  { name: "bookName", weight: 0.3 },
-]
-
+// Quran & Hadith are searched via the static Pagefind index (fragment fetches,
+// tens of KB per query). Only Videos — a tiny in-memory list — still use Fuse.
 const SEARCH_OPTIONS = {
   threshold: 0.4,
   distance: 100,
   minMatchCharLength: 2,
   includeScore: true,
 }
+
+// How many Pagefind hits to hydrate per query. Each hydration is a small
+// fragment fetch, so cap it to keep a search cheap.
+const MAX_RESULTS = 30
 
 function useDebounce<T>(value: T, delay: number): T {
   const [debouncedValue, setDebouncedValue] = useState(value)
@@ -41,7 +34,7 @@ function useDebounce<T>(value: T, delay: number): T {
   return debouncedValue
 }
 
-type ContentTab = "quran" | "hadith" | "videos"
+export type ContentTab = "quran" | "hadith" | "videos"
 
 const tabLabels: Record<ContentTab, { label: string; icon: typeof Search }> = {
   quran: { label: "Quran", icon: BookOpen },
@@ -52,12 +45,14 @@ const tabLabels: Record<ContentTab, { label: string; icon: typeof Search }> = {
 interface QuranResult {
   type: "quran"
   ayah: Ayah
+  excerpt?: string
   score?: number
 }
 
 interface HadithResult {
   type: "hadith"
   hadith: Hadith
+  excerpt?: string
   score?: number
 }
 
@@ -69,15 +64,77 @@ interface VideoResult {
 
 type SearchResult = QuranResult | HadithResult | VideoResult
 
+const VALID_TABS: ContentTab[] = ["quran", "hadith", "videos"]
+
+/** Parse the surah/ayah numbers Pagefind encoded in a Quran result's meta. */
+function pagefindToQuran(d: PagefindResultData): QuranResult | null {
+  const m = d.meta
+  // url looks like /quran/{surah}#ayah-{globalNumber}
+  const num = Number(d.url.split("#ayah-")[1] ?? "")
+  const surahNumber = Number(m.surah ?? "0")
+  const ayahNumber = Number(m.ayah ?? "0")
+  if (!surahNumber || !ayahNumber) return null
+  return {
+    type: "quran",
+    excerpt: d.excerpt,
+    ayah: {
+      number: Number.isFinite(num) ? num : 0,
+      surahNumber,
+      ayahNumber,
+      juz: Number(m.juz ?? "0"),
+      // Text comes from the highlighted excerpt; the card falls back to it.
+      arabic: "",
+      translations: { en: "", hi: "", ur: "" },
+    } as Ayah,
+  }
+}
+
+/** Rebuild a Hadith card object from a Pagefind hadith result's meta. */
+function pagefindToHadith(d: PagefindResultData): HadithResult | null {
+  const m = d.meta
+  const collection = (m.collection ?? "") as Hadith["collection"]
+  const hadithNumber = Number(m.hadithNumber ?? "0")
+  // url looks like /hadith/{collection}/{bookId}#hadith-{collection}-{number}
+  const bookId = Number(d.url.split("/")[3]?.split("#")[0] ?? "0")
+  if (!collection || !hadithNumber) return null
+  return {
+    type: "hadith",
+    excerpt: d.excerpt,
+    hadith: {
+      id: `${collection}-${hadithNumber}`,
+      collection,
+      bookId,
+      bookName: m.book ?? "",
+      chapterId: 0,
+      chapterName: "",
+      hadithNumber,
+      arabic: "",
+      english: "",
+      urdu: "",
+      narrator: m.narrator ?? "",
+      grade: m.grade ?? "",
+      reference: {
+        collection: m.collectionName ?? COLLECTION_DISPLAY_NAMES[collection] ?? collection,
+        book: m.book ?? "",
+        hadithNumber,
+        bookNumber: bookId,
+      },
+      tags: [],
+    } as Hadith,
+  }
+}
+
 export function SearchClient() {
-  const [query, setQuery] = useState("")
-  const [searched, setSearched] = useState(false)
-  const [activeTab, setActiveTab] = useState<ContentTab>("quran")
-  const [quranFuse, setQuranFuse] = useState<Fuse<Ayah> | null>(null)
-  const [hadithFuse, setHadithFuse] = useState<Fuse<Hadith> | null>(null)
+  const searchParams = useSearchParams()
+  const initialQ = searchParams.get("q") ?? ""
+  const initialTab = searchParams.get("tab") as ContentTab ?? "quran"
+  const [query, setQuery] = useState(initialQ)
+  const [searched, setSearched] = useState(!!initialQ.trim())
+  const [activeTab, setActiveTab] = useState<ContentTab>(VALID_TABS.includes(initialTab) ? initialTab : "quran")
+  // Videos are a tiny in-memory list — still Fuse. Quran/Hadith use Pagefind.
   const [videoFuse, setVideoFuse] = useState<Fuse<VideoType> | null>(null)
-  const [loadingData, setLoadingData] = useState(true)
-  const [dataStatus, setDataStatus] = useState({ quran: false, hadith: false, videos: false })
+  const [pfResults, setPfResults] = useState<SearchResult[]>([])
+  const [loadingData, setLoadingData] = useState(false)
   const inputRef = useRef<HTMLInputElement>(null)
   const debouncedQuery = useDebounce(query, 300)
 
@@ -85,202 +142,108 @@ export function SearchClient() {
   const surahMap = useMemo(() => new Map(surahs.map((s) => [s.number, s])), [surahs])
 
   useEffect(() => {
-    async function loadAll() {
-      setLoadingData(true)
-      const status = { quran: false, hadith: false, videos: false }
+    const params = new URLSearchParams()
+    if (query.trim()) params.set("q", query.trim())
+    if (activeTab !== "quran") params.set("tab", activeTab)
+    const qs = params.toString()
+    const url = `/search${qs ? `?${qs}` : ""}`
+    history.replaceState(null, "", url)
+  }, [query, activeTab])
 
-      // Load Quran: single combined file + pre-built search index (fastest)
-      try {
-        const [ayahsRes, indexRes] = await Promise.all([
-          fetch("/data/quran/quran-all.json"),
-          fetch("/data/quran/quran-search-index.json"),
-        ])
-        if (ayahsRes.ok && indexRes.ok) {
-          const [allAyahs, indexData] = await Promise.all([
-            ayahsRes.json() as Promise<Ayah[]>,
-            indexRes.json(),
-          ])
-          const index = Fuse.parseIndex<Ayah>(indexData)
-          setQuranFuse(new Fuse(allAyahs, SEARCH_OPTIONS, index))
-          status.quran = true
-          setDataStatus({ ...status })
-        } else if (ayahsRes.ok) {
-          const allAyahs: Ayah[] = await ayahsRes.json()
-          setQuranFuse(new Fuse(allAyahs, { keys: QURAN_KEYS, ...SEARCH_OPTIONS }))
-          status.quran = true
-          setDataStatus({ ...status })
-        }
-      } catch (err) {
-        console.error("Failed to load Quran data:", err)
-      }
-      if (!status.quran) {
-        try {
-          const allAyahs: Ayah[] = []
-          for (let i = 1; i <= 114; i++) {
-            const res = await fetch(`/data/quran/surah-${i}.json`)
-            const data: Ayah[] = await res.json()
-            allAyahs.push(...data)
-          }
-          setQuranFuse(new Fuse(allAyahs, { keys: QURAN_KEYS, ...SEARCH_OPTIONS }))
-          status.quran = true
-          setDataStatus({ ...status })
-        } catch (err) {
-          console.error("Failed to load Quran data (fallback):", err)
-        }
-      }
-
-      // Load Hadith: single combined file + pre-built search index (fastest)
-      try {
-        const [hadithRes, indexRes] = await Promise.all([
-          fetch("/data/hadith/hadith-all.json"),
-          fetch("/data/hadith/hadith-search-index.json"),
-        ])
-        if (hadithRes.ok && indexRes.ok) {
-          const [allHadithsRaw, indexData] = await Promise.all([
-            hadithRes.json(),
-            indexRes.json(),
-          ])
-          const allHadiths: Hadith[] = allHadithsRaw.map((h: any) => ({
-            id: `${h.collection}-${h.number}`,
-            collection: h.collection,
-            bookId: h.bookId,
-            bookName: h.bookName || "",
-            chapterId: h.chapterId,
-            chapterName: h.chapterName || "",
-            hadithNumber: h.number,
-            arabic: h.arabic || "",
-            english: h.english || "",
-            urdu: h.urdu || "",
-            narrator: h.narrator || "",
-            grade: h.grade || "",
-            reference: {
-              collection: COLLECTION_DISPLAY_NAMES[h.collection as keyof typeof COLLECTION_DISPLAY_NAMES] ?? h.collection,
-              book: h.bookName || "",
-              hadithNumber: h.number,
-              bookNumber: h.bookId,
-            },
-            tags: [],
-          }))
-          const index = Fuse.parseIndex<Hadith>(indexData)
-          setHadithFuse(new Fuse(allHadiths, SEARCH_OPTIONS, index))
-          status.hadith = true
-          setDataStatus({ ...status })
-        } else if (hadithRes.ok) {
-          const allHadithsRaw = await hadithRes.json()
-          const allHadiths: Hadith[] = allHadithsRaw.map((h: any) => ({
-            id: `${h.collection}-${h.number}`,
-            collection: h.collection,
-            bookId: h.bookId,
-            bookName: h.bookName || "",
-            chapterId: h.chapterId,
-            chapterName: h.chapterName || "",
-            hadithNumber: h.number,
-            arabic: h.arabic || "",
-            english: h.english || "",
-            urdu: h.urdu || "",
-            narrator: h.narrator || "",
-            grade: h.grade || "",
-            reference: {
-              collection: COLLECTION_DISPLAY_NAMES[h.collection as keyof typeof COLLECTION_DISPLAY_NAMES] ?? h.collection,
-              book: h.bookName || "",
-              hadithNumber: h.number,
-              bookNumber: h.bookId,
-            },
-            tags: [],
-          }))
-          setHadithFuse(new Fuse(allHadiths, { keys: HADITH_KEYS, ...SEARCH_OPTIONS }))
-          status.hadith = true
-          setDataStatus({ ...status })
-        }
-      } catch (err) {
-        console.error("Failed to load Hadith data:", err)
-      }
-      if (!status.hadith) {
-        try {
-          const allHadiths = await loadAllHadiths()
-          if (allHadiths.length > 0) {
-            setHadithFuse(new Fuse(allHadiths, { keys: HADITH_KEYS, ...SEARCH_OPTIONS }))
-          }
-          status.hadith = true
-          setDataStatus({ ...status })
-        } catch (err) {
-          console.error("Failed to load Hadith data (fallback):", err)
-        }
-      }
-
-      // Load Videos
+  // Videos are tiny and stay client-side; load the Fuse index lazily the first
+  // time the user actually searches the Videos tab.
+  const videoLoadedRef = useRef(false)
+  useEffect(() => {
+    if (activeTab !== "videos" || !searched || videoLoadedRef.current) return
+    videoLoadedRef.current = true
+    let cancelled = false
+    ;(async () => {
       try {
         const allVideos = await loadVideosForSearch()
-        if (allVideos.length > 0) {
-          setVideoFuse(
-            new Fuse(allVideos, {
-              keys: [
-                { name: "title", weight: 1 },
-                { name: "description", weight: 0.7 },
-                { name: "scholarName", weight: 0.4 },
-              ],
-              ...SEARCH_OPTIONS,
-            })
-          )
-        }
-        status.videos = true
-        setDataStatus({ ...status })
+        if (cancelled || allVideos.length === 0) return
+        setVideoFuse(
+          new Fuse(allVideos, {
+            keys: [
+              { name: "title", weight: 1 },
+              { name: "description", weight: 0.7 },
+              { name: "scholarName", weight: 0.4 },
+            ],
+            ...SEARCH_OPTIONS,
+          }),
+        )
       } catch (err) {
         console.error("Failed to load Video data:", err)
       }
-
-      setDataStatus(status)
-      setLoadingData(false)
+    })()
+    return () => {
+      cancelled = true
     }
-    loadAll()
-  }, [])
+  }, [activeTab, searched])
 
-  const handleSearch = useCallback(
-    (q: string) => {
-      setQuery(q)
-      if (!q.trim()) {
-        setSearched(false)
+  // Plain function — the React Compiler handles memoization; a manual
+  // useCallback([]) trips its preserve-memoization check on the setState refs.
+  const handleSearch = (q: string) => {
+    setQuery(q)
+    setSearched(!!q.trim())
+  }
+
+  // Quran & Hadith: query the static Pagefind index. Each query pulls only the
+  // matching index chunks + result fragments (tens of KB), never the corpus.
+  useEffect(() => {
+    const trimmed = debouncedQuery.trim()
+    let cancelled = false
+
+    ;(async () => {
+      // Empty query or the Videos tab (handled by Fuse below) → no PF results.
+      if (!trimmed || activeTab === "videos") {
+        setPfResults((prev) => (prev.length ? [] : prev))
         return
       }
-      setSearched(true)
-    },
-    [],
-  )
+      setLoadingData(true)
+      try {
+        const pf = await getPagefind()
+        const search = await pf.search(trimmed, { filters: { type: activeTab } })
+        const top = search.results.slice(0, MAX_RESULTS)
+        const data = await Promise.all(top.map((r) => r.data()))
+        if (cancelled) return
+        const mapped = data
+          .map((d) => (activeTab === "quran" ? pagefindToQuran(d) : pagefindToHadith(d)))
+          .filter((r): r is QuranResult | HadithResult => r !== null)
+        setPfResults(mapped)
+      } catch (err) {
+        console.error("Pagefind search failed:", err)
+        if (!cancelled) setPfResults([])
+      } finally {
+        if (!cancelled) setLoadingData(false)
+      }
+    })()
 
+    return () => {
+      cancelled = true
+    }
+  }, [debouncedQuery, activeTab])
+
+  // Videos remain a synchronous in-memory Fuse search.
   const results = useMemo(() => {
-    if (!debouncedQuery.trim()) return []
-
     const trimmed = debouncedQuery.trim()
-    const allResults: SearchResult[] = []
+    if (!trimmed) return []
 
-    if (activeTab === "quran" && quranFuse) {
-      const raw = quranFuse.search(trimmed)
-      allResults.push(
-        ...raw.slice(0, 30).map((r) => ({ type: "quran" as const, ayah: r.item, score: r.score }))
-      )
+    if (activeTab === "videos") {
+      if (!videoFuse) return []
+      return videoFuse
+        .search(trimmed)
+        .slice(0, MAX_RESULTS)
+        .map((r) => ({ type: "video" as const, video: r.item, score: r.score }))
     }
 
-    if (activeTab === "hadith" && hadithFuse) {
-      const raw = hadithFuse.search(trimmed)
-      allResults.push(
-        ...raw.slice(0, 30).map((r) => ({ type: "hadith" as const, hadith: r.item, score: r.score }))
-      )
-    }
-
-    if (activeTab === "videos" && videoFuse) {
-      const raw = videoFuse.search(trimmed)
-      allResults.push(
-        ...raw.slice(0, 30).map((r) => ({ type: "video" as const, video: r.item, score: r.score }))
-      )
-    }
-
-    allResults.sort((a, b) => (a.score ?? 1) - (b.score ?? 1))
-    return allResults.slice(0, 50)
-  }, [debouncedQuery, activeTab, quranFuse, hadithFuse, videoFuse])
+    // Quran & Hadith results come from the async Pagefind effect above.
+    return pfResults
+  }, [debouncedQuery, activeTab, videoFuse, pfResults])
 
   const clearSearch = () => {
     setQuery("")
     setSearched(false)
+    history.replaceState(null, "", "/search")
     inputRef.current?.focus()
   }
 
@@ -353,11 +316,11 @@ export function SearchClient() {
       {loadingData && (
         <div className="flex items-center gap-2 py-3 text-xs text-muted-foreground">
           <Loader2 className="size-3 animate-spin text-gold-light" />
-          <span>Loading: {dataStatus.quran ? "✓" : "..."} Quran · {dataStatus.hadith ? "✓" : "..."} Hadith · {dataStatus.videos ? "✓" : "..."} Videos</span>
+          <span>Loading {tabLabels[activeTab].label}…</span>
         </div>
       )}
 
-      {searched && results.length === 0 && (
+      {searched && !loadingData && results.length === 0 && (
         <div className="flex flex-col items-center justify-center py-16 text-center">
           <Search className="size-12 text-muted-foreground/20 mb-4" />
           <p className="text-lg font-medium text-foreground">No results found</p>
@@ -391,13 +354,12 @@ export function SearchClient() {
                     </div>
                     <ArrowRight className="size-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity shrink-0" />
                   </div>
-                  <p className="text-lg font-arabic text-foreground leading-[2] mb-2" dir="rtl">
-                    {r.ayah.arabic}
-                  </p>
-                  {r.ayah.translations.en && (
-                    <p className="text-sm text-muted-foreground leading-relaxed">
-                      {r.ayah.translations.en}
-                    </p>
+                  {r.excerpt && (
+                    <p
+                      className="text-sm text-muted-foreground leading-relaxed pf-excerpt"
+                      // Pagefind excerpts are HTML-entity-encoded with <mark> highlights; safe to render.
+                      dangerouslySetInnerHTML={{ __html: r.excerpt }}
+                    />
                   )}
                 </Link>
               )
@@ -409,7 +371,7 @@ export function SearchClient() {
               return (
                 <Link
                   key={`hadith-${h.id}`}
-                  href={`/hadith/${h.collection}/${h.bookId}#hadith-${h.hadithNumber}`}
+                  href={`/hadith/${h.collection}/${h.bookId}#hadith-${h.id}`}
                   className="group block rounded-xl border border-border/30 bg-card/50 p-4 transition-all duration-200 hover:border-secondary/20 hover:bg-card"
                 >
                   <div className="flex items-start justify-between gap-3 mb-2">
@@ -433,9 +395,13 @@ export function SearchClient() {
                       Narrated by {h.narrator}
                     </p>
                   )}
-                  <p className="text-sm text-foreground leading-relaxed line-clamp-3">
-                    {h.english}
-                  </p>
+                  {r.excerpt && (
+                    <p
+                      className="text-sm text-foreground leading-relaxed line-clamp-3 pf-excerpt"
+                      // Pagefind excerpts are HTML-entity-encoded with <mark> highlights; safe to render.
+                      dangerouslySetInnerHTML={{ __html: r.excerpt }}
+                    />
+                  )}
                 </Link>
               )
             }
