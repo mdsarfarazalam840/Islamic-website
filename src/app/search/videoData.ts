@@ -1,10 +1,12 @@
 import type { Video } from "@/types"
-import { getMockVideos } from "@/lib/youtube/videos"
+import { getAllVideos } from "@/lib/youtube/api"
 
+// Search indexes the same real video data the /videos page shows (build-time
+// YouTube RSS -> static JSON, mock only as fallback). getAllVideos already
+// handles caching and the mock fallback.
 export async function loadVideosForSearch(): Promise<Video[]> {
   try {
-    const mockData = getMockVideos()
-    return mockData
+    return await getAllVideos()
   } catch {
     return []
   }

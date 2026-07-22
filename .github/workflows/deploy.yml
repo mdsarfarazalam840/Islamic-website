@@ -48,6 +48,12 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      # Fetch each scholar's latest videos from their public YouTube RSS feed
+      # into public/data/youtube/. Runs on GitHub's US runner, so channels that
+      # are API-restricted in some regions still resolve; no API key needed.
+      # Non-fatal: the script writes empty files on per-channel failure and the
+      # site falls back to mock data, so a transient RSS hiccup can't break deploy.
+      - run: npm run fetch:youtube
       # Build the search index first, then the static site. build:pagefind
       # writes public/pagefind/, which `next build` copies into out/pagefind/.
       - run: npm run build:pagefind
