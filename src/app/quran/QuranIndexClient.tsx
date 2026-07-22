@@ -35,9 +35,9 @@ export function QuranIndexClient({ surahs }: QuranIndexClientProps) {
     <>
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
         <div className="flex items-center gap-3">
-          <BookOpen className="size-6 text-secondary" />
+          <BookOpen className="size-6 text-gold-light" />
           <div>
-            <h1 className="text-2xl font-display font-bold text-foreground">Al-Quran</h1>
+            <h1 className="text-2xl font-display gold-gradient-text font-bold">Al-Quran</h1>
             <p className="text-sm text-muted-foreground">
               {surahs.length} Surahs &middot; {meccanCount} Meccan &middot; {medinanCount} Medinan
             </p>
@@ -52,11 +52,11 @@ export function QuranIndexClient({ surahs }: QuranIndexClientProps) {
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               placeholder="Search surahs..."
-              className="w-full sm:w-56 rounded-lg border border-border/50 bg-surface py-2 pl-9 pr-3 text-sm text-foreground placeholder:text-muted-foreground outline-none focus:border-secondary/50 transition-colors"
+              className="w-full sm:w-56 rounded-lg border border-border/20 bg-space-mid/20 py-2 pl-9 pr-3 text-sm text-foreground placeholder:text-muted-foreground outline-none focus:border-gold-dim/40 transition-colors"
               aria-label="Search surahs"
             />
           </div>
-          <div className="flex items-center gap-1 rounded-lg bg-surface p-1">
+          <div className="flex items-center gap-1 rounded-lg bg-space-mid/20 border border-gold-dim/10 p-1">
             {(["all", "meccan", "medinan"] as FilterType[]).map((f) => (
               <button
                 key={f}
@@ -64,8 +64,8 @@ export function QuranIndexClient({ surahs }: QuranIndexClientProps) {
                 className={cn(
                   "rounded-md px-3 py-1.5 text-xs font-medium capitalize transition-all",
                   filter === f
-                    ? "bg-secondary/20 text-secondary shadow-sm"
-                    : "text-muted-foreground hover:text-foreground",
+                    ? "bg-gold-dim/20 text-gold-light border border-gold-dim/20"
+                    : "text-muted-foreground hover:text-gold-dim border border-transparent",
                 )}
               >
                 {f === "all" ? "All" : f}
@@ -84,7 +84,7 @@ export function QuranIndexClient({ surahs }: QuranIndexClientProps) {
           </p>
           <button
             onClick={() => { setQuery(""); setFilter("all") }}
-            className="mt-4 text-sm text-secondary hover:underline"
+            className="mt-4 text-sm text-gold-light hover:underline"
           >
             Clear all filters
           </button>

@@ -1,6 +1,15 @@
+export type HadithCollectionId =
+  | "bukhari"
+  | "muslim"
+  | "abudawud"
+  | "tirmidhi"
+  | "nasai"
+  | "ibnmajah"
+  | "malik"
+
 export interface Hadith {
   id: string
-  collection: "bukhari" | "muslim"
+  collection: HadithCollectionId
   bookId: number
   bookName: string
   chapterId: number
@@ -8,6 +17,7 @@ export interface Hadith {
   hadithNumber: number
   arabic: string
   english: string
+  urdu: string
   narrator: string
   grade: string
   reference: {
@@ -22,7 +32,7 @@ export interface Hadith {
 }
 
 export interface HadithCollection {
-  id: "bukhari" | "muslim"
+  id: HadithCollectionId
   name: string
   nameArabic: string
   totalHadith: number
@@ -32,7 +42,7 @@ export interface HadithCollection {
 
 export interface HadithBook {
   id: number
-  collection: "bukhari" | "muslim"
+  collection: HadithCollectionId
   name: string
   hadithCount: number
 }

@@ -1,6 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
+import { cn } from "@/lib/utils"
 
 interface Category {
   id: string
@@ -20,11 +21,12 @@ export function CategoryFilter({ categories, activeCategory, onCategoryChange }:
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
         onClick={() => onCategoryChange("all")}
-        className={`rounded-full px-4 py-1.5 text-sm font-medium transition-all duration-200 ${
+        className={cn(
+          "rounded-full px-4 py-1.5 text-sm font-medium transition-all duration-200 border",
           activeCategory === "all"
-            ? "bg-secondary text-background shadow-md shadow-secondary/20"
-            : "bg-surface text-muted-foreground hover:text-foreground hover:bg-surface-light border border-border/50"
-        }`}
+            ? "gold-gradient-bg text-space-deep shadow-md gold-shadow border-transparent"
+            : "bg-space-mid/20 text-muted-foreground hover:text-gold-light hover:border-gold-dim/30 border-border/20"
+        )}
         aria-pressed={activeCategory === "all"}
       >
         All
@@ -35,11 +37,12 @@ export function CategoryFilter({ categories, activeCategory, onCategoryChange }:
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
           onClick={() => onCategoryChange(category.id)}
-          className={`rounded-full px-4 py-1.5 text-sm font-medium transition-all duration-200 ${
+          className={cn(
+            "rounded-full px-4 py-1.5 text-sm font-medium transition-all duration-200 border",
             activeCategory === category.id
-              ? "bg-secondary text-background shadow-md shadow-secondary/20"
-              : "bg-surface text-muted-foreground hover:text-foreground hover:bg-surface-light border border-border/50"
-          }`}
+              ? "gold-gradient-bg text-space-deep shadow-md gold-shadow border-transparent"
+              : "bg-space-mid/20 text-muted-foreground hover:text-gold-light hover:border-gold-dim/30 border-border/20"
+          )}
           aria-pressed={activeCategory === category.id}
         >
           {category.label}

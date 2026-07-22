@@ -1,14 +1,10 @@
 import { apiConfig } from "@/config/api"
 import { scholars } from "@/config/scholars"
-import { getMockVideos, getMockVideosByScholar, getMockVideosByCategory } from "./videos"
+import { getMockVideos, getMockVideosByScholar } from "./videos"
 import type { Video } from "@/types"
 
 function isValidChannelId(id: string): boolean {
   return id.startsWith("UC") && id.length > 10
-}
-
-function isBrowser(): boolean {
-  return typeof window !== "undefined"
 }
 
 interface YouTubeSearchResult {
@@ -40,7 +36,10 @@ function setCache(key: string, data: Video[]) {
   cache.set(key, { data, timestamp: Date.now() })
 }
 
-function transformYouTubeResponse(channelId: string, data: any): Video[] {
+function transformYouTubeResponse(
+  channelId: string,
+  data: { items?: YouTubeSearchResult[] },
+): Video[] {
   const scholar = scholars.find((s) => s.channelId === channelId)
   if (!data.items) return []
   return data.items.map((item: YouTubeSearchResult, index: number) => ({
@@ -58,30 +57,16 @@ function transformYouTubeResponse(channelId: string, data: any): Video[] {
   }))
 }
 
+// The YouTube Data API key lives only on the Cloudflare Pages Function
+// (functions/api/youtube.ts) — never in the browser bundle. So all fetching
+// goes through the /api/youtube proxy. Metadata fetches at the edge are not
+// viewer-region locked, so this also surfaces channels that aren't browsable
+// in every country. On a static export there is no request-time server, so
+// this always runs in the browser.
 async function fetchViaProxy(channelId: string): Promise<Video[] | null> {
   const res = await fetch(`/api/youtube?channelId=${channelId}&maxResults=20`)
   if (!res.ok) return null
   const data = await res.json()
-  return transformYouTubeResponse(channelId, data)
-}
-
-async function fetchDirect(channelId: string): Promise<Video[]> {
-  const apiKey = apiConfig.youtube.apiKey
-  if (!apiKey) {
-    console.warn("YouTube API key not configured, using mock data")
-    return []
-  }
-  const searchUrl = new URL(`${apiConfig.youtube.baseUrl}/search`)
-  searchUrl.searchParams.set("part", "snippet")
-  searchUrl.searchParams.set("channelId", channelId)
-  searchUrl.searchParams.set("order", "date")
-  searchUrl.searchParams.set("maxResults", "20")
-  searchUrl.searchParams.set("type", "video")
-  searchUrl.searchParams.set("videoDuration", "medium")
-  searchUrl.searchParams.set("key", apiKey)
-  const response = await fetch(searchUrl.toString())
-  if (!response.ok) throw new Error(`YouTube API error: ${response.status}`)
-  const data = await response.json()
   return transformYouTubeResponse(channelId, data)
 }
 
@@ -92,13 +77,7 @@ export async function fetchVideosFromYouTube(channelId: string): Promise<Video[]
   if (cached) return cached
 
   try {
-    let videos: Video[]
-    if (isBrowser()) {
-      const proxyResult = await fetchViaProxy(channelId)
-      videos = proxyResult ?? await fetchDirect(channelId)
-    } else {
-      videos = await fetchDirect(channelId)
-    }
+    const videos = (await fetchViaProxy(channelId)) ?? []
     if (videos.length > 0) {
       setCache(`channel:${channelId}`, videos)
     }
@@ -113,13 +92,9 @@ export async function getAllVideos(): Promise<Video[]> {
   const cached = getFromCache("all")
   if (cached) return cached
 
-  const apiKey = apiConfig.youtube.apiKey
-  if (!apiKey) {
-    const mockVideos = getMockVideos()
-    setCache("all", mockVideos)
-    return mockVideos
-  }
-
+  // Always attempt the proxy; the key lives server-side so there's no local
+  // signal telling us whether live data is available. Fall back to mock data
+  // only when the proxy yields nothing (misconfigured key, quota, offline).
   const allVideos: Video[] = []
   for (const scholar of scholars) {
     if (isValidChannelId(scholar.channelId)) {
@@ -142,10 +117,9 @@ export async function getVideosByScholar(scholarId: string): Promise<Video[]> {
   const cached = getFromCache(`scholar:${scholarId}`)
   if (cached) return cached
 
-  const apiKey = apiConfig.youtube.apiKey
   const scholar = scholars.find((s) => s.id === scholarId)
 
-  if (!apiKey || !scholar || !isValidChannelId(scholar.channelId)) {
+  if (!scholar || !isValidChannelId(scholar.channelId)) {
     const mockVideos = getMockVideosByScholar(scholarId)
     setCache(`scholar:${scholarId}`, mockVideos)
     return mockVideos

@@ -5,6 +5,7 @@ import { getSurah, getAllSurahs } from "@/lib/quran/surahs"
 import { getSurahAyahs } from "@/lib/quran/translations"
 import { ArrowLeft, BookOpen, Headphones } from "lucide-react"
 import { QuranReader } from "@/components/quran/QuranReader"
+import { FontSizeControls } from "@/components/shared/FontSizeControls"
 import { getSurahAudioUrl, RECITER_NAME } from "@/config/audio"
 
 interface Props {
@@ -107,6 +108,8 @@ export default async function SurahPage({ params }: Props) {
       ) : (
         <QuranReader surah={surah} ayahs={ayahs} />
       )}
+
+      <FontSizeControls />
     </div>
   )
 }

@@ -3,6 +3,8 @@
 import { motion } from "framer-motion"
 import type { Ayah, Surah } from "@/types"
 import { AyahActions } from "./AyahActions"
+import { cn } from "@/lib/utils"
+import { useFontSize, getFontSizeClass } from "@/hooks/useFontSize"
 
 interface AyahDisplayProps {
   ayah: Ayah
@@ -13,35 +15,59 @@ interface AyahDisplayProps {
 }
 
 export function AyahDisplay({ ayah, surah, translationLang, showTranslation, index }: AyahDisplayProps) {
+  const isFirstAyah = ayah.ayahNumber === 1 && index === 0
+  const { level } = useFontSize()
+
   return (
     <motion.div
       id={`ayah-${ayah.number}`}
       data-ayah-global={ayah.number}
-      initial={{ opacity: 0, y: 20 }}
+      initial={{ opacity: 0, y: 12 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.3, delay: index * 0.02 }}
-      className="group relative rounded-xl border border-border/30 bg-card/50 p-5 transition-all duration-200 hover:border-secondary/20 hover:bg-card"
+      transition={{ duration: 0.5, delay: index * 0.03, ease: "easeOut" }}
+      className={cn(
+        "group relative rounded-xl border transition-all duration-300",
+        isFirstAyah
+          ? "border-gold-dim/20 bg-gold-dim/5 scriptorium-glow"
+          : "border-border/20 bg-card/40 hover:border-gold-dim/15 hover:bg-card/60"
+      )}
     >
-      <div className="flex items-start justify-between gap-4">
-        <span className="flex size-8 shrink-0 items-center justify-center rounded-lg bg-secondary/10 text-xs font-medium text-secondary">
-          {ayah.ayahNumber}
-        </span>
-        <AyahActions ayah={ayah} surah={surah} />
-      </div>
+      <div className="p-5">
+        <div className="flex items-start justify-between gap-4">
+          <span className="flex size-8 shrink-0 items-center justify-center rounded-lg bg-gold-dim/10 text-xs font-medium text-gold-light border border-gold-dim/20">
+            {ayah.ayahNumber}
+          </span>
+          <AyahActions ayah={ayah} surah={surah} />
+        </div>
 
-      <div className="mt-3 text-right">
-        <p className="text-2xl leading-[2.2] font-arabic text-foreground" dir="rtl">
-          {ayah.arabic}
-        </p>
-      </div>
-
-      {showTranslation && (
-        <div className="mt-3 border-t border-border/20 pt-3">
-          <p className="text-sm leading-relaxed text-muted-foreground">
-            {ayah.translations[translationLang] || "Translation not available"}
+        <div className="mt-3 text-right">
+          <p
+            className={cn(
+              "font-arabic text-foreground leading-[2.2]",
+              getFontSizeClass(level, "quranArabic"),
+            )}
+            dir="rtl"
+          >
+            {isFirstAyah && (
+              <span className="gold-drop-cap font-display font-black">
+                {ayah.arabic.charAt(0)}
+              </span>
+            )}
+            <span className={isFirstAyah ? "" : ""}>
+              {isFirstAyah ? ayah.arabic.slice(1) : ayah.arabic}
+            </span>
+            <span className="text-gold-dim/60 text-lg mr-2">﴿{ayah.ayahNumber}﴾</span>
           </p>
         </div>
-      )}
+
+        {showTranslation && (
+          <div className="mt-4 border-t border-gold-dim/10 pt-4">
+            <p className={cn("leading-relaxed text-muted-foreground", getFontSizeClass(level, "translation"))}>
+              {ayah.translations[translationLang] || "Translation not available"}
+            </p>
+          </div>
+        )}
+      </div>
     </motion.div>
   )
 }

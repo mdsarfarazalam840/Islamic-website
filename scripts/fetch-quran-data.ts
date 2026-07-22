@@ -1,6 +1,5 @@
 import fs from "node:fs"
 import path from "node:path"
-import Fuse from "fuse.js"
 
 const API_BASE = "https://api.alquran.cloud/v1"
 const OUTPUT_DIR = path.resolve("public/data/quran")
@@ -134,7 +133,7 @@ async function main() {
   const editions: { key: string; file: string }[] = [
     { key: "en.ahmedali", file: "en.ahmedali.json" },
     { key: "hi.hindi", file: "hi.hindi.json" },
-    { key: "ur.urdu", file: "ur.urdu.json" },
+    { key: "ur.jalandhry", file: "ur.jalandhry.json" },
   ]
 
   const arabicData = await fetchArabic()
@@ -186,22 +185,6 @@ async function main() {
     JSON.stringify(merged),
   )
   console.log(`  ✓ Saved quran-all.json (${merged.length} ayahs)`)
-
-  // Build and save pre-computed Fuse.js search index
-  const searchIndex = Fuse.createIndex(
-    [
-      { name: "translations.en", weight: 1 },
-      { name: "translations.hi", weight: 0.8 },
-      { name: "translations.ur", weight: 0.8 },
-      { name: "arabic", weight: 0.6 },
-    ],
-    merged,
-  )
-  fs.writeFileSync(
-    path.join(OUTPUT_DIR, "quran-search-index.json"),
-    JSON.stringify(searchIndex.toJSON()),
-  )
-  console.log("  ✓ Saved quran-search-index.json")
 
   console.log("\n✓ Quran data fetch complete!\n")
 }

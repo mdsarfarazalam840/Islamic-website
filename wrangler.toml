@@ -1,5 +1,5 @@
 name = "noor-quran"
-pages_build_output_dir = ".next"
+pages_build_output_dir = "out"
 pages_build_command = "npm run build"
 compatibility_date = "2026-07-15"
 compatibility_flags = ["nodejs_compat"]

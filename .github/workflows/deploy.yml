@@ -17,10 +17,20 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      # Build the Pagefind index, then the static site, then strip files that
+      # can't ship to Pages (the 43k-file index → GitHub Pages; oversized JSONs → dropped).
+      - run: npm run build:pagefind
       - run: npm run build
+        env:
+          # Points the client at the GitHub Pages-hosted search index. Set this
+          # repo/environment secret to the bundle URL, e.g.
+          # https://mdsarfarazalam840.github.io/Islamic-website/pagefind
+          # (see SEARCH-INDEX-HOSTING.md).
+          NEXT_PUBLIC_PAGEFIND_BUNDLE: ${{ secrets.NEXT_PUBLIC_PAGEFIND_BUNDLE }}
+      - run: node scripts/prune-for-pages.mjs
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy .next --project-name=noor-quran
+          command: pages deploy out --project-name=noor-quran

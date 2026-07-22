@@ -2,14 +2,19 @@ import type { Metadata } from "next"
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { ArrowLeft, BookOpen } from "lucide-react"
-import { getCollection, getBookHadiths, getBooksForCollection } from "@/lib/hadith/translations"
-import { HadithCard } from "@/components/hadith/HadithCard"
+import { getCollection, getBooksForCollection } from "@/lib/hadith/translations"
+import { HadithBookClient } from "@/components/hadith/HadithBookClient"
+import { FontSizeControls } from "@/components/shared/FontSizeControls"
+
+import type { HadithCollectionId } from "@/types"
 
 interface Props {
   params: Promise<{ collection: string; bookId: string }>
 }
 
-const validCollections = ["bukhari", "muslim"]
+const validCollections: HadithCollectionId[] = [
+  "bukhari", "muslim", "abudawud", "tirmidhi", "nasai", "ibnmajah", "malik",
+]
 
 export async function generateStaticParams() {
   const params: { collection: string; bookId: string }[] = []
@@ -37,7 +42,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function BookPage({ params }: Props) {
   const { collection, bookId } = await params
 
-  if (!validCollections.includes(collection)) notFound()
+  if (!validCollections.includes(collection as HadithCollectionId)) notFound()
   const meta = getCollection(collection)
   if (!meta) notFound()
 
@@ -45,47 +50,40 @@ export default async function BookPage({ params }: Props) {
   const book = books.find((b) => b.id === Number(bookId))
   if (!book) notFound()
 
-  const hadiths = getBookHadiths(collection, Number(bookId))
-
   return (
     <div className="mx-auto max-w-4xl px-4 sm:px-6 py-8">
       <Link
         href={`/hadith/${collection}`}
-        className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground mb-6 transition-colors"
+        className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-gold-light mb-6 transition-colors"
       >
         <ArrowLeft className="size-4" />
         Back to books
       </Link>
 
       <div className="flex items-start gap-4 mb-8">
-        <div className="flex size-12 shrink-0 items-center justify-center rounded-xl bg-secondary/10 text-secondary">
+        <div className="flex size-12 shrink-0 items-center justify-center rounded-xl bg-gold-dim/10 text-gold-light border border-gold-dim/20">
           <BookOpen className="size-6" />
         </div>
         <div>
           <div className="flex items-center gap-2">
-            <h1 className="text-xl font-display font-bold text-foreground">{book.name}</h1>
-            <span className="rounded-lg bg-secondary/10 px-2 py-0.5 text-[10px] font-medium text-secondary">
+            <h1 className="text-xl font-display gold-gradient-text font-bold">{book.name}</h1>
+            <span className="rounded-lg bg-gold-dim/15 px-2 py-0.5 text-[10px] font-medium text-gold-light border border-gold-dim/20">
               Book {book.id}
             </span>
           </div>
           <p className="text-sm text-muted-foreground mt-1">
-            {meta.name} &middot; {hadiths.length} hadith{hadiths.length !== 1 ? "s" : ""}
+            {meta.name} &middot; {book.hadithCount} hadith{book.hadithCount !== 1 ? "s" : ""}
           </p>
         </div>
       </div>
 
-      {hadiths.length === 0 ? (
-        <div className="rounded-xl border border-border/50 bg-card p-10 text-center">
-          <BookOpen className="size-12 text-muted-foreground/40 mx-auto mb-4" />
-          <p className="text-lg text-muted-foreground">No hadith found in this book.</p>
-        </div>
-      ) : (
-        <div className="space-y-3">
-          {hadiths.map((hadith, i) => (
-            <HadithCard key={hadith.id} hadith={hadith} index={i} />
-          ))}
-        </div>
-      )}
+      <HadithBookClient
+        collection={collection as HadithCollectionId}
+        bookId={Number(bookId)}
+        totalHadiths={book.hadithCount}
+      />
+
+      <FontSizeControls />
     </div>
   )
 }

@@ -29,7 +29,7 @@ export const scholars: Scholar[] = [
     nameAr: "محمد علی",
     bio: "Islamic content creator focusing on Quranic verses and hadith explanations.",
     image: "/images/scholars/muhammad-ali.jpg",
-    channelId: "UCsGDQ85yca34zqv3oWt543Q",
+    channelId: "UC_qJhakG5LqYgVDxIhM0hew",
     channelUrl: "https://www.youtube.com/@MuhammadAlichannel",
     featured: true,
     categories: ["quran", "hadith"],
