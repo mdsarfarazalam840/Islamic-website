@@ -1,15 +1,46 @@
-name: Deploy to Cloudflare Pages
+name: Deploy to GitHub Pages
+
+# Deploys the whole site — the static Next.js export AND the Pagefind search
+# index — to GitHub Pages in a single artifact. GitHub Pages has no 20k-file
+# limit (only a 1 GB total cap), so the ~43k-file index ships alongside the
+# site and is served same-origin at <pages-root>/pagefind/. No Cloudflare, no
+# separate index workflow, no prune step.
+#
+# This is a *project* site, so it serves from a subpath
+# (https://<owner>.github.io/<repo>/). next.config.ts reads NEXT_PUBLIC_BASE_PATH
+# to prefix assets/routes accordingly.
+#
+# One-time setup: repo Settings -> Pages -> "Build and deployment" ->
+# Source = "GitHub Actions".
+
 on:
   push:
     branches: [main]
   workflow_dispatch:
 
+# GitHub Pages deploy needs these; id-token is required by deploy-pages.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Never run two Pages deploys at once; let an in-progress run finish.
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      deployments: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    env:
+      # Repo name = URL subpath. Both vars are read at build time:
+      #  - NEXT_PUBLIC_BASE_PATH  -> next.config.ts basePath/assetPrefix
+      #  - NEXT_PUBLIC_PAGEFIND_BUNDLE -> same-origin index path (search/pagefind.ts)
+      NEXT_PUBLIC_BASE_PATH: /${{ github.event.repository.name }}
+      NEXT_PUBLIC_PAGEFIND_BUNDLE: /${{ github.event.repository.name }}/pagefind
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -17,20 +48,16 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
-      # Build the Pagefind index, then the static site, then strip files that
-      # can't ship to Pages (the 43k-file index → GitHub Pages; oversized JSONs → dropped).
+      # Build the search index first, then the static site. build:pagefind
+      # writes public/pagefind/, which `next build` copies into out/pagefind/.
       - run: npm run build:pagefind
       - run: npm run build
-        env:
-          # Points the client at the GitHub Pages-hosted search index. Set this
-          # repo/environment secret to the bundle URL, e.g.
-          # https://mdsarfarazalam840.github.io/Islamic-website/pagefind
-          # (see SEARCH-INDEX-HOSTING.md).
-          NEXT_PUBLIC_PAGEFIND_BUNDLE: ${{ secrets.NEXT_PUBLIC_PAGEFIND_BUNDLE }}
-      - run: node scripts/prune-for-pages.mjs
-      - name: Deploy to Cloudflare Pages
-        uses: cloudflare/wrangler-action@v3
+      # Jekyll (GitHub Pages' default) ignores files/dirs starting with "_",
+      # which would drop Next's _next/ asset folder. Disable it.
+      - run: touch out/.nojekyll
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
         with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy out --project-name=noor-quran
+          path: out
+      - id: deployment
+        uses: actions/deploy-pages@v4
