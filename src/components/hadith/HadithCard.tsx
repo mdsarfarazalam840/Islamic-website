@@ -73,6 +73,7 @@ export function HadithCard({ hadith, index = 0 }: HadithCardProps) {
 
   return (
     <motion.div
+      id={`hadith-${hadith.id}`}
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.4, delay: index * 0.03, ease: "easeOut" }}

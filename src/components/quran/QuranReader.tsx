@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useMemo } from "react"
+import { useState, useMemo, useEffect } from "react"
 import Link from "next/link"
 import { motion, AnimatePresence } from "framer-motion"
 import { BookOpen, Languages, ChevronLeft, ChevronRight } from "lucide-react"
@@ -24,6 +24,17 @@ export function QuranReader({ surah, ayahs }: QuranReaderProps) {
   const [showTranslation, setShowTranslation] = useState(true)
   const [currentJuz, setCurrentJuz] = useState<number>(ayahs[0]?.juz ?? 1)
   const { level } = useFontSize()
+
+  useEffect(() => {
+    const hash = window.location.hash
+    if (!hash) return
+    const id = hash.slice(1)
+    const timer = setTimeout(() => {
+      const el = document.getElementById(id)
+      el?.scrollIntoView({ behavior: "smooth", block: "start" })
+    }, 100)
+    return () => clearTimeout(timer)
+  }, [])
 
   const juzBoundaries = useMemo(() => {
     const boundaries: { juz: number; ayahNumber: number }[] = []

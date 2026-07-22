@@ -70,6 +70,18 @@ export function HadithBookClient({ collection, bookId, totalHadiths }: Props) {
       })
   }, [collection, bookId])
 
+  useEffect(() => {
+    if (loading || hadiths.length === 0) return
+    const hash = window.location.hash
+    if (!hash) return
+    const id = hash.slice(1)
+    const timer = setTimeout(() => {
+      const el = document.getElementById(id)
+      el?.scrollIntoView({ behavior: "smooth", block: "start" })
+    }, 100)
+    return () => clearTimeout(timer)
+  }, [loading, hadiths])
+
   if (loading) {
     return (
       <div className="space-y-3">
