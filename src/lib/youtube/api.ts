@@ -21,12 +21,13 @@ function setCache(key: string, data: Video[]) {
 }
 
 // Real video data is pre-generated at build time by scripts/fetch-youtube-data.ts
-// (pulled from each channel's public YouTube RSS feed on a US-based CI runner,
-// so region-restricted channels still resolve and no API key/quota/billing is
-// involved) and shipped as static JSON under public/data/youtube/. This site is
-// a static export on GitHub Pages — there is no request-time server, so the old
-// /api/youtube Cloudflare proxy never runs. We read the static files here and
-// fall back to mock data only when a file is missing or empty.
+// (scraped from each channel's public "/videos" tab on a US-based CI runner, so
+// region-restricted channels still resolve and no API key/quota/billing is
+// involved) and shipped as static JSON under public/data/youtube/. Only
+// long-form videos are included — Shorts are excluded at fetch time. This site
+// is a static export on GitHub Pages — there is no request-time server, so the
+// old /api/youtube Cloudflare proxy never runs. We read the static files here
+// and fall back to mock data only when a file is missing or empty.
 async function fetchStaticJson(file: string): Promise<Video[] | null> {
   try {
     const res = await fetch(assetPath(`/data/youtube/${file}`))

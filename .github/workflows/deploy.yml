@@ -17,6 +17,12 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  # Refresh twice daily so the videos grid keeps showing each scholar's latest
+  # uploads without a manual push. Cron is UTC; 06:07 and 18:07 avoid the top of
+  # the hour when GitHub's scheduler is most congested (and may drop/delay jobs).
+  # Each run re-fetches YouTube data (npm run fetch:youtube) and redeploys.
+  schedule:
+    - cron: "7 6,18 * * *"
 
 # GitHub Pages deploy needs these; id-token is required by deploy-pages.
 permissions:
@@ -48,11 +54,12 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
-      # Fetch each scholar's latest videos from their public YouTube RSS feed
-      # into public/data/youtube/. Runs on GitHub's US runner, so channels that
-      # are API-restricted in some regions still resolve; no API key needed.
-      # Non-fatal: the script writes empty files on per-channel failure and the
-      # site falls back to mock data, so a transient RSS hiccup can't break deploy.
+      # Fetch each scholar's latest long-form videos by scraping their public
+      # YouTube "/videos" tab into public/data/youtube/. Runs on GitHub's US
+      # runner, so channels that are region-restricted still resolve; no API key
+      # needed. Shorts are excluded at fetch time. Non-fatal: the script writes
+      # empty files on per-channel failure and the site falls back to mock data,
+      # so a transient fetch hiccup can't break the deploy.
       - run: npm run fetch:youtube
       # Build the search index first, then the static site. build:pagefind
       # writes public/pagefind/, which `next build` copies into out/pagefind/.
