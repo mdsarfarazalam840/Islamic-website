@@ -14,8 +14,15 @@ name: Deploy to GitHub Pages
 # Source = "GitHub Actions".
 
 on:
+  # Deploy only on version tags — never on raw branch pushes. versioning.yml
+  # tags every main push (via RELEASE_TOKEN, a PAT, so the tag push DOES trigger
+  # this workflow), so each release still deploys exactly once. This also makes
+  # tags the single source of truth for what's live, which is the rollback /
+  # break-glass path: if production breaks, push (or force-move) a known-good
+  # `v*` tag and this workflow ships that exact commit — no need to revert main.
   push:
-    branches: [main]
+    tags:
+      - "v*"
   workflow_dispatch:
   # Refresh twice daily so the videos grid keeps showing each scholar's latest
   # uploads without a manual push. Cron is UTC; 06:07 and 18:07 avoid the top of
