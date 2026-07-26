@@ -1,3 +1,16 @@
+## [0.2.1] - 2026-07-26
+
+### Other
+- Fixed versioning to skip the release (b69fc34)
+- Changes in Readme and workflows (8d76c13)
+- Added more scholars in the Videos (65f8d6f)
+- Fetch long-form YouTube videos and refresh twice daily (ab8700a)
+- Updated geolocations for each scholar videos (19e6842)
+- bug fix for 404 in searching phase (fabdee9)
+- Updated release in the validation.yml file (5fd2393)
+- fixed the changes for github action workflow (70d7404)
+
+
 ## [0.2.0] - 2026-07-22
 
 ### Features
