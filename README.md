@@ -1,56 +1,113 @@
+<div align="center">
+
 # Noor — نور
 
-> **نُورٌ عَلَىٰ نُورٍ** — *Light upon light.* A sacred digital space for the word of Allah.
+**نُورٌ عَلَىٰ نُورٍ** — *Light upon light.*
 
-Noor is a premium, open-source Quran & Hadith platform featuring the complete Quran with multilingual translations, authentic Hadith collections (Sahih Bukhari & Sahih Muslim), and a curated Islamic video library. Built with Next.js and Cloudflare, it delivers a cathedral-like reading experience with 3D elements, gold-accented Islamic geometry, and zero runtime costs.
+A premium open-source Quran & Hadith platform — complete Quran with multilingual translations, seven authentic Hadith collections (36,000+ hadiths), and a curated Islamic video library. Fully static, zero runtime cost.
 
-🌐 **Live:** [https://quran-website.pages.dev](https://quran-website.pages.dev)
+[![CI](https://img.shields.io/github/actions/workflow/status/anomalyco/quran-website/deploy.yml?style=flat-square&logo=github&label=Build)](https://github.com/anomalyco/quran-website/actions)
+![Node](https://img.shields.io/badge/node-%3E%3D22-339933?style=flat-square&logo=node.js&logoColor=white)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+[![Next](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=next.js&logoColor=white)](https://nextjs.org)
+[![Tailwind](https://img.shields.io/badge/Tailwind_CSS_v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
+[![License](https://img.shields.io/badge/License-MIT-D6A137?style=flat-square)](/LICENSE)
+
+</div>
+
+---
+
+## Table of Contents
+
+- [Features](#features)
+- [Architecture](#architecture)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+- [Project Structure](#project-structure)
+- [CI/CD](#cicd)
+- [Design System](#design-system)
+- [Contributing](#contributing)
 
 ---
 
 ## Features
 
 ### 📖 Quran Reader
-- All 114 surahs with Arabic (Uthmani script) + English, Hindi, Urdu translations
-- Triptych layout: navigation sidebar | Arabic center panel | translation panel
-- Gold-illuminated ayah numbers, gold drop-caps, verse markers (﴿﴾)
-- Juz navigator with compact gold dot indicators
-- Ayah bookmarking, copy, and share
-- Basmala displayed in ornate gold decorative frame
+All 114 surahs with Arabic (Uthmani script) + English, Urdu, Hindi translations. Triptych layout: navigation sidebar | Arabic center panel | translation panel. Gold-illuminated ayah numbers, gold drop-caps, verse markers. Juz navigator with gold dot indicators. Ayah bookmarking, copy, and share.
 
 ### 📜 Hadith Collections
-- 15,152 authentic hadiths (Sahih al-Bukhari + Sahih Muslim)
-- Sanad (narration chain) visualization with connected gold dots
-- Grade badges: emerald (Sahih), gold (Hasan), muted (Da'if)
-- Full-text fuzzy search across all hadiths
-- Book/chapter hierarchical navigation
+36,000+ authentic hadiths across 7 major collections — Bukhari, Muslim, Abu Dawud, Tirmidhi, Nasa'i, Ibn Majah, and Muwatta Malik. Sanad (narration chain) visualization. Grade badges: emerald (Sahih), gold (Hasan), muted (Da'if). Full-text search via Pagefind.
 
 ### 🎬 Scholar Videos
-- 19 renowned Islamic scholars with YouTube integration
-- Category filtering: Tafsir, Seerah, Fiqh, Aqeedah, Dawah, and more
-- Gold-accented video cards with hover play overlay
-- Modal video player with geometric veil backdrop
+20+ renowned Islamic scholars linked to their YouTube channels. Long-form videos scraped at build time — no API keys, no quota, no billing. Category filtering: Tafsir, Seerah, Fiqh, Aqeedah, Dawah, and more.
 
 ### 🔍 Global Search
-- Unified fuzzy search across Quran, Hadith, and Videos
-- Pre-built Fuse.js indexes for instant client-side search
-- Beam-effect backdrop on search page
+Unified search across Quran, Hadith, and Videos. Pagefind static index for Quran & Hadith — fetches only fragment chunks per query. Fuse.js for the video list.
 
-### 🎨 Design System — "Noor Al-Quds"
-- **Chamber-based navigation:** Every page is a sacred chamber with unique atmospheric lighting
-- **Gold + Deep Navy palette:** Premium gold gradients, emerald for completion states
-- **Vanishing navbar:** Auto-hides on scroll; floating lantern button appears at bottom-center
-- **Geometric veil transitions:** Islamic patterns as page transition effects
-- **3D environment:** Three.js concentric rings, star particles, Kaaba model, mosque scenes
-- **Dark/Light mode:** "The Night" (dark) and "Dawn" (light) themes
-- **Responsive:** Mobile-first with gold-glowing bottom dock
+### 🎨 Noor Al-Quds Design System
+Chamber-based navigation — every page is a sacred chamber with unique lighting. Gold + deep navy palette. Vanishing navbar with floating lantern button. Three.js 3D environment (star particles, Kaaba model). Dark/Light modes.
 
 ### ⚡ Performance
-- 100% static site generation (SSG) — 292 routes pre-built
-- Pre-built Fuse.js search indexes (4 fetches vs 272+)
-- 3D components lazy-loaded via `next/dynamic`
-- Cloudflare global CDN with 330+ edge locations
-- PWA: offline access via service worker
+100% SSG — every route pre-rendered at build time. Pagefind fragment-based search. 3D components lazy-loaded. GitHub Pages CDN + PWA offline via service worker.
+
+---
+
+## Architecture
+
+### Data Flow
+
+```mermaid
+graph LR
+    QAPI[Quran APIs] --> |Fetch| QDATA[public/data/quran/]
+    HAPI[Hadith APIs] --> |Fetch| HDATA[public/data/hadith/]
+    YT[YouTube Scraper] --> |Build-time scrape| YDATA[public/data/youtube/]
+    QDATA --> |Build| PF[Pagefind Index]
+    HDATA --> |Build| PF
+    PF --> |Embed| NX[Next.js SSG]
+    QDATA --> NX
+    HDATA --> NX
+    YDATA --> NX
+    NX --> |Static export| GHP[GitHub Pages]
+    GHP --> |Serve| BROWSER[Client Browser]
+    BROWSER --> |Fragment fetches| PFS[Pagefind Search]
+    BROWSER --> |localStorage| BOOK[Bookmarks & Theme]
+```
+
+### Component Structure
+
+```mermaid
+graph LR
+    ROOT[Root Layout] --> HOME[Homepage]
+    ROOT --> QRN[Quran Reader]
+    ROOT --> HAD[Hadith]
+    ROOT --> VID[Videos]
+    ROOT --> SRC[Search]
+    ROOT --> ABT[About]
+    QRN --> QR[QuranReader]
+    QRN --> JZ[JuzNavigator]
+    HAD --> HC[HadithCard]
+    HAD --> HCH[HadithChain]
+    VID --> VG[VideoGrid]
+    VID --> CF[CategoryFilter]
+    SRC --> SC[SearchClient]
+    ROOT --> TGL[ThemeToggle]
+    ROOT --> NAV[Navbar]
+    ROOT --> FTR[Footer]
+    ROOT --> T40[3D Environment<br/>Kaaba · Stars · Mosque]
+```
+
+### The Chamber Concept
+
+Every page is a chamber in a sacred building, each with its own lighting and mood:
+
+| Page | Chamber | Lighting | Mood |
+|------|---------|----------|------|
+| Homepage | Grand Foyer | Warm golden beam | Welcoming |
+| Quran Reader | Scriptorium | Soft gold glow | Contemplative |
+| Hadith | Chain Library | Ambient lantern | Scholarly |
+| Videos | Assembly Hall | Dynamic | Engaging |
+| Search | Beacon | Focused beam | Precise |
+| About | Cloister | Soft muted | Reflective |
 
 ---
 
@@ -58,199 +115,60 @@ Noor is a premium, open-source Quran & Hadith platform featuring the complete Qu
 
 | Layer | Technology |
 |-------|-----------|
-| **Framework** | Next.js 16 (App Router) |
-| **Language** | TypeScript |
-| **UI** | React 19 + shadcn/ui + @base-ui |
-| **Styling** | Tailwind CSS v4 + tw-animate-css |
-| **3D** | Three.js + React Three Fiber + Drei |
-| **Animation** | Framer Motion |
-| **Search** | Fuse.js (client-side fuzzy search) |
-| **Icons** | Lucide React |
-| **State** | Zustand + TanStack Query |
-| **Validation** | Zod |
-| **Hosting** | Cloudflare Pages (static export) |
-| **Database** | Cloudflare D1 (bookmarks, reading progress) |
-| **Cache** | Cloudflare KV (YouTube API cache) |
-| **Fonts** | Inter, Playfair Display, Noto Naskh Arabic |
-| **CI/CD** | GitHub Actions + Wrangler |
-
----
-
-## Architecture
-
-```
-┌─────────────────────────────────────────────────────────┐
-│                    Client Browser                        │
-│  ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐  │
-│  │  Quran   │ │  Hadith  │ │  Videos  │ │  Search  │  │
-│  │ (SSG)    │ │ (SSG)    │ │ (SSG)    │ │ (CSR)    │  │
-│  └────┬─────┘ └────┬─────┘ └────┬─────┘ └────┬─────┘  │
-│       │            │            │            │          │
-│       └────────────┴────────────┴────────────┘          │
-│                        │                                 │
-│              ┌─────────▼─────────┐                      │
-│              │  Fuse.js Search   │                      │
-│              │  (4 pre-built     │                      │
-│              │   indexes)        │                      │
-│              └─────────┬─────────┘                      │
-│                        │                                 │
-│              ┌─────────▼─────────┐                      │
-│              │  localStorage     │                      │
-│              │  (bookmarks,      │                      │
-│              │   theme, lang)    │                      │
-│              └───────────────────┘                      │
-└──────────────────┬──────────────────────────────────────┘
-                   │
-┌──────────────────▼──────────────────────────────────────┐
-│              Cloudflare Pages (Static)                   │
-│  ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐  │
-│  │  Quran   │ │  Hadith  │ │  Videos  │ │  Assets  │  │
-│  │  JSON    │ │  JSON    │ │  Config  │ │  (fonts, │  │
-│  │  data    │ │  data    │ │          │ │  icons)  │  │
-│  └──────────┘ └──────────┘ └──────────┘ └──────────┘  │
-└─────────────────────────────────────────────────────────┘
-                   │
-┌──────────────────▼──────────────────────────────────────┐
-│          Cloudflare Functions (Dynamic)                  │
-│  ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐  │
-│  │ YouTube  │ │  Search  │ │ Bookmark │ │ Progress │  │
-│  │ API      │ │  Proxy   │ │ (D1)    │ │ (D1)    │  │
-│  │ (KV)     │ │  (KV)    │ │          │ │          │  │
-│  └──────────┘ └──────────┘ └──────────┘ └──────────┘  │
-└─────────────────────────────────────────────────────────┘
-```
-
-### Design Philosophy — "The Chamber Concept"
-
-Every page is a **chamber** in a great spiritual building:
-
-| Chamber | Page | Lighting | Mood |
-|---------|------|----------|------|
-| Grand Foyer | Homepage | Warm golden beam | Welcoming, awe |
-| Scriptorium | Quran Reader | Focused intimate glow | Contemplative |
-| Chain Library | Hadith | Warm ambient | Scholarly |
-| Assembly Hall | Videos | Energetic | Engaging |
-| Beacon | Search | Focused beam | Precise |
-| Cloister | About | Soft muted | Reflective |
-
----
-
-## Project Structure
-
-```
-src/
-├── app/                      # Next.js App Router
-│   ├── layout.tsx            # Root layout (fonts, nav, footer, providers)
-│   ├── page.tsx              # Homepage (3D hero, quick links, stats)
-│   ├── globals.css           # Tailwind theme, custom utilities, atmosphere layers
-│   ├── quran/                # Quran module
-│   │   ├── page.tsx          # Surah index (SSG)
-│   │   ├── [surahNumber]/    # Surah reader (114 SSG pages)
-│   │   └── ...
-│   ├── hadith/               # Hadith module
-│   │   ├── [collection]/     # Collection + book pages (157 SSG pages)
-│   │   └── ...
-│   ├── videos/               # Video library
-│   │   ├── page.tsx          # Scholar index + latest videos
-│   │   └── [scholar]/        # Per-scholar pages (10 SSG pages)
-│   ├── search/               # Global search
-│   └── about/                # About page
-│
-├── components/
-│   ├── layout/               # Navbar, Footer, Sidebar, MobileNav
-│   ├── quran/                # QuranReader, AyahDisplay, SurahCard, JuzNavigator
-│   ├── hadith/               # HadithCard, HadithChain, CollectionCard, HadithSearch
-│   ├── videos/               # VideoCard, VideoGrid, YouTubeEmbed, CategoryFilter
-│   ├── three/                # HeroScene3D, KaabaModel, MosqueScene, StarParticles
-│   ├── ui/                   # shadcn primitives (button, card, badge, tabs, etc.)
-│   └── shared/               # SearchBar, ThemeToggle, BookmarkButton, ErrorBoundary
-│
-├── config/                   # site.ts, scholars.ts, api.ts, audio.ts
-├── types/                    # TypeScript interfaces (quran, hadith, video)
-├── hooks/                    # useBookmarks, useQuran, useYouTube
-├── lib/                      # Data layers (quran, hadith, youtube, utils)
-└── data/                     # Static JSON (surahs metadata)
-
-public/
-├── data/                     # Pre-built JSON (quran, hadith, search indexes)
-├── images/                   # Icons, scholar profiles, architecture
-├── manifest.json             # PWA manifest
-└── sw.js                     # Service worker
-
-functions/api/                # Cloudflare Pages Functions
-├── youtube.ts                # YouTube API proxy with KV cache
-├── search.ts                 # Search proxy with KV cache
-├── bookmarks.ts              # D1 CRUD
-└── progress.ts               # D1 CRUD
-
-tests/                        # E2E tests (Playwright Python)
-├── phase1.py                 # Foundation
-├── phase3_hadith.py
-├── phase4_video.py
-├── phase5_search.py
-└── phase6_polish.py
-```
-
----
-
-## Data Sources
-
-All data sources are **free, no API key required:**
-
-| Data | Source | Format |
-|------|--------|--------|
-| Quran Arabic | UmmahAPI / Quran-API | Static JSON at build |
-| Quran English | UmmahAPI (Sahih Intl) | Static JSON at build |
-| Quran Hindi | AlQuran Cloud | Static JSON at build |
-| Quran Urdu | UmmahAPI | Static JSON at build |
-| Hadith Bukhari | UmmahAPI (7,589 hadiths) | Static JSON at build |
-| Hadith Muslim | UmmahAPI (7,563 hadiths) | Static JSON at build |
-| YouTube Videos | YouTube Data API v3 | Runtime with KV caching |
-| Scholar Data | Curated config (`config/scholars.ts`) | Static |
+| Framework | Next.js 16 (App Router, `output: "export"`) |
+| Language | TypeScript |
+| UI | React 19 + shadcn/ui + @base-ui |
+| Styling | Tailwind CSS v4 + tw-animate-css |
+| 3D | Three.js + React Three Fiber + Drei |
+| Animation | Framer Motion |
+| Search | Pagefind (Quran + Hadith) · Fuse.js (videos) |
+| Icons | Lucide React |
+| State | Zustand + TanStack Query |
+| Validation | Zod |
+| Hosting | GitHub Pages · PWA |
+| CI/CD | GitHub Actions |
+| Fonts | Inter · Playfair Display · Noto Naskh Arabic |
 
 ---
 
 ## Getting Started
 
 ### Prerequisites
-- Node.js 18+
-- npm / pnpm / yarn
+- Node.js 22+
+- npm
 
-### Installation
+### Install & Run
 
 ```bash
-# Clone the repository
-git clone https://github.com/yourusername/quran-website.git
+git clone https://github.com/anomalyco/quran-website.git
 cd quran-website
-
-# Install dependencies
 npm install
-
-# Set up environment variables
-cp .env.example .env.local
-# Add your YouTube API key (optional — mock data used without it)
-
-# Run development server
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+Open [http://localhost:3000](http://localhost:3000).
 
-### Build
+### Build Data
 
 ```bash
-npm run build    # Generates static export in `out/`
+npm run fetch:quran        # Quran JSON
+npm run fetch:hadith       # 7 Hadith collections
+npm run fetch:youtube      # Latest videos
+npm run build:pagefind     # Search index
+npm run fetch:all          # All of the above
 ```
 
-### Running Tests
+### Production Build
 
 ```bash
-# Start the server
-npm run dev
+npm run build:static       # Pagefind + Next.js → out/
+```
 
-# In a separate terminal, run tests
-pip install playwright
-playwright install chromium
+### Test
+
+```bash
+npm run dev                # Terminal 1
+pip install playwright && playwright install chromium
 python tests/phase1.py
 python tests/phase3_hadith.py
 python tests/phase4_video.py
@@ -260,77 +178,123 @@ python tests/phase6_polish.py
 
 ---
 
-## Deployment
+## Project Structure
 
-### Cloudflare Pages (Free — Recommended)
-
-1. Push to GitHub
-2. Connect repository to [Cloudflare Pages](https://pages.cloudflare.com/)
-3. Build command: `npm run build`
-4. Output directory: `out`
-5. Set environment variables in Cloudflare dashboard
-6. Deploy — free SSL, global CDN, unlimited bandwidth
-
-### Manual
-
-```bash
-npm run build
-npx wrangler pages deploy out --project-name noor-quran
 ```
+src/
+├── app/                    # Next.js App Router
+│   ├── layout.tsx          # Root layout (fonts, nav, footer, providers)
+│   ├── page.tsx            # Homepage (3D hero, quick links)
+│   ├── globals.css         # Tailwind theme, custom utilities
+│   ├── quran/              # Quran module
+│   ├── hadith/             # Hadith module
+│   ├── videos/             # Video library
+│   ├── search/             # Global search
+│   └── about/              # About page
+├── components/
+│   ├── layout/             # Navbar, Footer, Sidebar, MobileNav
+│   ├── quran/              # QuranReader, AyahDisplay, SurahCard, JuzNavigator
+│   ├── hadith/             # HadithCard, HadithChain, CollectionCard, HadithSearch
+│   ├── videos/             # VideoCard, VideoGrid, YouTubeEmbed, CategoryFilter
+│   ├── three/              # HeroScene3D, KaabaModel, MosqueScene, StarParticles
+│   ├── ui/                 # shadcn primitives
+│   └── shared/             # ThemeToggle, BookmarkButton, SearchBar, ErrorBoundary
+├── config/                 # site.ts, scholars.ts, api.ts
+├── lib/                    # Data layers (quran, hadith, youtube, utils)
+├── hooks/                  # useBookmarks, useQuran, useYouTube
+└── types/                  # TypeScript interfaces
+
+public/
+├── data/                   # Pre-built JSON
+├── pagefind/               # Static search index
+├── images/                 # Icons, scholar profiles
+├── manifest.json           # PWA manifest
+└── sw.js                   # Service worker
+
+scripts/
+├── fetch-quran-data.ts     # Quran JSON builder
+├── fetch-hadith-data.ts    # Hadith JSON builder
+├── fetch-youtube-data.ts   # YouTube scraper
+├── build-pagefind-index.mjs
+└── bump-version.js         # Conventional-commit versioning
+```
+
+---
+
+## CI/CD
+
+Two GitHub Actions workflows drive releases. Tags are the **single source of truth** for what is live.
+
+```mermaid
+graph LR
+    MAIN[Push to main] --> VG[versioning.yml]
+    VG --> |Analyze commits| BUMP[Bump version + changelog]
+    BUMP --> |Push tag| TAG[vX.Y.Z tag]
+    TAG --> |Trigger| DP[deploy.yml]
+    SCHED[Cron · 06:07 / 18:07 UTC] -.-> DP
+    MANUAL[workflow_dispatch] -.-> DP
+    DP --> BUILD[npm ci + fetch + build]
+    BUILD --> |Static export| PAGES[GitHub Pages]
+```
+
+> [!TIP]
+> **Break-glass rollback** — redeploy any known-good release:
+> ```bash
+> git tag -f v1.2.0 <good-commit-sha>
+> git push -f origin v1.2.0
+> ```
+> The tag push triggers deploy and ships that exact commit.
 
 ---
 
 ## Design System
 
-Full documentation in [`DESIGN.md`](./DESIGN.md) covering:
+Full documentation in [`DESIGN.md`](./DESIGN.md).
 
-- **Color System:** Deep navy (`#050a14`), gold gradients, emerald accents
-- **Typography:** Playfair Display (headings), Inter (body), Noto Naskh Arabic (Arabic)
-- **Atmosphere:** Lantern glow, scriptorium glow, search beam, geometric veil
-- **Components:** Cards, buttons, badges, dividers with gold-accented variants
-- **3D:** Concentric rings, star particles, Kaaba model, mosque dome, geometric star
-- **Animations:** Slow elegant transitions, staggered ayah reveals, scroll-triggered fades
-
----
-
-## Color Palette
+### Color Palette
 
 ```
---space-deep:      #050a14    — Absolute deepest background
---space-navy:      #0b1424    — Primary background
---gold-light:      #e8d48b    — Bright gold (CTAs, highlights)
---gold-main:       #d4af37    — Primary gold (accents, icons)
---gold-dim:        #b8922e    — Muted gold (borders, secondary)
---emerald:         #1a8a5c    — Success, completion
---text-primary:    #e8e0d0    — Body text
+--space-deep:   #050a14    — Deepest background
+--space-navy:   #0b1424    — Primary background
+--gold-light:   #e8d48b    — Bright gold (CTAs, highlights)
+--gold-main:    #d4af37    — Primary gold (accents, icons)
+--gold-dim:     #b8922e    — Muted gold (borders, secondary)
+--emerald:      #1a8a5c    — Success, completion
+--text-primary: #e8e0d0    — Body text
 ```
 
-Gold is never flat — all gold elements use multi-stop gradients to simulate metallic foil reflectivity.
+Gold is never flat — all gold elements use multi-stop gradients for metallic foil reflectivity.
+
+### Data Sources
+
+| Data | Source | When |
+|------|--------|------|
+| Quran (Arabic + EN/UR/HI) | Public Quran APIs | Build → `public/data/quran/` |
+| Hadith (7 collections) | Public Hadith APIs | Build → `public/data/hadith/` |
+| Scholar Videos | YouTube `/videos` tabs | Build + twice-daily cron → `public/data/youtube/` |
+
+YouTube runs on GitHub's US runners. Per-channel failures fall back to bundled mock data.
 
 ---
 
 ## Contributing
 
-Contributions are welcome! Please read the design guidelines in [`DESIGN.md`](./DESIGN.md) before making UI changes.
+Use **Conventional Commits** (`feat:`, `fix:`, `chore:`, `BREAKING CHANGE:`).
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
+1. Fork the repo
+2. `git checkout -b feat/amazing-feature`
+3. `git commit -m 'feat: add amazing feature'`
+4. `git push origin feat/amazing-feature`
 5. Open a Pull Request
 
 ---
 
-## License
-
-This project is open source. All code is available under the MIT License.
-
----
-
-## Built With ❤️ for the Ummah
+<div align="center">
 
 **Noor** — *Light.* May this project bring benefit and draw people closer to the Qur'an and Sunnah.
 
-> *"يَرْفَعِ ٱللَّهُ ٱلَّذِينَ ءَامَنُوا۟ مِنكُمْ وَٱلَّذِينَ أُوتُوا۟ ٱلْعِلْمَ دَرَجَـٰتٍۢ"*
-> *Allah will raise those who have believed among you and those who were given knowledge, by degrees.*
-> — Quran, Surah Al-Mujadila (58:11)
+*"يَرْفَعِ ٱللَّهُ ٱلَّذِينَ ءَامَنُوا۟ مِنكُمْ وَٱلَّذِينَ أُوتُوا۟ ٱلْعِلْمَ دَرَجَـٰتٍۢ"*  
+*Allah will raise those who have believed among you and those who were given knowledge, by degrees.*  
+— Quran, Surah Al-Mujadila (58:11)
+
+</div>
