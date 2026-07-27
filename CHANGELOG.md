@@ -1,3 +1,9 @@
+## [0.2.2] - 2026-07-27
+
+### Other
+- Added rollback in deploy workflow (c96d1cd)
+
+
 ## [0.2.1] - 2026-07-26
 
 ### Other
