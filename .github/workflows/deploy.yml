@@ -23,7 +23,14 @@ on:
   push:
     tags:
       - "v*"
+  # Manual trigger, primarily for rollback. Enter a known-good tag (e.g. v0.2.1)
+  # in the "ref" input and this ships that exact commit. Leave blank to deploy
+  # whatever ref the run was launched from (the "Use workflow from" dropdown).
   workflow_dispatch:
+    inputs:
+      ref:
+        description: "Tag/branch/SHA to deploy (for rollback). Blank = current ref."
+        required: false
   # Refresh twice daily so the videos grid keeps showing each scholar's latest
   # uploads without a manual push. Cron is UTC; 06:07 and 18:07 avoid the top of
   # the hour when GitHub's scheduler is most congested (and may drop/delay jobs).
@@ -56,6 +63,10 @@ jobs:
       NEXT_PUBLIC_PAGEFIND_BUNDLE: /${{ github.event.repository.name }}/pagefind
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Rollback: check out the tag/SHA from the workflow_dispatch input when
+          # provided; otherwise fall back to the ref that triggered the run.
+          ref: ${{ github.event.inputs.ref || github.ref }}
       - uses: actions/setup-node@v4
         with:
           node-version: 22
