@@ -20,18 +20,23 @@ permissions:
   contents: write
 
 jobs:
-  version:
+  # Cheap, ungated pre-check: is there anything new since the last tag? This is
+  # split out from the release job on purpose. The approval gate lives on the
+  # release job, and job-level `if:` is evaluated BEFORE the environment
+  # protection rule — so when this outputs has_new_commits=false the release job
+  # is skipped and NO approval is requested. That matters because the bot's own
+  # "chore: release" commit is pushed with the PAT, which re-triggers this
+  # workflow; that re-run finds nothing new and dies here silently instead of
+  # nagging you for a second approval.
+  check:
     runs-on: ubuntu-latest
+    outputs:
+      has_new_commits: ${{ steps.check-commits.outputs.has_new_commits }}
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
           token: ${{ secrets.RELEASE_TOKEN }}
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
 
       - name: Check for new commits since last tag
         id: check-commits
@@ -45,8 +50,32 @@ jobs:
             echo "has_new_commits=false" >> $GITHUB_OUTPUT
           fi
 
+  # The actual tag + release. Gated behind the `release` environment: with a
+  # required reviewer configured on that environment (repo Settings ->
+  # Environments -> release), GitHub PAUSES this job and waits for you to
+  # Approve/Reject in the Actions UI before a single step runs. Nothing is
+  # bumped, tagged, or published until you approve.
+  #
+  # ONE-TIME SETUP (without it, the gate is a no-op and releases run
+  # immediately): Settings -> Environments -> New environment "release" ->
+  # enable "Required reviewers" -> add yourself.
+  release:
+    needs: check
+    if: needs.check.outputs.has_new_commits == 'true'
+    runs-on: ubuntu-latest
+    environment: release
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.RELEASE_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
       - name: Bump version and generate changelog
-        if: steps.check-commits.outputs.has_new_commits == 'true'
         id: bump
         env:
           INPUT_BUMP: ${{ github.event.inputs.bump == 'auto' && '' || github.event.inputs.bump }}
