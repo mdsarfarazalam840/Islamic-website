@@ -83,6 +83,13 @@ jobs:
       # writes public/pagefind/, which `next build` copies into out/pagefind/.
       - run: npm run build:pagefind
       - run: npm run build
+      # Prune build-only inputs from the artifact. The *-all.json files (Quran +
+      # each hadith collection, ~176 MB) are read at build time by build:pagefind
+      # and lib/quran/translations.ts, then copied into out/ by `next build` — but
+      # the client never fetches them (it requests per-book book-*.json and
+      # per-surah surah-*.json only). Dropping them keeps the deployed artifact to
+      # what browsers actually load and reclaims headroom under Pages' 1 GB cap.
+      - run: find out/data -name '*-all.json' -delete
       # Jekyll (GitHub Pages' default) ignores files/dirs starting with "_",
       # which would drop Next's _next/ asset folder. Disable it.
       - run: touch out/.nojekyll

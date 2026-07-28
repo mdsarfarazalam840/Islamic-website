@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useMemo, useEffect } from "react"
+import { useState, useMemo, useEffect, useRef } from "react"
 import Link from "next/link"
 import { motion, AnimatePresence } from "framer-motion"
 import { BookOpen, Languages, ChevronLeft, ChevronRight } from "lucide-react"
@@ -11,6 +11,8 @@ import { JuzNavigator } from "./JuzNavigator"
 import { getAllSurahs } from "@/lib/quran/surahs"
 import { cn } from "@/lib/utils"
 import { useFontSize, getFontSizeClass } from "@/hooks/useFontSize"
+import { saveReadingProgress } from "@/hooks/useReadingProgress"
+import { useAudioPlayer } from "./AudioPlayerContext"
 
 interface QuranReaderProps {
   surah: Surah
@@ -24,6 +26,29 @@ export function QuranReader({ surah, ayahs }: QuranReaderProps) {
   const [showTranslation, setShowTranslation] = useState(true)
   const [currentJuz, setCurrentJuz] = useState<number>(ayahs[0]?.juz ?? 1)
   const { level } = useFontSize()
+  const versesRef = useRef<HTMLDivElement>(null)
+  const { playingAyahId } = useAudioPlayer()
+
+  // Follow the recitation: when the playing ayah changes, make sure its Juz is
+  // the one on screen (the reader renders a single Juz at a time), then scroll
+  // it into view so the reader can see exactly where the audio is.
+  useEffect(() => {
+    if (playingAyahId == null) return
+    const ayah = ayahs.find((a) => a.number === playingAyahId)
+    if (!ayah) return
+    const timer = setTimeout(() => {
+      // If the playing ayah lives in another Juz, switch to it first; the
+      // effect re-runs on the currentJuz change and scrolls once it renders.
+      if (ayah.juz !== currentJuz) {
+        setCurrentJuz(ayah.juz)
+        return
+      }
+      document
+        .getElementById(`ayah-${playingAyahId}`)
+        ?.scrollIntoView({ behavior: "smooth", block: "center" })
+    }, 120)
+    return () => clearTimeout(timer)
+  }, [playingAyahId, ayahs, currentJuz])
 
   useEffect(() => {
     const hash = window.location.hash
@@ -35,6 +60,43 @@ export function QuranReader({ surah, ayahs }: QuranReaderProps) {
     }, 100)
     return () => clearTimeout(timer)
   }, [])
+
+  // Track the top-most visible ayah as the user scrolls and persist it as
+  // reading progress. The rootMargin defines an "active band" near the top of
+  // the viewport (below the sticky header, above the lower ~55%), so the ayah
+  // recorded is the one the reader is actually on, not one barely peeking in.
+  useEffect(() => {
+    const container = versesRef.current
+    if (!container || typeof IntersectionObserver === "undefined") return
+
+    const visible = new Set<number>()
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          const id = Number((entry.target as HTMLElement).dataset.ayahGlobal)
+          if (!Number.isFinite(id)) continue
+          if (entry.isIntersecting) visible.add(id)
+          else visible.delete(id)
+        }
+        if (visible.size === 0) return
+        const topMost = Math.min(...visible)
+        const ayah = ayahs.find((a) => a.number === topMost)
+        if (ayah) {
+          saveReadingProgress({
+            surahNumber: surah.number,
+            surahName: surah.name,
+            ayahNumber: ayah.ayahNumber,
+            ayahId: ayah.number,
+          })
+        }
+      },
+      { rootMargin: "-100px 0px -55% 0px", threshold: 0 },
+    )
+
+    const els = container.querySelectorAll<HTMLElement>("[data-ayah-global]")
+    els.forEach((el) => observer.observe(el))
+    return () => observer.disconnect()
+  }, [ayahs, surah.number, surah.name, currentJuz])
 
   const juzBoundaries = useMemo(() => {
     const boundaries: { juz: number; ayahNumber: number }[] = []
@@ -64,7 +126,7 @@ export function QuranReader({ surah, ayahs }: QuranReaderProps) {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-[280px_1fr_260px] gap-6">
       {/* Left Panel — Navigation & Surah Info */}
-      <div className="space-y-4 lg:sticky lg:top-24 lg:self-start lg:order-1 order-3">
+      <div className="space-y-4 lg:sticky lg:top-24 lg:self-start lg:order-1 order-1">
         <div className="rounded-xl border border-gold-dim/15 bg-card/50 p-4">
           <div className="flex items-center gap-2 mb-3">
             <BookOpen className="size-4 text-gold-light" />
@@ -118,7 +180,7 @@ export function QuranReader({ surah, ayahs }: QuranReaderProps) {
       </div>
 
       {/* Center Panel — Arabic Text (Sacred Scroll) */}
-      <div className="space-y-6 lg:order-2 order-2">
+      <div ref={versesRef} className="space-y-6 lg:order-2 order-2">
         {/* Surah header */}
         <div className="text-center py-8 border-b border-gold-dim/10">
           <h2 className={cn("font-arabic text-gold-light leading-[2.2]", getFontSizeClass(level, "quranArabic"))} dir="rtl">
@@ -165,7 +227,7 @@ export function QuranReader({ surah, ayahs }: QuranReaderProps) {
       </div>
 
       {/* Right Panel — Translations & Controls */}
-      <div className="space-y-4 lg:sticky lg:top-24 lg:self-start lg:order-3 order-1">
+      <div className="space-y-4 lg:sticky lg:top-24 lg:self-start lg:order-3 order-3">
         <div className="rounded-xl border border-gold-dim/15 bg-card/50 p-4">
           <div className="flex items-center justify-between mb-3">
             <span className="text-xs font-medium text-gold-light uppercase tracking-wider flex items-center gap-1.5">

@@ -6,7 +6,7 @@ import { useState, useCallback } from "react"
 import { cn } from "@/lib/utils"
 import { useBookmarks } from "@/hooks/useBookmarks"
 import { useFontSize, getFontSizeClass } from "@/hooks/useFontSize"
-import { getGradeColor, getGradeBadge } from "@/lib/hadith/references"
+import { getGradeBadge } from "@/lib/hadith/references"
 import type { Hadith } from "@/types"
 
 interface HadithCardProps {
@@ -49,7 +49,6 @@ export function HadithCard({ hadith, index = 0 }: HadithCardProps) {
 
   const bookmarkId = `hadith-${hadith.id}`
   const gradeBadge = getGradeBadge(hadith.grade)
-  const gradeColor = getGradeColor(hadith.grade)
 
   const handleCopy = useCallback(async () => {
     const parts = [hadith.english]
@@ -76,7 +75,7 @@ export function HadithCard({ hadith, index = 0 }: HadithCardProps) {
       id={`hadith-${hadith.id}`}
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.4, delay: index * 0.03, ease: "easeOut" }}
+      transition={{ duration: 0.4, delay: Math.min(index, 15) * 0.03, ease: "easeOut" }}
       className="group relative rounded-xl border border-border/20 bg-card/40 p-5 transition-all duration-300 hover:border-gold-dim/15 hover:bg-card/60"
     >
       <div className="flex items-start justify-between gap-3 mb-3">

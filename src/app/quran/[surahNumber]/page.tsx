@@ -3,10 +3,12 @@ import Link from "next/link"
 import { notFound } from "next/navigation"
 import { getSurah, getAllSurahs } from "@/lib/quran/surahs"
 import { getSurahAyahs } from "@/lib/quran/translations"
-import { ArrowLeft, BookOpen, Headphones } from "lucide-react"
+import { ArrowLeft, BookOpen } from "lucide-react"
 import { QuranReader } from "@/components/quran/QuranReader"
+import { SurahAudioPlayer } from "@/components/quran/SurahAudioPlayer"
+import { AudioPlayerProvider } from "@/components/quran/AudioPlayerContext"
 import { FontSizeControls } from "@/components/shared/FontSizeControls"
-import { getSurahAudioUrl, RECITER_NAME } from "@/config/audio"
+import { RECITER_NAME } from "@/config/audio"
 
 interface Props {
   params: Promise<{ surahNumber: string }>
@@ -35,7 +37,6 @@ export default async function SurahPage({ params }: Props) {
   if (!surah) notFound()
 
   const ayahs = getSurahAyahs(surah.number)
-  const audioUrl = getSurahAudioUrl(surah.number)
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -82,17 +83,6 @@ export default async function SurahPage({ params }: Props) {
           {surah.juz.length > 0 && ` \u00b7 Juz ${surah.juz.join(", ")}`}
         </p>
 
-        {audioUrl && (
-          <a
-            href={audioUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded-lg bg-secondary/10 px-4 py-2 text-sm text-secondary hover:bg-secondary/20 transition-colors"
-          >
-            <Headphones className="size-4" />
-            Listen ({RECITER_NAME})
-          </a>
-        )}
       </div>
 
       {ayahs.length === 0 ? (
@@ -106,7 +96,12 @@ export default async function SurahPage({ params }: Props) {
           </p>
         </div>
       ) : (
-        <QuranReader surah={surah} ayahs={ayahs} />
+        <AudioPlayerProvider ayahs={ayahs}>
+          <div className="flex justify-center mb-10">
+            <SurahAudioPlayer reciterName={RECITER_NAME} />
+          </div>
+          <QuranReader surah={surah} ayahs={ayahs} />
+        </AudioPlayerProvider>
       )}
 
       <FontSizeControls />
