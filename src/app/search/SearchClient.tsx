@@ -12,8 +12,6 @@ import { loadVideosForSearch } from "./videoData"
 import { getPagefind, type PagefindResultData } from "./pagefind"
 import type { Ayah, Hadith, Video as VideoType } from "@/types"
 
-// Quran & Hadith are searched via the static Pagefind index (fragment fetches,
-// tens of KB per query). Only Videos — a tiny in-memory list — still use Fuse.
 const SEARCH_OPTIONS = {
   threshold: 0.4,
   distance: 100,
@@ -21,9 +19,15 @@ const SEARCH_OPTIONS = {
   includeScore: true,
 }
 
-// How many Pagefind hits to hydrate per query. Each hydration is a small
-// fragment fetch, so cap it to keep a search cheap.
-const MAX_RESULTS = 30
+// Upper bound on how many hits we keep refs for per type. Refs are cheap
+// (id + a lazy data() thunk); we only pay the fragment fetch when a page is
+// actually shown.
+const MAX_RESULTS = 100
+// How many results to hydrate/render per "page" in each section.
+const PAGE_SIZE = 10
+
+// A single un-hydrated Pagefind hit: the fragment is fetched lazily via data().
+type PagefindRef = { id: string; data: () => Promise<PagefindResultData> }
 
 function useDebounce<T>(value: T, delay: number): T {
   const [debouncedValue, setDebouncedValue] = useState(value)
@@ -34,42 +38,25 @@ function useDebounce<T>(value: T, delay: number): T {
   return debouncedValue
 }
 
-export type ContentTab = "quran" | "hadith" | "videos"
-
-const tabLabels: Record<ContentTab, { label: string; icon: typeof Search }> = {
-  quran: { label: "Quran", icon: BookOpen },
-  hadith: { label: "Hadith", icon: MessageSquareText },
-  videos: { label: "Videos", icon: Video },
-}
-
 interface QuranResult {
   type: "quran"
   ayah: Ayah
   excerpt?: string
-  score?: number
 }
 
 interface HadithResult {
   type: "hadith"
   hadith: Hadith
   excerpt?: string
-  score?: number
 }
 
 interface VideoResult {
   type: "video"
   video: VideoType
-  score?: number
 }
 
-type SearchResult = QuranResult | HadithResult | VideoResult
-
-const VALID_TABS: ContentTab[] = ["quran", "hadith", "videos"]
-
-/** Parse the surah/ayah numbers Pagefind encoded in a Quran result's meta. */
 function pagefindToQuran(d: PagefindResultData): QuranResult | null {
   const m = d.meta
-  // url looks like /quran/{surah}#ayah-{globalNumber}
   const num = Number(d.url.split("#ayah-")[1] ?? "")
   const surahNumber = Number(m.surah ?? "0")
   const ayahNumber = Number(m.ayah ?? "0")
@@ -82,22 +69,16 @@ function pagefindToQuran(d: PagefindResultData): QuranResult | null {
       surahNumber,
       ayahNumber,
       juz: Number(m.juz ?? "0"),
-      // Text comes from the highlighted excerpt; the card falls back to it.
       arabic: "",
       translations: { en: "", hi: "", ur: "" },
     } as Ayah,
   }
 }
 
-/** Rebuild a Hadith card object from a Pagefind hadith result's meta. */
 function pagefindToHadith(d: PagefindResultData): HadithResult | null {
   const m = d.meta
   const collection = (m.collection ?? "") as Hadith["collection"]
   const hadithNumber = Number(m.hadithNumber ?? "0")
-  // url looks like /hadith/{collection}/{bookId}#hadith-{collection}-{number}.
-  // On the subpath deploy Pagefind prepends the basePath (/<repo>/…), so a
-  // fixed segment index breaks; take the last path segment before the anchor,
-  // and prefer the bookId baked into meta when present.
   const bookIdFromUrl = d.url.split("#")[0].split("/").filter(Boolean).pop() ?? ""
   const bookId = Number(m.bookId ?? bookIdFromUrl ?? "0")
   if (!collection || !hadithNumber || !Number.isFinite(bookId)) return null
@@ -131,13 +112,19 @@ function pagefindToHadith(d: PagefindResultData): HadithResult | null {
 export function SearchClient() {
   const searchParams = useSearchParams()
   const initialQ = searchParams.get("q") ?? ""
-  const initialTab = searchParams.get("tab") as ContentTab ?? "quran"
   const [query, setQuery] = useState(initialQ)
   const [searched, setSearched] = useState(!!initialQ.trim())
-  const [activeTab, setActiveTab] = useState<ContentTab>(VALID_TABS.includes(initialTab) ? initialTab : "quran")
-  // Videos are a tiny in-memory list — still Fuse. Quran/Hadith use Pagefind.
   const [videoFuse, setVideoFuse] = useState<Fuse<VideoType> | null>(null)
-  const [pfResults, setPfResults] = useState<SearchResult[]>([])
+  // Un-hydrated hit refs per type (up to MAX_RESULTS), plus the mapped results
+  // hydrated so far and a cursor tracking how many refs we've consumed.
+  const [quranRefs, setQuranRefs] = useState<PagefindRef[]>([])
+  const [hadithRefs, setHadithRefs] = useState<PagefindRef[]>([])
+  const [quranResults, setQuranResults] = useState<QuranResult[]>([])
+  const [hadithResults, setHadithResults] = useState<HadithResult[]>([])
+  const [quranCursor, setQuranCursor] = useState(0)
+  const [hadithCursor, setHadithCursor] = useState(0)
+  const [videoShown, setVideoShown] = useState(PAGE_SIZE)
+  const [loadingMore, setLoadingMore] = useState<"quran" | "hadith" | null>(null)
   const [loadingData, setLoadingData] = useState(false)
   const inputRef = useRef<HTMLInputElement>(null)
   const debouncedQuery = useDebounce(query, 300)
@@ -148,17 +135,13 @@ export function SearchClient() {
   useEffect(() => {
     const params = new URLSearchParams()
     if (query.trim()) params.set("q", query.trim())
-    if (activeTab !== "quran") params.set("tab", activeTab)
     const qs = params.toString()
-    const url = `/search${qs ? `?${qs}` : ""}`
-    history.replaceState(null, "", url)
-  }, [query, activeTab])
+    history.replaceState(null, "", `/search${qs ? `?${qs}` : ""}`)
+  }, [query])
 
-  // Videos are tiny and stay client-side; load the Fuse index lazily the first
-  // time the user actually searches the Videos tab.
   const videoLoadedRef = useRef(false)
   useEffect(() => {
-    if (activeTab !== "videos" || !searched || videoLoadedRef.current) return
+    if (!searched || videoLoadedRef.current) return
     videoLoadedRef.current = true
     let cancelled = false
     ;(async () => {
@@ -179,74 +162,103 @@ export function SearchClient() {
         console.error("Failed to load Video data:", err)
       }
     })()
-    return () => {
-      cancelled = true
-    }
-  }, [activeTab, searched])
+    return () => { cancelled = true }
+  }, [searched])
 
-  // Plain function — the React Compiler handles memoization; a manual
-  // useCallback([]) trips its preserve-memoization check on the setState refs.
   const handleSearch = (q: string) => {
     setQuery(q)
     setSearched(!!q.trim())
+    // Reset pagination on new query
+    setQuranResults([])
+    setHadithResults([])
+    setQuranRefs([])
+    setHadithRefs([])
+    setQuranCursor(0)
+    setHadithCursor(0)
+    setVideoShown(PAGE_SIZE)
   }
 
-  // Quran & Hadith: query the static Pagefind index. Each query pulls only the
-  // matching index chunks + result fragments (tens of KB), never the corpus.
+  // Fetch refs (cheap) for both types, then hydrate first page immediately.
   useEffect(() => {
     const trimmed = debouncedQuery.trim()
     let cancelled = false
-
     ;(async () => {
-      // Empty query or the Videos tab (handled by Fuse below) → no PF results.
-      if (!trimmed || activeTab === "videos") {
-        setPfResults((prev) => (prev.length ? [] : prev))
+      if (!trimmed) {
+        setQuranRefs([]); setHadithRefs([])
+        setQuranResults([]); setHadithResults([])
+        setQuranCursor(0); setHadithCursor(0)
         return
       }
       setLoadingData(true)
       try {
         const pf = await getPagefind()
-        const search = await pf.search(trimmed, { filters: { type: activeTab } })
-        const top = search.results.slice(0, MAX_RESULTS)
-        const data = await Promise.all(top.map((r) => r.data()))
+        const [quranSearch, hadithSearch] = await Promise.all([
+          pf.search(trimmed, { filters: { type: "quran" } }),
+          pf.search(trimmed, { filters: { type: "hadith" } }),
+        ])
         if (cancelled) return
-        const mapped = data
-          .map((d) => (activeTab === "quran" ? pagefindToQuran(d) : pagefindToHadith(d)))
-          .filter((r): r is QuranResult | HadithResult => r !== null)
-        setPfResults(mapped)
+        const qRefs = quranSearch.results.slice(0, MAX_RESULTS)
+        const hRefs = hadithSearch.results.slice(0, MAX_RESULTS)
+        setQuranRefs(qRefs)
+        setHadithRefs(hRefs)
+        // Hydrate first page of each
+        const [qData, hData] = await Promise.all([
+          Promise.all(qRefs.slice(0, PAGE_SIZE).map((r) => r.data())),
+          Promise.all(hRefs.slice(0, PAGE_SIZE).map((r) => r.data())),
+        ])
+        if (cancelled) return
+        setQuranResults(qData.map(pagefindToQuran).filter((r): r is QuranResult => r !== null))
+        setHadithResults(hData.map(pagefindToHadith).filter((r): r is HadithResult => r !== null))
+        setQuranCursor(PAGE_SIZE)
+        setHadithCursor(PAGE_SIZE)
       } catch (err) {
         console.error("Pagefind search failed:", err)
-        if (!cancelled) setPfResults([])
+        if (!cancelled) { setQuranResults([]); setHadithResults([]) }
       } finally {
         if (!cancelled) setLoadingData(false)
       }
     })()
+    return () => { cancelled = true }
+  }, [debouncedQuery])
 
-    return () => {
-      cancelled = true
-    }
-  }, [debouncedQuery, activeTab])
+  const loadMoreQuran = async () => {
+    const next = quranRefs.slice(quranCursor, quranCursor + PAGE_SIZE)
+    if (!next.length) return
+    setLoadingMore("quran")
+    const data = await Promise.all(next.map((r) => r.data()))
+    setQuranResults((prev) => [...prev, ...data.map(pagefindToQuran).filter((r): r is QuranResult => r !== null)])
+    setQuranCursor((c) => c + PAGE_SIZE)
+    setLoadingMore(null)
+  }
 
-  // Videos remain a synchronous in-memory Fuse search.
-  const results = useMemo(() => {
+  const loadMoreHadith = async () => {
+    const next = hadithRefs.slice(hadithCursor, hadithCursor + PAGE_SIZE)
+    if (!next.length) return
+    setLoadingMore("hadith")
+    const data = await Promise.all(next.map((r) => r.data()))
+    setHadithResults((prev) => [...prev, ...data.map(pagefindToHadith).filter((r): r is HadithResult => r !== null)])
+    setHadithCursor((c) => c + PAGE_SIZE)
+    setLoadingMore(null)
+  }
+
+  // All matching videos (in-memory); we render only the first `videoShown`.
+  const allVideoResults = useMemo<VideoResult[]>(() => {
     const trimmed = debouncedQuery.trim()
-    if (!trimmed) return []
+    if (!trimmed || !videoFuse) return []
+    return videoFuse.search(trimmed).slice(0, MAX_RESULTS).map((r) => ({ type: "video" as const, video: r.item }))
+  }, [debouncedQuery, videoFuse])
+  const videoResults = allVideoResults.slice(0, videoShown)
 
-    if (activeTab === "videos") {
-      if (!videoFuse) return []
-      return videoFuse
-        .search(trimmed)
-        .slice(0, MAX_RESULTS)
-        .map((r) => ({ type: "video" as const, video: r.item, score: r.score }))
-    }
-
-    // Quran & Hadith results come from the async Pagefind effect above.
-    return pfResults
-  }, [debouncedQuery, activeTab, videoFuse, pfResults])
+  // Counts reflect total available matches, not just what's rendered.
+  const totalCount = quranRefs.length + hadithRefs.length + allVideoResults.length
 
   const clearSearch = () => {
     setQuery("")
     setSearched(false)
+    setQuranRefs([]); setHadithRefs([])
+    setQuranResults([]); setHadithResults([])
+    setQuranCursor(0); setHadithCursor(0)
+    setVideoShown(PAGE_SIZE)
     history.replaceState(null, "", "/search")
     inputRef.current?.focus()
   }
@@ -258,213 +270,170 @@ export function SearchClient() {
         <Search className="size-6 text-gold-light" />
         <div>
           <h1 className="text-2xl font-display gold-gradient-text font-bold">Search</h1>
-          <p className="text-sm text-muted-foreground">
-            Search across Quran, Hadith, and Videos
-          </p>
+          <p className="text-sm text-muted-foreground">Search across Quran, Hadith, and Videos</p>
         </div>
       </div>
 
-      <div className="space-y-4">
-        <div className="relative flex-1">
-          <Search className="absolute left-3 top-1/2 -translate-y-1/2 size-4 text-muted-foreground" />
-          <input
-            ref={inputRef}
-            type="search"
-            value={query}
-            onChange={(e) => handleSearch(e.target.value)}
-            onKeyDown={(e) => { if (e.key === "Enter") handleSearch(query) }}
-            placeholder={`Search ${activeTab} by keyword...`}
-            className="w-full rounded-xl border border-border/50 bg-card px-10 py-3 text-sm text-foreground placeholder:text-muted-foreground outline-none focus:border-secondary/50 transition-colors"
-            aria-label="Search"
-          />
-          {query && (
-            <button
-              onClick={clearSearch}
-              className="absolute right-3 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground"
-              aria-label="Clear search"
-            >
-              <X className="size-4" />
-            </button>
-          )}
-        </div>
-
-        <div className="flex items-center justify-between">
-          <div className="flex gap-1 rounded-lg bg-surface p-1" role="tablist" aria-label="Search content type">
-            {(Object.entries(tabLabels) as [ContentTab, typeof tabLabels[ContentTab]][]).map(([key, { label, icon: Icon }]) => (
-              <button
-                key={key}
-                role="tab"
-                aria-selected={activeTab === key}
-                onClick={() => { setActiveTab(key) }}
-                className={cn(
-                  "flex items-center gap-1.5 rounded-md px-3 py-1.5 text-xs font-medium transition-all",
-                  activeTab === key
-                    ? "gold-gradient-bg text-space-deep shadow-sm"
-                    : "text-muted-foreground hover:text-foreground",
-                )}
-              >
-                <Icon className="size-3.5" />
-                {label}
-              </button>
-            ))}
-          </div>
-
-          {results.length > 0 && (
-            <p className="text-xs text-muted-foreground">
-              {results.length} result{results.length !== 1 ? "s" : ""}
-            </p>
-          )}
-        </div>
+      <div className="relative flex-1 mb-4">
+        <Search className="absolute left-3 top-1/2 -translate-y-1/2 size-4 text-muted-foreground" />
+        <input
+          ref={inputRef}
+          type="search"
+          value={query}
+          onChange={(e) => handleSearch(e.target.value)}
+          onKeyDown={(e) => { if (e.key === "Enter") handleSearch(query) }}
+          placeholder="Search by keyword…"
+          className="w-full rounded-xl border border-border/50 bg-card px-10 py-3 text-sm text-foreground placeholder:text-muted-foreground outline-none focus:border-secondary/50 transition-colors"
+          aria-label="Search"
+        />
+        {query && (
+          <button onClick={clearSearch} className="absolute right-3 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground" aria-label="Clear search">
+            <X className="size-4" />
+          </button>
+        )}
       </div>
 
       {loadingData && (
         <div className="flex items-center gap-2 py-3 text-xs text-muted-foreground">
           <Loader2 className="size-3 animate-spin text-gold-light" />
-          <span>Loading {tabLabels[activeTab].label}…</span>
+          <span>Searching…</span>
         </div>
       )}
 
-      {searched && !loadingData && results.length === 0 && (
+      {searched && !loadingData && totalCount === 0 && (
         <div className="flex flex-col items-center justify-center py-16 text-center">
           <Search className="size-12 text-muted-foreground/20 mb-4" />
           <p className="text-lg font-medium text-foreground">No results found</p>
-          <p className="text-sm text-muted-foreground mt-1">
-            Try a different keyword or switch to another content type.
-          </p>
+          <p className="text-sm text-muted-foreground mt-1">Try a different keyword.</p>
         </div>
       )}
 
-      {results.length > 0 && (
-        <div className="mt-6 space-y-3">
-          {results.map((r) => {
-            if (r.type === "quran") {
-              const surah = surahMap.get(r.ayah.surahNumber)
-              return (
-                <Link
-                  key={`quran-${r.ayah.number}`}
-                  href={`/quran/${r.ayah.surahNumber}#ayah-${r.ayah.number}`}
-                  className="group block rounded-xl border border-border/30 bg-card/50 p-4 transition-all duration-200 hover:border-secondary/20 hover:bg-card"
-                >
-                  <div className="flex items-start justify-between gap-3 mb-2">
-                    <div className="flex items-center gap-2">
-                      <span className="rounded bg-gold-dim/15 px-2 py-0.5 text-xs font-medium text-gold-light">
-                        {r.ayah.surahNumber}:{r.ayah.ayahNumber}
-                      </span>
-                      {surah && (
-                        <span className="text-xs text-muted-foreground">
-                          {surah.name} &middot; Juz {r.ayah.juz}
-                        </span>
-                      )}
-                    </div>
-                    <ArrowRight className="size-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity shrink-0" />
-                  </div>
-                  {r.excerpt && (
-                    <p
-                      className="text-sm text-muted-foreground leading-relaxed pf-excerpt"
-                      // Pagefind excerpts are HTML-entity-encoded with <mark> highlights; safe to render.
-                      dangerouslySetInnerHTML={{ __html: r.excerpt }}
-                    />
-                  )}
-                </Link>
-              )
-            }
-
-            if (r.type === "hadith") {
-              const h = r.hadith
-              const collectionColor = h.collection === "bukhari" ? "text-gold-light" : "text-emerald"
-              return (
-                <Link
-                  key={`hadith-${h.id}`}
-                  href={`/hadith/${h.collection}/${h.bookId}#hadith-${h.id}`}
-                  className="group block rounded-xl border border-border/30 bg-card/50 p-4 transition-all duration-200 hover:border-secondary/20 hover:bg-card"
-                >
-                  <div className="flex items-start justify-between gap-3 mb-2">
-                    <div className="flex items-center gap-2 flex-wrap">
-                      <span className={cn("rounded px-2 py-0.5 text-xs font-medium", collectionColor, "bg-current/10")}>
-                        {h.reference.collection}
-                      </span>
-                      <span className="text-xs text-muted-foreground">
-                        {h.bookName} &middot; Hadith {h.hadithNumber}
-                      </span>
-                      {h.grade && (
-                        <span className="rounded bg-emerald/10 px-1.5 py-0.5 text-[10px] font-medium text-emerald">
-                          {h.grade}
-                        </span>
-                      )}
-                    </div>
-                    <ArrowRight className="size-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity shrink-0" />
-                  </div>
-                  {h.narrator && (
-                    <p className="text-xs text-muted-foreground/60 mb-1.5 italic">
-                      Narrated by {h.narrator}
-                    </p>
-                  )}
-                  {r.excerpt && (
-                    <p
-                      className="text-sm text-foreground leading-relaxed line-clamp-3 pf-excerpt"
-                      // Pagefind excerpts are HTML-entity-encoded with <mark> highlights; safe to render.
-                      dangerouslySetInnerHTML={{ __html: r.excerpt }}
-                    />
-                  )}
-                </Link>
-              )
-            }
-
-            if (r.type === "video") {
-              const v = r.video
-              return (
-                <Link
-                  key={`video-${v.id}`}
-                  href={`/videos/${v.scholarId}`}
-                  className="group block rounded-xl border border-border/30 bg-card/50 p-4 transition-all duration-200 hover:border-secondary/20 hover:bg-card"
-                >
-                  <div className="flex items-start gap-3">
-                    <div className="shrink-0 w-24 aspect-video rounded-lg overflow-hidden bg-surface">
-                      <img
-                        src={v.thumbnail}
-                        alt=""
-                        className="size-full object-cover"
-                        loading="lazy"
-                        onError={(e) => { (e.target as HTMLImageElement).style.display = "none" }}
-                      />
-                    </div>
-                    <div className="min-w-0 flex-1">
-                      <div className="flex items-start justify-between gap-2">
-                        <h3 className="text-sm font-medium text-foreground line-clamp-2 group-hover:text-gold-light transition-colors">
-                          {v.title}
-                        </h3>
-                        <ArrowRight className="size-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity shrink-0 mt-0.5" />
+      {totalCount > 0 && (
+        <div className="mt-2 space-y-8">
+          {/* Quran section */}
+          {quranResults.length > 0 && (
+            <section>
+              <div className="flex items-center gap-2 mb-3">
+                <BookOpen className="size-4 text-gold-light" />
+                <span className="text-xs font-medium text-gold-light uppercase tracking-wider">Quran</span>
+                <span className="rounded-full bg-gold-dim/15 px-2 py-0.5 text-[10px] text-gold-dim">{quranRefs.length}</span>
+              </div>
+              <div className="space-y-2">
+                {quranResults.map((r) => {
+                  const surah = surahMap.get(r.ayah.surahNumber)
+                  return (
+                    <Link key={`quran-${r.ayah.number}`} href={`/quran/${r.ayah.surahNumber}#ayah-${r.ayah.number}`}
+                      className="group block rounded-xl border border-border/30 bg-card/50 p-4 transition-all duration-200 hover:border-secondary/20 hover:bg-card">
+                      <div className="flex items-start justify-between gap-3 mb-2">
+                        <div className="flex items-center gap-2">
+                          <span className="rounded bg-gold-dim/15 px-2 py-0.5 text-xs font-medium text-gold-light">{r.ayah.surahNumber}:{r.ayah.ayahNumber}</span>
+                          {surah && <span className="text-xs text-muted-foreground">{surah.name} · Juz {r.ayah.juz}</span>}
+                        </div>
+                        <ArrowRight className="size-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity shrink-0" />
                       </div>
-                      <p className="text-xs text-muted-foreground mt-1">{v.scholarName}</p>
-                      <p className="text-xs text-muted-foreground/60 mt-0.5 line-clamp-1">{v.description}</p>
-                      <div className="flex items-center gap-2 mt-1.5">
-                        <span className="rounded bg-gold-dim/15 px-1.5 py-0.5 text-[10px] font-medium text-gold-light">
-                          {v.category}
-                        </span>
-                        {v.duration && (
-                          <span className="text-[10px] text-muted-foreground">{v.duration}</span>
-                        )}
-                      </div>
-                    </div>
-                  </div>
-                </Link>
-              )
-            }
+                      {r.excerpt && <p className="text-sm text-muted-foreground leading-relaxed pf-excerpt" dangerouslySetInnerHTML={{ __html: r.excerpt }} />}
+                    </Link>
+                  )
+                })}
+              </div>
+              {quranCursor < quranRefs.length && (
+                <button onClick={loadMoreQuran} disabled={loadingMore === "quran"}
+                  className="mt-3 flex items-center gap-2 text-xs text-gold-light hover:text-gold-dim transition-colors disabled:opacity-50">
+                  {loadingMore === "quran" ? <Loader2 className="size-3 animate-spin" /> : null}
+                  Load more ({quranRefs.length - quranCursor} remaining)
+                </button>
+              )}
+            </section>
+          )}
 
-            return null
-          })}
+          {/* Hadith section */}
+          {hadithResults.length > 0 && (
+            <section>
+              <div className="flex items-center gap-2 mb-3">
+                <MessageSquareText className="size-4 text-emerald" />
+                <span className="text-xs font-medium text-emerald uppercase tracking-wider">Hadith</span>
+                <span className="rounded-full bg-emerald/10 px-2 py-0.5 text-[10px] text-emerald">{hadithRefs.length}</span>
+              </div>
+              <div className="space-y-2">
+                {hadithResults.map((r) => {
+                  const h = r.hadith
+                  return (
+                    <Link key={`hadith-${h.id}`} href={`/hadith/${h.collection}/${h.bookId}#hadith-${h.id}`}
+                      className="group block rounded-xl border border-border/30 bg-card/50 p-4 transition-all duration-200 hover:border-secondary/20 hover:bg-card">
+                      <div className="flex items-start justify-between gap-3 mb-2">
+                        <div className="flex items-center gap-2 flex-wrap">
+                          <span className={cn("rounded px-2 py-0.5 text-xs font-medium text-emerald bg-emerald/10")}>{h.reference.collection}</span>
+                          <span className="text-xs text-muted-foreground">{h.bookName} · Hadith {h.hadithNumber}</span>
+                          {h.grade && <span className="rounded bg-emerald/10 px-1.5 py-0.5 text-[10px] font-medium text-emerald">{h.grade}</span>}
+                        </div>
+                        <ArrowRight className="size-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity shrink-0" />
+                      </div>
+                      {h.narrator && <p className="text-xs text-muted-foreground/60 mb-1.5 italic">Narrated by {h.narrator}</p>}
+                      {r.excerpt && <p className="text-sm text-foreground leading-relaxed line-clamp-3 pf-excerpt" dangerouslySetInnerHTML={{ __html: r.excerpt }} />}
+                    </Link>
+                  )
+                })}
+              </div>
+              {hadithCursor < hadithRefs.length && (
+                <button onClick={loadMoreHadith} disabled={loadingMore === "hadith"}
+                  className="mt-3 flex items-center gap-2 text-xs text-emerald hover:opacity-70 transition-opacity disabled:opacity-50">
+                  {loadingMore === "hadith" ? <Loader2 className="size-3 animate-spin" /> : null}
+                  Load more ({hadithRefs.length - hadithCursor} remaining)
+                </button>
+              )}
+            </section>
+          )}
+
+          {/* Videos section */}
+          {videoResults.length > 0 && (
+            <section>
+              <div className="flex items-center gap-2 mb-3">
+                <Video className="size-4 text-accent" />
+                <span className="text-xs font-medium text-accent uppercase tracking-wider">Videos</span>
+                <span className="rounded-full bg-accent/10 px-2 py-0.5 text-[10px] text-accent">{allVideoResults.length}</span>
+              </div>
+              <div className="space-y-2">
+                {videoResults.map((r) => {
+                  const v = r.video
+                  return (
+                    <Link key={`video-${v.id}`} href={`/videos/${v.scholarId}`}
+                      className="group block rounded-xl border border-border/30 bg-card/50 p-4 transition-all duration-200 hover:border-secondary/20 hover:bg-card">
+                      <div className="flex items-start gap-3">
+                        <div className="shrink-0 w-24 aspect-video rounded-lg overflow-hidden bg-surface">
+                          <img src={v.thumbnail} alt="" className="size-full object-cover" loading="lazy"
+                            onError={(e) => { (e.target as HTMLImageElement).style.display = "none" }} />
+                        </div>
+                        <div className="min-w-0 flex-1">
+                          <div className="flex items-start justify-between gap-2">
+                            <h3 className="text-sm font-medium text-foreground line-clamp-2 group-hover:text-gold-light transition-colors">{v.title}</h3>
+                            <ArrowRight className="size-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity shrink-0 mt-0.5" />
+                          </div>
+                          <p className="text-xs text-muted-foreground mt-1">{v.scholarName}</p>
+                          <div className="flex items-center gap-2 mt-1.5">
+                            <span className="rounded bg-gold-dim/15 px-1.5 py-0.5 text-[10px] font-medium text-gold-light">{v.category}</span>
+                            {v.duration && <span className="text-[10px] text-muted-foreground">{v.duration}</span>}
+                          </div>
+                        </div>
+                      </div>
+                    </Link>
+                  )
+                })}
+              </div>
+              {videoShown < allVideoResults.length && (
+                <button onClick={() => setVideoShown((n) => n + PAGE_SIZE)}
+                  className="mt-3 text-xs text-accent hover:opacity-70 transition-opacity">
+                  Load more ({allVideoResults.length - videoShown} remaining)
+                </button>
+              )}
+            </section>
+          )}
         </div>
       )}
 
       {!searched && (
         <div className="flex flex-col items-center justify-center py-16 text-center">
           <Search className="size-12 text-muted-foreground/20 mb-4" />
-          <p className="text-muted-foreground text-sm">
-            Search for any word or phrase across Quran, Hadith, and Videos
-          </p>
-          <p className="text-xs text-muted-foreground/60 mt-1">
-            Select a content type above to narrow your search
-          </p>
+          <p className="text-muted-foreground text-sm">Search for any word or phrase across Quran, Hadith, and Videos</p>
         </div>
       )}
     </div>

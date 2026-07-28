@@ -1,9 +1,9 @@
 import Link from "next/link"
-import { BookOpen, MessageSquareText, Video, Search, ArrowRight, Library, BookMarked, Star } from "lucide-react"
+import { BookOpen, MessageSquareText, Video, Search, ArrowRight, Library, BookMarked } from "lucide-react"
 import { buttonVariants } from "@/components/ui/button"
 import { DynamicHero } from "@/components/three/DynamicHero"
 import { getAllSurahs } from "@/lib/quran/surahs"
-import { getAllAyahs } from "@/lib/quran/translations"
+import { AyahOfTheDay } from "@/components/home/AyahOfTheDay"
 
 const quickLinks = [
   {
@@ -178,11 +178,19 @@ export default function HomePage() {
       {/* Sacred Margin */}
       <div className="sacred-margin" />
 
+      {/* Ayah of the Day */}
+      <section className="mx-auto max-w-3xl w-full px-4 sm:px-6">
+        <AyahOfTheDay />
+      </section>
+
+      {/* Sacred Margin */}
+      <div className="sacred-margin" />
+
       {/* Divine Quote */}
       <section className="mx-auto max-w-3xl px-4 sm:px-6 text-center pb-20">
         <hr className="gold-divider mb-10" />
         <p className="text-2xl md:text-3xl font-display text-gold-light/70 leading-relaxed italic">
-          "نُورٌ عَلَىٰ نُورٍ"
+          &ldquo;نُورٌ عَلَىٰ نُورٍ&rdquo;
         </p>
         <p className="text-lg text-muted-foreground mt-3">
           Light upon light

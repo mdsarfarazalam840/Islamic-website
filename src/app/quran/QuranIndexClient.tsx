@@ -3,6 +3,7 @@
 import { useState } from "react"
 import { BookOpen, Search, Filter } from "lucide-react"
 import { SurahCard } from "@/components/quran/SurahCard"
+import { ContinueReading } from "@/components/quran/ContinueReading"
 import { cn } from "@/lib/utils"
 import type { Surah } from "@/types"
 
@@ -33,6 +34,8 @@ export function QuranIndexClient({ surahs }: QuranIndexClientProps) {
 
   return (
     <>
+      <ContinueReading />
+
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
         <div className="flex items-center gap-3">
           <BookOpen className="size-6 text-gold-light" />

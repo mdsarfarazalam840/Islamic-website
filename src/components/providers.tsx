@@ -1,8 +1,9 @@
 "use client"
 
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query"
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { ThemeProvider } from "next-themes"
+import { assetPath } from "@/lib/utils"
 
 export function Providers({ children }: { children: React.ReactNode }) {
   const [queryClient] = useState(
@@ -16,6 +17,14 @@ export function Providers({ children }: { children: React.ReactNode }) {
         },
       })
   )
+
+  useEffect(() => {
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker
+        .register(assetPath("/sw.js"), { scope: assetPath("/") })
+        .catch((err) => console.error("SW registration failed:", err))
+    }
+  }, [])
 
   return (
     <QueryClientProvider client={queryClient}>
