@@ -1,3 +1,12 @@
+## [0.2.3] - 2026-07-28
+
+### Other
+- Fixed optimization for all the pages (44d5c3d)
+- Major Update as well as Enhancement for UI 3D model, Tafsir, pagination in search, audio player added (6918508)
+- Updated UI with the 3D model to include (6566149)
+- Added approval gate as well in the versioning (294c4dc)
+
+
 ## [0.2.2] - 2026-07-27
 
 ### Other
