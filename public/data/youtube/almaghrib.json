@@ -1,19 +1,32 @@
 [
   {
     "id": "yt-almaghrib-0",
+    "youtubeId": "n06wzKvB5-c",
+    "title": "How Do I Know If I've Been Afflicted By Magic? | AlMaghrib Podcast",
+    "description": "",
+    "scholarId": "almaghrib",
+    "scholarName": "AlMaghrib Institute",
+    "thumbnail": "https://i.ytimg.com/vi/n06wzKvB5-c/hqdefault.jpg",
+    "duration": "2:17:29",
+    "publishedAt": "2026-07-26T12:16:40.501Z",
+    "category": "tafsir",
+    "views": 37000
+  },
+  {
+    "id": "yt-almaghrib-1",
     "youtubeId": "iMKxaD-UN8M",
-    "title": "Getting Inside the Mind of Shaytan | Sh. Saad Tasleem | Al Maghrib Podcast",
+    "title": "How Shaytan Actually Attacks You | Sh. Saad Tasleem | Al Maghrib Podcast",
     "description": "",
     "scholarId": "almaghrib",
     "scholarName": "AlMaghrib Institute",
     "thumbnail": "https://i.ytimg.com/vi/iMKxaD-UN8M/hqdefault.jpg",
     "duration": "1:04:55",
-    "publishedAt": "2026-07-18T13:34:44.735Z",
+    "publishedAt": "2026-07-18T12:16:40.501Z",
     "category": "tafsir",
-    "views": 4200
+    "views": 6000
   },
   {
-    "id": "yt-almaghrib-1",
+    "id": "yt-almaghrib-2",
     "youtubeId": "UAoiJojlb-Q",
     "title": "When Peace Is Greater Than Victory | Sh. Ammar Alshukry",
     "description": "",
@@ -21,12 +34,12 @@
     "scholarName": "AlMaghrib Institute",
     "thumbnail": "https://i.ytimg.com/vi/UAoiJojlb-Q/hqdefault.jpg",
     "duration": "32:58",
-    "publishedAt": "2026-07-17T13:34:44.735Z",
+    "publishedAt": "2026-07-17T12:16:40.501Z",
     "category": "tafsir",
-    "views": 790
+    "views": 888
   },
   {
-    "id": "yt-almaghrib-2",
+    "id": "yt-almaghrib-3",
     "youtubeId": "UHF52R8Ggt0",
     "title": "No Animal Has Ever Stopped to Watch a Sunset, Here's Why That Matters | AlMaghrib Podcast",
     "description": "",
@@ -34,12 +47,12 @@
     "scholarName": "AlMaghrib Institute",
     "thumbnail": "https://i.ytimg.com/vi/UHF52R8Ggt0/hqdefault.jpg",
     "duration": "1:11:22",
-    "publishedAt": "2026-07-11T13:34:44.735Z",
+    "publishedAt": "2026-07-15T12:16:40.501Z",
     "category": "tafsir",
-    "views": 4100
+    "views": 4400
   },
   {
-    "id": "yt-almaghrib-3",
+    "id": "yt-almaghrib-4",
     "youtubeId": "acD9qiuqZnM",
     "title": "What AI is taking from you | Sh. Fahad Tasleem | AlMaghrib Podcast",
     "description": "",
@@ -47,12 +60,12 @@
     "scholarName": "AlMaghrib Institute",
     "thumbnail": "https://i.ytimg.com/vi/acD9qiuqZnM/hqdefault.jpg",
     "duration": "20:24",
-    "publishedAt": "2026-07-10T13:34:44.735Z",
+    "publishedAt": "2026-07-08T12:16:40.501Z",
     "category": "tafsir",
     "views": 3800
   },
   {
-    "id": "yt-almaghrib-4",
+    "id": "yt-almaghrib-5",
     "youtubeId": "DBs5r6_z6dU",
     "title": "They Spent 70 Years Making You Laugh at UFOs, Here's Why | AlMaghrib Podcast",
     "description": "",
@@ -60,12 +73,12 @@
     "scholarName": "AlMaghrib Institute",
     "thumbnail": "https://i.ytimg.com/vi/DBs5r6_z6dU/hqdefault.jpg",
     "duration": "34:47",
-    "publishedAt": "2026-07-03T13:34:44.735Z",
+    "publishedAt": "2026-06-29T12:16:40.501Z",
     "category": "tafsir",
-    "views": 15000
+    "views": 16000
   },
   {
-    "id": "yt-almaghrib-5",
+    "id": "yt-almaghrib-6",
     "youtubeId": "Z5nwHxZYmjo",
     "title": "What If Your Salah Was Never Accepted?",
     "description": "",
@@ -73,12 +86,12 @@
     "scholarName": "AlMaghrib Institute",
     "thumbnail": "https://i.ytimg.com/vi/Z5nwHxZYmjo/hqdefault.jpg",
     "duration": "1:39",
-    "publishedAt": "2026-06-26T13:34:44.735Z",
+    "publishedAt": "2026-06-29T12:16:40.501Z",
     "category": "tafsir",
     "views": 3200
   },
   {
-    "id": "yt-almaghrib-6",
+    "id": "yt-almaghrib-7",
     "youtubeId": "g5KsDQ3Oer8",
     "title": "\"Your Salah Is Too Calorically Light\" | The Psychology of Khushu' | Sarah Sultan  | AM Podcast",
     "description": "",
@@ -86,12 +99,12 @@
     "scholarName": "AlMaghrib Institute",
     "thumbnail": "https://i.ytimg.com/vi/g5KsDQ3Oer8/hqdefault.jpg",
     "duration": "55:16",
-    "publishedAt": "2026-06-24T13:34:44.735Z",
+    "publishedAt": "2026-06-29T12:16:40.501Z",
     "category": "tafsir",
     "views": 12000
   },
   {
-    "id": "yt-almaghrib-7",
+    "id": "yt-almaghrib-8",
     "youtubeId": "Wbx9lwmYXqI",
     "title": "He Memorized Quran at 9. By 14 He Was Teaching. Now He Runs an Institution | AlMaghrib Podcast",
     "description": "",
@@ -99,12 +112,12 @@
     "scholarName": "AlMaghrib Institute",
     "thumbnail": "https://i.ytimg.com/vi/Wbx9lwmYXqI/hqdefault.jpg",
     "duration": "52:09",
-    "publishedAt": "2026-06-24T13:34:44.735Z",
+    "publishedAt": "2026-06-29T12:16:40.501Z",
     "category": "tafsir",
     "views": 3300
   },
   {
-    "id": "yt-almaghrib-8",
+    "id": "yt-almaghrib-9",
     "youtubeId": "-3D5RDKjIOg",
     "title": "You've Read Every Book. Watched Every Podcast. So Why Aren't You Healing? | Ust. Yasmin Mogahed",
     "description": "",
@@ -112,12 +125,12 @@
     "scholarName": "AlMaghrib Institute",
     "thumbnail": "https://i.ytimg.com/vi/-3D5RDKjIOg/hqdefault.jpg",
     "duration": "2:36",
-    "publishedAt": "2026-06-24T13:34:44.735Z",
+    "publishedAt": "2026-06-29T12:16:40.501Z",
     "category": "tafsir",
     "views": 1600
   },
   {
-    "id": "yt-almaghrib-9",
+    "id": "yt-almaghrib-10",
     "youtubeId": "QeCm__uvW7o",
     "title": "What Childhood Trauma Does to Your Marriage and How to Fix it | Ust. Yasmin & Ust. Sarah Sultan",
     "description": "",
@@ -125,12 +138,12 @@
     "scholarName": "AlMaghrib Institute",
     "thumbnail": "https://i.ytimg.com/vi/QeCm__uvW7o/hqdefault.jpg",
     "duration": "1:16:21",
-    "publishedAt": "2026-06-24T13:34:44.735Z",
+    "publishedAt": "2026-06-29T12:16:40.501Z",
     "category": "tafsir",
-    "views": 38000
+    "views": 39000
   },
   {
-    "id": "yt-almaghrib-10",
+    "id": "yt-almaghrib-11",
     "youtubeId": "4SJG2PZFIbI",
     "title": "50 Years of Marriage Secrets | Imam Qasim | AlMaghrib Podcast",
     "description": "",
@@ -138,12 +151,12 @@
     "scholarName": "AlMaghrib Institute",
     "thumbnail": "https://i.ytimg.com/vi/4SJG2PZFIbI/hqdefault.jpg",
     "duration": "4:13",
-    "publishedAt": "2026-06-24T13:34:44.735Z",
+    "publishedAt": "2026-06-29T12:16:40.501Z",
     "category": "tafsir",
     "views": 6300
   },
   {
-    "id": "yt-almaghrib-11",
+    "id": "yt-almaghrib-12",
     "youtubeId": "JzNo32zkdOE",
     "title": "Why Ibrahim ﷺ Feared Losing His Faith | Sh. Ammar Alshukry",
     "description": "",
@@ -151,12 +164,12 @@
     "scholarName": "AlMaghrib Institute",
     "thumbnail": "https://i.ytimg.com/vi/JzNo32zkdOE/hqdefault.jpg",
     "duration": "37:43",
-    "publishedAt": "2026-05-25T13:34:44.735Z",
+    "publishedAt": "2026-05-30T12:16:40.501Z",
     "category": "tafsir",
-    "views": 2300
+    "views": 2400
   },
   {
-    "id": "yt-almaghrib-12",
+    "id": "yt-almaghrib-13",
     "youtubeId": "5kj9B7k4NWI",
     "title": "The House Burned Down During Ramadan | Azeez Al Shaair | AlMaghrib Podcast with Sh.Ammar Alshukry",
     "description": "",
@@ -164,12 +177,12 @@
     "scholarName": "AlMaghrib Institute",
     "thumbnail": "https://i.ytimg.com/vi/5kj9B7k4NWI/hqdefault.jpg",
     "duration": "11:06",
-    "publishedAt": "2026-05-25T13:34:44.735Z",
+    "publishedAt": "2026-05-30T12:16:40.501Z",
     "category": "tafsir",
-    "views": 388
+    "views": 396
   },
   {
-    "id": "yt-almaghrib-13",
+    "id": "yt-almaghrib-14",
     "youtubeId": "Re4BGltKqiI",
     "title": "How Should I Spend The 10 Days Of Dhul Hijjah? | Sh. Ammar Alshukry",
     "description": "",
@@ -177,12 +190,12 @@
     "scholarName": "AlMaghrib Institute",
     "thumbnail": "https://i.ytimg.com/vi/Re4BGltKqiI/hqdefault.jpg",
     "duration": "3:47",
-    "publishedAt": "2026-05-25T13:34:44.735Z",
+    "publishedAt": "2026-05-30T12:16:40.501Z",
     "category": "tafsir",
     "views": 4200
   },
   {
-    "id": "yt-almaghrib-14",
+    "id": "yt-almaghrib-15",
     "youtubeId": "k693Aa-jAIk",
     "title": "How Imam Qasim Rebuilt the Hood Through Islam | AlMaghrib Podcast with Sh. Ammar Alshukry",
     "description": "",
@@ -190,12 +203,12 @@
     "scholarName": "AlMaghrib Institute",
     "thumbnail": "https://i.ytimg.com/vi/k693Aa-jAIk/hqdefault.jpg",
     "duration": "1:06:56",
-    "publishedAt": "2026-05-25T13:34:44.735Z",
+    "publishedAt": "2026-05-30T12:16:40.501Z",
     "category": "tafsir",
     "views": 14000
   },
   {
-    "id": "yt-almaghrib-15",
+    "id": "yt-almaghrib-16",
     "youtubeId": "wJNEsyVmpXA",
     "title": "His Mom Gave Away Her Last $5 the Day Their House Burned Down. A Homeless Man Gave Them $1,000 Back",
     "description": "",
@@ -203,12 +216,12 @@
     "scholarName": "AlMaghrib Institute",
     "thumbnail": "https://i.ytimg.com/vi/wJNEsyVmpXA/hqdefault.jpg",
     "duration": "1:48:05",
-    "publishedAt": "2026-05-25T13:34:44.735Z",
+    "publishedAt": "2026-05-30T12:16:40.501Z",
     "category": "tafsir",
     "views": 3300
   },
   {
-    "id": "yt-almaghrib-16",
+    "id": "yt-almaghrib-17",
     "youtubeId": "0oTwC1lm3TU",
     "title": "They Smelled Jannah Before They Died | Battle of Uhud | Dr. Farhan Azeez",
     "description": "",
@@ -216,12 +229,12 @@
     "scholarName": "AlMaghrib Institute",
     "thumbnail": "https://i.ytimg.com/vi/0oTwC1lm3TU/hqdefault.jpg",
     "duration": "40:57",
-    "publishedAt": "2026-05-25T13:34:44.735Z",
+    "publishedAt": "2026-04-30T12:16:40.501Z",
     "category": "tafsir",
     "views": 1300
   },
   {
-    "id": "yt-almaghrib-17",
+    "id": "yt-almaghrib-18",
     "youtubeId": "iNesZXBCGlA",
     "title": "Did Ramadan Actually Change You? | Sh Ammar Alshukry",
     "description": "",
@@ -229,12 +242,12 @@
     "scholarName": "AlMaghrib Institute",
     "thumbnail": "https://i.ytimg.com/vi/iNesZXBCGlA/hqdefault.jpg",
     "duration": "10:39",
-    "publishedAt": "2026-04-25T13:34:44.735Z",
+    "publishedAt": "2026-04-30T12:16:40.501Z",
     "category": "tafsir",
     "views": 1600
   },
   {
-    "id": "yt-almaghrib-18",
+    "id": "yt-almaghrib-19",
     "youtubeId": "jWyW5ZjReQ8",
     "title": "The Sudan Crisis No One Is Talking About | AlMaghrib Podcast",
     "description": "",
@@ -242,12 +255,12 @@
     "scholarName": "AlMaghrib Institute",
     "thumbnail": "https://i.ytimg.com/vi/jWyW5ZjReQ8/hqdefault.jpg",
     "duration": "1:03:27",
-    "publishedAt": "2026-04-25T13:34:44.735Z",
+    "publishedAt": "2026-04-30T12:16:40.501Z",
     "category": "tafsir",
     "views": 1600
   },
   {
-    "id": "yt-almaghrib-19",
+    "id": "yt-almaghrib-20",
     "youtubeId": "jEM31ty3XmI",
     "title": "Why You Can’t Tell Right from Wrong Anymore | Ust. Yasmin Mogahed | Ramadan 360",
     "description": "",
@@ -255,12 +268,12 @@
     "scholarName": "AlMaghrib Institute",
     "thumbnail": "https://i.ytimg.com/vi/jEM31ty3XmI/hqdefault.jpg",
     "duration": "19:53",
-    "publishedAt": "2026-04-25T13:34:44.735Z",
+    "publishedAt": "2026-03-31T12:16:40.501Z",
     "category": "tafsir",
     "views": 1800
   },
   {
-    "id": "yt-almaghrib-20",
+    "id": "yt-almaghrib-21",
     "youtubeId": "DVROF0N-Vh0",
     "title": "What You’re REALLY Saying on Eid (Takbeer Explained) | Dhikr Series Bonus | Sh. Ammar Alshukry",
     "description": "",
@@ -268,12 +281,12 @@
     "scholarName": "AlMaghrib Institute",
     "thumbnail": "https://i.ytimg.com/vi/DVROF0N-Vh0/hqdefault.jpg",
     "duration": "17:09",
-    "publishedAt": "2026-03-26T13:34:44.735Z",
+    "publishedAt": "2026-03-31T12:16:40.501Z",
     "category": "tafsir",
     "views": 9200
   },
   {
-    "id": "yt-almaghrib-21",
+    "id": "yt-almaghrib-22",
     "youtubeId": "mjd8RMgXjpo",
     "title": "The Dua For Visiting The Sick | Bonus Episode – Dhikr Series | Sh Ammar Alshukry",
     "description": "",
@@ -281,12 +294,12 @@
     "scholarName": "AlMaghrib Institute",
     "thumbnail": "https://i.ytimg.com/vi/mjd8RMgXjpo/hqdefault.jpg",
     "duration": "7:47",
-    "publishedAt": "2026-03-26T13:34:44.735Z",
+    "publishedAt": "2026-03-31T12:16:40.501Z",
     "category": "tafsir",
     "views": 3000
   },
   {
-    "id": "yt-almaghrib-22",
+    "id": "yt-almaghrib-23",
     "youtubeId": "LyL2fsOYyNE",
     "title": "The Dua for Wearing Clothes | Ep 30 – Dhikr Series | Sh Ammar Alshukry",
     "description": "",
@@ -294,12 +307,12 @@
     "scholarName": "AlMaghrib Institute",
     "thumbnail": "https://i.ytimg.com/vi/LyL2fsOYyNE/hqdefault.jpg",
     "duration": "10:02",
-    "publishedAt": "2026-03-26T13:34:44.735Z",
+    "publishedAt": "2026-03-31T12:16:40.501Z",
     "category": "tafsir",
     "views": 5100
   },
   {
-    "id": "yt-almaghrib-23",
+    "id": "yt-almaghrib-24",
     "youtubeId": "QyTKrdihkfo",
     "title": "The Dua For Visiting Graves | Bonus Episode – Dhikr Series | Sh Ammar Alshukry",
     "description": "",
@@ -307,12 +320,12 @@
     "scholarName": "AlMaghrib Institute",
     "thumbnail": "https://i.ytimg.com/vi/QyTKrdihkfo/hqdefault.jpg",
     "duration": "10:36",
-    "publishedAt": "2026-03-26T13:34:44.735Z",
+    "publishedAt": "2026-03-31T12:16:40.501Z",
     "category": "tafsir",
-    "views": 5500
+    "views": 5600
   },
   {
-    "id": "yt-almaghrib-24",
+    "id": "yt-almaghrib-25",
     "youtubeId": "Jir36y0pSSg",
     "title": "The Dua That Puts Your Life and Death in Allah's Hands | Ep 29 – Dhikr Series | Sh Ammar Alshukry",
     "description": "",
@@ -320,12 +333,12 @@
     "scholarName": "AlMaghrib Institute",
     "thumbnail": "https://i.ytimg.com/vi/Jir36y0pSSg/hqdefault.jpg",
     "duration": "9:51",
-    "publishedAt": "2026-03-26T13:34:44.735Z",
+    "publishedAt": "2026-03-31T12:16:40.501Z",
     "category": "tafsir",
     "views": 5900
   },
   {
-    "id": "yt-almaghrib-25",
+    "id": "yt-almaghrib-26",
     "youtubeId": "AoaaKOtZFco",
     "title": "The Du'a That Teaches You How to Survive Hard Times | Ust. Yasmin Mogahed | Ramadan 360",
     "description": "",
@@ -333,12 +346,12 @@
     "scholarName": "AlMaghrib Institute",
     "thumbnail": "https://i.ytimg.com/vi/AoaaKOtZFco/hqdefault.jpg",
     "duration": "20:49",
-    "publishedAt": "2026-03-26T13:34:44.735Z",
+    "publishedAt": "2026-03-31T12:16:40.501Z",
     "category": "tafsir",
     "views": 1600
   },
   {
-    "id": "yt-almaghrib-26",
+    "id": "yt-almaghrib-27",
     "youtubeId": "vRuZUPZ8SPA",
     "title": "What To Say After Eating | Ep 28 – Dhikr Series | Sh Ammar Alshukry",
     "description": "",
@@ -346,12 +359,12 @@
     "scholarName": "AlMaghrib Institute",
     "thumbnail": "https://i.ytimg.com/vi/vRuZUPZ8SPA/hqdefault.jpg",
     "duration": "7:42",
-    "publishedAt": "2026-03-26T13:34:44.735Z",
+    "publishedAt": "2026-03-31T12:16:40.501Z",
     "category": "tafsir",
     "views": 7300
   },
   {
-    "id": "yt-almaghrib-27",
+    "id": "yt-almaghrib-28",
     "youtubeId": "b3KZn-Edagg",
     "title": "The People Around You Are Changing You | Ust. Yasmin Mogahed | Ramadan 360",
     "description": "",
@@ -359,12 +372,12 @@
     "scholarName": "AlMaghrib Institute",
     "thumbnail": "https://i.ytimg.com/vi/b3KZn-Edagg/hqdefault.jpg",
     "duration": "8:54",
-    "publishedAt": "2026-03-26T13:34:44.735Z",
+    "publishedAt": "2026-03-31T12:16:40.501Z",
     "category": "tafsir",
-    "views": 614
+    "views": 617
   },
   {
-    "id": "yt-almaghrib-28",
+    "id": "yt-almaghrib-29",
     "youtubeId": "Hm7QcxEFYwc",
     "title": "What To Say Upon Waking Up | Ep 27 – Dhikr Series | Sh Ammar Alshukry",
     "description": "",
@@ -372,21 +385,8 @@
     "scholarName": "AlMaghrib Institute",
     "thumbnail": "https://i.ytimg.com/vi/Hm7QcxEFYwc/hqdefault.jpg",
     "duration": "10:09",
-    "publishedAt": "2026-03-26T13:34:44.735Z",
+    "publishedAt": "2026-03-31T12:16:40.501Z",
     "category": "tafsir",
     "views": 9200
-  },
-  {
-    "id": "yt-almaghrib-29",
-    "youtubeId": "hhjyyOFCcEQ",
-    "title": "If Tonight Is Laylatul Qadr… Don’t Miss This Opportunity",
-    "description": "",
-    "scholarId": "almaghrib",
-    "scholarName": "AlMaghrib Institute",
-    "thumbnail": "https://i.ytimg.com/vi/hhjyyOFCcEQ/hqdefault.jpg",
-    "duration": "2:59",
-    "publishedAt": "2026-03-26T13:34:44.735Z",
-    "category": "tafsir",
-    "views": 260
   }
 ]

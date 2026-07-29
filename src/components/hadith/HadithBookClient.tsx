@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import { BookOpen } from "lucide-react"
+import { BookOpen, ChevronLeft, ChevronRight } from "lucide-react"
 import { HadithCard } from "./HadithCard"
 import type { Hadith, HadithCollectionId } from "@/types"
 import { getCollectionDisplayName } from "@/lib/hadith/collections"
@@ -58,7 +58,7 @@ export function HadithBookClient({ collection, bookId, totalHadiths }: Props) {
   const [hadiths, setHadiths] = useState<Hadith[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
-  const [shown, setShown] = useState(PAGE_SIZE)
+  const [page, setPage] = useState(1)
 
   useEffect(() => {
     fetch(assetPath(`/data/hadith/${collection}/books/book-${bookId}.json`))
@@ -81,22 +81,17 @@ export function HadithBookClient({ collection, bookId, totalHadiths }: Props) {
     const hash = window.location.hash
     if (!hash) return
     const id = hash.slice(1)
-    // If the deep-linked hadith is past the current page, reveal up to it.
-    // Done inside the timeout callback (async) so it doesn't trip the
-    // set-state-in-effect lint — the scroll only needs to happen after paint.
     const idx = hadiths.findIndex((h) => `hadith-${h.id}` === id)
+    if (idx < 0) return
+    const targetPage = Math.ceil((idx + 1) / PAGE_SIZE)
     const timer = setTimeout(() => {
-      if (idx >= 0 && idx >= shown) {
-        setShown(Math.ceil((idx + 1) / PAGE_SIZE) * PAGE_SIZE)
-      }
-      // Second tick lets the newly revealed cards mount before we scroll.
+      setPage(targetPage)
       requestAnimationFrame(() => {
-        const el = document.getElementById(id)
-        el?.scrollIntoView({ behavior: "smooth", block: "start" })
+        document.getElementById(id)?.scrollIntoView({ behavior: "smooth", block: "start" })
       })
     }, 100)
     return () => clearTimeout(timer)
-  }, [loading, hadiths, shown])
+  }, [loading, hadiths])
 
   if (loading) {
     return (
@@ -132,26 +127,101 @@ export function HadithBookClient({ collection, bookId, totalHadiths }: Props) {
     )
   }
 
-  const visible = hadiths.slice(0, shown)
+  const totalPages = Math.max(1, Math.ceil(hadiths.length / PAGE_SIZE))
+  const currentPage = Math.min(page, totalPages)
+  const start = (currentPage - 1) * PAGE_SIZE
+  const visible = hadiths.slice(start, start + PAGE_SIZE)
+
+  const goToPage = (p: number) => {
+    const next = Math.min(Math.max(1, p), totalPages)
+    setPage(next)
+    // Jump back to the top of the list so the reader starts at the new page.
+    requestAnimationFrame(() =>
+      window.scrollTo({ top: 0, behavior: "smooth" }),
+    )
+  }
+
+  // A compact window of page numbers around the current page (with ellipses),
+  // so books with dozens of pages don't render dozens of buttons.
+  const pageNumbers = getPageWindow(currentPage, totalPages)
 
   return (
     <div className="space-y-3">
       {visible.map((hadith, i) => (
         <HadithCard key={hadith.id} hadith={hadith} index={i} />
       ))}
-      {shown < hadiths.length && (
-        <div className="flex flex-col items-center gap-2 pt-4">
+
+      {totalPages > 1 && (
+        <nav
+          className="flex flex-wrap items-center justify-center gap-1.5 pt-6"
+          aria-label="Hadith pagination"
+        >
           <button
-            onClick={() => setShown((n) => n + PAGE_SIZE)}
-            className="rounded-lg border border-gold-dim/20 bg-card/40 px-6 py-2.5 text-sm font-medium text-gold-light hover:border-gold-dim/40 hover:bg-gold-dim/10 transition-all"
+            onClick={() => goToPage(currentPage - 1)}
+            disabled={currentPage === 1}
+            className="flex items-center gap-1 rounded-lg border border-gold-dim/20 bg-card/40 px-3 py-2 text-sm font-medium text-gold-light transition-all hover:border-gold-dim/40 hover:bg-gold-dim/10 disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:border-gold-dim/20 disabled:hover:bg-card/40"
+            aria-label="Previous page"
           >
-            Load more hadith
+            <ChevronLeft className="size-4" />
+            <span className="hidden sm:inline">Prev</span>
           </button>
-          <span className="text-xs text-muted-foreground">
-            Showing {shown} of {hadiths.length}
-          </span>
-        </div>
+
+          {pageNumbers.map((p, i) =>
+            p === "ellipsis" ? (
+              <span
+                key={`e-${i}`}
+                className="px-2 text-sm text-muted-foreground/60 select-none"
+              >
+                …
+              </span>
+            ) : (
+              <button
+                key={p}
+                onClick={() => goToPage(p)}
+                aria-current={p === currentPage ? "page" : undefined}
+                className={
+                  p === currentPage
+                    ? "min-w-9 rounded-lg border border-gold-dim/40 bg-gold-dim/15 px-3 py-2 text-sm font-semibold text-gold-light"
+                    : "min-w-9 rounded-lg border border-border/20 bg-card/40 px-3 py-2 text-sm font-medium text-muted-foreground transition-all hover:border-gold-dim/30 hover:text-gold-light"
+                }
+              >
+                {p}
+              </button>
+            ),
+          )}
+
+          <button
+            onClick={() => goToPage(currentPage + 1)}
+            disabled={currentPage === totalPages}
+            className="flex items-center gap-1 rounded-lg border border-gold-dim/20 bg-card/40 px-3 py-2 text-sm font-medium text-gold-light transition-all hover:border-gold-dim/40 hover:bg-gold-dim/10 disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:border-gold-dim/20 disabled:hover:bg-card/40"
+            aria-label="Next page"
+          >
+            <span className="hidden sm:inline">Next</span>
+            <ChevronRight className="size-4" />
+          </button>
+        </nav>
+      )}
+
+      {hadiths.length > 0 && (
+        <p className="pt-1 text-center text-xs text-muted-foreground">
+          Showing {start + 1}–{start + visible.length} of {hadiths.length}
+          {totalPages > 1 && ` · Page ${currentPage} of ${totalPages}`}
+        </p>
       )}
     </div>
   )
+}
+
+// Build a page-number list with ellipses: always show first, last, and a window
+// around the current page — e.g. [1, "ellipsis", 4, 5, 6, "ellipsis", 20].
+function getPageWindow(current: number, total: number): (number | "ellipsis")[] {
+  if (total <= 7) return Array.from({ length: total }, (_, i) => i + 1)
+  const out: (number | "ellipsis")[] = [1]
+  const left = Math.max(2, current - 1)
+  const right = Math.min(total - 1, current + 1)
+  if (left > 2) out.push("ellipsis")
+  for (let p = left; p <= right; p++) out.push(p)
+  if (right < total - 1) out.push("ellipsis")
+  out.push(total)
+  return out
 }
