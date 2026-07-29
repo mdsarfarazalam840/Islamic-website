@@ -1,3 +1,9 @@
+## [0.2.4] - 2026-07-29
+
+### Other
+- Fixed UI and bugs, implemented pagination in videos sections and fixed some scholars videos (74eecb3)
+
+
 ## [0.2.3] - 2026-07-28
 
 ### Other
