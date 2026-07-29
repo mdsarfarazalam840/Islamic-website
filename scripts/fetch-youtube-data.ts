@@ -147,8 +147,12 @@ function parseLockup(lv: Lockup, scholarId: string, scholarName: string, categor
 }
 
 async function fetchScholar(scholar: (typeof scholars)[number], category: string, now: number): Promise<Video[]> {
-  // Prefer the channelId URL — it never depends on a handle being current.
-  const url = `https://www.youtube.com/channel/${scholar.channelId}/videos`
+  // Prefer the handle URL when provided (some channels' UC id is unknown or has
+  // changed); otherwise use the channelId URL, which never depends on a handle
+  // staying current. Both render the same "/videos" tab and ytInitialData blob.
+  const url = scholar.channelHandle
+    ? `https://www.youtube.com/@${scholar.channelHandle}/videos`
+    : `https://www.youtube.com/channel/${scholar.channelId}/videos`
   const res = await fetch(url, {
     headers: {
       "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
@@ -185,8 +189,9 @@ async function main() {
   let failed = 0
 
   for (const scholar of scholars) {
-    if (!isValidChannelId(scholar.channelId)) {
-      console.warn(`  skip ${scholar.id}: invalid channelId`)
+    // A channel is fetchable if it has a handle OR a valid UC id.
+    if (!scholar.channelHandle && !isValidChannelId(scholar.channelId)) {
+      console.warn(`  skip ${scholar.id}: no channelHandle and invalid channelId`)
       continue
     }
     const category = scholar.categories[0] ?? "spirituality"

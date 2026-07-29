@@ -18,8 +18,12 @@ export function FontSizeControls({ className }: FontSizeControlsProps) {
   return (
     <div
       className={cn(
-        "fixed left-1/2 -translate-x-1/2 z-50",
-        "bottom-24 md:bottom-6",
+        "fixed z-50",
+        // Mobile: centered, lifted above the bottom nav bar (h-16) with clearance.
+        "left-1/2 -translate-x-1/2 bottom-24",
+        // Desktop: pin bottom-right so it never stacks on the Navbar's centered
+        // floating menu ("lantern") button, which also lives at bottom-6 center.
+        "md:left-auto md:right-6 md:translate-x-0 md:bottom-6",
         "flex items-center gap-1 rounded-full",
         "bg-card/90 backdrop-blur-md border border-gold-dim/20",
         "px-2 py-1.5 shadow-lg shadow-black/10",
