@@ -60,10 +60,28 @@ jobs:
         with:
           targets: ${{ matrix.target }}-pc-windows-msvc
 
-      - uses: actions/download-artifact@v5
-        with:
-          name: web-out
-          path: out/
+      - name: Download web-out artifact (with retry)
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          $maxRetries = 10
+          $retryDelay = 30
+          for ($i = 1; $i -le $maxRetries; $i++) {
+            Write-Host "Attempt $i of $maxRetries..."
+            gh run download ${{ github.run_id }} --name web-out --dir out/
+            if ($LASTEXITCODE -eq 0) {
+              Write-Host "Download successful!"
+              break
+            }
+            if ($i -eq $maxRetries) {
+              Write-Error "Download failed after $maxRetries attempts"
+              exit 1
+            }
+            Write-Host "Download failed. Retrying in $retryDelay seconds..."
+            Start-Sleep -Seconds $retryDelay
+            $retryDelay = [Math]::Min($retryDelay * 2, 120)
+          }
 
       - run: npm ci
 
