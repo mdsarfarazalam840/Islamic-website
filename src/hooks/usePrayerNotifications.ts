@@ -41,12 +41,12 @@ export function usePrayerNotifications() {
 
   const scheduleNotifications = useCallback(async (latitude: number, longitude: number) => {
     const platform = detectPlatform()
-    const { Adhan } = await import("adhan")
+    const { CalculationMethod, Coordinates, PrayerTimes } = await import("adhan")
 
-    const params = Adhan.CalculationMethod.MuslimWorldLeague()
-    const coordinates = new Adhan.Coordinates(latitude, longitude)
+    const params = CalculationMethod.MuslimWorldLeague()
+    const coordinates = new Coordinates(latitude, longitude)
     const today = new Date()
-    const prayerTimes = new Adhan.PrayerTimes(coordinates, today, params)
+    const prayerTimes = new PrayerTimes(coordinates, today, params)
 
     const prayers: Array<{ name: string; time: Date }> = [
       { name: "Fajr", time: prayerTimes.fajr },
