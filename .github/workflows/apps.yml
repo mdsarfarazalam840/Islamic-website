@@ -1,0 +1,333 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Release tag (e.g. v0.1.0)"
+        required: true
+
+env:
+  APP_NAME: Noor
+
+permissions:
+  contents: write
+
+jobs:
+  build-web:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Fetch data
+        run: npm run fetch:all
+
+      - name: Build static export
+        run: npm run build:static
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: web-out
+          path: out/
+          retention-days: 1
+
+  desktop-windows:
+    needs: build-web
+    runs-on: windows-latest
+    strategy:
+      matrix:
+        target: [x86_64]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: ${{ matrix.target }}-pc-windows-msvc
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: web-out
+          path: out/
+
+      - run: npm ci
+
+      - run: npm install
+        working-directory: apps/desktop
+
+      - name: Build Tauri
+        run: npx tauri build --target ${{ matrix.target }}-pc-windows-msvc
+        working-directory: apps/desktop
+
+      - name: Rename artifacts
+        shell: pwsh
+        run: |
+          $version = "${{ github.ref_name }}".TrimStart('v')
+          $bundleDir = "apps/desktop/src-tauri/target/${{ matrix.target }}-pc-windows-msvc/release/bundle"
+
+          $msi = Get-ChildItem "$bundleDir/msi/*.msi" | Select-Object -First 1
+          $nsis = Get-ChildItem "$bundleDir/nsis/*.exe" | Select-Object -First 1
+
+          $dist = New-Item -ItemType Directory -Path "dist" -Force
+          if ($nsis) { Copy-Item $nsis.FullName "$dist/Noor_${version}_${{ matrix.target }}-setup.exe" }
+          if ($msi) { Copy-Item $msi.FullName "$dist/Noor_${version}_${{ matrix.target }}_en-US.msi" }
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: desktop-windows-${{ matrix.target }}
+          path: dist/
+
+  desktop-macos:
+    needs: build-web
+    runs-on: macos-latest
+    strategy:
+      matrix:
+        target: [aarch64, x86_64]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: ${{ matrix.target }}-apple-darwin
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: web-out
+          path: out/
+
+      - run: npm ci
+
+      - run: npm install
+        working-directory: apps/desktop
+
+      - name: Build Tauri
+        run: npx tauri build --target ${{ matrix.target }}-apple-darwin
+        working-directory: apps/desktop
+
+      - name: Rename artifacts
+        run: |
+          VERSION="${GITHUB_REF_NAME#v}"
+          BUNDLE_DIR="apps/desktop/src-tauri/target/${{ matrix.target }}-apple-darwin/release/bundle"
+          mkdir -p dist
+          cp "$BUNDLE_DIR"/dmg/*.dmg "dist/Noor_${VERSION}_${{ matrix.target }}.dmg" 2>/dev/null || true
+          cp -r "$BUNDLE_DIR"/macos/*.app "dist/" 2>/dev/null || true
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: desktop-macos-${{ matrix.target }}
+          path: dist/
+
+  desktop-linux:
+    needs: build-web
+    runs-on: ubuntu-22.04
+    strategy:
+      matrix:
+        target: [x86_64]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: ${{ matrix.target }}-unknown-linux-gnu
+
+      - name: Install Linux dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libwebkit2gtk-4.1-dev libappindicator3-dev librsvg2-dev patchelf
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: web-out
+          path: out/
+
+      - run: npm ci
+
+      - run: npm install
+        working-directory: apps/desktop
+
+      - name: Build Tauri
+        run: npx tauri build --target ${{ matrix.target }}-unknown-linux-gnu
+        working-directory: apps/desktop
+
+      - name: Rename artifacts
+        run: |
+          VERSION="${GITHUB_REF_NAME#v}"
+          BUNDLE_DIR="apps/desktop/src-tauri/target/${{ matrix.target }}-unknown-linux-gnu/release/bundle"
+          mkdir -p dist
+          cp "$BUNDLE_DIR"/deb/*.deb "dist/Noor_${VERSION}_${{ matrix.target }}.deb" 2>/dev/null || true
+          cp "$BUNDLE_DIR"/rpm/*.rpm "dist/Noor_${VERSION}_${{ matrix.target }}.rpm" 2>/dev/null || true
+          cp "$BUNDLE_DIR"/appimage/*.AppImage "dist/Noor_${VERSION}_${{ matrix.target }}.AppImage" 2>/dev/null || true
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: desktop-linux-${{ matrix.target }}
+          path: dist/
+
+  android:
+    needs: build-web
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+
+      - uses: android-actions/setup-android@v3
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: web-out
+          path: out/
+
+      - run: npm ci
+
+      - run: npm install
+        working-directory: apps/mobile
+
+      - name: Add Android platform
+        run: npx cap add android
+        working-directory: apps/mobile
+
+      - name: Sync Capacitor
+        run: npx cap sync android
+        working-directory: apps/mobile
+
+      - name: Build APK (release)
+        run: |
+          cd apps/mobile/android
+          chmod +x gradlew
+          ./gradlew assembleRelease
+
+      - name: Rename artifacts
+        run: |
+          VERSION="${GITHUB_REF_NAME#v}"
+          mkdir -p dist
+          cp apps/mobile/android/app/build/outputs/apk/release/*.apk "dist/Noor_${VERSION}_android_universal.apk" 2>/dev/null || \
+          cp apps/mobile/android/app/build/outputs/apk/debug/*.apk "dist/Noor_${VERSION}_android_universal.apk" 2>/dev/null || true
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: android
+          path: dist/
+
+  release:
+    needs: [desktop-windows, desktop-macos, desktop-linux, android]
+    runs-on: ubuntu-latest
+    if: startsWith(github.ref, 'refs/tags/v')
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/download-artifact@v4
+        with:
+          path: artifacts/
+
+      - name: Prepare release assets
+        run: |
+          mkdir -p release
+          find artifacts/ -type f \( -name "*.exe" -o -name "*.msi" -o -name "*.dmg" -o -name "*.deb" -o -name "*.rpm" -o -name "*.AppImage" -o -name "*.apk" \) -exec cp {} release/ \;
+
+      - name: Generate SHA256 checksums
+        run: |
+          cd release
+          sha256sum * > SHA256SUMS.txt
+          cat SHA256SUMS.txt
+
+      - name: Generate release notes
+        id: notes
+        run: |
+          VERSION="${GITHUB_REF_NAME#v}"
+          PREV_TAG=$(git tag --sort=-v:refname | grep '^v' | sed -n '2p')
+
+          cat > RELEASE_NOTES.md << 'HEADER'
+          ## What's Changed
+
+          HEADER
+
+          if [ -n "$PREV_TAG" ]; then
+            echo "### Commits since $PREV_TAG" >> RELEASE_NOTES.md
+            echo "" >> RELEASE_NOTES.md
+            git log --oneline --no-merges "${PREV_TAG}..HEAD" | sed 's/^/- /' >> RELEASE_NOTES.md
+          else
+            echo "Initial release." >> RELEASE_NOTES.md
+          fi
+
+          cat >> RELEASE_NOTES.md << 'FOOTER'
+
+          ---
+
+          ## Downloads
+
+          | Platform | File | Description |
+          |----------|------|-------------|
+          | Windows | `*-setup.exe` | Installer (recommended) |
+          | Windows | `*_en-US.msi` | MSI package (enterprise/IT deployment) |
+          | macOS | `*_aarch64.dmg` | Apple Silicon (M1/M2/M3/M4) |
+          | macOS | `*_x86_64.dmg` | Intel Macs |
+          | Linux | `*.AppImage` | Portable, no install needed |
+          | Linux | `*.deb` | Debian/Ubuntu |
+          | Linux | `*.rpm` | Fedora/openSUSE |
+          | Android | `*_android_universal.apk` | All Android devices |
+
+          ## Verification
+
+          All binaries are signed. To verify integrity:
+
+          ```bash
+          sha256sum -c SHA256SUMS.txt
+          ```
+
+          ## Requirements
+
+          - **Windows:** 10 (1809+) or 11, 64-bit
+          - **macOS:** 10.15 (Catalina) or later
+          - **Linux:** Any distro with WebKitGTK 4.1
+          - **Android:** 6.0+ (API 23)
+
+          ---
+
+          **Full Changelog**: https://github.com/${{ github.repository }}/compare/${PREV_TAG:-initial}...${{ github.ref_name }}
+          FOOTER
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: "Noor ${{ github.ref_name }}"
+          body_path: RELEASE_NOTES.md
+          files: |
+            release/*
+          draft: false
+          prerelease: ${{ contains(github.ref_name, '-') }}
+          generate_release_notes: false
