@@ -14,13 +14,22 @@
     "fetch:hadith": "tsx scripts/fetch-hadith-data.ts",
     "fetch:youtube": "tsx scripts/fetch-youtube-data.ts",
     "build:pagefind": "node scripts/build-pagefind-index.mjs",
-    "fetch:all": "npm run fetch:quran && npm run fetch:hadith && npm run fetch:youtube && npm run build:pagefind"
+    "fetch:all": "npm run fetch:quran && npm run fetch:hadith && npm run fetch:youtube && npm run build:pagefind",
+    "app:build": "node scripts/build-apps.mjs",
+    "app:desktop": "node scripts/build-apps.mjs desktop",
+    "app:mobile": "node scripts/build-apps.mjs mobile",
+    "app:dev:desktop": "npm run build:static && npx tauri dev",
+    "app:sync:mobile": "npm run build:static && node scripts/build-apps.mjs mobile"
   },
   "dependencies": {
     "@base-ui/react": "^1.6.0",
     "@react-three/drei": "^10.7.7",
     "@react-three/fiber": "^9.6.1",
     "@tanstack/react-query": "^5.101.2",
+    "@tauri-apps/plugin-fs": "^2.5.1",
+    "@tauri-apps/plugin-http": "^2.5.9",
+    "@tauri-apps/plugin-notification": "^2.3.3",
+    "adhan": "^4.4.4",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "framer-motion": "^12.42.2",
