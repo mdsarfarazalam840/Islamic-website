@@ -57,3 +57,7 @@ test*
 graphify*
 docs/
 
+opencode.json
+skills-lock.json
+.claude/skills/create-readme/SKILL.md
+.agents/skills/create-readme/SKILL.md

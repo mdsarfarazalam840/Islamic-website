@@ -6,6 +6,7 @@
 
 A premium open-source Quran & Hadith platform — complete Quran with multilingual translations, seven authentic Hadith collections (36,000+ hadiths), and a curated Islamic video library. Fully static, zero runtime cost.
 
+[![CI](https://img.shields.io/github/actions/workflow/status/mdsarfarazalam840/Islamic-website/deploy.yml?style=flat-square&logo=github&label=Build)](https://github.com/mdsarfarazalam840/Islamic-website/actions)
 
 <img width="1831" height="955" alt="image" src="https://github.com/user-attachments/assets/57b6f040-261a-499e-abbb-d4bc44fc8321" />
 
@@ -146,8 +147,8 @@ Every page is a chamber in a sacred building, each with its own lighting and moo
 ### Install & Run
 
 ```bash
-git clone https://github.com/anomalyco/quran-website.git
-cd quran-website
+git clone https://github.com/mdsarfarazalam840/Islamic-website.git
+cd Islamic-website
 npm install
 npm run dev
 ```
