@@ -139,8 +139,23 @@ jobs:
         working-directory: apps/desktop
 
       - name: Build Tauri
-        run: npx tauri build --target ${{ matrix.target }}-apple-darwin
         working-directory: apps/desktop
+        run: |
+          max_attempts=3
+          for attempt in $(seq 1 "$max_attempts"); do
+            echo "Build attempt $attempt of $max_attempts..."
+            if npx tauri build --target ${{ matrix.target }}-apple-darwin; then
+              echo "Build succeeded on attempt $attempt."
+              exit 0
+            fi
+            echo "Build failed on attempt $attempt."
+            if [ "$attempt" -eq "$max_attempts" ]; then
+              echo "Build failed after $max_attempts attempts."
+              exit 1
+            fi
+            echo "Retrying in 15s (Tauri DMG bundler is flaky on CI)..."
+            sleep 15
+          done
 
       - name: Rename artifacts
         run: |
