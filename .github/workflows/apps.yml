@@ -18,6 +18,30 @@ permissions:
   contents: write
 
 jobs:
+  meta:
+    runs-on: ubuntu-latest
+    outputs:
+      tag: ${{ steps.resolve.outputs.tag }}
+      version: ${{ steps.resolve.outputs.version }}
+    steps:
+      - id: resolve
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          INPUT_TAG: ${{ github.event.inputs.tag }}
+          REF_NAME: ${{ github.ref_name }}
+        run: |
+          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
+            TAG="$INPUT_TAG"
+          else
+            TAG="$REF_NAME"
+          fi
+          case "$TAG" in
+            v*) ;;
+            *) TAG="" ;;
+          esac
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+          echo "version=${TAG#v}" >> "$GITHUB_OUTPUT"
+
   build-web:
     runs-on: ubuntu-latest
     steps:
@@ -43,7 +67,7 @@ jobs:
           retention-days: 1
 
   desktop-windows:
-    needs: build-web
+    needs: [build-web, meta]
     runs-on: windows-latest
     strategy:
       matrix:
@@ -95,7 +119,7 @@ jobs:
       - name: Rename artifacts
         shell: pwsh
         run: |
-          $version = "${{ github.ref_name }}".TrimStart('v')
+          $version = "${{ needs.meta.outputs.version }}"
           $bundleDir = "apps/desktop/src-tauri/target/${{ matrix.target }}-pc-windows-msvc/release/bundle"
 
           $msi = Get-ChildItem "$bundleDir/msi/*.msi" | Select-Object -First 1
@@ -111,7 +135,7 @@ jobs:
           path: dist/
 
   desktop-macos:
-    needs: build-web
+    needs: [build-web, meta]
     runs-on: macos-latest
     strategy:
       matrix:
@@ -159,7 +183,7 @@ jobs:
 
       - name: Rename artifacts
         run: |
-          VERSION="${GITHUB_REF_NAME#v}"
+          VERSION="${{ needs.meta.outputs.version }}"
           BUNDLE_DIR="apps/desktop/src-tauri/target/${{ matrix.target }}-apple-darwin/release/bundle"
           mkdir -p dist
           cp "$BUNDLE_DIR"/dmg/*.dmg "dist/Noor_${VERSION}_${{ matrix.target }}.dmg" 2>/dev/null || true
@@ -171,7 +195,7 @@ jobs:
           path: dist/
 
   desktop-linux:
-    needs: build-web
+    needs: [build-web, meta]
     runs-on: ubuntu-22.04
     strategy:
       matrix:
@@ -209,7 +233,7 @@ jobs:
 
       - name: Rename artifacts
         run: |
-          VERSION="${GITHUB_REF_NAME#v}"
+          VERSION="${{ needs.meta.outputs.version }}"
           BUNDLE_DIR="apps/desktop/src-tauri/target/${{ matrix.target }}-unknown-linux-gnu/release/bundle"
           mkdir -p dist
           cp "$BUNDLE_DIR"/deb/*.deb "dist/Noor_${VERSION}_${{ matrix.target }}.deb" 2>/dev/null || true
@@ -222,7 +246,7 @@ jobs:
           path: dist/
 
   android:
-    needs: build-web
+    needs: [build-web, meta]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
@@ -265,7 +289,7 @@ jobs:
 
       - name: Rename artifacts
         run: |
-          VERSION="${GITHUB_REF_NAME#v}"
+          VERSION="${{ needs.meta.outputs.version }}"
           mkdir -p dist
           cp apps/mobile/android/app/build/outputs/apk/release/*.apk "dist/Noor_${VERSION}_android_universal.apk" 2>/dev/null || \
           cp apps/mobile/android/app/build/outputs/apk/debug/*.apk "dist/Noor_${VERSION}_android_universal.apk" 2>/dev/null || true
@@ -276,9 +300,9 @@ jobs:
           path: dist/
 
   release:
-    needs: [desktop-windows, desktop-macos, desktop-linux, android]
+    needs: [desktop-windows, desktop-macos, desktop-linux, android, meta]
     runs-on: ubuntu-latest
-    if: startsWith(github.ref, 'refs/tags/v')
+    if: ${{ needs.meta.outputs.tag != '' }}
     environment: release
     steps:
       - uses: actions/checkout@v5
@@ -303,8 +327,8 @@ jobs:
       - name: Generate release notes
         id: notes
         run: |
-          VERSION="${GITHUB_REF_NAME#v}"
-          PREV_TAG=$(git tag --sort=-v:refname | grep '^v' | sed -n '2p')
+          VERSION="${{ needs.meta.outputs.version }}"
+          PREV_TAG=$(git tag --sort=-v:refname | grep '^v' | grep -vx "${{ needs.meta.outputs.tag }}" | sed -n '1p')
 
           cat > RELEASE_NOTES.md << 'HEADER'
           ## What's Changed
@@ -353,16 +377,17 @@ jobs:
 
           ---
 
-          **Full Changelog**: https://github.com/${{ github.repository }}/compare/${PREV_TAG:-initial}...${{ github.ref_name }}
+          **Full Changelog**: https://github.com/${{ github.repository }}/compare/${PREV_TAG:-initial}...${{ needs.meta.outputs.tag }}
           FOOTER
 
       - name: Create Release
         uses: softprops/action-gh-release@v2
         with:
-          name: "Noor ${{ github.ref_name }}"
+          tag_name: ${{ needs.meta.outputs.tag }}
+          name: "Noor ${{ needs.meta.outputs.tag }}"
           body_path: RELEASE_NOTES.md
           files: |
             release/*
           draft: false
-          prerelease: ${{ contains(github.ref_name, '-') }}
+          prerelease: ${{ contains(needs.meta.outputs.tag, '-') }}
           generate_release_notes: false
