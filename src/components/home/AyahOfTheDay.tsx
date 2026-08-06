@@ -1,35 +1,19 @@
-import Link from "next/link"
-import { Star } from "lucide-react"
-import { getAllAyahs } from "@/lib/quran/translations"
-import { getAllSurahs } from "@/lib/quran/surahs"
+import { getDailyPools } from "@/lib/home/dailyPool"
+import { DailyReminder } from "./DailyReminder"
 
+// Server component: resolves the Quran + Hadith pools from the local data at
+// build time, then hands them to the client <DailyReminder>, which decides
+// which item to show based on the visitor's own local date. This is what makes
+// the card actually change every day on a static export (`output: "export"`) —
+// the server render is frozen at build time, so the day logic must run client-
+// side. Even days show an ayah, odd days a hadith.
 export function AyahOfTheDay() {
-  const ayahs = getAllAyahs()
-  const surahs = getAllSurahs()
-  const now = new Date()
-  const dayOfYear = Math.floor((now.getTime() - new Date(now.getFullYear(), 0, 0).getTime()) / 86400000)
-  const ayah = ayahs[dayOfYear % ayahs.length]
-  const surah = surahs.find((s) => s.number === ayah?.surahNumber)
-  if (!ayah || !surah) return null
+  const pools = getDailyPools()
+  if (pools.quran.length === 0 && pools.hadith.length === 0) return null
 
-  return (
-    <Link
-      href={`/quran/${ayah.surahNumber}#ayah-${ayah.number}`}
-      className="group block rounded-xl border border-gold-dim/20 bg-gold-dim/5 p-6 transition-all hover:border-gold-dim/40 hover:bg-gold-dim/10"
-    >
-      <div className="flex items-center gap-2 mb-4">
-        <Star className="size-4 text-gold-light" />
-        <span className="text-xs font-medium text-gold-light uppercase tracking-wider">Ayah of the Day</span>
-      </div>
-      <p className="font-arabic text-xl text-foreground leading-[2.2] text-right mb-4" dir="rtl">
-        {ayah.arabic}
-      </p>
-      <p className="text-sm text-muted-foreground leading-relaxed line-clamp-3">
-        {ayah.translations.en}
-      </p>
-      <p className="text-xs text-gold-dim/60 mt-3">
-        {surah.name} · {ayah.surahNumber}:{ayah.ayahNumber}
-      </p>
-    </Link>
-  )
+  // Seed the first paint with the build date so server/client markup match on
+  // hydration; the client immediately recomputes from the real local date.
+  const buildDay = Math.floor(Date.now() / 86_400_000)
+
+  return <DailyReminder pools={pools} serverDay={buildDay} />
 }
