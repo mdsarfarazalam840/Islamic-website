@@ -1,3 +1,9 @@
+## [0.2.5] - 2026-08-06
+
+### Other
+- fixed the ayah of the day (cda5098)
+
+
 ## [0.2.4] - 2026-07-29
 
 ### Other
