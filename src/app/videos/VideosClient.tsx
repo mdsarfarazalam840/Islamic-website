@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react"
 import { VideoGrid } from "@/components/videos/VideoGrid"
 import { YouTubeEmbed } from "@/components/videos/YouTubeEmbed"
+import { ContinueWatching } from "@/components/videos/ContinueWatching"
 import { CategoryFilter } from "@/components/videos/CategoryFilter"
 import { Pagination } from "@/components/shared/Pagination"
 import { useAllVideos } from "@/hooks/useYouTube"
@@ -46,6 +47,9 @@ export function VideosClient() {
 
   return (
     <div className="space-y-6">
+      {!isLoading && videos && videos.length > 0 && (
+        <ContinueWatching videos={videos} onPlay={setPlayingVideo} />
+      )}
       <CategoryFilter
         categories={categories}
         activeCategory={activeCategory}

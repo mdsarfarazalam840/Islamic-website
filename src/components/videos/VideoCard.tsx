@@ -1,9 +1,10 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Play, Eye, Clock } from "lucide-react"
+import { Play, Eye, Clock, Check } from "lucide-react"
 import type { Video } from "@/types"
 import { formatViewCount, formatPublishedAt } from "@/lib/youtube/api"
+import { useVideoProgress, getVideoProgress } from "@/hooks/useVideoProgress"
 
 interface VideoCardProps {
   video: Video
@@ -12,6 +13,13 @@ interface VideoCardProps {
 }
 
 export function VideoCard({ video, onPlay, index = 0 }: VideoCardProps) {
+  const { progress } = useVideoProgress()
+  const entry = getVideoProgress(progress, video.youtubeId)
+  const watchedPct =
+    entry && entry.duration > 0
+      ? Math.min(100, Math.round((entry.seconds / entry.duration) * 100))
+      : 0
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -45,6 +53,20 @@ export function VideoCard({ video, onPlay, index = 0 }: VideoCardProps) {
         <div className="absolute top-2 left-2 rounded-md bg-gold-dim/90 px-2 py-0.5 text-xs font-medium text-space-deep">
           {video.category}
         </div>
+        {entry?.completed && (
+          <div className="absolute top-2 right-2 flex items-center gap-1 rounded-md bg-emerald/90 px-2 py-0.5 text-xs font-medium text-space-deep">
+            <Check className="size-3" />
+            Watched
+          </div>
+        )}
+        {watchedPct > 0 && (
+          <div className="absolute bottom-0 inset-x-0 h-1 bg-space-deep/60">
+            <div
+              className="h-full gold-gradient-bg"
+              style={{ width: `${watchedPct}%` }}
+            />
+          </div>
+        )}
       </div>
 
       <div className="p-4 space-y-2">
