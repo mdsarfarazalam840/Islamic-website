@@ -1,10 +1,11 @@
 "use client"
 
-import { useEffect, useState } from "react"
+import { useEffect, useRef, useState } from "react"
 import { BookOpen, ChevronLeft, ChevronRight } from "lucide-react"
 import { HadithCard } from "./HadithCard"
 import type { Hadith, HadithCollectionId } from "@/types"
 import { getCollectionDisplayName } from "@/lib/hadith/collections"
+import { saveHadithProgress } from "@/hooks/useHadithProgress"
 import { assetPath } from "@/lib/utils"
 
 interface RawHadith {
@@ -59,6 +60,7 @@ export function HadithBookClient({ collection, bookId, totalHadiths }: Props) {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
   const [page, setPage] = useState(1)
+  const listRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
     fetch(assetPath(`/data/hadith/${collection}/books/book-${bookId}.json`))
@@ -92,6 +94,57 @@ export function HadithBookClient({ collection, bookId, totalHadiths }: Props) {
     }, 100)
     return () => clearTimeout(timer)
   }, [loading, hadiths])
+
+  // Track the top-most visible hadith as the user scrolls and persist it as
+  // reading progress (mirrors the Quran reader). The rootMargin defines an
+  // "active band" near the top of the viewport so the hadith recorded is the
+  // one the reader is actually on, not one barely peeking in.
+  useEffect(() => {
+    const container = listRef.current
+    if (!container || hadiths.length === 0) return
+    if (typeof IntersectionObserver === "undefined") return
+
+    const byElementId = new Map<string, { hadith: Hadith; index: number }>()
+    hadiths.forEach((h, index) => {
+      byElementId.set(`hadith-${h.id}`, { hadith: h, index })
+    })
+
+    const visible = new Set<string>()
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          const id = (entry.target as HTMLElement).id
+          if (entry.isIntersecting) visible.add(id)
+          else visible.delete(id)
+        }
+        if (visible.size === 0) return
+        let top: Hadith | null = null
+        let topIndex = Infinity
+        for (const id of visible) {
+          const rec = byElementId.get(id)
+          if (rec && rec.index < topIndex) {
+            topIndex = rec.index
+            top = rec.hadith
+          }
+        }
+        if (top) {
+          saveHadithProgress({
+            collection,
+            collectionName: getCollectionDisplayName(collection),
+            bookId,
+            bookName: top.bookName,
+            hadithId: top.id,
+            hadithNumber: top.hadithNumber,
+          })
+        }
+      },
+      { rootMargin: "-100px 0px -55% 0px", threshold: 0 },
+    )
+
+    const els = container.querySelectorAll<HTMLElement>('[id^="hadith-"]')
+    els.forEach((el) => observer.observe(el))
+    return () => observer.disconnect()
+  }, [hadiths, page, collection, bookId])
 
   if (loading) {
     return (
@@ -147,9 +200,11 @@ export function HadithBookClient({ collection, bookId, totalHadiths }: Props) {
 
   return (
     <div className="space-y-3">
-      {visible.map((hadith, i) => (
-        <HadithCard key={hadith.id} hadith={hadith} index={i} />
-      ))}
+      <div ref={listRef} className="space-y-3">
+        {visible.map((hadith, i) => (
+          <HadithCard key={hadith.id} hadith={hadith} index={i} />
+        ))}
+      </div>
 
       {totalPages > 1 && (
         <nav

@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react"
 import { VideoGrid } from "@/components/videos/VideoGrid"
 import { YouTubeEmbed } from "@/components/videos/YouTubeEmbed"
+import { ContinueWatching } from "@/components/videos/ContinueWatching"
 import { CategoryFilter } from "@/components/videos/CategoryFilter"
 import { Pagination } from "@/components/shared/Pagination"
 import { useScholarVideos } from "@/hooks/useYouTube"
@@ -49,6 +50,9 @@ export function ScholarClient({ scholarId }: ScholarClientProps) {
 
   return (
     <div className="space-y-6">
+      {!isLoading && videos && videos.length > 0 && (
+        <ContinueWatching videos={videos} onPlay={setPlayingVideo} />
+      )}
       {categories.length > 0 && (
         <CategoryFilter
           categories={categories}
