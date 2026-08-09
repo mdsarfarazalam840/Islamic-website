@@ -1,3 +1,9 @@
+## [0.2.6] - 2026-08-09
+
+### Other
+- Enhanced resume in all the section and continue reading (6c8666b)
+
+
 ## [0.2.5] - 2026-08-06
 
 ### Other
