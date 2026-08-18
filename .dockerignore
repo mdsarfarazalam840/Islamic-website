@@ -1,0 +1,44 @@
+# Keep the build context small and correct. Everything the static build needs
+# (src/, public/data/, scripts/, config files, nginx.conf) is NOT listed here.
+
+# VCS
+.git
+.gitignore
+
+# Dependencies & build outputs — reinstalled/rebuilt inside the image.
+node_modules
+.next
+out
+build
+dist
+coverage
+public/pagefind
+
+# Desktop (Tauri) & mobile (Capacitor) apps — irrelevant to the web build and
+# home to a potentially huge Rust target/ dir.
+apps
+**/target
+
+# Tooling / agent / editor dirs
+.claude
+.agents
+.superpowers
+.opencode*
+graphify*
+.vscode
+.idea
+
+# Env & secrets (never bake these into the image)
+.env*
+.dev.vars
+.vercel
+
+# Docker artifacts themselves (nginx.conf is intentionally kept — stage 2 COPYs it)
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Misc
+*.log
+.DS_Store
+*.pem

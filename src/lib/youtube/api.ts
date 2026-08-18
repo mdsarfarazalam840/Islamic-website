@@ -2,9 +2,12 @@ import { apiConfig } from "@/config/api"
 import { scholars } from "@/config/scholars"
 import { assetPath } from "@/lib/utils"
 import { getMockVideos, getMockVideosByScholar } from "./videos"
-import type { Video } from "@/types"
+import { normalizePlaylist } from "./playlist-fetch"
+import type { Video, Playlist } from "@/types"
 
 const cache = new Map<string, { data: Video[]; timestamp: number }>()
+// Playlists are cached separately since they're a different shape than Video[].
+const playlistCache = new Map<string, { data: Playlist[]; timestamp: number }>()
 
 function getFromCache(key: string): Video[] | null {
   const entry = cache.get(key)
@@ -86,6 +89,44 @@ export async function getVideosByCategory(category: string): Promise<Video[]> {
 
   const allVideos = await getAllVideos()
   return allVideos.filter((v) => v.category === category)
+}
+
+// Playlists are pre-generated at build time (scripts/fetch-youtube-data.ts) into
+// public/data/youtube/playlists/<scholarId>.json, mirroring the per-scholar video
+// files. Unlike videos there is no mock fallback: a scholar legitimately having
+// no playlists is a normal, empty state, so we return [] rather than fabricating.
+export async function getPlaylistsByScholar(scholarId: string): Promise<Playlist[]> {
+  const cached = playlistCache.get(scholarId)
+  if (cached && Date.now() - cached.timestamp <= apiConfig.youtube.cacheTTL) {
+    return cached.data
+  }
+
+  const scholar = scholars.find((s) => s.id === scholarId)
+  if (!scholar) {
+    playlistCache.set(scholarId, { data: [], timestamp: Date.now() })
+    return []
+  }
+
+  let playlists: Playlist[] = []
+  try {
+    const res = await fetch(assetPath(`/data/youtube/playlists/${scholarId}.json`))
+    if (res.ok) {
+      const data = await res.json()
+      if (Array.isArray(data)) {
+        // Enrich with the current scholar name so a rename in config propagates
+        // without re-scraping (matches getVideosByScholar's behaviour).
+        playlists = data
+          .map(normalizePlaylist)
+          .filter((playlist): playlist is Playlist => playlist !== null)
+          .map((p) => ({ ...p, scholarId, scholarName: scholar.name }))
+      }
+    }
+  } catch (error) {
+    console.error("Failed to load YouTube playlists:", error)
+  }
+
+  playlistCache.set(scholarId, { data: playlists, timestamp: Date.now() })
+  return playlists
 }
 
 export function formatViewCount(views: number): string {

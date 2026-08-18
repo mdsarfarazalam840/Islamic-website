@@ -9,6 +9,7 @@
     "build": "next build",
     "build:static": "npm run build:pagefind && next build",
     "start": "next start",
+    "test": "node --import tsx --test",
     "lint": "eslint",
     "fetch:quran": "tsx scripts/fetch-quran-data.ts",
     "fetch:hadith": "tsx scripts/fetch-hadith-data.ts",

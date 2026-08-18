@@ -1,0 +1,10 @@
+# Build and run the site locally with one command:
+#   docker compose up --build
+# Then open http://localhost:8080
+services:
+  web:
+    build: .
+    image: quran-website:latest
+    ports:
+      - "8080:80"
+    restart: unless-stopped

@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useMemo, useState } from "react"
+import { useMemo, useState } from "react"
 import { VideoGrid } from "@/components/videos/VideoGrid"
 import { YouTubeEmbed } from "@/components/videos/YouTubeEmbed"
 import { ContinueWatching } from "@/components/videos/ContinueWatching"
@@ -19,6 +19,7 @@ interface ScholarClientProps {
 
 export function ScholarClient({ scholarId }: ScholarClientProps) {
   const { data: videos, isLoading } = useScholarVideos(scholarId)
+
   const [activeCategory, setActiveCategory] = useState("all")
   const [playingVideo, setPlayingVideo] = useState<Video | null>(null)
   const [page, setPage] = useState(1)
@@ -32,11 +33,6 @@ export function ScholarClient({ scholarId }: ScholarClientProps) {
         : (videos || []).filter((v) => v.category === activeCategory),
     [videos, activeCategory],
   )
-
-  // Reset to the first page whenever the active category changes.
-  useEffect(() => {
-    setPage(1)
-  }, [activeCategory])
 
   const totalPages = Math.max(1, Math.ceil(filteredVideos.length / PAGE_SIZE))
   const currentPage = Math.min(page, totalPages)
@@ -57,7 +53,10 @@ export function ScholarClient({ scholarId }: ScholarClientProps) {
         <CategoryFilter
           categories={categories}
           activeCategory={activeCategory}
-          onCategoryChange={setActiveCategory}
+          onCategoryChange={(category) => {
+            setActiveCategory(category)
+            setPage(1)
+          }}
         />
       )}
       <VideoGrid
@@ -77,6 +76,7 @@ export function ScholarClient({ scholarId }: ScholarClientProps) {
           {totalPages > 1 && ` · Page ${currentPage} of ${totalPages}`}
         </p>
       )}
+
       {playingVideo && (
         <YouTubeEmbed
           videoId={playingVideo.youtubeId}

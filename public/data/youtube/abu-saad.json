@@ -1,6 +1,32 @@
 [
   {
     "id": "yt-abu-saad-0",
+    "youtubeId": "3pDrNbFo3cM",
+    "title": "The Secret to Lasting Happiness | Abu Saad",
+    "description": "",
+    "scholarId": "abu-saad",
+    "scholarName": "Abu Saad",
+    "thumbnail": "https://i.ytimg.com/vi/3pDrNbFo3cM/hqdefault.jpg",
+    "duration": "28:35",
+    "publishedAt": "2026-08-06T17:36:45.366Z",
+    "category": "tafsir",
+    "views": 44000
+  },
+  {
+    "id": "yt-abu-saad-1",
+    "youtubeId": "eynsko_bm24",
+    "title": "Yazeed and Ashura — Separating History from Emotion  Abu SaaD",
+    "description": "",
+    "scholarId": "abu-saad",
+    "scholarName": "Abu Saad",
+    "thumbnail": "https://i.ytimg.com/vi/eynsko_bm24/hqdefault.jpg",
+    "duration": "25:15",
+    "publishedAt": "2026-07-31T17:36:45.366Z",
+    "category": "tafsir",
+    "views": 8000
+  },
+  {
+    "id": "yt-abu-saad-2",
     "youtubeId": "LumGiqaCHtg",
     "title": "Biography Of Hussain R.A | Abu Saad",
     "description": "",
@@ -8,12 +34,12 @@
     "scholarName": "Abu Saad",
     "thumbnail": "https://i.ytimg.com/vi/LumGiqaCHtg/hqdefault.jpg",
     "duration": "58:06",
-    "publishedAt": "2026-07-23T12:16:40.501Z",
+    "publishedAt": "2026-07-24T17:36:45.366Z",
     "category": "tafsir",
-    "views": 8000
+    "views": 11000
   },
   {
-    "id": "yt-abu-saad-1",
+    "id": "yt-abu-saad-3",
     "youtubeId": "I1Q56iTz42I",
     "title": "Virtues of Imam Hussain R.A.- Part 1 | Abu Saad",
     "description": "",
@@ -21,12 +47,12 @@
     "scholarName": "Abu Saad",
     "thumbnail": "https://i.ytimg.com/vi/I1Q56iTz42I/hqdefault.jpg",
     "duration": "24:30",
-    "publishedAt": "2026-07-18T12:16:40.501Z",
+    "publishedAt": "2026-07-17T17:36:45.366Z",
     "category": "tafsir",
-    "views": 9000
+    "views": 10000
   },
   {
-    "id": "yt-abu-saad-2",
+    "id": "yt-abu-saad-4",
     "youtubeId": "X-M4CWjJAkM",
     "title": "Things that stop Your Rizq  | Abu Saad",
     "description": "",
@@ -34,12 +60,12 @@
     "scholarName": "Abu Saad",
     "thumbnail": "https://i.ytimg.com/vi/X-M4CWjJAkM/hqdefault.jpg",
     "duration": "37:10",
-    "publishedAt": "2026-07-15T12:16:40.501Z",
+    "publishedAt": "2026-07-15T17:36:45.366Z",
     "category": "tafsir",
-    "views": 77000
+    "views": 89000
   },
   {
-    "id": "yt-abu-saad-3",
+    "id": "yt-abu-saad-5",
     "youtubeId": "jUPfMcWiWR4",
     "title": "Sincerity With Allah | Abu Saad",
     "description": "",
@@ -47,12 +73,12 @@
     "scholarName": "Abu Saad",
     "thumbnail": "https://i.ytimg.com/vi/jUPfMcWiWR4/hqdefault.jpg",
     "duration": "1:01:02",
-    "publishedAt": "2026-07-08T12:16:40.501Z",
+    "publishedAt": "2026-07-15T17:36:45.366Z",
     "category": "tafsir",
-    "views": 24000
+    "views": 26000
   },
   {
-    "id": "yt-abu-saad-4",
+    "id": "yt-abu-saad-6",
     "youtubeId": "hLuk1dz9D38",
     "title": "Muharram and our Responsibility | Abu Saad",
     "description": "",
@@ -60,25 +86,25 @@
     "scholarName": "Abu Saad",
     "thumbnail": "https://i.ytimg.com/vi/hLuk1dz9D38/hqdefault.jpg",
     "duration": "14:56",
-    "publishedAt": "2026-06-29T12:16:40.501Z",
+    "publishedAt": "2026-07-15T17:36:45.366Z",
     "category": "tafsir",
     "views": 17000
   },
   {
-    "id": "yt-abu-saad-5",
+    "id": "yt-abu-saad-7",
     "youtubeId": "5DGbhOXA09g",
-    "title": "Allah Never Rejects This Dua | @abusaaddofficial",
+    "title": "Allah Never Rejects This Dua | @Abu Saad",
     "description": "",
     "scholarId": "abu-saad",
     "scholarName": "Abu Saad",
     "thumbnail": "https://i.ytimg.com/vi/5DGbhOXA09g/hqdefault.jpg",
     "duration": "1:00:17",
-    "publishedAt": "2026-06-29T12:16:40.501Z",
+    "publishedAt": "2026-07-15T17:36:45.366Z",
     "category": "tafsir",
-    "views": 30000
+    "views": 32000
   },
   {
-    "id": "yt-abu-saad-6",
+    "id": "yt-abu-saad-8",
     "youtubeId": "1oSiZ548FyQ",
     "title": "Selfish Love vs Love for Allah | @Abu Saad",
     "description": "",
@@ -86,12 +112,12 @@
     "scholarName": "Abu Saad",
     "thumbnail": "https://i.ytimg.com/vi/1oSiZ548FyQ/hqdefault.jpg",
     "duration": "49:51",
-    "publishedAt": "2026-06-29T12:16:40.501Z",
+    "publishedAt": "2026-06-15T17:36:45.366Z",
     "category": "tafsir",
-    "views": 30000
+    "views": 31000
   },
   {
-    "id": "yt-abu-saad-7",
+    "id": "yt-abu-saad-9",
     "youtubeId": "lXh250OlZHA",
     "title": "Loyalty Of Ibrahim A.S | Abu Saad",
     "description": "",
@@ -99,12 +125,12 @@
     "scholarName": "Abu Saad",
     "thumbnail": "https://i.ytimg.com/vi/lXh250OlZHA/hqdefault.jpg",
     "duration": "46:09",
-    "publishedAt": "2026-05-30T12:16:40.501Z",
+    "publishedAt": "2026-06-15T17:36:45.366Z",
     "category": "tafsir",
-    "views": 21000
+    "views": 22000
   },
   {
-    "id": "yt-abu-saad-8",
+    "id": "yt-abu-saad-10",
     "youtubeId": "xbLWjJ_E0JE",
     "title": "Asiya R.A Role Model for Believers | Abu Saad",
     "description": "",
@@ -112,12 +138,12 @@
     "scholarName": "Abu Saad",
     "thumbnail": "https://i.ytimg.com/vi/xbLWjJ_E0JE/hqdefault.jpg",
     "duration": "37:18",
-    "publishedAt": "2026-05-30T12:16:40.501Z",
+    "publishedAt": "2026-06-15T17:36:45.366Z",
     "category": "tafsir",
-    "views": 21000
+    "views": 22000
   },
   {
-    "id": "yt-abu-saad-9",
+    "id": "yt-abu-saad-11",
     "youtubeId": "9Tx7HH61anU",
     "title": "How To Fix Your Weak Iman | Abu Saad",
     "description": "",
@@ -125,12 +151,12 @@
     "scholarName": "Abu Saad",
     "thumbnail": "https://i.ytimg.com/vi/9Tx7HH61anU/hqdefault.jpg",
     "duration": "45:16",
-    "publishedAt": "2026-05-30T12:16:40.501Z",
+    "publishedAt": "2026-05-16T17:36:45.366Z",
     "category": "tafsir",
-    "views": 59000
+    "views": 61000
   },
   {
-    "id": "yt-abu-saad-10",
+    "id": "yt-abu-saad-12",
     "youtubeId": "_-X_UtEOIUA",
     "title": "When Does it Get Easier? | Abu Saad",
     "description": "",
@@ -138,12 +164,12 @@
     "scholarName": "Abu Saad",
     "thumbnail": "https://i.ytimg.com/vi/_-X_UtEOIUA/hqdefault.jpg",
     "duration": "35:41",
-    "publishedAt": "2026-05-30T12:16:40.501Z",
+    "publishedAt": "2026-05-16T17:36:45.366Z",
     "category": "tafsir",
-    "views": 41000
+    "views": 42000
   },
   {
-    "id": "yt-abu-saad-11",
+    "id": "yt-abu-saad-13",
     "youtubeId": "RcylMSxj32w",
     "title": "How to be Close to Muhammad SAWW. | Abu Saad",
     "description": "",
@@ -151,12 +177,12 @@
     "scholarName": "Abu Saad",
     "thumbnail": "https://i.ytimg.com/vi/RcylMSxj32w/hqdefault.jpg",
     "duration": "46:38",
-    "publishedAt": "2026-04-30T12:16:40.501Z",
+    "publishedAt": "2026-05-16T17:36:45.366Z",
     "category": "tafsir",
-    "views": 29000
+    "views": 30000
   },
   {
-    "id": "yt-abu-saad-12",
+    "id": "yt-abu-saad-14",
     "youtubeId": "4ACRwafOdCg",
     "title": "Living in The End Times | Abu Saad",
     "description": "",
@@ -164,12 +190,12 @@
     "scholarName": "Abu Saad",
     "thumbnail": "https://i.ytimg.com/vi/4ACRwafOdCg/hqdefault.jpg",
     "duration": "1:12:30",
-    "publishedAt": "2026-04-30T12:16:40.501Z",
+    "publishedAt": "2026-05-16T17:36:45.366Z",
     "category": "tafsir",
     "views": 108000
   },
   {
-    "id": "yt-abu-saad-13",
+    "id": "yt-abu-saad-15",
     "youtubeId": "Ih3zxc2Hfwc",
     "title": "Three Advices For Taqwa | Abu Saad",
     "description": "",
@@ -177,12 +203,12 @@
     "scholarName": "Abu Saad",
     "thumbnail": "https://i.ytimg.com/vi/Ih3zxc2Hfwc/hqdefault.jpg",
     "duration": "31:06",
-    "publishedAt": "2026-04-30T12:16:40.501Z",
+    "publishedAt": "2026-04-16T17:36:45.366Z",
     "category": "tafsir",
-    "views": 55000
+    "views": 56000
   },
   {
-    "id": "yt-abu-saad-14",
+    "id": "yt-abu-saad-16",
     "youtubeId": "05-4T_z48wo",
     "title": "What To Do After Ramadan | Abu Saad",
     "description": "",
@@ -190,12 +216,12 @@
     "scholarName": "Abu Saad",
     "thumbnail": "https://i.ytimg.com/vi/05-4T_z48wo/hqdefault.jpg",
     "duration": "42:30",
-    "publishedAt": "2026-04-30T12:16:40.501Z",
+    "publishedAt": "2026-04-16T17:36:45.366Z",
     "category": "tafsir",
     "views": 14000
   },
   {
-    "id": "yt-abu-saad-15",
+    "id": "yt-abu-saad-17",
     "youtubeId": "93bjTzPMXvo",
     "title": "The Real Key To Quran | Abu Saad",
     "description": "",
@@ -203,12 +229,12 @@
     "scholarName": "Abu Saad",
     "thumbnail": "https://i.ytimg.com/vi/93bjTzPMXvo/hqdefault.jpg",
     "duration": "58:51",
-    "publishedAt": "2026-03-31T12:16:40.501Z",
+    "publishedAt": "2026-03-17T17:36:45.366Z",
     "category": "tafsir",
     "views": 22000
   },
   {
-    "id": "yt-abu-saad-16",
+    "id": "yt-abu-saad-18",
     "youtubeId": "a7CX4p5CqqY",
     "title": "Prepare before the Shift | Abu Saad",
     "description": "",
@@ -216,12 +242,12 @@
     "scholarName": "Abu Saad",
     "thumbnail": "https://i.ytimg.com/vi/a7CX4p5CqqY/hqdefault.jpg",
     "duration": "6:00",
-    "publishedAt": "2026-03-31T12:16:40.501Z",
+    "publishedAt": "2026-03-17T17:36:45.366Z",
     "category": "tafsir",
     "views": 11000
   },
   {
-    "id": "yt-abu-saad-17",
+    "id": "yt-abu-saad-19",
     "youtubeId": "utyhSmG7KJQ",
     "title": "Are We At The Turning Point in History | @Abu Saad",
     "description": "",
@@ -229,12 +255,12 @@
     "scholarName": "Abu Saad",
     "thumbnail": "https://i.ytimg.com/vi/utyhSmG7KJQ/hqdefault.jpg",
     "duration": "22:30",
-    "publishedAt": "2026-03-31T12:16:40.501Z",
+    "publishedAt": "2026-03-17T17:36:45.366Z",
     "category": "tafsir",
     "views": 83000
   },
   {
-    "id": "yt-abu-saad-18",
+    "id": "yt-abu-saad-20",
     "youtubeId": "8l7NRZ2twVs",
     "title": "Don't Stay Behind This Ramadan | Abu Saad",
     "description": "",
@@ -242,12 +268,12 @@
     "scholarName": "Abu Saad",
     "thumbnail": "https://i.ytimg.com/vi/8l7NRZ2twVs/hqdefault.jpg",
     "duration": "34:07",
-    "publishedAt": "2026-03-01T12:16:40.501Z",
+    "publishedAt": "2026-03-17T17:36:45.366Z",
     "category": "tafsir",
     "views": 48000
   },
   {
-    "id": "yt-abu-saad-19",
+    "id": "yt-abu-saad-21",
     "youtubeId": "zRVyh_oLGfQ",
     "title": "How To Make This Ramadan Different  | Abu Saad",
     "description": "",
@@ -255,12 +281,12 @@
     "scholarName": "Abu Saad",
     "thumbnail": "https://i.ytimg.com/vi/zRVyh_oLGfQ/hqdefault.jpg",
     "duration": "55:55",
-    "publishedAt": "2026-03-01T12:16:40.501Z",
+    "publishedAt": "2026-02-15T17:36:45.366Z",
     "category": "tafsir",
     "views": 114000
   },
   {
-    "id": "yt-abu-saad-20",
+    "id": "yt-abu-saad-22",
     "youtubeId": "C3G2adPUQx0",
     "title": "Battle Between Desire and Discipline | Abu Saad",
     "description": "",
@@ -268,12 +294,12 @@
     "scholarName": "Abu Saad",
     "thumbnail": "https://i.ytimg.com/vi/C3G2adPUQx0/hqdefault.jpg",
     "duration": "1:00:20",
-    "publishedAt": "2026-03-01T12:16:40.501Z",
+    "publishedAt": "2026-02-15T17:36:45.366Z",
     "category": "tafsir",
     "views": 38000
   },
   {
-    "id": "yt-abu-saad-21",
+    "id": "yt-abu-saad-23",
     "youtubeId": "P5ZZcZceLjU",
     "title": "Break free from Mental Health Crisis | Abu Saad",
     "description": "",
@@ -281,12 +307,12 @@
     "scholarName": "Abu Saad",
     "thumbnail": "https://i.ytimg.com/vi/P5ZZcZceLjU/hqdefault.jpg",
     "duration": "51:57",
-    "publishedAt": "2026-03-01T12:16:40.501Z",
+    "publishedAt": "2026-02-15T17:36:45.366Z",
     "category": "tafsir",
-    "views": 42000
+    "views": 43000
   },
   {
-    "id": "yt-abu-saad-22",
+    "id": "yt-abu-saad-24",
     "youtubeId": "IGGlLRMJb88",
     "title": "Rights Vs Responsibilities in Marriage | Abu Saad",
     "description": "",
@@ -294,12 +320,12 @@
     "scholarName": "Abu Saad",
     "thumbnail": "https://i.ytimg.com/vi/IGGlLRMJb88/hqdefault.jpg",
     "duration": "47:07",
-    "publishedAt": "2026-01-30T12:16:40.501Z",
+    "publishedAt": "2026-02-15T17:36:45.366Z",
     "category": "tafsir",
-    "views": 40000
+    "views": 42000
   },
   {
-    "id": "yt-abu-saad-23",
+    "id": "yt-abu-saad-25",
     "youtubeId": "Q12YNza_6yg",
     "title": "Laziness is Dangerous | Abu Saad",
     "description": "",
@@ -307,12 +333,12 @@
     "scholarName": "Abu Saad",
     "thumbnail": "https://i.ytimg.com/vi/Q12YNza_6yg/hqdefault.jpg",
     "duration": "40:43",
-    "publishedAt": "2026-01-30T12:16:40.501Z",
+    "publishedAt": "2026-02-15T17:36:45.366Z",
     "category": "tafsir",
-    "views": 51000
+    "views": 52000
   },
   {
-    "id": "yt-abu-saad-24",
+    "id": "yt-abu-saad-26",
     "youtubeId": "AsUHZQGR9yE",
     "title": "Gratitude & Loyalty in Marriage | Abu Saad",
     "description": "",
@@ -320,12 +346,12 @@
     "scholarName": "Abu Saad",
     "thumbnail": "https://i.ytimg.com/vi/AsUHZQGR9yE/hqdefault.jpg",
     "duration": "59:13",
-    "publishedAt": "2026-01-30T12:16:40.501Z",
+    "publishedAt": "2026-01-16T17:36:45.366Z",
     "category": "tafsir",
-    "views": 22000
+    "views": 23000
   },
   {
-    "id": "yt-abu-saad-25",
+    "id": "yt-abu-saad-27",
     "youtubeId": "d1ifgHSp02Y",
     "title": "The Missing Marriage Lessons | Abu Saad",
     "description": "",
@@ -333,12 +359,12 @@
     "scholarName": "Abu Saad",
     "thumbnail": "https://i.ytimg.com/vi/d1ifgHSp02Y/hqdefault.jpg",
     "duration": "1:03:00",
-    "publishedAt": "2026-01-30T12:16:40.501Z",
+    "publishedAt": "2026-01-16T17:36:45.366Z",
     "category": "tafsir",
-    "views": 28000
+    "views": 29000
   },
   {
-    "id": "yt-abu-saad-26",
+    "id": "yt-abu-saad-28",
     "youtubeId": "1Vp0uxqcBT8",
     "title": "A Golden Season For Believers | Abu Saad",
     "description": "",
@@ -346,12 +372,12 @@
     "scholarName": "Abu Saad",
     "thumbnail": "https://i.ytimg.com/vi/1Vp0uxqcBT8/hqdefault.jpg",
     "duration": "52:57",
-    "publishedAt": "2025-12-31T12:16:40.501Z",
+    "publishedAt": "2026-01-16T17:36:45.366Z",
     "category": "tafsir",
     "views": 53000
   },
   {
-    "id": "yt-abu-saad-27",
+    "id": "yt-abu-saad-29",
     "youtubeId": "_C11HFGR5zk",
     "title": "Marriage Goals | Abu Saad",
     "description": "",
@@ -359,34 +385,8 @@
     "scholarName": "Abu Saad",
     "thumbnail": "https://i.ytimg.com/vi/_C11HFGR5zk/hqdefault.jpg",
     "duration": "45:24",
-    "publishedAt": "2025-12-31T12:16:40.501Z",
+    "publishedAt": "2026-01-16T17:36:45.366Z",
     "category": "tafsir",
-    "views": 58000
-  },
-  {
-    "id": "yt-abu-saad-28",
-    "youtubeId": "TG9vmPzaxFE",
-    "title": "Choosing  the Right Person for Marriage | Abu Saad",
-    "description": "",
-    "scholarId": "abu-saad",
-    "scholarName": "Abu Saad",
-    "thumbnail": "https://i.ytimg.com/vi/TG9vmPzaxFE/hqdefault.jpg",
-    "duration": "49:53",
-    "publishedAt": "2025-12-31T12:16:40.501Z",
-    "category": "tafsir",
-    "views": 127000
-  },
-  {
-    "id": "yt-abu-saad-29",
-    "youtubeId": "CPINC3mpMMA",
-    "title": "Do this - And People will Love you | Abu Saad",
-    "description": "",
-    "scholarId": "abu-saad",
-    "scholarName": "Abu Saad",
-    "thumbnail": "https://i.ytimg.com/vi/CPINC3mpMMA/hqdefault.jpg",
-    "duration": "42:06",
-    "publishedAt": "2025-12-31T12:16:40.501Z",
-    "category": "tafsir",
-    "views": 40000
+    "views": 59000
   }
 ]

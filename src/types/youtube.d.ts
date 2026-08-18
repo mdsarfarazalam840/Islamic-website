@@ -28,6 +28,9 @@ interface YTPlayerOptions {
   events?: {
     onReady?: (event: YTPlayerEvent) => void
     onStateChange?: (event: YTPlayerEvent) => void
+    // `data` carries the error code: 2 (bad param), 5 (HTML5 error),
+    // 100 (removed/private), 101 & 150 (embedding disabled by the owner).
+    onError?: (event: YTPlayerEvent) => void
   }
 }
 
