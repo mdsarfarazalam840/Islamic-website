@@ -1,6 +1,97 @@
 [
   {
     "id": "yt-yasir-qadhi-0",
+    "youtubeId": "oc3G-vWTEpk",
+    "title": "The ONE Decision That Changed Muslim History",
+    "description": "",
+    "scholarId": "yasir-qadhi",
+    "scholarName": "Yasir Qadhi",
+    "thumbnail": "https://i.ytimg.com/vi/oc3G-vWTEpk/hqdefault.jpg",
+    "duration": "45:50",
+    "publishedAt": "2026-08-13T17:36:45.366Z",
+    "category": "tafsir",
+    "views": 10000
+  },
+  {
+    "id": "yt-yasir-qadhi-1",
+    "youtubeId": "klBFL6XaCeo",
+    "title": "Dear Trump, Meet The New Guy...",
+    "description": "",
+    "scholarId": "yasir-qadhi",
+    "scholarName": "Yasir Qadhi",
+    "thumbnail": "https://i.ytimg.com/vi/klBFL6XaCeo/hqdefault.jpg",
+    "duration": "38:52",
+    "publishedAt": "2026-08-11T17:36:45.366Z",
+    "category": "tafsir",
+    "views": 23000
+  },
+  {
+    "id": "yt-yasir-qadhi-2",
+    "youtubeId": "w_7928XlfQo",
+    "title": "Understanding the Reality of Maḥabbah: Ibn Taymiyya’s Treatise on Divine Love",
+    "description": "",
+    "scholarId": "yasir-qadhi",
+    "scholarName": "Yasir Qadhi",
+    "thumbnail": "https://i.ytimg.com/vi/w_7928XlfQo/hqdefault.jpg",
+    "duration": "28:09",
+    "publishedAt": "2026-08-08T17:36:45.366Z",
+    "category": "tafsir",
+    "views": 15000
+  },
+  {
+    "id": "yt-yasir-qadhi-3",
+    "youtubeId": "K4wTHSvEFWM",
+    "title": "The Right Path for Muslims Today?",
+    "description": "",
+    "scholarId": "yasir-qadhi",
+    "scholarName": "Yasir Qadhi",
+    "thumbnail": "https://i.ytimg.com/vi/K4wTHSvEFWM/hqdefault.jpg",
+    "duration": "1:19:41",
+    "publishedAt": "2026-08-06T17:36:45.366Z",
+    "category": "tafsir",
+    "views": 15000
+  },
+  {
+    "id": "yt-yasir-qadhi-4",
+    "youtubeId": "qA0aNc6-m00",
+    "title": "Dear Western Muslims...",
+    "description": "",
+    "scholarId": "yasir-qadhi",
+    "scholarName": "Yasir Qadhi",
+    "thumbnail": "https://i.ytimg.com/vi/qA0aNc6-m00/hqdefault.jpg",
+    "duration": "2:03:49",
+    "publishedAt": "2026-08-04T17:36:45.366Z",
+    "category": "tafsir",
+    "views": 41000
+  },
+  {
+    "id": "yt-yasir-qadhi-5",
+    "youtubeId": "m1w3XEEOuR0",
+    "title": "Inside Syria's New Beginning",
+    "description": "",
+    "scholarId": "yasir-qadhi",
+    "scholarName": "Yasir Qadhi",
+    "thumbnail": "https://i.ytimg.com/vi/m1w3XEEOuR0/hqdefault.jpg",
+    "duration": "1:09:08",
+    "publishedAt": "2026-08-03T17:36:45.366Z",
+    "category": "tafsir",
+    "views": 50000
+  },
+  {
+    "id": "yt-yasir-qadhi-6",
+    "youtubeId": "e6n_NBQ2gDw",
+    "title": "Challenges Muslims Face Today",
+    "description": "",
+    "scholarId": "yasir-qadhi",
+    "scholarName": "Yasir Qadhi",
+    "thumbnail": "https://i.ytimg.com/vi/e6n_NBQ2gDw/hqdefault.jpg",
+    "duration": "1:26:07",
+    "publishedAt": "2026-07-31T17:36:45.366Z",
+    "category": "tafsir",
+    "views": 20000
+  },
+  {
+    "id": "yt-yasir-qadhi-7",
     "youtubeId": "aKlyE2bspyM",
     "title": "The Debate That Still Shapes Islam Today...",
     "description": "",
@@ -8,12 +99,12 @@
     "scholarName": "Yasir Qadhi",
     "thumbnail": "https://i.ytimg.com/vi/aKlyE2bspyM/hqdefault.jpg",
     "duration": "1:09:35",
-    "publishedAt": "2026-07-24T12:16:40.501Z",
+    "publishedAt": "2026-07-24T17:36:45.366Z",
     "category": "tafsir",
-    "views": 21000
+    "views": 29000
   },
   {
-    "id": "yt-yasir-qadhi-1",
+    "id": "yt-yasir-qadhi-8",
     "youtubeId": "5F2iJikmuvs",
     "title": "Understanding the Core of Salafism",
     "description": "",
@@ -21,12 +112,12 @@
     "scholarName": "Yasir Qadhi",
     "thumbnail": "https://i.ytimg.com/vi/5F2iJikmuvs/hqdefault.jpg",
     "duration": "57:09",
-    "publishedAt": "2026-07-21T12:16:40.501Z",
+    "publishedAt": "2026-07-24T17:36:45.366Z",
     "category": "tafsir",
-    "views": 30000
+    "views": 37000
   },
   {
-    "id": "yt-yasir-qadhi-2",
+    "id": "yt-yasir-qadhi-9",
     "youtubeId": "ic5l_BIL_wo",
     "title": "The Colonial Playbook: How Muslim Civilizations Were Weakened",
     "description": "",
@@ -34,12 +125,12 @@
     "scholarName": "Yasir Qadhi",
     "thumbnail": "https://i.ytimg.com/vi/ic5l_BIL_wo/hqdefault.jpg",
     "duration": "1:13:06",
-    "publishedAt": "2026-07-17T12:16:40.501Z",
+    "publishedAt": "2026-07-17T17:36:45.366Z",
     "category": "tafsir",
-    "views": 47000
+    "views": 55000
   },
   {
-    "id": "yt-yasir-qadhi-3",
+    "id": "yt-yasir-qadhi-10",
     "youtubeId": "ydtA0wT_xr0",
     "title": "How Do Muslims Thrive As a Minority?",
     "description": "",
@@ -47,12 +138,12 @@
     "scholarName": "Yasir Qadhi",
     "thumbnail": "https://i.ytimg.com/vi/ydtA0wT_xr0/hqdefault.jpg",
     "duration": "29:48",
-    "publishedAt": "2026-07-15T12:16:40.501Z",
+    "publishedAt": "2026-07-15T17:36:45.366Z",
     "category": "tafsir",
-    "views": 10000
+    "views": 11000
   },
   {
-    "id": "yt-yasir-qadhi-4",
+    "id": "yt-yasir-qadhi-11",
     "youtubeId": "QMrcQ6fewKg",
     "title": "Animal Cruelty, Dunya vs. Akhirah & Other Trending Questions",
     "description": "",
@@ -60,12 +151,12 @@
     "scholarName": "Yasir Qadhi",
     "thumbnail": "https://i.ytimg.com/vi/QMrcQ6fewKg/hqdefault.jpg",
     "duration": "10:55",
-    "publishedAt": "2026-07-15T12:16:40.501Z",
+    "publishedAt": "2026-07-15T17:36:45.366Z",
     "category": "tafsir",
-    "views": 7000
+    "views": 7500
   },
   {
-    "id": "yt-yasir-qadhi-5",
+    "id": "yt-yasir-qadhi-12",
     "youtubeId": "Baob7MsLVRE",
     "title": "Inside Iceland's Muslim Community",
     "description": "",
@@ -73,12 +164,12 @@
     "scholarName": "Yasir Qadhi",
     "thumbnail": "https://i.ytimg.com/vi/Baob7MsLVRE/hqdefault.jpg",
     "duration": "36:47",
-    "publishedAt": "2026-07-08T12:16:40.501Z",
+    "publishedAt": "2026-07-15T17:36:45.366Z",
     "category": "tafsir",
-    "views": 21000
+    "views": 23000
   },
   {
-    "id": "yt-yasir-qadhi-6",
+    "id": "yt-yasir-qadhi-13",
     "youtubeId": "Ttd7-Kh6SBg",
     "title": "Overthinking Jannah? Watch This...",
     "description": "",
@@ -86,12 +177,12 @@
     "scholarName": "Yasir Qadhi",
     "thumbnail": "https://i.ytimg.com/vi/Ttd7-Kh6SBg/hqdefault.jpg",
     "duration": "1:17:37",
-    "publishedAt": "2026-07-08T12:16:40.501Z",
+    "publishedAt": "2026-07-15T17:36:45.366Z",
     "category": "tafsir",
-    "views": 26000
+    "views": 28000
   },
   {
-    "id": "yt-yasir-qadhi-7",
+    "id": "yt-yasir-qadhi-14",
     "youtubeId": "PZYFCBKwUJ8",
     "title": "HOT Topic: All Non-Muslims Belong in Hell?",
     "description": "",
@@ -99,12 +190,12 @@
     "scholarName": "Yasir Qadhi",
     "thumbnail": "https://i.ytimg.com/vi/PZYFCBKwUJ8/hqdefault.jpg",
     "duration": "58:40",
-    "publishedAt": "2026-06-29T12:16:40.501Z",
+    "publishedAt": "2026-07-15T17:36:45.366Z",
     "category": "tafsir",
-    "views": 40000
+    "views": 43000
   },
   {
-    "id": "yt-yasir-qadhi-8",
+    "id": "yt-yasir-qadhi-15",
     "youtubeId": "u0d9HOsQ6FQ",
     "title": "Time: The Real Wealth of a Believer",
     "description": "",
@@ -112,12 +203,12 @@
     "scholarName": "Yasir Qadhi",
     "thumbnail": "https://i.ytimg.com/vi/u0d9HOsQ6FQ/hqdefault.jpg",
     "duration": "27:29",
-    "publishedAt": "2026-06-29T12:16:40.501Z",
+    "publishedAt": "2026-07-15T17:36:45.366Z",
     "category": "tafsir",
-    "views": 26000
+    "views": 27000
   },
   {
-    "id": "yt-yasir-qadhi-9",
+    "id": "yt-yasir-qadhi-16",
     "youtubeId": "Z9Y0vN8nZ5s",
     "title": "What No One Tells You About Aging Parents",
     "description": "",
@@ -125,12 +216,12 @@
     "scholarName": "Yasir Qadhi",
     "thumbnail": "https://i.ytimg.com/vi/Z9Y0vN8nZ5s/hqdefault.jpg",
     "duration": "1:11:22",
-    "publishedAt": "2026-06-29T12:16:40.501Z",
+    "publishedAt": "2026-07-15T17:36:45.366Z",
     "category": "tafsir",
-    "views": 30000
+    "views": 32000
   },
   {
-    "id": "yt-yasir-qadhi-10",
+    "id": "yt-yasir-qadhi-17",
     "youtubeId": "P0uCdsmKrVI",
     "title": "THIS Matters More Than You Think...",
     "description": "",
@@ -138,12 +229,12 @@
     "scholarName": "Yasir Qadhi",
     "thumbnail": "https://i.ytimg.com/vi/P0uCdsmKrVI/hqdefault.jpg",
     "duration": "11:52",
-    "publishedAt": "2026-06-29T12:16:40.501Z",
+    "publishedAt": "2026-07-15T17:36:45.366Z",
     "category": "tafsir",
     "views": 15000
   },
   {
-    "id": "yt-yasir-qadhi-11",
+    "id": "yt-yasir-qadhi-18",
     "youtubeId": "t7lxNcxXoB0",
     "title": "FIFA and Morality - Exposing the Hypocrisy",
     "description": "",
@@ -151,12 +242,12 @@
     "scholarName": "Yasir Qadhi",
     "thumbnail": "https://i.ytimg.com/vi/t7lxNcxXoB0/hqdefault.jpg",
     "duration": "9:54",
-    "publishedAt": "2026-06-29T12:16:40.501Z",
+    "publishedAt": "2026-06-15T17:36:45.366Z",
     "category": "tafsir",
     "views": 12000
   },
   {
-    "id": "yt-yasir-qadhi-12",
+    "id": "yt-yasir-qadhi-19",
     "youtubeId": "jJjm7gIwIEg",
     "title": "The Hijrah: More Than a Journey",
     "description": "",
@@ -164,12 +255,12 @@
     "scholarName": "Yasir Qadhi",
     "thumbnail": "https://i.ytimg.com/vi/jJjm7gIwIEg/hqdefault.jpg",
     "duration": "26:36",
-    "publishedAt": "2026-06-29T12:16:40.501Z",
+    "publishedAt": "2026-06-15T17:36:45.366Z",
     "category": "tafsir",
     "views": 14000
   },
   {
-    "id": "yt-yasir-qadhi-13",
+    "id": "yt-yasir-qadhi-20",
     "youtubeId": "_PPzwIs94xM",
     "title": "What Young Muslims Need to Hear Right Now...",
     "description": "",
@@ -177,12 +268,12 @@
     "scholarName": "Yasir Qadhi",
     "thumbnail": "https://i.ytimg.com/vi/_PPzwIs94xM/hqdefault.jpg",
     "duration": "1:27:18",
-    "publishedAt": "2026-06-29T12:16:40.501Z",
+    "publishedAt": "2026-06-15T17:36:45.366Z",
     "category": "tafsir",
-    "views": 55000
+    "views": 57000
   },
   {
-    "id": "yt-yasir-qadhi-14",
+    "id": "yt-yasir-qadhi-21",
     "youtubeId": "LHg5euS7fGE",
     "title": "Low Faith Isn't a Valid Excuse?",
     "description": "",
@@ -190,12 +281,12 @@
     "scholarName": "Yasir Qadhi",
     "thumbnail": "https://i.ytimg.com/vi/LHg5euS7fGE/hqdefault.jpg",
     "duration": "8:12",
-    "publishedAt": "2026-06-29T12:16:40.501Z",
+    "publishedAt": "2026-06-15T17:36:45.366Z",
     "category": "tafsir",
-    "views": 6500
+    "views": 6600
   },
   {
-    "id": "yt-yasir-qadhi-15",
+    "id": "yt-yasir-qadhi-22",
     "youtubeId": "4H0V75_naBA",
     "title": "From Defeat to Victory: The Sahabah and Constantinople",
     "description": "",
@@ -203,12 +294,12 @@
     "scholarName": "Yasir Qadhi",
     "thumbnail": "https://i.ytimg.com/vi/4H0V75_naBA/hqdefault.jpg",
     "duration": "27:32",
-    "publishedAt": "2026-06-29T12:16:40.501Z",
+    "publishedAt": "2026-06-15T17:36:45.366Z",
     "category": "tafsir",
-    "views": 13000
+    "views": 14000
   },
   {
-    "id": "yt-yasir-qadhi-16",
+    "id": "yt-yasir-qadhi-23",
     "youtubeId": "iKaCaUexd0Y",
     "title": "Shia or Sunni | Shaykh Yasir Qadhi and Shaykh Mahdi Rastani Discuss The Controversial Questions",
     "description": "",
@@ -216,12 +307,12 @@
     "scholarName": "Yasir Qadhi",
     "thumbnail": "https://i.ytimg.com/vi/iKaCaUexd0Y/hqdefault.jpg",
     "duration": "1:42:39",
-    "publishedAt": "2026-06-29T12:16:40.501Z",
+    "publishedAt": "2026-06-15T17:36:45.366Z",
     "category": "tafsir",
-    "views": 78000
+    "views": 82000
   },
   {
-    "id": "yt-yasir-qadhi-17",
+    "id": "yt-yasir-qadhi-24",
     "youtubeId": "cEl78GVP3Ak",
     "title": "POWERFUL Khutbah at Arafah - Hajj 2026",
     "description": "",
@@ -229,12 +320,12 @@
     "scholarName": "Yasir Qadhi",
     "thumbnail": "https://i.ytimg.com/vi/cEl78GVP3Ak/hqdefault.jpg",
     "duration": "34:33",
-    "publishedAt": "2026-05-30T12:16:40.501Z",
+    "publishedAt": "2026-06-15T17:36:45.366Z",
     "category": "tafsir",
     "views": 59000
   },
   {
-    "id": "yt-yasir-qadhi-18",
+    "id": "yt-yasir-qadhi-25",
     "youtubeId": "jbb0KUwdORM",
     "title": "My Hajj Isn't Accepted if I Don't Forgive?",
     "description": "",
@@ -242,12 +333,12 @@
     "scholarName": "Yasir Qadhi",
     "thumbnail": "https://i.ytimg.com/vi/jbb0KUwdORM/hqdefault.jpg",
     "duration": "30:52",
-    "publishedAt": "2026-05-30T12:16:40.501Z",
+    "publishedAt": "2026-06-15T17:36:45.366Z",
     "category": "tafsir",
     "views": 9300
   },
   {
-    "id": "yt-yasir-qadhi-19",
+    "id": "yt-yasir-qadhi-26",
     "youtubeId": "McD_x4GK7So",
     "title": "Why We Do Hajj - 10 LIFE-CHANGING Lessons",
     "description": "",
@@ -255,12 +346,12 @@
     "scholarName": "Yasir Qadhi",
     "thumbnail": "https://i.ytimg.com/vi/McD_x4GK7So/hqdefault.jpg",
     "duration": "32:38",
-    "publishedAt": "2026-05-30T12:16:40.501Z",
+    "publishedAt": "2026-06-15T17:36:45.366Z",
     "category": "tafsir",
     "views": 16000
   },
   {
-    "id": "yt-yasir-qadhi-20",
+    "id": "yt-yasir-qadhi-27",
     "youtubeId": "tmnKet_KvnQ",
     "title": "Beyond the Rituals: Your BIGGEST Hajj Questions Answered",
     "description": "",
@@ -268,12 +359,12 @@
     "scholarName": "Yasir Qadhi",
     "thumbnail": "https://i.ytimg.com/vi/tmnKet_KvnQ/hqdefault.jpg",
     "duration": "42:56",
-    "publishedAt": "2026-05-30T12:16:40.501Z",
+    "publishedAt": "2026-06-15T17:36:45.366Z",
     "category": "tafsir",
-    "views": 9200
+    "views": 9300
   },
   {
-    "id": "yt-yasir-qadhi-21",
+    "id": "yt-yasir-qadhi-28",
     "youtubeId": "eaWa8xTTQJg",
     "title": "Your Complete Guide for Hajj 2026 - Part 1",
     "description": "",
@@ -281,12 +372,12 @@
     "scholarName": "Yasir Qadhi",
     "thumbnail": "https://i.ytimg.com/vi/eaWa8xTTQJg/hqdefault.jpg",
     "duration": "1:05:33",
-    "publishedAt": "2026-05-30T12:16:40.501Z",
+    "publishedAt": "2026-05-16T17:36:45.366Z",
     "category": "tafsir",
     "views": 17000
   },
   {
-    "id": "yt-yasir-qadhi-22",
+    "id": "yt-yasir-qadhi-29",
     "youtubeId": "oZp-dd77sSs",
     "title": "Before You Speak: 10 Principles Every Muslim Needs to Hear",
     "description": "",
@@ -294,99 +385,8 @@
     "scholarName": "Yasir Qadhi",
     "thumbnail": "https://i.ytimg.com/vi/oZp-dd77sSs/hqdefault.jpg",
     "duration": "31:18",
-    "publishedAt": "2026-05-30T12:16:40.501Z",
+    "publishedAt": "2026-05-16T17:36:45.366Z",
     "category": "tafsir",
-    "views": 36000
-  },
-  {
-    "id": "yt-yasir-qadhi-23",
-    "youtubeId": "3XsKr6pF1Mc",
-    "title": "Salafism & Tradition: A Conversation Muslims Need to Have - Urdu Interview",
-    "description": "",
-    "scholarId": "yasir-qadhi",
-    "scholarName": "Yasir Qadhi",
-    "thumbnail": "https://i.ytimg.com/vi/3XsKr6pF1Mc/hqdefault.jpg",
-    "duration": "1:11:48",
-    "publishedAt": "2026-05-30T12:16:40.501Z",
-    "category": "tafsir",
-    "views": 18000
-  },
-  {
-    "id": "yt-yasir-qadhi-24",
-    "youtubeId": "6RrwWB2yRh4",
-    "title": "Mercy Versus Justice: Lessons from the Seerah",
-    "description": "",
-    "scholarId": "yasir-qadhi",
-    "scholarName": "Yasir Qadhi",
-    "thumbnail": "https://i.ytimg.com/vi/6RrwWB2yRh4/hqdefault.jpg",
-    "duration": "15:02",
-    "publishedAt": "2026-04-30T12:16:40.501Z",
-    "category": "tafsir",
-    "views": 27000
-  },
-  {
-    "id": "yt-yasir-qadhi-25",
-    "youtubeId": "FjLu0hapwM8",
-    "title": "Qiyamah is Near...But Action is the Goal!",
-    "description": "",
-    "scholarId": "yasir-qadhi",
-    "scholarName": "Yasir Qadhi",
-    "thumbnail": "https://i.ytimg.com/vi/FjLu0hapwM8/hqdefault.jpg",
-    "duration": "29:36",
-    "publishedAt": "2026-04-30T12:16:40.501Z",
-    "category": "tafsir",
-    "views": 47000
-  },
-  {
-    "id": "yt-yasir-qadhi-26",
-    "youtubeId": "ZkYjlR0lElg",
-    "title": "Iran & Sectarianism: What Should Muslims Really Think? - Q&A with Shaykh Yasir Qadhi",
-    "description": "",
-    "scholarId": "yasir-qadhi",
-    "scholarName": "Yasir Qadhi",
-    "thumbnail": "https://i.ytimg.com/vi/ZkYjlR0lElg/hqdefault.jpg",
-    "duration": "40:15",
-    "publishedAt": "2026-04-30T12:16:40.501Z",
-    "category": "tafsir",
-    "views": 40000
-  },
-  {
-    "id": "yt-yasir-qadhi-27",
-    "youtubeId": "KwjNfrs5w3M",
-    "title": "Why Lose Hope When Allah Said This? | Five Reasons not to Lose Hope",
-    "description": "",
-    "scholarId": "yasir-qadhi",
-    "scholarName": "Yasir Qadhi",
-    "thumbnail": "https://i.ytimg.com/vi/KwjNfrs5w3M/hqdefault.jpg",
-    "duration": "35:30",
-    "publishedAt": "2026-04-30T12:16:40.501Z",
-    "category": "tafsir",
-    "views": 26000
-  },
-  {
-    "id": "yt-yasir-qadhi-28",
-    "youtubeId": "N35iBtI53aE",
-    "title": "How Muslims Contributed to the Space Race?",
-    "description": "",
-    "scholarId": "yasir-qadhi",
-    "scholarName": "Yasir Qadhi",
-    "thumbnail": "https://i.ytimg.com/vi/N35iBtI53aE/hqdefault.jpg",
-    "duration": "37:51",
-    "publishedAt": "2026-04-30T12:16:40.501Z",
-    "category": "tafsir",
-    "views": 13000
-  },
-  {
-    "id": "yt-yasir-qadhi-29",
-    "youtubeId": "dMDzAW52qdM",
-    "title": "The Myth of the ‘Judeo-Christian’ Narrative",
-    "description": "",
-    "scholarId": "yasir-qadhi",
-    "scholarName": "Yasir Qadhi",
-    "thumbnail": "https://i.ytimg.com/vi/dMDzAW52qdM/hqdefault.jpg",
-    "duration": "25:26",
-    "publishedAt": "2026-04-30T12:16:40.501Z",
-    "category": "tafsir",
-    "views": 29000
+    "views": 37000
   }
 ]

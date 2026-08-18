@@ -1,6 +1,32 @@
 [
   {
     "id": "yt-hamza-yusuf-0",
+    "youtubeId": "1j0jT1DCQk0",
+    "title": "Why Do We Need Scholars of Islam? | President Hamza Yusuf | Zaytuna College",
+    "description": "",
+    "scholarId": "hamza-yusuf",
+    "scholarName": "Hamza Yusuf",
+    "thumbnail": "https://i.ytimg.com/vi/1j0jT1DCQk0/hqdefault.jpg",
+    "duration": "1:28",
+    "publishedAt": "2026-08-03T17:36:45.366Z",
+    "category": "aqeedah",
+    "views": 2600
+  },
+  {
+    "id": "yt-hamza-yusuf-1",
+    "youtubeId": "Jai0Jxdo1mw",
+    "title": "What is Emotional Intelligence in Islam? l Hosai Mojadiddi l Zaytuna College Enrichment Lecture",
+    "description": "",
+    "scholarId": "hamza-yusuf",
+    "scholarName": "Hamza Yusuf",
+    "thumbnail": "https://i.ytimg.com/vi/Jai0Jxdo1mw/hqdefault.jpg",
+    "duration": "2:47",
+    "publishedAt": "2026-08-03T17:36:45.366Z",
+    "category": "aqeedah",
+    "views": 1200
+  },
+  {
+    "id": "yt-hamza-yusuf-2",
     "youtubeId": "0tDFr44R2eg",
     "title": "How Can Muslims Help America? l President Hamza Yusuf l Zaytuna College",
     "description": "",
@@ -8,12 +34,12 @@
     "scholarName": "Hamza Yusuf",
     "thumbnail": "https://i.ytimg.com/vi/0tDFr44R2eg/hqdefault.jpg",
     "duration": "1:23",
-    "publishedAt": "2026-07-22T12:16:40.501Z",
+    "publishedAt": "2026-07-24T17:36:45.366Z",
     "category": "aqeedah",
-    "views": 2000
+    "views": 2300
   },
   {
-    "id": "yt-hamza-yusuf-1",
+    "id": "yt-hamza-yusuf-3",
     "youtubeId": "t1sSELFbF_M",
     "title": "Sacred Stewardship and Service: Learning Permaculture at Zaytuna College",
     "description": "",
@@ -21,12 +47,12 @@
     "scholarName": "Hamza Yusuf",
     "thumbnail": "https://i.ytimg.com/vi/t1sSELFbF_M/hqdefault.jpg",
     "duration": "1:47",
-    "publishedAt": "2026-07-15T12:16:40.501Z",
+    "publishedAt": "2026-07-15T17:36:45.366Z",
     "category": "aqeedah",
-    "views": 678
+    "views": 740
   },
   {
-    "id": "yt-hamza-yusuf-2",
+    "id": "yt-hamza-yusuf-4",
     "youtubeId": "yRShYLwoKI0",
     "title": "In Service of Our Community | Zaytuna College Alumni",
     "description": "",
@@ -34,12 +60,12 @@
     "scholarName": "Hamza Yusuf",
     "thumbnail": "https://i.ytimg.com/vi/yRShYLwoKI0/hqdefault.jpg",
     "duration": "6:30",
-    "publishedAt": "2026-07-15T12:16:40.501Z",
+    "publishedAt": "2026-07-15T17:36:45.366Z",
     "category": "aqeedah",
-    "views": 3000
+    "views": 3200
   },
   {
-    "id": "yt-hamza-yusuf-3",
+    "id": "yt-hamza-yusuf-5",
     "youtubeId": "9omzY7ZOqaE",
     "title": "Where Is Our Community? l President Hamza Yusuf l Zaytuna College",
     "description": "",
@@ -47,12 +73,12 @@
     "scholarName": "Hamza Yusuf",
     "thumbnail": "https://i.ytimg.com/vi/9omzY7ZOqaE/hqdefault.jpg",
     "duration": "27:32",
-    "publishedAt": "2026-07-15T12:16:40.501Z",
+    "publishedAt": "2026-07-15T17:36:45.366Z",
     "category": "aqeedah",
-    "views": 9100
+    "views": 10000
   },
   {
-    "id": "yt-hamza-yusuf-4",
+    "id": "yt-hamza-yusuf-6",
     "youtubeId": "lZdlo_ob0Bk",
     "title": "What Two Words Fill Everything in the Cosmos? l Shaykh Faraz Khan l  Zaytuna College",
     "description": "",
@@ -60,12 +86,12 @@
     "scholarName": "Hamza Yusuf",
     "thumbnail": "https://i.ytimg.com/vi/lZdlo_ob0Bk/hqdefault.jpg",
     "duration": "6:36",
-    "publishedAt": "2026-07-15T12:16:40.501Z",
+    "publishedAt": "2026-07-15T17:36:45.366Z",
     "category": "aqeedah",
-    "views": 559
+    "views": 610
   },
   {
-    "id": "yt-hamza-yusuf-5",
+    "id": "yt-hamza-yusuf-7",
     "youtubeId": "yLupELe9o40",
     "title": "What Fuels Our Journey to God?  l Shaykh Faraz Khan l  Zaytuna College",
     "description": "",
@@ -73,12 +99,12 @@
     "scholarName": "Hamza Yusuf",
     "thumbnail": "https://i.ytimg.com/vi/yLupELe9o40/hqdefault.jpg",
     "duration": "7:27",
-    "publishedAt": "2026-07-08T12:16:40.501Z",
+    "publishedAt": "2026-07-15T17:36:45.366Z",
     "category": "aqeedah",
-    "views": 685
+    "views": 769
   },
   {
-    "id": "yt-hamza-yusuf-6",
+    "id": "yt-hamza-yusuf-8",
     "youtubeId": "w2cndih20Jc",
     "title": "How Much Entertainment Is Too Much?  l Shaykh Faraz Khan l  Zaytuna College",
     "description": "",
@@ -86,12 +112,12 @@
     "scholarName": "Hamza Yusuf",
     "thumbnail": "https://i.ytimg.com/vi/w2cndih20Jc/hqdefault.jpg",
     "duration": "5:52",
-    "publishedAt": "2026-06-29T12:16:40.501Z",
+    "publishedAt": "2026-07-15T17:36:45.366Z",
     "category": "aqeedah",
-    "views": 1800
+    "views": 1900
   },
   {
-    "id": "yt-hamza-yusuf-7",
+    "id": "yt-hamza-yusuf-9",
     "youtubeId": "S_-JkS3wmQU",
     "title": "What Is The Essence of Revelation?  l Shaykh Faraz Khan l  Zaytuna College",
     "description": "",
@@ -99,12 +125,12 @@
     "scholarName": "Hamza Yusuf",
     "thumbnail": "https://i.ytimg.com/vi/S_-JkS3wmQU/hqdefault.jpg",
     "duration": "5:40",
-    "publishedAt": "2026-06-29T12:16:40.501Z",
+    "publishedAt": "2026-07-15T17:36:45.366Z",
     "category": "aqeedah",
-    "views": 559
+    "views": 591
   },
   {
-    "id": "yt-hamza-yusuf-8",
+    "id": "yt-hamza-yusuf-10",
     "youtubeId": "Pi6JS6Dg-gA",
     "title": "Formal Logic II: Judgement and Reasoning | Zaytuna College Online Course",
     "description": "",
@@ -112,12 +138,12 @@
     "scholarName": "Hamza Yusuf",
     "thumbnail": "https://i.ytimg.com/vi/Pi6JS6Dg-gA/hqdefault.jpg",
     "duration": "1:15",
-    "publishedAt": "2026-06-29T12:16:40.501Z",
+    "publishedAt": "2026-07-15T17:36:45.366Z",
     "category": "aqeedah",
     "views": 1300
   },
   {
-    "id": "yt-hamza-yusuf-9",
+    "id": "yt-hamza-yusuf-11",
     "youtubeId": "aKrITpDWqoY",
     "title": "Where Does Human Effort Meet Divine Mercy?  l Shaykh Faraz Khan l  Zaytuna College",
     "description": "",
@@ -125,12 +151,12 @@
     "scholarName": "Hamza Yusuf",
     "thumbnail": "https://i.ytimg.com/vi/aKrITpDWqoY/hqdefault.jpg",
     "duration": "9:13",
-    "publishedAt": "2026-06-29T12:16:40.501Z",
+    "publishedAt": "2026-06-15T17:36:45.366Z",
     "category": "aqeedah",
-    "views": 714
+    "views": 751
   },
   {
-    "id": "yt-hamza-yusuf-10",
+    "id": "yt-hamza-yusuf-12",
     "youtubeId": "K156uYqfN8M",
     "title": "What Distinguishes a Devoted Servant? l Shaykh Faraz Khan l  Zaytuna College",
     "description": "",
@@ -138,12 +164,12 @@
     "scholarName": "Hamza Yusuf",
     "thumbnail": "https://i.ytimg.com/vi/K156uYqfN8M/hqdefault.jpg",
     "duration": "6:44",
-    "publishedAt": "2026-06-29T12:16:40.501Z",
+    "publishedAt": "2026-06-15T17:36:45.366Z",
     "category": "aqeedah",
-    "views": 866
+    "views": 887
   },
   {
-    "id": "yt-hamza-yusuf-11",
+    "id": "yt-hamza-yusuf-13",
     "youtubeId": "QYMQXt7h4Xg",
     "title": "Dr. Nasrin Rouzati on Living a Meaningful Life in Challenging Times | Zaytuna College Commencement",
     "description": "",
@@ -151,12 +177,12 @@
     "scholarName": "Hamza Yusuf",
     "thumbnail": "https://i.ytimg.com/vi/QYMQXt7h4Xg/hqdefault.jpg",
     "duration": "31:19",
-    "publishedAt": "2026-06-29T12:16:40.501Z",
+    "publishedAt": "2026-06-15T17:36:45.366Z",
     "category": "aqeedah",
     "views": 38000
   },
   {
-    "id": "yt-hamza-yusuf-12",
+    "id": "yt-hamza-yusuf-14",
     "youtubeId": "qNk6qdLeOLY",
     "title": "What Is True Success? Dr. Nasrin Rouzati I 2026 Commencement Speaker I Zaytuna College",
     "description": "",
@@ -164,12 +190,12 @@
     "scholarName": "Hamza Yusuf",
     "thumbnail": "https://i.ytimg.com/vi/qNk6qdLeOLY/hqdefault.jpg",
     "duration": "1:22",
-    "publishedAt": "2026-06-29T12:16:40.501Z",
+    "publishedAt": "2026-06-15T17:36:45.366Z",
     "category": "aqeedah",
     "views": 1200
   },
   {
-    "id": "yt-hamza-yusuf-13",
+    "id": "yt-hamza-yusuf-15",
     "youtubeId": "HO5IG2Oda0E",
     "title": "Did Moses Break His Promise? l Shaykh Faraz Khan l  Zaytuna College",
     "description": "",
@@ -177,12 +203,12 @@
     "scholarName": "Hamza Yusuf",
     "thumbnail": "https://i.ytimg.com/vi/HO5IG2Oda0E/hqdefault.jpg",
     "duration": "4:49",
-    "publishedAt": "2026-05-30T12:16:40.501Z",
+    "publishedAt": "2026-06-15T17:36:45.366Z",
     "category": "aqeedah",
-    "views": 638
+    "views": 652
   },
   {
-    "id": "yt-hamza-yusuf-14",
+    "id": "yt-hamza-yusuf-16",
     "youtubeId": "yn-B7BUV0fY",
     "title": "How Do We Turn the Mundane into the Sacred? Ustadha Hosai Mojaddidi of Zaytuna College",
     "description": "",
@@ -190,12 +216,12 @@
     "scholarName": "Hamza Yusuf",
     "thumbnail": "https://i.ytimg.com/vi/yn-B7BUV0fY/hqdefault.jpg",
     "duration": "2:09",
-    "publishedAt": "2026-05-30T12:16:40.501Z",
+    "publishedAt": "2026-06-15T17:36:45.366Z",
     "category": "aqeedah",
-    "views": 644
+    "views": 663
   },
   {
-    "id": "yt-hamza-yusuf-15",
+    "id": "yt-hamza-yusuf-17",
     "youtubeId": "dnrDi9Zccdw",
     "title": "How Can We Become the Most Beloved of Servants to Allah? Dr. Asad Tarsin of Zaytuna College",
     "description": "",
@@ -203,12 +229,12 @@
     "scholarName": "Hamza Yusuf",
     "thumbnail": "https://i.ytimg.com/vi/dnrDi9Zccdw/hqdefault.jpg",
     "duration": "4:03",
-    "publishedAt": "2026-05-30T12:16:40.501Z",
+    "publishedAt": "2026-06-15T17:36:45.366Z",
     "category": "aqeedah",
-    "views": 947
+    "views": 962
   },
   {
-    "id": "yt-hamza-yusuf-16",
+    "id": "yt-hamza-yusuf-18",
     "youtubeId": "Fj0PIOeN8SA",
     "title": "Does Your Family Put Faith First? l Dr. Abdullah Ali of Zaytuna College",
     "description": "",
@@ -216,12 +242,12 @@
     "scholarName": "Hamza Yusuf",
     "thumbnail": "https://i.ytimg.com/vi/Fj0PIOeN8SA/hqdefault.jpg",
     "duration": "7:39",
-    "publishedAt": "2026-05-30T12:16:40.501Z",
+    "publishedAt": "2026-06-15T17:36:45.366Z",
     "category": "aqeedah",
-    "views": 635
+    "views": 643
   },
   {
-    "id": "yt-hamza-yusuf-17",
+    "id": "yt-hamza-yusuf-19",
     "youtubeId": "RMnB1S2BLV4",
     "title": "Ustadh Feraidoon Mojadedi on the Blessings of Forgiveness | Zaytuna College",
     "description": "",
@@ -229,12 +255,12 @@
     "scholarName": "Hamza Yusuf",
     "thumbnail": "https://i.ytimg.com/vi/RMnB1S2BLV4/hqdefault.jpg",
     "duration": "4:53",
-    "publishedAt": "2026-05-30T12:16:40.501Z",
+    "publishedAt": "2026-06-15T17:36:45.366Z",
     "category": "aqeedah",
-    "views": 542
+    "views": 562
   },
   {
-    "id": "yt-hamza-yusuf-18",
+    "id": "yt-hamza-yusuf-20",
     "youtubeId": "awk6qODVVto",
     "title": "Charity Stands in the Way of Calamity: Dr. Jawad Qureshi of Zaytuna College on Giving",
     "description": "",
@@ -242,12 +268,12 @@
     "scholarName": "Hamza Yusuf",
     "thumbnail": "https://i.ytimg.com/vi/awk6qODVVto/hqdefault.jpg",
     "duration": "3:54",
-    "publishedAt": "2026-05-30T12:16:40.501Z",
+    "publishedAt": "2026-06-15T17:36:45.366Z",
     "category": "aqeedah",
-    "views": 545
+    "views": 552
   },
   {
-    "id": "yt-hamza-yusuf-19",
+    "id": "yt-hamza-yusuf-21",
     "youtubeId": "em3PhDdNcXg",
     "title": "Where Does Adab Begin? l Shaykh Faraz Khan l  Zaytuna College",
     "description": "",
@@ -255,12 +281,12 @@
     "scholarName": "Hamza Yusuf",
     "thumbnail": "https://i.ytimg.com/vi/em3PhDdNcXg/hqdefault.jpg",
     "duration": "5:04",
-    "publishedAt": "2026-05-30T12:16:40.501Z",
+    "publishedAt": "2026-06-15T17:36:45.366Z",
     "category": "aqeedah",
-    "views": 1000
+    "views": 1100
   },
   {
-    "id": "yt-hamza-yusuf-20",
+    "id": "yt-hamza-yusuf-22",
     "youtubeId": "Wo4wbiBWjI8",
     "title": "The Best Supplication For The Most Sacred Days? I Dr. Ali Ataie on Making the Most of Dhu’l Hijjah",
     "description": "",
@@ -268,12 +294,12 @@
     "scholarName": "Hamza Yusuf",
     "thumbnail": "https://i.ytimg.com/vi/Wo4wbiBWjI8/hqdefault.jpg",
     "duration": "4:45",
-    "publishedAt": "2026-05-30T12:16:40.501Z",
+    "publishedAt": "2026-06-15T17:36:45.366Z",
     "category": "aqeedah",
     "views": 8600
   },
   {
-    "id": "yt-hamza-yusuf-21",
+    "id": "yt-hamza-yusuf-23",
     "youtubeId": "lvsiVcWMdhg",
     "title": "What Makes a Zaytuna Education Transformational? A 2026 Graduate Reflects",
     "description": "",
@@ -281,12 +307,12 @@
     "scholarName": "Hamza Yusuf",
     "thumbnail": "https://i.ytimg.com/vi/lvsiVcWMdhg/hqdefault.jpg",
     "duration": "2:55",
-    "publishedAt": "2026-05-30T12:16:40.501Z",
+    "publishedAt": "2026-06-15T17:36:45.366Z",
     "category": "aqeedah",
-    "views": 993
+    "views": 1000
   },
   {
-    "id": "yt-hamza-yusuf-22",
+    "id": "yt-hamza-yusuf-24",
     "youtubeId": "k7J4py6UhmY",
     "title": "How Can We Access All We Desire? I Imam Tahir Anwar of Zaytuna College on Seeking Forgiveness",
     "description": "",
@@ -294,12 +320,12 @@
     "scholarName": "Hamza Yusuf",
     "thumbnail": "https://i.ytimg.com/vi/k7J4py6UhmY/hqdefault.jpg",
     "duration": "4:47",
-    "publishedAt": "2026-05-30T12:16:40.501Z",
+    "publishedAt": "2026-06-15T17:36:45.366Z",
     "category": "aqeedah",
-    "views": 820
+    "views": 825
   },
   {
-    "id": "yt-hamza-yusuf-23",
+    "id": "yt-hamza-yusuf-25",
     "youtubeId": "A9eogzodya0",
     "title": "Virtues of Dhu'l Hijjah Series | What Are the Benefits of Salat? I Shaykh Faraz Khan | Zaytuna",
     "description": "",
@@ -307,12 +333,12 @@
     "scholarName": "Hamza Yusuf",
     "thumbnail": "https://i.ytimg.com/vi/A9eogzodya0/hqdefault.jpg",
     "duration": "7:38",
-    "publishedAt": "2026-05-30T12:16:40.501Z",
+    "publishedAt": "2026-06-15T17:36:45.366Z",
     "category": "aqeedah",
     "views": 2200
   },
   {
-    "id": "yt-hamza-yusuf-24",
+    "id": "yt-hamza-yusuf-26",
     "youtubeId": "rbpgKEhbd9A",
     "title": "Imam Zaid Shakir: Supporting Zaytuna Students’ Minds and Spirits",
     "description": "",
@@ -320,12 +346,12 @@
     "scholarName": "Hamza Yusuf",
     "thumbnail": "https://i.ytimg.com/vi/rbpgKEhbd9A/hqdefault.jpg",
     "duration": "12:02",
-    "publishedAt": "2026-05-30T12:16:40.501Z",
+    "publishedAt": "2026-06-15T17:36:45.366Z",
     "category": "aqeedah",
-    "views": 1700
+    "views": 1800
   },
   {
-    "id": "yt-hamza-yusuf-25",
+    "id": "yt-hamza-yusuf-27",
     "youtubeId": "eN_X2aQLZ2w",
     "title": "What Are the Dangers of Arrogance? l Shaykh Faraz Khan l  Zaytuna College",
     "description": "",
@@ -333,12 +359,12 @@
     "scholarName": "Hamza Yusuf",
     "thumbnail": "https://i.ytimg.com/vi/eN_X2aQLZ2w/hqdefault.jpg",
     "duration": "7:35",
-    "publishedAt": "2026-05-30T12:16:40.501Z",
+    "publishedAt": "2026-06-15T17:36:45.366Z",
     "category": "aqeedah",
-    "views": 745
+    "views": 769
   },
   {
-    "id": "yt-hamza-yusuf-26",
+    "id": "yt-hamza-yusuf-28",
     "youtubeId": "fJrKuuvyIbo",
     "title": "Prayers for Peace: A Message from Dr. Ali Ataie and Hamza Yusuf | Zaytuna College",
     "description": "",
@@ -346,12 +372,12 @@
     "scholarName": "Hamza Yusuf",
     "thumbnail": "https://i.ytimg.com/vi/fJrKuuvyIbo/hqdefault.jpg",
     "duration": "3:15",
-    "publishedAt": "2026-05-30T12:16:40.501Z",
+    "publishedAt": "2026-06-15T17:36:45.366Z",
     "category": "aqeedah",
     "views": 6400
   },
   {
-    "id": "yt-hamza-yusuf-27",
+    "id": "yt-hamza-yusuf-29",
     "youtubeId": "uOlbZwpD_2A",
     "title": "What Does It Mean to Oppress Your Own Soul? l Shaykh Faraz Khan l ...",
     "description": "",
@@ -359,34 +385,8 @@
     "scholarName": "Hamza Yusuf",
     "thumbnail": "https://i.ytimg.com/vi/uOlbZwpD_2A/hqdefault.jpg",
     "duration": "5:50",
-    "publishedAt": "2026-05-30T12:16:40.501Z",
+    "publishedAt": "2026-05-16T17:36:45.366Z",
     "category": "aqeedah",
-    "views": 1100
-  },
-  {
-    "id": "yt-hamza-yusuf-28",
-    "youtubeId": "qjk-xS4hB8A",
-    "title": "Zaytuna Grad on Academic Rigor, Enduring Friendships, and Boundless...",
-    "description": "",
-    "scholarId": "hamza-yusuf",
-    "scholarName": "Hamza Yusuf",
-    "thumbnail": "https://i.ytimg.com/vi/qjk-xS4hB8A/hqdefault.jpg",
-    "duration": "7:10",
-    "publishedAt": "2026-05-30T12:16:40.501Z",
-    "category": "aqeedah",
-    "views": 6000
-  },
-  {
-    "id": "yt-hamza-yusuf-29",
-    "youtubeId": "pp-q-3lrGb4",
-    "title": "Zaytuna Grad on Unlearning Ignorance, Effacing Bad Habits, and Enduring...",
-    "description": "",
-    "scholarId": "hamza-yusuf",
-    "scholarName": "Hamza Yusuf",
-    "thumbnail": "https://i.ytimg.com/vi/pp-q-3lrGb4/hqdefault.jpg",
-    "duration": "5:09",
-    "publishedAt": "2026-05-30T12:16:40.501Z",
-    "category": "aqeedah",
-    "views": 2300
+    "views": 1200
   }
 ]

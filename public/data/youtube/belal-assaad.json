@@ -1,6 +1,32 @@
 [
   {
     "id": "yt-belal-assaad-0",
+    "youtubeId": "j1YihoaJI4A",
+    "title": "How to build harmonious relationships",
+    "description": "",
+    "scholarId": "belal-assaad",
+    "scholarName": "Belal Assaad",
+    "thumbnail": "https://i.ytimg.com/vi/j1YihoaJI4A/hqdefault.jpg",
+    "duration": "27:59",
+    "publishedAt": "2026-08-09T17:36:45.366Z",
+    "category": "spirituality",
+    "views": 20000
+  },
+  {
+    "id": "yt-belal-assaad-1",
+    "youtubeId": "zjIaUUi9K3Y",
+    "title": "Khawla bint Tha'labah (RA) - The Woman Who Sparked a Divine Law",
+    "description": "",
+    "scholarId": "belal-assaad",
+    "scholarName": "Belal Assaad",
+    "thumbnail": "https://i.ytimg.com/vi/zjIaUUi9K3Y/hqdefault.jpg",
+    "duration": "58:10",
+    "publishedAt": "2026-08-02T17:36:45.366Z",
+    "category": "spirituality",
+    "views": 17000
+  },
+  {
+    "id": "yt-belal-assaad-2",
     "youtubeId": "OCMvaZ7vYtA",
     "title": "Salman the Persian - The Son of Islam",
     "description": "",
@@ -8,12 +34,12 @@
     "scholarName": "Belal Assaad",
     "thumbnail": "https://i.ytimg.com/vi/OCMvaZ7vYtA/hqdefault.jpg",
     "duration": "56:49",
-    "publishedAt": "2026-07-26T12:16:40.501Z",
+    "publishedAt": "2026-07-31T17:36:45.366Z",
     "category": "spirituality",
-    "views": 8800
+    "views": 16000
   },
   {
-    "id": "yt-belal-assaad-1",
+    "id": "yt-belal-assaad-3",
     "youtubeId": "54txkabOqjA",
     "title": "The Unshakable Believer: Standing Firm When the World Judges",
     "description": "",
@@ -21,12 +47,12 @@
     "scholarName": "Belal Assaad",
     "thumbnail": "https://i.ytimg.com/vi/54txkabOqjA/hqdefault.jpg",
     "duration": "1:11:23",
-    "publishedAt": "2026-07-20T12:16:40.501Z",
+    "publishedAt": "2026-07-24T17:36:45.366Z",
     "category": "spirituality",
-    "views": 12000
+    "views": 17000
   },
   {
-    "id": "yt-belal-assaad-2",
+    "id": "yt-belal-assaad-4",
     "youtubeId": "7J6rLp_2Rm4",
     "title": "Boonaa Mohammed x Sh. Belal Assaad",
     "description": "",
@@ -34,12 +60,12 @@
     "scholarName": "Belal Assaad",
     "thumbnail": "https://i.ytimg.com/vi/7J6rLp_2Rm4/hqdefault.jpg",
     "duration": "27:59",
-    "publishedAt": "2026-07-15T12:16:40.501Z",
+    "publishedAt": "2026-07-15T17:36:45.366Z",
     "category": "spirituality",
     "views": 11000
   },
   {
-    "id": "yt-belal-assaad-3",
+    "id": "yt-belal-assaad-5",
     "youtubeId": "oE9-v1_jQoc",
     "title": "How Al-Salaam (The Source of Peace) Heals the Heart",
     "description": "",
@@ -47,12 +73,12 @@
     "scholarName": "Belal Assaad",
     "thumbnail": "https://i.ytimg.com/vi/oE9-v1_jQoc/hqdefault.jpg",
     "duration": "30:07",
-    "publishedAt": "2026-07-08T12:16:40.501Z",
+    "publishedAt": "2026-07-15T17:36:45.366Z",
     "category": "spirituality",
-    "views": 20000
+    "views": 23000
   },
   {
-    "id": "yt-belal-assaad-4",
+    "id": "yt-belal-assaad-6",
     "youtubeId": "9TPx3YGoRHE",
     "title": "Your cure for low self-esteem - Al 'Aziz (The Honourable)",
     "description": "",
@@ -60,12 +86,12 @@
     "scholarName": "Belal Assaad",
     "thumbnail": "https://i.ytimg.com/vi/9TPx3YGoRHE/hqdefault.jpg",
     "duration": "53:12",
-    "publishedAt": "2026-06-29T12:16:40.501Z",
+    "publishedAt": "2026-07-15T17:36:45.366Z",
     "category": "spirituality",
-    "views": 35000
+    "views": 38000
   },
   {
-    "id": "yt-belal-assaad-5",
+    "id": "yt-belal-assaad-7",
     "youtubeId": "31jxXZ2i2Dk",
     "title": "Ash-Shakur (The Most Appreciative)",
     "description": "",
@@ -73,12 +99,12 @@
     "scholarName": "Belal Assaad",
     "thumbnail": "https://i.ytimg.com/vi/31jxXZ2i2Dk/hqdefault.jpg",
     "duration": "45:15",
-    "publishedAt": "2026-06-29T12:16:40.501Z",
+    "publishedAt": "2026-07-15T17:36:45.366Z",
     "category": "spirituality",
     "views": 21000
   },
   {
-    "id": "yt-belal-assaad-6",
+    "id": "yt-belal-assaad-8",
     "youtubeId": "wndHy_MlObM",
     "title": "The Secret to Contentment - Ar-Razzaq (The Provider)",
     "description": "",
@@ -86,12 +112,12 @@
     "scholarName": "Belal Assaad",
     "thumbnail": "https://i.ytimg.com/vi/wndHy_MlObM/hqdefault.jpg",
     "duration": "1:11:39",
-    "publishedAt": "2026-06-29T12:16:40.501Z",
+    "publishedAt": "2026-06-15T17:36:45.366Z",
     "category": "spirituality",
-    "views": 61000
+    "views": 68000
   },
   {
-    "id": "yt-belal-assaad-7",
+    "id": "yt-belal-assaad-9",
     "youtubeId": "rpWRe5-ncXE",
     "title": "The Islamic Justice System Explained",
     "description": "",
@@ -99,12 +125,12 @@
     "scholarName": "Belal Assaad",
     "thumbnail": "https://i.ytimg.com/vi/rpWRe5-ncXE/hqdefault.jpg",
     "duration": "1:24:41",
-    "publishedAt": "2026-06-29T12:16:40.501Z",
+    "publishedAt": "2026-06-15T17:36:45.366Z",
     "category": "spirituality",
-    "views": 15000
+    "views": 16000
   },
   {
-    "id": "yt-belal-assaad-8",
+    "id": "yt-belal-assaad-10",
     "youtubeId": "UBjAuXC1DQg",
     "title": "The Promise of Perfect Fairness - Al 'Adl (The Most Just)",
     "description": "",
@@ -112,12 +138,12 @@
     "scholarName": "Belal Assaad",
     "thumbnail": "https://i.ytimg.com/vi/UBjAuXC1DQg/hqdefault.jpg",
     "duration": "1:05:41",
-    "publishedAt": "2026-06-29T12:16:40.501Z",
+    "publishedAt": "2026-06-15T17:36:45.366Z",
     "category": "spirituality",
-    "views": 29000
+    "views": 30000
   },
   {
-    "id": "yt-belal-assaad-9",
+    "id": "yt-belal-assaad-11",
     "youtubeId": "9yDUuSFlXJI",
     "title": "The Farewell | EP5 - Dhul Hijjah Series",
     "description": "",
@@ -125,12 +151,12 @@
     "scholarName": "Belal Assaad",
     "thumbnail": "https://i.ytimg.com/vi/9yDUuSFlXJI/hqdefault.jpg",
     "duration": "28:29",
-    "publishedAt": "2026-05-30T12:16:40.501Z",
+    "publishedAt": "2026-06-15T17:36:45.366Z",
     "category": "spirituality",
     "views": 13000
   },
   {
-    "id": "yt-belal-assaad-10",
+    "id": "yt-belal-assaad-12",
     "youtubeId": "KBSOqN0FWVk",
     "title": "The Greatest Trial | EP4 - Dhul Hijjah Series",
     "description": "",
@@ -138,12 +164,12 @@
     "scholarName": "Belal Assaad",
     "thumbnail": "https://i.ytimg.com/vi/KBSOqN0FWVk/hqdefault.jpg",
     "duration": "16:09",
-    "publishedAt": "2026-05-30T12:16:40.501Z",
+    "publishedAt": "2026-06-15T17:36:45.366Z",
     "category": "spirituality",
     "views": 11000
   },
   {
-    "id": "yt-belal-assaad-11",
+    "id": "yt-belal-assaad-13",
     "youtubeId": "el3jiUmnEv0",
     "title": "The Sacrifice | EP3 - Dhul Hijjah Series",
     "description": "",
@@ -151,12 +177,12 @@
     "scholarName": "Belal Assaad",
     "thumbnail": "https://i.ytimg.com/vi/el3jiUmnEv0/hqdefault.jpg",
     "duration": "21:08",
-    "publishedAt": "2026-05-30T12:16:40.501Z",
+    "publishedAt": "2026-06-15T17:36:45.366Z",
     "category": "spirituality",
     "views": 16000
   },
   {
-    "id": "yt-belal-assaad-12",
+    "id": "yt-belal-assaad-14",
     "youtubeId": "LP0k2s_pkHE",
     "title": "The story of Hajj | EP2 - THE CALL - Dhul Hijjah Series",
     "description": "",
@@ -164,12 +190,12 @@
     "scholarName": "Belal Assaad",
     "thumbnail": "https://i.ytimg.com/vi/LP0k2s_pkHE/hqdefault.jpg",
     "duration": "26:16",
-    "publishedAt": "2026-05-30T12:16:40.501Z",
+    "publishedAt": "2026-06-15T17:36:45.366Z",
     "category": "spirituality",
     "views": 30000
   },
   {
-    "id": "yt-belal-assaad-13",
+    "id": "yt-belal-assaad-15",
     "youtubeId": "PQRCFYTkUKQ",
     "title": "What is Dhul Hijjah? | EP1 - Dhul Hijjah Series",
     "description": "",
@@ -177,12 +203,12 @@
     "scholarName": "Belal Assaad",
     "thumbnail": "https://i.ytimg.com/vi/PQRCFYTkUKQ/hqdefault.jpg",
     "duration": "15:14",
-    "publishedAt": "2026-05-30T12:16:40.501Z",
+    "publishedAt": "2026-06-15T17:36:45.366Z",
     "category": "spirituality",
     "views": 86000
   },
   {
-    "id": "yt-belal-assaad-14",
+    "id": "yt-belal-assaad-16",
     "youtubeId": "_4ve9yWAvHQ",
     "title": "The Cure for a lonely heart - Al Wadud (The Most Loving)",
     "description": "",
@@ -190,12 +216,12 @@
     "scholarName": "Belal Assaad",
     "thumbnail": "https://i.ytimg.com/vi/_4ve9yWAvHQ/hqdefault.jpg",
     "duration": "58:59",
-    "publishedAt": "2026-05-30T12:16:40.501Z",
+    "publishedAt": "2026-05-16T17:36:45.366Z",
     "category": "spirituality",
-    "views": 56000
+    "views": 60000
   },
   {
-    "id": "yt-belal-assaad-15",
+    "id": "yt-belal-assaad-17",
     "youtubeId": "dW2BQJvNdKs",
     "title": "Living by Allah’s Name ‘The Holy’- Al Quddus",
     "description": "",
@@ -203,12 +229,12 @@
     "scholarName": "Belal Assaad",
     "thumbnail": "https://i.ytimg.com/vi/dW2BQJvNdKs/hqdefault.jpg",
     "duration": "59:30",
-    "publishedAt": "2026-05-30T12:16:40.501Z",
+    "publishedAt": "2026-05-16T17:36:45.366Z",
     "category": "spirituality",
-    "views": 20000
+    "views": 21000
   },
   {
-    "id": "yt-belal-assaad-16",
+    "id": "yt-belal-assaad-18",
     "youtubeId": "oKVgn6e-8t0",
     "title": "How do you react to Good and Bad? (The Benefactor, The Detractor)",
     "description": "",
@@ -216,12 +242,12 @@
     "scholarName": "Belal Assaad",
     "thumbnail": "https://i.ytimg.com/vi/oKVgn6e-8t0/hqdefault.jpg",
     "duration": "1:33:41",
-    "publishedAt": "2026-04-30T12:16:40.501Z",
+    "publishedAt": "2026-05-16T17:36:45.366Z",
     "category": "spirituality",
-    "views": 36000
+    "views": 37000
   },
   {
-    "id": "yt-belal-assaad-17",
+    "id": "yt-belal-assaad-19",
     "youtubeId": "KSHD0K_w4h8",
     "title": "The Secret to Inner Peace - Al-Mu’min",
     "description": "",
@@ -229,12 +255,12 @@
     "scholarName": "Belal Assaad",
     "thumbnail": "https://i.ytimg.com/vi/KSHD0K_w4h8/hqdefault.jpg",
     "duration": "1:12:33",
-    "publishedAt": "2026-04-30T12:16:40.501Z",
+    "publishedAt": "2026-05-16T17:36:45.366Z",
     "category": "spirituality",
-    "views": 55000
+    "views": 59000
   },
   {
-    "id": "yt-belal-assaad-18",
+    "id": "yt-belal-assaad-20",
     "youtubeId": "QlQ2AdcmvU0",
     "title": "You Are Never Alone. He Protects, Hears & Sees you (Al-Waliy, As-Samii' & Al-Baseer)",
     "description": "",
@@ -242,12 +268,12 @@
     "scholarName": "Belal Assaad",
     "thumbnail": "https://i.ytimg.com/vi/QlQ2AdcmvU0/hqdefault.jpg",
     "duration": "1:11:02",
-    "publishedAt": "2026-04-30T12:16:40.501Z",
+    "publishedAt": "2026-04-16T17:36:45.366Z",
     "category": "spirituality",
-    "views": 41000
+    "views": 42000
   },
   {
-    "id": "yt-belal-assaad-19",
+    "id": "yt-belal-assaad-21",
     "youtubeId": "JiBp4QLFLwE",
     "title": "Allah The Equitable, The Diverse Creator: Racism, sexism, discrimination & Islam.",
     "description": "",
@@ -255,12 +281,12 @@
     "scholarName": "Belal Assaad",
     "thumbnail": "https://i.ytimg.com/vi/JiBp4QLFLwE/hqdefault.jpg",
     "duration": "1:05:38",
-    "publishedAt": "2026-04-30T12:16:40.501Z",
+    "publishedAt": "2026-04-16T17:36:45.366Z",
     "category": "spirituality",
     "views": 19000
   },
   {
-    "id": "yt-belal-assaad-20",
+    "id": "yt-belal-assaad-22",
     "youtubeId": "_W6l8YrHgvU",
     "title": "Before You Pray Istikhara… Understand this",
     "description": "",
@@ -268,12 +294,12 @@
     "scholarName": "Belal Assaad",
     "thumbnail": "https://i.ytimg.com/vi/_W6l8YrHgvU/hqdefault.jpg",
     "duration": "8:25",
-    "publishedAt": "2026-03-31T12:16:40.501Z",
+    "publishedAt": "2026-04-16T17:36:45.366Z",
     "category": "spirituality",
-    "views": 29000
+    "views": 31000
   },
   {
-    "id": "yt-belal-assaad-21",
+    "id": "yt-belal-assaad-23",
     "youtubeId": "4Iiycklt8PU",
     "title": "4 Life-Changing Effects of Tawakkul",
     "description": "",
@@ -281,12 +307,12 @@
     "scholarName": "Belal Assaad",
     "thumbnail": "https://i.ytimg.com/vi/4Iiycklt8PU/hqdefault.jpg",
     "duration": "6:18",
-    "publishedAt": "2026-03-31T12:16:40.501Z",
+    "publishedAt": "2026-04-16T17:36:45.366Z",
     "category": "spirituality",
-    "views": 65000
+    "views": 67000
   },
   {
-    "id": "yt-belal-assaad-22",
+    "id": "yt-belal-assaad-24",
     "youtubeId": "nOUqGH8Z3Cg",
     "title": "I have a request...",
     "description": "",
@@ -294,12 +320,12 @@
     "scholarName": "Belal Assaad",
     "thumbnail": "https://i.ytimg.com/vi/nOUqGH8Z3Cg/hqdefault.jpg",
     "duration": "3:31",
-    "publishedAt": "2026-03-31T12:16:40.501Z",
+    "publishedAt": "2026-03-17T17:36:45.366Z",
     "category": "spirituality",
     "views": 42000
   },
   {
-    "id": "yt-belal-assaad-23",
+    "id": "yt-belal-assaad-25",
     "youtubeId": "Edo-_An3hXs",
     "title": "The All-Forgiving (Al Ghafoor), The Most Merciful (Al Rahmaan), The Everlasting Merciful (Al Raheem)",
     "description": "",
@@ -307,12 +333,12 @@
     "scholarName": "Belal Assaad",
     "thumbnail": "https://i.ytimg.com/vi/Edo-_An3hXs/hqdefault.jpg",
     "duration": "18:15",
-    "publishedAt": "2026-03-01T12:16:40.501Z",
+    "publishedAt": "2026-03-17T17:36:45.366Z",
     "category": "spirituality",
-    "views": 24000
+    "views": 25000
   },
   {
-    "id": "yt-belal-assaad-24",
+    "id": "yt-belal-assaad-26",
     "youtubeId": "Zfxhyrv9wfc",
     "title": "And He is the Best Disposer of affairs - Al Haseeb",
     "description": "",
@@ -320,12 +346,12 @@
     "scholarName": "Belal Assaad",
     "thumbnail": "https://i.ytimg.com/vi/Zfxhyrv9wfc/hqdefault.jpg",
     "duration": "51:11",
-    "publishedAt": "2026-03-01T12:16:40.501Z",
+    "publishedAt": "2026-03-17T17:36:45.366Z",
     "category": "spirituality",
-    "views": 54000
+    "views": 56000
   },
   {
-    "id": "yt-belal-assaad-25",
+    "id": "yt-belal-assaad-27",
     "youtubeId": "zU-YGDt8W1g",
     "title": "The DOs and DON'Ts of Ramadan",
     "description": "",
@@ -333,12 +359,12 @@
     "scholarName": "Belal Assaad",
     "thumbnail": "https://i.ytimg.com/vi/zU-YGDt8W1g/hqdefault.jpg",
     "duration": "1:07:32",
-    "publishedAt": "2026-03-01T12:16:40.501Z",
+    "publishedAt": "2026-03-17T17:36:45.366Z",
     "category": "spirituality",
     "views": 93000
   },
   {
-    "id": "yt-belal-assaad-26",
+    "id": "yt-belal-assaad-28",
     "youtubeId": "0VJyEHpLjTk",
     "title": "The Most Generous, The Most Noble (Al Kareem)",
     "description": "",
@@ -346,12 +372,12 @@
     "scholarName": "Belal Assaad",
     "thumbnail": "https://i.ytimg.com/vi/0VJyEHpLjTk/hqdefault.jpg",
     "duration": "18:19",
-    "publishedAt": "2026-03-01T12:16:40.501Z",
+    "publishedAt": "2026-02-15T17:36:45.366Z",
     "category": "spirituality",
-    "views": 34000
+    "views": 35000
   },
   {
-    "id": "yt-belal-assaad-27",
+    "id": "yt-belal-assaad-29",
     "youtubeId": "O6ijRB0xsYs",
     "title": "Allah is Ḥayiyy - He will not turn you away",
     "description": "",
@@ -359,34 +385,8 @@
     "scholarName": "Belal Assaad",
     "thumbnail": "https://i.ytimg.com/vi/O6ijRB0xsYs/hqdefault.jpg",
     "duration": "49:13",
-    "publishedAt": "2026-03-01T12:16:40.501Z",
+    "publishedAt": "2026-02-15T17:36:45.366Z",
     "category": "spirituality",
-    "views": 55000
-  },
-  {
-    "id": "yt-belal-assaad-28",
-    "youtubeId": "r8aS4qHUdCE",
-    "title": "A Reflection on Self-Worth and Existence - The Fashioner (Al Musawwir)",
-    "description": "",
-    "scholarId": "belal-assaad",
-    "scholarName": "Belal Assaad",
-    "thumbnail": "https://i.ytimg.com/vi/r8aS4qHUdCE/hqdefault.jpg",
-    "duration": "24:04",
-    "publishedAt": "2026-01-30T12:16:40.501Z",
-    "category": "spirituality",
-    "views": 27000
-  },
-  {
-    "id": "yt-belal-assaad-29",
-    "youtubeId": "wLOIL8c-5nE",
-    "title": "Nothing can overcome The Compeller, The Mender, The Most High (Al Jabbar)",
-    "description": "",
-    "scholarId": "belal-assaad",
-    "scholarName": "Belal Assaad",
-    "thumbnail": "https://i.ytimg.com/vi/wLOIL8c-5nE/hqdefault.jpg",
-    "duration": "42:43",
-    "publishedAt": "2026-01-30T12:16:40.501Z",
-    "category": "spirituality",
-    "views": 42000
+    "views": 56000
   }
 ]

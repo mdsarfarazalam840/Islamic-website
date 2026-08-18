@@ -1,45 +1,110 @@
 [
   {
     "id": "yt-omar-suleiman-0",
+    "youtubeId": "a0NqX7HquHU",
+    "title": "Safwan ibn al-Mu’attal (ra): Slandered for Helping A Woman | The Firsts | Dr. Omar Suleiman",
+    "description": "",
+    "scholarId": "omar-suleiman",
+    "scholarName": "Omar Suleiman",
+    "thumbnail": "https://i.ytimg.com/vi/a0NqX7HquHU/hqdefault.jpg",
+    "duration": "17:15",
+    "publishedAt": "2026-08-10T17:36:45.366Z",
+    "category": "tafsir",
+    "views": 20000
+  },
+  {
+    "id": "yt-omar-suleiman-1",
+    "youtubeId": "CoSQWVTpk8w",
+    "title": "The Islamic Response to Slavery | Sh. Mohammad Elshinawy",
+    "description": "",
+    "scholarId": "omar-suleiman",
+    "scholarName": "Omar Suleiman",
+    "thumbnail": "https://i.ytimg.com/vi/CoSQWVTpk8w/hqdefault.jpg",
+    "duration": "50:41",
+    "publishedAt": "2026-08-05T17:36:45.366Z",
+    "category": "tafsir",
+    "views": 20000
+  },
+  {
+    "id": "yt-omar-suleiman-2",
+    "youtubeId": "YTyjc0qE4eI",
+    "title": "Mistah ibn Uthatha (ra): The Cousin Who Tested Abu Bakr (ra) | The Firsts | Dr. Omar Suleiman",
+    "description": "",
+    "scholarId": "omar-suleiman",
+    "scholarName": "Omar Suleiman",
+    "thumbnail": "https://i.ytimg.com/vi/YTyjc0qE4eI/hqdefault.jpg",
+    "duration": "16:33",
+    "publishedAt": "2026-08-03T17:36:45.366Z",
+    "category": "tafsir",
+    "views": 19000
+  },
+  {
+    "id": "yt-omar-suleiman-3",
+    "youtubeId": "mI74jF7oM1k",
+    "title": "The Reason You’re Losing Rizq, Strength, and Joy | Khutbah by Sh. Ibrahim Hindy",
+    "description": "",
+    "scholarId": "omar-suleiman",
+    "scholarName": "Omar Suleiman",
+    "thumbnail": "https://i.ytimg.com/vi/mI74jF7oM1k/hqdefault.jpg",
+    "duration": "25:49",
+    "publishedAt": "2026-08-01T17:36:45.366Z",
+    "category": "tafsir",
+    "views": 11000
+  },
+  {
+    "id": "yt-omar-suleiman-4",
+    "youtubeId": "MoZdQLtbZwg",
+    "title": "Your Truth vs. THE Truth - What Islam Pushes For | Imam Tom Weekly",
+    "description": "",
+    "scholarId": "omar-suleiman",
+    "scholarName": "Omar Suleiman",
+    "thumbnail": "https://i.ytimg.com/vi/MoZdQLtbZwg/hqdefault.jpg",
+    "duration": "9:10",
+    "publishedAt": "2026-07-31T17:36:45.366Z",
+    "category": "tafsir",
+    "views": 18000
+  },
+  {
+    "id": "yt-omar-suleiman-5",
     "youtubeId": "_wGdHNAqCO8",
-    "title": "Hamna bint Jahsh (ra): Losing A Brother, Uncle, & Husband in 1 Day | The Firsts | Dr. Omar Suleiman",
+    "title": "Hamna bint Jahsh (ra): The One Who Slandered Aisha (ra) Out of Love | The Firsts | Dr. Omar Suleiman",
     "description": "",
     "scholarId": "omar-suleiman",
     "scholarName": "Omar Suleiman",
     "thumbnail": "https://i.ytimg.com/vi/_wGdHNAqCO8/hqdefault.jpg",
     "duration": "24:40",
-    "publishedAt": "2026-07-28T12:16:40.501Z",
+    "publishedAt": "2026-07-31T17:36:45.366Z",
     "category": "tafsir",
-    "views": 14000
+    "views": 29000
   },
   {
-    "id": "yt-omar-suleiman-1",
+    "id": "yt-omar-suleiman-6",
     "youtubeId": "pR-AfRwiLlM",
-    "title": "The Secret Habit of the Greatest Muslims | LATEST Khutbah by Sh. Ibrahim Hindy",
+    "title": "The Secret Habit of the Greatest Muslims | Khutbah by Sh. Ibrahim Hindy",
     "description": "",
     "scholarId": "omar-suleiman",
     "scholarName": "Omar Suleiman",
     "thumbnail": "https://i.ytimg.com/vi/pR-AfRwiLlM/hqdefault.jpg",
     "duration": "27:03",
-    "publishedAt": "2026-07-25T12:16:40.501Z",
+    "publishedAt": "2026-07-31T17:36:45.366Z",
     "category": "tafsir",
-    "views": 9300
+    "views": 13000
   },
   {
-    "id": "yt-omar-suleiman-2",
+    "id": "yt-omar-suleiman-7",
     "youtubeId": "01xUx_b5C4g",
-    "title": "Intelligence vs Wisdom: A Test Some Muslims Fail Without Knowing It | Snapshots with Imam Tom",
+    "title": "Intelligence vs. Wisdom in Islam (And What Iblis Teaches Us) | Snapshots with Imam Tom Facchine",
     "description": "",
     "scholarId": "omar-suleiman",
     "scholarName": "Omar Suleiman",
     "thumbnail": "https://i.ytimg.com/vi/01xUx_b5C4g/hqdefault.jpg",
     "duration": "3:28",
-    "publishedAt": "2026-07-23T12:16:40.501Z",
+    "publishedAt": "2026-07-24T17:36:45.366Z",
     "category": "tafsir",
-    "views": 14000
+    "views": 22000
   },
   {
-    "id": "yt-omar-suleiman-3",
+    "id": "yt-omar-suleiman-8",
     "youtubeId": "Da2sxkL0wV0",
     "title": "The “Approval” Idol | Signs of the Hour Ep. 12 | Dr. Omar Suleiman",
     "description": "",
@@ -47,12 +112,12 @@
     "scholarName": "Omar Suleiman",
     "thumbnail": "https://i.ytimg.com/vi/Da2sxkL0wV0/hqdefault.jpg",
     "duration": "18:10",
-    "publishedAt": "2026-07-22T12:16:40.501Z",
+    "publishedAt": "2026-07-24T17:36:45.366Z",
     "category": "tafsir",
-    "views": 34000
+    "views": 44000
   },
   {
-    "id": "yt-omar-suleiman-4",
+    "id": "yt-omar-suleiman-9",
     "youtubeId": "Ps6x8hXZbWQ",
     "title": "The Other Two Depressed Companions: Hilal (ra) and Murara (ra) | The Firsts | Dr. Omar Suleiman",
     "description": "",
@@ -60,12 +125,12 @@
     "scholarName": "Omar Suleiman",
     "thumbnail": "https://i.ytimg.com/vi/Ps6x8hXZbWQ/hqdefault.jpg",
     "duration": "23:27",
-    "publishedAt": "2026-07-21T12:16:40.501Z",
+    "publishedAt": "2026-07-24T17:36:45.366Z",
     "category": "tafsir",
-    "views": 29000
+    "views": 36000
   },
   {
-    "id": "yt-omar-suleiman-5",
+    "id": "yt-omar-suleiman-10",
     "youtubeId": "Qy2Kv5RNMpY",
     "title": "Ask Allah To Change YOU Instead | Khutbah by Dr. Omar Suleiman",
     "description": "",
@@ -73,12 +138,12 @@
     "scholarName": "Omar Suleiman",
     "thumbnail": "https://i.ytimg.com/vi/Qy2Kv5RNMpY/hqdefault.jpg",
     "duration": "22:49",
-    "publishedAt": "2026-07-18T12:16:40.501Z",
+    "publishedAt": "2026-07-24T17:36:45.366Z",
     "category": "tafsir",
-    "views": 88000
+    "views": 120000
   },
   {
-    "id": "yt-omar-suleiman-6",
+    "id": "yt-omar-suleiman-11",
     "youtubeId": "yypIsa-5eJs",
     "title": "The Most Dangerous Kind of Muslim Debate | Snapshots with Imam Tom Facchine",
     "description": "",
@@ -86,12 +151,12 @@
     "scholarName": "Omar Suleiman",
     "thumbnail": "https://i.ytimg.com/vi/yypIsa-5eJs/hqdefault.jpg",
     "duration": "10:37",
-    "publishedAt": "2026-07-16T12:16:40.501Z",
+    "publishedAt": "2026-07-17T17:36:45.366Z",
     "category": "tafsir",
-    "views": 13000
+    "views": 16000
   },
   {
-    "id": "yt-omar-suleiman-7",
+    "id": "yt-omar-suleiman-12",
     "youtubeId": "cQ_3AvSodU8",
     "title": "4 Voices the Prophet ﷺ Told Us Not to Follow | Signs of the Hour Ep. 11 | Dr. Omar Suleiman",
     "description": "",
@@ -99,12 +164,12 @@
     "scholarName": "Omar Suleiman",
     "thumbnail": "https://i.ytimg.com/vi/cQ_3AvSodU8/hqdefault.jpg",
     "duration": "27:15",
-    "publishedAt": "2026-07-15T12:16:40.501Z",
+    "publishedAt": "2026-07-15T17:36:45.366Z",
     "category": "tafsir",
-    "views": 45000
+    "views": 53000
   },
   {
-    "id": "yt-omar-suleiman-8",
+    "id": "yt-omar-suleiman-13",
     "youtubeId": "9aXoVumS_Tk",
     "title": "Abu Mihjan (ra): The Sahabi With A Substance Use Disorder | The Firsts | Dr. Omar Suleiman",
     "description": "",
@@ -112,12 +177,12 @@
     "scholarName": "Omar Suleiman",
     "thumbnail": "https://i.ytimg.com/vi/9aXoVumS_Tk/hqdefault.jpg",
     "duration": "19:45",
-    "publishedAt": "2026-07-15T12:16:40.501Z",
+    "publishedAt": "2026-07-15T17:36:45.366Z",
     "category": "tafsir",
-    "views": 59000
+    "views": 76000
   },
   {
-    "id": "yt-omar-suleiman-9",
+    "id": "yt-omar-suleiman-14",
     "youtubeId": "dsrkp1KhXG8",
     "title": "The Bosnian Genocide: A Village of Ash and Unmarked Graves | Dr. Omar Suleiman",
     "description": "",
@@ -125,12 +190,12 @@
     "scholarName": "Omar Suleiman",
     "thumbnail": "https://i.ytimg.com/vi/dsrkp1KhXG8/hqdefault.jpg",
     "duration": "12:03",
-    "publishedAt": "2026-07-15T12:16:40.501Z",
+    "publishedAt": "2026-07-15T17:36:45.366Z",
     "category": "tafsir",
-    "views": 76000
+    "views": 78000
   },
   {
-    "id": "yt-omar-suleiman-10",
+    "id": "yt-omar-suleiman-15",
     "youtubeId": "xXYYGreE7XI",
     "title": "The Gambling Industry Inside Your Pocket | Focal Point | Imam Tom Facchine",
     "description": "",
@@ -138,12 +203,12 @@
     "scholarName": "Omar Suleiman",
     "thumbnail": "https://i.ytimg.com/vi/xXYYGreE7XI/hqdefault.jpg",
     "duration": "38:07",
-    "publishedAt": "2026-07-15T12:16:40.501Z",
+    "publishedAt": "2026-07-15T17:36:45.366Z",
     "category": "tafsir",
-    "views": 20000
+    "views": 21000
   },
   {
-    "id": "yt-omar-suleiman-11",
+    "id": "yt-omar-suleiman-16",
     "youtubeId": "MoAkwd7M3Cg",
     "title": "The “Good Enough” Muslim | Signs of the Hour Ep. 10 | Dr. Omar Suleiman",
     "description": "",
@@ -151,12 +216,12 @@
     "scholarName": "Omar Suleiman",
     "thumbnail": "https://i.ytimg.com/vi/MoAkwd7M3Cg/hqdefault.jpg",
     "duration": "28:48",
-    "publishedAt": "2026-07-08T12:16:40.501Z",
+    "publishedAt": "2026-07-15T17:36:45.366Z",
     "category": "tafsir",
-    "views": 103000
+    "views": 111000
   },
   {
-    "id": "yt-omar-suleiman-12",
+    "id": "yt-omar-suleiman-17",
     "youtubeId": "8B_GrDjEmjY",
     "title": "Nu’ayman ibn Amr (ra): The Funniest Man in Medina | The Firsts | Dr. Omar Suleiman",
     "description": "",
@@ -164,12 +229,12 @@
     "scholarName": "Omar Suleiman",
     "thumbnail": "https://i.ytimg.com/vi/8B_GrDjEmjY/hqdefault.jpg",
     "duration": "40:15",
-    "publishedAt": "2026-07-08T12:16:40.501Z",
+    "publishedAt": "2026-07-15T17:36:45.366Z",
     "category": "tafsir",
-    "views": 107000
+    "views": 127000
   },
   {
-    "id": "yt-omar-suleiman-13",
+    "id": "yt-omar-suleiman-18",
     "youtubeId": "ZV4c3c3Y4ns",
     "title": "The Reward of Your “Invisible” Work | Khutbah by Sh. Mohammad Elshinawy",
     "description": "",
@@ -177,12 +242,12 @@
     "scholarName": "Omar Suleiman",
     "thumbnail": "https://i.ytimg.com/vi/ZV4c3c3Y4ns/hqdefault.jpg",
     "duration": "19:19",
-    "publishedAt": "2026-07-08T12:16:40.501Z",
+    "publishedAt": "2026-07-15T17:36:45.366Z",
     "category": "tafsir",
-    "views": 42000
+    "views": 44000
   },
   {
-    "id": "yt-omar-suleiman-14",
+    "id": "yt-omar-suleiman-19",
     "youtubeId": "2mBupFPaN_s",
     "title": "The Hidden Curriculum of Modern Education | Snapshots with Imam Tom Facchine",
     "description": "",
@@ -190,12 +255,12 @@
     "scholarName": "Omar Suleiman",
     "thumbnail": "https://i.ytimg.com/vi/2mBupFPaN_s/hqdefault.jpg",
     "duration": "3:12",
-    "publishedAt": "2026-07-08T12:16:40.501Z",
+    "publishedAt": "2026-07-15T17:36:45.366Z",
     "category": "tafsir",
-    "views": 24000
+    "views": 26000
   },
   {
-    "id": "yt-omar-suleiman-15",
+    "id": "yt-omar-suleiman-20",
     "youtubeId": "UZHwFFZZ_08",
     "title": "Will Imams Be Replaced by AI? | Signs of the Hour Ep. 9 | Dr. Omar Suleiman",
     "description": "",
@@ -203,12 +268,12 @@
     "scholarName": "Omar Suleiman",
     "thumbnail": "https://i.ytimg.com/vi/UZHwFFZZ_08/hqdefault.jpg",
     "duration": "1:05:29",
-    "publishedAt": "2026-07-01T12:16:40.501Z",
+    "publishedAt": "2026-07-15T17:36:45.366Z",
     "category": "tafsir",
-    "views": 52000
+    "views": 56000
   },
   {
-    "id": "yt-omar-suleiman-16",
+    "id": "yt-omar-suleiman-21",
     "youtubeId": "-HS_8vAUAUk",
     "title": "Abu Lubabah (ra): A Rope Only the Prophet ﷺ Could Untie | The Firsts | Dr. Omar Suleiman",
     "description": "",
@@ -216,12 +281,12 @@
     "scholarName": "Omar Suleiman",
     "thumbnail": "https://i.ytimg.com/vi/-HS_8vAUAUk/hqdefault.jpg",
     "duration": "23:12",
-    "publishedAt": "2026-07-01T12:16:40.501Z",
+    "publishedAt": "2026-07-15T17:36:45.366Z",
     "category": "tafsir",
-    "views": 50000
+    "views": 53000
   },
   {
-    "id": "yt-omar-suleiman-17",
+    "id": "yt-omar-suleiman-22",
     "youtubeId": "lEv4U-MEPaM",
     "title": "Why the Nation of Islam Terrified America | Focal Point with Imam Tom Facchine",
     "description": "",
@@ -229,12 +294,12 @@
     "scholarName": "Omar Suleiman",
     "thumbnail": "https://i.ytimg.com/vi/lEv4U-MEPaM/hqdefault.jpg",
     "duration": "36:49",
-    "publishedAt": "2026-06-29T12:16:40.501Z",
+    "publishedAt": "2026-07-15T17:36:45.366Z",
     "category": "tafsir",
-    "views": 34000
+    "views": 36000
   },
   {
-    "id": "yt-omar-suleiman-18",
+    "id": "yt-omar-suleiman-23",
     "youtubeId": "-2VUsxJg_a0",
     "title": "Acts of God: Disasters Foretold by the Prophet ﷺ | Signs of the Hour Ep. 8 | Dr. Omar Suleiman",
     "description": "",
@@ -242,12 +307,12 @@
     "scholarName": "Omar Suleiman",
     "thumbnail": "https://i.ytimg.com/vi/-2VUsxJg_a0/hqdefault.jpg",
     "duration": "1:01:49",
-    "publishedAt": "2026-06-29T12:16:40.501Z",
+    "publishedAt": "2026-07-15T17:36:45.366Z",
     "category": "tafsir",
-    "views": 75000
+    "views": 81000
   },
   {
-    "id": "yt-omar-suleiman-19",
+    "id": "yt-omar-suleiman-24",
     "youtubeId": "yDEBQZvvr1c",
     "title": "Hatib (ra): Leaking the Prophet’s ﷺ Plans to the Enemy | The Firsts | Dr. Omar Suleiman",
     "description": "",
@@ -255,12 +320,12 @@
     "scholarName": "Omar Suleiman",
     "thumbnail": "https://i.ytimg.com/vi/yDEBQZvvr1c/hqdefault.jpg",
     "duration": "46:41",
-    "publishedAt": "2026-06-29T12:16:40.501Z",
+    "publishedAt": "2026-07-15T17:36:45.366Z",
     "category": "tafsir",
-    "views": 51000
+    "views": 55000
   },
   {
-    "id": "yt-omar-suleiman-20",
+    "id": "yt-omar-suleiman-25",
     "youtubeId": "hEygwMaMDyU",
     "title": "Only Allah Knows What You Went Through | Khutbah by Dr. Omar Suleiman in San Diego",
     "description": "",
@@ -268,12 +333,12 @@
     "scholarName": "Omar Suleiman",
     "thumbnail": "https://i.ytimg.com/vi/hEygwMaMDyU/hqdefault.jpg",
     "duration": "25:06",
-    "publishedAt": "2026-06-29T12:16:40.501Z",
+    "publishedAt": "2026-07-15T17:36:45.366Z",
     "category": "tafsir",
-    "views": 125000
+    "views": 129000
   },
   {
-    "id": "yt-omar-suleiman-21",
+    "id": "yt-omar-suleiman-26",
     "youtubeId": "AldYIGPktDc",
     "title": "7 Conquests He ﷺ Promised Before The Hour | Signs of the Hour Ep. 7 | Dr. Omar Suleiman",
     "description": "",
@@ -281,12 +346,12 @@
     "scholarName": "Omar Suleiman",
     "thumbnail": "https://i.ytimg.com/vi/AldYIGPktDc/hqdefault.jpg",
     "duration": "1:03:20",
-    "publishedAt": "2026-06-29T12:16:40.501Z",
+    "publishedAt": "2026-07-15T17:36:45.366Z",
     "category": "tafsir",
-    "views": 95000
+    "views": 100000
   },
   {
-    "id": "yt-omar-suleiman-22",
+    "id": "yt-omar-suleiman-27",
     "youtubeId": "ymVJRR8KJl8",
     "title": "Are You Sincere? | Snapshots with Imam Tom Facchine",
     "description": "",
@@ -294,12 +359,12 @@
     "scholarName": "Omar Suleiman",
     "thumbnail": "https://i.ytimg.com/vi/ymVJRR8KJl8/hqdefault.jpg",
     "duration": "5:49",
-    "publishedAt": "2026-06-29T12:16:40.501Z",
+    "publishedAt": "2026-06-15T17:36:45.366Z",
     "category": "tafsir",
-    "views": 35000
+    "views": 42000
   },
   {
-    "id": "yt-omar-suleiman-23",
+    "id": "yt-omar-suleiman-28",
     "youtubeId": "0KZuGo4SNdg",
     "title": "When Only One Sahabi Was Left In The World | Signs of the Hour Ep. 6 | Dr. Omar Suleiman",
     "description": "",
@@ -307,12 +372,12 @@
     "scholarName": "Omar Suleiman",
     "thumbnail": "https://i.ytimg.com/vi/0KZuGo4SNdg/hqdefault.jpg",
     "duration": "15:51",
-    "publishedAt": "2026-06-29T12:16:40.501Z",
+    "publishedAt": "2026-06-15T17:36:45.366Z",
     "category": "tafsir",
-    "views": 170000
+    "views": 181000
   },
   {
-    "id": "yt-omar-suleiman-24",
+    "id": "yt-omar-suleiman-29",
     "youtubeId": "vSeAxvfLtDw",
     "title": "Two Rakats | 1st Place Short Film | Yaqeen Short Film Contest",
     "description": "",
@@ -320,73 +385,8 @@
     "scholarName": "Omar Suleiman",
     "thumbnail": "https://i.ytimg.com/vi/vSeAxvfLtDw/hqdefault.jpg",
     "duration": "6:28",
-    "publishedAt": "2026-06-29T12:16:40.501Z",
+    "publishedAt": "2026-06-15T17:36:45.366Z",
     "category": "tafsir",
     "views": 88000
-  },
-  {
-    "id": "yt-omar-suleiman-25",
-    "youtubeId": "dx__kfkrkw0",
-    "title": "The Epstein Files Through a Quranic Lens | Snapshots with Imam Tom Facchine",
-    "description": "",
-    "scholarId": "omar-suleiman",
-    "scholarName": "Omar Suleiman",
-    "thumbnail": "https://i.ytimg.com/vi/dx__kfkrkw0/hqdefault.jpg",
-    "duration": "4:38",
-    "publishedAt": "2026-06-29T12:16:40.501Z",
-    "category": "tafsir",
-    "views": 11000
-  },
-  {
-    "id": "yt-omar-suleiman-26",
-    "youtubeId": "4DI3wbUpsWQ",
-    "title": "Mariya al-Qibtiyya (ra): Mother of the Prophet’s ﷺ Last Child | The Firsts | Dr. Omar Suleiman",
-    "description": "",
-    "scholarId": "omar-suleiman",
-    "scholarName": "Omar Suleiman",
-    "thumbnail": "https://i.ytimg.com/vi/4DI3wbUpsWQ/hqdefault.jpg",
-    "duration": "1:07:00",
-    "publishedAt": "2026-06-29T12:16:40.501Z",
-    "category": "tafsir",
-    "views": 118000
-  },
-  {
-    "id": "yt-omar-suleiman-27",
-    "youtubeId": "aebSVGzkgjQ",
-    "title": "King Sulayman (as) and The Ant That Spoke Up | Khutbah by Sh. Mohammad Elshinawy",
-    "description": "",
-    "scholarId": "omar-suleiman",
-    "scholarName": "Omar Suleiman",
-    "thumbnail": "https://i.ytimg.com/vi/aebSVGzkgjQ/hqdefault.jpg",
-    "duration": "16:33",
-    "publishedAt": "2026-06-29T12:16:40.501Z",
-    "category": "tafsir",
-    "views": 35000
-  },
-  {
-    "id": "yt-omar-suleiman-28",
-    "youtubeId": "eBnnMShJmoI",
-    "title": "Unforgettable Stories From Hajj: Imam Tom x Shaykh Elshinawy",
-    "description": "",
-    "scholarId": "omar-suleiman",
-    "scholarName": "Omar Suleiman",
-    "thumbnail": "https://i.ytimg.com/vi/eBnnMShJmoI/hqdefault.jpg",
-    "duration": "57:11",
-    "publishedAt": "2026-05-30T12:16:40.501Z",
-    "category": "tafsir",
-    "views": 36000
-  },
-  {
-    "id": "yt-omar-suleiman-29",
-    "youtubeId": "sHL3au6XN20",
-    "title": "What Would You Sacrifice for Allah? | Dhul Hijjah | Dr. Omar Suleiman & Sh. Ali Hammuda | Ep.10",
-    "description": "",
-    "scholarId": "omar-suleiman",
-    "scholarName": "Omar Suleiman",
-    "thumbnail": "https://i.ytimg.com/vi/sHL3au6XN20/hqdefault.jpg",
-    "duration": "24:36",
-    "publishedAt": "2026-05-30T12:16:40.501Z",
-    "category": "tafsir",
-    "views": 51000
   }
 ]

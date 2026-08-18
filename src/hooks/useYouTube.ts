@@ -1,8 +1,8 @@
 "use client"
 
 import { useQuery } from "@tanstack/react-query"
-import { getAllVideos, getVideosByScholar, getVideosByCategory } from "@/lib/youtube/api"
-import type { Video } from "@/types"
+import { getAllVideos, getVideosByScholar, getVideosByCategory, getPlaylistsByScholar } from "@/lib/youtube/api"
+import type { Video, Playlist } from "@/types"
 
 export function useAllVideos() {
   return useQuery<Video[]>({
@@ -24,6 +24,14 @@ export function useCategoryVideos(category: string) {
   return useQuery<Video[]>({
     queryKey: ["youtube", "category", category],
     queryFn: () => getVideosByCategory(category),
+    staleTime: 5 * 60 * 1000,
+  })
+}
+
+export function useScholarPlaylists(scholarId: string) {
+  return useQuery<Playlist[]>({
+    queryKey: ["youtube", "playlists", scholarId],
+    queryFn: () => getPlaylistsByScholar(scholarId),
     staleTime: 5 * 60 * 1000,
   })
 }

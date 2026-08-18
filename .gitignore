@@ -61,6 +61,7 @@ install.ps1
 .superpowers/sdd/progress.md
 .superpowers/
 test*
+!src/components/ui/testimonials-card.tsx
 .opencode*
 graphify*
 docs/
@@ -69,3 +70,5 @@ opencode.json
 skills-lock.json
 .claude/skills/create-readme/SKILL.md
 .agents/skills/create-readme/SKILL.md
+.agents/
+.claude/
