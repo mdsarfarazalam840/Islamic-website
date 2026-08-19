@@ -84,6 +84,17 @@ export default function HomePage() {
               Start Reading
             </Link>
             <Link
+              href="/knowledge-base"
+              className={buttonVariants({
+                variant: "outline",
+                size: "lg",
+                className: "border-gold-dim/30 text-gold-light hover:bg-gold-dim/10 hover:text-gold-light"
+              })}
+            >
+              <Library className="size-4" />
+              Knowledge Base
+            </Link>
+            <Link
               href="/search"
               className={buttonVariants({
                 variant: "outline",
