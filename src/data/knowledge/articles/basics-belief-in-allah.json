@@ -1,0 +1,68 @@
+{
+  "slug": "basics-belief-in-allah",
+  "category": "basics",
+  "featured": false,
+  "title": {
+    "en": "Belief in Allah — The First Article of Faith",
+    "hi": "अल्लाह पर ईमान — ईमान का पहला अनुच्छेद",
+    "ur": "اللہ پر ایمان — ایمان کا پہلا رکن"
+  },
+  "summary": {
+    "en": "The first article of faith is belief in Allah: that He alone is the Creator and Sustainer, that He alone deserves worship, and that His names and attributes are perfect and unmatched. It is the root from which all other belief grows.",
+    "hi": "ईमान का पहला अनुच्छेद अल्लाह पर विश्वास है: कि केवल वही रचयिता और पालनहार है, केवल वही इबादत के योग्य है, और उसके नाम व गुण पूर्ण और अद्वितीय हैं। यह वह जड़ है जिससे बाक़ी सारा विश्वास उगता है।",
+    "ur": "ایمان کا پہلا رکن اللہ پر یقین ہے: کہ صرف وہی خالق اور رازق ہے، صرف وہی عبادت کے لائق ہے، اور اُس کے اسماء و صفات کامل اور بے مثال ہیں۔ یہ وہ جڑ ہے جس سے باقی سارا ایمان اگتا ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Belief in Allah is the first and greatest article of faith, the foundation on which Islam rests. It means affirming that He alone is God, with no partner in His lordship, His worship, or His perfect names and attributes." },
+      { "kind": "verse", "surah": 112, "ayah": 1, "note": "Say: He is Allah, the One — the pure statement of His oneness." },
+      { "kind": "heading", "level": 2, "text": "The Living, the Sustaining" },
+      { "kind": "p", "text": "Allah is described by the most beautiful names and the loftiest attributes. He is the Ever-Living who never dies, the Sustainer of all that exists, whom no drowsiness or sleep overtakes." },
+      { "kind": "verse", "surah": 2, "ayah": 255, "note": "Āyat al-Kursī: Allah — there is no deity except Him, the Ever-Living, the Sustainer of existence." },
+      { "kind": "heading", "level": 2, "text": "Nothing is like Him" },
+      { "kind": "p", "text": "Allah is utterly beyond His creation. He is not a body, not confined to place, and nothing resembles Him — yet He is the All-Hearing and All-Seeing, nearer to His servant than they imagine." },
+      { "kind": "verse", "surah": 42, "ayah": 11, "note": "There is nothing like unto Him, and He is the Hearing, the Seeing." },
+      { "kind": "list", "items": [
+        { "text": "Allah alone creates, sustains, and controls all things." },
+        { "text": "Worship is due to Him alone, with no partner or intermediary." },
+        { "text": "His names and attributes are perfect; nothing in creation resembles Him." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "अल्लाह पर विश्वास ईमान का पहला और सबसे बड़ा अनुच्छेद है, वह बुनियाद जिस पर इस्लाम टिका है। इसका अर्थ है यह पुष्टि करना कि केवल वही ईश्वर है, उसकी प्रभुता, उसकी इबादत, या उसके पूर्ण नामों व गुणों में कोई साझी नहीं।" },
+      { "kind": "verse", "surah": 112, "ayah": 1, "note": "कह दो: वही अल्लाह है, एक — उसकी एकता का शुद्ध कथन।" },
+      { "kind": "heading", "level": 2, "text": "जीवंत, धारण करने वाला" },
+      { "kind": "p", "text": "अल्लाह को सबसे सुंदर नामों और सर्वोच्च गुणों से वर्णित किया गया है। वह सदा जीवित है जो कभी नहीं मरता, हर मौजूद चीज़ का धारक, जिसे न ऊँघ आती है न नींद।" },
+      { "kind": "verse", "surah": 2, "ayah": 255, "note": "आयतुल कुर्सी: अल्लाह — उसके सिवा कोई माबूद नहीं, सदा जीवित, अस्तित्व का धारक।" },
+      { "kind": "heading", "level": 2, "text": "उसके समान कुछ नहीं" },
+      { "kind": "p", "text": "अल्लाह अपनी सृष्टि से पूर्णतः परे है। वह न कोई शरीर है, न स्थान में सीमित, और कोई उसके सदृश नहीं — फिर भी वह सब सुनने वाला और सब देखने वाला है, अपने बंदे से उससे भी अधिक निकट जितना वे सोचते हैं।" },
+      { "kind": "verse", "surah": 42, "ayah": 11, "note": "उसके जैसा कुछ नहीं, और वही सुनने वाला, देखने वाला है।" },
+      { "kind": "list", "items": [
+        { "text": "केवल अल्लाह ही सब कुछ रचता, पालता और नियंत्रित करता है।" },
+        { "text": "इबादत केवल उसी के लिए है, कोई साझी या मध्यस्थ नहीं।" },
+        { "text": "उसके नाम और गुण पूर्ण हैं; सृष्टि में कुछ भी उसके सदृश नहीं।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "اللہ پر یقین ایمان کا پہلا اور سب سے بڑا رکن ہے، وہ بنیاد جس پر اسلام قائم ہے۔ اِس کا مطلب یہ تصدیق کرنا ہے کہ صرف وہی خدا ہے، اُس کی ربوبیت، اُس کی عبادت، یا اُس کے کامل اسماء و صفات میں کوئی شریک نہیں۔" },
+      { "kind": "verse", "surah": 112, "ayah": 1, "note": "کہہ دو: وہی اللہ ہے، ایک — اُس کی وحدانیت کا خالص بیان۔" },
+      { "kind": "heading", "level": 2, "text": "زندہ، سنبھالنے والا" },
+      { "kind": "p", "text": "اللہ کو سب سے خوبصورت ناموں اور بلند ترین صفات سے بیان کیا گیا ہے۔ وہ ہمیشہ زندہ ہے جو کبھی نہیں مرتا، ہر موجود چیز کا سنبھالنے والا، جسے نہ اونگھ آتی ہے نہ نیند۔" },
+      { "kind": "verse", "surah": 2, "ayah": 255, "note": "آیت الکرسی: اللہ — اُس کے سوا کوئی معبود نہیں، ہمیشہ زندہ، وجود کا سنبھالنے والا۔" },
+      { "kind": "heading", "level": 2, "text": "اُس جیسا کچھ نہیں" },
+      { "kind": "p", "text": "اللہ اپنی مخلوق سے بالکل ماورا ہے۔ وہ نہ کوئی جسم ہے، نہ جگہ میں محدود، اور کوئی اُس کے مشابہ نہیں — پھر بھی وہ سب سننے والا اور سب دیکھنے والا ہے، اپنے بندے سے اُس سے بھی زیادہ قریب جتنا وہ سوچتے ہیں۔" },
+      { "kind": "verse", "surah": 42, "ayah": 11, "note": "اُس جیسی کوئی چیز نہیں، اور وہی سننے والا، دیکھنے والا ہے۔" },
+      { "kind": "list", "items": [
+        { "text": "صرف اللہ ہی سب کچھ پیدا کرتا، پالتا اور تدبیر کرتا ہے۔" },
+        { "text": "عبادت صرف اُسی کے لیے ہے، کوئی شریک یا واسطہ نہیں۔" },
+        { "text": "اُس کے نام اور صفات کامل ہیں؛ مخلوق میں کچھ بھی اُس کے مشابہ نہیں۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "112:1-4" },
+    { "type": "quran", "ref": "2:255" },
+    { "type": "quran", "ref": "42:11" }
+  ],
+  "relatedSlugs": ["concept-tawhid", "concept-iman", "concept-shirk"]
+}

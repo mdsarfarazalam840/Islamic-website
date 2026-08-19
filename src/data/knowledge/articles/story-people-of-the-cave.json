@@ -1,0 +1,64 @@
+{
+  "slug": "story-people-of-the-cave",
+  "category": "quranic",
+  "featured": true,
+  "title": {
+    "en": "The People of the Cave (Aṣḥāb al-Kahf)",
+    "hi": "गुफ़ा वाले (अस्हाब अल-कहफ़)",
+    "ur": "اصحابِ کہف — غار والے"
+  },
+  "summary": {
+    "en": "A group of young believers who fled a tyrant to preserve their faith, and whom Allah caused to sleep in a cave for over three hundred years — a sign of the resurrection and of Allah's protection.",
+    "hi": "युवा ईमान वालों का एक समूह जो अपने ईमान की रक्षा के लिए एक अत्याचारी से भाग गया, और जिन्हें अल्लाह ने एक गुफ़ा में तीन सौ से अधिक वर्षों तक सुला दिया — पुनरुत्थान और अल्लाह की सुरक्षा की एक निशानी।",
+    "ur": "نوجوان مومنوں کا ایک گروہ جو اپنے ایمان کی حفاظت کے لیے ایک ظالم سے بھاگ گیا، اور جنہیں اللہ نے ایک غار میں تین سو سے زائد برس تک سلا دیا — قیامت اور اللہ کی حفاظت کی ایک نشانی۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Sūrat al-Kahf tells of a band of young men living under a ruler who forced idol-worship. Rather than abandon their belief in the One God, they withdrew to a cave and entrusted themselves to Allah." },
+      { "kind": "verse", "surah": 18, "ayah": 13, "note": "Allah introduces them as youths who believed in their Lord and were increased in guidance." },
+      { "kind": "verse", "surah": 18, "ayah": 10, "note": "Their prayer as they took refuge: asking for mercy and right guidance in their affair." },
+      { "kind": "heading", "level": 2, "text": "The long sleep" },
+      { "kind": "p", "text": "Allah caused them to sleep for 309 years, turning them as they lay so their bodies would not decay. When they awoke, they thought they had slept only a day or part of a day — until they discovered their whole society had changed and their faith had triumphed." },
+      { "kind": "heading", "level": 2, "text": "Lessons" },
+      { "kind": "list", "items": [
+        { "text": "Allah protects those who hold firmly to their faith, even against overwhelming odds." },
+        { "text": "The long sleep and awakening is a tangible sign that resurrection is real and easy for Allah." },
+        { "text": "Trusting Allah's plan brings a way out that human calculation cannot foresee." }
+      ] },
+      { "kind": "p", "text": "Reciting Sūrat al-Kahf on Fridays is an emphasised practice, and its opening verses are a protection against trials." }
+    ],
+    "hi": [
+      { "kind": "p", "text": "सूरह अल-कहफ़ उन नौजवानों की कथा बताती है जो एक ऐसे शासक के अधीन रहते थे जो मूर्ति-पूजा के लिए विवश करता था। एक ईश्वर में अपने विश्वास को त्यागने के बजाय, वे एक गुफ़ा में चले गए और स्वयं को अल्लाह के सुपुर्द कर दिया।" },
+      { "kind": "verse", "surah": 18, "ayah": 13, "note": "अल्लाह उनका परिचय ऐसे नौजवानों के रूप में देता है जो अपने रब पर ईमान लाए और जिन्हें मार्गदर्शन में बढ़ाया गया।" },
+      { "kind": "verse", "surah": 18, "ayah": 10, "note": "शरण लेते समय उनकी दुआ: अपने मामले में दया और सही मार्गदर्शन की माँग।" },
+      { "kind": "heading", "level": 2, "text": "लंबी नींद" },
+      { "kind": "p", "text": "अल्लाह ने उन्हें 309 वर्षों तक सुला दिया, और लेटे हुए उन्हें करवट दिलाता रहा ताकि उनके शरीर न गलें। जब वे जागे, तो सोचा कि वे केवल एक दिन या दिन का कुछ भाग सोए — जब तक उन्होंने नहीं पाया कि उनका पूरा समाज बदल चुका है और उनका ईमान विजयी हो चुका है।" },
+      { "kind": "heading", "level": 2, "text": "शिक्षाएँ" },
+      { "kind": "list", "items": [
+        { "text": "अल्लाह उन्हें बचाता है जो अपने ईमान को दृढ़ता से थामे रहते हैं, चाहे परिस्थितियाँ कितनी ही विकट हों।" },
+        { "text": "लंबी नींद और जागना एक ठोस निशानी है कि पुनरुत्थान सत्य है और अल्लाह के लिए आसान है।" },
+        { "text": "अल्लाह की योजना पर भरोसा ऐसा रास्ता निकालता है जिसे मानवीय गणना नहीं देख सकती।" }
+      ] },
+      { "kind": "p", "text": "शुक्रवार को सूरह अल-कहफ़ पढ़ना एक बल दिया गया अमल है, और इसकी आरंभिक आयतें परीक्षाओं से सुरक्षा हैं।" }
+    ],
+    "ur": [
+      { "kind": "p", "text": "سورۃ الکہف اُن نوجوانوں کا قصہ بیان کرتی ہے جو ایک ایسے حاکم کے تحت رہتے تھے جو بت پرستی پر مجبور کرتا تھا۔ ایک خدا پر اپنے ایمان کو چھوڑنے کے بجائے، وہ ایک غار میں چلے گئے اور خود کو اللہ کے سپرد کر دیا۔" },
+      { "kind": "verse", "surah": 18, "ayah": 13, "note": "اللہ اُن کا تعارف ایسے نوجوانوں کے طور پر کراتا ہے جو اپنے رب پر ایمان لائے اور جنہیں ہدایت میں بڑھایا گیا۔" },
+      { "kind": "verse", "surah": 18, "ayah": 10, "note": "پناہ لیتے وقت اُن کی دعا: اپنے معاملے میں رحمت اور درست رہنمائی کی درخواست۔" },
+      { "kind": "heading", "level": 2, "text": "طویل نیند" },
+      { "kind": "p", "text": "اللہ نے انہیں 309 برس تک سلا دیا، اور لیٹے ہوئے انہیں کروٹیں دلاتا رہا تاکہ اُن کے جسم خراب نہ ہوں۔ جب وہ بیدار ہوئے تو سمجھے کہ وہ صرف ایک دن یا دن کا کچھ حصہ سوئے — یہاں تک کہ انہوں نے پایا کہ اُن کا پورا معاشرہ بدل چکا ہے اور اُن کا ایمان غالب آ چکا ہے۔" },
+      { "kind": "heading", "level": 2, "text": "اسباق" },
+      { "kind": "list", "items": [
+        { "text": "اللہ اُن کی حفاظت کرتا ہے جو اپنے ایمان کو مضبوطی سے تھامے رہتے ہیں، خواہ حالات کتنے ہی سخت ہوں۔" },
+        { "text": "طویل نیند اور بیداری ایک ٹھوس نشانی ہے کہ قیامت برحق ہے اور اللہ کے لیے آسان ہے۔" },
+        { "text": "اللہ کے منصوبے پر بھروسہ ایسا راستہ نکالتا ہے جسے انسانی حساب نہیں دیکھ سکتا۔" }
+      ] },
+      { "kind": "p", "text": "جمعہ کے دن سورۃ الکہف پڑھنا ایک تاکید شدہ عمل ہے، اور اس کی ابتدائی آیات آزمائشوں سے حفاظت ہیں۔" }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "18:9-26" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["story-dhul-qarnayn", "surah-al-kahf", "concept-tawakkul"]
+}

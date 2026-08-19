@@ -1,0 +1,68 @@
+{
+  "slug": "concept-dua",
+  "category": "concepts",
+  "featured": false,
+  "title": {
+    "en": "Duʿāʾ — Supplication",
+    "hi": "दुआ — प्रार्थना",
+    "ur": "دعا — التجا"
+  },
+  "summary": {
+    "en": "Duʿāʾ is calling upon Allah — asking, praising, and pouring out the heart to the One who hears every whisper. It is described as the essence of worship, and the Qur'an promises that Allah is near and answers the one who calls upon Him.",
+    "hi": "दुआ अल्लाह को पुकारना है — माँगना, प्रशंसा करना, और दिल उस एक के सामने उँडेलना जो हर फुसफुसाहट सुनता है। इसे इबादत का सार बताया गया है, और क़ुरआन वादा करता है कि अल्लाह निकट है और उसका उत्तर देता है जो उसे पुकारता है।",
+    "ur": "دعا اللہ کو پکارنا ہے — مانگنا، تعریف کرنا، اور دل اُس ایک کے سامنے انڈیلنا جو ہر سرگوشی سنتا ہے۔ اِسے عبادت کا نچوڑ بتایا گیا ہے، اور قرآن وعدہ کرتا ہے کہ اللہ قریب ہے اور اُس کا جواب دیتا ہے جو اُسے پکارتا ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Duʿāʾ is the believer's direct call to Allah — a private conversation with the Lord who needs no intermediary. It expresses the servant's utter need and Allah's utter sufficiency, and the Prophet ﷺ called it the very essence of worship." },
+      { "kind": "verse", "surah": 40, "ayah": 60, "note": "Your Lord says: Call upon Me; I will respond to you." },
+      { "kind": "heading", "level": 2, "text": "A Lord who is always near" },
+      { "kind": "p", "text": "Allah is not distant from the one who prays. He hears every call, in every language, in the crowd and in the dark of night, and He answers the one who turns to Him sincerely." },
+      { "kind": "verse", "surah": 2, "ayah": 186, "note": "When My servants ask you about Me — indeed I am near; I respond to the call of the caller when he calls upon Me." },
+      { "kind": "heading", "level": 2, "text": "Ask with hope, not despair" },
+      { "kind": "p", "text": "The believer asks Allah for everything, great and small, in this life and the next — and never loses hope. What is asked in sincerity is never wasted: it is granted, or stored, or turned aside as a greater good." },
+      { "kind": "verse", "surah": 7, "ayah": 55, "note": "Call upon your Lord humbly and in private; indeed He does not love the transgressors." },
+      { "kind": "list", "items": [
+        { "text": "Duʿāʾ is the direct call to Allah, the essence of worship." },
+        { "text": "Allah is near and hears every sincere supplication." },
+        { "text": "The believer asks with hope and humility, never despairing of an answer." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "दुआ ईमान वाले की अल्लाह को सीधी पुकार है — उस रब से एक निजी बातचीत जिसे किसी मध्यस्थ की ज़रूरत नहीं। यह बंदे की पूर्ण आवश्यकता और अल्लाह की पूर्ण पर्याप्तता व्यक्त करती है, और नबी ﷺ ने इसे इबादत का सार कहा।" },
+      { "kind": "verse", "surah": 40, "ayah": 60, "note": "तुम्हारा रब कहता है: मुझे पुकारो; मैं तुम्हें उत्तर दूँगा।" },
+      { "kind": "heading", "level": 2, "text": "एक रब जो सदा निकट है" },
+      { "kind": "p", "text": "अल्लाह उससे दूर नहीं जो प्रार्थना करता है। वह हर पुकार सुनता है, हर भाषा में, भीड़ में और रात के अँधेरे में, और उसका उत्तर देता है जो सच्चाई से उसकी ओर मुड़ता है।" },
+      { "kind": "verse", "surah": 2, "ayah": 186, "note": "जब मेरे बंदे तुमसे मेरे बारे में पूछें — निःसंदेह मैं निकट हूँ; मैं पुकारने वाले की पुकार का उत्तर देता हूँ जब वह मुझे पुकारता है।" },
+      { "kind": "heading", "level": 2, "text": "आशा से माँगो, निराशा से नहीं" },
+      { "kind": "p", "text": "ईमान वाला अल्लाह से हर चीज़ माँगता है, बड़ी और छोटी, इस जीवन और अगले में — और कभी आशा नहीं खोता। जो सच्चाई से माँगा जाए वह कभी व्यर्थ नहीं: वह दिया जाता है, या संचित होता है, या एक बड़े भले के रूप में मोड़ दिया जाता है।" },
+      { "kind": "verse", "surah": 7, "ayah": 55, "note": "अपने रब को विनम्रता से और गुप्त रूप से पुकारो; निःसंदेह वह सीमा तोड़ने वालों से प्रेम नहीं करता।" },
+      { "kind": "list", "items": [
+        { "text": "दुआ अल्लाह को सीधी पुकार है, इबादत का सार।" },
+        { "text": "अल्लाह निकट है और हर सच्ची दुआ सुनता है।" },
+        { "text": "ईमान वाला आशा और विनम्रता से माँगता है, उत्तर से कभी निराश नहीं होता।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "دعا مومن کی اللہ کو سیدھی پکار ہے — اُس رب سے ایک نجی گفتگو جسے کسی واسطے کی ضرورت نہیں۔ یہ بندے کی مکمل حاجت اور اللہ کی مکمل بے نیازی کا اظہار کرتی ہے، اور نبی ﷺ نے اِسے عبادت کا نچوڑ کہا۔" },
+      { "kind": "verse", "surah": 40, "ayah": 60, "note": "تمہارا رب کہتا ہے: مجھے پکارو؛ میں تمہیں جواب دوں گا۔" },
+      { "kind": "heading", "level": 2, "text": "ایک رب جو ہمیشہ قریب ہے" },
+      { "kind": "p", "text": "اللہ اُس سے دور نہیں جو دعا کرتا ہے۔ وہ ہر پکار سنتا ہے، ہر زبان میں، بھیڑ میں اور رات کے اندھیرے میں، اور اُس کا جواب دیتا ہے جو سچائی سے اُس کی طرف مڑتا ہے۔" },
+      { "kind": "verse", "surah": 2, "ayah": 186, "note": "جب میرے بندے تم سے میرے بارے میں پوچھیں — بے شک میں قریب ہوں؛ میں پکارنے والے کی پکار کا جواب دیتا ہوں جب وہ مجھے پکارتا ہے۔" },
+      { "kind": "heading", "level": 2, "text": "امید سے مانگو، مایوسی سے نہیں" },
+      { "kind": "p", "text": "مومن اللہ سے ہر چیز مانگتا ہے، بڑی اور چھوٹی، اِس زندگی اور اگلی میں — اور کبھی امید نہیں کھوتا۔ جو سچائی سے مانگا جائے وہ کبھی ضائع نہیں: وہ دیا جاتا ہے، یا محفوظ کیا جاتا ہے، یا ایک بڑی بھلائی کے طور پر موڑ دیا جاتا ہے۔" },
+      { "kind": "verse", "surah": 7, "ayah": 55, "note": "اپنے رب کو عاجزی سے اور خفیہ طور پر پکارو؛ بے شک وہ حد سے بڑھنے والوں سے محبت نہیں کرتا۔" },
+      { "kind": "list", "items": [
+        { "text": "دعا اللہ کو سیدھی پکار ہے، عبادت کا نچوڑ۔" },
+        { "text": "اللہ قریب ہے اور ہر سچی دعا سنتا ہے۔" },
+        { "text": "مومن امید اور عاجزی سے مانگتا ہے، جواب سے کبھی مایوس نہیں ہوتا۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "40:60" },
+    { "type": "quran", "ref": "2:186" },
+    { "type": "quran", "ref": "7:55-56" }
+  ],
+  "relatedSlugs": ["concept-tawakkul", "concept-tawbah", "prophet-yunus"]
+}

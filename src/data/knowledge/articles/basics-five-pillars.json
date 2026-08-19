@@ -1,0 +1,88 @@
+{
+  "slug": "basics-five-pillars",
+  "category": "basics",
+  "featured": true,
+  "title": {
+    "en": "The Five Pillars of Islam",
+    "hi": "इस्लाम के पाँच स्तंभ",
+    "ur": "اسلام کے پانچ ارکان"
+  },
+  "summary": {
+    "en": "Islam is built on five foundational acts of worship: the testimony of faith, prayer, charity, fasting, and pilgrimage. Together they shape the life of every Muslim.",
+    "hi": "इस्लाम पाँच बुनियादी इबादतों पर आधारित है: ईमान की गवाही, नमाज़, ज़कात, रोज़ा और हज। ये मिलकर हर मुसलमान का जीवन गढ़ते हैं।",
+    "ur": "اسلام پانچ بنیادی عبادات پر قائم ہے: کلمۂ شہادت، نماز، زکٰوۃ، روزہ اور حج۔ یہ مل کر ہر مسلمان کی زندگی کو تشکیل دیتے ہیں۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "The Prophet Muhammad ﷺ described the framework of the faith as five pillars. They are the acts on which a Muslim's practice stands." },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 8, "note": "The famous hadith of Ibn 'Umar listing the five pillars." },
+      { "kind": "heading", "level": 2, "text": "1. Shahādah — the testimony of faith" },
+      { "kind": "p", "text": "To bear witness that there is no god but Allah and that Muhammad is His Messenger. It is the doorway to Islam and the meaning of every other act." },
+      { "kind": "heading", "level": 2, "text": "2. Ṣalāh — the five daily prayers" },
+      { "kind": "p", "text": "Prayer links the servant to Allah five times a day, structuring the whole day around remembrance." },
+      { "kind": "heading", "level": 2, "text": "3. Zakāh — obligatory charity" },
+      { "kind": "p", "text": "A fixed share of one's wealth given to the poor, purifying wealth and the heart from greed." },
+      { "kind": "heading", "level": 2, "text": "4. Ṣawm — fasting in Ramadan" },
+      { "kind": "p", "text": "Abstaining from food, drink, and desire from dawn to sunset, cultivating self-restraint and God-consciousness." },
+      { "kind": "verse", "surah": 2, "ayah": 183, "note": "The command to fast, and its purpose: that you may attain taqwā." },
+      { "kind": "heading", "level": 2, "text": "5. Ḥajj — the pilgrimage" },
+      { "kind": "p", "text": "The journey to the Kaʿbah in Makkah, obligatory once in a lifetime for those who are able. It gathers the Ummah as equals before their Lord." },
+      { "kind": "list", "items": [
+        { "text": "Shahādah — declaring faith" },
+        { "text": "Ṣalāh — praying five times daily" },
+        { "text": "Zakāh — giving obligatory charity" },
+        { "text": "Ṣawm — fasting Ramadan" },
+        { "text": "Ḥajj — pilgrimage to Makkah" }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "पैगंबर मुहम्मद ﷺ ने धर्म के ढाँचे को पाँच स्तंभों के रूप में वर्णित किया। ये वे कर्म हैं जिन पर एक मुसलमान का अमल टिका है।" },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 8, "note": "इब्ने उमर की प्रसिद्ध हदीस जो पाँच स्तंभों को गिनाती है।" },
+      { "kind": "heading", "level": 2, "text": "1. शहादा — ईमान की गवाही" },
+      { "kind": "p", "text": "यह गवाही देना कि अल्लाह के सिवा कोई माबूद नहीं और मुहम्मद उसके रसूल हैं। यह इस्लाम का द्वार और हर दूसरे कर्म का अर्थ है।" },
+      { "kind": "heading", "level": 2, "text": "2. सलात — पाँच वक़्त की नमाज़" },
+      { "kind": "p", "text": "नमाज़ बंदे को दिन में पाँच बार अल्लाह से जोड़ती है, पूरे दिन को ज़िक्र के इर्द-गिर्द व्यवस्थित करती है।" },
+      { "kind": "heading", "level": 2, "text": "3. ज़कात — अनिवार्य दान" },
+      { "kind": "p", "text": "अपने धन का एक निश्चित हिस्सा ग़रीबों को देना, जो धन और दिल को लालच से पाक करता है।" },
+      { "kind": "heading", "level": 2, "text": "4. सौम — रमज़ान के रोज़े" },
+      { "kind": "p", "text": "भोर से सूर्यास्त तक खाने, पीने और इच्छा से परहेज़, जो आत्मसंयम और ख़ुदा-चेतना विकसित करता है।" },
+      { "kind": "verse", "surah": 2, "ayah": 183, "note": "रोज़े का आदेश, और उसका उद्देश्य: ताकि तुम तक़वा प्राप्त करो।" },
+      { "kind": "heading", "level": 2, "text": "5. हज — तीर्थयात्रा" },
+      { "kind": "p", "text": "मक्का में काबा की यात्रा, जो सक्षम लोगों पर जीवन में एक बार अनिवार्य है। यह उम्मत को उनके रब के समक्ष समान रूप में इकट्ठा करती है।" },
+      { "kind": "list", "items": [
+        { "text": "शहादा — ईमान की घोषणा" },
+        { "text": "सलात — दिन में पाँच बार नमाज़" },
+        { "text": "ज़कात — अनिवार्य दान देना" },
+        { "text": "सौम — रमज़ान के रोज़े" },
+        { "text": "हज — मक्का की तीर्थयात्रा" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "نبی کریم ﷺ نے دین کے ڈھانچے کو پانچ ارکان کے طور پر بیان فرمایا۔ یہ وہ اعمال ہیں جن پر مسلمان کا عمل قائم ہے۔" },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 8, "note": "ابنِ عمرؓ کی مشہور حدیث جو پانچ ارکان کو بیان کرتی ہے۔" },
+      { "kind": "heading", "level": 2, "text": "١۔ شہادت — کلمۂ ایمان" },
+      { "kind": "p", "text": "یہ گواہی دینا کہ اللہ کے سوا کوئی معبود نہیں اور محمد ﷺ اُس کے رسول ہیں۔ یہ اسلام کا دروازہ اور ہر دوسرے عمل کی روح ہے۔" },
+      { "kind": "heading", "level": 2, "text": "٢۔ نماز — پانچ وقت کی نماز" },
+      { "kind": "p", "text": "نماز بندے کو دن میں پانچ بار اللہ سے جوڑتی ہے، اور پورے دن کو یادِ الٰہی کے گرد ترتیب دیتی ہے۔" },
+      { "kind": "heading", "level": 2, "text": "٣۔ زکٰوۃ — فرض صدقہ" },
+      { "kind": "p", "text": "اپنے مال کا ایک مقررہ حصہ غریبوں کو دینا، جو مال اور دل کو لالچ سے پاک کرتا ہے۔" },
+      { "kind": "heading", "level": 2, "text": "٤۔ روزہ — رمضان کے روزے" },
+      { "kind": "p", "text": "صبح صادق سے غروبِ آفتاب تک کھانے، پینے اور خواہش سے رکنا، جو ضبطِ نفس اور تقویٰ پیدا کرتا ہے۔" },
+      { "kind": "verse", "surah": 2, "ayah": 183, "note": "روزے کا حکم، اور اس کا مقصد: تاکہ تم تقویٰ اختیار کرو۔" },
+      { "kind": "heading", "level": 2, "text": "٥۔ حج — زیارتِ بیت اللہ" },
+      { "kind": "p", "text": "مکہ میں کعبہ کا سفر، جو استطاعت رکھنے والوں پر زندگی میں ایک بار فرض ہے۔ یہ امت کو اُن کے رب کے سامنے برابر جمع کرتا ہے۔" },
+      { "kind": "list", "items": [
+        { "text": "شہادت — ایمان کا اقرار" },
+        { "text": "نماز — دن میں پانچ بار" },
+        { "text": "زکٰوۃ — فرض صدقہ دینا" },
+        { "text": "روزہ — رمضان کے روزے" },
+        { "text": "حج — مکہ کی زیارت" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "hadith", "collection": "bukhari", "ref": "8", "grade": "sahih" },
+    { "type": "quran", "ref": "2:183" }
+  ],
+  "relatedSlugs": ["basics-shahada", "basics-salah", "basics-zakat", "basics-sawm", "basics-hajj"]
+}

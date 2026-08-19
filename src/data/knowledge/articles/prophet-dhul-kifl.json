@@ -1,0 +1,69 @@
+{
+  "slug": "prophet-dhul-kifl",
+  "category": "prophets",
+  "prophetNumber": 16,
+  "featured": false,
+  "title": {
+    "en": "Dhul-Kifl — Among the Patient and Righteous",
+    "hi": "ज़ुल-किफ़्ल (ज़ुल-किफ़्ल अलैहिस्सलाम) — धैर्यवानों और धर्मियों में से",
+    "ur": "ذوالکفل علیہ السلام — صابروں اور نیکوکاروں میں سے"
+  },
+  "summary": {
+    "en": "Dhul-Kifl is named in the Qur'an among the patient and the outstanding servants of Allah. Though little detail is given, he is remembered as one who was true to his trust and steadfast in righteousness, admitted into Allah's mercy.",
+    "hi": "ज़ुल-किफ़्ल को क़ुरआन में धैर्यवानों और अल्लाह के श्रेष्ठ बंदों में नामित किया गया है। यद्यपि विवरण थोड़ा है, उन्हें एक ऐसे व्यक्ति के रूप में स्मरण किया जाता है जो अपने भरोसे के सच्चे और धार्मिकता में अटल थे, अल्लाह की दया में दाख़िल किए गए।",
+    "ur": "ذوالکفل علیہ السلام کو قرآن میں صابروں اور اللہ کے بہترین بندوں میں نامزد کیا گیا ہے۔ اگرچہ تفصیل کم ہے، انہیں ایک ایسے شخص کے طور پر یاد کیا جاتا ہے جو اپنی امانت کے سچے اور نیکی میں ثابت قدم تھے، اللہ کی رحمت میں داخل کیے گئے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Dhul-Kifl (peace be upon him) is one of the prophets the Qur'an mentions only briefly, naming him in the company of the greatest of the patient and the righteous. His name is often understood to mean \"the one of the pledge\" — a keeper of his covenant." },
+      { "kind": "verse", "surah": 21, "ayah": 85, "note": "Allah names Ismāʿīl, Idrīs, and Dhul-Kifl together — all of them among the patient." },
+      { "kind": "heading", "level": 2, "text": "Admitted into mercy" },
+      { "kind": "p", "text": "Because of their patience and steadfastness, Allah admitted these prophets into His mercy, counting them among the righteous whose example endures." },
+      { "kind": "verse", "surah": 21, "ayah": 86, "note": "Allah admits them into His mercy; indeed, they were of the righteous." },
+      { "kind": "heading", "level": 2, "text": "Among the outstanding" },
+      { "kind": "p", "text": "Elsewhere the Qur'an groups Dhul-Kifl with Ismāʿīl and al-Yasaʿ, describing them all as among the truly excellent — a reminder that a servant's worth rests with Allah, whether or not their full story is preserved among people." },
+      { "kind": "verse", "surah": 38, "ayah": 48, "note": "Remember Ismāʿīl, al-Yasaʿ, and Dhul-Kifl — all among the outstanding." },
+      { "kind": "list", "items": [
+        { "text": "Patience and faithfulness to one's trust raise a servant in Allah's sight." },
+        { "text": "A short mention in revelation can carry the highest praise." },
+        { "text": "Worth before Allah does not depend on fame among people." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "ज़ुल-किफ़्ल (अलैहिस्सलाम) उन नबियों में से हैं जिनका क़ुरआन केवल संक्षेप में उल्लेख करता है, उन्हें सबसे बड़े धैर्यवानों और धर्मियों की संगति में नामित करते हुए। उनके नाम का अर्थ प्रायः \"प्रतिज्ञा वाला\" समझा जाता है — अपने वचन का पालक।" },
+      { "kind": "verse", "surah": 21, "ayah": 85, "note": "अल्लाह इस्माईल, इदरीस और ज़ुल-किफ़्ल का एक साथ नाम लेता है — वे सब धैर्यवानों में से थे।" },
+      { "kind": "heading", "level": 2, "text": "दया में दाख़िल" },
+      { "kind": "p", "text": "अपने धैर्य और दृढ़ता के कारण, अल्लाह ने इन नबियों को अपनी दया में दाख़िल किया, उन्हें धर्मियों में गिनते हुए जिनका उदाहरण क़ायम रहता है।" },
+      { "kind": "verse", "surah": 21, "ayah": 86, "note": "अल्लाह उन्हें अपनी दया में दाख़िल करता है; निःसंदेह वे धर्मियों में से थे।" },
+      { "kind": "heading", "level": 2, "text": "श्रेष्ठ लोगों में" },
+      { "kind": "p", "text": "अन्यत्र क़ुरआन ज़ुल-किफ़्ल को इस्माईल और अल-यसअ के साथ रखता है, उन सबको वास्तव में श्रेष्ठ लोगों में वर्णित करते हुए — एक स्मरण कि बंदे का मूल्य अल्लाह के पास है, चाहे उनकी पूरी कहानी लोगों में सुरक्षित हो या न हो।" },
+      { "kind": "verse", "surah": 38, "ayah": 48, "note": "इस्माईल, अल-यसअ और ज़ुल-किफ़्ल को याद करो — सब श्रेष्ठ लोगों में से।" },
+      { "kind": "list", "items": [
+        { "text": "धैर्य और अपने भरोसे के प्रति वफ़ादारी बंदे को अल्लाह की दृष्टि में ऊँचा करती है।" },
+        { "text": "वह्य में एक संक्षिप्त उल्लेख सर्वोच्च प्रशंसा ले जा सकता है।" },
+        { "text": "अल्लाह के समक्ष मूल्य लोगों में प्रसिद्धि पर निर्भर नहीं करता।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "ذوالکفل علیہ السلام اُن انبیاء میں سے ہیں جن کا قرآن صرف مختصر ذکر کرتا ہے، انہیں سب سے بڑے صابروں اور نیکوکاروں کی صحبت میں نامزد کرتے ہوئے۔ اُن کے نام کا مطلب اکثر \"عہد والا\" سمجھا جاتا ہے — اپنے وعدے کا نگہبان۔" },
+      { "kind": "verse", "surah": 21, "ayah": 85, "note": "اللہ اسماعیل، ادریس اور ذوالکفل کا ایک ساتھ نام لیتا ہے — وہ سب صابروں میں سے تھے۔" },
+      { "kind": "heading", "level": 2, "text": "رحمت میں داخل" },
+      { "kind": "p", "text": "اپنے صبر اور ثابت قدمی کے سبب، اللہ نے اِن انبیاء کو اپنی رحمت میں داخل کیا، انہیں نیکوکاروں میں شمار کرتے ہوئے جن کی مثال قائم رہتی ہے۔" },
+      { "kind": "verse", "surah": 21, "ayah": 86, "note": "اللہ انہیں اپنی رحمت میں داخل کرتا ہے؛ بے شک وہ نیکوکاروں میں سے تھے۔" },
+      { "kind": "heading", "level": 2, "text": "بہترین لوگوں میں" },
+      { "kind": "p", "text": "دوسری جگہ قرآن ذوالکفل کو اسماعیل اور الیسع کے ساتھ رکھتا ہے، اُن سب کو واقعی بہترین لوگوں میں بیان کرتے ہوئے — ایک یاد دہانی کہ بندے کی قدر اللہ کے پاس ہے، خواہ اُن کی پوری داستان لوگوں میں محفوظ ہو یا نہ ہو۔" },
+      { "kind": "verse", "surah": 38, "ayah": 48, "note": "اسماعیل، الیسع اور ذوالکفل کو یاد کرو — سب بہترین لوگوں میں سے۔" },
+      { "kind": "list", "items": [
+        { "text": "صبر اور اپنی امانت سے وفاداری بندے کو اللہ کی نظر میں بلند کرتی ہے۔" },
+        { "text": "وحی میں ایک مختصر ذکر سب سے بلند تعریف رکھ سکتا ہے۔" },
+        { "text": "اللہ کے سامنے قدر لوگوں میں شہرت پر منحصر نہیں۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "21:85-86" },
+    { "type": "quran", "ref": "38:48" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["prophet-idris", "prophet-al-yasa", "concept-sabr"]
+}

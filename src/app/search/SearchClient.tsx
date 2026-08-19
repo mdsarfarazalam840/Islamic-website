@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useRef, useEffect, useMemo } from "react"
-import { Search, BookOpen, Loader2, ArrowRight, X, MessageSquareText, Video } from "lucide-react"
+import { Search, BookOpen, Loader2, ArrowRight, X, MessageSquareText, Video, Library } from "lucide-react"
 import Fuse from "fuse.js"
 import Link from "next/link"
 import { useSearchParams } from "next/navigation"
@@ -53,6 +53,15 @@ interface HadithResult {
 interface VideoResult {
   type: "video"
   video: VideoType
+}
+
+interface KnowledgeResult {
+  type: "knowledge"
+  url: string
+  title: string
+  category: string
+  categoryName: string
+  excerpt?: string
 }
 
 function pagefindToQuran(d: PagefindResultData): QuranResult | null {
@@ -109,6 +118,24 @@ function pagefindToHadith(d: PagefindResultData): HadithResult | null {
   }
 }
 
+function pagefindToKnowledge(d: PagefindResultData): KnowledgeResult | null {
+  const m = d.meta
+  // Prefer the meta-provided path parts; fall back to the record URL so a
+  // record missing meta still links somewhere sensible.
+  const category = m.category ?? ""
+  const slug = m.slug ?? ""
+  const url = category && slug ? `/knowledge-base/${category}/${slug}` : d.url
+  if (!url) return null
+  return {
+    type: "knowledge",
+    url,
+    title: m.title ?? slug,
+    category,
+    categoryName: m.categoryName ?? category,
+    excerpt: d.excerpt,
+  }
+}
+
 export function SearchClient() {
   const searchParams = useSearchParams()
   const initialQ = searchParams.get("q") ?? ""
@@ -119,12 +146,15 @@ export function SearchClient() {
   // hydrated so far and a cursor tracking how many refs we've consumed.
   const [quranRefs, setQuranRefs] = useState<PagefindRef[]>([])
   const [hadithRefs, setHadithRefs] = useState<PagefindRef[]>([])
+  const [knowledgeRefs, setKnowledgeRefs] = useState<PagefindRef[]>([])
   const [quranResults, setQuranResults] = useState<QuranResult[]>([])
   const [hadithResults, setHadithResults] = useState<HadithResult[]>([])
+  const [knowledgeResults, setKnowledgeResults] = useState<KnowledgeResult[]>([])
   const [quranCursor, setQuranCursor] = useState(0)
   const [hadithCursor, setHadithCursor] = useState(0)
+  const [knowledgeCursor, setKnowledgeCursor] = useState(0)
   const [videoShown, setVideoShown] = useState(PAGE_SIZE)
-  const [loadingMore, setLoadingMore] = useState<"quran" | "hadith" | null>(null)
+  const [loadingMore, setLoadingMore] = useState<"quran" | "hadith" | "knowledge" | null>(null)
   const [loadingData, setLoadingData] = useState(false)
   const inputRef = useRef<HTMLInputElement>(null)
   const debouncedQuery = useDebounce(query, 300)
@@ -171,10 +201,13 @@ export function SearchClient() {
     // Reset pagination on new query
     setQuranResults([])
     setHadithResults([])
+    setKnowledgeResults([])
     setQuranRefs([])
     setHadithRefs([])
+    setKnowledgeRefs([])
     setQuranCursor(0)
     setHadithCursor(0)
+    setKnowledgeCursor(0)
     setVideoShown(PAGE_SIZE)
   }
 
@@ -184,36 +217,42 @@ export function SearchClient() {
     let cancelled = false
     ;(async () => {
       if (!trimmed) {
-        setQuranRefs([]); setHadithRefs([])
-        setQuranResults([]); setHadithResults([])
-        setQuranCursor(0); setHadithCursor(0)
+        setQuranRefs([]); setHadithRefs([]); setKnowledgeRefs([])
+        setQuranResults([]); setHadithResults([]); setKnowledgeResults([])
+        setQuranCursor(0); setHadithCursor(0); setKnowledgeCursor(0)
         return
       }
       setLoadingData(true)
       try {
         const pf = await getPagefind()
-        const [quranSearch, hadithSearch] = await Promise.all([
+        const [quranSearch, hadithSearch, knowledgeSearch] = await Promise.all([
           pf.search(trimmed, { filters: { type: "quran" } }),
           pf.search(trimmed, { filters: { type: "hadith" } }),
+          pf.search(trimmed, { filters: { type: "knowledge" } }),
         ])
         if (cancelled) return
         const qRefs = quranSearch.results.slice(0, MAX_RESULTS)
         const hRefs = hadithSearch.results.slice(0, MAX_RESULTS)
+        const kRefs = knowledgeSearch.results.slice(0, MAX_RESULTS)
         setQuranRefs(qRefs)
         setHadithRefs(hRefs)
+        setKnowledgeRefs(kRefs)
         // Hydrate first page of each
-        const [qData, hData] = await Promise.all([
+        const [qData, hData, kData] = await Promise.all([
           Promise.all(qRefs.slice(0, PAGE_SIZE).map((r) => r.data())),
           Promise.all(hRefs.slice(0, PAGE_SIZE).map((r) => r.data())),
+          Promise.all(kRefs.slice(0, PAGE_SIZE).map((r) => r.data())),
         ])
         if (cancelled) return
         setQuranResults(qData.map(pagefindToQuran).filter((r): r is QuranResult => r !== null))
         setHadithResults(hData.map(pagefindToHadith).filter((r): r is HadithResult => r !== null))
+        setKnowledgeResults(kData.map(pagefindToKnowledge).filter((r): r is KnowledgeResult => r !== null))
         setQuranCursor(PAGE_SIZE)
         setHadithCursor(PAGE_SIZE)
+        setKnowledgeCursor(PAGE_SIZE)
       } catch (err) {
         console.error("Pagefind search failed:", err)
-        if (!cancelled) { setQuranResults([]); setHadithResults([]) }
+        if (!cancelled) { setQuranResults([]); setHadithResults([]); setKnowledgeResults([]) }
       } finally {
         if (!cancelled) setLoadingData(false)
       }
@@ -241,6 +280,16 @@ export function SearchClient() {
     setLoadingMore(null)
   }
 
+  const loadMoreKnowledge = async () => {
+    const next = knowledgeRefs.slice(knowledgeCursor, knowledgeCursor + PAGE_SIZE)
+    if (!next.length) return
+    setLoadingMore("knowledge")
+    const data = await Promise.all(next.map((r) => r.data()))
+    setKnowledgeResults((prev) => [...prev, ...data.map(pagefindToKnowledge).filter((r): r is KnowledgeResult => r !== null)])
+    setKnowledgeCursor((c) => c + PAGE_SIZE)
+    setLoadingMore(null)
+  }
+
   // All matching videos (in-memory); we render only the first `videoShown`.
   const allVideoResults = useMemo<VideoResult[]>(() => {
     const trimmed = debouncedQuery.trim()
@@ -250,14 +299,14 @@ export function SearchClient() {
   const videoResults = allVideoResults.slice(0, videoShown)
 
   // Counts reflect total available matches, not just what's rendered.
-  const totalCount = quranRefs.length + hadithRefs.length + allVideoResults.length
+  const totalCount = quranRefs.length + hadithRefs.length + knowledgeRefs.length + allVideoResults.length
 
   const clearSearch = () => {
     setQuery("")
     setSearched(false)
-    setQuranRefs([]); setHadithRefs([])
-    setQuranResults([]); setHadithResults([])
-    setQuranCursor(0); setHadithCursor(0)
+    setQuranRefs([]); setHadithRefs([]); setKnowledgeRefs([])
+    setQuranResults([]); setHadithResults([]); setKnowledgeResults([])
+    setQuranCursor(0); setHadithCursor(0); setKnowledgeCursor(0)
     setVideoShown(PAGE_SIZE)
     history.replaceState(null, "", "/search")
     inputRef.current?.focus()
@@ -270,7 +319,7 @@ export function SearchClient() {
         <Search className="size-6 text-gold-light" />
         <div>
           <h1 className="text-2xl font-display gold-gradient-text font-bold">Search</h1>
-          <p className="text-sm text-muted-foreground">Search across Quran, Hadith, and Videos</p>
+          <p className="text-sm text-muted-foreground">Search across Quran, Hadith, Knowledge Base, and Videos</p>
         </div>
       </div>
 
@@ -384,6 +433,39 @@ export function SearchClient() {
             </section>
           )}
 
+          {/* Knowledge Base section */}
+          {knowledgeResults.length > 0 && (
+            <section>
+              <div className="flex items-center gap-2 mb-3">
+                <Library className="size-4 text-gold-light" />
+                <span className="text-xs font-medium text-gold-light uppercase tracking-wider">Knowledge</span>
+                <span className="rounded-full bg-gold-dim/15 px-2 py-0.5 text-[10px] text-gold-dim">{knowledgeRefs.length}</span>
+              </div>
+              <div className="space-y-2">
+                {knowledgeResults.map((r) => (
+                  <Link key={`knowledge-${r.url}`} href={r.url}
+                    className="group block rounded-xl border border-border/30 bg-card/50 p-4 transition-all duration-200 hover:border-secondary/20 hover:bg-card">
+                    <div className="flex items-start justify-between gap-3 mb-2">
+                      <div className="flex items-center gap-2 flex-wrap">
+                        <span className="rounded bg-gold-dim/15 px-2 py-0.5 text-xs font-medium text-gold-light">{r.title}</span>
+                        {r.categoryName && <span className="text-xs text-muted-foreground">{r.categoryName}</span>}
+                      </div>
+                      <ArrowRight className="size-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity shrink-0" />
+                    </div>
+                    {r.excerpt && <p className="text-sm text-muted-foreground leading-relaxed line-clamp-3 pf-excerpt" dangerouslySetInnerHTML={{ __html: r.excerpt }} />}
+                  </Link>
+                ))}
+              </div>
+              {knowledgeCursor < knowledgeRefs.length && (
+                <button onClick={loadMoreKnowledge} disabled={loadingMore === "knowledge"}
+                  className="mt-3 flex items-center gap-2 text-xs text-gold-light hover:text-gold-dim transition-colors disabled:opacity-50">
+                  {loadingMore === "knowledge" ? <Loader2 className="size-3 animate-spin" /> : null}
+                  Load more ({knowledgeRefs.length - knowledgeCursor} remaining)
+                </button>
+              )}
+            </section>
+          )}
+
           {/* Videos section */}
           {videoResults.length > 0 && (
             <section>
@@ -433,7 +515,7 @@ export function SearchClient() {
       {!searched && (
         <div className="flex flex-col items-center justify-center py-16 text-center">
           <Search className="size-12 text-muted-foreground/20 mb-4" />
-          <p className="text-muted-foreground text-sm">Search for any word or phrase across Quran, Hadith, and Videos</p>
+          <p className="text-muted-foreground text-sm">Search for any word or phrase across Quran, Hadith, Knowledge Base, and Videos</p>
         </div>
       )}
     </div>

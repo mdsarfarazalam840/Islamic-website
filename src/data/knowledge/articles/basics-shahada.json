@@ -1,0 +1,68 @@
+{
+  "slug": "basics-shahada",
+  "category": "basics",
+  "featured": false,
+  "title": {
+    "en": "Shahādah — The Testimony of Faith",
+    "hi": "शहादा — ईमान की गवाही",
+    "ur": "شہادت — کلمۂ ایمان"
+  },
+  "summary": {
+    "en": "The Shahādah is the declaration that there is no god but Allah and that Muhammad is His Messenger. It is the first pillar of Islam and the gateway to the faith — the words by which a person enters Islam.",
+    "hi": "शहादा यह घोषणा है कि अल्लाह के सिवा कोई माबूद नहीं और मुहम्मद उसके रसूल हैं। यह इस्लाम का पहला स्तंभ और धर्म का द्वार है — वे शब्द जिनके द्वारा व्यक्ति इस्लाम में प्रवेश करता है।",
+    "ur": "شہادت یہ اعلان ہے کہ اللہ کے سوا کوئی معبود نہیں اور محمد ﷺ اُس کے رسول ہیں۔ یہ اسلام کا پہلا رکن اور دین کا دروازہ ہے — وہ الفاظ جن کے ذریعے انسان اسلام میں داخل ہوتا ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "The Shahādah — \"Lā ilāha illā Allāh, Muḥammadun rasūlu Allāh\" — is the first and greatest pillar of Islam. To say it with sincere belief is to become a Muslim; to live by it is the work of a lifetime." },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 8, "note": "Islam is built on five, the first of which is to testify that there is no god but Allah and that Muhammad is His Messenger." },
+      { "kind": "heading", "level": 2, "text": "There is no god but Allah" },
+      { "kind": "p", "text": "The first half of the testimony denies worship to everything false and affirms it for Allah alone. It is the pure declaration of Tawḥīd — the truth every prophet was sent to proclaim." },
+      { "kind": "verse", "surah": 3, "ayah": 18, "note": "Allah bears witness that there is no deity except Him — and so do the angels and the people of knowledge." },
+      { "kind": "heading", "level": 2, "text": "Muhammad is the Messenger of Allah" },
+      { "kind": "p", "text": "The second half affirms that Muḥammad ﷺ is Allah's final Messenger, whose guidance is to be followed. Accepting his message means accepting the Qur'an and the way of life he taught." },
+      { "kind": "verse", "surah": 47, "ayah": 19, "note": "Know that there is no deity except Allah, and ask forgiveness for your sin." },
+      { "kind": "list", "items": [
+        { "text": "The Shahādah is the doorway into Islam and its very foundation." },
+        { "text": "Its first half rejects all false worship; the second affirms the guidance of the Prophet ﷺ." },
+        { "text": "Said with sincerity and understanding, it reshapes the whole of one's life." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "शहादा — \"ला इलाहा इल्लल्लाह, मुहम्मदुर रसूलुल्लाह\" — इस्लाम का पहला और सबसे बड़ा स्तंभ है। इसे सच्चे विश्वास के साथ कहना मुसलमान बन जाना है; इसके अनुसार जीना जीवन भर का कार्य है।" },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 8, "note": "इस्लाम पाँच पर बना है, जिनमें पहला यह गवाही देना है कि अल्लाह के सिवा कोई माबूद नहीं और मुहम्मद उसके रसूल हैं।" },
+      { "kind": "heading", "level": 2, "text": "अल्लाह के सिवा कोई माबूद नहीं" },
+      { "kind": "p", "text": "गवाही का पहला भाग हर झूठे की इबादत का इनकार करता है और उसे केवल अल्लाह के लिए स्थापित करता है। यह तौहीद की शुद्ध घोषणा है — वह सत्य जिसे घोषित करने के लिए हर नबी भेजा गया।" },
+      { "kind": "verse", "surah": 3, "ayah": 18, "note": "अल्लाह गवाही देता है कि उसके सिवा कोई माबूद नहीं — और फ़रिश्ते तथा ज्ञान वाले भी।" },
+      { "kind": "heading", "level": 2, "text": "मुहम्मद अल्लाह के रसूल हैं" },
+      { "kind": "p", "text": "दूसरा भाग पुष्टि करता है कि मुहम्मद ﷺ अल्लाह के अंतिम रसूल हैं, जिनके मार्गदर्शन का अनुसरण किया जाना है। उनके संदेश को स्वीकार करने का अर्थ है क़ुरआन और उनके सिखाए जीवन-मार्ग को स्वीकार करना।" },
+      { "kind": "verse", "surah": 47, "ayah": 19, "note": "जान लो कि अल्लाह के सिवा कोई माबूद नहीं, और अपने गुनाह के लिए क्षमा माँगो।" },
+      { "kind": "list", "items": [
+        { "text": "शहादा इस्लाम में प्रवेश का द्वार और उसकी बुनियाद है।" },
+        { "text": "इसका पहला भाग हर झूठी इबादत को अस्वीकार करता है; दूसरा नबी ﷺ के मार्गदर्शन की पुष्टि करता है।" },
+        { "text": "निष्ठा और समझ के साथ कहा गया, यह पूरे जीवन को नया आकार देता है।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "شہادت — \"لا الہ الا اللہ، محمد رسول اللہ\" — اسلام کا پہلا اور سب سے بڑا رکن ہے۔ اِسے سچے یقین کے ساتھ کہنا مسلمان بن جانا ہے؛ اِس کے مطابق جینا زندگی بھر کا کام ہے۔" },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 8, "note": "اسلام پانچ پر بنا ہے، جن میں پہلا یہ گواہی دینا ہے کہ اللہ کے سوا کوئی معبود نہیں اور محمد ﷺ اُس کے رسول ہیں۔" },
+      { "kind": "heading", "level": 2, "text": "اللہ کے سوا کوئی معبود نہیں" },
+      { "kind": "p", "text": "گواہی کا پہلا حصہ ہر جھوٹے کی عبادت کا انکار کرتا ہے اور اُسے صرف اللہ کے لیے ثابت کرتا ہے۔ یہ توحید کا خالص اعلان ہے — وہ سچائی جس کے اعلان کے لیے ہر نبی بھیجا گیا۔" },
+      { "kind": "verse", "surah": 3, "ayah": 18, "note": "اللہ گواہی دیتا ہے کہ اُس کے سوا کوئی معبود نہیں — اور فرشتے اور اہلِ علم بھی۔" },
+      { "kind": "heading", "level": 2, "text": "محمد اللہ کے رسول ہیں" },
+      { "kind": "p", "text": "دوسرا حصہ تصدیق کرتا ہے کہ محمد ﷺ اللہ کے آخری رسول ہیں، جن کی ہدایت کی پیروی کی جانی ہے۔ اُن کے پیغام کو قبول کرنے کا مطلب قرآن اور اُن کے سکھائے ہوئے طرزِ زندگی کو قبول کرنا ہے۔" },
+      { "kind": "verse", "surah": 47, "ayah": 19, "note": "جان لو کہ اللہ کے سوا کوئی معبود نہیں، اور اپنے گناہ کی معافی مانگو۔" },
+      { "kind": "list", "items": [
+        { "text": "شہادت اسلام میں داخلے کا دروازہ اور اُس کی بنیاد ہے۔" },
+        { "text": "اِس کا پہلا حصہ ہر جھوٹی عبادت کو رد کرتا ہے؛ دوسرا نبی ﷺ کی ہدایت کی تصدیق کرتا ہے۔" },
+        { "text": "اخلاص اور سمجھ کے ساتھ کہا گیا، یہ پوری زندگی کو نئی شکل دیتا ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "hadith", "collection": "bukhari", "ref": "8", "grade": "sahih" },
+    { "type": "quran", "ref": "3:18" },
+    { "type": "quran", "ref": "47:19" }
+  ],
+  "relatedSlugs": ["basics-five-pillars", "concept-tawhid", "basics-belief-in-allah"]
+}

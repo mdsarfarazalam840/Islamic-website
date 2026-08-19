@@ -4,7 +4,7 @@
 
 **نُورٌ عَلَىٰ نُورٍ** — *Light upon light.*
 
-A premium open-source Quran & Hadith platform — complete Quran with multilingual translations, seven authentic Hadith collections (36,000+ hadiths), and a curated Islamic video library. Fully static, zero runtime cost.
+A premium open-source Quran & Hadith platform — complete Quran with multilingual translations, seven authentic Hadith collections (36,000+ hadiths), a trilingual Knowledge Base, and a curated Islamic video library. Fully static, zero runtime cost.
 
 [![CI](https://img.shields.io/github/actions/workflow/status/mdsarfarazalam840/Islamic-website/deploy.yml?style=flat-square&logo=github&label=Build)](https://github.com/mdsarfarazalam840/Islamic-website/actions)
 
@@ -45,11 +45,14 @@ All 114 surahs with Arabic (Uthmani script) + English, Urdu, Hindi translations.
 ### 📜 Hadith Collections
 36,000+ authentic hadiths across 7 major collections — Bukhari, Muslim, Abu Dawud, Tirmidhi, Nasa'i, Ibn Majah, and Muwatta Malik. Sanad (narration chain) visualization. Grade badges: emerald (Sahih), gold (Hasan), muted (Da'if). Full-text search via Pagefind.
 
+### 📚 Knowledge Base
+A trilingual (English · हिन्दी · اردو) library of 63 source-graded articles across five categories — the Basics (pillars & articles of faith), Core Concepts, the 25 Prophets, Quranic Stories, and Surah Virtues. Per-article language toggle. `verse` blocks render **live** Arabic + translations pulled from the Quran data (no duplicated scripture); `hadith` blocks deep-link into the Hadith library. Every article carries graded source tags (Quran / hadith / tafsir / seerah) rendered as strength-colored badges. Indexed into Pagefind.
+
 ### 🎬 Scholar Videos
 20+ renowned Islamic scholars linked to their YouTube channels. Long-form videos scraped at build time — no API keys, no quota, no billing. Category filtering: Tafsir, Seerah, Fiqh, Aqeedah, Dawah, and more.
 
 ### 🔍 Global Search
-Unified search across Quran, Hadith, and Videos. Pagefind static index for Quran & Hadith — fetches only fragment chunks per query. Fuse.js for the video list.
+Unified search across Quran, Hadith, Knowledge Base, and Videos. Pagefind static index for Quran, Hadith & Knowledge Base — fetches only fragment chunks per query. Fuse.js for the video list.
 
 ### 🎨 Noor Al-Quds Design System
 Chamber-based navigation — every page is a sacred chamber with unique lighting. Gold + deep navy palette. Vanishing navbar with floating lantern button. Three.js 3D environment (star particles, Kaaba model). Dark/Light modes.
@@ -68,12 +71,14 @@ graph LR
     QAPI[Quran APIs] --> |Fetch| QDATA[public/data/quran/]
     HAPI[Hadith APIs] --> |Fetch| HDATA[public/data/hadith/]
     YT[YouTube Scraper] --> |Build-time scrape| YDATA[public/data/youtube/]
-    QDATA --> |Build| PF[Pagefind Index]
+    KB[src/data/knowledge/] --> |Build| PF[Pagefind Index]
+    QDATA --> |Build| PF
     HDATA --> |Build| PF
     PF --> |Embed| NX[Next.js SSG]
     QDATA --> NX
     HDATA --> NX
     YDATA --> NX
+    KB --> |Hydrate verse/hadith refs| NX
     NX --> |Static export| GHP[GitHub Pages]
     GHP --> |Serve| BROWSER[Client Browser]
     BROWSER --> |Fragment fetches| PFS[Pagefind Search]
@@ -87,6 +92,7 @@ graph LR
     ROOT[Root Layout] --> HOME[Homepage]
     ROOT --> QRN[Quran Reader]
     ROOT --> HAD[Hadith]
+    ROOT --> KBS[Knowledge Base]
     ROOT --> VID[Videos]
     ROOT --> SRC[Search]
     ROOT --> ABT[About]
@@ -94,6 +100,8 @@ graph LR
     QRN --> JZ[JuzNavigator]
     HAD --> HC[HadithCard]
     HAD --> HCH[HadithChain]
+    KBS --> AV[ArticleView]
+    KBS --> BR[BlockRenderer<br/>Verse · Hadith · Source tags]
     VID --> VG[VideoGrid]
     VID --> CF[CategoryFilter]
     SRC --> SC[SearchClient]
@@ -112,6 +120,7 @@ Every page is a chamber in a sacred building, each with its own lighting and moo
 | Homepage | Grand Foyer | Warm golden beam | Welcoming |
 | Quran Reader | Scriptorium | Soft gold glow | Contemplative |
 | Hadith | Chain Library | Ambient lantern | Scholarly |
+| Knowledge Base | Study Hall | Steady gold | Teaching |
 | Videos | Assembly Hall | Dynamic | Engaging |
 | Search | Beacon | Focused beam | Precise |
 | About | Cloister | Soft muted | Reflective |
@@ -128,7 +137,7 @@ Every page is a chamber in a sacred building, each with its own lighting and moo
 | Styling | Tailwind CSS v4 + tw-animate-css |
 | 3D | Three.js + React Three Fiber + Drei |
 | Animation | Framer Motion |
-| Search | Pagefind (Quran + Hadith) · Fuse.js (videos) |
+| Search | Pagefind (Quran + Hadith + Knowledge Base) · Fuse.js (videos) |
 | Icons | Lucide React |
 | State | Zustand + TanStack Query |
 | Validation | Zod |
@@ -195,6 +204,7 @@ src/
 │   ├── globals.css         # Tailwind theme, custom utilities
 │   ├── quran/              # Quran module
 │   ├── hadith/             # Hadith module
+│   ├── knowledge-base/     # Knowledge Base (category & article routes)
 │   ├── videos/             # Video library
 │   ├── search/             # Global search
 │   └── about/              # About page
@@ -202,21 +212,25 @@ src/
 │   ├── layout/             # Navbar, Footer, Sidebar, MobileNav
 │   ├── quran/              # QuranReader, AyahDisplay, SurahCard, JuzNavigator
 │   ├── hadith/             # HadithCard, HadithChain, CollectionCard, HadithSearch
+│   ├── knowledge/          # ArticleView, BlockRenderer, VerseBlockView, HadithBlockView, SourceTagBadge
 │   ├── videos/             # VideoCard, VideoGrid, YouTubeEmbed, CategoryFilter
 │   ├── three/              # HeroScene3D, KaabaModel, MosqueScene, StarParticles
 │   ├── ui/                 # shadcn primitives
-│   └── shared/             # ThemeToggle, BookmarkButton, SearchBar, ErrorBoundary
+│   └── shared/             # ThemeToggle, BookmarkButton, SearchBar, Breadcrumbs, ErrorBoundary
 ├── config/                 # site.ts, scholars.ts, api.ts
-├── lib/                    # Data layers (quran, hadith, youtube, utils)
+├── lib/                    # Data layers (quran, hadith, youtube, knowledge, utils)
 ├── hooks/                  # useBookmarks, useQuran, useYouTube
 └── types/                  # TypeScript interfaces
 
 public/
-├── data/                   # Pre-built JSON
+├── data/                   # Pre-built JSON (quran, hadith, youtube)
 ├── pagefind/               # Static search index
 ├── images/                 # Icons, scholar profiles
 ├── manifest.json           # PWA manifest
 └── sw.js                   # Service worker
+
+src/data/
+└── knowledge/articles/     # Knowledge Base articles (one JSON per article)
 
 scripts/
 ├── fetch-quran-data.ts     # Quran JSON builder
@@ -278,6 +292,7 @@ Gold is never flat — all gold elements use multi-stop gradients for metallic f
 |------|--------|------|
 | Quran (Arabic + EN/UR/HI) | Public Quran APIs | Build → `public/data/quran/` |
 | Hadith (7 collections) | Public Hadith APIs | Build → `public/data/hadith/` |
+| Knowledge Base (EN/HI/UR) | Authored, source-graded articles | Hand-written → `src/data/knowledge/articles/` |
 | Scholar Videos | YouTube `/videos` tabs | Build + twice-daily cron → `public/data/youtube/` |
 
 YouTube runs on GitHub's US runners. Per-channel failures fall back to bundled mock data.

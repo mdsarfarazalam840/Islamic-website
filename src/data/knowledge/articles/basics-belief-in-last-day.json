@@ -1,0 +1,68 @@
+{
+  "slug": "basics-belief-in-last-day",
+  "category": "basics",
+  "featured": false,
+  "title": {
+    "en": "Belief in the Last Day",
+    "hi": "आख़िरत के दिन पर ईमान",
+    "ur": "روزِ آخرت پر ایمان"
+  },
+  "summary": {
+    "en": "The fifth article of faith is belief in the Last Day: that this world will end, the dead will be raised, and every soul will stand before Allah to be judged. Those who believed and did good enter Paradise; the wrongdoers face the Fire. It gives every deed weight and every life meaning.",
+    "hi": "ईमान का पाँचवाँ अनुच्छेद आख़िरत के दिन पर विश्वास है: कि यह संसार समाप्त होगा, मुर्दे उठाए जाएँगे, और हर आत्मा न्याय के लिए अल्लाह के समक्ष खड़ी होगी। जिन्होंने ईमान लाया और भला किया वे जन्नत में प्रवेश करते हैं; अत्याचारी आग का सामना करते हैं। यह हर कर्म को भार और हर जीवन को अर्थ देता है।",
+    "ur": "ایمان کا پانچواں رکن روزِ آخرت پر یقین ہے: کہ یہ دنیا ختم ہوگی، مُردے اٹھائے جائیں گے، اور ہر روح فیصلے کے لیے اللہ کے سامنے کھڑی ہوگی۔ جو ایمان لائے اور نیکی کی وہ جنت میں داخل ہوتے ہیں؛ ظالم آگ کا سامنا کرتے ہیں۔ یہ ہر عمل کو وزن اور ہر زندگی کو معنی دیتا ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "The fifth article of faith is belief in the Last Day — that this life is not the end. A day will come when the world is folded up, the dead are raised, and all stand before their Lord to answer for what they did." },
+      { "kind": "verse", "surah": 22, "ayah": 7, "note": "The Hour is coming, no doubt about it, and Allah will resurrect those in the graves." },
+      { "kind": "heading", "level": 2, "text": "A reckoning down to an atom's weight" },
+      { "kind": "p", "text": "On that Day the scales of justice are set, and nothing is overlooked. The smallest good and the smallest evil are brought forth, so that every soul receives exactly what it earned." },
+      { "kind": "verse", "surah": 99, "ayah": 7, "note": "Whoever does an atom's weight of good will see it, and whoever does an atom's weight of evil will see it." },
+      { "kind": "heading", "level": 2, "text": "Paradise and the Fire" },
+      { "kind": "p", "text": "The end of the journey is one of two homes: an everlasting Garden for those who believed and did good, or the Fire for those who rejected the truth and wronged their own souls." },
+      { "kind": "verse", "surah": 3, "ayah": 185, "note": "Every soul will taste death, and you will be paid your reward in full on the Day of Resurrection." },
+      { "kind": "list", "items": [
+        { "text": "This world will end and the dead will be raised for judgement." },
+        { "text": "Every deed, however small, is weighed with perfect justice." },
+        { "text": "The outcome is Paradise for the believers or the Fire for the wrongdoers." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "ईमान का पाँचवाँ अनुच्छेद आख़िरत के दिन पर विश्वास है — कि यह जीवन अंत नहीं है। एक दिन आएगा जब संसार समेट लिया जाएगा, मुर्दे उठाए जाएँगे, और सब अपने रब के समक्ष खड़े होंगे अपने किए का उत्तर देने के लिए।" },
+      { "kind": "verse", "surah": 22, "ayah": 7, "note": "वह घड़ी आ रही है, इसमें कोई संदेह नहीं, और अल्लाह क़ब्रों वालों को उठाएगा।" },
+      { "kind": "heading", "level": 2, "text": "एक कण भर तक का हिसाब" },
+      { "kind": "p", "text": "उस दिन न्याय के तराज़ू रखे जाते हैं, और कुछ भी अनदेखा नहीं होता। सबसे छोटी भलाई और सबसे छोटी बुराई सामने लाई जाती है, ताकि हर आत्मा को ठीक वही मिले जो उसने कमाया।" },
+      { "kind": "verse", "surah": 99, "ayah": 7, "note": "जो कण भर भलाई करेगा वह उसे देखेगा, और जो कण भर बुराई करेगा वह उसे देखेगा।" },
+      { "kind": "heading", "level": 2, "text": "जन्नत और आग" },
+      { "kind": "p", "text": "यात्रा का अंत दो घरों में से एक है: उनके लिए एक शाश्वत बाग़ जो ईमान लाए और भला किया, या उनके लिए आग जिन्होंने सत्य को नकारा और अपनी ही आत्माओं पर अत्याचार किया।" },
+      { "kind": "verse", "surah": 3, "ayah": 185, "note": "हर आत्मा मृत्यु का स्वाद चखेगी, और तुम्हें तुम्हारा प्रतिफल क़यामत के दिन पूरा दिया जाएगा।" },
+      { "kind": "list", "items": [
+        { "text": "यह संसार समाप्त होगा और मुर्दे न्याय के लिए उठाए जाएँगे।" },
+        { "text": "हर कर्म, चाहे कितना भी छोटा, पूर्ण न्याय से तौला जाता है।" },
+        { "text": "परिणाम ईमान वालों के लिए जन्नत या अत्याचारियों के लिए आग है।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "ایمان کا پانچواں رکن روزِ آخرت پر یقین ہے — کہ یہ زندگی انجام نہیں ہے۔ ایک دن آئے گا جب دنیا لپیٹ دی جائے گی، مُردے اٹھائے جائیں گے، اور سب اپنے رب کے سامنے کھڑے ہوں گے اپنے کیے کا جواب دینے کو۔" },
+      { "kind": "verse", "surah": 22, "ayah": 7, "note": "وہ گھڑی آ رہی ہے، اِس میں کوئی شک نہیں، اور اللہ قبروں والوں کو اٹھائے گا۔" },
+      { "kind": "heading", "level": 2, "text": "ذرہ برابر تک کا حساب" },
+      { "kind": "p", "text": "اُس دن انصاف کے ترازو رکھے جاتے ہیں، اور کچھ بھی نظرانداز نہیں ہوتا۔ سب سے چھوٹی نیکی اور سب سے چھوٹی بدی سامنے لائی جاتی ہے، تاکہ ہر روح کو ٹھیک وہی ملے جو اُس نے کمایا۔" },
+      { "kind": "verse", "surah": 99, "ayah": 7, "note": "جو ذرہ برابر نیکی کرے گا وہ اُسے دیکھے گا، اور جو ذرہ برابر بدی کرے گا وہ اُسے دیکھے گا۔" },
+      { "kind": "heading", "level": 2, "text": "جنت اور آگ" },
+      { "kind": "p", "text": "سفر کا انجام دو گھروں میں سے ایک ہے: اُن کے لیے ایک ہمیشہ کا باغ جو ایمان لائے اور نیکی کی، یا اُن کے لیے آگ جنہوں نے سچ کو جھٹلایا اور اپنی ہی جانوں پر ظلم کیا۔" },
+      { "kind": "verse", "surah": 3, "ayah": 185, "note": "ہر جان موت کا مزہ چکھے گی، اور تمہیں تمہارا بدلہ قیامت کے دن پورا دیا جائے گا۔" },
+      { "kind": "list", "items": [
+        { "text": "یہ دنیا ختم ہوگی اور مُردے فیصلے کے لیے اٹھائے جائیں گے۔" },
+        { "text": "ہر عمل، خواہ کتنا ہی چھوٹا ہو، کامل انصاف سے تولا جاتا ہے۔" },
+        { "text": "نتیجہ مومنوں کے لیے جنت یا ظالموں کے لیے آگ ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "22:7" },
+    { "type": "quran", "ref": "99:7-8" },
+    { "type": "quran", "ref": "3:185" }
+  ],
+  "relatedSlugs": ["concept-iman", "concept-jannah", "concept-jahannam"]
+}

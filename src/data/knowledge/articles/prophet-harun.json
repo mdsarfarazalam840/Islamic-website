@@ -1,0 +1,73 @@
+{
+  "slug": "prophet-harun",
+  "category": "prophets",
+  "prophetNumber": 15,
+  "featured": false,
+  "title": {
+    "en": "Hārūn (Aaron) — The Eloquent Helper",
+    "hi": "हारून (हारून अलैहिस्सलाम) — वाक्पटु सहायक",
+    "ur": "ہارون علیہ السلام — فصیح مددگار"
+  },
+  "summary": {
+    "en": "Hārūn was the brother of Mūsā, given to him as a helper and fellow prophet. More eloquent of speech, he stood beside Mūsā before Pharaoh and guarded the Children of Israel during his brother's absence at Mount Ṭūr.",
+    "hi": "हारून मूसा के भाई थे, जो उन्हें एक सहायक और साथी नबी के रूप में दिए गए। वाणी में अधिक वाक्पटु, वे फ़िरऔन के सामने मूसा के साथ खड़े हुए और तूर पर्वत पर अपने भाई की अनुपस्थिति में बनी इसराईल की रक्षा की।",
+    "ur": "ہارون علیہ السلام موسیٰ کے بھائی تھے، جو انہیں ایک مددگار اور ساتھی نبی کے طور پر عطا ہوئے۔ گفتگو میں زیادہ فصیح، وہ فرعون کے سامنے موسیٰ کے ساتھ کھڑے ہوئے اور کوہِ طور پر اپنے بھائی کی غیر موجودگی میں بنی اسرائیل کی حفاظت کی۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Hārūn (peace be upon him) was the elder brother of Mūsā and, like him, a prophet of the Children of Israel. When Mūsā was called to face Pharaoh, he asked Allah to strengthen him with his brother." },
+      { "kind": "verse", "surah": 20, "ayah": 29, "note": "Mūsā prays: appoint for me a minister from my family — Hārūn, my brother." },
+      { "kind": "verse", "surah": 20, "ayah": 30, "note": "The prayer names Hārūn directly as the one by whom Mūsā's strength would be increased." },
+      { "kind": "heading", "level": 2, "text": "A voice for his brother" },
+      { "kind": "p", "text": "Mūsā acknowledged that Hārūn was clearer in speech than himself, and asked that his brother be sent with him to confirm his message before a hostile king." },
+      { "kind": "verse", "surah": 28, "ayah": 34, "note": "Mūsā says: my brother Hārūn is more eloquent than me in speech; send him with me as support to confirm me." },
+      { "kind": "heading", "level": 2, "text": "Guardian in his absence" },
+      { "kind": "p", "text": "When Mūsā departed to receive the Torah, he left Hārūn in charge of the people. Hārūn warned them against the worship of the golden calf, though many did not heed him until Mūsā returned." },
+      { "kind": "verse", "surah": 19, "ayah": 53, "note": "Allah grants Mūsā, out of His mercy, his brother Hārūn as a prophet." },
+      { "kind": "list", "items": [
+        { "text": "Allah answers the sincere prayer for righteous support." },
+        { "text": "Prophethood can be shared as brotherhood in a single mission." },
+        { "text": "A true guardian warns against wrong even when unheeded." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "हारून (अलैहिस्सलाम) मूसा के बड़े भाई थे और, उनकी तरह, बनी इसराईल के एक नबी। जब मूसा को फ़िरऔन का सामना करने के लिए बुलाया गया, तो उन्होंने अल्लाह से माँगा कि उन्हें उनके भाई से मज़बूत करे।" },
+      { "kind": "verse", "surah": 20, "ayah": 29, "note": "मूसा दुआ करते हैं: मेरे परिवार से मेरे लिए एक सहायक नियुक्त कर — मेरा भाई हारून।" },
+      { "kind": "verse", "surah": 20, "ayah": 30, "note": "दुआ में हारून का सीधे नाम लिया गया है, जिसके द्वारा मूसा की शक्ति बढ़ाई जाएगी।" },
+      { "kind": "heading", "level": 2, "text": "अपने भाई की आवाज़" },
+      { "kind": "p", "text": "मूसा ने स्वीकार किया कि हारून वाणी में उनसे अधिक स्पष्ट थे, और माँगा कि उनके भाई को उनके साथ भेजा जाए ताकि एक शत्रुतापूर्ण राजा के समक्ष उनके संदेश की पुष्टि हो।" },
+      { "kind": "verse", "surah": 28, "ayah": 34, "note": "मूसा कहते हैं: मेरा भाई हारून वाणी में मुझसे अधिक वाक्पटु है; उसे मेरे साथ सहायक बनाकर भेज ताकि वह मेरी पुष्टि करे।" },
+      { "kind": "heading", "level": 2, "text": "उनकी अनुपस्थिति में संरक्षक" },
+      { "kind": "p", "text": "जब मूसा तौरात प्राप्त करने गए, तो उन्होंने हारून को क़ौम का प्रभारी छोड़ा। हारून ने उन्हें सोने के बछड़े की इबादत से चेताया, यद्यपि बहुतों ने मूसा के लौटने तक उनकी बात न मानी।" },
+      { "kind": "verse", "surah": 19, "ayah": 53, "note": "अल्लाह मूसा को, अपनी दया से, उनके भाई हारून को नबी बनाकर प्रदान करता है।" },
+      { "kind": "list", "items": [
+        { "text": "अल्लाह धर्मी सहायता की निष्ठावान दुआ का उत्तर देता है।" },
+        { "text": "नुबूवत एक ही मिशन में भाईचारे के रूप में साझा की जा सकती है।" },
+        { "text": "एक सच्चा संरक्षक ग़लत के विरुद्ध चेताता है, भले ही अनसुना रहे।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "ہارون علیہ السلام موسیٰ کے بڑے بھائی تھے اور، اُن کی طرح، بنی اسرائیل کے ایک نبی۔ جب موسیٰ کو فرعون کا سامنا کرنے کے لیے بلایا گیا، تو انہوں نے اللہ سے مانگا کہ انہیں اُن کے بھائی سے مضبوط کرے۔" },
+      { "kind": "verse", "surah": 20, "ayah": 29, "note": "موسیٰ دعا کرتے ہیں: میرے خاندان سے میرے لیے ایک وزیر مقرر کر — میرا بھائی ہارون۔" },
+      { "kind": "verse", "surah": 20, "ayah": 30, "note": "دعا میں ہارون کا براہِ راست نام لیا گیا ہے، جس کے ذریعے موسیٰ کی قوت بڑھائی جائے گی۔" },
+      { "kind": "heading", "level": 2, "text": "اپنے بھائی کی آواز" },
+      { "kind": "p", "text": "موسیٰ نے اعتراف کیا کہ ہارون گفتگو میں اُن سے زیادہ واضح تھے، اور مانگا کہ اُن کے بھائی کو اُن کے ساتھ بھیجا جائے تاکہ ایک دشمن بادشاہ کے سامنے اُن کے پیغام کی تصدیق ہو۔" },
+      { "kind": "verse", "surah": 28, "ayah": 34, "note": "موسیٰ کہتے ہیں: میرا بھائی ہارون گفتگو میں مجھ سے زیادہ فصیح ہے؛ اُسے میرے ساتھ مددگار بنا کر بھیج تاکہ وہ میری تصدیق کرے۔" },
+      { "kind": "heading", "level": 2, "text": "اُن کی غیر موجودگی میں محافظ" },
+      { "kind": "p", "text": "جب موسیٰ تورات حاصل کرنے گئے، تو انہوں نے ہارون کو قوم کا نگران چھوڑا۔ ہارون نے انہیں سونے کے بچھڑے کی عبادت سے خبردار کیا، اگرچہ بہت سوں نے موسیٰ کے لوٹنے تک اُن کی بات نہ مانی۔" },
+      { "kind": "verse", "surah": 19, "ayah": 53, "note": "اللہ موسیٰ کو، اپنی رحمت سے، اُن کے بھائی ہارون کو نبی بنا کر عطا کرتا ہے۔" },
+      { "kind": "list", "items": [
+        { "text": "اللہ نیک مدد کی مخلص دعا کا جواب دیتا ہے۔" },
+        { "text": "نبوت ایک ہی مشن میں بھائی چارے کے طور پر بانٹی جا سکتی ہے۔" },
+        { "text": "ایک سچا محافظ غلط کے خلاف خبردار کرتا ہے، خواہ اَن سنی رہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "20:29-36" },
+    { "type": "quran", "ref": "28:34-35" },
+    { "type": "quran", "ref": "19:53" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["prophet-musa", "concept-sabr", "concept-tawhid"]
+}

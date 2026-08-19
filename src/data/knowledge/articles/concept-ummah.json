@@ -1,0 +1,68 @@
+{
+  "slug": "concept-ummah",
+  "category": "concepts",
+  "featured": false,
+  "title": {
+    "en": "The Ummah — The Community of Believers",
+    "hi": "उम्मत — ईमान वालों का समुदाय",
+    "ur": "امت — اہلِ ایمان کی جماعت"
+  },
+  "summary": {
+    "en": "The Ummah is the worldwide community of believers, bound not by race or land but by faith in Allah. The Qur'an describes it as one brotherhood and a balanced nation of witnesses, called to hold together, care for one another, and enjoin what is good.",
+    "hi": "उम्मत ईमान वालों का विश्वव्यापी समुदाय है, जो नस्ल या भूमि से नहीं बल्कि अल्लाह में विश्वास से बँधा है। क़ुरआन इसे एक भाईचारे और गवाहों के संतुलित राष्ट्र के रूप में वर्णित करता है, जिसे एक साथ जुड़े रहने, एक-दूसरे की देखभाल करने, और भलाई का आदेश देने के लिए बुलाया गया है।",
+    "ur": "امت اہلِ ایمان کی عالمی جماعت ہے، جو نسل یا زمین سے نہیں بلکہ اللہ پر ایمان سے بندھی ہے۔ قرآن اِسے ایک بھائی چارے اور گواہوں کی متوازن قوم کے طور پر بیان کرتا ہے، جسے ایک ساتھ جڑے رہنے، ایک دوسرے کی دیکھ بھال کرنے، اور بھلائی کا حکم دینے کے لیے بلایا گیا ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "The Ummah is the single community of those who believe in Allah — spanning every land, language, and race. What unites them is not blood or borders but a shared faith, a shared qiblah, and a shared purpose before their one Lord." },
+      { "kind": "verse", "surah": 21, "ayah": 92, "note": "Indeed this community of yours is one community, and I am your Lord, so worship Me." },
+      { "kind": "heading", "level": 2, "text": "A single brotherhood" },
+      { "kind": "p", "text": "The believers are declared brothers and sisters to one another, and the Prophet ﷺ likened them to a single body: when one part suffers, the whole feels its pain. Their bond calls for mercy, reconciliation, and mutual support." },
+      { "kind": "verse", "surah": 49, "ayah": 10, "note": "The believers are but brothers, so make peace between your brothers." },
+      { "kind": "heading", "level": 2, "text": "A balanced nation of witnesses" },
+      { "kind": "p", "text": "This Ummah is described as a middle, balanced community, raised up to bear witness to the truth before humankind and to call to what is good while forbidding what is wrong." },
+      { "kind": "verse", "surah": 3, "ayah": 110, "note": "You are the best community brought forth for people: you enjoin what is right and forbid what is wrong." },
+      { "kind": "list", "items": [
+        { "text": "The Ummah is united by faith, not by race or land." },
+        { "text": "The believers are one brotherhood, like a single body." },
+        { "text": "It is a balanced nation called to bear witness and enjoin good." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "उम्मत उन लोगों का एकल समुदाय है जो अल्लाह में विश्वास करते हैं — हर भूमि, भाषा, और नस्ल में फैला हुआ। जो उन्हें एकजुट करता है वह रक्त या सीमाएँ नहीं बल्कि एक साझा विश्वास, एक साझा क़िबला, और अपने एक रब के समक्ष एक साझा उद्देश्य है।" },
+      { "kind": "verse", "surah": 21, "ayah": 92, "note": "निःसंदेह तुम्हारा यह समुदाय एक ही समुदाय है, और मैं तुम्हारा रब हूँ, तो मेरी इबादत करो।" },
+      { "kind": "heading", "level": 2, "text": "एक ही भाईचारा" },
+      { "kind": "p", "text": "ईमान वालों को एक-दूसरे का भाई और बहन घोषित किया गया है, और नबी ﷺ ने उन्हें एक शरीर से उपमा दी: जब एक अंग पीड़ित होता है, पूरा उसका दर्द महसूस करता है। उनका बंधन दया, सुलह, और परस्पर सहयोग की माँग करता है।" },
+      { "kind": "verse", "surah": 49, "ayah": 10, "note": "ईमान वाले तो भाई हैं, तो अपने भाइयों के बीच सुलह कराओ।" },
+      { "kind": "heading", "level": 2, "text": "गवाहों का संतुलित राष्ट्र" },
+      { "kind": "p", "text": "इस उम्मत को एक मध्य, संतुलित समुदाय के रूप में वर्णित किया गया है, जो मानवजाति के समक्ष सत्य की गवाही देने और भलाई की ओर बुलाने तथा बुराई से रोकने के लिए खड़ा किया गया है।" },
+      { "kind": "verse", "surah": 3, "ayah": 110, "note": "तुम लोगों के लिए निकाला गया सबसे अच्छा समुदाय हो: तुम भलाई का आदेश देते और बुराई से रोकते हो।" },
+      { "kind": "list", "items": [
+        { "text": "उम्मत विश्वास से एकजुट है, नस्ल या भूमि से नहीं।" },
+        { "text": "ईमान वाले एक भाईचारा हैं, एक शरीर के समान।" },
+        { "text": "यह एक संतुलित राष्ट्र है जो गवाही देने और भलाई का आदेश देने के लिए बुलाया गया है।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "امت اُن لوگوں کی واحد جماعت ہے جو اللہ پر ایمان رکھتے ہیں — ہر زمین، زبان، اور نسل میں پھیلی ہوئی۔ جو اُنہیں متحد کرتا ہے وہ خون یا سرحدیں نہیں بلکہ ایک مشترکہ ایمان، ایک مشترکہ قبلہ، اور اپنے ایک رب کے سامنے ایک مشترکہ مقصد ہے۔" },
+      { "kind": "verse", "surah": 21, "ayah": 92, "note": "بے شک تمہاری یہ جماعت ایک ہی جماعت ہے، اور میں تمہارا رب ہوں، سو میری عبادت کرو۔" },
+      { "kind": "heading", "level": 2, "text": "ایک ہی بھائی چارہ" },
+      { "kind": "p", "text": "مومنوں کو ایک دوسرے کا بھائی اور بہن قرار دیا گیا ہے، اور نبی ﷺ نے اُنہیں ایک جسم سے تشبیہ دی: جب ایک عضو تکلیف میں ہو، پورا اُس کا درد محسوس کرتا ہے۔ اُن کا رشتہ رحم، صلح، اور باہمی تعاون کا تقاضا کرتا ہے۔" },
+      { "kind": "verse", "surah": 49, "ayah": 10, "note": "مومن تو بھائی ہیں، سو اپنے بھائیوں کے درمیان صلح کراؤ۔" },
+      { "kind": "heading", "level": 2, "text": "گواہوں کی متوازن قوم" },
+      { "kind": "p", "text": "اِس امت کو ایک درمیانی، متوازن جماعت کے طور پر بیان کیا گیا ہے، جو انسانوں کے سامنے سچ کی گواہی دینے اور بھلائی کی طرف بلانے اور برائی سے روکنے کے لیے کھڑی کی گئی ہے۔" },
+      { "kind": "verse", "surah": 3, "ayah": 110, "note": "تم لوگوں کے لیے نکالی گئی سب سے بہتر جماعت ہو: تم بھلائی کا حکم دیتے اور برائی سے روکتے ہو۔" },
+      { "kind": "list", "items": [
+        { "text": "امت ایمان سے متحد ہے، نسل یا زمین سے نہیں۔" },
+        { "text": "مومن ایک بھائی چارہ ہیں، ایک جسم کی مانند۔" },
+        { "text": "یہ ایک متوازن قوم ہے جو گواہی دینے اور بھلائی کا حکم دینے کے لیے بلائی گئی ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "21:92" },
+    { "type": "quran", "ref": "49:10" },
+    { "type": "quran", "ref": "3:110" }
+  ],
+  "relatedSlugs": ["basics-zakat", "concept-sunnah", "prophet-muhammad"]
+}

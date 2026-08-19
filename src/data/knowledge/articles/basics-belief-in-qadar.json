@@ -1,0 +1,68 @@
+{
+  "slug": "basics-belief-in-qadar",
+  "category": "basics",
+  "featured": false,
+  "title": {
+    "en": "Belief in Divine Decree (Qadar)",
+    "hi": "तक़दीर पर ईमान",
+    "ur": "تقدیر پر ایمان"
+  },
+  "summary": {
+    "en": "The sixth article of faith is belief in Qadar — that Allah knows all things, has written all that will be, and that nothing happens except by His will. Yet human beings are given real choice and are answerable for it. This belief brings peace in hardship and humility in ease.",
+    "hi": "ईमान का छठा अनुच्छेद तक़दीर पर विश्वास है — कि अल्लाह सब कुछ जानता है, जो कुछ होगा वह सब लिख चुका है, और उसकी इच्छा के बिना कुछ नहीं होता। फिर भी मनुष्य को वास्तविक विकल्प दिया गया है और वह उसका उत्तरदायी है। यह विश्वास कठिनाई में शांति और सुगमता में विनम्रता लाता है।",
+    "ur": "ایمان کا چھٹا رکن تقدیر پر یقین ہے — کہ اللہ سب کچھ جانتا ہے، جو کچھ ہوگا وہ سب لکھ چکا ہے، اور اُس کی مرضی کے بغیر کچھ نہیں ہوتا۔ پھر بھی انسان کو حقیقی اختیار دیا گیا ہے اور وہ اُس کا جوابدہ ہے۔ یہ یقین مشکل میں سکون اور آسانی میں عاجزی لاتا ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "The sixth article of faith is belief in Qadar — Allah's decree. It means affirming that Allah knew all that would happen, wrote it before creation, and that nothing occurs in the heavens or the earth outside His will." },
+      { "kind": "verse", "surah": 57, "ayah": 22, "note": "No disaster strikes on earth or in yourselves except that it is in a Book before We bring it into being." },
+      { "kind": "heading", "level": 2, "text": "Measure and wisdom" },
+      { "kind": "p", "text": "Everything Allah creates He creates by a precise measure, with perfect knowledge and wisdom. What reaches a person could never have missed them, and what misses them could never have reached them." },
+      { "kind": "verse", "surah": 54, "ayah": 49, "note": "Indeed, all things We created with a precise measure." },
+      { "kind": "heading", "level": 2, "text": "Decree and human choice" },
+      { "kind": "p", "text": "Belief in Qadar does not cancel human responsibility. Allah gives the servant real will and real choice, and holds them accountable for it — the decree is His knowledge, not an excuse to abandon effort." },
+      { "kind": "verse", "surah": 13, "ayah": 11, "note": "Allah does not change the condition of a people until they change what is in themselves." },
+      { "kind": "list", "items": [
+        { "text": "Allah knows and has written all that will happen." },
+        { "text": "Everything is created with a precise measure and wisdom." },
+        { "text": "Humans are given real choice and are answerable for their deeds." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "ईमान का छठा अनुच्छेद तक़दीर पर विश्वास है — अल्लाह का फ़ैसला। इसका अर्थ है यह पुष्टि करना कि अल्लाह जो कुछ होगा वह सब जानता था, उसे सृष्टि से पहले लिख दिया, और आकाशों या धरती में कुछ भी उसकी इच्छा के बाहर नहीं होता।" },
+      { "kind": "verse", "surah": 57, "ayah": 22, "note": "धरती या तुम्हारे भीतर कोई विपत्ति नहीं आती सिवाय इसके कि वह एक किताब में है इससे पहले कि हम उसे अस्तित्व में लाएँ।" },
+      { "kind": "heading", "level": 2, "text": "मात्रा और हिकमत" },
+      { "kind": "p", "text": "अल्लाह जो कुछ रचता है उसे एक सटीक मात्रा से रचता है, पूर्ण ज्ञान और हिकमत के साथ। जो किसी व्यक्ति तक पहुँचता है वह कभी उससे चूक नहीं सकता था, और जो उससे चूकता है वह कभी उस तक पहुँच नहीं सकता था।" },
+      { "kind": "verse", "surah": 54, "ayah": 49, "note": "निःसंदेह, हमने हर चीज़ एक सटीक मात्रा से रची।" },
+      { "kind": "heading", "level": 2, "text": "फ़ैसला और मानवीय विकल्प" },
+      { "kind": "p", "text": "तक़दीर पर विश्वास मानवीय ज़िम्मेदारी को रद्द नहीं करता। अल्लाह बंदे को वास्तविक इच्छा और वास्तविक विकल्प देता है, और उसका उससे हिसाब लेता है — फ़ैसला उसका ज्ञान है, प्रयास छोड़ने का बहाना नहीं।" },
+      { "kind": "verse", "surah": 13, "ayah": 11, "note": "अल्लाह किसी क़ौम की दशा नहीं बदलता जब तक वे वह न बदलें जो उनके भीतर है।" },
+      { "kind": "list", "items": [
+        { "text": "अल्लाह जो कुछ होगा वह सब जानता है और लिख चुका है।" },
+        { "text": "हर चीज़ एक सटीक मात्रा और हिकमत के साथ रची गई है।" },
+        { "text": "मनुष्य को वास्तविक विकल्प दिया गया है और वह अपने कर्मों का उत्तरदायी है।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "ایمان کا چھٹا رکن تقدیر پر یقین ہے — اللہ کا فیصلہ۔ اِس کا مطلب یہ تصدیق کرنا ہے کہ اللہ جو کچھ ہوگا وہ سب جانتا تھا، اُسے تخلیق سے پہلے لکھ دیا، اور آسمانوں یا زمین میں کچھ بھی اُس کی مرضی سے باہر نہیں ہوتا۔" },
+      { "kind": "verse", "surah": 57, "ayah": 22, "note": "زمین یا تمہارے نفسوں میں کوئی مصیبت نہیں آتی مگر یہ کہ وہ ایک کتاب میں ہے اِس سے پہلے کہ ہم اُسے وجود میں لائیں۔" },
+      { "kind": "heading", "level": 2, "text": "اندازہ اور حکمت" },
+      { "kind": "p", "text": "اللہ جو کچھ پیدا کرتا ہے اُسے ایک درست اندازے سے پیدا کرتا ہے، کامل علم اور حکمت کے ساتھ۔ جو کسی شخص تک پہنچتا ہے وہ کبھی اُس سے چوک نہیں سکتا تھا، اور جو اُس سے چوکتا ہے وہ کبھی اُس تک پہنچ نہیں سکتا تھا۔" },
+      { "kind": "verse", "surah": 54, "ayah": 49, "note": "بے شک، ہم نے ہر چیز ایک درست اندازے سے پیدا کی۔" },
+      { "kind": "heading", "level": 2, "text": "فیصلہ اور انسانی اختیار" },
+      { "kind": "p", "text": "تقدیر پر یقین انسانی ذمہ داری کو منسوخ نہیں کرتا۔ اللہ بندے کو حقیقی ارادہ اور حقیقی اختیار دیتا ہے، اور اُس کا اُس سے حساب لیتا ہے — فیصلہ اُس کا علم ہے، کوشش چھوڑنے کا بہانہ نہیں۔" },
+      { "kind": "verse", "surah": 13, "ayah": 11, "note": "اللہ کسی قوم کی حالت نہیں بدلتا جب تک وہ وہ نہ بدلیں جو اُن کے اندر ہے۔" },
+      { "kind": "list", "items": [
+        { "text": "اللہ جو کچھ ہوگا وہ سب جانتا ہے اور لکھ چکا ہے۔" },
+        { "text": "ہر چیز ایک درست اندازے اور حکمت کے ساتھ پیدا کی گئی ہے۔" },
+        { "text": "انسان کو حقیقی اختیار دیا گیا ہے اور وہ اپنے اعمال کا جوابدہ ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "57:22" },
+    { "type": "quran", "ref": "54:49" },
+    { "type": "quran", "ref": "13:11" }
+  ],
+  "relatedSlugs": ["concept-iman", "concept-tawakkul", "concept-sabr"]
+}

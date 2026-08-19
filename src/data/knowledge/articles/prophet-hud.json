@@ -1,0 +1,70 @@
+{
+  "slug": "prophet-hud",
+  "category": "prophets",
+  "prophetNumber": 4,
+  "featured": false,
+  "title": {
+    "en": "Hūd — The Prophet Sent to ʿĀd",
+    "hi": "हूद (हूद अलैहिस्सलाम) — क़ौम आद की ओर भेजे गए नबी",
+    "ur": "ہود علیہ السلام — قومِ عاد کی طرف بھیجے گئے نبی"
+  },
+  "summary": {
+    "en": "Hūd was sent to the mighty people of ʿĀd, who were proud of their strength and built monuments to their vanity. He called them to worship Allah alone; when they denied him, a devastating wind destroyed them.",
+    "hi": "हूद शक्तिशाली क़ौम आद की ओर भेजे गए, जो अपनी शक्ति पर घमंड करते और अपने अहंकार के स्मारक बनाते थे। उन्होंने उन्हें केवल अल्लाह की इबादत की ओर बुलाया; जब उन्होंने इनकार किया, तो एक विनाशकारी आँधी ने उन्हें नष्ट कर दिया।",
+    "ur": "ہود علیہ السلام طاقتور قومِ عاد کی طرف بھیجے گئے، جو اپنی قوت پر فخر کرتے اور اپنے غرور کی یادگاریں بناتے تھے۔ انہوں نے انہیں صرف اللہ کی عبادت کی دعوت دی؛ جب انہوں نے انکار کیا تو ایک تباہ کن آندھی نے انہیں ہلاک کر دیا۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Hūd (peace be upon him) was raised among the people of ʿĀd, a powerful nation in the sandy dunes of Arabia. They were tall, strong, and skilled builders, but their power made them arrogant and they worshipped idols." },
+      { "kind": "verse", "surah": 7, "ayah": 65, "note": "Hūd tells his people: worship Allah — you have no god but Him." },
+      { "kind": "heading", "level": 2, "text": "A call to gratitude" },
+      { "kind": "p", "text": "Hūd reminded them that their strength and prosperity were gifts from Allah, urging them to be grateful and to stop oppressing others. But the chiefs accused him of foolishness and clung to the ways of their forefathers." },
+      { "kind": "verse", "surah": 11, "ayah": 52, "note": "Hūd calls them to seek forgiveness and turn to Allah, that He may increase them in strength." },
+      { "kind": "heading", "level": 2, "text": "The barren wind" },
+      { "kind": "p", "text": "When they persisted in denial and challenged him to bring the punishment, Allah sent a furious, icy wind that raged for seven nights and eight days, sweeping away the deniers while saving Hūd and the believers." },
+      { "kind": "verse", "surah": 69, "ayah": 6, "note": "The people of ʿĀd were destroyed by a roaring, violent wind." },
+      { "kind": "list", "items": [
+        { "text": "Worldly strength is a trust from Allah, not a cause for arrogance." },
+        { "text": "Gratitude preserves blessings; ingratitude invites ruin." },
+        { "text": "Every nation is sent a warner in its own language." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "हूद (अलैहिस्सलाम) क़ौम आद में उठे, जो अरब के रेतीले टीलों में एक शक्तिशाली राष्ट्र था। वे लंबे, बलवान और कुशल निर्माता थे, परन्तु उनकी शक्ति ने उन्हें घमंडी बना दिया और वे मूर्तियों की पूजा करते थे।" },
+      { "kind": "verse", "surah": 7, "ayah": 65, "note": "हूद अपनी क़ौम से कहते हैं: अल्लाह की इबादत करो — उसके सिवा तुम्हारा कोई माबूद नहीं।" },
+      { "kind": "heading", "level": 2, "text": "आभार का आह्वान" },
+      { "kind": "p", "text": "हूद ने उन्हें याद दिलाया कि उनकी शक्ति और समृद्धि अल्लाह की देन हैं, उन्हें आभारी होने और दूसरों पर अत्याचार बंद करने के लिए कहा। परन्तु सरदारों ने उन पर मूर्खता का आरोप लगाया और अपने पूर्वजों के तरीक़ों से चिपके रहे।" },
+      { "kind": "verse", "surah": 11, "ayah": 52, "note": "हूद उन्हें क्षमा माँगने और अल्लाह की ओर लौटने के लिए बुलाते हैं, ताकि वह उन्हें शक्ति में बढ़ाए।" },
+      { "kind": "heading", "level": 2, "text": "बंजर आँधी" },
+      { "kind": "p", "text": "जब वे इनकार पर अड़े रहे और उन्हें अज़ाब लाने की चुनौती दी, तो अल्लाह ने एक प्रचंड, बर्फ़ीली आँधी भेजी जो सात रातें और आठ दिन चली, इनकार करने वालों को उड़ा ले गई जबकि हूद और ईमान वालों को बचा लिया।" },
+      { "kind": "verse", "surah": 69, "ayah": 6, "note": "क़ौम आद एक गरजती, प्रचंड आँधी से नष्ट कर दी गई।" },
+      { "kind": "list", "items": [
+        { "text": "सांसारिक शक्ति अल्लाह की अमानत है, घमंड का कारण नहीं।" },
+        { "text": "आभार नेमतों को क़ायम रखता है; कृतघ्नता विनाश को बुलाती है।" },
+        { "text": "हर राष्ट्र के पास उसकी अपनी भाषा में एक चेतावनी देने वाला भेजा गया।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "ہود علیہ السلام قومِ عاد میں اٹھے، جو عرب کے ریتیلے ٹیلوں میں ایک طاقتور قوم تھی۔ وہ لمبے، مضبوط اور ماہر معمار تھے، مگر اُن کی طاقت نے انہیں مغرور بنا دیا اور وہ بتوں کی پوجا کرتے تھے۔" },
+      { "kind": "verse", "surah": 7, "ayah": 65, "note": "ہود اپنی قوم سے کہتے ہیں: اللہ کی عبادت کرو — اُس کے سوا تمہارا کوئی معبود نہیں۔" },
+      { "kind": "heading", "level": 2, "text": "شکر کی دعوت" },
+      { "kind": "p", "text": "ہود نے انہیں یاد دلایا کہ اُن کی طاقت اور خوشحالی اللہ کی عطا ہیں، انہیں شکرگزار ہونے اور دوسروں پر ظلم بند کرنے کی تلقین کی۔ مگر سرداروں نے اُن پر بے وقوفی کا الزام لگایا اور اپنے آباؤ اجداد کے طریقوں سے چمٹے رہے۔" },
+      { "kind": "verse", "surah": 11, "ayah": 52, "note": "ہود انہیں مغفرت مانگنے اور اللہ کی طرف پلٹنے کی دعوت دیتے ہیں، تاکہ وہ انہیں قوت میں بڑھائے۔" },
+      { "kind": "heading", "level": 2, "text": "بانجھ آندھی" },
+      { "kind": "p", "text": "جب وہ انکار پر اڑے رہے اور انہیں عذاب لانے کی للکار دی، تو اللہ نے ایک تند، برفیلی آندھی بھیجی جو سات راتیں اور آٹھ دن چلی، منکرین کو اڑا لے گئی جبکہ ہود اور مومنوں کو بچا لیا۔" },
+      { "kind": "verse", "surah": 69, "ayah": 6, "note": "قومِ عاد ایک گرجتی، تند آندھی سے ہلاک کر دی گئی۔" },
+      { "kind": "list", "items": [
+        { "text": "دنیاوی طاقت اللہ کی امانت ہے، غرور کا سبب نہیں۔" },
+        { "text": "شکر نعمتوں کو قائم رکھتا ہے؛ ناشکری تباہی کو بلاتی ہے۔" },
+        { "text": "ہر قوم کے پاس اُس کی اپنی زبان میں ایک ڈرانے والا بھیجا گیا۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "7:65-72" },
+    { "type": "quran", "ref": "11:50-60" },
+    { "type": "quran", "ref": "69:6-8" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["prophet-nuh", "prophet-salih", "concept-shirk"]
+}

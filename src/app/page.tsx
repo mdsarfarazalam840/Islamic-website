@@ -23,6 +23,14 @@ const quickLinks = [
     stats: "7 Collections · 36,000+ Hadiths",
   },
   {
+    title: "Knowledge Base",
+    description: "Learn the basics, the prophets, and core Islamic concepts",
+    icon: Library,
+    href: "/knowledge-base",
+    gradient: "from-gold-dim/20 to-gold-dim/5",
+    stats: "5 Categories · Trilingual",
+  },
+  {
     title: "Videos",
     description: "Islamic lectures from top scholars worldwide",
     icon: Video,
@@ -100,9 +108,9 @@ export default function HomePage() {
       {/* Sacred Margin */}
       <div className="sacred-margin" />
 
-      {/* Quick Links — Four Chambers */}
+      {/* Quick Links — Five Chambers */}
       <section className="mx-auto max-w-7xl w-full px-4 sm:px-6">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
           {quickLinks.map(({ title, description, icon: Icon, href, gradient, stats }) => (
             <Link
               key={href}

@@ -1,3 +1,22 @@
 export type { Ayah, Surah, Juz } from "./quran"
 export type { Hadith, HadithCollection, HadithBook, HadithCollectionId } from "./hadith"
 export type { Video, Playlist, PlaylistVideo, Scholar } from "./video"
+export type {
+  Language,
+  LocalizedText,
+  KnowledgeCategory,
+  HadithGrade,
+  SourceTag,
+  Block,
+  ParagraphBlock,
+  HeadingBlock,
+  ListBlock,
+  VerseBlock,
+  HadithBlock,
+  KnowledgeArticle,
+  KnowledgeArticleMeta,
+  HydratedBlock,
+  HydratedVerseBlock,
+  HydratedHadithBlock,
+  HydratedArticle,
+} from "./knowledge"

@@ -1,0 +1,66 @@
+{
+  "slug": "surah-al-kahf",
+  "category": "surahs",
+  "surahNumber": 18,
+  "featured": false,
+  "title": {
+    "en": "Sūrat al-Kahf — The Cave",
+    "hi": "सूरह अल-कहफ़ — गुफा",
+    "ur": "سورۃ الکہف — غار"
+  },
+  "summary": {
+    "en": "A Makkan surah of 110 verses recommended for recitation every Friday. It weaves together four stories — the sleepers of the cave, the man of the two gardens, Mūsā and al-Khiḍr, and Dhul-Qarnayn — each a lesson in facing trials of faith, wealth, knowledge, and power.",
+    "hi": "110 आयतों की एक मक्की सूरह जिसकी हर शुक्रवार तिलावत की सिफ़ारिश की जाती है। यह चार कहानियों को एक साथ बुनती है — गुफा वाले, दो बाग़ों वाला व्यक्ति, मूसा और ख़िज़्र, और ज़ुल-क़रनैन — हर एक ईमान, धन, ज्ञान, और शक्ति की परीक्षाओं का सामना करने का पाठ।",
+    "ur": "110 آیات کی ایک مکی سورت جس کی ہر جمعہ تلاوت کی سفارش کی جاتی ہے۔ یہ چار قصوں کو ایک ساتھ بُنتی ہے — اصحابِ کہف، دو باغوں والا شخص، موسیٰ اور خضر، اور ذوالقرنین — ہر ایک ایمان، مال، علم، اور طاقت کی آزمائشوں کا سامنا کرنے کا سبق۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Sūrat al-Kahf — \"The Cave\" — is a Makkan surah of 110 verses. It is famous for four narratives that together teach how to remain steadfast through the great trials of life: faith, wealth, knowledge, and power." },
+      { "kind": "verse", "surah": 18, "ayah": 1, "note": "All praise to Allah, who sent down the Book to His servant and made it straight, with no crookedness." },
+      { "kind": "heading", "level": 2, "text": "Four stories, four trials" },
+      { "kind": "p", "text": "The young believers of the cave face the trial of faith; the owner of two gardens, the trial of wealth; Mūsā's journey with al-Khiḍr, the trial of knowledge; and Dhul-Qarnayn, the trial of power. Each shows the way through by holding to Allah." },
+      { "kind": "verse", "surah": 18, "ayah": 10, "note": "When the youths took refuge in the cave and said: Our Lord, grant us mercy from Yourself and guide us rightly." },
+      { "kind": "heading", "level": 2, "text": "A light between two Fridays" },
+      { "kind": "p", "text": "The Prophet ﷺ encouraged reciting Sūrat al-Kahf on Fridays, teaching that whoever reads it is given a light shining between the two Fridays, and that memorising its opening verses is a protection from the great trial at the end of time." },
+      { "kind": "list", "items": [
+        { "text": "The surah gathers four stories on the trials of faith, wealth, knowledge, and power." },
+        { "text": "Each story shows steadfastness through holding fast to Allah." },
+        { "text": "It is recommended to recite it every Friday for its light and protection." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "सूरह अल-कहफ़ — \"गुफा\" — 110 आयतों की एक मक्की सूरह है। यह चार वृत्तांतों के लिए प्रसिद्ध है जो मिलकर सिखाते हैं कि जीवन की बड़ी परीक्षाओं में कैसे दृढ़ रहा जाए: ईमान, धन, ज्ञान, और शक्ति।" },
+      { "kind": "verse", "surah": 18, "ayah": 1, "note": "सारी प्रशंसा अल्लाह के लिए, जिसने अपने बंदे पर किताब उतारी और उसे सीधा बनाया, बिना किसी टेढ़ेपन के।" },
+      { "kind": "heading", "level": 2, "text": "चार कहानियाँ, चार परीक्षाएँ" },
+      { "kind": "p", "text": "गुफा के युवा ईमान वाले ईमान की परीक्षा का सामना करते हैं; दो बाग़ों का स्वामी, धन की परीक्षा; मूसा की ख़िज़्र के साथ यात्रा, ज्ञान की परीक्षा; और ज़ुल-क़रनैन, शक्ति की परीक्षा। हर एक अल्लाह को थामकर पार होने का मार्ग दिखाता है।" },
+      { "kind": "verse", "surah": 18, "ayah": 10, "note": "जब युवाओं ने गुफा में शरण ली और कहा: हे हमारे रब, हमें अपनी ओर से दया दे और हमें सीधा मार्ग दिखा।" },
+      { "kind": "heading", "level": 2, "text": "दो शुक्रवारों के बीच एक प्रकाश" },
+      { "kind": "p", "text": "नबी ﷺ ने शुक्रवार को सूरह अल-कहफ़ पढ़ने को प्रोत्साहित किया, यह सिखाते हुए कि जो इसे पढ़ता है उसे दो शुक्रवारों के बीच चमकता एक प्रकाश दिया जाता है, और इसकी प्रारंभिक आयतें याद करना समय के अंत की बड़ी परीक्षा से सुरक्षा है।" },
+      { "kind": "list", "items": [
+        { "text": "यह सूरह ईमान, धन, ज्ञान, और शक्ति की परीक्षाओं पर चार कहानियाँ समेटती है।" },
+        { "text": "हर कहानी अल्लाह को दृढ़ता से थामकर स्थिरता दिखाती है।" },
+        { "text": "इसके प्रकाश और सुरक्षा के लिए इसे हर शुक्रवार पढ़ने की सिफ़ारिश की जाती है।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "سورۃ الکہف — \"غار\" — 110 آیات کی ایک مکی سورت ہے۔ یہ چار قصوں کے لیے مشہور ہے جو مل کر سکھاتے ہیں کہ زندگی کی بڑی آزمائشوں میں کیسے ثابت قدم رہا جائے: ایمان، مال، علم، اور طاقت۔" },
+      { "kind": "verse", "surah": 18, "ayah": 1, "note": "ساری تعریف اللہ کے لیے، جس نے اپنے بندے پر کتاب نازل کی اور اُسے سیدھا بنایا، بغیر کسی کجی کے۔" },
+      { "kind": "heading", "level": 2, "text": "چار قصے، چار آزمائشیں" },
+      { "kind": "p", "text": "غار کے نوجوان مومن ایمان کی آزمائش کا سامنا کرتے ہیں؛ دو باغوں کا مالک، مال کی آزمائش؛ موسیٰ کا خضر کے ساتھ سفر، علم کی آزمائش؛ اور ذوالقرنین، طاقت کی آزمائش۔ ہر ایک اللہ کو تھام کر پار ہونے کا راستہ دکھاتا ہے۔" },
+      { "kind": "verse", "surah": 18, "ayah": 10, "note": "جب نوجوانوں نے غار میں پناہ لی اور کہا: اے ہمارے رب، ہمیں اپنی طرف سے رحمت دے اور ہمیں سیدھی راہ دکھا۔" },
+      { "kind": "heading", "level": 2, "text": "دو جمعوں کے درمیان ایک نور" },
+      { "kind": "p", "text": "نبی ﷺ نے جمعہ کو سورۃ الکہف پڑھنے کی ترغیب دی، یہ سکھاتے ہوئے کہ جو اِسے پڑھتا ہے اُسے دو جمعوں کے درمیان چمکتا ایک نور دیا جاتا ہے، اور اِس کی ابتدائی آیات یاد کرنا زمانے کے آخر کی بڑی آزمائش سے حفاظت ہے۔" },
+      { "kind": "list", "items": [
+        { "text": "یہ سورت ایمان، مال، علم، اور طاقت کی آزمائشوں پر چار قصے سمیٹتی ہے۔" },
+        { "text": "ہر قصہ اللہ کو مضبوطی سے تھام کر ثابت قدمی دکھاتا ہے۔" },
+        { "text": "اِس کے نور اور حفاظت کے لیے اِسے ہر جمعہ پڑھنے کی سفارش کی جاتی ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "18:1-10" },
+    { "type": "hadith", "collection": "muslim", "ref": "809", "grade": "sahih" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["story-people-of-the-cave", "story-dhul-qarnayn", "prophet-musa"]
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "prophet-idris",
+  "category": "prophets",
+  "prophetNumber": 2,
+  "featured": false,
+  "title": {
+    "en": "Idrīs (Enoch) — The Truthful Prophet Raised High",
+    "hi": "इदरीस (इदरीस अलैहिस्सलाम) — सच्चे नबी जिन्हें ऊँचा उठाया गया",
+    "ur": "ادریس علیہ السلام — سچے نبی جنہیں بلند مقام دیا گیا"
+  },
+  "summary": {
+    "en": "Idrīs was a truthful prophet and a man of great patience whom Allah raised to a high station. The Qur'an praises him briefly but honours him among the righteous.",
+    "hi": "इदरीस एक सच्चे नबी और महान धैर्य के व्यक्ति थे जिन्हें अल्लाह ने ऊँचे स्थान पर उठाया। क़ुरआन संक्षेप में उनकी प्रशंसा करता है परन्तु उन्हें धर्मियों में सम्मानित करता है।",
+    "ur": "ادریس علیہ السلام ایک سچے نبی اور بڑے صبر والے انسان تھے جنہیں اللہ نے بلند مقام پر اٹھایا۔ قرآن مختصراً اُن کی تعریف کرتا ہے مگر انہیں نیکوکاروں میں شمار کرتا ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Idrīs (peace be upon him) is named among the prophets of the early generations after Ādam. The Qur'an describes him with two qualities that define a life of faith: truthfulness and steadfast patience." },
+      { "kind": "verse", "surah": 19, "ayah": 56, "note": "Allah calls Idrīs a man of truth and a prophet." },
+      { "kind": "verse", "surah": 19, "ayah": 57, "note": "And Allah raised him to a high station." },
+      { "kind": "heading", "level": 2, "text": "Among the patient" },
+      { "kind": "p", "text": "Elsewhere the Qur'an places him alongside prophets known for their endurance, counting him among the patient and the righteous whom Allah admitted into His mercy." },
+      { "kind": "verse", "surah": 21, "ayah": 85, "note": "Idrīs is listed among the patient ones." },
+      { "kind": "list", "items": [
+        { "text": "Truthfulness (ṣidq) is a hallmark of every prophet." },
+        { "text": "Patience through hardship raises a believer's rank with Allah." },
+        { "text": "Even a brief mention in revelation is a lasting honour." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "इदरीस (अलैहिस्सलाम) आदम के बाद की आरंभिक पीढ़ियों के नबियों में गिने जाते हैं। क़ुरआन उन्हें दो गुणों से वर्णित करता है जो ईमान के जीवन को परिभाषित करते हैं: सच्चाई और अटल धैर्य।" },
+      { "kind": "verse", "surah": 19, "ayah": 56, "note": "अल्लाह इदरीस को सत्य का व्यक्ति और नबी कहता है।" },
+      { "kind": "verse", "surah": 19, "ayah": 57, "note": "और अल्लाह ने उन्हें एक ऊँचे स्थान पर उठाया।" },
+      { "kind": "heading", "level": 2, "text": "धैर्यवानों में" },
+      { "kind": "p", "text": "अन्यत्र क़ुरआन उन्हें उन नबियों के साथ रखता है जो अपनी सहनशीलता के लिए जाने जाते हैं, उन्हें धैर्यवानों और धर्मियों में गिनते हुए जिन्हें अल्लाह ने अपनी दया में दाख़िल किया।" },
+      { "kind": "verse", "surah": 21, "ayah": 85, "note": "इदरीस धैर्यवानों में सूचीबद्ध हैं।" },
+      { "kind": "list", "items": [
+        { "text": "सच्चाई (सिद्क़) हर नबी की पहचान है।" },
+        { "text": "कठिनाई में धैर्य ईमान वाले का दर्जा अल्लाह के यहाँ बढ़ाता है।" },
+        { "text": "वह्य में संक्षिप्त उल्लेख भी एक स्थायी सम्मान है।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "ادریس علیہ السلام آدم کے بعد کی ابتدائی نسلوں کے انبیاء میں شمار ہوتے ہیں۔ قرآن انہیں دو صفات سے بیان کرتا ہے جو ایمان کی زندگی کو متعین کرتی ہیں: سچائی اور پختہ صبر۔" },
+      { "kind": "verse", "surah": 19, "ayah": 56, "note": "اللہ ادریس کو سچائی والا اور نبی کہتا ہے۔" },
+      { "kind": "verse", "surah": 19, "ayah": 57, "note": "اور اللہ نے انہیں ایک بلند مقام پر اٹھایا۔" },
+      { "kind": "heading", "level": 2, "text": "صابرین میں" },
+      { "kind": "p", "text": "دوسری جگہ قرآن انہیں اُن انبیاء کے ساتھ رکھتا ہے جو اپنی برداشت کے لیے مشہور ہیں، انہیں صابروں اور نیکوکاروں میں شمار کرتے ہوئے جنہیں اللہ نے اپنی رحمت میں داخل کیا۔" },
+      { "kind": "verse", "surah": 21, "ayah": 85, "note": "ادریس صابرین میں شمار کیے گئے ہیں۔" },
+      { "kind": "list", "items": [
+        { "text": "سچائی (صدق) ہر نبی کی پہچان ہے۔" },
+        { "text": "مشکل میں صبر مومن کا درجہ اللہ کے ہاں بلند کرتا ہے۔" },
+        { "text": "وحی میں مختصر ذکر بھی ایک دائمی اعزاز ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "19:56-57" },
+    { "type": "quran", "ref": "21:85-86" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["prophet-adam", "prophet-nuh", "concept-sabr"]
+}

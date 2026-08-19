@@ -1,0 +1,68 @@
+{
+  "slug": "concept-halal-haram",
+  "category": "concepts",
+  "featured": false,
+  "title": {
+    "en": "Ḥalāl and Ḥarām — The Lawful and the Forbidden",
+    "hi": "हलाल और हराम — जायज़ और नाजायज़",
+    "ur": "حلال اور حرام — جائز اور ناجائز"
+  },
+  "summary": {
+    "en": "Ḥalāl is what Allah has made lawful; ḥarām is what He has forbidden. The default in life is permission, and only what Allah and His Messenger ﷺ prohibited is off-limits. Seeking the lawful and shunning the forbidden is at the heart of a faithful life.",
+    "hi": "हलाल वह है जिसे अल्लाह ने जायज़ बनाया; हराम वह है जिसे उसने मना किया। जीवन में मूल अनुमति है, और केवल वही जिसे अल्लाह और उसके रसूल ﷺ ने निषिद्ध किया, वर्जित है। जायज़ की तलाश और हराम से बचना एक ईमानदार जीवन के केंद्र में है।",
+    "ur": "حلال وہ ہے جسے اللہ نے جائز بنایا؛ حرام وہ ہے جسے اُس نے منع کیا۔ زندگی میں اصل اجازت ہے، اور صرف وہی جسے اللہ اور اُس کے رسول ﷺ نے منع کیا، ممنوع ہے۔ حلال کی تلاش اور حرام سے بچنا ایک باایمان زندگی کے مرکز میں ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Islam divides actions and things into the lawful (ḥalāl) and the forbidden (ḥarām), with much that is simply permitted in between. The guiding principle is that Allah created the good things of the earth for people to enjoy within His limits." },
+      { "kind": "verse", "surah": 2, "ayah": 168, "note": "O people, eat of what is lawful and good on the earth, and do not follow the footsteps of Satan." },
+      { "kind": "heading", "level": 2, "text": "Good things made lawful, harmful things forbidden" },
+      { "kind": "p", "text": "What Allah forbids He forbids out of wisdom and mercy — it is tied to what harms the body, the mind, or society. The Prophet ﷺ was sent to make the good things lawful and to forbid what is impure and harmful." },
+      { "kind": "verse", "surah": 7, "ayah": 157, "note": "He makes lawful for them the good things and forbids them the impure, and relieves them of their burdens." },
+      { "kind": "heading", "level": 2, "text": "Seeking the lawful" },
+      { "kind": "p", "text": "A believer is careful about the source of their food, wealth, and dealings, choosing the lawful even when the forbidden is easier. Guarding against the doubtful protects one's faith and keeps supplication answered." },
+      { "kind": "verse", "surah": 2, "ayah": 172, "note": "O you who believe, eat from the good things We have provided you, and be grateful to Allah." },
+      { "kind": "list", "items": [
+        { "text": "Ḥalāl is what Allah made lawful; ḥarām is what He forbade." },
+        { "text": "The default is permission; prohibition needs proof from Allah and His Messenger ﷺ." },
+        { "text": "Seeking lawful food and earnings and shunning the forbidden is core to faith." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "इस्लाम कर्मों और चीज़ों को जायज़ (हलाल) और निषिद्ध (हराम) में बाँटता है, और बीच में बहुत कुछ जो केवल अनुमत है। मार्गदर्शक सिद्धांत यह है कि अल्लाह ने धरती की अच्छी चीज़ें लोगों के लिए अपनी सीमाओं के भीतर आनंद लेने को रचीं।" },
+      { "kind": "verse", "surah": 2, "ayah": 168, "note": "ऐ लोगो, धरती पर जो जायज़ और पाक है उसमें से खाओ, और शैतान के पदचिह्नों का अनुसरण न करो।" },
+      { "kind": "heading", "level": 2, "text": "अच्छी चीज़ें जायज़, हानिकारक चीज़ें निषिद्ध" },
+      { "kind": "p", "text": "अल्लाह जो मना करता है वह हिकमत और दया से मना करता है — यह उससे जुड़ा है जो शरीर, मन, या समाज को हानि पहुँचाता है। नबी ﷺ अच्छी चीज़ों को जायज़ बनाने और जो अपवित्र व हानिकारक है उसे मना करने के लिए भेजे गए।" },
+      { "kind": "verse", "surah": 7, "ayah": 157, "note": "वह उनके लिए अच्छी चीज़ों को जायज़ बनाता है और अपवित्र को मना करता है, और उनके बोझ उतारता है।" },
+      { "kind": "heading", "level": 2, "text": "जायज़ की तलाश" },
+      { "kind": "p", "text": "ईमान वाला अपने भोजन, धन, और लेन-देन के स्रोत के बारे में सावधान रहता है, जायज़ को चुनता है भले ही हराम आसान हो। संदिग्ध से बचना अपने ईमान की रक्षा करता है और दुआ को स्वीकृत रखता है।" },
+      { "kind": "verse", "surah": 2, "ayah": 172, "note": "ऐ ईमान वालो, जो अच्छी चीज़ें हमने तुम्हें दी हैं उनमें से खाओ, और अल्लाह के आभारी बनो।" },
+      { "kind": "list", "items": [
+        { "text": "हलाल वह है जिसे अल्लाह ने जायज़ बनाया; हराम वह जिसे उसने मना किया।" },
+        { "text": "मूल अनुमति है; निषेध के लिए अल्लाह और उसके रसूल ﷺ से प्रमाण चाहिए।" },
+        { "text": "जायज़ भोजन व कमाई की तलाश और हराम से बचना ईमान का मूल है।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "اسلام اعمال اور چیزوں کو جائز (حلال) اور ممنوع (حرام) میں تقسیم کرتا ہے، اور درمیان میں بہت کچھ جو صرف مباح ہے۔ رہنما اصول یہ ہے کہ اللہ نے زمین کی اچھی چیزیں لوگوں کے لیے اپنی حدود کے اندر لطف اٹھانے کو پیدا کیں۔" },
+      { "kind": "verse", "surah": 2, "ayah": 168, "note": "اے لوگو، زمین پر جو حلال اور پاک ہے اُس میں سے کھاؤ، اور شیطان کے قدموں کی پیروی نہ کرو۔" },
+      { "kind": "heading", "level": 2, "text": "اچھی چیزیں حلال، نقصان دہ چیزیں حرام" },
+      { "kind": "p", "text": "اللہ جو منع کرتا ہے وہ حکمت اور رحمت سے منع کرتا ہے — یہ اُس سے جڑا ہے جو جسم، عقل، یا معاشرے کو نقصان پہنچاتا ہے۔ نبی ﷺ اچھی چیزوں کو حلال بنانے اور جو ناپاک و نقصان دہ ہے اُسے منع کرنے کے لیے بھیجے گئے۔" },
+      { "kind": "verse", "surah": 7, "ayah": 157, "note": "وہ اُن کے لیے اچھی چیزوں کو حلال بناتا ہے اور ناپاک کو منع کرتا ہے، اور اُن کے بوجھ اتارتا ہے۔" },
+      { "kind": "heading", "level": 2, "text": "حلال کی تلاش" },
+      { "kind": "p", "text": "مومن اپنے کھانے، مال، اور لین دین کے ذریعے کے بارے میں محتاط رہتا ہے، حلال کو چنتا ہے خواہ حرام آسان ہو۔ مشتبہ سے بچنا اپنے ایمان کی حفاظت کرتا ہے اور دعا کو قبول رکھتا ہے۔" },
+      { "kind": "verse", "surah": 2, "ayah": 172, "note": "اے ایمان والو، جو اچھی چیزیں ہم نے تمہیں دی ہیں اُن میں سے کھاؤ، اور اللہ کے شکر گزار بنو۔" },
+      { "kind": "list", "items": [
+        { "text": "حلال وہ ہے جسے اللہ نے جائز بنایا؛ حرام وہ جسے اُس نے منع کیا۔" },
+        { "text": "اصل اجازت ہے؛ ممانعت کے لیے اللہ اور اُس کے رسول ﷺ سے دلیل چاہیے۔" },
+        { "text": "حلال کھانے و کمائی کی تلاش اور حرام سے بچنا ایمان کا مرکز ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "2:168" },
+    { "type": "quran", "ref": "7:157" },
+    { "type": "quran", "ref": "2:172" }
+  ],
+  "relatedSlugs": ["concept-taqwa", "concept-sunnah", "basics-zakat"]
+}

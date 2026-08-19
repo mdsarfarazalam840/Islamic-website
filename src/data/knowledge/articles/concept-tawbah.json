@@ -1,0 +1,68 @@
+{
+  "slug": "concept-tawbah",
+  "category": "concepts",
+  "featured": false,
+  "title": {
+    "en": "Tawbah — Repentance",
+    "hi": "तौबा — पश्चाताप",
+    "ur": "توبہ — رجوع"
+  },
+  "summary": {
+    "en": "Tawbah is turning back to Allah in repentance: regretting sin, abandoning it, and resolving not to return. The Qur'an calls the believers to it constantly and promises that Allah loves those who repent and forgives all sins for the one who turns to Him.",
+    "hi": "तौबा पश्चाताप में अल्लाह की ओर लौटना है: गुनाह पर पछताना, उसे छोड़ना, और उसकी ओर न लौटने का संकल्प करना। क़ुरआन ईमान वालों को इसकी निरंतर पुकार देता है और वादा करता है कि अल्लाह तौबा करने वालों से प्रेम करता है और उसकी ओर लौटने वाले के सब गुनाह क्षमा कर देता है।",
+    "ur": "توبہ رجوع میں اللہ کی طرف لوٹنا ہے: گناہ پر پچھتانا، اُسے چھوڑنا، اور اُس کی طرف نہ لوٹنے کا عزم کرنا۔ قرآن مومنوں کو اِس کی مسلسل پکار دیتا ہے اور وعدہ کرتا ہے کہ اللہ توبہ کرنے والوں سے محبت کرتا ہے اور اُس کی طرف لوٹنے والے کے سب گناہ معاف کر دیتا ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Tawbah is the act of turning back to Allah after sin. It rests on sincere regret, immediately leaving the wrong, and a firm resolve never to return to it — and where a person has wronged others, restoring their rights." },
+      { "kind": "verse", "surah": 24, "ayah": 31, "note": "And turn to Allah in repentance, all of you, O believers, that you may succeed." },
+      { "kind": "heading", "level": 2, "text": "A door that never closes" },
+      { "kind": "p", "text": "No sin is too great for Allah's forgiveness. He calls even those who have wronged themselves the most not to despair, for He forgives all sins for the one who sincerely turns back to Him." },
+      { "kind": "verse", "surah": 39, "ayah": 53, "note": "Do not despair of the mercy of Allah; indeed Allah forgives all sins." },
+      { "kind": "heading", "level": 2, "text": "Beloved to Allah" },
+      { "kind": "p", "text": "Far from being merely tolerated, the repentant are loved by Allah. He rejoices at the return of His servant more than one who recovers what was lost, and He replaces their sins with good deeds." },
+      { "kind": "verse", "surah": 2, "ayah": 222, "note": "Indeed, Allah loves those who turn to Him in repentance and loves those who purify themselves." },
+      { "kind": "list", "items": [
+        { "text": "Tawbah is sincere regret, leaving the sin, and resolving not to return." },
+        { "text": "Allah forgives all sins for the one who turns back to Him." },
+        { "text": "The repentant are loved by Allah, not merely pardoned." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "तौबा गुनाह के बाद अल्लाह की ओर लौटने का कर्म है। यह सच्चे पछतावे, तुरंत बुराई छोड़ने, और उसकी ओर कभी न लौटने के दृढ़ संकल्प पर टिका है — और जहाँ किसी ने दूसरों पर अत्याचार किया हो, उनके अधिकार लौटाने पर।" },
+      { "kind": "verse", "surah": 24, "ayah": 31, "note": "और अल्लाह की ओर पश्चाताप में लौटो, तुम सब, ऐ ईमान वालो, ताकि तुम सफल हो।" },
+      { "kind": "heading", "level": 2, "text": "एक द्वार जो कभी बंद नहीं होता" },
+      { "kind": "p", "text": "कोई गुनाह अल्लाह की क्षमा के लिए बहुत बड़ा नहीं। वह उन्हें भी जिन्होंने अपने ऊपर सबसे अधिक अत्याचार किया, निराश न होने को पुकारता है, क्योंकि वह उसके सब गुनाह क्षमा कर देता है जो सच्चाई से उसकी ओर लौटता है।" },
+      { "kind": "verse", "surah": 39, "ayah": 53, "note": "अल्लाह की दया से निराश न हो; निःसंदेह अल्लाह सब गुनाह क्षमा कर देता है।" },
+      { "kind": "heading", "level": 2, "text": "अल्लाह को प्रिय" },
+      { "kind": "p", "text": "केवल सहन किए जाने से कहीं बढ़कर, पश्चाताप करने वाले अल्लाह को प्रिय हैं। वह अपने बंदे की वापसी पर उससे भी अधिक प्रसन्न होता है जो खोया हुआ पा लेता है, और उनके गुनाहों को नेकियों से बदल देता है।" },
+      { "kind": "verse", "surah": 2, "ayah": 222, "note": "निःसंदेह, अल्लाह उनसे प्रेम करता है जो पश्चाताप में उसकी ओर लौटते हैं और उनसे जो स्वयं को पवित्र करते हैं।" },
+      { "kind": "list", "items": [
+        { "text": "तौबा सच्चा पछतावा, गुनाह छोड़ना, और न लौटने का संकल्प है।" },
+        { "text": "अल्लाह उसके सब गुनाह क्षमा कर देता है जो उसकी ओर लौटता है।" },
+        { "text": "पश्चाताप करने वाले अल्लाह को प्रिय हैं, केवल क्षमा किए हुए नहीं।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "توبہ گناہ کے بعد اللہ کی طرف لوٹنے کا عمل ہے۔ یہ سچے پچھتاوے، فوراً برائی چھوڑنے، اور اُس کی طرف کبھی نہ لوٹنے کے پختہ عزم پر قائم ہے — اور جہاں کسی نے دوسروں پر ظلم کیا ہو، اُن کے حقوق لوٹانے پر۔" },
+      { "kind": "verse", "surah": 24, "ayah": 31, "note": "اور اللہ کی طرف توبہ میں لوٹو، تم سب، اے مومنو، تاکہ تم کامیاب ہو۔" },
+      { "kind": "heading", "level": 2, "text": "ایک دروازہ جو کبھی بند نہیں ہوتا" },
+      { "kind": "p", "text": "کوئی گناہ اللہ کی مغفرت کے لیے بہت بڑا نہیں۔ وہ اُنہیں بھی جنہوں نے اپنے اوپر سب سے زیادہ ظلم کیا، مایوس نہ ہونے کو پکارتا ہے، کیونکہ وہ اُس کے سب گناہ معاف کر دیتا ہے جو سچائی سے اُس کی طرف لوٹتا ہے۔" },
+      { "kind": "verse", "surah": 39, "ayah": 53, "note": "اللہ کی رحمت سے مایوس نہ ہو؛ بے شک اللہ سب گناہ معاف کر دیتا ہے۔" },
+      { "kind": "heading", "level": 2, "text": "اللہ کو محبوب" },
+      { "kind": "p", "text": "صرف برداشت کیے جانے سے کہیں بڑھ کر، توبہ کرنے والے اللہ کو محبوب ہیں۔ وہ اپنے بندے کی واپسی پر اُس سے بھی زیادہ خوش ہوتا ہے جو کھویا ہوا پا لیتا ہے، اور اُن کے گناہوں کو نیکیوں سے بدل دیتا ہے۔" },
+      { "kind": "verse", "surah": 2, "ayah": 222, "note": "بے شک، اللہ اُن سے محبت کرتا ہے جو توبہ میں اُس کی طرف لوٹتے ہیں اور اُن سے جو خود کو پاک کرتے ہیں۔" },
+      { "kind": "list", "items": [
+        { "text": "توبہ سچا پچھتاوا، گناہ چھوڑنا، اور نہ لوٹنے کا عزم ہے۔" },
+        { "text": "اللہ اُس کے سب گناہ معاف کر دیتا ہے جو اُس کی طرف لوٹتا ہے۔" },
+        { "text": "توبہ کرنے والے اللہ کو محبوب ہیں، صرف معاف کیے ہوئے نہیں۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "24:31" },
+    { "type": "quran", "ref": "39:53" },
+    { "type": "quran", "ref": "2:222" }
+  ],
+  "relatedSlugs": ["prophet-yunus", "concept-dua", "concept-jahannam"]
+}

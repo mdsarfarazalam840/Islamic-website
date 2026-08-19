@@ -1,0 +1,71 @@
+{
+  "slug": "surah-al-ikhlas",
+  "category": "surahs",
+  "surahNumber": 112,
+  "featured": true,
+  "title": {
+    "en": "Sūrat al-Ikhlāṣ — Sincerity",
+    "hi": "सूरह अल-इख़लास — शुद्ध निष्ठा",
+    "ur": "سورۃ الاخلاص — اخلاص"
+  },
+  "summary": {
+    "en": "A short Makkan surah of four verses that defines the pure oneness of Allah. The Prophet ﷺ said it equals a third of the Qur'an.",
+    "hi": "चार आयतों की एक छोटी मक्की सूरह जो अल्लाह की शुद्ध एकता को परिभाषित करती है। पैगंबर ﷺ ने कहा कि यह क़ुरआन के एक तिहाई के बराबर है।",
+    "ur": "چار آیات کی ایک مختصر مکی سورت جو اللہ کی خالص وحدانیت کو بیان کرتی ہے۔ نبی ﷺ نے فرمایا کہ یہ قرآن کے ایک تہائی کے برابر ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Sūrat al-Ikhlāṣ — \"Sincerity\" or \"Purity of Faith\" — is one of the most recited surahs. In four brief verses it states the essence of Islamic belief about Allah." },
+      { "kind": "verse", "surah": 112, "ayah": 1 },
+      { "kind": "verse", "surah": 112, "ayah": 2 },
+      { "kind": "verse", "surah": 112, "ayah": 3 },
+      { "kind": "verse", "surah": 112, "ayah": 4 },
+      { "kind": "heading", "level": 2, "text": "Why it equals a third of the Qur'an" },
+      { "kind": "p", "text": "The Qur'an's message can be grouped into commands, stories, and doctrine about Allah. Because this surah captures the doctrine of Allah's oneness so completely, the Prophet ﷺ taught that reciting it carries the weight of a third of the Qur'an." },
+      { "kind": "heading", "level": 2, "text": "Its themes" },
+      { "kind": "list", "items": [
+        { "text": "Allah is One and absolutely unique (Aḥad)." },
+        { "text": "Allah is self-sufficient and eternally besought (al-Ṣamad)." },
+        { "text": "Allah neither begets nor is begotten — He has no family or lineage." },
+        { "text": "Nothing whatsoever is comparable to Him." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "सूरह अल-इख़लास — \"शुद्ध निष्ठा\" या \"ईमान की पवित्रता\" — सबसे अधिक पढ़ी जाने वाली सूरतों में से एक है। चार संक्षिप्त आयतों में यह अल्लाह के बारे में इस्लामी आस्था का सार बताती है।" },
+      { "kind": "verse", "surah": 112, "ayah": 1 },
+      { "kind": "verse", "surah": 112, "ayah": 2 },
+      { "kind": "verse", "surah": 112, "ayah": 3 },
+      { "kind": "verse", "surah": 112, "ayah": 4 },
+      { "kind": "heading", "level": 2, "text": "यह क़ुरआन के एक तिहाई के बराबर क्यों है" },
+      { "kind": "p", "text": "क़ुरआन के संदेश को आदेशों, कहानियों और अल्लाह के बारे में सिद्धांत में बाँटा जा सकता है। चूँकि यह सूरह अल्लाह की एकता के सिद्धांत को इतने पूर्ण रूप से समेटती है, पैगंबर ﷺ ने सिखाया कि इसे पढ़ना क़ुरआन के एक तिहाई का भार रखता है।" },
+      { "kind": "heading", "level": 2, "text": "इसके विषय" },
+      { "kind": "list", "items": [
+        { "text": "अल्लाह एक और पूर्णतः अद्वितीय है (अहद)।" },
+        { "text": "अल्लाह आत्मनिर्भर है और सदा जिससे माँगा जाता है (अस-समद)।" },
+        { "text": "अल्लाह न किसी को जनता है न जना गया — उसका कोई परिवार या वंश नहीं।" },
+        { "text": "कोई भी चीज़ उसके समान नहीं।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "سورۃ الاخلاص — \"اخلاص\" یا \"ایمان کی پاکیزگی\" — سب سے زیادہ پڑھی جانے والی سورتوں میں سے ایک ہے۔ چار مختصر آیات میں یہ اللہ کے بارے میں اسلامی عقیدے کا خلاصہ بیان کرتی ہے۔" },
+      { "kind": "verse", "surah": 112, "ayah": 1 },
+      { "kind": "verse", "surah": 112, "ayah": 2 },
+      { "kind": "verse", "surah": 112, "ayah": 3 },
+      { "kind": "verse", "surah": 112, "ayah": 4 },
+      { "kind": "heading", "level": 2, "text": "یہ قرآن کے ایک تہائی کے برابر کیوں ہے" },
+      { "kind": "p", "text": "قرآن کے پیغام کو احکام، قصص اور اللہ کے بارے میں عقیدے میں تقسیم کیا جا سکتا ہے۔ چونکہ یہ سورت اللہ کی وحدانیت کے عقیدے کو اس قدر مکمل طور پر بیان کرتی ہے، نبی ﷺ نے سکھایا کہ اس کی تلاوت قرآن کے ایک تہائی کا وزن رکھتی ہے۔" },
+      { "kind": "heading", "level": 2, "text": "اس کے مضامین" },
+      { "kind": "list", "items": [
+        { "text": "اللہ ایک اور بالکل یکتا ہے (احد)۔" },
+        { "text": "اللہ بےنیاز ہے اور ہمیشہ اُسی سے مانگا جاتا ہے (الصمد)۔" },
+        { "text": "اللہ نہ کسی کا باپ ہے نہ کسی کا بیٹا — اُس کا کوئی خاندان یا نسب نہیں۔" },
+        { "text": "کوئی چیز اُس کے مشابہ نہیں۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "112:1-4" },
+    { "type": "hadith", "collection": "bukhari", "ref": "5013", "grade": "sahih" }
+  ],
+  "relatedSlugs": ["concept-tawhid", "surah-al-fatiha", "basics-belief-in-allah"]
+}

@@ -1,0 +1,70 @@
+{
+  "slug": "prophet-zakariyya",
+  "category": "prophets",
+  "prophetNumber": 22,
+  "featured": false,
+  "title": {
+    "en": "Zakariyyā (Zechariah) — The Prayer for an Heir",
+    "hi": "ज़करिय्या (ज़करिय्या अलैहिस्सलाम) — उत्तराधिकारी के लिए दुआ",
+    "ur": "زکریا علیہ السلام — وارث کے لیے دعا"
+  },
+  "summary": {
+    "en": "Zakariyyā was an elderly prophet who cared for Maryam and longed for a righteous heir. In old age, with a barren wife, he called upon Allah in secret — and was given the glad tiding of Yaḥyā, a sign that Allah's mercy is bound by no ordinary limit.",
+    "hi": "ज़करिय्या एक वृद्ध नबी थे जो मरयम की देखभाल करते थे और एक धर्मी उत्तराधिकारी की लालसा रखते थे। वृद्धावस्था में, एक बाँझ पत्नी के साथ, उन्होंने एकांत में अल्लाह को पुकारा — और यह्या की शुभ सूचना दी गई, एक निशानी कि अल्लाह की दया किसी सामान्य सीमा से बँधी नहीं।",
+    "ur": "زکریا علیہ السلام ایک بوڑھے نبی تھے جو مریم کی دیکھ بھال کرتے تھے اور ایک نیک وارث کی تمنا رکھتے تھے۔ بڑھاپے میں، ایک بانجھ بیوی کے ساتھ، انہوں نے تنہائی میں اللہ کو پکارا — اور یحییٰ کی خوشخبری دی گئی، ایک نشانی کہ اللہ کی رحمت کسی عام حد سے بندھی نہیں۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Zakariyyā (peace be upon him) was a prophet of the Children of Israel and the guardian of Maryam. Whenever he entered upon her in the sanctuary, he found her provided for by Allah — a sign that stirred in him a longing of his own." },
+      { "kind": "heading", "level": 2, "text": "A whispered prayer" },
+      { "kind": "p", "text": "Old and grey, with a wife who had borne no child, Zakariyyā did not despair. He called upon his Lord privately, humbly, asking for a righteous heir to carry on the mission of guidance." },
+      { "kind": "verse", "surah": 19, "ayah": 4, "note": "Zakariyyā says: my bones have weakened and my head has filled with white, but never have I been unhappy in my prayer to You." },
+      { "kind": "verse", "surah": 3, "ayah": 38, "note": "Zakariyyā prays: my Lord, grant me from Yourself a good offspring; indeed You hear all prayer." },
+      { "kind": "heading", "level": 2, "text": "The answered call" },
+      { "kind": "p", "text": "Allah answered him with the glad tiding of a son, Yaḥyā, a name no one had borne before him — a gift beyond the reach of age or nature, and proof that Allah does as He wills." },
+      { "kind": "verse", "surah": 19, "ayah": 7, "note": "Allah gives the glad tiding of a boy named Yaḥyā, granting him a name none had before." },
+      { "kind": "list", "items": [
+        { "text": "Never lose hope in prayer, however impossible the request may seem." },
+        { "text": "The most sincere supplication is often the most private." },
+        { "text": "Allah's gifts are not limited by age, nature, or expectation." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "ज़करिय्या (अलैहिस्सलाम) बनी इसराईल के एक नबी और मरयम के संरक्षक थे। जब भी वे इबादतगाह में उनके पास जाते, उन्हें अल्लाह की ओर से रिज़्क़ पाया हुआ पाते — एक निशानी जिसने उनमें अपनी एक लालसा जगाई।" },
+      { "kind": "heading", "level": 2, "text": "एक फुसफुसाई दुआ" },
+      { "kind": "p", "text": "बूढ़े और सफ़ेद बालों वाले, एक ऐसी पत्नी के साथ जिसने कोई संतान न जनी थी, ज़करिय्या ने निराशा न की। उन्होंने अपने रब को एकांत में, विनम्रता से पुकारा, मार्गदर्शन के मिशन को आगे ले जाने के लिए एक धर्मी उत्तराधिकारी माँगते हुए।" },
+      { "kind": "verse", "surah": 19, "ayah": 4, "note": "ज़करिय्या कहते हैं: मेरी हड्डियाँ कमज़ोर हो गईं और मेरा सिर सफ़ेदी से भर गया, परन्तु तुझसे अपनी दुआ में मैं कभी वंचित नहीं रहा।" },
+      { "kind": "verse", "surah": 3, "ayah": 38, "note": "ज़करिय्या दुआ करते हैं: मेरे रब, मुझे अपनी ओर से अच्छी संतान दे; निःसंदेह तू हर दुआ सुनता है।" },
+      { "kind": "heading", "level": 2, "text": "उत्तर दी गई पुकार" },
+      { "kind": "p", "text": "अल्लाह ने उन्हें एक पुत्र, यह्या की शुभ सूचना से उत्तर दिया, एक ऐसा नाम जो उनसे पहले किसी ने न धारण किया था — आयु या प्रकृति की पहुँच से परे एक उपहार, और प्रमाण कि अल्लाह जो चाहता है करता है।" },
+      { "kind": "verse", "surah": 19, "ayah": 7, "note": "अल्लाह यह्या नामक एक लड़के की शुभ सूचना देता है, उसे एक ऐसा नाम देते हुए जो पहले किसी का न था।" },
+      { "kind": "list", "items": [
+        { "text": "दुआ में कभी आशा न खोएँ, चाहे माँग कितनी भी असंभव लगे।" },
+        { "text": "सबसे निष्ठावान प्रार्थना प्रायः सबसे एकांत वाली होती है।" },
+        { "text": "अल्लाह के उपहार आयु, प्रकृति या अपेक्षा से सीमित नहीं।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "زکریا علیہ السلام بنی اسرائیل کے ایک نبی اور مریم کے سرپرست تھے۔ جب بھی وہ عبادت گاہ میں اُن کے پاس جاتے، انہیں اللہ کی طرف سے رزق پایا ہوا پاتے — ایک نشانی جس نے اُن میں اپنی ایک تمنا جگائی۔" },
+      { "kind": "heading", "level": 2, "text": "ایک سرگوشی کی دعا" },
+      { "kind": "p", "text": "بوڑھے اور سفید بالوں والے، ایک ایسی بیوی کے ساتھ جس نے کوئی اولاد نہ جنی تھی، زکریا نے مایوسی نہ کی۔ انہوں نے اپنے رب کو تنہائی میں، عاجزی سے پکارا، ہدایت کے مشن کو آگے لے جانے کے لیے ایک نیک وارث مانگتے ہوئے۔" },
+      { "kind": "verse", "surah": 19, "ayah": 4, "note": "زکریا کہتے ہیں: میری ہڈیاں کمزور ہو گئیں اور میرا سر سفیدی سے بھر گیا، مگر تجھ سے اپنی دعا میں میں کبھی محروم نہ رہا۔" },
+      { "kind": "verse", "surah": 3, "ayah": 38, "note": "زکریا دعا کرتے ہیں: میرے رب، مجھے اپنی طرف سے اچھی اولاد دے؛ بے شک تو ہر دعا سنتا ہے۔" },
+      { "kind": "heading", "level": 2, "text": "قبول کی گئی پکار" },
+      { "kind": "p", "text": "اللہ نے انہیں ایک بیٹے، یحییٰ کی خوشخبری سے جواب دیا، ایک ایسا نام جو اُن سے پہلے کسی نے نہ رکھا تھا — عمر یا فطرت کی پہنچ سے بالاتر ایک عطا، اور ثبوت کہ اللہ جو چاہتا ہے کرتا ہے۔" },
+      { "kind": "verse", "surah": 19, "ayah": 7, "note": "اللہ یحییٰ نامی ایک لڑکے کی خوشخبری دیتا ہے، اُسے ایک ایسا نام دیتے ہوئے جو پہلے کسی کا نہ تھا۔" },
+      { "kind": "list", "items": [
+        { "text": "دعا میں کبھی امید نہ کھوئیں، خواہ درخواست کتنی ہی ناممکن لگے۔" },
+        { "text": "سب سے مخلص دعا اکثر سب سے تنہائی والی ہوتی ہے۔" },
+        { "text": "اللہ کے تحفے عمر، فطرت یا توقع سے محدود نہیں۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "19:2-11" },
+    { "type": "quran", "ref": "3:37-41" },
+    { "type": "quran", "ref": "21:89-90" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["prophet-yahya", "story-maryam", "concept-dua"]
+}

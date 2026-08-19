@@ -1,0 +1,68 @@
+{
+  "slug": "concept-sabr",
+  "category": "concepts",
+  "featured": false,
+  "title": {
+    "en": "Ṣabr — Patience and Perseverance",
+    "hi": "सब्र — धैर्य और दृढ़ता",
+    "ur": "صبر — استقامت اور برداشت"
+  },
+  "summary": {
+    "en": "Ṣabr is patient perseverance: holding firm through hardship, restraining oneself from sin, and staying steady in obedience to Allah. The Qur'an names Allah as being with the patient and promises them reward without measure.",
+    "hi": "सब्र धैर्यपूर्ण दृढ़ता है: कठिनाई में स्थिर रहना, स्वयं को गुनाह से रोकना, और अल्लाह की आज्ञापालन में स्थिर रहना। क़ुरआन अल्लाह को धैर्यवानों के साथ बताता है और उन्हें बेहिसाब प्रतिफल का वादा करता है।",
+    "ur": "صبر پُر استقامت برداشت ہے: مشکل میں ثابت قدم رہنا، خود کو گناہ سے روکنا، اور اللہ کی اطاعت میں قائم رہنا۔ قرآن اللہ کو صبر کرنے والوں کے ساتھ بتاتا ہے اور اُنہیں بے حساب اجر کا وعدہ کرتا ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Ṣabr is one of the most praised qualities in the Qur'an. It is patience in three forms: enduring hardship and loss, holding back from what Allah forbids, and persevering steadily in obedience even when it is difficult." },
+      { "kind": "verse", "surah": 2, "ayah": 153, "note": "O you who believe, seek help through patience and prayer; indeed Allah is with the patient." },
+      { "kind": "heading", "level": 2, "text": "Tested and reassured" },
+      { "kind": "p", "text": "Allah tells the believers plainly that they will be tested — with fear, loss, and hardship — and gives glad tidings to those who meet it with patience, returning their affairs to Him." },
+      { "kind": "verse", "surah": 2, "ayah": 155, "note": "We will surely test you with something of fear and hunger and loss — but give good news to the patient." },
+      { "kind": "heading", "level": 2, "text": "Reward without measure" },
+      { "kind": "p", "text": "The patient are not merely comforted; they are promised a reward beyond counting. Ṣabr transforms hardship into a path of nearness to Allah and an investment in the everlasting life." },
+      { "kind": "verse", "surah": 39, "ayah": 10, "note": "Indeed, the patient will be given their reward without measure." },
+      { "kind": "list", "items": [
+        { "text": "Ṣabr is patience in hardship, restraint from sin, and steadfastness in obedience." },
+        { "text": "Allah promises to be with the patient and to test the believers." },
+        { "text": "The reward of the patient is given without limit or measure." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "सब्र क़ुरआन में सबसे प्रशंसित गुणों में से एक है। यह तीन रूपों में धैर्य है: कठिनाई और हानि सहना, जो अल्लाह मना करता है उससे रुकना, और आज्ञापालन में स्थिर रूप से डटे रहना भले ही यह कठिन हो।" },
+      { "kind": "verse", "surah": 2, "ayah": 153, "note": "ऐ ईमान वालो, धैर्य और नमाज़ से मदद माँगो; निःसंदेह अल्लाह धैर्यवानों के साथ है।" },
+      { "kind": "heading", "level": 2, "text": "परीक्षा और आश्वासन" },
+      { "kind": "p", "text": "अल्लाह ईमान वालों को स्पष्ट बताता है कि उनकी परीक्षा होगी — भय, हानि, और कठिनाई से — और उन्हें शुभ समाचार देता है जो इसे धैर्य से सामना करते हैं, अपने मामले उसकी ओर लौटाते हुए।" },
+      { "kind": "verse", "surah": 2, "ayah": 155, "note": "हम निश्चय ही तुम्हें कुछ भय और भूख और हानि से परखेंगे — परन्तु धैर्यवानों को शुभ समाचार दो।" },
+      { "kind": "heading", "level": 2, "text": "बेहिसाब प्रतिफल" },
+      { "kind": "p", "text": "धैर्यवानों को केवल सांत्वना नहीं दी जाती; उन्हें गिनती से परे प्रतिफल का वादा किया जाता है। सब्र कठिनाई को अल्लाह के निकट होने के मार्ग और शाश्वत जीवन में निवेश में बदल देता है।" },
+      { "kind": "verse", "surah": 39, "ayah": 10, "note": "निःसंदेह, धैर्यवानों को उनका प्रतिफल बिना हिसाब के दिया जाएगा।" },
+      { "kind": "list", "items": [
+        { "text": "सब्र कठिनाई में धैर्य, गुनाह से रुकना, और आज्ञापालन में दृढ़ता है।" },
+        { "text": "अल्लाह धैर्यवानों के साथ होने और ईमान वालों को परखने का वादा करता है।" },
+        { "text": "धैर्यवानों का प्रतिफल बिना सीमा या हिसाब के दिया जाता है।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "صبر قرآن میں سب سے زیادہ سراہی گئی صفات میں سے ایک ہے۔ یہ تین صورتوں میں استقامت ہے: مشکل اور نقصان برداشت کرنا، جو اللہ منع کرتا ہے اُس سے رکنا، اور اطاعت میں ثابت قدمی سے جمے رہنا خواہ یہ مشکل ہو۔" },
+      { "kind": "verse", "surah": 2, "ayah": 153, "note": "اے ایمان والو، صبر اور نماز سے مدد مانگو؛ بے شک اللہ صبر کرنے والوں کے ساتھ ہے۔" },
+      { "kind": "heading", "level": 2, "text": "آزمائش اور تسلی" },
+      { "kind": "p", "text": "اللہ مومنوں کو صاف بتاتا ہے کہ اُن کی آزمائش ہوگی — خوف، نقصان، اور مشکل سے — اور اُنہیں خوشخبری دیتا ہے جو اِسے صبر سے سامنا کرتے ہیں، اپنے معاملات اُس کی طرف لوٹاتے ہوئے۔" },
+      { "kind": "verse", "surah": 2, "ayah": 155, "note": "ہم ضرور تمہیں کچھ خوف اور بھوک اور نقصان سے آزمائیں گے — مگر صبر کرنے والوں کو خوشخبری دو۔" },
+      { "kind": "heading", "level": 2, "text": "بے حساب اجر" },
+      { "kind": "p", "text": "صبر کرنے والوں کو صرف تسلی نہیں دی جاتی؛ اُنہیں گنتی سے پرے اجر کا وعدہ کیا جاتا ہے۔ صبر مشکل کو اللہ کے قرب کا راستہ اور ہمیشہ کی زندگی میں سرمایہ کاری میں بدل دیتا ہے۔" },
+      { "kind": "verse", "surah": 39, "ayah": 10, "note": "بے شک، صبر کرنے والوں کو اُن کا اجر بغیر حساب کے دیا جائے گا۔" },
+      { "kind": "list", "items": [
+        { "text": "صبر مشکل میں استقامت، گناہ سے رکنا، اور اطاعت میں ثابت قدمی ہے۔" },
+        { "text": "اللہ صبر کرنے والوں کے ساتھ ہونے اور مومنوں کو آزمانے کا وعدہ کرتا ہے۔" },
+        { "text": "صبر کرنے والوں کا اجر بغیر حد یا حساب کے دیا جاتا ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "2:153" },
+    { "type": "quran", "ref": "2:155-157" },
+    { "type": "quran", "ref": "39:10" }
+  ],
+  "relatedSlugs": ["prophet-ayyub", "concept-tawakkul", "concept-taqwa"]
+}

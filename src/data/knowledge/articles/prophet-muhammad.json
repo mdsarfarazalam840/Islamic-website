@@ -1,0 +1,83 @@
+{
+  "slug": "prophet-muhammad",
+  "category": "prophets",
+  "prophetNumber": 25,
+  "featured": true,
+  "title": {
+    "en": "Muḥammad ﷺ — The Seal of the Prophets",
+    "hi": "मुहम्मद ﷺ — नबियों की मुहर",
+    "ur": "محمد ﷺ — خاتم النبیین"
+  },
+  "summary": {
+    "en": "Muḥammad ﷺ is the final Messenger of Allah, sent as a mercy to all the worlds. Born in Makkah, he received the Qur'an over twenty-three years, called humanity to the worship of one God, and left a completed guidance. With him, prophethood was sealed.",
+    "hi": "मुहम्मद ﷺ अल्लाह के अंतिम रसूल हैं, समस्त संसारों के लिए एक दया के रूप में भेजे गए। मक्का में जन्मे, उन्होंने तेईस वर्षों में क़ुरआन प्राप्त किया, मानवता को एक ईश्वर की इबादत की ओर बुलाया, और एक पूर्ण मार्गदर्शन छोड़ा। उनके साथ, नुबूवत पर मुहर लग गई।",
+    "ur": "محمد ﷺ اللہ کے آخری رسول ہیں، تمام جہانوں کے لیے ایک رحمت کے طور پر بھیجے گئے۔ مکہ میں پیدا ہوئے، انہوں نے تئیس برسوں میں قرآن حاصل کیا، انسانیت کو ایک خدا کی عبادت کی طرف بلایا، اور ایک مکمل ہدایت چھوڑی۔ اُن کے ساتھ، نبوت پر مہر لگ گئی۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Muḥammad ﷺ, son of ʿAbdullāh, was born in Makkah around 570 CE into the tribe of Quraysh. Orphaned young, he grew known among his people as al-Amīn — the trustworthy — long before revelation came to him." },
+      { "kind": "heading", "level": 2, "text": "The first revelation" },
+      { "kind": "p", "text": "At the age of forty, in the cave of Ḥirāʾ, the angel Jibrīl brought him the first words of the Qur'an. Over the next twenty-three years the revelation continued, guiding a small persecuted community into a nation of faith." },
+      { "kind": "verse", "surah": 96, "ayah": 1, "note": "The first revelation: Read in the name of your Lord who created." },
+      { "kind": "heading", "level": 2, "text": "A mercy to the worlds" },
+      { "kind": "p", "text": "His mission was not for one tribe or age but for all people and all times. The Qur'an sums up his very purpose in a single phrase: a mercy to all the worlds." },
+      { "kind": "verse", "surah": 21, "ayah": 107, "note": "And We have not sent you except as a mercy to the worlds." },
+      { "kind": "heading", "level": 2, "text": "The Seal of the Prophets" },
+      { "kind": "p", "text": "Muḥammad ﷺ is the last of the prophets; no messenger comes after him. Through him Allah perfected the religion and completed His favour, leaving the Qur'an preserved and the Sunnah as a living example." },
+      { "kind": "verse", "surah": 33, "ayah": 40, "note": "Muḥammad is the Messenger of Allah and the seal of the prophets." },
+      { "kind": "p", "text": "In his farewell sermon he reminded humanity of the sanctity of life and property, the rights of all people, and the two things he left behind: the Book of Allah and his example. His character, the Qur'an says, was of the highest standard." },
+      { "kind": "verse", "surah": 68, "ayah": 4, "note": "And indeed, you are of a great and noble character." },
+      { "kind": "list", "items": [
+        { "text": "Muḥammad ﷺ is the final Messenger; the message is complete and preserved." },
+        { "text": "His mission is universal — a mercy for all people and all times." },
+        { "text": "To follow him is to follow the Qur'an and his living example, the Sunnah." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "मुहम्मद ﷺ, अब्दुल्लाह के पुत्र, लगभग 570 ईस्वी में मक्का में क़ुरैश क़बीले में जन्मे। कम आयु में अनाथ हुए, वे वह्य आने से बहुत पहले अपनी क़ौम में अल-अमीन — विश्वसनीय — के रूप में जाने जाते थे।" },
+      { "kind": "heading", "level": 2, "text": "पहली वह्य" },
+      { "kind": "p", "text": "चालीस वर्ष की आयु में, हिरा की गुफा में, फ़रिश्ते जिब्रील उनके पास क़ुरआन के पहले शब्द लाए। अगले तेईस वर्षों में वह्य जारी रही, एक छोटे सताए हुए समुदाय को ईमान के एक राष्ट्र में ढालते हुए।" },
+      { "kind": "verse", "surah": 96, "ayah": 1, "note": "पहली वह्य: अपने रब के नाम से पढ़ो जिसने पैदा किया।" },
+      { "kind": "heading", "level": 2, "text": "संसारों के लिए एक दया" },
+      { "kind": "p", "text": "उनका मिशन एक क़बीले या युग के लिए नहीं बल्कि सभी लोगों और सभी समयों के लिए था। क़ुरआन उनके उद्देश्य को एक ही वाक्यांश में सारांशित करता है: समस्त संसारों के लिए एक दया।" },
+      { "kind": "verse", "surah": 21, "ayah": 107, "note": "और हमने तुम्हें केवल संसारों के लिए एक दया बनाकर भेजा है।" },
+      { "kind": "heading", "level": 2, "text": "नबियों की मुहर" },
+      { "kind": "p", "text": "मुहम्मद ﷺ नबियों में अंतिम हैं; उनके बाद कोई रसूल नहीं आता। उनके माध्यम से अल्लाह ने धर्म को पूर्ण किया और अपनी नेमत को पूरा किया, क़ुरआन को सुरक्षित और सुन्नत को एक जीवंत उदाहरण के रूप में छोड़ते हुए।" },
+      { "kind": "verse", "surah": 33, "ayah": 40, "note": "मुहम्मद अल्लाह के रसूल और नबियों की मुहर हैं।" },
+      { "kind": "p", "text": "अपने विदाई भाषण में उन्होंने मानवता को जीवन और संपत्ति की पवित्रता, सभी लोगों के अधिकारों, और उन दो चीज़ों की याद दिलाई जो उन्होंने पीछे छोड़ीं: अल्लाह की किताब और उनका उदाहरण। उनका चरित्र, क़ुरआन कहता है, सर्वोच्च स्तर का था।" },
+      { "kind": "verse", "surah": 68, "ayah": 4, "note": "और निःसंदेह, आप एक महान और उत्तम चरित्र पर हैं।" },
+      { "kind": "list", "items": [
+        { "text": "मुहम्मद ﷺ अंतिम रसूल हैं; संदेश पूर्ण और सुरक्षित है।" },
+        { "text": "उनका मिशन सार्वभौमिक है — सभी लोगों और सभी समयों के लिए एक दया।" },
+        { "text": "उनका अनुसरण करना क़ुरआन और उनके जीवंत उदाहरण, सुन्नत, का अनुसरण करना है।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "محمد ﷺ، عبداللہ کے بیٹے، تقریباً 570 عیسوی میں مکہ میں قبیلہ قریش میں پیدا ہوئے۔ کم عمری میں یتیم ہوئے، وہ وحی آنے سے بہت پہلے اپنی قوم میں الامین — امانت دار — کے طور پر جانے جاتے تھے۔" },
+      { "kind": "heading", "level": 2, "text": "پہلی وحی" },
+      { "kind": "p", "text": "چالیس برس کی عمر میں، غارِ حرا میں، فرشتہ جبریل اُن کے پاس قرآن کے پہلے الفاظ لائے۔ اگلے تئیس برسوں میں وحی جاری رہی، ایک چھوٹی ستائی ہوئی جماعت کو ایمان کی ایک قوم میں ڈھالتے ہوئے۔" },
+      { "kind": "verse", "surah": 96, "ayah": 1, "note": "پہلی وحی: اپنے رب کے نام سے پڑھو جس نے پیدا کیا۔" },
+      { "kind": "heading", "level": 2, "text": "جہانوں کے لیے ایک رحمت" },
+      { "kind": "p", "text": "اُن کا مشن ایک قبیلے یا زمانے کے لیے نہیں بلکہ تمام لوگوں اور تمام زمانوں کے لیے تھا۔ قرآن اُن کے مقصد کو ایک ہی جملے میں بیان کرتا ہے: تمام جہانوں کے لیے ایک رحمت۔" },
+      { "kind": "verse", "surah": 21, "ayah": 107, "note": "اور ہم نے تمہیں صرف جہانوں کے لیے ایک رحمت بنا کر بھیجا ہے۔" },
+      { "kind": "heading", "level": 2, "text": "خاتم النبیین" },
+      { "kind": "p", "text": "محمد ﷺ انبیاء میں آخری ہیں؛ اُن کے بعد کوئی رسول نہیں آتا۔ اُن کے ذریعے اللہ نے دین کو مکمل کیا اور اپنی نعمت کو پورا کیا، قرآن کو محفوظ اور سنت کو ایک زندہ نمونہ کے طور پر چھوڑتے ہوئے۔" },
+      { "kind": "verse", "surah": 33, "ayah": 40, "note": "محمد اللہ کے رسول اور انبیاء کی مہر ہیں۔" },
+      { "kind": "p", "text": "اپنے خطبۂ حجۃ الوداع میں انہوں نے انسانیت کو جان اور مال کی حرمت، تمام لوگوں کے حقوق، اور اُن دو چیزوں کی یاد دلائی جو انہوں نے پیچھے چھوڑیں: اللہ کی کتاب اور اُن کا نمونہ۔ اُن کا کردار، قرآن کہتا ہے، سب سے بلند معیار کا تھا۔" },
+      { "kind": "verse", "surah": 68, "ayah": 4, "note": "اور بے شک، آپ ایک عظیم اور اعلیٰ کردار پر ہیں۔" },
+      { "kind": "list", "items": [
+        { "text": "محمد ﷺ آخری رسول ہیں؛ پیغام مکمل اور محفوظ ہے۔" },
+        { "text": "اُن کا مشن آفاقی ہے — تمام لوگوں اور تمام زمانوں کے لیے ایک رحمت۔" },
+        { "text": "اُن کی پیروی قرآن اور اُن کے زندہ نمونے، سنت، کی پیروی ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "96:1-5" },
+    { "type": "quran", "ref": "21:107" },
+    { "type": "quran", "ref": "33:40" },
+    { "type": "quran", "ref": "68:4" },
+    { "type": "seerah" }
+  ],
+  "relatedSlugs": ["prophet-isa", "concept-sunnah", "concept-tawhid"]
+}

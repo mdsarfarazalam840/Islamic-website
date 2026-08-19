@@ -1,0 +1,68 @@
+{
+  "slug": "basics-sawm",
+  "category": "basics",
+  "featured": false,
+  "title": {
+    "en": "Ṣawm — Fasting in Ramadan",
+    "hi": "सौम — रमज़ान के रोज़े",
+    "ur": "روزہ — رمضان کے روزے"
+  },
+  "summary": {
+    "en": "Ṣawm is the fast of Ramadan, the fourth pillar of Islam. From dawn to sunset the believer abstains from food, drink, and desire, training the soul in self-restraint and drawing near to Allah through a month of worship.",
+    "hi": "सौम रमज़ान का रोज़ा है, इस्लाम का चौथा स्तंभ। भोर से सूर्यास्त तक ईमान वाला खाने, पीने और इच्छा से परहेज़ करता है, आत्मा को आत्मसंयम में प्रशिक्षित करता है और इबादत के एक महीने के द्वारा अल्लाह के निकट होता है।",
+    "ur": "روزہ رمضان کا روزہ ہے، اسلام کا چوتھا رکن۔ صبح صادق سے غروبِ آفتاب تک مومن کھانے، پینے اور خواہش سے رکتا ہے، نفس کو ضبط میں تربیت دیتا ہے اور عبادت کے ایک مہینے کے ذریعے اللہ کے قریب ہوتا ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "During the month of Ramadan, every able adult Muslim fasts from the break of dawn until sunset — abstaining from food, drink, and marital relations — as an act of obedience and worship." },
+      { "kind": "verse", "surah": 2, "ayah": 183, "note": "Fasting is prescribed for you as it was for those before you, that you may attain God-consciousness." },
+      { "kind": "heading", "level": 2, "text": "The month of the Qur'an" },
+      { "kind": "p", "text": "Ramadan is the month in which the Qur'an was first revealed. Fasting it is tied to gratitude for that guidance, and the nights are filled with extra prayer and recitation." },
+      { "kind": "verse", "surah": 2, "ayah": 185, "note": "The month of Ramadan in which the Qur'an was revealed as guidance for the people — so whoever witnesses the month should fast it." },
+      { "kind": "heading", "level": 2, "text": "The purpose: taqwā" },
+      { "kind": "p", "text": "The stated goal of fasting is taqwā — God-consciousness. By denying even lawful pleasures for Allah's sake, the believer learns to master desire, feel for the hungry, and put obedience above appetite." },
+      { "kind": "verse", "surah": 2, "ayah": 186, "note": "And when My servants ask about Me — indeed I am near; I respond to the supplication of the one who calls." },
+      { "kind": "list", "items": [
+        { "text": "Ṣawm is the daytime fast of Ramadan, obligatory on every able adult Muslim." },
+        { "text": "Its purpose is taqwā — training the soul to obey Allah over its own desires." },
+        { "text": "Ramadan is the month of the Qur'an, of extra prayer, and of answered supplication." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "रमज़ान के महीने में, हर सक्षम वयस्क मुसलमान भोर के प्रकट होने से सूर्यास्त तक रोज़ा रखता है — खाने, पीने और वैवाहिक संबंधों से परहेज़ करते हुए — आज्ञापालन और इबादत के एक कर्म के रूप में।" },
+      { "kind": "verse", "surah": 2, "ayah": 183, "note": "रोज़ा तुम पर वैसे ही फ़र्ज़ किया गया जैसे तुमसे पहले वालों पर, ताकि तुम ख़ुदा-चेतना प्राप्त करो।" },
+      { "kind": "heading", "level": 2, "text": "क़ुरआन का महीना" },
+      { "kind": "p", "text": "रमज़ान वह महीना है जिसमें क़ुरआन पहली बार उतारा गया। इसके रोज़े उस मार्गदर्शन के आभार से जुड़े हैं, और रातें अतिरिक्त नमाज़ और तिलावत से भरी होती हैं।" },
+      { "kind": "verse", "surah": 2, "ayah": 185, "note": "रमज़ान का महीना जिसमें क़ुरआन लोगों के मार्गदर्शन के रूप में उतारा गया — तो जो इस महीने को पाए, वह इसके रोज़े रखे।" },
+      { "kind": "heading", "level": 2, "text": "उद्देश्य: तक़वा" },
+      { "kind": "p", "text": "रोज़े का घोषित लक्ष्य तक़वा है — ख़ुदा-चेतना। अल्लाह के लिए वैध आनंदों को भी छोड़कर, ईमान वाला इच्छा पर नियंत्रण पाना, भूखों के लिए महसूस करना, और भूख पर आज्ञापालन को रखना सीखता है।" },
+      { "kind": "verse", "surah": 2, "ayah": 186, "note": "और जब मेरे बंदे मेरे बारे में पूछें — निःसंदेह मैं निकट हूँ; मैं पुकारने वाले की पुकार का उत्तर देता हूँ।" },
+      { "kind": "list", "items": [
+        { "text": "सौम रमज़ान का दिन का रोज़ा है, हर सक्षम वयस्क मुसलमान पर अनिवार्य।" },
+        { "text": "इसका उद्देश्य तक़वा है — आत्मा को अपनी इच्छाओं पर अल्लाह की आज्ञा मानने का प्रशिक्षण।" },
+        { "text": "रमज़ान क़ुरआन का, अतिरिक्त नमाज़ का, और स्वीकृत दुआ का महीना है।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "رمضان کے مہینے میں، ہر استطاعت رکھنے والا بالغ مسلمان صبح صادق کے طلوع سے غروبِ آفتاب تک روزہ رکھتا ہے — کھانے، پینے اور ازدواجی تعلقات سے رکتے ہوئے — اطاعت اور عبادت کے ایک عمل کے طور پر۔" },
+      { "kind": "verse", "surah": 2, "ayah": 183, "note": "روزہ تم پر ویسے ہی فرض کیا گیا جیسے تم سے پہلے والوں پر، تاکہ تم تقویٰ اختیار کرو۔" },
+      { "kind": "heading", "level": 2, "text": "قرآن کا مہینہ" },
+      { "kind": "p", "text": "رمضان وہ مہینہ ہے جس میں قرآن پہلی بار نازل ہوا۔ اِس کے روزے اُس ہدایت کے شکر سے جڑے ہیں، اور راتیں اضافی نماز اور تلاوت سے بھری ہوتی ہیں۔" },
+      { "kind": "verse", "surah": 2, "ayah": 185, "note": "رمضان کا مہینہ جس میں قرآن لوگوں کی ہدایت کے طور پر نازل ہوا — سو جو اِس مہینے کو پائے، وہ اِس کے روزے رکھے۔" },
+      { "kind": "heading", "level": 2, "text": "مقصد: تقویٰ" },
+      { "kind": "p", "text": "روزے کا بیان کردہ مقصد تقویٰ ہے — خدا شناسی۔ اللہ کے لیے جائز لذتوں کو بھی چھوڑ کر، مومن خواہش پر قابو پانا، بھوکوں کے لیے محسوس کرنا، اور بھوک پر اطاعت کو رکھنا سیکھتا ہے۔" },
+      { "kind": "verse", "surah": 2, "ayah": 186, "note": "اور جب میرے بندے میرے بارے میں پوچھیں — بے شک میں قریب ہوں؛ میں پکارنے والے کی پکار کا جواب دیتا ہوں۔" },
+      { "kind": "list", "items": [
+        { "text": "روزہ رمضان کا دن کا روزہ ہے، ہر استطاعت رکھنے والے بالغ مسلمان پر فرض۔" },
+        { "text": "اِس کا مقصد تقویٰ ہے — نفس کو اپنی خواہشوں پر اللہ کی اطاعت کی تربیت۔" },
+        { "text": "رمضان قرآن کا، اضافی نماز کا، اور قبول ہونے والی دعا کا مہینہ ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "2:183-185" },
+    { "type": "quran", "ref": "2:186" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["basics-five-pillars", "concept-taqwa", "basics-zakat"]
+}

@@ -1,0 +1,70 @@
+{
+  "slug": "prophet-ismail",
+  "category": "prophets",
+  "prophetNumber": 8,
+  "featured": false,
+  "title": {
+    "en": "Ismāʿīl (Ishmael) — The Patient Son and Builder of the Kaʿbah",
+    "hi": "इस्माईल (इस्माईल अलैहिस्सलाम) — धैर्यवान पुत्र और काबा के निर्माता",
+    "ur": "اسماعیل علیہ السلام — صابر بیٹا اور کعبہ کے معمار"
+  },
+  "summary": {
+    "en": "Ismāʿīl, the elder son of Ibrāhīm, was true to his promise and patient in submission. As a youth he consented to be sacrificed for Allah's sake, and with his father he raised the foundations of the Kaʿbah in Makkah.",
+    "hi": "इस्माईल, इब्राहीम के बड़े पुत्र, अपने वादे के सच्चे और समर्पण में धैर्यवान थे। युवावस्था में उन्होंने अल्लाह के लिए क़ुर्बान होने की सहमति दी, और अपने पिता के साथ मक्का में काबा की नींव उठाई।",
+    "ur": "اسماعیل علیہ السلام، ابراہیم کے بڑے بیٹے، اپنے وعدے کے سچے اور تسلیم میں صابر تھے۔ نوجوانی میں انہوں نے اللہ کے لیے قربان ہونے پر رضامندی ظاہر کی، اور اپنے والد کے ساتھ مکہ میں کعبہ کی بنیادیں اٹھائیں۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Ismāʿīl (peace be upon him) was born to Ibrāhīm and Hājar in old age. As an infant he was left with his mother in the barren valley of Makkah, where Allah caused the spring of Zamzam to gush forth — the beginning of the sacred city." },
+      { "kind": "heading", "level": 2, "text": "The great test" },
+      { "kind": "p", "text": "When Ismāʿīl reached the age of striving alongside his father, Ibrāhīm saw in a dream that he was sacrificing him. He told his son, who answered with remarkable faith: do as you are commanded; you will find me patient." },
+      { "kind": "verse", "surah": 37, "ayah": 102, "note": "Ismāʿīl tells his father: do as you are commanded; you will find me, God willing, among the patient." },
+      { "kind": "p", "text": "As both submitted, Allah called out that the vision had been fulfilled and ransomed Ismāʿīl with a great sacrifice — an act commemorated by Muslims every year in the rite of Ḥajj." },
+      { "kind": "heading", "level": 2, "text": "Raising the Sacred House" },
+      { "kind": "p", "text": "In later years, father and son together built the Kaʿbah and purified it for the worship of Allah, praying that their descendants would remain devoted to Him." },
+      { "kind": "verse", "surah": 2, "ayah": 127, "note": "Ibrāhīm and Ismāʿīl raise the foundations of the House, praying for acceptance." },
+      { "kind": "list", "items": [
+        { "text": "True submission is to trust Allah's command even when it is hardest." },
+        { "text": "Keeping one's promise is a defining trait of the prophets." },
+        { "text": "The rites of Ḥajj keep the legacy of Ismāʿīl and Ibrāhīm alive." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "इस्माईल (अलैहिस्सलाम) इब्राहीम और हाजरा के यहाँ वृद्धावस्था में पैदा हुए। शिशु अवस्था में उन्हें उनकी माँ के साथ मक्का की बंजर घाटी में छोड़ा गया, जहाँ अल्लाह ने ज़मज़म का चश्मा फूटाया — पवित्र नगर की शुरुआत।" },
+      { "kind": "heading", "level": 2, "text": "महान परीक्षा" },
+      { "kind": "p", "text": "जब इस्माईल अपने पिता के साथ दौड़-धूप की आयु को पहुँचे, तो इब्राहीम ने स्वप्न में देखा कि वे उन्हें क़ुर्बान कर रहे हैं। उन्होंने अपने पुत्र को बताया, जिसने असाधारण ईमान से उत्तर दिया: जो आपको हुक्म दिया गया है वह कीजिए; आप मुझे धैर्यवान पाएँगे।" },
+      { "kind": "verse", "surah": 37, "ayah": 102, "note": "इस्माईल अपने पिता से कहते हैं: जो आपको हुक्म दिया गया है वह कीजिए; इंशाअल्लाह आप मुझे धैर्यवानों में पाएँगे।" },
+      { "kind": "p", "text": "जब दोनों झुक गए, तो अल्लाह ने पुकारा कि स्वप्न पूरा हो गया और इस्माईल को एक महान क़ुर्बानी के बदले बचा लिया — एक कर्म जिसे मुसलमान हर वर्ष हज के अनुष्ठान में स्मरण करते हैं।" },
+      { "kind": "heading", "level": 2, "text": "पवित्र घर उठाना" },
+      { "kind": "p", "text": "बाद के वर्षों में, पिता और पुत्र ने मिलकर काबा बनाया और उसे अल्लाह की इबादत के लिए पाक किया, यह दुआ करते हुए कि उनकी संतान उसके प्रति समर्पित रहे।" },
+      { "kind": "verse", "surah": 2, "ayah": 127, "note": "इब्राहीम और इस्माईल घर की नींव उठाते हैं, क़बूलियत की दुआ करते हुए।" },
+      { "kind": "list", "items": [
+        { "text": "सच्चा समर्पण यह है कि अल्लाह के हुक्म पर भरोसा किया जाए, भले ही वह सबसे कठिन हो।" },
+        { "text": "अपना वादा निभाना नबियों का एक निर्णायक गुण है।" },
+        { "text": "हज के अनुष्ठान इस्माईल और इब्राहीम की विरासत को जीवित रखते हैं।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "اسماعیل علیہ السلام ابراہیم اور ہاجرہ کے ہاں بڑھاپے میں پیدا ہوئے۔ شیرخوارگی میں انہیں اُن کی ماں کے ساتھ مکہ کی بنجر وادی میں چھوڑا گیا، جہاں اللہ نے زمزم کا چشمہ جاری کیا — مقدس شہر کی ابتدا۔" },
+      { "kind": "heading", "level": 2, "text": "عظیم آزمائش" },
+      { "kind": "p", "text": "جب اسماعیل اپنے والد کے ساتھ دوڑ دھوپ کی عمر کو پہنچے، تو ابراہیم نے خواب میں دیکھا کہ وہ انہیں ذبح کر رہے ہیں۔ انہوں نے اپنے بیٹے کو بتایا، جس نے غیر معمولی ایمان سے جواب دیا: جو آپ کو حکم دیا گیا ہے وہ کیجیے؛ آپ مجھے صابر پائیں گے۔" },
+      { "kind": "verse", "surah": 37, "ayah": 102, "note": "اسماعیل اپنے والد سے کہتے ہیں: جو آپ کو حکم دیا گیا ہے وہ کیجیے؛ ان شاء اللہ آپ مجھے صابروں میں پائیں گے۔" },
+      { "kind": "p", "text": "جب دونوں سرِتسلیم خم ہوئے، تو اللہ نے پکارا کہ خواب پورا ہو گیا اور اسماعیل کو ایک عظیم قربانی کے بدلے بچا لیا — ایک عمل جسے مسلمان ہر سال حج کے مناسک میں یاد کرتے ہیں۔" },
+      { "kind": "heading", "level": 2, "text": "بیت اللہ کی تعمیر" },
+      { "kind": "p", "text": "بعد کے برسوں میں، باپ اور بیٹے نے مل کر کعبہ بنایا اور اُسے اللہ کی عبادت کے لیے پاک کیا، یہ دعا کرتے ہوئے کہ اُن کی اولاد اُس کی مطیع رہے۔" },
+      { "kind": "verse", "surah": 2, "ayah": 127, "note": "ابراہیم اور اسماعیل گھر کی بنیادیں اٹھاتے ہیں، قبولیت کی دعا کرتے ہوئے۔" },
+      { "kind": "list", "items": [
+        { "text": "سچا تسلیم یہ ہے کہ اللہ کے حکم پر بھروسہ کیا جائے، خواہ وہ سب سے مشکل ہو۔" },
+        { "text": "اپنا وعدہ نبھانا انبیاء کی ایک نمایاں صفت ہے۔" },
+        { "text": "حج کے مناسک اسماعیل اور ابراہیم کی وراثت کو زندہ رکھتے ہیں۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "37:99-113" },
+    { "type": "quran", "ref": "2:125-129" },
+    { "type": "quran", "ref": "19:54-55" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["prophet-ibrahim", "prophet-ishaq", "basics-hajj"]
+}

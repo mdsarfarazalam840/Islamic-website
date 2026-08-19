@@ -1,0 +1,68 @@
+{
+  "slug": "basics-wudu",
+  "category": "basics",
+  "featured": false,
+  "title": {
+    "en": "Wuḍūʾ — Ablution Before Prayer",
+    "hi": "वुज़ू — नमाज़ से पहले की तहारत",
+    "ur": "وضو — نماز سے پہلے کی طہارت"
+  },
+  "summary": {
+    "en": "Wuḍūʾ is the ritual washing a Muslim performs before prayer: washing the face, arms, wiping the head, and washing the feet. It purifies the body and prepares the heart, and the Qur'an itself sets out its essential steps.",
+    "hi": "वुज़ू वह अनुष्ठानिक धुलाई है जो एक मुसलमान नमाज़ से पहले करता है: चेहरा और बाँहें धोना, सिर का मसह करना, और पैर धोना। यह शरीर को पवित्र करता है और दिल को तैयार करता है, और क़ुरआन स्वयं इसके आवश्यक चरण बताता है।",
+    "ur": "وضو وہ رسمی دھلائی ہے جو ایک مسلمان نماز سے پہلے کرتا ہے: چہرہ اور بازو دھونا، سر کا مسح کرنا، اور پاؤں دھونا۔ یہ جسم کو پاک کرتا ہے اور دل کو تیار کرتا ہے، اور قرآن خود اِس کے ضروری اقدامات بیان کرتا ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Before standing in prayer a Muslim performs wuḍūʾ — a light ritual washing that removes minor impurity and readies one to stand before Allah. Its core steps are named directly in the Qur'an." },
+      { "kind": "verse", "surah": 5, "ayah": 6, "note": "When you rise for prayer, wash your faces and your arms to the elbows, wipe your heads, and wash your feet to the ankles." },
+      { "kind": "heading", "level": 2, "text": "How it is performed" },
+      { "kind": "p", "text": "Beginning with the intention and the name of Allah, one washes the hands, rinses the mouth and nose, washes the face, then the arms to the elbows, wipes the head and ears, and finally washes the feet to the ankles — each usually three times." },
+      { "kind": "list", "items": [
+        { "text": "Form the intention and begin with 'Bismillāh'." },
+        { "text": "Wash the hands, then rinse the mouth and nose." },
+        { "text": "Wash the face, then the arms to the elbows." },
+        { "text": "Wipe the head and ears, then wash the feet to the ankles." }
+      ] },
+      { "kind": "heading", "level": 2, "text": "Purity of body and heart" },
+      { "kind": "p", "text": "Wuḍūʾ is more than cleanliness: Allah loves those who purify themselves, and the Prophet ﷺ taught that with each washing the small sins of the limbs fall away, so the worshipper comes to prayer renewed." },
+      { "kind": "verse", "surah": 2, "ayah": 222, "note": "Indeed, Allah loves those who turn to Him in repentance and loves those who purify themselves." }
+    ],
+    "hi": [
+      { "kind": "p", "text": "नमाज़ में खड़े होने से पहले एक मुसलमान वुज़ू करता है — एक हल्की अनुष्ठानिक धुलाई जो छोटी अपवित्रता को हटाती है और अल्लाह के समक्ष खड़े होने के लिए तैयार करती है। इसके मूल चरण सीधे क़ुरआन में नामित हैं।" },
+      { "kind": "verse", "surah": 5, "ayah": 6, "note": "जब तुम नमाज़ के लिए उठो, अपने चेहरे और अपनी बाँहें कोहनियों तक धोओ, अपने सिरों का मसह करो, और अपने पैर टख़नों तक धोओ।" },
+      { "kind": "heading", "level": 2, "text": "यह कैसे किया जाता है" },
+      { "kind": "p", "text": "नीयत और अल्लाह के नाम से शुरू करते हुए, हाथ धोए जाते हैं, मुँह और नाक साफ़ किए जाते हैं, चेहरा धोया जाता है, फिर बाँहें कोहनियों तक, सिर और कानों का मसह, और अंत में पैर टख़नों तक धोए जाते हैं — प्रत्येक आमतौर पर तीन बार।" },
+      { "kind": "list", "items": [
+        { "text": "नीयत बनाओ और 'बिस्मिल्लाह' से शुरू करो।" },
+        { "text": "हाथ धोओ, फिर मुँह और नाक साफ़ करो।" },
+        { "text": "चेहरा धोओ, फिर बाँहें कोहनियों तक।" },
+        { "text": "सिर और कानों का मसह करो, फिर पैर टख़नों तक धोओ।" }
+      ] },
+      { "kind": "heading", "level": 2, "text": "शरीर और दिल की पवित्रता" },
+      { "kind": "p", "text": "वुज़ू सफ़ाई से बढ़कर है: अल्लाह उनसे प्रेम करता है जो स्वयं को पवित्र करते हैं, और नबी ﷺ ने सिखाया कि हर धुलाई के साथ अंगों के छोटे गुनाह झड़ जाते हैं, ताकि इबादत करने वाला नया होकर नमाज़ में आए।" },
+      { "kind": "verse", "surah": 2, "ayah": 222, "note": "निःसंदेह, अल्लाह उनसे प्रेम करता है जो पश्चाताप में उसकी ओर लौटते हैं और उनसे जो स्वयं को पवित्र करते हैं।" }
+    ],
+    "ur": [
+      { "kind": "p", "text": "نماز میں کھڑے ہونے سے پہلے ایک مسلمان وضو کرتا ہے — ایک ہلکی رسمی دھلائی جو چھوٹی ناپاکی کو دور کرتی ہے اور اللہ کے سامنے کھڑے ہونے کے لیے تیار کرتی ہے۔ اِس کے بنیادی اقدامات براہِ راست قرآن میں نامزد ہیں۔" },
+      { "kind": "verse", "surah": 5, "ayah": 6, "note": "جب تم نماز کے لیے اٹھو، اپنے چہرے اور اپنے بازو کہنیوں تک دھوؤ، اپنے سروں کا مسح کرو، اور اپنے پاؤں ٹخنوں تک دھوؤ۔" },
+      { "kind": "heading", "level": 2, "text": "یہ کیسے کیا جاتا ہے" },
+      { "kind": "p", "text": "نیت اور اللہ کے نام سے شروع کرتے ہوئے، ہاتھ دھوئے جاتے ہیں، منہ اور ناک صاف کیے جاتے ہیں، چہرہ دھویا جاتا ہے، پھر بازو کہنیوں تک، سر اور کانوں کا مسح، اور آخر میں پاؤں ٹخنوں تک دھوئے جاتے ہیں — ہر ایک عموماً تین بار۔" },
+      { "kind": "list", "items": [
+        { "text": "نیت کرو اور 'بسم اللہ' سے شروع کرو۔" },
+        { "text": "ہاتھ دھوؤ، پھر منہ اور ناک صاف کرو۔" },
+        { "text": "چہرہ دھوؤ، پھر بازو کہنیوں تک۔" },
+        { "text": "سر اور کانوں کا مسح کرو، پھر پاؤں ٹخنوں تک دھوؤ۔" }
+      ] },
+      { "kind": "heading", "level": 2, "text": "جسم اور دل کی پاکیزگی" },
+      { "kind": "p", "text": "وضو صفائی سے بڑھ کر ہے: اللہ اُن سے محبت کرتا ہے جو خود کو پاک کرتے ہیں، اور نبی ﷺ نے سکھایا کہ ہر دھلائی کے ساتھ اعضاء کے چھوٹے گناہ جھڑ جاتے ہیں، تاکہ عبادت کرنے والا نیا ہو کر نماز میں آئے۔" },
+      { "kind": "verse", "surah": 2, "ayah": 222, "note": "بے شک، اللہ اُن سے محبت کرتا ہے جو توبہ میں اُس کی طرف لوٹتے ہیں اور اُن سے جو خود کو پاک کرتے ہیں۔" }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "5:6" },
+    { "type": "quran", "ref": "2:222" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["basics-salah", "basics-how-to-pray", "concept-taqwa"]
+}

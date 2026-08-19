@@ -1,0 +1,68 @@
+{
+  "slug": "concept-tawakkul",
+  "category": "concepts",
+  "featured": false,
+  "title": {
+    "en": "Tawakkul — Reliance on Allah",
+    "hi": "तवक्कुल — अल्लाह पर भरोसा",
+    "ur": "توکل — اللہ پر بھروسہ"
+  },
+  "summary": {
+    "en": "Tawakkul is placing one's trust in Allah: doing what one can and then relying wholly on Him for the outcome. It is not abandoning effort but resting the heart in the certainty that Allah is sufficient for whoever depends on Him.",
+    "hi": "तवक्कुल अपना भरोसा अल्लाह पर रखना है: जो कर सकते हो वह करना और फिर परिणाम के लिए पूर्णतः उस पर निर्भर रहना। यह प्रयास छोड़ना नहीं बल्कि दिल को इस निश्चय में विश्राम देना है कि अल्लाह उसके लिए काफ़ी है जो उस पर निर्भर करता है।",
+    "ur": "توکل اپنا بھروسہ اللہ پر رکھنا ہے: جو کر سکتے ہو وہ کرنا اور پھر نتیجے کے لیے مکمل طور پر اُس پر بھروسہ کرنا۔ یہ کوشش چھوڑنا نہیں بلکہ دل کو اِس یقین میں سکون دینا ہے کہ اللہ اُس کے لیے کافی ہے جو اُس پر بھروسہ کرتا ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Tawakkul is genuine reliance on Allah — trusting Him with the outcome of every affair. It is a fruit of faith: the more certain a heart is of Allah's power, wisdom, and mercy, the more fully it can rest its trust in Him." },
+      { "kind": "verse", "surah": 65, "ayah": 3, "note": "And whoever relies upon Allah — then He is sufficient for him." },
+      { "kind": "heading", "level": 2, "text": "Effort, then trust" },
+      { "kind": "p", "text": "Tawakkul does not mean abandoning means. The believer takes every lawful step — as the Prophet ﷺ taught, 'tie your camel, then rely on Allah' — and only then leaves the result in Allah's hands." },
+      { "kind": "verse", "surah": 3, "ayah": 159, "note": "Then when you have decided, rely upon Allah; indeed Allah loves those who rely upon Him." },
+      { "kind": "heading", "level": 2, "text": "The peace of the reliant heart" },
+      { "kind": "p", "text": "Whoever truly relies on Allah is freed from crippling anxiety over what they cannot control. Provision, protection, and every affair are entrusted to the One in whose hand is all power." },
+      { "kind": "verse", "surah": 11, "ayah": 123, "note": "So worship Him and rely upon Him; your Lord is not unaware of what you do." },
+      { "kind": "list", "items": [
+        { "text": "Tawakkul is trusting Allah with the outcome of every affair." },
+        { "text": "It means taking lawful means first, then leaving the result to Allah." },
+        { "text": "Allah is sufficient for whoever truly relies upon Him." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "तवक्कुल अल्लाह पर सच्चा भरोसा है — हर मामले के परिणाम में उस पर विश्वास करना। यह ईमान का फल है: दिल जितना अल्लाह की शक्ति, हिकमत, और दया के प्रति निश्चित होता है, उतना ही पूर्णता से वह अपना भरोसा उस पर रख सकता है।" },
+      { "kind": "verse", "surah": 65, "ayah": 3, "note": "और जो अल्लाह पर भरोसा करे — तो वह उसके लिए काफ़ी है।" },
+      { "kind": "heading", "level": 2, "text": "प्रयास, फिर भरोसा" },
+      { "kind": "p", "text": "तवक्कुल का अर्थ साधन छोड़ना नहीं। ईमान वाला हर जायज़ क़दम उठाता है — जैसा नबी ﷺ ने सिखाया, 'अपना ऊँट बाँधो, फिर अल्लाह पर भरोसा करो' — और तभी परिणाम अल्लाह के हाथों में छोड़ता है।" },
+      { "kind": "verse", "surah": 3, "ayah": 159, "note": "फिर जब तुम निश्चय कर लो, अल्लाह पर भरोसा करो; निःसंदेह अल्लाह उनसे प्रेम करता है जो उस पर भरोसा करते हैं।" },
+      { "kind": "heading", "level": 2, "text": "भरोसा करने वाले दिल की शांति" },
+      { "kind": "p", "text": "जो वास्तव में अल्लाह पर भरोसा करता है वह उस पर घातक चिंता से मुक्त हो जाता है जिसे वह नियंत्रित नहीं कर सकता। रोज़ी, सुरक्षा, और हर मामला उस एक को सौंपा जाता है जिसके हाथ में सारी शक्ति है।" },
+      { "kind": "verse", "surah": 11, "ayah": 123, "note": "तो उसकी इबादत करो और उस पर भरोसा करो; तुम्हारा रब उससे बेख़बर नहीं जो तुम करते हो।" },
+      { "kind": "list", "items": [
+        { "text": "तवक्कुल हर मामले के परिणाम में अल्लाह पर भरोसा है।" },
+        { "text": "इसका अर्थ है पहले जायज़ साधन अपनाना, फिर परिणाम अल्लाह पर छोड़ना।" },
+        { "text": "अल्लाह उसके लिए काफ़ी है जो वास्तव में उस पर भरोसा करता है।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "توکل اللہ پر سچا بھروسہ ہے — ہر معاملے کے نتیجے میں اُس پر یقین کرنا۔ یہ ایمان کا پھل ہے: دل جتنا اللہ کی قدرت، حکمت، اور رحمت کے بارے میں یقین رکھتا ہے، اُتنا ہی مکمل طور پر وہ اپنا بھروسہ اُس پر رکھ سکتا ہے۔" },
+      { "kind": "verse", "surah": 65, "ayah": 3, "note": "اور جو اللہ پر بھروسہ کرے — تو وہ اُس کے لیے کافی ہے۔" },
+      { "kind": "heading", "level": 2, "text": "کوشش، پھر بھروسہ" },
+      { "kind": "p", "text": "توکل کا مطلب اسباب چھوڑنا نہیں۔ مومن ہر جائز قدم اٹھاتا ہے — جیسا نبی ﷺ نے سکھایا، 'اپنا اونٹ باندھو، پھر اللہ پر بھروسہ کرو' — اور تبھی نتیجہ اللہ کے ہاتھوں میں چھوڑتا ہے۔" },
+      { "kind": "verse", "surah": 3, "ayah": 159, "note": "پھر جب تم ارادہ کر لو، اللہ پر بھروسہ کرو؛ بے شک اللہ اُن سے محبت کرتا ہے جو اُس پر بھروسہ کرتے ہیں۔" },
+      { "kind": "heading", "level": 2, "text": "بھروسہ کرنے والے دل کا سکون" },
+      { "kind": "p", "text": "جو حقیقت میں اللہ پر بھروسہ کرتا ہے وہ اُس چیز پر ہلاکت خیز پریشانی سے آزاد ہو جاتا ہے جسے وہ قابو نہیں کر سکتا۔ رزق، حفاظت، اور ہر معاملہ اُس ایک کو سونپا جاتا ہے جس کے ہاتھ میں ساری قدرت ہے۔" },
+      { "kind": "verse", "surah": 11, "ayah": 123, "note": "سو اُس کی عبادت کرو اور اُس پر بھروسہ کرو؛ تمہارا رب اُس سے بے خبر نہیں جو تم کرتے ہو۔" },
+      { "kind": "list", "items": [
+        { "text": "توکل ہر معاملے کے نتیجے میں اللہ پر بھروسہ ہے۔" },
+        { "text": "اِس کا مطلب ہے پہلے جائز اسباب اپنانا، پھر نتیجہ اللہ پر چھوڑنا۔" },
+        { "text": "اللہ اُس کے لیے کافی ہے جو حقیقت میں اُس پر بھروسہ کرتا ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "65:3" },
+    { "type": "quran", "ref": "3:159" },
+    { "type": "quran", "ref": "11:123" }
+  ],
+  "relatedSlugs": ["concept-sabr", "basics-belief-in-qadar", "concept-dua"]
+}

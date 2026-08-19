@@ -1,0 +1,68 @@
+{
+  "slug": "story-dhul-qarnayn",
+  "category": "quranic",
+  "featured": false,
+  "title": {
+    "en": "Dhul-Qarnayn — The Just Traveller",
+    "hi": "ज़ुल-क़रनैन — न्यायप्रिय यात्री",
+    "ur": "ذوالقرنین — انصاف پسند مسافر"
+  },
+  "summary": {
+    "en": "A righteous king to whom Allah gave power and means, whose story is told in Sūrat al-Kahf. He journeyed to the far reaches of the earth, ruled with justice, and built a mighty barrier to protect a helpless people from Gog and Magog — always crediting his success to Allah alone.",
+    "hi": "एक नेक राजा जिसे अल्लाह ने शक्ति और साधन दिए, जिसकी कहानी सूरह अल-कहफ़ में बताई गई है। उसने धरती के दूर छोरों की यात्रा की, न्याय से शासन किया, और एक असहाय जाति को याजूज-माजूज से बचाने के लिए एक विशाल दीवार बनाई — हमेशा अपनी सफलता का श्रेय केवल अल्लाह को देते हुए।",
+    "ur": "ایک نیک بادشاہ جسے اللہ نے طاقت اور وسائل دیے، جس کا قصہ سورۃ الکہف میں بیان ہوا ہے۔ اُس نے زمین کے دور کناروں کا سفر کیا، انصاف سے حکومت کی، اور ایک بے بس قوم کو یاجوج ماجوج سے بچانے کے لیے ایک عظیم دیوار بنائی — ہمیشہ اپنی کامیابی کا سہرا صرف اللہ کو دیتے ہوئے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Dhul-Qarnayn — \"the one of two horns,\" perhaps meaning two ages or two ends of the earth — was a righteous ruler whose account Allah revealed in Sūrat al-Kahf when the Prophet ﷺ was questioned about him. Allah established him in the land and gave him the means to every end." },
+      { "kind": "verse", "surah": 18, "ayah": 84, "note": "Indeed We established him upon the earth and gave him the means to everything." },
+      { "kind": "heading", "level": 2, "text": "Justice at the ends of the earth" },
+      { "kind": "p", "text": "Journeying west and then east, he came upon peoples and judged among them with fairness — punishing the wrongdoer, rewarding the believer with kindness, and never letting his vast power tempt him to oppression." },
+      { "kind": "verse", "surah": 18, "ayah": 88, "note": "But as for one who believes and does righteousness, he will have the best reward, and we will speak to him of our command with ease." },
+      { "kind": "heading", "level": 2, "text": "The barrier against corruption" },
+      { "kind": "p", "text": "A people crushed between the mountains begged his protection from Gog and Magog. He built a barrier of iron and molten copper, yet when they praised it he refused the credit, saying this was a mercy from his Lord — and that when Allah's promise came, He would level it." },
+      { "kind": "verse", "surah": 18, "ayah": 98, "note": "He said: This is a mercy from my Lord. But when the promise of my Lord comes, He will make it level; and ever is the promise of my Lord true." },
+      { "kind": "list", "items": [
+        { "text": "Power and means are a trust from Allah, to be used for justice." },
+        { "text": "The strong are obliged to protect the weak from corruption." },
+        { "text": "Every success belongs to Allah — the righteous claim no credit for themselves." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "ज़ुल-क़रनैन — \"दो सींगों वाला,\" शायद दो युगों या धरती के दो छोरों का अर्थ — एक नेक शासक था जिसका वृत्तांत अल्लाह ने सूरह अल-कहफ़ में उतारा जब नबी ﷺ से उसके बारे में पूछा गया। अल्लाह ने उसे धरती में स्थापित किया और उसे हर लक्ष्य तक के साधन दिए।" },
+      { "kind": "verse", "surah": 18, "ayah": 84, "note": "निश्चय ही हमने उसे धरती पर स्थापित किया और उसे हर चीज़ के साधन दिए।" },
+      { "kind": "heading", "level": 2, "text": "धरती के छोरों पर न्याय" },
+      { "kind": "p", "text": "पश्चिम और फिर पूर्व की यात्रा करते हुए, वह जातियों तक पहुँचा और उनके बीच न्याय से फ़ैसला किया — अत्याचारी को दंड देते हुए, ईमान वाले को दयालुता से पुरस्कृत करते हुए, और अपनी विशाल शक्ति को कभी अत्याचार की ओर प्रलोभित न होने देते हुए।" },
+      { "kind": "verse", "surah": 18, "ayah": 88, "note": "परन्तु जो ईमान लाए और नेक कर्म करे, उसके लिए सबसे अच्छा प्रतिफल है, और हम उससे अपने आदेश की बात आसानी से करेंगे।" },
+      { "kind": "heading", "level": 2, "text": "बिगाड़ के विरुद्ध दीवार" },
+      { "kind": "p", "text": "पहाड़ों के बीच पिसी एक जाति ने याजूज-माजूज से उसकी सुरक्षा की भीख माँगी। उसने लोहे और पिघले ताँबे की एक दीवार बनाई, फिर भी जब उन्होंने उसकी प्रशंसा की तो उसने श्रेय अस्वीकार कर दिया, यह कहते हुए कि यह उसके रब की ओर से एक दया है — और जब अल्लाह का वादा आएगा, वह इसे समतल कर देगा।" },
+      { "kind": "verse", "surah": 18, "ayah": 98, "note": "उसने कहा: यह मेरे रब की ओर से एक दया है। परन्तु जब मेरे रब का वादा आएगा, वह इसे समतल कर देगा; और मेरे रब का वादा सदा सच्चा है।" },
+      { "kind": "list", "items": [
+        { "text": "शक्ति और साधन अल्लाह की ओर से एक अमानत हैं, जो न्याय के लिए प्रयोग हों।" },
+        { "text": "शक्तिशाली पर कमज़ोरों को बिगाड़ से बचाना अनिवार्य है।" },
+        { "text": "हर सफलता अल्लाह की है — नेक लोग अपने लिए कोई श्रेय नहीं लेते।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "ذوالقرنین — \"دو سینگوں والا،\" شاید دو زمانوں یا زمین کے دو کناروں کا مطلب — ایک نیک حکمران تھا جس کا واقعہ اللہ نے سورۃ الکہف میں نازل کیا جب نبی ﷺ سے اُس کے بارے میں پوچھا گیا۔ اللہ نے اُسے زمین میں قائم کیا اور اُسے ہر مقصد تک کے وسائل دیے۔" },
+      { "kind": "verse", "surah": 18, "ayah": 84, "note": "بے شک ہم نے اُسے زمین پر قائم کیا اور اُسے ہر چیز کے وسائل دیے۔" },
+      { "kind": "heading", "level": 2, "text": "زمین کے کناروں پر انصاف" },
+      { "kind": "p", "text": "مغرب اور پھر مشرق کا سفر کرتے ہوئے، وہ قوموں تک پہنچا اور اُن کے درمیان انصاف سے فیصلہ کیا — ظالم کو سزا دیتے ہوئے، مومن کو مہربانی سے انعام دیتے ہوئے، اور اپنی وسیع طاقت کو کبھی ظلم کی طرف مائل نہ ہونے دیتے ہوئے۔" },
+      { "kind": "verse", "surah": 18, "ayah": 88, "note": "لیکن جو ایمان لائے اور نیک عمل کرے، اُس کے لیے سب سے اچھا بدلہ ہے، اور ہم اُس سے اپنے حکم کی بات آسانی سے کریں گے۔" },
+      { "kind": "heading", "level": 2, "text": "بگاڑ کے خلاف دیوار" },
+      { "kind": "p", "text": "پہاڑوں کے درمیان پسی ایک قوم نے یاجوج ماجوج سے اُس کی حفاظت کی التجا کی۔ اُس نے لوہے اور پگھلے تانبے کی ایک دیوار بنائی، پھر بھی جب اُنہوں نے اُس کی تعریف کی تو اُس نے سہرا لینے سے انکار کر دیا، یہ کہتے ہوئے کہ یہ اُس کے رب کی طرف سے ایک رحمت ہے — اور جب اللہ کا وعدہ آئے گا، وہ اِسے ہموار کر دے گا۔" },
+      { "kind": "verse", "surah": 18, "ayah": 98, "note": "اُس نے کہا: یہ میرے رب کی طرف سے ایک رحمت ہے۔ لیکن جب میرے رب کا وعدہ آئے گا، وہ اِسے ہموار کر دے گا؛ اور میرے رب کا وعدہ ہمیشہ سچا ہے۔" },
+      { "kind": "list", "items": [
+        { "text": "طاقت اور وسائل اللہ کی طرف سے ایک امانت ہیں، جو انصاف کے لیے استعمال ہوں۔" },
+        { "text": "طاقتور پر کمزوروں کو بگاڑ سے بچانا فرض ہے۔" },
+        { "text": "ہر کامیابی اللہ کی ہے — نیک لوگ اپنے لیے کوئی سہرا نہیں لیتے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "18:83-98" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" },
+    { "type": "tafsir", "scholar": "al-Tabari" }
+  ],
+  "relatedSlugs": ["surah-al-kahf", "story-people-of-the-cave", "concept-taqwa"]
+}

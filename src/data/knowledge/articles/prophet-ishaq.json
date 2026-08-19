@@ -1,0 +1,70 @@
+{
+  "slug": "prophet-ishaq",
+  "category": "prophets",
+  "prophetNumber": 9,
+  "featured": false,
+  "title": {
+    "en": "Isḥāq (Isaac) — The Glad Tiding to Ibrāhīm",
+    "hi": "इसहाक़ (इसहाक़ अलैहिस्सलाम) — इब्राहीम के लिए शुभ सूचना",
+    "ur": "اسحاق علیہ السلام — ابراہیم کے لیے خوشخبری"
+  },
+  "summary": {
+    "en": "Isḥāq was the son given to Ibrāhīm and Sārah in their old age as a divine glad tiding. A prophet and the father of Yaʿqūb, he continued the line of prophethood among the Children of Israel.",
+    "hi": "इसहाक़ वह पुत्र थे जो इब्राहीम और सारा को उनकी वृद्धावस्था में एक ईश्वरीय शुभ सूचना के रूप में दिए गए। एक नबी और याक़ूब के पिता, उन्होंने बनी इसराईल में नुबूवत की परंपरा को आगे बढ़ाया।",
+    "ur": "اسحاق علیہ السلام وہ بیٹے تھے جو ابراہیم اور سارہ کو اُن کے بڑھاپے میں ایک الٰہی خوشخبری کے طور پر عطا ہوئے۔ ایک نبی اور یعقوب کے والد، انہوں نے بنی اسرائیل میں نبوت کے سلسلے کو آگے بڑھایا۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Isḥāq (peace be upon him) was born to Ibrāhīm through his wife Sārah after many years without a child. The angels who came to Ibrāhīm on their way to the people of Lūṭ brought the news of his birth." },
+      { "kind": "verse", "surah": 11, "ayah": 71, "note": "The glad tidings of Isḥāq, and after him Yaʿqūb, are given to Ibrāhīm and his wife." },
+      { "kind": "heading", "level": 2, "text": "A gift beyond expectation" },
+      { "kind": "p", "text": "Sārah marvelled that she could bear a child in old age, but the messengers affirmed it was the decree of Allah, whose mercy and blessings are upon the household of the prophets." },
+      { "kind": "verse", "surah": 37, "ayah": 112, "note": "Allah gave Ibrāhīm the good news of Isḥāq, a prophet from among the righteous." },
+      { "kind": "heading", "level": 2, "text": "A blessed lineage" },
+      { "kind": "p", "text": "Through Isḥāq came Yaʿqūb and then the many prophets of the Children of Israel. The Qur'an honours him among those granted insight, strength, and a pure remembrance." },
+      { "kind": "verse", "surah": 21, "ayah": 72, "note": "Allah granted Ibrāhīm Isḥāq and Yaʿqūb in addition, and made all of them righteous." },
+      { "kind": "list", "items": [
+        { "text": "No blessing is beyond Allah's power, even when hope seems gone." },
+        { "text": "The gift of righteous offspring is among the greatest favours." },
+        { "text": "Prophethood is a chain of guidance passed through the generations." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "इसहाक़ (अलैहिस्सलाम) इब्राहीम को उनकी पत्नी सारा के द्वारा कई वर्षों तक संतान न होने के बाद दिए गए। वे फ़रिश्ते जो लूत की क़ौम की ओर जाते हुए इब्राहीम के पास आए, उनके जन्म की सूचना लाए।" },
+      { "kind": "verse", "surah": 11, "ayah": 71, "note": "इसहाक़, और उनके बाद याक़ूब की शुभ सूचना इब्राहीम और उनकी पत्नी को दी जाती है।" },
+      { "kind": "heading", "level": 2, "text": "अपेक्षा से परे एक उपहार" },
+      { "kind": "p", "text": "सारा को आश्चर्य हुआ कि वे वृद्धावस्था में संतान को जन्म दे सकती हैं, परन्तु दूतों ने पुष्टि की कि यह अल्लाह का आदेश है, जिसकी दया और बरकतें नबियों के घराने पर हैं।" },
+      { "kind": "verse", "surah": 37, "ayah": 112, "note": "अल्लाह ने इब्राहीम को इसहाक़ की शुभ सूचना दी, धर्मियों में से एक नबी।" },
+      { "kind": "heading", "level": 2, "text": "एक बरकत वाली वंश-परंपरा" },
+      { "kind": "p", "text": "इसहाक़ के द्वारा याक़ूब आए और फिर बनी इसराईल के अनेक नबी। क़ुरआन उन्हें उन लोगों में सम्मानित करता है जिन्हें अंतर्दृष्टि, शक्ति और एक पवित्र स्मरण दिया गया।" },
+      { "kind": "verse", "surah": 21, "ayah": 72, "note": "अल्लाह ने इब्राहीम को इसहाक़ और याक़ूब अतिरिक्त रूप से प्रदान किए, और सबको धर्मी बनाया।" },
+      { "kind": "list", "items": [
+        { "text": "कोई नेमत अल्लाह की शक्ति से बाहर नहीं, भले ही आशा समाप्त प्रतीत हो।" },
+        { "text": "धर्मी संतान का उपहार सबसे बड़ी कृपाओं में से है।" },
+        { "text": "नुबूवत मार्गदर्शन की एक श्रृंखला है जो पीढ़ियों से गुज़रती है।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "اسحاق علیہ السلام ابراہیم کو اُن کی بیوی سارہ کے ذریعے کئی برس تک اولاد نہ ہونے کے بعد عطا ہوئے۔ وہ فرشتے جو لوط کی قوم کی طرف جاتے ہوئے ابراہیم کے پاس آئے، اُن کی پیدائش کی خبر لائے۔" },
+      { "kind": "verse", "surah": 11, "ayah": 71, "note": "اسحاق، اور اُن کے بعد یعقوب کی خوشخبری ابراہیم اور اُن کی بیوی کو دی جاتی ہے۔" },
+      { "kind": "heading", "level": 2, "text": "توقع سے بڑھ کر ایک عطا" },
+      { "kind": "p", "text": "سارہ کو حیرت ہوئی کہ وہ بڑھاپے میں بچہ جن سکتی ہیں، مگر فرشتوں نے تصدیق کی کہ یہ اللہ کا فیصلہ ہے، جس کی رحمت اور برکتیں انبیاء کے گھرانے پر ہیں۔" },
+      { "kind": "verse", "surah": 37, "ayah": 112, "note": "اللہ نے ابراہیم کو اسحاق کی خوشخبری دی، نیکوکاروں میں سے ایک نبی۔" },
+      { "kind": "heading", "level": 2, "text": "ایک بابرکت نسب" },
+      { "kind": "p", "text": "اسحاق کے ذریعے یعقوب آئے اور پھر بنی اسرائیل کے بہت سے انبیاء۔ قرآن انہیں اُن لوگوں میں عزت دیتا ہے جنہیں بصیرت، قوت اور ایک پاکیزہ ذکر عطا ہوا۔" },
+      { "kind": "verse", "surah": 21, "ayah": 72, "note": "اللہ نے ابراہیم کو اسحاق اور یعقوب مزید عطا کیے، اور سب کو نیکوکار بنایا۔" },
+      { "kind": "list", "items": [
+        { "text": "کوئی نعمت اللہ کی قدرت سے باہر نہیں، خواہ امید ختم دکھائی دے۔" },
+        { "text": "نیک اولاد کی عطا سب سے بڑے احسانات میں سے ہے۔" },
+        { "text": "نبوت ہدایت کا ایک سلسلہ ہے جو نسلوں سے گزرتا ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "11:69-73" },
+    { "type": "quran", "ref": "37:112-113" },
+    { "type": "quran", "ref": "21:72" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["prophet-ibrahim", "prophet-yaqub", "prophet-ismail"]
+}
