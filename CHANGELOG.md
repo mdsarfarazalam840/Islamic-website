@@ -1,3 +1,11 @@
+## [0.2.7] - 2026-08-19
+
+### Other
+- Added Knowledge base button to Top navigation bar as well as in the three lines for easy access (930e2d0)
+- Major Feature Added Knowledge Base in the website with updated Readme (10c70c5)
+- Containerized the whole project (0fdb0f2)
+
+
 ## [0.2.6] - 2026-08-09
 
 ### Other
