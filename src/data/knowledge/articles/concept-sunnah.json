@@ -1,0 +1,68 @@
+{
+  "slug": "concept-sunnah",
+  "category": "concepts",
+  "featured": false,
+  "title": {
+    "en": "The Sunnah — The Way of the Prophet ﷺ",
+    "hi": "सुन्नत — नबी ﷺ का तरीक़ा",
+    "ur": "سنت — نبی ﷺ کا طریقہ"
+  },
+  "summary": {
+    "en": "The Sunnah is the way of the Prophet Muḥammad ﷺ — his sayings, actions, and approvals. It explains and applies the Qur'an, and following it is inseparable from obeying Allah. The Prophet ﷺ is the beautiful example every believer is called to follow.",
+    "hi": "सुन्नत पैगंबर मुहम्मद ﷺ का तरीक़ा है — उनके कथन, कर्म, और स्वीकृतियाँ। यह क़ुरआन की व्याख्या और अनुप्रयोग करती है, और इसका अनुसरण अल्लाह की आज्ञा मानने से अविभाज्य है। नबी ﷺ वह सुंदर आदर्श हैं जिनका अनुसरण करने के लिए हर ईमान वाले को बुलाया गया है।",
+    "ur": "سنت پیغمبر محمد ﷺ کا طریقہ ہے — اُن کے اقوال، اعمال، اور تصدیقات۔ یہ قرآن کی وضاحت اور اطلاق کرتی ہے، اور اِس کی پیروی اللہ کی اطاعت سے جدا نہیں۔ نبی ﷺ وہ خوبصورت نمونہ ہیں جن کی پیروی کے لیے ہر مومن کو بلایا گیا ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "The Sunnah is the recorded way of the Prophet Muḥammad ﷺ — everything he said, did, and approved of. It is the second source of Islam after the Qur'an, and it shows how the revelation is to be lived in practice." },
+      { "kind": "verse", "surah": 33, "ayah": 21, "note": "In the Messenger of Allah you have a beautiful example for whoever hopes in Allah and the Last Day." },
+      { "kind": "heading", "level": 2, "text": "Obeying the Prophet is obeying Allah" },
+      { "kind": "p", "text": "The Qur'an ties obedience to the Prophet ﷺ directly to obedience to Allah. He did not speak from his own desire; his guidance is part of the revelation entrusted to him to convey and explain." },
+      { "kind": "verse", "surah": 4, "ayah": 80, "note": "Whoever obeys the Messenger has obeyed Allah." },
+      { "kind": "heading", "level": 2, "text": "The measure of true love" },
+      { "kind": "p", "text": "Love of the Prophet ﷺ is shown by following his way. The Qur'an makes his example the path by which a servant earns the love and forgiveness of Allah Himself." },
+      { "kind": "verse", "surah": 3, "ayah": 31, "note": "Say: If you love Allah, follow me, and Allah will love you and forgive your sins." },
+      { "kind": "list", "items": [
+        { "text": "The Sunnah is the Prophet's ﷺ sayings, actions, and approvals." },
+        { "text": "It explains the Qur'an and is the second source of Islam." },
+        { "text": "Following the Sunnah is a way of obeying and drawing near to Allah." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "सुन्नत पैगंबर मुहम्मद ﷺ का अभिलिखित तरीक़ा है — वह सब जो उन्होंने कहा, किया, और स्वीकृत किया। यह क़ुरआन के बाद इस्लाम का दूसरा स्रोत है, और यह दिखाती है कि वह्य को व्यवहार में कैसे जिया जाए।" },
+      { "kind": "verse", "surah": 33, "ayah": 21, "note": "अल्लाह के रसूल में तुम्हारे लिए एक सुंदर आदर्श है, उसके लिए जो अल्लाह और आख़िरत के दिन की आशा रखता है।" },
+      { "kind": "heading", "level": 2, "text": "नबी की आज्ञा मानना अल्लाह की आज्ञा मानना है" },
+      { "kind": "p", "text": "क़ुरआन नबी ﷺ की आज्ञापालन को सीधे अल्लाह की आज्ञापालन से जोड़ता है। उन्होंने अपनी इच्छा से नहीं कहा; उनका मार्गदर्शन उस वह्य का हिस्सा है जो उन्हें पहुँचाने और समझाने के लिए सौंपी गई।" },
+      { "kind": "verse", "surah": 4, "ayah": 80, "note": "जिसने रसूल की आज्ञा मानी उसने अल्लाह की आज्ञा मानी।" },
+      { "kind": "heading", "level": 2, "text": "सच्चे प्रेम का माप" },
+      { "kind": "p", "text": "नबी ﷺ का प्रेम उनके तरीक़े का अनुसरण करके दिखाया जाता है। क़ुरआन उनके आदर्श को वह मार्ग बनाता है जिससे बंदा स्वयं अल्लाह का प्रेम और क्षमा अर्जित करता है।" },
+      { "kind": "verse", "surah": 3, "ayah": 31, "note": "कह दो: यदि तुम अल्लाह से प्रेम करते हो, तो मेरा अनुसरण करो, अल्लाह तुमसे प्रेम करेगा और तुम्हारे गुनाह क्षमा कर देगा।" },
+      { "kind": "list", "items": [
+        { "text": "सुन्नत नबी ﷺ के कथन, कर्म, और स्वीकृतियाँ हैं।" },
+        { "text": "यह क़ुरआन की व्याख्या करती है और इस्लाम का दूसरा स्रोत है।" },
+        { "text": "सुन्नत का अनुसरण अल्लाह की आज्ञा मानने और उसके निकट होने का मार्ग है।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "سنت پیغمبر محمد ﷺ کا محفوظ طریقہ ہے — وہ سب جو اُنہوں نے کہا، کیا، اور اِس کی تصدیق کی۔ یہ قرآن کے بعد اسلام کا دوسرا ماخذ ہے، اور یہ دکھاتی ہے کہ وحی کو عمل میں کیسے جیا جائے۔" },
+      { "kind": "verse", "surah": 33, "ayah": 21, "note": "اللہ کے رسول میں تمہارے لیے ایک خوبصورت نمونہ ہے، اُس کے لیے جو اللہ اور روزِ آخرت کی امید رکھتا ہے۔" },
+      { "kind": "heading", "level": 2, "text": "نبی کی اطاعت اللہ کی اطاعت ہے" },
+      { "kind": "p", "text": "قرآن نبی ﷺ کی اطاعت کو براہِ راست اللہ کی اطاعت سے جوڑتا ہے۔ اُنہوں نے اپنی خواہش سے نہیں کہا؛ اُن کی رہنمائی اُس وحی کا حصہ ہے جو انہیں پہنچانے اور سمجھانے کے لیے سونپی گئی۔" },
+      { "kind": "verse", "surah": 4, "ayah": 80, "note": "جس نے رسول کی اطاعت کی اُس نے اللہ کی اطاعت کی۔" },
+      { "kind": "heading", "level": 2, "text": "سچی محبت کا پیمانہ" },
+      { "kind": "p", "text": "نبی ﷺ کی محبت اُن کے طریقے کی پیروی کر کے دکھائی جاتی ہے۔ قرآن اُن کے نمونے کو وہ راستہ بناتا ہے جس سے بندہ خود اللہ کی محبت اور مغفرت کماتا ہے۔" },
+      { "kind": "verse", "surah": 3, "ayah": 31, "note": "کہہ دو: اگر تم اللہ سے محبت کرتے ہو، تو میری پیروی کرو، اللہ تم سے محبت کرے گا اور تمہارے گناہ معاف کر دے گا۔" },
+      { "kind": "list", "items": [
+        { "text": "سنت نبی ﷺ کے اقوال، اعمال، اور تصدیقات ہیں۔" },
+        { "text": "یہ قرآن کی وضاحت کرتی ہے اور اسلام کا دوسرا ماخذ ہے۔" },
+        { "text": "سنت کی پیروی اللہ کی اطاعت اور اُس کے قرب کا راستہ ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "33:21" },
+    { "type": "quran", "ref": "4:80" },
+    { "type": "quran", "ref": "3:31" }
+  ],
+  "relatedSlugs": ["prophet-muhammad", "basics-belief-in-messengers", "concept-halal-haram"]
+}

@@ -1,0 +1,68 @@
+{
+  "slug": "basics-belief-in-books",
+  "category": "basics",
+  "featured": false,
+  "title": {
+    "en": "Belief in the Revealed Books",
+    "hi": "उतारी गई किताबों पर ईमान",
+    "ur": "نازل شدہ کتابوں پر ایمان"
+  },
+  "summary": {
+    "en": "The third article of faith is belief in the Books Allah revealed to His prophets — including the Scrolls of Ibrāhīm, the Torah, the Psalms, the Gospel, and finally the Qur'an. The Qur'an is the last revelation, confirming the truth of what came before and preserved by Allah.",
+    "hi": "ईमान का तीसरा अनुच्छेद उन किताबों पर विश्वास है जो अल्लाह ने अपने नबियों पर उतारीं — जिनमें इब्राहीम के सहीफ़े, तौरात, ज़बूर, इंजील, और अंततः क़ुरआन शामिल हैं। क़ुरआन अंतिम वह्य है, जो पहले आए की सच्चाई की पुष्टि करता है और अल्लाह द्वारा सुरक्षित है।",
+    "ur": "ایمان کا تیسرا رکن اُن کتابوں پر یقین ہے جو اللہ نے اپنے انبیاء پر نازل کیں — جن میں ابراہیم کے صحیفے، تورات، زبور، انجیل، اور آخرکار قرآن شامل ہیں۔ قرآن آخری وحی ہے، جو پہلے آنے والی کی سچائی کی تصدیق کرتا ہے اور اللہ کی طرف سے محفوظ ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "The third article of faith is belief that Allah sent down Books to guide humanity through His prophets. A Muslim believes in all of them as originally revealed — the Torah to Mūsā, the Psalms to Dāwūd, the Gospel to ʿĪsā, and others." },
+      { "kind": "verse", "surah": 3, "ayah": 3, "note": "He sent down the Book in truth, confirming what came before it, and He revealed the Torah and the Gospel." },
+      { "kind": "heading", "level": 2, "text": "The Qur'an — the final revelation" },
+      { "kind": "p", "text": "The Qur'an is the last of the revealed Books, sent to the final Prophet ﷺ. It confirms the core truth of earlier scriptures and stands as the criterion by which they are measured." },
+      { "kind": "verse", "surah": 5, "ayah": 48, "note": "We revealed to you the Book in truth, confirming the scripture before it and as a criterion over it." },
+      { "kind": "heading", "level": 2, "text": "Guarded from change" },
+      { "kind": "p", "text": "Unlike earlier scriptures, the Qur'an has been preserved word for word. Allah Himself promised to guard it, and it has been memorized and transmitted unbroken across the generations." },
+      { "kind": "verse", "surah": 15, "ayah": 9, "note": "Indeed, it is We who sent down the Reminder, and indeed, We will be its guardian." },
+      { "kind": "list", "items": [
+        { "text": "Allah revealed Books to His prophets as guidance for humankind." },
+        { "text": "The Qur'an is the final revelation, confirming the truth before it." },
+        { "text": "Allah has promised to preserve the Qur'an from any change." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "ईमान का तीसरा अनुच्छेद यह विश्वास है कि अल्लाह ने अपने नबियों के माध्यम से मानवता का मार्गदर्शन करने के लिए किताबें उतारीं। एक मुसलमान उन सबको उनके मूल रूप में उतरी हुई मानता है — मूसा को तौरात, दाऊद को ज़बूर, ईसा को इंजील, और अन्य।" },
+      { "kind": "verse", "surah": 3, "ayah": 3, "note": "उसने किताब को सच्चाई के साथ उतारा, जो पहले आई उसकी पुष्टि करती है, और उसने तौरात व इंजील उतारीं।" },
+      { "kind": "heading", "level": 2, "text": "क़ुरआन — अंतिम वह्य" },
+      { "kind": "p", "text": "क़ुरआन उतारी गई किताबों में अंतिम है, अंतिम नबी ﷺ पर भेजी गई। यह पहले के ग्रंथों के मूल सत्य की पुष्टि करता है और उस कसौटी के रूप में खड़ा है जिससे उन्हें मापा जाता है।" },
+      { "kind": "verse", "surah": 5, "ayah": 48, "note": "हमने तुम पर किताब सच्चाई के साथ उतारी, जो पहले के ग्रंथ की पुष्टि करती है और उस पर एक कसौटी है।" },
+      { "kind": "heading", "level": 2, "text": "परिवर्तन से सुरक्षित" },
+      { "kind": "p", "text": "पहले के ग्रंथों के विपरीत, क़ुरआन शब्दशः सुरक्षित रखा गया है। स्वयं अल्लाह ने इसकी रक्षा का वादा किया, और यह पीढ़ियों में अटूट रूप से याद किया और आगे पहुँचाया गया है।" },
+      { "kind": "verse", "surah": 15, "ayah": 9, "note": "निःसंदेह, हमने ही इस उपदेश को उतारा, और निःसंदेह, हम ही इसके रक्षक हैं।" },
+      { "kind": "list", "items": [
+        { "text": "अल्लाह ने अपने नबियों पर मानवजाति के मार्गदर्शन के लिए किताबें उतारीं।" },
+        { "text": "क़ुरआन अंतिम वह्य है, जो उससे पहले के सत्य की पुष्टि करता है।" },
+        { "text": "अल्लाह ने क़ुरआन को किसी भी परिवर्तन से सुरक्षित रखने का वादा किया है।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "ایمان کا تیسرا رکن یہ یقین ہے کہ اللہ نے اپنے انبیاء کے ذریعے انسانیت کی رہنمائی کے لیے کتابیں نازل کیں۔ ایک مسلمان اُن سب کو اُن کی اصل صورت میں نازل شدہ مانتا ہے — موسیٰ کو تورات، داؤد کو زبور، عیسیٰ کو انجیل، اور دیگر۔" },
+      { "kind": "verse", "surah": 3, "ayah": 3, "note": "اُس نے کتاب کو سچائی کے ساتھ نازل کیا، جو پہلے آنے والی کی تصدیق کرتی ہے، اور اُس نے تورات و انجیل نازل کیں۔" },
+      { "kind": "heading", "level": 2, "text": "قرآن — آخری وحی" },
+      { "kind": "p", "text": "قرآن نازل شدہ کتابوں میں آخری ہے، آخری نبی ﷺ پر بھیجی گئی۔ یہ پہلے کے صحیفوں کے بنیادی سچ کی تصدیق کرتا ہے اور اُس کسوٹی کے طور پر کھڑا ہے جس سے انہیں پرکھا جاتا ہے۔" },
+      { "kind": "verse", "surah": 5, "ayah": 48, "note": "ہم نے تم پر کتاب سچائی کے ساتھ نازل کی، جو پہلے کے صحیفے کی تصدیق کرتی ہے اور اُس پر ایک کسوٹی ہے۔" },
+      { "kind": "heading", "level": 2, "text": "تبدیلی سے محفوظ" },
+      { "kind": "p", "text": "پہلے کے صحیفوں کے برعکس، قرآن لفظ بہ لفظ محفوظ رکھا گیا ہے۔ خود اللہ نے اِس کی حفاظت کا وعدہ کیا، اور یہ نسلوں میں بلا انقطاع یاد کیا اور آگے پہنچایا گیا ہے۔" },
+      { "kind": "verse", "surah": 15, "ayah": 9, "note": "بے شک، ہم نے ہی اِس نصیحت کو نازل کیا، اور بے شک، ہم ہی اِس کے محافظ ہیں۔" },
+      { "kind": "list", "items": [
+        { "text": "اللہ نے اپنے انبیاء پر انسانوں کی رہنمائی کے لیے کتابیں نازل کیں۔" },
+        { "text": "قرآن آخری وحی ہے، جو اُس سے پہلے کے سچ کی تصدیق کرتا ہے۔" },
+        { "text": "اللہ نے قرآن کو کسی بھی تبدیلی سے محفوظ رکھنے کا وعدہ کیا ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "3:3" },
+    { "type": "quran", "ref": "5:48" },
+    { "type": "quran", "ref": "15:9" }
+  ],
+  "relatedSlugs": ["concept-iman", "basics-belief-in-messengers", "prophet-musa"]
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "prophet-ibrahim",
+  "category": "prophets",
+  "prophetNumber": 6,
+  "featured": true,
+  "title": {
+    "en": "Ibrāhīm (Abraham) — The Friend of Allah",
+    "hi": "इब्राहीम (इब्राहीम अलैहिस्सलाम) — अल्लाह के ख़लील",
+    "ur": "ابراہیم علیہ السلام — خلیل اللہ"
+  },
+  "summary": {
+    "en": "Ibrāhīm searched for his Lord, shattered his people's idols, survived the fire, and submitted to the command to sacrifice his son. Called the Friend of Allah, he raised the foundations of the Kaʿbah and became the father of prophets.",
+    "hi": "इब्राहीम ने अपने रब की खोज की, अपनी क़ौम की मूर्तियाँ तोड़ीं, आग से बचे, और अपने बेटे की क़ुर्बानी के हुक्म के आगे झुक गए। अल्लाह के ख़लील कहलाए, उन्होंने काबा की नींव उठाई और नबियों के पिता बने।",
+    "ur": "ابراہیم علیہ السلام نے اپنے رب کی تلاش کی، اپنی قوم کے بت توڑے، آگ سے بچے، اور اپنے بیٹے کی قربانی کے حکم کے سامنے سرِتسلیم خم کیا۔ خلیل اللہ کہلائے، انہوں نے کعبہ کی بنیادیں اٹھائیں اور انبیاء کے باپ بنے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Ibrāhīm (peace be upon him) is one of the greatest of the prophets, honoured in the Qur'an as a nation in himself and the intimate friend (khalīl) of Allah. His life is a journey of pure monotheism against a world of idols." },
+      { "kind": "heading", "level": 2, "text": "The search for the Lord" },
+      { "kind": "p", "text": "Reflecting on a star, the moon, and the sun, Ibrāhīm reasoned that nothing that sets and fades could be his Lord. He turned wholly to the One who created the heavens and the earth." },
+      { "kind": "verse", "surah": 6, "ayah": 79, "note": "Ibrāhīm turns his face to the One who created the heavens and the earth, as a pure monotheist." },
+      { "kind": "heading", "level": 2, "text": "Breaking the idols and the fire" },
+      { "kind": "p", "text": "He shattered the idols of his people to show they could neither harm nor help. Enraged, they cast him into a blazing fire — but Allah commanded it to be cool and safe, and Ibrāhīm emerged unharmed." },
+      { "kind": "verse", "surah": 21, "ayah": 69, "note": "Allah commands the fire to be coolness and peace upon Ibrāhīm." },
+      { "kind": "heading", "level": 2, "text": "Submission and the Kaʿbah" },
+      { "kind": "p", "text": "In old age he was granted Ismāʿīl, then commanded in a vision to sacrifice him. Both father and son submitted, and Allah ransomed the boy with a great sacrifice. Together they raised the foundations of the Kaʿbah, praying that it be a place of worship for all who believe." },
+      { "kind": "verse", "surah": 2, "ayah": 127, "note": "Ibrāhīm and Ismāʿīl raise the foundations of the House, praying for acceptance." },
+      { "kind": "list", "items": [
+        { "text": "True faith is reached by sincere reflection on Allah's signs." },
+        { "text": "Standing for tawḥīd may cost everything, but Allah protects His servants." },
+        { "text": "Complete submission (islām) is the essence of Ibrāhīm's way." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "इब्राहीम (अलैहिस्सलाम) सबसे महान नबियों में से एक हैं, जिन्हें क़ुरआन में स्वयं एक उम्मत और अल्लाह का घनिष्ठ मित्र (ख़लील) कहकर सम्मानित किया गया। उनका जीवन मूर्तियों से भरी दुनिया के विरुद्ध शुद्ध एकेश्वरवाद की यात्रा है।" },
+      { "kind": "heading", "level": 2, "text": "रब की खोज" },
+      { "kind": "p", "text": "एक तारे, चाँद और सूरज पर विचार करते हुए इब्राहीम ने तर्क किया कि जो चीज़ डूब और मिट जाती है वह उनका रब नहीं हो सकती। वे पूरी तरह उसी की ओर मुड़े जिसने आसमानों और धरती को रचा।" },
+      { "kind": "verse", "surah": 6, "ayah": 79, "note": "इब्राहीम अपना मुख उसी की ओर करते हैं जिसने आसमानों और धरती को रचा, एक शुद्ध एकेश्वरवादी के रूप में।" },
+      { "kind": "heading", "level": 2, "text": "मूर्तियाँ तोड़ना और आग" },
+      { "kind": "p", "text": "उन्होंने अपनी क़ौम की मूर्तियाँ तोड़ दीं यह दिखाने के लिए कि वे न हानि पहुँचा सकती हैं न लाभ। क्रोधित होकर उन्होंने इब्राहीम को धधकती आग में डाल दिया — परन्तु अल्लाह ने उसे ठंडा और सुरक्षित होने का हुक्म दिया, और इब्राहीम बिना किसी क्षति के निकल आए।" },
+      { "kind": "verse", "surah": 21, "ayah": 69, "note": "अल्लाह आग को इब्राहीम पर ठंडक और शांति होने का हुक्म देता है।" },
+      { "kind": "heading", "level": 2, "text": "समर्पण और काबा" },
+      { "kind": "p", "text": "वृद्धावस्था में उन्हें इस्माईल दिए गए, फिर उन्हें स्वप्न में उनकी क़ुर्बानी का हुक्म मिला। पिता और पुत्र दोनों झुक गए, और अल्लाह ने बालक को एक महान क़ुर्बानी के बदले बचा लिया। दोनों ने मिलकर काबा की नींव उठाई, यह दुआ करते हुए कि यह हर ईमान वाले के लिए इबादत का स्थान हो।" },
+      { "kind": "verse", "surah": 2, "ayah": 127, "note": "इब्राहीम और इस्माईल घर की नींव उठाते हैं, क़बूलियत की दुआ करते हुए।" },
+      { "kind": "list", "items": [
+        { "text": "सच्चा ईमान अल्लाह की निशानियों पर सच्चे चिंतन से प्राप्त होता है।" },
+        { "text": "तौहीद के लिए खड़े होना सब कुछ चुका सकता है, परन्तु अल्लाह अपने बंदों की रक्षा करता है।" },
+        { "text": "पूर्ण समर्पण (इस्लाम) इब्राहीम के मार्ग का सार है।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "ابراہیم علیہ السلام سب سے عظیم انبیاء میں سے ہیں، جنہیں قرآن میں خود ایک اُمت اور اللہ کا گہرا دوست (خلیل) کہہ کر عزت دی گئی۔ اُن کی زندگی بتوں سے بھری دنیا کے مقابل خالص توحید کا سفر ہے۔" },
+      { "kind": "heading", "level": 2, "text": "رب کی تلاش" },
+      { "kind": "p", "text": "ایک ستارے، چاند اور سورج پر غور کرتے ہوئے ابراہیم نے استدلال کیا کہ جو چیز ڈوب اور مٹ جائے وہ اُن کا رب نہیں ہو سکتی۔ وہ پوری طرح اُسی کی طرف متوجہ ہوئے جس نے آسمانوں اور زمین کو پیدا کیا۔" },
+      { "kind": "verse", "surah": 6, "ayah": 79, "note": "ابراہیم اپنا رخ اُسی کی طرف کرتے ہیں جس نے آسمانوں اور زمین کو پیدا کیا، ایک خالص موحد کے طور پر۔" },
+      { "kind": "heading", "level": 2, "text": "بت توڑنا اور آگ" },
+      { "kind": "p", "text": "انہوں نے اپنی قوم کے بت توڑ دیے تاکہ دکھائیں کہ وہ نہ نقصان پہنچا سکتے ہیں نہ فائدہ۔ غصے میں آ کر اُنہوں نے ابراہیم کو دہکتی آگ میں ڈال دیا — مگر اللہ نے اُسے ٹھنڈا اور سلامتی والا ہونے کا حکم دیا، اور ابراہیم بغیر کسی نقصان کے نکل آئے۔" },
+      { "kind": "verse", "surah": 21, "ayah": 69, "note": "اللہ آگ کو ابراہیم پر ٹھنڈک اور سلامتی ہونے کا حکم دیتا ہے۔" },
+      { "kind": "heading", "level": 2, "text": "تسلیم اور کعبہ" },
+      { "kind": "p", "text": "بڑھاپے میں انہیں اسماعیل عطا ہوئے، پھر انہیں خواب میں اُن کی قربانی کا حکم ملا۔ باپ اور بیٹا دونوں سرِتسلیم خم ہوئے، اور اللہ نے بچے کو ایک عظیم قربانی کے بدلے بچا لیا۔ دونوں نے مل کر کعبہ کی بنیادیں اٹھائیں، یہ دعا کرتے ہوئے کہ یہ ہر مومن کے لیے عبادت کی جگہ ہو۔" },
+      { "kind": "verse", "surah": 2, "ayah": 127, "note": "ابراہیم اور اسماعیل گھر کی بنیادیں اٹھاتے ہیں، قبولیت کی دعا کرتے ہوئے۔" },
+      { "kind": "list", "items": [
+        { "text": "سچا ایمان اللہ کی نشانیوں پر سچے غور و فکر سے حاصل ہوتا ہے۔" },
+        { "text": "توحید کے لیے کھڑا ہونا سب کچھ چھین سکتا ہے، مگر اللہ اپنے بندوں کی حفاظت کرتا ہے۔" },
+        { "text": "مکمل تسلیم (اسلام) ابراہیم کے راستے کا خلاصہ ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "6:74-83" },
+    { "type": "quran", "ref": "21:51-70" },
+    { "type": "quran", "ref": "37:100-113" },
+    { "type": "quran", "ref": "2:124-129" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["prophet-ismail", "prophet-ishaq", "concept-tawhid"]
+}

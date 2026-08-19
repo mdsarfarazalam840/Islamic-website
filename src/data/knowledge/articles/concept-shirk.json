@@ -1,0 +1,68 @@
+{
+  "slug": "concept-shirk",
+  "category": "concepts",
+  "featured": false,
+  "title": {
+    "en": "Shirk — Associating Partners with Allah",
+    "hi": "शिर्क — अल्लाह के साथ साझी ठहराना",
+    "ur": "شرک — اللہ کے ساتھ شریک ٹھہرانا"
+  },
+  "summary": {
+    "en": "Shirk is the opposite of tawḥīd: to associate partners with Allah in His lordship, worship, or names and attributes. It is described in the Qur'an as the one sin Allah does not forgive if a person dies upon it, and the gravest wrong a soul can commit.",
+    "hi": "शिर्क तौहीद का विपरीत है: अल्लाह के साथ उसकी प्रभुता, इबादत, या नामों व गुणों में साझी ठहराना। क़ुरआन में इसे वह एकमात्र गुनाह बताया गया है जिसे अल्लाह क्षमा नहीं करता यदि कोई व्यक्ति उस पर मरे, और वह सबसे बड़ा अत्याचार जो कोई आत्मा कर सकती है।",
+    "ur": "شرک توحید کی ضد ہے: اللہ کے ساتھ اُس کی ربوبیت، عبادت، یا اسماء و صفات میں شریک ٹھہرانا۔ قرآن میں اِسے وہ واحد گناہ بتایا گیا ہے جسے اللہ معاف نہیں کرتا اگر کوئی اُس پر مرے، اور وہ سب سے بڑا ظلم جو کوئی روح کر سکتی ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Shirk is the gravest sin in Islam — the direct opposite of tawḥīd. It means giving to other than Allah what belongs to Him alone: directing worship, ultimate trust, or the sole right to command toward any created thing." },
+      { "kind": "verse", "surah": 4, "ayah": 48, "note": "Allah does not forgive that partners be associated with Him, but He forgives anything less than that for whom He wills." },
+      { "kind": "heading", "level": 2, "text": "The greatest wrong" },
+      { "kind": "p", "text": "The Qur'an calls shirk a tremendous injustice — not against Allah, whom it cannot harm, but against the truth and against one's own soul, which was created to know and worship its Maker alone." },
+      { "kind": "verse", "surah": 31, "ayah": 13, "note": "O my son, do not associate anything with Allah; indeed, associating partners with Him is a great injustice." },
+      { "kind": "heading", "level": 2, "text": "Worship belongs to Allah alone" },
+      { "kind": "p", "text": "Because Allah alone creates, sustains, and controls, worship in every form — prayer, sacrifice, vows, hope and fear — is His right alone. To turn any of it to another is to fall into shirk." },
+      { "kind": "verse", "surah": 6, "ayah": 162, "note": "Say: My prayer, my rites, my living and my dying are for Allah, Lord of the worlds." },
+      { "kind": "list", "items": [
+        { "text": "Shirk is associating partners with Allah in lordship, worship, or His names and attributes." },
+        { "text": "It is the one sin left unforgiven for the one who dies upon it without repentance." },
+        { "text": "Every act of worship — prayer, trust, hope, fear — belongs to Allah alone." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "शिर्क इस्लाम में सबसे बड़ा गुनाह है — तौहीद का सीधा विपरीत। इसका अर्थ है अल्लाह के सिवा किसी को वह देना जो केवल उसी का है: इबादत, परम भरोसा, या आदेश देने का एकमात्र अधिकार किसी रची हुई चीज़ की ओर मोड़ना।" },
+      { "kind": "verse", "surah": 4, "ayah": 48, "note": "अल्लाह इसे क्षमा नहीं करता कि उसके साथ साझी ठहराए जाएँ, परन्तु इससे कम जिसके लिए चाहे क्षमा कर देता है।" },
+      { "kind": "heading", "level": 2, "text": "सबसे बड़ा अत्याचार" },
+      { "kind": "p", "text": "क़ुरआन शिर्क को एक ज़बरदस्त अन्याय कहता है — अल्लाह के विरुद्ध नहीं, जिसे यह हानि नहीं पहुँचा सकता, बल्कि सत्य के विरुद्ध और अपनी ही आत्मा के विरुद्ध, जो अपने रचयिता को अकेले जानने और उसकी इबादत करने के लिए रची गई।" },
+      { "kind": "verse", "surah": 31, "ayah": 13, "note": "ऐ मेरे बेटे, अल्लाह के साथ किसी को साझी न ठहरा; निःसंदेह उसके साथ साझी ठहराना एक बड़ा अन्याय है।" },
+      { "kind": "heading", "level": 2, "text": "इबादत केवल अल्लाह के लिए है" },
+      { "kind": "p", "text": "क्योंकि केवल अल्लाह ही रचता, पालता और नियंत्रित करता है, हर रूप में इबादत — नमाज़, क़ुर्बानी, मन्नतें, आशा और भय — केवल उसी का अधिकार है। इसमें से कुछ भी किसी और की ओर मोड़ना शिर्क में गिरना है।" },
+      { "kind": "verse", "surah": 6, "ayah": 162, "note": "कह दो: मेरी नमाज़, मेरी क़ुर्बानी, मेरा जीना और मेरा मरना अल्लाह के लिए है, समस्त संसारों के रब के लिए।" },
+      { "kind": "list", "items": [
+        { "text": "शिर्क अल्लाह के साथ प्रभुता, इबादत, या उसके नामों व गुणों में साझी ठहराना है।" },
+        { "text": "यह वह एकमात्र गुनाह है जो बिना तौबा के उस पर मरने वाले के लिए अक्षम्य रहता है।" },
+        { "text": "इबादत का हर कर्म — नमाज़, भरोसा, आशा, भय — केवल अल्लाह के लिए है।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "شرک اسلام میں سب سے بڑا گناہ ہے — توحید کی سیدھی ضد۔ اِس کا مطلب ہے اللہ کے سوا کسی کو وہ دینا جو صرف اُسی کا ہے: عبادت، حتمی بھروسہ، یا حکم دینے کا واحد حق کسی مخلوق چیز کی طرف موڑنا۔" },
+      { "kind": "verse", "surah": 4, "ayah": 48, "note": "اللہ اِسے معاف نہیں کرتا کہ اُس کے ساتھ شریک ٹھہرائے جائیں، مگر اِس سے کم جس کے لیے چاہے معاف کر دیتا ہے۔" },
+      { "kind": "heading", "level": 2, "text": "سب سے بڑا ظلم" },
+      { "kind": "p", "text": "قرآن شرک کو ایک زبردست ظلم کہتا ہے — اللہ کے خلاف نہیں، جسے یہ نقصان نہیں پہنچا سکتا، بلکہ سچ کے خلاف اور اپنی ہی روح کے خلاف، جو اپنے خالق کو اکیلے جاننے اور اُس کی عبادت کے لیے پیدا کی گئی۔" },
+      { "kind": "verse", "surah": 31, "ayah": 13, "note": "اے میرے بیٹے، اللہ کے ساتھ کسی کو شریک نہ ٹھہرا؛ بے شک اُس کے ساتھ شریک ٹھہرانا ایک بڑا ظلم ہے۔" },
+      { "kind": "heading", "level": 2, "text": "عبادت صرف اللہ کے لیے ہے" },
+      { "kind": "p", "text": "چونکہ صرف اللہ ہی پیدا کرتا، پالتا اور تدبیر کرتا ہے، ہر صورت میں عبادت — نماز، قربانی، منتیں، امید اور خوف — صرف اُسی کا حق ہے۔ اِس میں سے کچھ بھی کسی اور کی طرف موڑنا شرک میں گرنا ہے۔" },
+      { "kind": "verse", "surah": 6, "ayah": 162, "note": "کہہ دو: میری نماز، میری قربانی، میرا جینا اور میرا مرنا اللہ کے لیے ہے، تمام جہانوں کے رب کے لیے۔" },
+      { "kind": "list", "items": [
+        { "text": "شرک اللہ کے ساتھ ربوبیت، عبادت، یا اُس کے اسماء و صفات میں شریک ٹھہرانا ہے۔" },
+        { "text": "یہ وہ واحد گناہ ہے جو بغیر توبہ کے اُس پر مرنے والے کے لیے ناقابلِ معافی رہتا ہے۔" },
+        { "text": "عبادت کا ہر عمل — نماز، بھروسہ، امید، خوف — صرف اللہ کے لیے ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "4:48" },
+    { "type": "quran", "ref": "31:13" },
+    { "type": "quran", "ref": "6:162-163" }
+  ],
+  "relatedSlugs": ["concept-tawhid", "basics-belief-in-allah", "basics-shahada"]
+}

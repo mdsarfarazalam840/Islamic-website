@@ -1,0 +1,70 @@
+{
+  "slug": "prophet-salih",
+  "category": "prophets",
+  "prophetNumber": 5,
+  "featured": false,
+  "title": {
+    "en": "Ṣāliḥ — The Prophet of Thamūd and the She-Camel",
+    "hi": "सालेह (सालेह अलैहिस्सलाम) — क़ौम समूद के नबी और ऊँटनी",
+    "ur": "صالح علیہ السلام — قومِ ثمود کے نبی اور اونٹنی"
+  },
+  "summary": {
+    "en": "Ṣāliḥ was sent to Thamūd, a people who carved homes into mountains. He gave them a miraculous she-camel as a sign; when they hamstrung it in defiance, a mighty blast destroyed them.",
+    "hi": "सालेह क़ौम समूद की ओर भेजे गए, एक ऐसी क़ौम जो पहाड़ों में घर तराशती थी। उन्होंने उन्हें एक चमत्कारी ऊँटनी निशानी के रूप में दी; जब उन्होंने अवज्ञा में उसकी कूचें काट दीं, तो एक ज़बरदस्त धमाके ने उन्हें नष्ट कर दिया।",
+    "ur": "صالح علیہ السلام قومِ ثمود کی طرف بھیجے گئے، ایک ایسی قوم جو پہاڑوں میں گھر تراشتی تھی۔ انہوں نے انہیں ایک معجزاتی اونٹنی نشانی کے طور پر دی؛ جب انہوں نے سرکشی میں اُس کی کونچیں کاٹ دیں تو ایک زبردست دھماکے نے انہیں ہلاک کر دیا۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Ṣāliḥ (peace be upon him) was sent to Thamūd, the people who came after ʿĀd. Skilled and prosperous, they carved elaborate dwellings into the rock of the mountains, yet they worshipped idols instead of their Creator." },
+      { "kind": "verse", "surah": 7, "ayah": 73, "note": "Ṣāliḥ calls his people to Allah and presents the she-camel as a clear sign." },
+      { "kind": "heading", "level": 2, "text": "The sign of the she-camel" },
+      { "kind": "p", "text": "When they demanded a miracle, Allah brought forth a she-camel as a test. Ṣāliḥ warned them to let her graze freely and to share the water — a day for her, a day for them — and not to harm her." },
+      { "kind": "verse", "surah": 11, "ayah": 64, "note": "This she-camel is a sign; leave her to eat in Allah's earth and do not touch her with harm." },
+      { "kind": "heading", "level": 2, "text": "Defiance and the blast" },
+      { "kind": "p", "text": "The most wretched among them hamstrung the camel in open rebellion. Ṣāliḥ told them their reprieve was three days. Then a thunderous blast seized them, leaving them lifeless in their homes, while Allah saved Ṣāliḥ and those who believed." },
+      { "kind": "verse", "surah": 91, "ayah": 14, "note": "They denied and hamstrung her, so their Lord destroyed them for their sin and levelled it." },
+      { "kind": "list", "items": [
+        { "text": "Signs from Allah demand obedience, not idle testing." },
+        { "text": "A whole community shares the guilt when it consents to the crime of a few." },
+        { "text": "Prosperity without gratitude leads to destruction." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "सालेह (अलैहिस्सलाम) क़ौम समूद की ओर भेजे गए, वह क़ौम जो आद के बाद आई। कुशल और समृद्ध, वे पहाड़ों की चट्टानों में विस्तृत निवास तराशते थे, फिर भी अपने रचयिता के बजाय मूर्तियों की पूजा करते थे।" },
+      { "kind": "verse", "surah": 7, "ayah": 73, "note": "सालेह अपनी क़ौम को अल्लाह की ओर बुलाते हैं और ऊँटनी को एक स्पष्ट निशानी के रूप में प्रस्तुत करते हैं।" },
+      { "kind": "heading", "level": 2, "text": "ऊँटनी की निशानी" },
+      { "kind": "p", "text": "जब उन्होंने चमत्कार की माँग की, तो अल्लाह ने एक ऊँटनी को परीक्षा के रूप में प्रकट किया। सालेह ने उन्हें चेताया कि उसे स्वतंत्र चरने दें और पानी बाँट लें — एक दिन उसके लिए, एक दिन उनके लिए — और उसे कोई हानि न पहुँचाएँ।" },
+      { "kind": "verse", "surah": 11, "ayah": 64, "note": "यह ऊँटनी एक निशानी है; उसे अल्लाह की धरती में चरने दो और उसे कोई हानि न पहुँचाओ।" },
+      { "kind": "heading", "level": 2, "text": "अवज्ञा और धमाका" },
+      { "kind": "p", "text": "उनमें सबसे दुष्ट ने खुली बग़ावत में ऊँटनी की कूचें काट दीं। सालेह ने उनसे कहा कि उनकी मोहलत तीन दिन है। फिर एक गरजता धमाका उन्हें आ पकड़ा, जिसने उन्हें उनके घरों में निर्जीव छोड़ दिया, जबकि अल्लाह ने सालेह और ईमान वालों को बचा लिया।" },
+      { "kind": "verse", "surah": 91, "ayah": 14, "note": "उन्होंने झुठलाया और उसकी कूचें काट दीं, तो उनके रब ने उनके पाप के कारण उन्हें नष्ट कर बराबर कर दिया।" },
+      { "kind": "list", "items": [
+        { "text": "अल्लाह की निशानियाँ आज्ञापालन की माँग करती हैं, व्यर्थ परीक्षण की नहीं।" },
+        { "text": "जब कोई समुदाय कुछ लोगों के अपराध पर सहमत होता है तो वह पूरा दोष साझा करता है।" },
+        { "text": "आभार बिना समृद्धि विनाश की ओर ले जाती है।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "صالح علیہ السلام قومِ ثمود کی طرف بھیجے گئے، وہ قوم جو عاد کے بعد آئی۔ ماہر اور خوشحال، وہ پہاڑوں کی چٹانوں میں مفصل مکانات تراشتے تھے، پھر بھی اپنے خالق کے بجائے بتوں کی پوجا کرتے تھے۔" },
+      { "kind": "verse", "surah": 7, "ayah": 73, "note": "صالح اپنی قوم کو اللہ کی طرف بلاتے ہیں اور اونٹنی کو ایک واضح نشانی کے طور پر پیش کرتے ہیں۔" },
+      { "kind": "heading", "level": 2, "text": "اونٹنی کی نشانی" },
+      { "kind": "p", "text": "جب انہوں نے معجزے کا مطالبہ کیا، تو اللہ نے ایک اونٹنی کو آزمائش کے طور پر ظاہر کیا۔ صالح نے انہیں خبردار کیا کہ اُسے آزادانہ چرنے دیں اور پانی بانٹ لیں — ایک دن اُس کے لیے، ایک دن اُن کے لیے — اور اُسے کوئی نقصان نہ پہنچائیں۔" },
+      { "kind": "verse", "surah": 11, "ayah": 64, "note": "یہ اونٹنی ایک نشانی ہے؛ اُسے اللہ کی زمین میں چرنے دو اور اُسے کوئی نقصان نہ پہنچاؤ۔" },
+      { "kind": "heading", "level": 2, "text": "سرکشی اور دھماکا" },
+      { "kind": "p", "text": "اُن میں سب سے بدبخت نے کھلی بغاوت میں اونٹنی کی کونچیں کاٹ دیں۔ صالح نے اُن سے کہا کہ اُن کی مہلت تین دن ہے۔ پھر ایک گرجتا دھماکا انہیں آ پکڑا، جس نے انہیں اُن کے گھروں میں بے جان چھوڑ دیا، جبکہ اللہ نے صالح اور مومنوں کو بچا لیا۔" },
+      { "kind": "verse", "surah": 91, "ayah": 14, "note": "انہوں نے جھٹلایا اور اُس کی کونچیں کاٹ دیں، تو اُن کے رب نے اُن کے گناہ کے سبب انہیں ہلاک کر کے برابر کر دیا۔" },
+      { "kind": "list", "items": [
+        { "text": "اللہ کی نشانیاں اطاعت کا تقاضا کرتی ہیں، فضول آزمائش کا نہیں۔" },
+        { "text": "جب کوئی معاشرہ چند لوگوں کے جرم پر راضی ہوتا ہے تو وہ پورا گناہ میں شریک ہوتا ہے۔" },
+        { "text": "شکر کے بغیر خوشحالی تباہی کی طرف لے جاتی ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "7:73-79" },
+    { "type": "quran", "ref": "11:61-68" },
+    { "type": "quran", "ref": "91:11-15" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["prophet-hud", "prophet-nuh", "concept-shirk"]
+}

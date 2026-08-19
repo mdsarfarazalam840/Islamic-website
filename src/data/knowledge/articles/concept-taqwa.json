@@ -1,0 +1,68 @@
+{
+  "slug": "concept-taqwa",
+  "category": "concepts",
+  "featured": false,
+  "title": {
+    "en": "Taqwā — God-Consciousness",
+    "hi": "तक़वा — ख़ुदा-चेतना",
+    "ur": "تقویٰ — خدا شناسی"
+  },
+  "summary": {
+    "en": "Taqwā is God-consciousness: to live aware that Allah sees you, guarding yourself against what displeases Him and hastening to what He loves. It is the quality the Qur'an praises most, the true measure of honour, and the fruit that worship is meant to produce.",
+    "hi": "तक़वा ख़ुदा-चेतना है: इस चेतना के साथ जीना कि अल्लाह तुम्हें देखता है, स्वयं को उससे बचाना जो उसे नापसंद है और उसकी ओर दौड़ना जो वह पसंद करता है। यह वह गुण है जिसकी क़ुरआन सबसे अधिक प्रशंसा करता है, सम्मान का सच्चा माप, और वह फल जो इबादत उत्पन्न करने के लिए है।",
+    "ur": "تقویٰ خدا شناسی ہے: اِس شعور کے ساتھ جینا کہ اللہ تمہیں دیکھتا ہے، خود کو اُس سے بچانا جو اُسے ناپسند ہے اور اُس کی طرف دوڑنا جو وہ پسند کرتا ہے۔ یہ وہ صفت ہے جس کی قرآن سب سے زیادہ تعریف کرتا ہے، عزت کا سچا پیمانہ، اور وہ پھل جو عبادت پیدا کرنے کے لیے ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Taqwā is often translated as God-consciousness or mindfulness of Allah. It is to place a shield between yourself and Allah's displeasure — doing what He commands and avoiding what He forbids, out of love and awe of Him." },
+      { "kind": "verse", "surah": 2, "ayah": 197, "note": "And take provision, but indeed the best provision is taqwā — so fear Me, O people of understanding." },
+      { "kind": "heading", "level": 2, "text": "The true measure of honour" },
+      { "kind": "p", "text": "In the sight of Allah people are not ranked by wealth, race, or lineage, but by taqwā. It is the one distinction that raises a servant, and it is known only to Allah, who sees the heart." },
+      { "kind": "verse", "surah": 49, "ayah": 13, "note": "The most honoured of you before Allah is the most righteous of you; indeed Allah is Knowing and Aware." },
+      { "kind": "heading", "level": 2, "text": "A door to relief and knowledge" },
+      { "kind": "p", "text": "The Qur'an ties taqwā to Allah's help: for the one who is mindful of Him, a way out is opened from every difficulty, provision comes from unexpected places, and the heart is granted discernment." },
+      { "kind": "verse", "surah": 65, "ayah": 2, "note": "Whoever is mindful of Allah, He will make a way out for him, and provide for him from where he does not expect." },
+      { "kind": "list", "items": [
+        { "text": "Taqwā is living conscious that Allah sees you, in awe and love." },
+        { "text": "It is the true measure of a person's honour before Allah." },
+        { "text": "Allah promises the God-conscious a way out of hardship and unexpected provision." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "तक़वा को अक्सर ख़ुदा-चेतना या अल्लाह की सजगता के रूप में अनूदित किया जाता है। यह अपने और अल्लाह की नाराज़गी के बीच एक ढाल रखना है — जो वह आदेश दे वह करना और जो वह मना करे उससे बचना, उसके प्रेम और भय से।" },
+      { "kind": "verse", "surah": 2, "ayah": 197, "note": "और पाथेय लो, परन्तु निःसंदेह सबसे अच्छा पाथेय तक़वा है — तो मुझसे डरो, ऐ बुद्धिमानो।" },
+      { "kind": "heading", "level": 2, "text": "सम्मान का सच्चा माप" },
+      { "kind": "p", "text": "अल्लाह की दृष्टि में लोगों का दर्जा धन, नस्ल, या वंश से नहीं, बल्कि तक़वा से है। यह एकमात्र भेद है जो बंदे को ऊँचा उठाता है, और यह केवल अल्लाह को ज्ञात है, जो दिल को देखता है।" },
+      { "kind": "verse", "surah": 49, "ayah": 13, "note": "अल्लाह के समक्ष तुममें सबसे सम्मानित वह है जो तुममें सबसे नेक है; निःसंदेह अल्लाह जानने वाला, ख़बरदार है।" },
+      { "kind": "heading", "level": 2, "text": "राहत और ज्ञान का द्वार" },
+      { "kind": "p", "text": "क़ुरआन तक़वा को अल्लाह की मदद से जोड़ता है: जो उसके प्रति सजग रहता है, उसके लिए हर कठिनाई से एक निकास खुलता है, अप्रत्याशित स्थानों से रोज़ी आती है, और दिल को विवेक दिया जाता है।" },
+      { "kind": "verse", "surah": 65, "ayah": 2, "note": "जो अल्लाह के प्रति सजग रहे, वह उसके लिए एक निकास बनाएगा, और उसे वहाँ से रोज़ी देगा जहाँ से वह आशा नहीं करता।" },
+      { "kind": "list", "items": [
+        { "text": "तक़वा इस चेतना के साथ जीना है कि अल्लाह तुम्हें देखता है, भय और प्रेम में।" },
+        { "text": "यह अल्लाह के समक्ष व्यक्ति के सम्मान का सच्चा माप है।" },
+        { "text": "अल्लाह ख़ुदा-चेतनाशील को कठिनाई से निकास और अप्रत्याशित रोज़ी का वादा करता है।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "تقویٰ کو اکثر خدا شناسی یا اللہ کی آگاہی کے طور پر ترجمہ کیا جاتا ہے۔ یہ اپنے اور اللہ کی ناراضی کے درمیان ایک ڈھال رکھنا ہے — جو وہ حکم دے وہ کرنا اور جو وہ منع کرے اُس سے بچنا، اُس کی محبت اور خوف سے۔" },
+      { "kind": "verse", "surah": 2, "ayah": 197, "note": "اور زادِ راہ لو، مگر بے شک بہترین زادِ راہ تقویٰ ہے — سو مجھ سے ڈرو، اے عقل والو۔" },
+      { "kind": "heading", "level": 2, "text": "عزت کا سچا پیمانہ" },
+      { "kind": "p", "text": "اللہ کی نظر میں لوگوں کا درجہ مال، نسل، یا نسب سے نہیں، بلکہ تقویٰ سے ہے۔ یہ واحد امتیاز ہے جو بندے کو بلند کرتا ہے، اور یہ صرف اللہ کو معلوم ہے، جو دل کو دیکھتا ہے۔" },
+      { "kind": "verse", "surah": 49, "ayah": 13, "note": "اللہ کے سامنے تم میں سب سے معزز وہ ہے جو تم میں سب سے متقی ہے؛ بے شک اللہ جاننے والا، باخبر ہے۔" },
+      { "kind": "heading", "level": 2, "text": "راحت اور علم کا دروازہ" },
+      { "kind": "p", "text": "قرآن تقویٰ کو اللہ کی مدد سے جوڑتا ہے: جو اُس سے ڈرتا رہے، اُس کے لیے ہر مشکل سے ایک راستہ کھلتا ہے، غیر متوقع جگہوں سے رزق آتا ہے، اور دل کو تمیز عطا ہوتی ہے۔" },
+      { "kind": "verse", "surah": 65, "ayah": 2, "note": "جو اللہ سے ڈرے، وہ اُس کے لیے ایک راستہ بنائے گا، اور اُسے وہاں سے رزق دے گا جہاں سے وہ گمان نہیں کرتا۔" },
+      { "kind": "list", "items": [
+        { "text": "تقویٰ اِس شعور کے ساتھ جینا ہے کہ اللہ تمہیں دیکھتا ہے، خوف اور محبت میں۔" },
+        { "text": "یہ اللہ کے سامنے انسان کی عزت کا سچا پیمانہ ہے۔" },
+        { "text": "اللہ متقی کو مشکل سے راستہ اور غیر متوقع رزق کا وعدہ کرتا ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "2:197" },
+    { "type": "quran", "ref": "49:13" },
+    { "type": "quran", "ref": "65:2-3" }
+  ],
+  "relatedSlugs": ["concept-iman", "basics-sawm", "concept-sabr"]
+}

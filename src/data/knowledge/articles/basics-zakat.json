@@ -1,0 +1,68 @@
+{
+  "slug": "basics-zakat",
+  "category": "basics",
+  "featured": false,
+  "title": {
+    "en": "Zakāh — Obligatory Charity",
+    "hi": "ज़कात — अनिवार्य दान",
+    "ur": "زکٰوۃ — فرض صدقہ"
+  },
+  "summary": {
+    "en": "Zakāh is the obligatory annual charity due on accumulated wealth, the third pillar of Islam. A fixed share given to the poor and other rightful recipients, it purifies wealth, restrains greed, and binds the community together.",
+    "hi": "ज़कात संचित धन पर देय अनिवार्य वार्षिक दान है, इस्लाम का तीसरा स्तंभ। ग़रीबों और अन्य हक़दारों को दिया गया एक निश्चित हिस्सा, यह धन को पाक करता है, लालच को रोकता है, और समुदाय को जोड़ता है।",
+    "ur": "زکٰوۃ جمع شدہ مال پر واجب سالانہ صدقہ ہے، اسلام کا تیسرا رکن۔ غریبوں اور دیگر حق داروں کو دیا گیا ایک مقررہ حصہ، یہ مال کو پاک کرتا ہے، لالچ کو روکتا ہے، اور معاشرے کو جوڑتا ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Zakāh, the third pillar, is a fixed portion of accumulated wealth — commonly two and a half percent — given each year to those in need. It is not a voluntary gift but a right the poor hold over the wealth of the rich." },
+      { "kind": "verse", "surah": 9, "ayah": 103, "note": "Take from their wealth a charity by which you purify and cause them to grow." },
+      { "kind": "heading", "level": 2, "text": "Purification of wealth and heart" },
+      { "kind": "p", "text": "The word Zakāh means both purification and growth. By giving a portion away, the believer purifies the rest of their wealth and cleanses the heart from stinginess and attachment to money." },
+      { "kind": "verse", "surah": 2, "ayah": 277, "note": "Those who give charity and establish prayer will have their reward with their Lord." },
+      { "kind": "heading", "level": 2, "text": "Who receives it" },
+      { "kind": "p", "text": "The Qur'an names the categories entitled to Zakāh, including the poor, the needy, those in debt, and travellers in need — ensuring wealth circulates rather than piling up among the few." },
+      { "kind": "verse", "surah": 9, "ayah": 60, "note": "Charity is for the poor, the needy, those who collect it, and other named categories — an obligation from Allah." },
+      { "kind": "list", "items": [
+        { "text": "Zakāh is obligatory, not optional, on wealth held above a threshold for a year." },
+        { "text": "It purifies both wealth and the heart of the giver." },
+        { "text": "It is a right of the poor, keeping wealth moving through the community." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "ज़कात, तीसरा स्तंभ, संचित धन का एक निश्चित हिस्सा है — सामान्यतः ढाई प्रतिशत — जो हर वर्ष ज़रूरतमंदों को दिया जाता है। यह कोई स्वैच्छिक उपहार नहीं बल्कि एक हक़ है जो ग़रीबों का अमीरों के धन पर है।" },
+      { "kind": "verse", "surah": 9, "ayah": 103, "note": "उनके धन में से एक दान लो जिससे तुम उन्हें पाक करो और बढ़ाओ।" },
+      { "kind": "heading", "level": 2, "text": "धन और दिल की पवित्रता" },
+      { "kind": "p", "text": "ज़कात शब्द का अर्थ पवित्रता और वृद्धि दोनों है। एक हिस्सा देकर, ईमान वाला अपने बाक़ी धन को पाक करता है और दिल को कंजूसी तथा धन से लगाव से साफ़ करता है।" },
+      { "kind": "verse", "surah": 2, "ayah": 277, "note": "जो दान देते और नमाज़ क़ायम करते हैं, उनका प्रतिफल उनके रब के पास है।" },
+      { "kind": "heading", "level": 2, "text": "इसे कौन प्राप्त करता है" },
+      { "kind": "p", "text": "क़ुरआन उन श्रेणियों का नाम लेता है जो ज़कात की हक़दार हैं, जिनमें ग़रीब, ज़रूरतमंद, क़र्ज़दार और ज़रूरतमंद यात्री शामिल हैं — यह सुनिश्चित करते हुए कि धन कुछ लोगों में जमा होने के बजाय घूमता रहे।" },
+      { "kind": "verse", "surah": 9, "ayah": 60, "note": "दान ग़रीबों, ज़रूरतमंदों, उसे इकट्ठा करने वालों, और अन्य नामित श्रेणियों के लिए है — अल्लाह की ओर से एक फ़र्ज़।" },
+      { "kind": "list", "items": [
+        { "text": "ज़कात अनिवार्य है, वैकल्पिक नहीं, एक सीमा से ऊपर एक वर्ष तक रखे धन पर।" },
+        { "text": "यह देने वाले के धन और दिल दोनों को पाक करती है।" },
+        { "text": "यह ग़रीबों का हक़ है, जो धन को समुदाय में घूमता रखती है।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "زکٰوۃ، تیسرا رکن، جمع شدہ مال کا ایک مقررہ حصہ ہے — عام طور پر ڈھائی فیصد — جو ہر سال ضرورت مندوں کو دیا جاتا ہے۔ یہ کوئی رضاکارانہ تحفہ نہیں بلکہ ایک حق ہے جو غریبوں کا امیروں کے مال پر ہے۔" },
+      { "kind": "verse", "surah": 9, "ayah": 103, "note": "اُن کے مال میں سے ایک صدقہ لو جس سے تم انہیں پاک کرو اور بڑھاؤ۔" },
+      { "kind": "heading", "level": 2, "text": "مال اور دل کی پاکیزگی" },
+      { "kind": "p", "text": "لفظ زکٰوۃ کا مطلب پاکیزگی اور بڑھوتری دونوں ہے۔ ایک حصہ دے کر، مومن اپنے باقی مال کو پاک کرتا ہے اور دل کو بخل اور مال سے لگاؤ سے صاف کرتا ہے۔" },
+      { "kind": "verse", "surah": 2, "ayah": 277, "note": "جو صدقہ دیتے اور نماز قائم کرتے ہیں، اُن کا اجر اُن کے رب کے پاس ہے۔" },
+      { "kind": "heading", "level": 2, "text": "اِسے کون پاتا ہے" },
+      { "kind": "p", "text": "قرآن اُن اقسام کا نام لیتا ہے جو زکٰوۃ کی حق دار ہیں، جن میں غریب، محتاج، مقروض اور ضرورت مند مسافر شامل ہیں — یہ یقینی بناتے ہوئے کہ مال چند لوگوں میں جمع ہونے کے بجائے گردش کرتا رہے۔" },
+      { "kind": "verse", "surah": 9, "ayah": 60, "note": "صدقہ غریبوں، محتاجوں، اُسے جمع کرنے والوں، اور دیگر نامزد اقسام کے لیے ہے — اللہ کی طرف سے ایک فریضہ۔" },
+      { "kind": "list", "items": [
+        { "text": "زکٰوۃ واجب ہے، اختیاری نہیں، ایک حد سے اوپر ایک سال تک رکھے مال پر۔" },
+        { "text": "یہ دینے والے کے مال اور دل دونوں کو پاک کرتی ہے۔" },
+        { "text": "یہ غریبوں کا حق ہے، جو مال کو معاشرے میں گردش میں رکھتی ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "9:103" },
+    { "type": "quran", "ref": "9:60" },
+    { "type": "quran", "ref": "2:277" }
+  ],
+  "relatedSlugs": ["basics-five-pillars", "basics-sawm", "concept-ummah"]
+}

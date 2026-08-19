@@ -38,6 +38,15 @@ export function getAyah(globalNumber: number): Ayah | undefined {
   return getAllAyahs().find((a) => a.number === globalNumber)
 }
 
+/**
+ * Resolve an ayah by its (surah, ayah-within-surah) reference. Reads only the
+ * one surah file, so it stays cheap when called repeatedly at build time (e.g.
+ * hydrating Knowledge Base verse blocks). Returns undefined if unresolved.
+ */
+export function getAyahByRef(surahNumber: number, ayahNumber: number): Ayah | undefined {
+  return getSurahAyahs(surahNumber).find((a) => a.ayahNumber === ayahNumber)
+}
+
 export function getJuzAyahs(juzNumber: number): Ayah[] {
   return getAllAyahs().filter((a) => a.juz === juzNumber)
 }

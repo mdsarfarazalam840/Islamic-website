@@ -1,0 +1,69 @@
+{
+  "slug": "surah-al-mulk",
+  "category": "surahs",
+  "surahNumber": 67,
+  "featured": false,
+  "title": {
+    "en": "Sūrat al-Mulk — The Sovereignty",
+    "hi": "सूरह अल-मुल्क — सत्ता",
+    "ur": "سورۃ الملک — بادشاہی"
+  },
+  "summary": {
+    "en": "A thirty-verse Makkan surah opening with the blessedness of Allah, in whose hand is all dominion. The Prophet ﷺ said it intercedes for the one who recites it until they are forgiven. It invites reflection on creation and warns of the reckoning to come.",
+    "hi": "तीस आयतों की एक मक्की सूरह जो अल्लाह की बरकत से शुरू होती है, जिसके हाथ में सारी सत्ता है। पैगंबर ﷺ ने कहा कि यह अपने पढ़ने वाले के लिए तब तक सिफ़ारिश करती है जब तक वह क्षमा न कर दिया जाए। यह सृष्टि पर चिंतन का निमंत्रण देती है और आने वाले हिसाब से चेताती है।",
+    "ur": "تیس آیات کی ایک مکی سورت جو اللہ کی برکت سے شروع ہوتی ہے، جس کے ہاتھ میں ساری بادشاہی ہے۔ نبی ﷺ نے فرمایا کہ یہ اپنے پڑھنے والے کے لیے اُس وقت تک سفارش کرتی ہے جب تک وہ بخش نہ دیا جائے۔ یہ تخلیق پر غور کی دعوت دیتی ہے اور آنے والے حساب سے خبردار کرتی ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Sūrat al-Mulk — \"The Sovereignty\" or \"Dominion\" — is a Makkan surah of thirty verses. It opens by exalting Allah, in whose hand lies all dominion, and who created life and death to test which of His servants is best in deeds." },
+      { "kind": "verse", "surah": 67, "ayah": 1 },
+      { "kind": "verse", "surah": 67, "ayah": 2 },
+      { "kind": "heading", "level": 2, "text": "A call to look and reflect" },
+      { "kind": "p", "text": "The surah invites the reader to gaze at the perfectly ordered heavens and find no flaw in Allah's creation, drawing the mind from the wonder of the universe to the majesty of the One who made it." },
+      { "kind": "verse", "surah": 67, "ayah": 3, "note": "You see no flaw in the creation of the Most Merciful. So look again — do you see any rifts?" },
+      { "kind": "heading", "level": 2, "text": "The surah that intercedes" },
+      { "kind": "p", "text": "The Prophet ﷺ said that a surah of thirty verses interceded for a man until he was forgiven, and it is Sūrat al-Mulk. Many believers recite it every night, seeking its protection and its plea on their behalf." },
+      { "kind": "list", "items": [
+        { "text": "All dominion is in Allah's hand; He created life and death as a test." },
+        { "text": "The order of the heavens is a sign pointing to the Creator's perfection." },
+        { "text": "The surah intercedes for the one who recites it until they are forgiven." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "सूरह अल-मुल्क — \"सत्ता\" या \"राज्य\" — तीस आयतों की एक मक्की सूरह है। यह अल्लाह की महिमा से शुरू होती है, जिसके हाथ में सारी सत्ता है, और जिसने जीवन और मृत्यु को इसलिए रचा कि परखे कि उसके बंदों में कौन कर्मों में सबसे अच्छा है।" },
+      { "kind": "verse", "surah": 67, "ayah": 1 },
+      { "kind": "verse", "surah": 67, "ayah": 2 },
+      { "kind": "heading", "level": 2, "text": "देखने और चिंतन करने की पुकार" },
+      { "kind": "p", "text": "यह सूरह पढ़ने वाले को पूर्ण रूप से व्यवस्थित आकाशों को देखने और अल्लाह की सृष्टि में कोई दोष न पाने का निमंत्रण देती है, मन को ब्रह्मांड के आश्चर्य से उसे बनाने वाले की महिमा की ओर खींचते हुए।" },
+      { "kind": "verse", "surah": 67, "ayah": 3, "note": "तुम अत्यंत दयावान की सृष्टि में कोई दोष नहीं देखते। तो फिर देखो — क्या तुम्हें कोई दरार दिखती है?" },
+      { "kind": "heading", "level": 2, "text": "वह सूरह जो सिफ़ारिश करती है" },
+      { "kind": "p", "text": "नबी ﷺ ने कहा कि तीस आयतों की एक सूरह ने एक व्यक्ति के लिए तब तक सिफ़ारिश की जब तक वह क्षमा न कर दिया गया, और वह सूरह अल-मुल्क है। बहुत से ईमान वाले इसे हर रात पढ़ते हैं, इसकी सुरक्षा और अपनी ओर से इसकी विनती चाहते हुए।" },
+      { "kind": "list", "items": [
+        { "text": "सारी सत्ता अल्लाह के हाथ में है; उसने जीवन और मृत्यु को एक परीक्षा के रूप में रचा।" },
+        { "text": "आकाशों की व्यवस्था एक निशानी है जो रचयिता की पूर्णता की ओर इशारा करती है।" },
+        { "text": "यह सूरह अपने पढ़ने वाले के लिए तब तक सिफ़ारिश करती है जब तक वह क्षमा न कर दिया जाए।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "سورۃ الملک — \"بادشاہی\" یا \"سلطنت\" — تیس آیات کی ایک مکی سورت ہے۔ یہ اللہ کی عظمت سے شروع ہوتی ہے، جس کے ہاتھ میں ساری بادشاہی ہے، اور جس نے زندگی اور موت کو اِس لیے پیدا کیا کہ آزمائے کہ اُس کے بندوں میں کون اعمال میں سب سے بہتر ہے۔" },
+      { "kind": "verse", "surah": 67, "ayah": 1 },
+      { "kind": "verse", "surah": 67, "ayah": 2 },
+      { "kind": "heading", "level": 2, "text": "دیکھنے اور غور کرنے کی پکار" },
+      { "kind": "p", "text": "یہ سورت پڑھنے والے کو مکمل طور پر منظم آسمانوں کو دیکھنے اور اللہ کی تخلیق میں کوئی نقص نہ پانے کی دعوت دیتی ہے، ذہن کو کائنات کے عجوبے سے اُسے بنانے والے کی عظمت کی طرف کھینچتے ہوئے۔" },
+      { "kind": "verse", "surah": 67, "ayah": 3, "note": "تم رحمٰن کی تخلیق میں کوئی نقص نہیں دیکھتے۔ سو پھر دیکھو — کیا تمہیں کوئی شگاف دکھتا ہے؟" },
+      { "kind": "heading", "level": 2, "text": "وہ سورت جو سفارش کرتی ہے" },
+      { "kind": "p", "text": "نبی ﷺ نے فرمایا کہ تیس آیات کی ایک سورت نے ایک شخص کے لیے اُس وقت تک سفارش کی جب تک وہ بخش نہ دیا گیا، اور وہ سورۃ الملک ہے۔ بہت سے مومن اِسے ہر رات پڑھتے ہیں، اِس کی حفاظت اور اپنی طرف سے اِس کی التجا چاہتے ہوئے۔" },
+      { "kind": "list", "items": [
+        { "text": "ساری بادشاہی اللہ کے ہاتھ میں ہے؛ اُس نے زندگی اور موت کو ایک آزمائش کے طور پر پیدا کیا۔" },
+        { "text": "آسمانوں کا نظام ایک نشانی ہے جو خالق کی کاملیت کی طرف اشارہ کرتی ہے۔" },
+        { "text": "یہ سورت اپنے پڑھنے والے کے لیے اُس وقت تک سفارش کرتی ہے جب تک وہ بخش نہ دیا جائے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "67:1-3" },
+    { "type": "hadith", "collection": "tirmidhi", "ref": "2891", "grade": "hasan" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["basics-belief-in-allah", "surah-ya-sin", "concept-tawhid"]
+}

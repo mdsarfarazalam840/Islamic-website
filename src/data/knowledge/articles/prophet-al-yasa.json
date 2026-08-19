@@ -1,0 +1,69 @@
+{
+  "slug": "prophet-al-yasa",
+  "category": "prophets",
+  "prophetNumber": 20,
+  "featured": false,
+  "title": {
+    "en": "Al-Yasaʿ (Elisha) — Among the Outstanding",
+    "hi": "अल-यसअ (अल-यसअ अलैहिस्सलाम) — श्रेष्ठ लोगों में से",
+    "ur": "الیسع علیہ السلام — بہترین لوگوں میں سے"
+  },
+  "summary": {
+    "en": "Al-Yasaʿ is named in the Qur'an among the righteous prophets and the outstanding servants of Allah. Though his story is not detailed, revelation places him in the highest company, a successor in the line of guidance after Ilyās.",
+    "hi": "अल-यसअ को क़ुरआन में धर्मी नबियों और अल्लाह के श्रेष्ठ बंदों में नामित किया गया है। यद्यपि उनकी कहानी विस्तृत नहीं है, वह्य उन्हें सर्वोच्च संगति में रखती है, इल्यास के बाद मार्गदर्शन की परंपरा में एक उत्तराधिकारी।",
+    "ur": "الیسع علیہ السلام کو قرآن میں نیکوکار انبیاء اور اللہ کے بہترین بندوں میں نامزد کیا گیا ہے۔ اگرچہ اُن کی داستان تفصیلی نہیں، وحی انہیں سب سے بلند صحبت میں رکھتی ہے، الیاس کے بعد ہدایت کے سلسلے میں ایک جانشین۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Al-Yasaʿ (peace be upon him) is among the prophets the Qur'an names with honour but without lengthy narrative. He is understood to have continued the call among the Children of Israel after the prophet Ilyās." },
+      { "kind": "verse", "surah": 6, "ayah": 86, "note": "Allah names Ismāʿīl, al-Yasaʿ, Yūnus, and Lūṭ — each favoured above the worlds." },
+      { "kind": "heading", "level": 2, "text": "Named among the best" },
+      { "kind": "p", "text": "The Qur'an twice lists al-Yasaʿ in the company of great prophets, describing them as chosen and preferred — a testimony that his standing with Allah is secure even where his story is brief." },
+      { "kind": "verse", "surah": 38, "ayah": 48, "note": "Remember Ismāʿīl, al-Yasaʿ, and Dhul-Kifl — all among the outstanding." },
+      { "kind": "heading", "level": 2, "text": "A link in the chain of guidance" },
+      { "kind": "p", "text": "Prophet after prophet was raised to keep the same message alive: worship Allah alone. Al-Yasaʿ stands in that unbroken chain, honoured for carrying the trust of guidance forward." },
+      { "kind": "verse", "surah": 6, "ayah": 90, "note": "These are the ones Allah guided, so follow their guidance — a command tied to the prophets just named." },
+      { "kind": "list", "items": [
+        { "text": "Allah's honour does not depend on the length of a person's story among people." },
+        { "text": "The message of the prophets is one, carried by many messengers." },
+        { "text": "Following the guidance of the prophets is a direct command." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "अल-यसअ (अलैहिस्सलाम) उन नबियों में से हैं जिनका क़ुरआन सम्मान के साथ नाम लेता है परन्तु लंबे वृत्तांत के बिना। समझा जाता है कि उन्होंने नबी इल्यास के बाद बनी इसराईल में आह्वान जारी रखा।" },
+      { "kind": "verse", "surah": 6, "ayah": 86, "note": "अल्लाह इस्माईल, अल-यसअ, यूनुस और लूत का नाम लेता है — हर एक को संसारों पर वरीयता दी गई।" },
+      { "kind": "heading", "level": 2, "text": "श्रेष्ठों में नामित" },
+      { "kind": "p", "text": "क़ुरआन दो बार अल-यसअ को महान नबियों की संगति में सूचीबद्ध करता है, उन्हें चुने हुए और वरीयता प्राप्त वर्णित करते हुए — एक गवाही कि अल्लाह के पास उनका स्थान सुरक्षित है, भले ही उनकी कहानी संक्षिप्त हो।" },
+      { "kind": "verse", "surah": 38, "ayah": 48, "note": "इस्माईल, अल-यसअ और ज़ुल-किफ़्ल को याद करो — सब श्रेष्ठ लोगों में से।" },
+      { "kind": "heading", "level": 2, "text": "मार्गदर्शन की श्रृंखला की एक कड़ी" },
+      { "kind": "p", "text": "एक के बाद एक नबी उसी संदेश को जीवित रखने के लिए उठाए गए: केवल अल्लाह की इबादत करो। अल-यसअ उस अटूट श्रृंखला में खड़े हैं, मार्गदर्शन की अमानत को आगे ले जाने के लिए सम्मानित।" },
+      { "kind": "verse", "surah": 6, "ayah": 90, "note": "ये वे हैं जिन्हें अल्लाह ने मार्ग दिखाया, तो उनके मार्गदर्शन का अनुसरण करो — अभी नामित नबियों से जुड़ा एक आदेश।" },
+      { "kind": "list", "items": [
+        { "text": "अल्लाह का सम्मान किसी व्यक्ति की कहानी की लंबाई पर निर्भर नहीं करता।" },
+        { "text": "नबियों का संदेश एक है, अनेक रसूलों द्वारा ले जाया गया।" },
+        { "text": "नबियों के मार्गदर्शन का अनुसरण एक सीधा आदेश है।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "الیسع علیہ السلام اُن انبیاء میں سے ہیں جن کا قرآن عزت کے ساتھ نام لیتا ہے مگر طویل بیان کے بغیر۔ سمجھا جاتا ہے کہ انہوں نے نبی الیاس کے بعد بنی اسرائیل میں دعوت جاری رکھی۔" },
+      { "kind": "verse", "surah": 6, "ayah": 86, "note": "اللہ اسماعیل، الیسع، یونس اور لوط کا نام لیتا ہے — ہر ایک کو جہانوں پر فضیلت دی گئی۔" },
+      { "kind": "heading", "level": 2, "text": "بہترین لوگوں میں نامزد" },
+      { "kind": "p", "text": "قرآن دو بار الیسع کو عظیم انبیاء کی صحبت میں فہرست میں رکھتا ہے، انہیں چنے ہوئے اور فضیلت یافتہ بیان کرتے ہوئے — ایک گواہی کہ اللہ کے پاس اُن کا مقام محفوظ ہے، خواہ اُن کی داستان مختصر ہو۔" },
+      { "kind": "verse", "surah": 38, "ayah": 48, "note": "اسماعیل، الیسع اور ذوالکفل کو یاد کرو — سب بہترین لوگوں میں سے۔" },
+      { "kind": "heading", "level": 2, "text": "ہدایت کے سلسلے کی ایک کڑی" },
+      { "kind": "p", "text": "ایک کے بعد ایک نبی اُسی پیغام کو زندہ رکھنے کے لیے اٹھائے گئے: صرف اللہ کی عبادت کرو۔ الیسع اُس نہ ٹوٹنے والے سلسلے میں کھڑے ہیں، ہدایت کی امانت کو آگے لے جانے کے لیے معزز۔" },
+      { "kind": "verse", "surah": 6, "ayah": 90, "note": "یہ وہ ہیں جنہیں اللہ نے ہدایت دی، سو اُن کی ہدایت کی پیروی کرو — ابھی نامزد انبیاء سے جڑا ایک حکم۔" },
+      { "kind": "list", "items": [
+        { "text": "اللہ کی عزت کسی شخص کی داستان کی طوالت پر منحصر نہیں۔" },
+        { "text": "انبیاء کا پیغام ایک ہے، بہت سے رسولوں کے ذریعے لے جایا گیا۔" },
+        { "text": "انبیاء کی ہدایت کی پیروی ایک براہِ راست حکم ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "6:86" },
+    { "type": "quran", "ref": "38:48" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["prophet-ilyas", "prophet-dhul-kifl", "concept-tawhid"]
+}

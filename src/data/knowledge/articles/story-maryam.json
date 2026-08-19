@@ -1,0 +1,68 @@
+{
+  "slug": "story-maryam",
+  "category": "quranic",
+  "featured": true,
+  "title": {
+    "en": "Maryam — The Chosen Woman",
+    "hi": "मरयम — चुनी हुई स्त्री",
+    "ur": "مریم — برگزیدہ خاتون"
+  },
+  "summary": {
+    "en": "Maryam, the mother of ʿĪsā, is the only woman named in the Qur'an and has a whole surah bearing her name. Chosen and purified above the women of the worlds, she devoted herself to worship, received the miraculous news of a son, and bore her trial with patience and faith.",
+    "hi": "मरयम, ईसा की माता, क़ुरआन में नाम से उल्लिखित एकमात्र स्त्री हैं और उनके नाम पर एक पूरी सूरह है। संसारों की स्त्रियों से ऊपर चुनी और पवित्र की गईं, उन्होंने स्वयं को इबादत में समर्पित किया, एक पुत्र की चमत्कारी सूचना पाई, और अपनी परीक्षा को धैर्य और ईमान से सहा।",
+    "ur": "مریم، عیسیٰ کی والدہ، قرآن میں نام سے مذکور واحد خاتون ہیں اور اُن کے نام پر ایک پوری سورت ہے۔ جہانوں کی عورتوں پر برگزیدہ اور پاک کی گئیں، اُنہوں نے خود کو عبادت میں وقف کیا، ایک بیٹے کی معجزانہ خبر پائی، اور اپنی آزمائش کو صبر اور ایمان سے برداشت کیا۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Maryam bint ʿImrān is honoured in the Qur'an as no other woman is: named directly, praised for her purity, and given a whole surah — Sūrat Maryam — in her name. The angels announced that Allah had chosen her and purified her above the women of the worlds." },
+      { "kind": "verse", "surah": 3, "ayah": 42, "note": "And when the angels said: O Maryam, indeed Allah has chosen you and purified you and chosen you above the women of the worlds." },
+      { "kind": "heading", "level": 2, "text": "The miraculous news" },
+      { "kind": "p", "text": "Devoted to worship in her sanctuary, Maryam was visited by an angel who gave her the news of a pure son. She asked in wonder how she could have a child when no man had touched her, and was told that for Allah such a thing is easy." },
+      { "kind": "verse", "surah": 19, "ayah": 20, "note": "She said: How can I have a boy while no man has touched me and I have not been unchaste?" },
+      { "kind": "verse", "surah": 19, "ayah": 21, "note": "He said: Thus it will be; your Lord says: It is easy for Me. And it is that We may make him a sign to the people and a mercy from Us. And it is a matter already decreed." },
+      { "kind": "heading", "level": 2, "text": "Patience through trial" },
+      { "kind": "p", "text": "She withdrew to a distant place and bore her child in hardship, then returned to her people, who accused her. At Allah's command she kept silent and pointed to the infant ʿĪsā, who spoke from the cradle to declare his mother's innocence and his own prophethood." },
+      { "kind": "list", "items": [
+        { "text": "Maryam was chosen and purified above all the women of the worlds." },
+        { "text": "Nothing is difficult for Allah — He creates by His word alone." },
+        { "text": "She met accusation and trial with silent trust, and Allah defended her." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "मरयम बिन्त इमरान को क़ुरआन में वह सम्मान दिया गया है जो किसी अन्य स्त्री को नहीं: सीधे नाम से उल्लिखित, अपनी पवित्रता के लिए प्रशंसित, और उनके नाम पर एक पूरी सूरह — सूरह मरयम। फ़रिश्तों ने घोषणा की कि अल्लाह ने उन्हें चुना और संसारों की स्त्रियों से ऊपर पवित्र किया।" },
+      { "kind": "verse", "surah": 3, "ayah": 42, "note": "और जब फ़रिश्तों ने कहा: हे मरयम, निश्चय ही अल्लाह ने तुम्हें चुना और पवित्र किया और संसारों की स्त्रियों से ऊपर चुना।" },
+      { "kind": "heading", "level": 2, "text": "चमत्कारी सूचना" },
+      { "kind": "p", "text": "अपने इबादतगाह में इबादत में समर्पित, मरयम के पास एक फ़रिश्ता आया जिसने उन्हें एक पवित्र पुत्र की सूचना दी। उन्होंने आश्चर्य से पूछा कि उनका बच्चा कैसे हो सकता है जब किसी पुरुष ने उन्हें छुआ ही नहीं, और उन्हें बताया गया कि अल्लाह के लिए ऐसी बात आसान है।" },
+      { "kind": "verse", "surah": 19, "ayah": 20, "note": "उसने कहा: मेरा बालक कैसे हो सकता है जबकि किसी पुरुष ने मुझे छुआ नहीं और न मैं व्यभिचारिणी रही?" },
+      { "kind": "verse", "surah": 19, "ayah": 21, "note": "उसने कहा: ऐसा ही होगा; तेरा रब कहता है: यह मेरे लिए आसान है। और यह इसलिए कि हम उसे लोगों के लिए एक निशानी और अपनी ओर से एक दया बनाएँ। और यह एक तय किया हुआ मामला है।" },
+      { "kind": "heading", "level": 2, "text": "परीक्षा में धैर्य" },
+      { "kind": "p", "text": "वह एक दूर स्थान को चली गईं और कठिनाई में अपने बच्चे को जन्म दिया, फिर अपनी जाति के पास लौटीं, जिन्होंने उन पर आरोप लगाया। अल्लाह के आदेश पर वह चुप रहीं और शिशु ईसा की ओर इशारा किया, जिसने पालने से बोलकर अपनी माता की निर्दोषता और अपनी नबूवत की घोषणा की।" },
+      { "kind": "list", "items": [
+        { "text": "मरयम को संसारों की सभी स्त्रियों से ऊपर चुना और पवित्र किया गया।" },
+        { "text": "अल्लाह के लिए कुछ भी कठिन नहीं — वह केवल अपने शब्द से रचता है।" },
+        { "text": "उन्होंने आरोप और परीक्षा को मौन भरोसे से सामना किया, और अल्लाह ने उनकी रक्षा की।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "مریم بنت عمران کو قرآن میں وہ عزت دی گئی ہے جو کسی اور خاتون کو نہیں: براہِ راست نام سے مذکور، اپنی پاکیزگی پر تعریف کی گئیں، اور اُن کے نام پر ایک پوری سورت — سورۃ مریم۔ فرشتوں نے اعلان کیا کہ اللہ نے اُنہیں چن لیا اور جہانوں کی عورتوں پر پاک کیا۔" },
+      { "kind": "verse", "surah": 3, "ayah": 42, "note": "اور جب فرشتوں نے کہا: اے مریم، بے شک اللہ نے تمہیں چن لیا اور پاک کیا اور جہانوں کی عورتوں پر برگزیدہ کیا۔" },
+      { "kind": "heading", "level": 2, "text": "معجزانہ خبر" },
+      { "kind": "p", "text": "اپنی عبادت گاہ میں عبادت میں مصروف، مریم کے پاس ایک فرشتہ آیا جس نے اُنہیں ایک پاکیزہ بیٹے کی خبر دی۔ اُنہوں نے حیرت سے پوچھا کہ اُن کا بچہ کیسے ہو سکتا ہے جب کسی مرد نے اُنہیں چھوا ہی نہیں، اور اُنہیں بتایا گیا کہ اللہ کے لیے ایسی بات آسان ہے۔" },
+      { "kind": "verse", "surah": 19, "ayah": 20, "note": "اُس نے کہا: میرا لڑکا کیسے ہو سکتا ہے جبکہ کسی مرد نے مجھے چھوا نہیں اور نہ میں بدکار رہی؟" },
+      { "kind": "verse", "surah": 19, "ayah": 21, "note": "اُس نے کہا: ایسا ہی ہوگا؛ تیرا رب کہتا ہے: یہ میرے لیے آسان ہے۔ اور یہ اِس لیے کہ ہم اُسے لوگوں کے لیے ایک نشانی اور اپنی طرف سے ایک رحمت بنائیں۔ اور یہ ایک طے شدہ معاملہ ہے۔" },
+      { "kind": "heading", "level": 2, "text": "آزمائش میں صبر" },
+      { "kind": "p", "text": "وہ ایک دور جگہ چلی گئیں اور مشکل میں اپنے بچے کو جنم دیا، پھر اپنی قوم کے پاس لوٹیں، جنہوں نے اُن پر الزام لگایا۔ اللہ کے حکم پر وہ خاموش رہیں اور شیرخوار عیسیٰ کی طرف اشارہ کیا، جس نے گہوارے سے بول کر اپنی ماں کی بے گناہی اور اپنی نبوت کا اعلان کیا۔" },
+      { "kind": "list", "items": [
+        { "text": "مریم کو جہانوں کی تمام عورتوں پر برگزیدہ اور پاک کیا گیا۔" },
+        { "text": "اللہ کے لیے کچھ بھی مشکل نہیں — وہ صرف اپنے کلمے سے پیدا کرتا ہے۔" },
+        { "text": "اُنہوں نے الزام اور آزمائش کا خاموش بھروسے سے سامنا کیا، اور اللہ نے اُن کی حفاظت کی۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "3:42-47" },
+    { "type": "quran", "ref": "19:16-34" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["prophet-isa", "prophet-zakariyya", "concept-sabr"]
+}

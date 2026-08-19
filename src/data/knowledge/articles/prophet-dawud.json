@@ -1,0 +1,73 @@
+{
+  "slug": "prophet-dawud",
+  "category": "prophets",
+  "prophetNumber": 17,
+  "featured": true,
+  "title": {
+    "en": "Dāwūd (David) — The King Given the Psalms",
+    "hi": "दाऊद (दाऊद अलैहिस्सलाम) — वह राजा जिन्हें ज़बूर दी गई",
+    "ur": "داؤد علیہ السلام — وہ بادشاہ جنہیں زبور دی گئی"
+  },
+  "summary": {
+    "en": "Dāwūd was a prophet-king given the Zabūr (Psalms), wisdom, and a beautiful voice with which the mountains and birds glorified Allah. Iron was made soft in his hands, and he judged his people with justice.",
+    "hi": "दाऊद एक नबी-राजा थे जिन्हें ज़बूर, हिकमत, और एक सुंदर आवाज़ दी गई जिसके साथ पर्वत और पक्षी अल्लाह की तस्बीह करते थे। लोहा उनके हाथों में नरम कर दिया गया, और उन्होंने अपनी क़ौम का न्याय के साथ फ़ैसला किया।",
+    "ur": "داؤد علیہ السلام ایک نبی-بادشاہ تھے جنہیں زبور، حکمت، اور ایک خوبصورت آواز دی گئی جس کے ساتھ پہاڑ اور پرندے اللہ کی تسبیح کرتے تھے۔ لوہا اُن کے ہاتھوں میں نرم کر دیا گیا، اور انہوں نے اپنی قوم کا انصاف کے ساتھ فیصلہ کیا۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Dāwūd (peace be upon him) rose to prominence as a young man when he faced the tyrant Jālūt (Goliath) and, by Allah's leave, struck him down. Allah then gave him kingship and prophethood together, and taught him what He willed." },
+      { "kind": "heading", "level": 2, "text": "The Psalms and the glorifying mountains" },
+      { "kind": "p", "text": "To Dāwūd, Allah revealed the Zabūr (Psalms), and gave him a voice so beautiful that the mountains and birds joined him in glorifying his Lord." },
+      { "kind": "verse", "surah": 21, "ayah": 79, "note": "Allah gave Sulaymān understanding, and subjected the mountains and birds to glorify Allah with Dāwūd." },
+      { "kind": "verse", "surah": 34, "ayah": 10, "note": "Allah commands the mountains and birds to echo His praises with Dāwūd, and makes iron soft for him." },
+      { "kind": "heading", "level": 2, "text": "Justice and stewardship" },
+      { "kind": "p", "text": "Allah made Dāwūd a successor on the earth and charged him to judge between people with truth, never following mere desire — a standard for all who hold authority." },
+      { "kind": "verse", "surah": 38, "ayah": 26, "note": "O Dāwūd, We made you a successor upon the earth, so judge between people in truth and do not follow desire." },
+      { "kind": "p", "text": "Though a mighty king, Dāwūd ate only from the work of his own hands, forging armour from the iron Allah had softened for him — power joined to humility and honest labour." },
+      { "kind": "list", "items": [
+        { "text": "Allah joins strength to responsibility: rule is a trust to be exercised with justice." },
+        { "text": "Even a king's honour lies in eating from his own honest work." },
+        { "text": "All creation can be moved to glorify Allah." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "दाऊद (अलैहिस्सलाम) एक युवा के रूप में प्रमुखता को पहुँचे जब उन्होंने अत्याचारी जालूत (गोलियथ) का सामना किया और, अल्लाह की अनुमति से, उसे मार गिराया। तब अल्लाह ने उन्हें राजत्व और नुबूवत एक साथ दी, और उन्हें वह सिखाया जो उसने चाहा।" },
+      { "kind": "heading", "level": 2, "text": "ज़बूर और तस्बीह करते पर्वत" },
+      { "kind": "p", "text": "दाऊद को अल्लाह ने ज़बूर की वह्य की, और उन्हें इतनी सुंदर आवाज़ दी कि पर्वत और पक्षी अपने रब की तस्बीह में उनके साथ शामिल होते थे।" },
+      { "kind": "verse", "surah": 21, "ayah": 79, "note": "अल्लाह ने सुलैमान को समझ दी, और पर्वतों तथा पक्षियों को दाऊद के साथ अल्लाह की तस्बीह के लिए वशीभूत किया।" },
+      { "kind": "verse", "surah": 34, "ayah": 10, "note": "अल्लाह पर्वतों और पक्षियों को हुक्म देता है कि दाऊद के साथ उसकी प्रशंसा दोहराएँ, और उनके लिए लोहा नरम कर देता है।" },
+      { "kind": "heading", "level": 2, "text": "न्याय और संरक्षकता" },
+      { "kind": "p", "text": "अल्लाह ने दाऊद को धरती पर एक उत्तराधिकारी बनाया और उन्हें आदेश दिया कि लोगों के बीच सत्य के साथ फ़ैसला करें, कभी मात्र इच्छा का अनुसरण न करें — सत्ता रखने वाले सभी के लिए एक मानक।" },
+      { "kind": "verse", "surah": 38, "ayah": 26, "note": "ऐ दाऊद, हमने तुम्हें धरती पर उत्तराधिकारी बनाया, तो लोगों के बीच सत्य से फ़ैसला करो और इच्छा का अनुसरण मत करो।" },
+      { "kind": "p", "text": "यद्यपि एक शक्तिशाली राजा, दाऊद केवल अपने हाथों के काम से खाते थे, अल्लाह द्वारा उनके लिए नरम किए गए लोहे से कवच गढ़ते हुए — शक्ति जो विनम्रता और ईमानदार श्रम से जुड़ी थी।" },
+      { "kind": "list", "items": [
+        { "text": "अल्लाह शक्ति को उत्तरदायित्व से जोड़ता है: शासन एक अमानत है जिसे न्याय से निभाना है।" },
+        { "text": "एक राजा का सम्मान भी अपने ईमानदार काम से खाने में है।" },
+        { "text": "समस्त सृष्टि अल्लाह की तस्बीह के लिए प्रेरित हो सकती है।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "داؤد علیہ السلام ایک نوجوان کے طور پر نمایاں ہوئے جب انہوں نے ظالم جالوت (گولیت) کا سامنا کیا اور، اللہ کے اذن سے، اُسے مار گرایا۔ پھر اللہ نے انہیں بادشاہت اور نبوت ایک ساتھ عطا کی، اور انہیں وہ سکھایا جو اُس نے چاہا۔" },
+      { "kind": "heading", "level": 2, "text": "زبور اور تسبیح کرتے پہاڑ" },
+      { "kind": "p", "text": "داؤد کو اللہ نے زبور کی وحی کی، اور انہیں اتنی خوبصورت آواز دی کہ پہاڑ اور پرندے اپنے رب کی تسبیح میں اُن کے ساتھ شامل ہوتے تھے۔" },
+      { "kind": "verse", "surah": 21, "ayah": 79, "note": "اللہ نے سلیمان کو سمجھ دی، اور پہاڑوں اور پرندوں کو داؤد کے ساتھ اللہ کی تسبیح کے لیے مسخر کیا۔" },
+      { "kind": "verse", "surah": 34, "ayah": 10, "note": "اللہ پہاڑوں اور پرندوں کو حکم دیتا ہے کہ داؤد کے ساتھ اُس کی حمد دہرائیں، اور اُن کے لیے لوہا نرم کر دیتا ہے۔" },
+      { "kind": "heading", "level": 2, "text": "انصاف اور نگہبانی" },
+      { "kind": "p", "text": "اللہ نے داؤد کو زمین پر ایک جانشین بنایا اور انہیں حکم دیا کہ لوگوں کے درمیان سچائی کے ساتھ فیصلہ کریں، کبھی محض خواہش کی پیروی نہ کریں — اقتدار رکھنے والوں سب کے لیے ایک معیار۔" },
+      { "kind": "verse", "surah": 38, "ayah": 26, "note": "اے داؤد، ہم نے تمہیں زمین پر جانشین بنایا، سو لوگوں کے درمیان سچائی سے فیصلہ کرو اور خواہش کی پیروی نہ کرو۔" },
+      { "kind": "p", "text": "اگرچہ ایک طاقتور بادشاہ، داؤد صرف اپنے ہاتھوں کے کام سے کھاتے تھے، اللہ کے نرم کیے ہوئے لوہے سے زرہ بناتے ہوئے — طاقت جو عاجزی اور ایماندار محنت سے جڑی تھی۔" },
+      { "kind": "list", "items": [
+        { "text": "اللہ طاقت کو ذمہ داری سے جوڑتا ہے: حکومت ایک امانت ہے جسے انصاف سے نبھانا ہے۔" },
+        { "text": "ایک بادشاہ کی عزت بھی اپنے ایماندار کام سے کھانے میں ہے۔" },
+        { "text": "ساری مخلوق اللہ کی تسبیح کے لیے مائل ہو سکتی ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "21:78-80" },
+    { "type": "quran", "ref": "34:10-11" },
+    { "type": "quran", "ref": "38:17-26" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["prophet-sulayman", "concept-tawbah", "prophet-muhammad"]
+}

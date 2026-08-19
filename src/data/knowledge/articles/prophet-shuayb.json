@@ -1,0 +1,73 @@
+{
+  "slug": "prophet-shuayb",
+  "category": "prophets",
+  "prophetNumber": 13,
+  "featured": false,
+  "title": {
+    "en": "Shuʿayb — The Preacher Against Fraud",
+    "hi": "शुऐब (शुऐब अलैहिस्सलाम) — छल के विरुद्ध उपदेशक",
+    "ur": "شعیب علیہ السلام — دھوکہ دہی کے خلاف داعی"
+  },
+  "summary": {
+    "en": "Shuʿayb was sent to the people of Madyan, who cheated in weights and measures. He called them to worship Allah alone and to deal honestly, warning that corruption in trade invites ruin. When they persisted, they were destroyed and the believers saved.",
+    "hi": "शुऐब मदयन की क़ौम की ओर भेजे गए, जो नाप-तौल में छल करते थे। उन्होंने उन्हें केवल अल्लाह की इबादत और ईमानदारी से व्यवहार की ओर बुलाया, चेतावनी दी कि व्यापार में भ्रष्टाचार विनाश को न्योता देता है। जब वे अड़े रहे, तो नष्ट कर दिए गए और ईमान वाले बचा लिए गए।",
+    "ur": "شعیب علیہ السلام مدین کی قوم کی طرف بھیجے گئے، جو ناپ تول میں دھوکہ دیتے تھے۔ انہوں نے انہیں صرف اللہ کی عبادت اور ایمانداری سے لین دین کی دعوت دی، خبردار کیا کہ تجارت میں بدعنوانی تباہی کو دعوت دیتی ہے۔ جب وہ اڑے رہے، تو تباہ کر دیے گئے اور ایمان والے بچا لیے گئے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Shuʿayb (peace be upon him) was sent to Madyan, a trading people whose markets were poisoned by dishonesty. They worshipped others besides Allah and, worse still, defrauded one another by giving short measure and weight." },
+      { "kind": "verse", "surah": 7, "ayah": 85, "note": "Shuʿayb calls Madyan: worship Allah — give full measure and weight, and do not deprive people of their due." },
+      { "kind": "heading", "level": 2, "text": "Faith and fair dealing" },
+      { "kind": "p", "text": "Shuʿayb, called the \"eloquent preacher of the prophets,\" tied worship of the One God directly to honesty in trade. To cheat a fellow human, he taught, is to corrupt the earth after its reform." },
+      { "kind": "verse", "surah": 11, "ayah": 84, "note": "He forbids them from short measure and warns of a day whose punishment will encompass them." },
+      { "kind": "heading", "level": 2, "text": "Reform, not gain" },
+      { "kind": "p", "text": "When his people mocked and threatened him, Shuʿayb made his motive plain: he sought only their reform, not power or wealth, placing his trust wholly in Allah." },
+      { "kind": "verse", "surah": 11, "ayah": 88, "note": "Shuʿayb: I only intend reform as much as I am able; my success is only through Allah." },
+      { "kind": "p", "text": "In the end, a mighty blast and earthquake seized the wrongdoers, while Allah delivered Shuʿayb and those who believed with him." },
+      { "kind": "list", "items": [
+        { "text": "Worship of Allah is inseparable from honesty in daily dealings." },
+        { "text": "Cheating in trade is a spiritual crime, not merely an economic one." },
+        { "text": "A sincere caller seeks reform, not personal gain." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "शुऐब (अलैहिस्सलाम) मदयन की ओर भेजे गए, एक व्यापारी क़ौम जिनके बाज़ार बेईमानी से विषाक्त थे। वे अल्लाह के सिवा औरों की इबादत करते थे और, इससे भी बुरा, नाप-तौल में कमी देकर एक-दूसरे को धोखा देते थे।" },
+      { "kind": "verse", "surah": 7, "ayah": 85, "note": "शुऐब मदयन को पुकारते हैं: अल्लाह की इबादत करो — नाप-तौल पूरा दो, और लोगों को उनका हक़ कम मत दो।" },
+      { "kind": "heading", "level": 2, "text": "ईमान और न्यायपूर्ण व्यवहार" },
+      { "kind": "p", "text": "शुऐब, जिन्हें \"नबियों का वाक्पटु उपदेशक\" कहा गया, ने एक ईश्वर की इबादत को सीधे व्यापार की ईमानदारी से जोड़ा। किसी साथी इंसान को धोखा देना, उन्होंने सिखाया, धरती को उसके सुधार के बाद बिगाड़ना है।" },
+      { "kind": "verse", "surah": 11, "ayah": 84, "note": "वे उन्हें नाप-तौल में कमी से रोकते हैं और एक ऐसे दिन की चेतावनी देते हैं जिसकी सज़ा उन्हें घेर लेगी।" },
+      { "kind": "heading", "level": 2, "text": "लाभ नहीं, सुधार" },
+      { "kind": "p", "text": "जब उनकी क़ौम ने उनका उपहास किया और धमकी दी, तो शुऐब ने अपना उद्देश्य स्पष्ट किया: वे केवल उनका सुधार चाहते थे, सत्ता या धन नहीं, अपना पूरा भरोसा अल्लाह पर रखते हुए।" },
+      { "kind": "verse", "surah": 11, "ayah": 88, "note": "शुऐब: मैं तो जितना कर सकता हूँ केवल सुधार चाहता हूँ; मेरी सफलता केवल अल्लाह के द्वारा है।" },
+      { "kind": "p", "text": "अंत में, एक भीषण चीत्कार और भूकंप ने अत्याचारियों को पकड़ लिया, जबकि अल्लाह ने शुऐब और उनके साथ ईमान लाने वालों को बचा लिया।" },
+      { "kind": "list", "items": [
+        { "text": "अल्लाह की इबादत दैनिक व्यवहार की ईमानदारी से अलग नहीं है।" },
+        { "text": "व्यापार में धोखा एक आध्यात्मिक अपराध है, केवल आर्थिक नहीं।" },
+        { "text": "एक निष्ठावान आह्वानकर्ता सुधार चाहता है, व्यक्तिगत लाभ नहीं।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "شعیب علیہ السلام مدین کی طرف بھیجے گئے، ایک تاجر قوم جن کے بازار بے ایمانی سے زہر آلود تھے۔ وہ اللہ کے سوا دوسروں کی عبادت کرتے تھے اور، اِس سے بھی برا، ناپ تول میں کمی دے کر ایک دوسرے کو دھوکہ دیتے تھے۔" },
+      { "kind": "verse", "surah": 7, "ayah": 85, "note": "شعیب مدین کو پکارتے ہیں: اللہ کی عبادت کرو — ناپ تول پورا دو، اور لوگوں کو اُن کا حق کم نہ دو۔" },
+      { "kind": "heading", "level": 2, "text": "ایمان اور منصفانہ لین دین" },
+      { "kind": "p", "text": "شعیب، جنہیں \"انبیاء کا فصیح خطیب\" کہا گیا، نے ایک خدا کی عبادت کو براہِ راست تجارت کی ایمانداری سے جوڑا۔ کسی ساتھی انسان کو دھوکہ دینا، انہوں نے سکھایا، زمین کو اُس کی اصلاح کے بعد بگاڑنا ہے۔" },
+      { "kind": "verse", "surah": 11, "ayah": 84, "note": "وہ انہیں ناپ تول میں کمی سے روکتے ہیں اور ایک ایسے دن سے خبردار کرتے ہیں جس کا عذاب انہیں گھیر لے گا۔" },
+      { "kind": "heading", "level": 2, "text": "فائدہ نہیں، اصلاح" },
+      { "kind": "p", "text": "جب اُن کی قوم نے اُن کا مذاق اڑایا اور دھمکی دی، تو شعیب نے اپنا مقصد واضح کیا: وہ صرف اُن کی اصلاح چاہتے تھے، اقتدار یا دولت نہیں، اپنا پورا بھروسہ اللہ پر رکھتے ہوئے۔" },
+      { "kind": "verse", "surah": 11, "ayah": 88, "note": "شعیب: میں تو جتنا کر سکتا ہوں صرف اصلاح چاہتا ہوں؛ میری کامیابی صرف اللہ کے ذریعے ہے۔" },
+      { "kind": "p", "text": "آخرکار، ایک زبردست چیخ اور زلزلے نے ظالموں کو پکڑ لیا، جبکہ اللہ نے شعیب اور اُن کے ساتھ ایمان لانے والوں کو بچا لیا۔" },
+      { "kind": "list", "items": [
+        { "text": "اللہ کی عبادت روزمرہ کے لین دین کی ایمانداری سے جدا نہیں۔" },
+        { "text": "تجارت میں دھوکہ ایک روحانی جرم ہے، محض معاشی نہیں۔" },
+        { "text": "ایک مخلص داعی اصلاح چاہتا ہے، ذاتی فائدہ نہیں۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "7:85-93" },
+    { "type": "quran", "ref": "11:84-95" },
+    { "type": "quran", "ref": "26:176-191" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["prophet-hud", "prophet-salih", "concept-halal-haram"]
+}

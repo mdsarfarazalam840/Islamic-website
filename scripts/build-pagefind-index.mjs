@@ -22,7 +22,18 @@ import * as pagefind from "pagefind"
 
 const QURAN_DIR = path.resolve("public/data/quran")
 const HADITH_DIR = path.resolve("public/data/hadith")
+const KNOWLEDGE_DIR = path.resolve("src/data/knowledge/articles")
 const OUTPUT_DIR = path.resolve("public/pagefind")
+
+// Knowledge Base category → English display name (mirrors
+// src/lib/knowledge/categories.ts, which is TS and can't be imported here).
+const KNOWLEDGE_CATEGORY_NAMES = {
+  basics: "The Basics",
+  concepts: "Core Concepts",
+  prophets: "The Prophets",
+  quranic: "Quranic Stories",
+  surahs: "Surah Virtues",
+}
 
 const COLLECTIONS = ["bukhari", "muslim", "abudawud", "tirmidhi", "nasai", "ibnmajah", "malik"]
 
@@ -47,6 +58,7 @@ async function main() {
 
   let quranCount = 0
   let hadithCount = 0
+  let knowledgeCount = 0
 
   // The Pagefind service parallelizes internally; adding records concurrently
   // in batches is dramatically faster than awaiting each one serially.
@@ -128,11 +140,64 @@ async function main() {
     console.log(`  ✓ ${col}: ${hadiths.length} hadiths`)
   }
 
+  // --- Knowledge Base: one unified multilingual record per article ---
+  // Read straight from the source JSON (same files the Next loader reads); the
+  // authored bodies never appear in the exported HTML, so this is the only way
+  // the KB becomes searchable. Resolved scripture is skipped — the quran/hadith
+  // records above already cover ayah/hadith text; here we index the authored
+  // prose (titles, summaries, paragraphs, headings, lists, and block notes).
+  console.log("Indexing Knowledge Base...")
+  if (fs.existsSync(KNOWLEDGE_DIR)) {
+    // Pull the searchable text out of one language's block array.
+    const blocksToText = (blocks) =>
+      (Array.isArray(blocks) ? blocks : [])
+        .flatMap((b) => {
+          if (!b || typeof b !== "object") return []
+          if (b.kind === "p" || b.kind === "heading") return [b.text]
+          if (b.kind === "list") return (b.items ?? []).map((i) => i?.text)
+          if (b.kind === "verse" || b.kind === "hadith") return [b.note]
+          return []
+        })
+        .filter(Boolean)
+
+    const files = fs.readdirSync(KNOWLEDGE_DIR).filter((f) => f.endsWith(".json"))
+    const records = files.map((file) => {
+      const a = JSON.parse(fs.readFileSync(path.join(KNOWLEDGE_DIR, file), "utf-8"))
+      const langs = ["en", "ur", "hi"]
+      const content = [
+        ...langs.map((l) => a.title?.[l]),
+        ...langs.map((l) => a.summary?.[l]),
+        ...langs.flatMap((l) => blocksToText(a.body?.[l])),
+      ]
+        .filter(Boolean)
+        .join("  ")
+      const categoryName = KNOWLEDGE_CATEGORY_NAMES[a.category] ?? a.category
+      return {
+        url: `/knowledge-base/${a.category}/${a.slug}`,
+        content,
+        language: "en",
+        meta: {
+          type: "knowledge",
+          title: a.title?.en ?? a.slug,
+          category: a.category,
+          categoryName,
+          slug: a.slug,
+        },
+        filters: { type: ["knowledge"], category: [a.category] },
+      }
+    })
+    await addAll(records)
+    knowledgeCount = records.length
+    console.log(`  ✓ ${knowledgeCount} knowledge articles indexed`)
+  } else {
+    console.warn("  ⚠ knowledge articles dir not found, skipping Knowledge Base")
+  }
+
   console.log(`\nWriting index to ${OUTPUT_DIR} ...`)
   await index.writeFiles({ outputPath: OUTPUT_DIR })
   await pagefind.close()
 
-  console.log(`\n✓ Pagefind index built: ${quranCount} ayahs + ${hadithCount} hadiths\n`)
+  console.log(`\n✓ Pagefind index built: ${quranCount} ayahs + ${hadithCount} hadiths + ${knowledgeCount} knowledge articles\n`)
 }
 
 main().catch((err) => {

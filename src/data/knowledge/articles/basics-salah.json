@@ -1,0 +1,68 @@
+{
+  "slug": "basics-salah",
+  "category": "basics",
+  "featured": false,
+  "title": {
+    "en": "Ṣalāh — The Five Daily Prayers",
+    "hi": "सलात — पाँच वक़्त की नमाज़",
+    "ur": "نماز — پانچ وقت کی عبادت"
+  },
+  "summary": {
+    "en": "Ṣalāh is the five daily prayers, the second pillar of Islam and the first act a servant will be asked about on the Day of Judgment. It links the believer to Allah throughout the day and restrains the soul from wrongdoing.",
+    "hi": "सलात पाँच वक़्त की नमाज़ है, इस्लाम का दूसरा स्तंभ और वह पहला कर्म जिसके बारे में क़यामत के दिन बंदे से पूछा जाएगा। यह ईमान वाले को पूरे दिन अल्लाह से जोड़ती है और आत्मा को बुराई से रोकती है।",
+    "ur": "نماز پانچ وقت کی عبادت ہے، اسلام کا دوسرا رکن اور وہ پہلا عمل جس کے بارے میں قیامت کے دن بندے سے پوچھا جائے گا۔ یہ مومن کو پورے دن اللہ سے جوڑتی ہے اور نفس کو برائی سے روکتی ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "After the testimony of faith, Ṣalāh is the most emphasized act of worship in Islam. Five times each day — dawn, midday, afternoon, sunset, and night — the believer stands before Allah in prayer." },
+      { "kind": "verse", "surah": 4, "ayah": 103, "note": "Prayer has been decreed upon the believers at specified times." },
+      { "kind": "heading", "level": 2, "text": "The pillar of the religion" },
+      { "kind": "p", "text": "Prayer is described as the pillar of the religion and the coolness of the Prophet's eye. It is a direct, daily connection between the servant and the Creator, needing no intermediary." },
+      { "kind": "verse", "surah": 2, "ayah": 238, "note": "Guard strictly the prayers, especially the middle prayer, and stand before Allah devoutly." },
+      { "kind": "heading", "level": 2, "text": "What prayer does to the soul" },
+      { "kind": "p", "text": "Beyond fulfilling a duty, prayer shapes character: performed sincerely, it restrains a person from indecency and wrongdoing and keeps the remembrance of Allah alive in a busy life." },
+      { "kind": "verse", "surah": 29, "ayah": 45, "note": "Indeed, prayer prohibits immorality and wrongdoing, and the remembrance of Allah is greater." },
+      { "kind": "list", "items": [
+        { "text": "Ṣalāh is prayed five times daily at fixed times." },
+        { "text": "It is the first deed a person will be questioned about on the Day of Judgment." },
+        { "text": "True prayer restrains the soul from sin and nurtures God-consciousness." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "ईमान की गवाही के बाद, सलात इस्लाम की सबसे अधिक ज़ोर दी गई इबादत है। हर दिन पाँच बार — भोर, दोपहर, अपराह्न, सूर्यास्त और रात — ईमान वाला नमाज़ में अल्लाह के समक्ष खड़ा होता है।" },
+      { "kind": "verse", "surah": 4, "ayah": 103, "note": "नमाज़ ईमान वालों पर निश्चित समयों में फ़र्ज़ की गई है।" },
+      { "kind": "heading", "level": 2, "text": "धर्म का स्तंभ" },
+      { "kind": "p", "text": "नमाज़ को धर्म का स्तंभ और नबी ﷺ की आँखों की ठंडक कहा गया है। यह बंदे और रचयिता के बीच एक सीधा, दैनिक संबंध है, जिसमें किसी मध्यस्थ की आवश्यकता नहीं।" },
+      { "kind": "verse", "surah": 2, "ayah": 238, "note": "नमाज़ों की, विशेषकर बीच की नमाज़ की, कड़ाई से रक्षा करो, और अल्लाह के समक्ष विनम्रता से खड़े हो।" },
+      { "kind": "heading", "level": 2, "text": "नमाज़ आत्मा के साथ क्या करती है" },
+      { "kind": "p", "text": "एक कर्तव्य पूरा करने से परे, नमाज़ चरित्र को गढ़ती है: निष्ठा से अदा की जाए तो यह व्यक्ति को अश्लीलता और बुराई से रोकती है और व्यस्त जीवन में अल्लाह के ज़िक्र को जीवित रखती है।" },
+      { "kind": "verse", "surah": 29, "ayah": 45, "note": "निःसंदेह, नमाज़ अश्लीलता और बुराई से रोकती है, और अल्लाह का ज़िक्र सबसे बड़ा है।" },
+      { "kind": "list", "items": [
+        { "text": "सलात हर दिन निश्चित समयों पर पाँच बार अदा की जाती है।" },
+        { "text": "यह वह पहला कर्म है जिसके बारे में क़यामत के दिन व्यक्ति से पूछा जाएगा।" },
+        { "text": "सच्ची नमाज़ आत्मा को पाप से रोकती है और ख़ुदा-चेतना पोसती है।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "ایمان کی گواہی کے بعد، نماز اسلام کی سب سے زیادہ تاکید کی گئی عبادت ہے۔ ہر دن پانچ بار — فجر، ظہر، عصر، مغرب اور عشا — مومن نماز میں اللہ کے سامنے کھڑا ہوتا ہے۔" },
+      { "kind": "verse", "surah": 4, "ayah": 103, "note": "نماز مومنوں پر مقررہ اوقات میں فرض کی گئی ہے۔" },
+      { "kind": "heading", "level": 2, "text": "دین کا ستون" },
+      { "kind": "p", "text": "نماز کو دین کا ستون اور نبی ﷺ کی آنکھوں کی ٹھنڈک کہا گیا ہے۔ یہ بندے اور خالق کے درمیان ایک براہِ راست، روزانہ کا تعلق ہے، جس میں کسی واسطے کی ضرورت نہیں۔" },
+      { "kind": "verse", "surah": 2, "ayah": 238, "note": "نمازوں کی، خاص کر درمیانی نماز کی، سختی سے حفاظت کرو، اور اللہ کے سامنے عاجزی سے کھڑے ہو۔" },
+      { "kind": "heading", "level": 2, "text": "نماز نفس کے ساتھ کیا کرتی ہے" },
+      { "kind": "p", "text": "ایک فرض پورا کرنے سے بڑھ کر، نماز کردار کو ڈھالتی ہے: اخلاص سے ادا کی جائے تو یہ انسان کو بے حیائی اور برائی سے روکتی ہے اور مصروف زندگی میں اللہ کے ذکر کو زندہ رکھتی ہے۔" },
+      { "kind": "verse", "surah": 29, "ayah": 45, "note": "بے شک، نماز بے حیائی اور برائی سے روکتی ہے، اور اللہ کا ذکر سب سے بڑا ہے۔" },
+      { "kind": "list", "items": [
+        { "text": "نماز ہر دن مقررہ اوقات پر پانچ بار ادا کی جاتی ہے۔" },
+        { "text": "یہ وہ پہلا عمل ہے جس کے بارے میں قیامت کے دن انسان سے پوچھا جائے گا۔" },
+        { "text": "سچی نماز نفس کو گناہ سے روکتی ہے اور تقویٰ پروان چڑھاتی ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "4:103" },
+    { "type": "quran", "ref": "29:45" },
+    { "type": "quran", "ref": "2:238" }
+  ],
+  "relatedSlugs": ["basics-five-pillars", "basics-how-to-pray", "basics-wudu"]
+}

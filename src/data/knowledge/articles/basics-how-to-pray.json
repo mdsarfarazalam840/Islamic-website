@@ -1,0 +1,68 @@
+{
+  "slug": "basics-how-to-pray",
+  "category": "basics",
+  "featured": false,
+  "title": {
+    "en": "How to Pray — The Form of Ṣalāh",
+    "hi": "नमाज़ कैसे पढ़ें — सलाह का तरीक़ा",
+    "ur": "نماز کیسے پڑھیں — نماز کا طریقہ"
+  },
+  "summary": {
+    "en": "The prayer is made up of units called rakʿahs, each moving through standing, bowing, and prostration while reciting from the Qur'an. This is a simple walk-through of a single rakʿah — the shape the Prophet ﷺ taught and left for his community.",
+    "hi": "नमाज़ रकअत नामक इकाइयों से बनी है, प्रत्येक क़ुरआन से पढ़ते हुए खड़े होने, रुकू और सजदे से गुज़रती है। यह एक अकेली रकअत का सरल विवरण है — वह रूप जो नबी ﷺ ने सिखाया और अपनी उम्मत के लिए छोड़ा।",
+    "ur": "نماز رکعت نامی اکائیوں سے بنی ہے، ہر ایک قرآن سے پڑھتے ہوئے قیام، رکوع اور سجدے سے گزرتی ہے۔ یہ ایک اکیلی رکعت کا سادہ بیان ہے — وہ صورت جو نبی ﷺ نے سکھائی اور اپنی امت کے لیے چھوڑی۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "The ṣalāh is built from repeated units called rakʿahs. Facing the Kaʿbah in Makkah and in a state of wuḍūʾ, the worshipper begins with the intention and raises the hands, saying 'Allāhu akbar' — Allah is greatest." },
+      { "kind": "verse", "surah": 2, "ayah": 144, "note": "Turn your face toward the Sacred Mosque; wherever you are, turn your faces toward it." },
+      { "kind": "heading", "level": 2, "text": "A single rakʿah, step by step" },
+      { "kind": "p", "text": "Standing, one recites the opening chapter, al-Fātiḥah, and then another passage of the Qur'an. Then comes bowing (rukūʿ), rising, and two prostrations (sujūd) with a brief sitting between them — glorifying Allah in each posture." },
+      { "kind": "list", "items": [
+        { "text": "Stand and recite al-Fātiḥah, then a portion of the Qur'an." },
+        { "text": "Bow in rukūʿ, glorifying Allah, then rise upright." },
+        { "text": "Prostrate twice in sujūd, sitting briefly between them." },
+        { "text": "After the final rakʿah, sit for the testimony and end with salām." }
+      ] },
+      { "kind": "heading", "level": 2, "text": "The heart of the prayer" },
+      { "kind": "p", "text": "Prostration is the closest a servant comes to their Lord, and al-Fātiḥah is recited in every rakʿah. The Prophet ﷺ said, 'Pray as you have seen me pray,' making his practice the pattern for all who follow." },
+      { "kind": "verse", "surah": 1, "ayah": 5, "note": "It is You we worship, and You we ask for help — the heart of al-Fātiḥah recited in every prayer." }
+    ],
+    "hi": [
+      { "kind": "p", "text": "नमाज़ रकअत नामक दोहराई जाने वाली इकाइयों से बनी है। मक्का में काबा की ओर मुँह करके और वुज़ू की अवस्था में, इबादत करने वाला नीयत से शुरू करता है और हाथ उठाता है, कहते हुए 'अल्लाहु अकबर' — अल्लाह सबसे बड़ा है।" },
+      { "kind": "verse", "surah": 2, "ayah": 144, "note": "अपना मुँह मस्जिद-ए-हराम की ओर करो; तुम जहाँ भी हो, अपने मुँह उसकी ओर करो।" },
+      { "kind": "heading", "level": 2, "text": "एक अकेली रकअत, चरण दर चरण" },
+      { "kind": "p", "text": "खड़े होकर, प्रारंभिक अध्याय अल-फ़ातिहा पढ़ी जाती है, और फिर क़ुरआन का एक और अंश। फिर आता है रुकू, उठना, और दो सजदे एक संक्षिप्त बैठक के साथ उनके बीच — हर अवस्था में अल्लाह की महिमा करते हुए।" },
+      { "kind": "list", "items": [
+        { "text": "खड़े होकर अल-फ़ातिहा पढ़ो, फिर क़ुरआन का एक हिस्सा।" },
+        { "text": "रुकू में झुको, अल्लाह की महिमा करते हुए, फिर सीधे उठो।" },
+        { "text": "सजदे में दो बार गिरो, उनके बीच थोड़ा बैठते हुए।" },
+        { "text": "अंतिम रकअत के बाद, गवाही के लिए बैठो और सलाम से समाप्त करो।" }
+      ] },
+      { "kind": "heading", "level": 2, "text": "नमाज़ का हृदय" },
+      { "kind": "p", "text": "सजदा वह क्षण है जब बंदा अपने रब के सबसे निकट होता है, और अल-फ़ातिहा हर रकअत में पढ़ी जाती है। नबी ﷺ ने कहा, 'वैसे नमाज़ पढ़ो जैसे तुमने मुझे पढ़ते देखा,' अपने अमल को हर अनुयायी के लिए नमूना बनाते हुए।" },
+      { "kind": "verse", "surah": 1, "ayah": 5, "note": "हम केवल तेरी इबादत करते हैं, और तुझी से मदद माँगते हैं — अल-फ़ातिहा का हृदय जो हर नमाज़ में पढ़ा जाता है।" }
+    ],
+    "ur": [
+      { "kind": "p", "text": "نماز رکعت نامی دہرائی جانے والی اکائیوں سے بنی ہے۔ مکہ میں کعبہ کی طرف منہ کر کے اور وضو کی حالت میں، عبادت کرنے والا نیت سے شروع کرتا ہے اور ہاتھ اٹھاتا ہے، کہتے ہوئے 'اللہ اکبر' — اللہ سب سے بڑا ہے۔" },
+      { "kind": "verse", "surah": 2, "ayah": 144, "note": "اپنا منہ مسجدِ حرام کی طرف کرو؛ تم جہاں کہیں ہو، اپنے منہ اُس کی طرف کرو۔" },
+      { "kind": "heading", "level": 2, "text": "ایک اکیلی رکعت، قدم بہ قدم" },
+      { "kind": "p", "text": "کھڑے ہو کر، ابتدائی سورت الفاتحہ پڑھی جاتی ہے، اور پھر قرآن کا ایک اور حصہ۔ پھر آتا ہے رکوع، اٹھنا، اور دو سجدے اُن کے درمیان ایک مختصر بیٹھک کے ساتھ — ہر حالت میں اللہ کی تسبیح کرتے ہوئے۔" },
+      { "kind": "list", "items": [
+        { "text": "کھڑے ہو کر الفاتحہ پڑھو، پھر قرآن کا ایک حصہ۔" },
+        { "text": "رکوع میں جھکو، اللہ کی تسبیح کرتے ہوئے، پھر سیدھے اٹھو۔" },
+        { "text": "سجدے میں دو بار گرو، اُن کے درمیان تھوڑا بیٹھتے ہوئے۔" },
+        { "text": "آخری رکعت کے بعد، تشہد کے لیے بیٹھو اور سلام سے ختم کرو۔" }
+      ] },
+      { "kind": "heading", "level": 2, "text": "نماز کا دل" },
+      { "kind": "p", "text": "سجدہ وہ لمحہ ہے جب بندہ اپنے رب کے سب سے قریب ہوتا ہے، اور الفاتحہ ہر رکعت میں پڑھی جاتی ہے۔ نبی ﷺ نے فرمایا، 'ویسے نماز پڑھو جیسے تم نے مجھے پڑھتے دیکھا،' اپنے عمل کو ہر پیروکار کے لیے نمونہ بناتے ہوئے۔" },
+      { "kind": "verse", "surah": 1, "ayah": 5, "note": "ہم صرف تیری عبادت کرتے ہیں، اور تجھ ہی سے مدد مانگتے ہیں — الفاتحہ کا دل جو ہر نماز میں پڑھا جاتا ہے۔" }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "2:144" },
+    { "type": "quran", "ref": "1:1-7" },
+    { "type": "seerah" }
+  ],
+  "relatedSlugs": ["basics-salah", "basics-wudu", "surah-al-fatiha"]
+}

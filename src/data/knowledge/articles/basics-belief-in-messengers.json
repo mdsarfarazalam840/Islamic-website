@@ -1,0 +1,68 @@
+{
+  "slug": "basics-belief-in-messengers",
+  "category": "basics",
+  "featured": false,
+  "title": {
+    "en": "Belief in the Messengers",
+    "hi": "रसूलों पर ईमान",
+    "ur": "رسولوں پر ایمان"
+  },
+  "summary": {
+    "en": "The fourth article of faith is belief in the messengers Allah sent to every nation, from Ādam to Muḥammad ﷺ. All called to the same message — worship Allah alone — and a Muslim believes in them all without distinction, honouring Muḥammad ﷺ as the final and last of them.",
+    "hi": "ईमान का चौथा अनुच्छेद उन रसूलों पर विश्वास है जिन्हें अल्लाह ने हर राष्ट्र में भेजा, आदम से मुहम्मद ﷺ तक। सभी ने एक ही संदेश की ओर बुलाया — केवल अल्लाह की इबादत — और एक मुसलमान उन सबको बिना भेदभाव के मानता है, मुहम्मद ﷺ को उनमें अंतिम मानते हुए।",
+    "ur": "ایمان کا چوتھا رکن اُن رسولوں پر یقین ہے جنہیں اللہ نے ہر قوم میں بھیجا، آدم سے محمد ﷺ تک۔ سب نے ایک ہی پیغام کی طرف بلایا — صرف اللہ کی عبادت — اور ایک مسلمان اُن سب کو بغیر فرق کے مانتا ہے، محمد ﷺ کو اُن میں آخری مانتے ہوئے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "The fourth article of faith is belief in the messengers Allah sent to guide humankind. To every nation He sent one who called them back to the worship of the one God and warned against following anything besides Him." },
+      { "kind": "verse", "surah": 16, "ayah": 36, "note": "We raised in every nation a messenger, saying: Worship Allah and avoid false gods." },
+      { "kind": "heading", "level": 2, "text": "One message, many messengers" },
+      { "kind": "p", "text": "From Ādam and Nūḥ to Ibrāhīm, Mūsā, ʿĪsā and countless others, the messengers differed in time and law but were one in their core call. A Muslim believes in all of them and rejects none." },
+      { "kind": "verse", "surah": 2, "ayah": 285, "note": "We make no distinction between any of His messengers — the affirmation the believers make." },
+      { "kind": "heading", "level": 2, "text": "The Seal of the Prophets" },
+      { "kind": "p", "text": "Muḥammad ﷺ is the last of the messengers, sent not to one people but as a mercy to all the worlds. After him there is no prophet, and his message completes and confirms all that came before." },
+      { "kind": "verse", "surah": 33, "ayah": 40, "note": "Muḥammad is the Messenger of Allah and the seal of the prophets." },
+      { "kind": "list", "items": [
+        { "text": "Allah sent a messenger to every nation with the same core call." },
+        { "text": "A Muslim believes in all the messengers without distinction." },
+        { "text": "Muḥammad ﷺ is the final messenger, a mercy to all creation." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "ईमान का चौथा अनुच्छेद उन रसूलों पर विश्वास है जिन्हें अल्लाह ने मानवजाति के मार्गदर्शन के लिए भेजा। हर राष्ट्र में उसने एक भेजा जो उन्हें एक ईश्वर की इबादत की ओर वापस बुलाता और उसके सिवा किसी के अनुसरण से चेताता।" },
+      { "kind": "verse", "surah": 16, "ayah": 36, "note": "हमने हर राष्ट्र में एक रसूल खड़ा किया, यह कहते हुए: अल्लाह की इबादत करो और झूठे ख़ुदाओं से बचो।" },
+      { "kind": "heading", "level": 2, "text": "एक संदेश, अनेक रसूल" },
+      { "kind": "p", "text": "आदम और नूह से इब्राहीम, मूसा, ईसा और अनगिनत अन्य तक, रसूल समय और शरीयत में भिन्न थे परन्तु अपनी मूल पुकार में एक। एक मुसलमान उन सबको मानता है और किसी को नहीं नकारता।" },
+      { "kind": "verse", "surah": 2, "ayah": 285, "note": "हम उसके रसूलों में से किसी के बीच भेद नहीं करते — यह पुष्टि जो ईमान वाले करते हैं।" },
+      { "kind": "heading", "level": 2, "text": "नबियों की मुहर" },
+      { "kind": "p", "text": "मुहम्मद ﷺ रसूलों में अंतिम हैं, किसी एक क़ौम के लिए नहीं बल्कि समस्त संसारों के लिए दया के रूप में भेजे गए। उनके बाद कोई नबी नहीं, और उनका संदेश पहले आए सब को पूर्ण और पुष्ट करता है।" },
+      { "kind": "verse", "surah": 33, "ayah": 40, "note": "मुहम्मद अल्लाह के रसूल और नबियों की मुहर हैं।" },
+      { "kind": "list", "items": [
+        { "text": "अल्लाह ने हर राष्ट्र में एक ही मूल पुकार के साथ एक रसूल भेजा।" },
+        { "text": "एक मुसलमान सभी रसूलों को बिना भेदभाव के मानता है।" },
+        { "text": "मुहम्मद ﷺ अंतिम रसूल हैं, समस्त सृष्टि के लिए दया।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "ایمان کا چوتھا رکن اُن رسولوں پر یقین ہے جنہیں اللہ نے انسانوں کی رہنمائی کے لیے بھیجا۔ ہر قوم میں اُس نے ایک بھیجا جو انہیں ایک خدا کی عبادت کی طرف واپس بلاتا اور اُس کے سوا کسی کی پیروی سے خبردار کرتا۔" },
+      { "kind": "verse", "surah": 16, "ayah": 36, "note": "ہم نے ہر قوم میں ایک رسول کھڑا کیا، یہ کہتے ہوئے: اللہ کی عبادت کرو اور جھوٹے معبودوں سے بچو۔" },
+      { "kind": "heading", "level": 2, "text": "ایک پیغام، بہت سے رسول" },
+      { "kind": "p", "text": "آدم اور نوح سے ابراہیم، موسیٰ، عیسیٰ اور بے شمار دیگر تک، رسول وقت اور شریعت میں مختلف تھے مگر اپنی بنیادی پکار میں ایک۔ ایک مسلمان اُن سب کو مانتا ہے اور کسی کا انکار نہیں کرتا۔" },
+      { "kind": "verse", "surah": 2, "ayah": 285, "note": "ہم اُس کے رسولوں میں سے کسی کے درمیان فرق نہیں کرتے — یہ اقرار جو مومن کرتے ہیں۔" },
+      { "kind": "heading", "level": 2, "text": "نبیوں کی مہر" },
+      { "kind": "p", "text": "محمد ﷺ رسولوں میں آخری ہیں، کسی ایک قوم کے لیے نہیں بلکہ تمام جہانوں کے لیے رحمت کے طور پر بھیجے گئے۔ اُن کے بعد کوئی نبی نہیں، اور اُن کا پیغام پہلے آنے والے سب کو مکمل اور تصدیق کرتا ہے۔" },
+      { "kind": "verse", "surah": 33, "ayah": 40, "note": "محمد اللہ کے رسول اور نبیوں کی مہر ہیں۔" },
+      { "kind": "list", "items": [
+        { "text": "اللہ نے ہر قوم میں ایک ہی بنیادی پکار کے ساتھ ایک رسول بھیجا۔" },
+        { "text": "ایک مسلمان تمام رسولوں کو بغیر فرق کے مانتا ہے۔" },
+        { "text": "محمد ﷺ آخری رسول ہیں، تمام مخلوق کے لیے رحمت۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "16:36" },
+    { "type": "quran", "ref": "2:285" },
+    { "type": "quran", "ref": "33:40" }
+  ],
+  "relatedSlugs": ["concept-iman", "prophet-muhammad", "basics-belief-in-books"]
+}

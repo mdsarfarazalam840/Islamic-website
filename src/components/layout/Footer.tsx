@@ -7,6 +7,7 @@ const footerLinks = [
     links: [
       { label: "Quran", href: "/quran" },
       { label: "Hadith", href: "/hadith" },
+      { label: "Knowledge Base", href: "/knowledge-base" },
       { label: "Videos", href: "/videos" },
     ],
   },

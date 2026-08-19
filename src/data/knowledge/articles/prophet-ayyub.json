@@ -1,0 +1,66 @@
+{
+  "slug": "prophet-ayyub",
+  "category": "prophets",
+  "prophetNumber": 12,
+  "featured": false,
+  "title": {
+    "en": "Ayyūb (Job) — The Model of Patience",
+    "hi": "अय्यूब (अय्यूब अलैहिस्सलाम) — धैर्य का आदर्श",
+    "ur": "ایوب علیہ السلام — صبر کا نمونہ"
+  },
+  "summary": {
+    "en": "Ayyūb lost his wealth, health, and children, yet never turned from gratitude to complaint. His patience became a byword, and Allah healed him and restored what he had lost, doubling it in mercy.",
+    "hi": "अय्यूब ने अपना धन, स्वास्थ्य और संतान खो दी, फिर भी कभी आभार से शिकायत की ओर नहीं मुड़े। उनका धैर्य एक मिसाल बन गया, और अल्लाह ने उन्हें चंगा किया और जो खोया था वह लौटा दिया, दया में उसे दोगुना करते हुए।",
+    "ur": "ایوب علیہ السلام نے اپنا مال، صحت اور اولاد کھو دی، پھر بھی کبھی شکر سے شکایت کی طرف نہ پلٹے۔ اُن کا صبر ایک مثال بن گیا، اور اللہ نے انہیں شفا دی اور جو کھویا تھا وہ لوٹا دیا، رحمت میں اُسے دوگنا کرتے ہوئے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Ayyūb (peace be upon him) was a prophet blessed with abundant wealth, family, and health. Allah tested him by taking all of it away — his property, his children, and finally his own body, afflicted with prolonged illness." },
+      { "kind": "heading", "level": 2, "text": "Patience without complaint" },
+      { "kind": "p", "text": "Through every loss, Ayyūb remained thankful and steadfast, refusing to let hardship turn him against his Lord. When at last he called upon Allah, it was with the utmost humility, not accusation." },
+      { "kind": "verse", "surah": 21, "ayah": 83, "note": "Ayyūb calls upon his Lord: adversity has touched me, and You are the most merciful of the merciful." },
+      { "kind": "heading", "level": 2, "text": "Relief and restoration" },
+      { "kind": "p", "text": "Allah answered his prayer, commanded a spring to gush forth for his healing, and removed his affliction. He restored Ayyūb's family and wealth, and multiplied them as a mercy and a reminder for the worshippers." },
+      { "kind": "verse", "surah": 38, "ayah": 44, "note": "Allah found Ayyūb patient — an excellent servant, ever turning to his Lord." },
+      { "kind": "list", "items": [
+        { "text": "True patience is gratitude that survives even total loss." },
+        { "text": "Turning to Allah in need is worship, not weakness." },
+        { "text": "Allah's relief comes after trial, often greater than what was lost." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "अय्यूब (अलैहिस्सलाम) एक नबी थे जिन्हें प्रचुर धन, परिवार और स्वास्थ्य की नेमत मिली थी। अल्लाह ने उन्हें यह सब लेकर परखा — उनकी संपत्ति, उनकी संतान, और अंततः उनका अपना शरीर, जो लंबी बीमारी से पीड़ित हुआ।" },
+      { "kind": "heading", "level": 2, "text": "शिकायत बिना धैर्य" },
+      { "kind": "p", "text": "हर हानि के बीच, अय्यूब आभारी और अटल बने रहे, कठिनाई को अपने रब के विरुद्ध मोड़ने से इनकार करते हुए। जब अंततः उन्होंने अल्लाह को पुकारा, तो यह अत्यंत विनम्रता से था, आरोप से नहीं।" },
+      { "kind": "verse", "surah": 21, "ayah": 83, "note": "अय्यूब अपने रब को पुकारते हैं: मुझे कष्ट ने छू लिया है, और तू दयावानों में सबसे दयावान है।" },
+      { "kind": "heading", "level": 2, "text": "राहत और पुनर्स्थापन" },
+      { "kind": "p", "text": "अल्लाह ने उनकी दुआ का उत्तर दिया, उनके उपचार के लिए एक चश्मा फूटने का हुक्म दिया, और उनका कष्ट दूर किया। उसने अय्यूब के परिवार और धन को लौटा दिया, और उन्हें दया और इबादत करने वालों के लिए एक स्मरण के रूप में बढ़ा दिया।" },
+      { "kind": "verse", "surah": 38, "ayah": 44, "note": "अल्लाह ने अय्यूब को धैर्यवान पाया — एक उत्तम बंदा, सदा अपने रब की ओर लौटने वाला।" },
+      { "kind": "list", "items": [
+        { "text": "सच्चा धैर्य वह आभार है जो पूर्ण हानि में भी बचा रहता है।" },
+        { "text": "आवश्यकता में अल्लाह की ओर मुड़ना इबादत है, कमज़ोरी नहीं।" },
+        { "text": "अल्लाह की राहत परीक्षा के बाद आती है, प्रायः खोए हुए से अधिक।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "ایوب علیہ السلام ایک نبی تھے جنہیں فراوان مال، خاندان اور صحت کی نعمت ملی تھی۔ اللہ نے انہیں یہ سب لے کر آزمایا — اُن کی جائیداد، اُن کی اولاد، اور آخرکار اُن کا اپنا جسم، جو طویل بیماری میں مبتلا ہوا۔" },
+      { "kind": "heading", "level": 2, "text": "شکایت کے بغیر صبر" },
+      { "kind": "p", "text": "ہر نقصان کے درمیان، ایوب شکرگزار اور ثابت قدم رہے، مشکل کو اپنے رب کے خلاف موڑنے سے انکار کرتے ہوئے۔ جب آخرکار انہوں نے اللہ کو پکارا، تو یہ انتہائی عاجزی سے تھا، الزام سے نہیں۔" },
+      { "kind": "verse", "surah": 21, "ayah": 83, "note": "ایوب اپنے رب کو پکارتے ہیں: مجھے تکلیف نے چھو لیا ہے، اور تو رحم کرنے والوں میں سب سے زیادہ رحم کرنے والا ہے۔" },
+      { "kind": "heading", "level": 2, "text": "راحت اور بحالی" },
+      { "kind": "p", "text": "اللہ نے اُن کی دعا کا جواب دیا، اُن کی شفا کے لیے ایک چشمہ جاری کرنے کا حکم دیا، اور اُن کی تکلیف دور کی۔ اُس نے ایوب کے خاندان اور مال کو لوٹا دیا، اور انہیں رحمت اور عبادت گزاروں کے لیے ایک یاد دہانی کے طور پر بڑھا دیا۔" },
+      { "kind": "verse", "surah": 38, "ayah": 44, "note": "اللہ نے ایوب کو صابر پایا — ایک بہترین بندہ، ہمیشہ اپنے رب کی طرف رجوع کرنے والا۔" },
+      { "kind": "list", "items": [
+        { "text": "سچا صبر وہ شکر ہے جو مکمل نقصان میں بھی باقی رہتا ہے۔" },
+        { "text": "ضرورت میں اللہ کی طرف رجوع عبادت ہے، کمزوری نہیں۔" },
+        { "text": "اللہ کی راحت آزمائش کے بعد آتی ہے، اکثر کھوئے ہوئے سے زیادہ۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "21:83-84" },
+    { "type": "quran", "ref": "38:41-44" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["concept-sabr", "prophet-yaqub", "concept-tawakkul"]
+}

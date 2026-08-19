@@ -19,10 +19,22 @@ export function Providers({ children }: { children: React.ReactNode }) {
   )
 
   useEffect(() => {
-    if ("serviceWorker" in navigator) {
+    if (!("serviceWorker" in navigator)) return
+
+    if (process.env.NODE_ENV === "production") {
       navigator.serviceWorker
         .register(assetPath("/sw.js"), { scope: assetPath("/") })
         .catch((err) => console.error("SW registration failed:", err))
+    } else {
+      // Dev: a previously-installed SW caches /_next/static chunks cache-first,
+      // serving stale bundles after a rebuild → hydration mismatch + dead module
+      // IDs (the "M_ID" crash). Tear it down so dev always hits the network.
+      navigator.serviceWorker
+        .getRegistrations()
+        .then((regs) => regs.forEach((r) => r.unregister()))
+      if ("caches" in window) {
+        caches.keys().then((keys) => keys.forEach((k) => caches.delete(k)))
+      }
     }
   }, [])
 

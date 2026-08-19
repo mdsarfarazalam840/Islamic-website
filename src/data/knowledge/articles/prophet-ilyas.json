@@ -1,0 +1,69 @@
+{
+  "slug": "prophet-ilyas",
+  "category": "prophets",
+  "prophetNumber": 19,
+  "featured": false,
+  "title": {
+    "en": "Ilyās (Elijah) — The Caller Away from Baal",
+    "hi": "इल्यास (इल्यास अलैहिस्सलाम) — बाल से दूर बुलाने वाले",
+    "ur": "الیاس علیہ السلام — بعل سے دور بلانے والے"
+  },
+  "summary": {
+    "en": "Ilyās was a prophet sent to a people who worshipped the idol Baal. He called them to abandon it and turn to Allah, the best of creators and Lord of their forefathers. He is counted among the righteous messengers.",
+    "hi": "इल्यास एक नबी थे जो एक ऐसी क़ौम की ओर भेजे गए जो बाल मूर्ति की पूजा करती थी। उन्होंने उन्हें उसे छोड़ने और अल्लाह की ओर मुड़ने के लिए बुलाया, जो सर्वश्रेष्ठ रचयिता और उनके पूर्वजों का रब है। उन्हें धर्मी रसूलों में गिना जाता है।",
+    "ur": "الیاس علیہ السلام ایک نبی تھے جو ایک ایسی قوم کی طرف بھیجے گئے جو بعل بت کی پوجا کرتی تھی۔ انہوں نے انہیں اُسے چھوڑنے اور اللہ کی طرف رجوع کرنے کی دعوت دی، جو بہترین خالق اور اُن کے آباؤ اجداد کا رب ہے۔ انہیں نیکوکار رسولوں میں شمار کیا جاتا ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Ilyās (peace be upon him) was raised among a people who had abandoned the worship of Allah for an idol they called Baal. As a messenger, he stood alone against their devotion to a lifeless image." },
+      { "kind": "verse", "surah": 37, "ayah": 123, "note": "The Qur'an affirms: and indeed Ilyās was among the messengers." },
+      { "kind": "heading", "level": 2, "text": "The call away from Baal" },
+      { "kind": "p", "text": "Ilyās challenged his people's central error directly, asking how they could pray to a carved idol and forsake Allah, the finest of all creators and the Lord of every generation before them." },
+      { "kind": "verse", "surah": 37, "ayah": 125, "note": "Ilyās asks: do you call upon Baal and leave the best of creators?" },
+      { "kind": "heading", "level": 2, "text": "Honoured among the righteous" },
+      { "kind": "p", "text": "Though most of his people denied him, Allah preserved his name and honoured him, listing him alongside the righteous prophets whose guidance shines across the generations." },
+      { "kind": "verse", "surah": 6, "ayah": 85, "note": "Allah lists Zakariyyā, Yaḥyā, ʿĪsā, and Ilyās — all among the righteous." },
+      { "kind": "list", "items": [
+        { "text": "Idols, however revered by a society, deserve no worship." },
+        { "text": "A true prophet confronts the central error of his people." },
+        { "text": "Allah honours His messengers even when their people reject them." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "इल्यास (अलैहिस्सलाम) एक ऐसी क़ौम में पले जिन्होंने अल्लाह की इबादत को छोड़कर बाल नामक एक मूर्ति को अपना लिया था। एक रसूल के रूप में, वे एक निर्जीव मूर्ति के प्रति उनकी भक्ति के विरुद्ध अकेले खड़े रहे।" },
+      { "kind": "verse", "surah": 37, "ayah": 123, "note": "क़ुरआन पुष्टि करता है: और निःसंदेह इल्यास रसूलों में से थे।" },
+      { "kind": "heading", "level": 2, "text": "बाल से दूर बुलाना" },
+      { "kind": "p", "text": "इल्यास ने अपनी क़ौम की केंद्रीय भूल को सीधे चुनौती दी, पूछते हुए कि वे कैसे एक तराशी हुई मूर्ति से प्रार्थना कर सकते हैं और अल्लाह को छोड़ सकते हैं, जो समस्त रचयिताओं में श्रेष्ठ और उनसे पहले की हर पीढ़ी का रब है।" },
+      { "kind": "verse", "surah": 37, "ayah": 125, "note": "इल्यास पूछते हैं: क्या तुम बाल को पुकारते हो और सर्वश्रेष्ठ रचयिता को छोड़ देते हो?" },
+      { "kind": "heading", "level": 2, "text": "धर्मियों में सम्मानित" },
+      { "kind": "p", "text": "यद्यपि उनकी अधिकांश क़ौम ने उन्हें झुठलाया, अल्लाह ने उनका नाम सुरक्षित रखा और उन्हें सम्मानित किया, उन्हें उन धर्मी नबियों के साथ सूचीबद्ध करते हुए जिनका मार्गदर्शन पीढ़ियों में चमकता है।" },
+      { "kind": "verse", "surah": 6, "ayah": 85, "note": "अल्लाह ज़करिय्या, यह्या, ईसा और इल्यास को सूचीबद्ध करता है — सब धर्मियों में से।" },
+      { "kind": "list", "items": [
+        { "text": "मूर्तियाँ, चाहे समाज द्वारा कितनी भी पूजनीय हों, किसी इबादत के योग्य नहीं।" },
+        { "text": "एक सच्चा नबी अपनी क़ौम की केंद्रीय भूल का सामना करता है।" },
+        { "text": "अल्लाह अपने रसूलों को सम्मानित करता है, भले ही उनकी क़ौम उन्हें अस्वीकार करे।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "الیاس علیہ السلام ایک ایسی قوم میں پلے جنہوں نے اللہ کی عبادت چھوڑ کر بعل نامی ایک بت کو اپنا لیا تھا۔ ایک رسول کے طور پر، وہ ایک بے جان مورت کے لیے اُن کی عقیدت کے خلاف تنہا کھڑے رہے۔" },
+      { "kind": "verse", "surah": 37, "ayah": 123, "note": "قرآن تصدیق کرتا ہے: اور بے شک الیاس رسولوں میں سے تھے۔" },
+      { "kind": "heading", "level": 2, "text": "بعل سے دور بلانا" },
+      { "kind": "p", "text": "الیاس نے اپنی قوم کی مرکزی غلطی کو براہِ راست للکارا، پوچھتے ہوئے کہ وہ کیسے ایک تراشے ہوئے بت سے دعا کر سکتے ہیں اور اللہ کو چھوڑ سکتے ہیں، جو تمام خالقوں میں بہترین اور اُن سے پہلے کی ہر نسل کا رب ہے۔" },
+      { "kind": "verse", "surah": 37, "ayah": 125, "note": "الیاس پوچھتے ہیں: کیا تم بعل کو پکارتے ہو اور بہترین خالق کو چھوڑ دیتے ہو؟" },
+      { "kind": "heading", "level": 2, "text": "نیکوکاروں میں معزز" },
+      { "kind": "p", "text": "اگرچہ اُن کی اکثر قوم نے انہیں جھٹلایا، اللہ نے اُن کا نام محفوظ رکھا اور انہیں عزت دی، انہیں اُن نیکوکار انبیاء کے ساتھ فہرست میں رکھتے ہوئے جن کی ہدایت نسلوں میں چمکتی ہے۔" },
+      { "kind": "verse", "surah": 6, "ayah": 85, "note": "اللہ زکریا، یحییٰ، عیسیٰ اور الیاس کو فہرست میں رکھتا ہے — سب نیکوکاروں میں سے۔" },
+      { "kind": "list", "items": [
+        { "text": "بت، خواہ معاشرہ انہیں کتنا ہی مقدس سمجھے، کسی عبادت کے لائق نہیں۔" },
+        { "text": "ایک سچا نبی اپنی قوم کی مرکزی غلطی کا سامنا کرتا ہے۔" },
+        { "text": "اللہ اپنے رسولوں کو عزت دیتا ہے، خواہ اُن کی قوم انہیں رد کرے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "37:123-132" },
+    { "type": "quran", "ref": "6:85" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["prophet-al-yasa", "prophet-idris", "concept-tawhid"]
+}

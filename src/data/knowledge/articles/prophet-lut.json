@@ -1,0 +1,70 @@
+{
+  "slug": "prophet-lut",
+  "category": "prophets",
+  "prophetNumber": 7,
+  "featured": false,
+  "title": {
+    "en": "Lūṭ (Lot) — The Prophet Who Warned Against Corruption",
+    "hi": "लूत (लूत अलैहिस्सलाम) — भ्रष्टाचार के विरुद्ध चेतावनी देने वाले नबी",
+    "ur": "لوط علیہ السلام — بدکاری کے خلاف تنبیہ کرنے والے نبی"
+  },
+  "summary": {
+    "en": "Lūṭ, a nephew of Ibrāhīm, was sent to a people who committed open indecency never seen before. He called them to purity and obedience to Allah; when they refused, they were overturned and destroyed, and only Lūṭ and the believers were saved.",
+    "hi": "लूत, इब्राहीम के भतीजे, एक ऐसी क़ौम की ओर भेजे गए जो ऐसी खुली निर्लज्जता करती थी जो पहले कभी न देखी गई थी। उन्होंने उन्हें पवित्रता और अल्लाह की आज्ञाकारिता की ओर बुलाया; जब उन्होंने इनकार किया, तो उन्हें उलट दिया और नष्ट कर दिया गया, और केवल लूत और ईमान वाले बचाए गए।",
+    "ur": "لوط علیہ السلام، ابراہیم کے بھتیجے، ایک ایسی قوم کی طرف بھیجے گئے جو ایسی کھلی بے حیائی کرتی تھی جو پہلے کبھی نہ دیکھی گئی۔ انہوں نے انہیں پاکیزگی اور اللہ کی اطاعت کی دعوت دی؛ جب انہوں نے انکار کیا تو انہیں الٹ دیا اور ہلاک کر دیا گیا، اور صرف لوط اور مومن بچائے گئے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Lūṭ (peace be upon him) believed in Ibrāhīm and migrated with him. Allah sent him to the towns of Sodom, whose people had invented a shameless act of indecency and mocked every warning." },
+      { "kind": "verse", "surah": 7, "ayah": 80, "note": "Lūṭ asks his people: do you commit an indecency none in the worlds committed before you?" },
+      { "kind": "heading", "level": 2, "text": "A lone voice for purity" },
+      { "kind": "p", "text": "Lūṭ stood almost alone, calling his people to leave their crime and fear Allah. They answered only with threats to expel him and those with him for wanting to keep themselves pure." },
+      { "kind": "verse", "surah": 11, "ayah": 78, "note": "The people rush to Lūṭ, and he pleads with them to fear Allah and not disgrace him before his guests." },
+      { "kind": "heading", "level": 2, "text": "The overturning of the towns" },
+      { "kind": "p", "text": "The angels came as guests to Lūṭ, then commanded him to leave by night with the believers. At dawn the towns were turned upside down and rained with stones of baked clay. His wife, who sided with the wrongdoers, was among those destroyed." },
+      { "kind": "verse", "surah": 11, "ayah": 82, "note": "The towns were overturned and rained upon with stones of layered clay." },
+      { "kind": "list", "items": [
+        { "text": "Standing for what is right may leave a believer isolated, but never abandoned by Allah." },
+        { "text": "Public sin, celebrated and defended, corrupts a whole society." },
+        { "text": "Nearness to a prophet does not save one who chooses wrongdoing, as with Lūṭ's wife." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "लूत (अलैहिस्सलाम) इब्राहीम पर ईमान लाए और उनके साथ हिजरत की। अल्लाह ने उन्हें सदूम की बस्तियों की ओर भेजा, जिनके लोगों ने एक निर्लज्ज अश्लील कर्म ईजाद किया था और हर चेतावनी का उपहास करते थे।" },
+      { "kind": "verse", "surah": 7, "ayah": 80, "note": "लूत अपनी क़ौम से पूछते हैं: क्या तुम ऐसी निर्लज्जता करते हो जो तुमसे पहले संसार में किसी ने नहीं की?" },
+      { "kind": "heading", "level": 2, "text": "पवित्रता के लिए अकेली आवाज़" },
+      { "kind": "p", "text": "लूत लगभग अकेले खड़े रहे, अपनी क़ौम को उनके अपराध को छोड़ने और अल्लाह से डरने के लिए बुलाते रहे। उन्होंने केवल यही उत्तर दिया कि उन्हें और उनके साथ वालों को बस्ती से निकाल देंगे क्योंकि वे स्वयं को पाक रखना चाहते थे।" },
+      { "kind": "verse", "surah": 11, "ayah": 78, "note": "लोग लूत की ओर दौड़ पड़ते हैं, और वे उनसे विनती करते हैं कि अल्लाह से डरें और उनके मेहमानों के सामने उन्हें अपमानित न करें।" },
+      { "kind": "heading", "level": 2, "text": "बस्तियों का उलट दिया जाना" },
+      { "kind": "p", "text": "फ़रिश्ते लूत के पास मेहमान बनकर आए, फिर उन्हें हुक्म दिया कि रात में ईमान वालों के साथ निकल जाएँ। भोर होते ही बस्तियाँ उलट दी गईं और उन पर पकी मिट्टी के पत्थर बरसाए गए। उनकी पत्नी, जो अत्याचारियों के साथ थी, नष्ट होने वालों में थी।" },
+      { "kind": "verse", "surah": 11, "ayah": 82, "note": "बस्तियाँ उलट दी गईं और उन पर परतदार मिट्टी के पत्थर बरसाए गए।" },
+      { "kind": "list", "items": [
+        { "text": "सही के लिए खड़ा होना ईमान वाले को अकेला छोड़ सकता है, परन्तु अल्लाह उसे कभी नहीं छोड़ता।" },
+        { "text": "सार्वजनिक पाप, जिसका जश्न मनाया और बचाव किया जाए, पूरे समाज को भ्रष्ट करता है।" },
+        { "text": "नबी की निकटता उसे नहीं बचाती जो अत्याचार चुनता है, जैसे लूत की पत्नी।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "لوط علیہ السلام ابراہیم پر ایمان لائے اور اُن کے ساتھ ہجرت کی۔ اللہ نے انہیں سدوم کی بستیوں کی طرف بھیجا، جن کے لوگوں نے ایک بے شرم بے حیائی ایجاد کی تھی اور ہر تنبیہ کا مذاق اڑاتے تھے۔" },
+      { "kind": "verse", "surah": 7, "ayah": 80, "note": "لوط اپنی قوم سے پوچھتے ہیں: کیا تم ایسی بے حیائی کرتے ہو جو تم سے پہلے جہانوں میں کسی نے نہیں کی؟" },
+      { "kind": "heading", "level": 2, "text": "پاکیزگی کے لیے اکیلی آواز" },
+      { "kind": "p", "text": "لوط تقریباً اکیلے کھڑے رہے، اپنی قوم کو اُن کے جرم کو چھوڑنے اور اللہ سے ڈرنے کی دعوت دیتے رہے۔ انہوں نے صرف یہی جواب دیا کہ انہیں اور اُن کے ساتھیوں کو بستی سے نکال دیں گے کیونکہ وہ خود کو پاک رکھنا چاہتے تھے۔" },
+      { "kind": "verse", "surah": 11, "ayah": 78, "note": "لوگ لوط کی طرف دوڑ پڑتے ہیں، اور وہ اُن سے التجا کرتے ہیں کہ اللہ سے ڈریں اور اُن کے مہمانوں کے سامنے انہیں رسوا نہ کریں۔" },
+      { "kind": "heading", "level": 2, "text": "بستیوں کا الٹ دیا جانا" },
+      { "kind": "p", "text": "فرشتے لوط کے پاس مہمان بن کر آئے، پھر انہیں حکم دیا کہ رات میں مومنوں کے ساتھ نکل جائیں۔ صبح ہوتے ہی بستیاں الٹ دی گئیں اور اُن پر پکی مٹی کے پتھر برسائے گئے۔ اُن کی بیوی، جو ظالموں کے ساتھ تھی، ہلاک ہونے والوں میں تھی۔" },
+      { "kind": "verse", "surah": 11, "ayah": 82, "note": "بستیاں الٹ دی گئیں اور اُن پر تہ بہ تہ مٹی کے پتھر برسائے گئے۔" },
+      { "kind": "list", "items": [
+        { "text": "حق کے لیے کھڑا ہونا مومن کو اکیلا چھوڑ سکتا ہے، مگر اللہ اُسے کبھی نہیں چھوڑتا۔" },
+        { "text": "علانیہ گناہ، جس کا جشن منایا اور دفاع کیا جائے، پورے معاشرے کو بگاڑ دیتا ہے۔" },
+        { "text": "نبی کی قربت اُسے نہیں بچاتی جو بدکاری چنتا ہے، جیسے لوط کی بیوی۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "7:80-84" },
+    { "type": "quran", "ref": "11:77-83" },
+    { "type": "quran", "ref": "26:160-175" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["prophet-ibrahim", "prophet-nuh", "concept-taqwa"]
+}

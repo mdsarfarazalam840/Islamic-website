@@ -1,0 +1,68 @@
+{
+  "slug": "basics-belief-in-angels",
+  "category": "basics",
+  "featured": false,
+  "title": {
+    "en": "Belief in the Angels",
+    "hi": "फ़रिश्तों पर ईमान",
+    "ur": "فرشتوں پر ایمان"
+  },
+  "summary": {
+    "en": "The second article of faith is belief in the angels: beings created from light who never disobey Allah and carry out His commands. Among them are Jibrīl, who brought revelation, and the angels who record deeds and guard humankind.",
+    "hi": "ईमान का दूसरा अनुच्छेद फ़रिश्तों पर विश्वास है: प्रकाश से रचे गए प्राणी जो अल्लाह की अवज्ञा कभी नहीं करते और उसके आदेशों को पूरा करते हैं। उनमें जिब्रील हैं, जो वह्य लाए, और वे फ़रिश्ते जो कर्मों को लिखते और मानवजाति की रक्षा करते हैं।",
+    "ur": "ایمان کا دوسرا رکن فرشتوں پر یقین ہے: نور سے پیدا کی گئی مخلوق جو اللہ کی نافرمانی کبھی نہیں کرتی اور اُس کے احکام بجا لاتی ہے۔ اُن میں جبریل ہیں، جو وحی لائے، اور وہ فرشتے جو اعمال لکھتے اور انسانوں کی حفاظت کرتے ہیں۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "The second article of faith is belief in the angels — a world of unseen beings created by Allah from light. They neither eat nor sleep nor tire, and they never disobey the command of their Lord." },
+      { "kind": "verse", "surah": 66, "ayah": 6, "note": "Over Hell are angels, harsh and severe, who do not disobey Allah in what He commands them." },
+      { "kind": "heading", "level": 2, "text": "Messengers between heaven and earth" },
+      { "kind": "p", "text": "The greatest of the angels is Jibrīl, who carried Allah's revelation to the prophets. Others are charged with rain, with taking souls, and with sounding the trumpet on the Last Day." },
+      { "kind": "verse", "surah": 2, "ayah": 97, "note": "Jibrīl brought the revelation down upon your heart by Allah's permission." },
+      { "kind": "heading", "level": 2, "text": "Recorders and guardians" },
+      { "kind": "p", "text": "Every person is accompanied by angels who record their words and deeds and who guard them by Allah's command — a constant reminder that nothing a servant does is unseen." },
+      { "kind": "verse", "surah": 50, "ayah": 18, "note": "Man utters no word except that with him is an observer, ready to record." },
+      { "kind": "list", "items": [
+        { "text": "Angels are created from light and never disobey Allah." },
+        { "text": "Jibrīl is the angel of revelation, sent to the prophets." },
+        { "text": "Recording angels write every word and deed of each person." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "ईमान का दूसरा अनुच्छेद फ़रिश्तों पर विश्वास है — अनदेखे प्राणियों का एक संसार जिन्हें अल्लाह ने प्रकाश से रचा। वे न खाते हैं न सोते हैं न थकते हैं, और अपने रब के आदेश की अवज्ञा कभी नहीं करते।" },
+      { "kind": "verse", "surah": 66, "ayah": 6, "note": "जहन्नम पर फ़रिश्ते हैं, कठोर और सख़्त, जो अल्लाह की उस बात में अवज्ञा नहीं करते जो वह उन्हें आदेश देता है।" },
+      { "kind": "heading", "level": 2, "text": "आकाश और धरती के बीच दूत" },
+      { "kind": "p", "text": "फ़रिश्तों में सबसे बड़े जिब्रील हैं, जो नबियों तक अल्लाह की वह्य लाए। अन्य वर्षा के, आत्माओं को लेने के, और क़यामत के दिन सूर पर फूँकने के लिए नियुक्त हैं।" },
+      { "kind": "verse", "surah": 2, "ayah": 97, "note": "जिब्रील ने अल्लाह की अनुमति से वह्य को तुम्हारे दिल पर उतारा।" },
+      { "kind": "heading", "level": 2, "text": "लिखने वाले और रक्षक" },
+      { "kind": "p", "text": "हर व्यक्ति के साथ फ़रिश्ते हैं जो उनके शब्द और कर्म लिखते हैं और जो अल्लाह के आदेश से उनकी रक्षा करते हैं — एक निरंतर स्मरण कि बंदे का कोई कर्म अनदेखा नहीं।" },
+      { "kind": "verse", "surah": 50, "ayah": 18, "note": "मनुष्य कोई शब्द नहीं बोलता सिवाय इसके कि उसके पास एक निरीक्षक है, लिखने को तैयार।" },
+      { "kind": "list", "items": [
+        { "text": "फ़रिश्ते प्रकाश से रचे गए हैं और अल्लाह की अवज्ञा कभी नहीं करते।" },
+        { "text": "जिब्रील वह्य के फ़रिश्ते हैं, जो नबियों के पास भेजे गए।" },
+        { "text": "लिखने वाले फ़रिश्ते हर व्यक्ति के हर शब्द और कर्म को लिखते हैं।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "ایمان کا دوسرا رکن فرشتوں پر یقین ہے — اَن دیکھی مخلوق کی ایک دنیا جنہیں اللہ نے نور سے پیدا کیا۔ وہ نہ کھاتے ہیں نہ سوتے ہیں نہ تھکتے ہیں، اور اپنے رب کے حکم کی نافرمانی کبھی نہیں کرتے۔" },
+      { "kind": "verse", "surah": 66, "ayah": 6, "note": "جہنم پر فرشتے ہیں، سخت اور تند، جو اللہ کی اُس بات میں نافرمانی نہیں کرتے جو وہ انہیں حکم دیتا ہے۔" },
+      { "kind": "heading", "level": 2, "text": "آسمان اور زمین کے درمیان قاصد" },
+      { "kind": "p", "text": "فرشتوں میں سب سے بڑے جبریل ہیں، جو انبیاء تک اللہ کی وحی لائے۔ دیگر بارش کے، روحوں کو لینے کے، اور قیامت کے دن صور پھونکنے کے لیے مقرر ہیں۔" },
+      { "kind": "verse", "surah": 2, "ayah": 97, "note": "جبریل نے اللہ کی اجازت سے وحی کو تمہارے دل پر اتارا۔" },
+      { "kind": "heading", "level": 2, "text": "لکھنے والے اور محافظ" },
+      { "kind": "p", "text": "ہر شخص کے ساتھ فرشتے ہیں جو اُن کے الفاظ اور اعمال لکھتے ہیں اور جو اللہ کے حکم سے اُن کی حفاظت کرتے ہیں — ایک مسلسل یاد دہانی کہ بندے کا کوئی عمل اَن دیکھا نہیں۔" },
+      { "kind": "verse", "surah": 50, "ayah": 18, "note": "انسان کوئی لفظ نہیں کہتا مگر یہ کہ اُس کے پاس ایک نگران ہے، لکھنے کو تیار۔" },
+      { "kind": "list", "items": [
+        { "text": "فرشتے نور سے پیدا کیے گئے ہیں اور اللہ کی نافرمانی کبھی نہیں کرتے۔" },
+        { "text": "جبریل وحی کے فرشتے ہیں، جو انبیاء کے پاس بھیجے گئے۔" },
+        { "text": "لکھنے والے فرشتے ہر شخص کے ہر لفظ اور عمل کو لکھتے ہیں۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "66:6" },
+    { "type": "quran", "ref": "2:97" },
+    { "type": "quran", "ref": "50:17-18" }
+  ],
+  "relatedSlugs": ["concept-iman", "basics-belief-in-books", "basics-belief-in-last-day"]
+}

@@ -1,0 +1,71 @@
+{
+  "slug": "story-ashab-al-fil",
+  "category": "quranic",
+  "featured": false,
+  "title": {
+    "en": "The Companions of the Elephant",
+    "hi": "हाथी वाले",
+    "ur": "اصحابِ فیل"
+  },
+  "summary": {
+    "en": "In the year the Prophet ﷺ was born, an army from Yemen marched on Makkah with a great elephant to destroy the Kaʿbah. Allah defeated them with flocks of birds hurling stones of baked clay — a lesson, preserved in Sūrat al-Fīl, that no power can prevail against Allah's house or His will.",
+    "hi": "जिस वर्ष नबी ﷺ का जन्म हुआ, यमन से एक सेना एक विशाल हाथी के साथ काबा को नष्ट करने मक्का की ओर बढ़ी। अल्लाह ने उन्हें पक्षियों के झुंडों से हराया जो पकी मिट्टी के पत्थर फेंक रहे थे — सूरह अल-फ़ील में सुरक्षित एक पाठ, कि कोई शक्ति अल्लाह के घर या उसकी इच्छा के विरुद्ध नहीं जीत सकती।",
+    "ur": "جس سال نبی ﷺ کی ولادت ہوئی، یمن سے ایک لشکر ایک عظیم ہاتھی کے ساتھ کعبہ کو ڈھانے مکہ کی طرف بڑھا۔ اللہ نے اُنہیں پرندوں کے جھنڈوں سے شکست دی جو پکی مٹی کے پتھر پھینک رہے تھے — سورۃ الفیل میں محفوظ ایک سبق، کہ کوئی طاقت اللہ کے گھر یا اُس کی مرضی کے خلاف غالب نہیں آ سکتی۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "The Companions of the Elephant were the army of Abrahah, a ruler of Yemen who built a grand cathedral and resented the pilgrimage to the Kaʿbah in Makkah. He marched north with war elephants to demolish the sacred house — in the very year the Prophet Muḥammad ﷺ was born." },
+      { "kind": "verse", "surah": 105, "ayah": 1, "note": "Have you not seen how your Lord dealt with the companions of the elephant?" },
+      { "kind": "heading", "level": 2, "text": "The plot brought to nothing" },
+      { "kind": "p", "text": "As the army neared Makkah the lead elephant refused to advance on the Kaʿbah. Then Allah sent against them flocks of birds, pelting them with stones of hard baked clay, until He left them like chewed-up straw — their scheme utterly ruined." },
+      { "kind": "verse", "surah": 105, "ayah": 2, "note": "Did He not make their plan into misguidance?" },
+      { "kind": "verse", "surah": 105, "ayah": 3, "note": "And He sent against them birds in flocks." },
+      { "kind": "verse", "surah": 105, "ayah": 4, "note": "Striking them with stones of hard baked clay." },
+      { "kind": "heading", "level": 2, "text": "A sign before the message" },
+      { "kind": "p", "text": "The rescue of the Kaʿbah became famous across Arabia, marking \"the Year of the Elephant.\" It was a sign of Allah's protection of His house on the very threshold of the final Prophet's life, reminding every generation that overwhelming force is nothing before the will of the Lord." },
+      { "kind": "list", "items": [
+        { "text": "No army or empire can overpower what Allah chooses to protect." },
+        { "text": "Allah defends His sacred house by means beyond human reckoning." },
+        { "text": "The event marked the Year of the Elephant, the year of the Prophet's ﷺ birth." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "हाथी वाले अबरहा की सेना थे, यमन का एक शासक जिसने एक भव्य गिरजाघर बनाया और मक्का में काबा की तीर्थयात्रा से जलन रखता था। वह पवित्र घर को ढाने युद्ध-हाथियों के साथ उत्तर की ओर बढ़ा — ठीक उसी वर्ष जब नबी मुहम्मद ﷺ का जन्म हुआ।" },
+      { "kind": "verse", "surah": 105, "ayah": 1, "note": "क्या तुमने नहीं देखा कि तुम्हारे रब ने हाथी वालों के साथ कैसा किया?" },
+      { "kind": "heading", "level": 2, "text": "साज़िश को विफल कर दिया" },
+      { "kind": "p", "text": "जैसे ही सेना मक्का के निकट पहुँची, अगुआ हाथी ने काबा की ओर बढ़ने से इनकार कर दिया। फिर अल्लाह ने उनके विरुद्ध पक्षियों के झुंड भेजे, जो उन पर पकी कड़ी मिट्टी के पत्थर बरसाते रहे, यहाँ तक कि उसने उन्हें चबाए हुए भूसे जैसा कर दिया — उनकी योजना पूरी तरह बर्बाद।" },
+      { "kind": "verse", "surah": 105, "ayah": 2, "note": "क्या उसने उनकी चाल को भटकाव में नहीं डाल दिया?" },
+      { "kind": "verse", "surah": 105, "ayah": 3, "note": "और उसने उनके विरुद्ध झुंड के झुंड पक्षी भेजे।" },
+      { "kind": "verse", "surah": 105, "ayah": 4, "note": "जो उन पर कड़ी पकी मिट्टी के पत्थर मार रहे थे।" },
+      { "kind": "heading", "level": 2, "text": "संदेश से पहले एक निशानी" },
+      { "kind": "p", "text": "काबा की रक्षा पूरे अरब में प्रसिद्ध हो गई, जिसने \"हाथी के वर्ष\" को चिह्नित किया। यह अंतिम नबी के जीवन की देहली पर ही अल्लाह की अपने घर की सुरक्षा की एक निशानी थी, हर पीढ़ी को याद दिलाते हुए कि भारी शक्ति रब की इच्छा के सामने कुछ नहीं।" },
+      { "kind": "list", "items": [
+        { "text": "कोई सेना या साम्राज्य उस पर हावी नहीं हो सकता जिसे अल्लाह सुरक्षित रखना चाहे।" },
+        { "text": "अल्लाह अपने पवित्र घर की रक्षा मानवीय अनुमान से परे साधनों से करता है।" },
+        { "text": "इस घटना ने हाथी के वर्ष को चिह्नित किया, नबी ﷺ के जन्म का वर्ष।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "اصحابِ فیل ابرہہ کا لشکر تھے، یمن کا ایک حکمران جس نے ایک شاندار گرجا بنایا اور مکہ میں کعبہ کی زیارت سے حسد رکھتا تھا۔ وہ مقدس گھر کو ڈھانے جنگی ہاتھیوں کے ساتھ شمال کی طرف بڑھا — عین اُسی سال جب نبی محمد ﷺ کی ولادت ہوئی۔" },
+      { "kind": "verse", "surah": 105, "ayah": 1, "note": "کیا تم نے نہیں دیکھا کہ تمہارے رب نے ہاتھی والوں کے ساتھ کیسا کیا؟" },
+      { "kind": "heading", "level": 2, "text": "سازش کو ناکام کر دیا" },
+      { "kind": "p", "text": "جیسے ہی لشکر مکہ کے قریب پہنچا، پیش رو ہاتھی نے کعبہ کی طرف بڑھنے سے انکار کر دیا۔ پھر اللہ نے اُن کے خلاف پرندوں کے جھنڈ بھیجے، جو اُن پر پکی سخت مٹی کے پتھر برساتے رہے، یہاں تک کہ اُس نے اُنہیں چبائے ہوئے بھوسے جیسا کر دیا — اُن کی سازش مکمل طور پر تباہ۔" },
+      { "kind": "verse", "surah": 105, "ayah": 2, "note": "کیا اُس نے اُن کی چال کو گمراہی میں نہیں ڈال دیا؟" },
+      { "kind": "verse", "surah": 105, "ayah": 3, "note": "اور اُس نے اُن کے خلاف جھنڈ کے جھنڈ پرندے بھیجے۔" },
+      { "kind": "verse", "surah": 105, "ayah": 4, "note": "جو اُن پر سخت پکی مٹی کے پتھر مار رہے تھے۔" },
+      { "kind": "heading", "level": 2, "text": "پیغام سے پہلے ایک نشانی" },
+      { "kind": "p", "text": "کعبہ کی حفاظت پورے عرب میں مشہور ہو گئی، جس نے \"عام الفیل\" (ہاتھی کا سال) کو نشان زد کیا۔ یہ آخری نبی کی زندگی کی دہلیز پر ہی اللہ کی اپنے گھر کی حفاظت کی ایک نشانی تھی، ہر نسل کو یاد دلاتے ہوئے کہ زبردست طاقت رب کی مرضی کے سامنے کچھ نہیں۔" },
+      { "kind": "list", "items": [
+        { "text": "کوئی لشکر یا سلطنت اُس پر غالب نہیں آ سکتی جسے اللہ محفوظ رکھنا چاہے۔" },
+        { "text": "اللہ اپنے مقدس گھر کی حفاظت انسانی اندازے سے پرے ذرائع سے کرتا ہے۔" },
+        { "text": "اِس واقعے نے عام الفیل کو نشان زد کیا، نبی ﷺ کی ولادت کا سال۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "105:1-5" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" },
+    { "type": "seerah" }
+  ],
+  "relatedSlugs": ["prophet-muhammad", "concept-tawhid", "surah-al-fatiha"]
+}

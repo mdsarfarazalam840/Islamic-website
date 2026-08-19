@@ -1,0 +1,68 @@
+{
+  "slug": "concept-jannah",
+  "category": "concepts",
+  "featured": false,
+  "title": {
+    "en": "Jannah — Paradise",
+    "hi": "जन्नत — स्वर्ग",
+    "ur": "جنت — بہشت"
+  },
+  "summary": {
+    "en": "Jannah is the eternal Garden Allah has prepared for the believers: a home of gardens and rivers, of joy without sorrow, and — greatest of all — the pleasure of Allah and the sight of His face. It is the goal the Qur'an holds before every believing heart.",
+    "hi": "जन्नत वह शाश्वत बाग़ है जो अल्लाह ने ईमान वालों के लिए तैयार किया है: बाग़ों और नदियों का घर, बिना दुःख के आनंद का, और — सबसे बड़ी बात — अल्लाह की प्रसन्नता और उसके दीदार का। यह वह लक्ष्य है जो क़ुरआन हर ईमान वाले दिल के सामने रखता है।",
+    "ur": "جنت وہ ہمیشہ کا باغ ہے جو اللہ نے مومنوں کے لیے تیار کیا ہے: باغوں اور نہروں کا گھر، بغیر غم کے خوشی کا، اور — سب سے بڑی بات — اللہ کی رضا اور اُس کے دیدار کا۔ یہ وہ مقصد ہے جو قرآن ہر باایمان دل کے سامنے رکھتا ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Jannah — Paradise — is the everlasting reward Allah has promised those who believe and do good. The Qur'an describes it as gardens beneath which rivers flow, where the people of faith dwell forever in bliss." },
+      { "kind": "verse", "surah": 2, "ayah": 25, "note": "Give good news to those who believe and do good that they will have gardens beneath which rivers flow." },
+      { "kind": "heading", "level": 2, "text": "Joy beyond imagining" },
+      { "kind": "p", "text": "Its delights are beyond what any eye has seen or ear has heard. There is no fatigue, no fear, no grief there — only peace, and every wish fulfilled from a Most Merciful Lord." },
+      { "kind": "verse", "surah": 41, "ayah": 31, "note": "In Paradise you will have whatever your souls desire, and whatever you ask for." },
+      { "kind": "heading", "level": 2, "text": "The greatest reward" },
+      { "kind": "p", "text": "The highest joy of Paradise is not its rivers or palaces but the pleasure of Allah and, for its people, the honour of gazing upon His face — a reward greater than the Garden itself." },
+      { "kind": "verse", "surah": 9, "ayah": 72, "note": "And the pleasure of Allah is greater still; that is the supreme success." },
+      { "kind": "list", "items": [
+        { "text": "Jannah is the eternal reward for those who believe and do good." },
+        { "text": "It holds joys beyond any eye's sight, with no fear or sorrow." },
+        { "text": "Its greatest reward is Allah's pleasure and the sight of His face." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "जन्नत — स्वर्ग — वह शाश्वत प्रतिफल है जो अल्लाह ने उनसे वादा किया जो ईमान लाए और भला किया। क़ुरआन इसे ऐसे बाग़ों के रूप में वर्णित करता है जिनके नीचे नदियाँ बहती हैं, जहाँ ईमान वाले हमेशा आनंद में रहते हैं।" },
+      { "kind": "verse", "surah": 2, "ayah": 25, "note": "उन्हें शुभ समाचार दो जो ईमान लाए और भला किया कि उनके लिए ऐसे बाग़ हैं जिनके नीचे नदियाँ बहती हैं।" },
+      { "kind": "heading", "level": 2, "text": "कल्पना से परे आनंद" },
+      { "kind": "p", "text": "इसके सुख उससे परे हैं जो किसी आँख ने देखा या कान ने सुना। वहाँ न थकान है, न भय, न शोक — केवल शांति, और एक अत्यंत दयावान रब से हर इच्छा पूरी।" },
+      { "kind": "verse", "surah": 41, "ayah": 31, "note": "जन्नत में तुम्हारे लिए वह सब होगा जो तुम्हारी आत्माएँ चाहें, और जो कुछ तुम माँगो।" },
+      { "kind": "heading", "level": 2, "text": "सबसे बड़ा प्रतिफल" },
+      { "kind": "p", "text": "जन्नत का सर्वोच्च आनंद उसकी नदियाँ या महल नहीं बल्कि अल्लाह की प्रसन्नता है और, उसके लोगों के लिए, उसके चेहरे को देखने का सम्मान — बाग़ से भी बड़ा एक प्रतिफल।" },
+      { "kind": "verse", "surah": 9, "ayah": 72, "note": "और अल्लाह की प्रसन्नता उससे भी बड़ी है; यही सबसे बड़ी सफलता है।" },
+      { "kind": "list", "items": [
+        { "text": "जन्नत उनके लिए शाश्वत प्रतिफल है जो ईमान लाए और भला किया।" },
+        { "text": "इसमें ऐसे सुख हैं जो किसी आँख की दृष्टि से परे हैं, बिना भय या शोक के।" },
+        { "text": "इसका सबसे बड़ा प्रतिफल अल्लाह की प्रसन्नता और उसके चेहरे का दीदार है।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "جنت — بہشت — وہ ہمیشہ کا بدلہ ہے جو اللہ نے اُن سے وعدہ کیا جو ایمان لائے اور نیکی کی۔ قرآن اِسے ایسے باغوں کے طور پر بیان کرتا ہے جن کے نیچے نہریں بہتی ہیں، جہاں اہلِ ایمان ہمیشہ خوشی میں رہتے ہیں۔" },
+      { "kind": "verse", "surah": 2, "ayah": 25, "note": "اُنہیں خوشخبری دو جو ایمان لائے اور نیکی کی کہ اُن کے لیے ایسے باغ ہیں جن کے نیچے نہریں بہتی ہیں۔" },
+      { "kind": "heading", "level": 2, "text": "تصور سے پرے خوشی" },
+      { "kind": "p", "text": "اِس کی لذتیں اُس سے پرے ہیں جو کسی آنکھ نے دیکھا یا کان نے سنا۔ وہاں نہ تھکن ہے، نہ خوف، نہ غم — صرف سکون، اور ایک نہایت رحم والے رب سے ہر خواہش پوری۔" },
+      { "kind": "verse", "surah": 41, "ayah": 31, "note": "جنت میں تمہارے لیے وہ سب ہوگا جو تمہاری روحیں چاہیں، اور جو کچھ تم مانگو۔" },
+      { "kind": "heading", "level": 2, "text": "سب سے بڑا بدلہ" },
+      { "kind": "p", "text": "جنت کی سب سے بڑی خوشی اُس کی نہریں یا محل نہیں بلکہ اللہ کی رضا ہے اور، اُس کے لوگوں کے لیے، اُس کے چہرے کے دیدار کا شرف — باغ سے بھی بڑا ایک بدلہ۔" },
+      { "kind": "verse", "surah": 9, "ayah": 72, "note": "اور اللہ کی رضا اُس سے بھی بڑی ہے؛ یہی سب سے بڑی کامیابی ہے۔" },
+      { "kind": "list", "items": [
+        { "text": "جنت اُن کے لیے ہمیشہ کا بدلہ ہے جو ایمان لائے اور نیکی کی۔" },
+        { "text": "اِس میں ایسی خوشیاں ہیں جو کسی آنکھ کی نظر سے پرے ہیں، بغیر خوف یا غم کے۔" },
+        { "text": "اِس کا سب سے بڑا بدلہ اللہ کی رضا اور اُس کے چہرے کا دیدار ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "2:25" },
+    { "type": "quran", "ref": "41:30-32" },
+    { "type": "quran", "ref": "9:72" }
+  ],
+  "relatedSlugs": ["basics-belief-in-last-day", "concept-jahannam", "concept-iman"]
+}

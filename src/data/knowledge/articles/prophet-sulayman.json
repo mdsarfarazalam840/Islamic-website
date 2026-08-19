@@ -1,0 +1,70 @@
+{
+  "slug": "prophet-sulayman",
+  "category": "prophets",
+  "prophetNumber": 18,
+  "featured": true,
+  "title": {
+    "en": "Sulaymān (Solomon) — The King of Wind and Word",
+    "hi": "सुलैमान (सुलैमान अलैहिस्सलाम) — वायु और वाणी के राजा",
+    "ur": "سلیمان علیہ السلام — ہوا اور کلام کے بادشاہ"
+  },
+  "summary": {
+    "en": "Sulaymān, son of Dāwūd, inherited prophethood and was granted a kingdom unlike any other: he understood the speech of birds and ants, commanded the wind and the jinn, yet remained a grateful servant who prayed his power would harm no one after him.",
+    "hi": "सुलैमान, दाऊद के पुत्र, ने नुबूवत विरासत में पाई और उन्हें किसी अन्य से भिन्न एक राज्य दिया गया: वे पक्षियों और चींटियों की बोली समझते थे, वायु और जिन्नों को आदेश देते थे, फिर भी एक आभारी बंदे बने रहे जिन्होंने दुआ की कि उनकी शक्ति उनके बाद किसी को हानि न पहुँचाए।",
+    "ur": "سلیمان علیہ السلام، داؤد کے بیٹے، نے نبوت وراثت میں پائی اور انہیں کسی اور سے مختلف ایک بادشاہت عطا ہوئی: وہ پرندوں اور چیونٹیوں کی بولی سمجھتے تھے، ہوا اور جنوں کو حکم دیتے تھے، پھر بھی ایک شکرگزار بندے رہے جنہوں نے دعا کی کہ اُن کی طاقت اُن کے بعد کسی کو نقصان نہ پہنچائے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Sulaymān (peace be upon him) inherited the prophethood and kingdom of his father Dāwūd. Allah favoured him with gifts no other ruler was given, yet Sulaymān met each favour with gratitude rather than pride." },
+      { "kind": "verse", "surah": 27, "ayah": 16, "note": "Sulaymān inherits Dāwūd and says: we have been taught the language of birds and given from everything — this is clear favour." },
+      { "kind": "heading", "level": 2, "text": "The speech of the ant" },
+      { "kind": "p", "text": "As his vast army marched, an ant warned its colony to take shelter. Sulaymān understood its words and smiled, turning at once to thank Allah for the blessing of understanding." },
+      { "kind": "verse", "surah": 27, "ayah": 19, "note": "Sulaymān smiles at the ant's speech and prays to be enabled to be grateful for Allah's favour." },
+      { "kind": "heading", "level": 2, "text": "Wind, jinn, and a humble prayer" },
+      { "kind": "p", "text": "Allah subjected the wind to carry his command and the jinn to labour for him, and taught him to govern the hoopoe's news of the Queen of Sheba, whom he called from sun-worship to the worship of Allah. Amid all this power, his prayer stayed humble." },
+      { "kind": "verse", "surah": 38, "ayah": 35, "note": "Sulaymān prays: my Lord, forgive me and grant me a kingdom that will not belong to anyone after me." },
+      { "kind": "list", "items": [
+        { "text": "The greatest blessings call for the deepest gratitude, not arrogance." },
+        { "text": "Worldly power is a trust that ends; only what is with Allah endures." },
+        { "text": "A believer uses authority to call others to the truth." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "सुलैमान (अलैहिस्सलाम) ने अपने पिता दाऊद की नुबूवत और राज्य विरासत में पाया। अल्लाह ने उन्हें ऐसे उपहारों से नवाज़ा जो किसी अन्य शासक को नहीं दिए गए, फिर भी सुलैमान ने हर कृपा को गर्व के बजाय आभार से लिया।" },
+      { "kind": "verse", "surah": 27, "ayah": 16, "note": "सुलैमान दाऊद के उत्तराधिकारी बनते हैं और कहते हैं: हमें पक्षियों की बोली सिखाई गई और हर चीज़ से दिया गया — यह स्पष्ट कृपा है।" },
+      { "kind": "heading", "level": 2, "text": "चींटी की बोली" },
+      { "kind": "p", "text": "जब उनकी विशाल सेना कूच कर रही थी, एक चींटी ने अपनी बस्ती को शरण लेने की चेतावनी दी। सुलैमान ने उसके शब्द समझे और मुस्कुराए, तुरंत समझ की नेमत के लिए अल्लाह का शुक्र अदा करने की ओर मुड़ते हुए।" },
+      { "kind": "verse", "surah": 27, "ayah": 19, "note": "सुलैमान चींटी की बोली पर मुस्कुराते हैं और दुआ करते हैं कि उन्हें अल्लाह की नेमत का आभारी होने की तौफ़ीक़ मिले।" },
+      { "kind": "heading", "level": 2, "text": "वायु, जिन्न, और एक विनम्र दुआ" },
+      { "kind": "p", "text": "अल्लाह ने वायु को उनके आदेश पर चलने और जिन्नों को उनके लिए श्रम करने के लिए वशीभूत किया, और उन्हें हुदहुद द्वारा लाई सबा की रानी की ख़बर संभालना सिखाया, जिसे उन्होंने सूर्य-पूजा से अल्लाह की इबादत की ओर बुलाया। इस सारी शक्ति के बीच, उनकी दुआ विनम्र रही।" },
+      { "kind": "verse", "surah": 38, "ayah": 35, "note": "सुलैमान दुआ करते हैं: मेरे रब, मुझे क्षमा कर और मुझे ऐसा राज्य दे जो मेरे बाद किसी को न मिले।" },
+      { "kind": "list", "items": [
+        { "text": "सबसे बड़ी नेमतें सबसे गहरे आभार की माँग करती हैं, अहंकार की नहीं।" },
+        { "text": "सांसारिक शक्ति एक अमानत है जो समाप्त हो जाती है; केवल जो अल्लाह के पास है वही टिकता है।" },
+        { "text": "एक ईमान वाला सत्ता का उपयोग औरों को सत्य की ओर बुलाने के लिए करता है।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "سلیمان علیہ السلام نے اپنے والد داؤد کی نبوت اور بادشاہت وراثت میں پائی۔ اللہ نے انہیں ایسے تحفوں سے نوازا جو کسی اور حکمران کو نہیں دیے گئے، پھر بھی سلیمان نے ہر نعمت کو غرور کے بجائے شکر سے لیا۔" },
+      { "kind": "verse", "surah": 27, "ayah": 16, "note": "سلیمان داؤد کے وارث بنتے ہیں اور کہتے ہیں: ہمیں پرندوں کی بولی سکھائی گئی اور ہر چیز سے دیا گیا — یہ واضح فضل ہے۔" },
+      { "kind": "heading", "level": 2, "text": "چیونٹی کی بولی" },
+      { "kind": "p", "text": "جب اُن کا وسیع لشکر کوچ کر رہا تھا، ایک چیونٹی نے اپنی بستی کو پناہ لینے کی تنبیہ کی۔ سلیمان نے اُس کے الفاظ سمجھے اور مسکرائے، فوراً سمجھ کی نعمت کے لیے اللہ کا شکر ادا کرنے کی طرف متوجہ ہوتے ہوئے۔" },
+      { "kind": "verse", "surah": 27, "ayah": 19, "note": "سلیمان چیونٹی کی بولی پر مسکراتے ہیں اور دعا کرتے ہیں کہ انہیں اللہ کی نعمت کا شکر گزار ہونے کی توفیق ملے۔" },
+      { "kind": "heading", "level": 2, "text": "ہوا، جن، اور ایک عاجزانہ دعا" },
+      { "kind": "p", "text": "اللہ نے ہوا کو اُن کے حکم پر چلنے اور جنوں کو اُن کے لیے محنت کرنے کے لیے مسخر کیا، اور انہیں ہدہد کی لائی ملکہ سبا کی خبر سنبھالنا سکھایا، جسے انہوں نے سورج پرستی سے اللہ کی عبادت کی طرف بلایا۔ اِس ساری طاقت کے درمیان، اُن کی دعا عاجزانہ رہی۔" },
+      { "kind": "verse", "surah": 38, "ayah": 35, "note": "سلیمان دعا کرتے ہیں: میرے رب، مجھے معاف کر اور مجھے ایسی بادشاہت دے جو میرے بعد کسی کو نہ ملے۔" },
+      { "kind": "list", "items": [
+        { "text": "سب سے بڑی نعمتیں سب سے گہرے شکر کا تقاضا کرتی ہیں، تکبر کا نہیں۔" },
+        { "text": "دنیاوی طاقت ایک امانت ہے جو ختم ہو جاتی ہے؛ صرف جو اللہ کے پاس ہے وہی باقی رہتا ہے۔" },
+        { "text": "ایک مومن اقتدار کو دوسروں کو سچائی کی طرف بلانے کے لیے استعمال کرتا ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "27:15-44" },
+    { "type": "quran", "ref": "38:30-40" },
+    { "type": "quran", "ref": "21:81-82" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["prophet-dawud", "concept-tawhid", "concept-dua"]
+}

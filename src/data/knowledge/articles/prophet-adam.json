@@ -1,0 +1,73 @@
+{
+  "slug": "prophet-adam",
+  "category": "prophets",
+  "prophetNumber": 1,
+  "featured": true,
+  "title": {
+    "en": "Adam (Ādam) — The First Human and Prophet",
+    "hi": "आदम (आदम अलैहिस्सलाम) — प्रथम मनुष्य और नबी",
+    "ur": "آدم علیہ السلام — پہلے انسان اور نبی"
+  },
+  "summary": {
+    "en": "Allah created Adam with His own hands, taught him the names of all things, and made him the first vicegerent on earth. His story sets the pattern of human error, repentance, and divine mercy.",
+    "hi": "अल्लाह ने आदम को अपने हाथों से बनाया, उन्हें सब चीज़ों के नाम सिखाए, और उन्हें धरती पर पहला ख़लीफ़ा बनाया। उनकी कहानी मानवीय भूल, तौबा और ईश्वरीय दया का नमूना है।",
+    "ur": "اللہ نے آدم کو اپنے ہاتھوں سے پیدا کیا، انہیں تمام چیزوں کے نام سکھائے، اور زمین پر پہلا خلیفہ بنایا۔ اُن کا قصہ انسانی خطا، توبہ اور رحمتِ الٰہی کا نمونہ ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Adam is the father of humankind and the first of the prophets. Allah honoured him by creating him directly, breathing into him from His spirit, and commanding the angels to prostrate to him." },
+      { "kind": "heading", "level": 2, "text": "The vicegerent on earth" },
+      { "kind": "verse", "surah": 2, "ayah": 30, "note": "Allah announces the creation of Adam as a khalīfah (vicegerent) despite the angels' question." },
+      { "kind": "p", "text": "Allah taught Adam the names of all things, showing that knowledge is the honour that raised him above the angels. When Iblīs refused to prostrate out of arrogance, he was cast out — the first sin was pride." },
+      { "kind": "heading", "level": 2, "text": "Error and repentance" },
+      { "kind": "p", "text": "Adam and his wife ate from the forbidden tree, deceived by Shayṭān. But unlike Iblīs, they turned back to Allah in humility rather than arrogance." },
+      { "kind": "verse", "surah": 7, "ayah": 23, "note": "The prayer of Adam and Ḥawwāʾ after their mistake — the model of sincere repentance." },
+      { "kind": "p", "text": "Allah accepted their repentance and guided them. This is the enduring lesson of Adam: to err is human, but to return to Allah is the path of the righteous." },
+      { "kind": "heading", "level": 3, "text": "Lessons from his life" },
+      { "kind": "list", "items": [
+        { "text": "Knowledge is a divine honour and a trust." },
+        { "text": "Arrogance is the root of Iblīs's downfall; humility is the door to mercy." },
+        { "text": "No sin is too great for sincere repentance (tawbah)." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "आदम मानवजाति के पिता और नबियों में प्रथम हैं। अल्लाह ने उन्हें सीधे अपने हाथों से बनाकर, अपनी रूह में से फूँककर, और फ़रिश्तों को उन्हें सजदा करने का हुक्म देकर सम्मानित किया।" },
+      { "kind": "heading", "level": 2, "text": "धरती पर ख़लीफ़ा" },
+      { "kind": "verse", "surah": 2, "ayah": 30, "note": "अल्लाह फ़रिश्तों के प्रश्न के बावजूद आदम को ख़लीफ़ा बनाने की घोषणा करता है।" },
+      { "kind": "p", "text": "अल्लाह ने आदम को सब चीज़ों के नाम सिखाए, यह दर्शाते हुए कि ज्ञान वह सम्मान है जिसने उन्हें फ़रिश्तों से ऊँचा किया। जब इबलीस ने घमंड के कारण सजदा करने से इनकार किया, तो उसे निकाल दिया गया — पहला पाप घमंड था।" },
+      { "kind": "heading", "level": 2, "text": "भूल और तौबा" },
+      { "kind": "p", "text": "आदम और उनकी पत्नी ने शैतान के बहकावे में आकर मना किए गए पेड़ से खाया। परन्तु इबलीस के विपरीत, वे घमंड के बजाय विनम्रता से अल्लाह की ओर लौटे।" },
+      { "kind": "verse", "surah": 7, "ayah": 23, "note": "अपनी भूल के बाद आदम और हव्वा की दुआ — सच्ची तौबा का आदर्श।" },
+      { "kind": "p", "text": "अल्लाह ने उनकी तौबा क़बूल की और उन्हें मार्ग दिखाया। यही आदम की स्थायी शिक्षा है: भूल करना मानवीय है, परन्तु अल्लाह की ओर लौटना धर्मियों का मार्ग है।" },
+      { "kind": "heading", "level": 3, "text": "उनके जीवन से शिक्षाएँ" },
+      { "kind": "list", "items": [
+        { "text": "ज्ञान एक ईश्वरीय सम्मान और अमानत है।" },
+        { "text": "घमंड इबलीस के पतन की जड़ है; विनम्रता दया का द्वार है।" },
+        { "text": "सच्ची तौबा के लिए कोई पाप बहुत बड़ा नहीं।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "آدم انسانیت کے باپ اور انبیاء میں سب سے پہلے ہیں۔ اللہ نے انہیں براہِ راست اپنے ہاتھوں سے پیدا کر کے، اپنی روح میں سے پھونک کر، اور فرشتوں کو اُن کے سامنے سجدے کا حکم دے کر عزت بخشی۔" },
+      { "kind": "heading", "level": 2, "text": "زمین پر خلیفہ" },
+      { "kind": "verse", "surah": 2, "ayah": 30, "note": "اللہ فرشتوں کے سوال کے باوجود آدم کو خلیفہ بنانے کا اعلان کرتا ہے۔" },
+      { "kind": "p", "text": "اللہ نے آدم کو تمام چیزوں کے نام سکھائے، یہ ظاہر کرتے ہوئے کہ علم ہی وہ عزت ہے جس نے انہیں فرشتوں سے بلند کیا۔ جب ابلیس نے تکبر کی وجہ سے سجدے سے انکار کیا تو اسے نکال دیا گیا — پہلا گناہ تکبر تھا۔" },
+      { "kind": "heading", "level": 2, "text": "خطا اور توبہ" },
+      { "kind": "p", "text": "آدم اور اُن کی بیوی نے شیطان کے بہکاوے میں آ کر ممنوعہ درخت سے کھایا۔ مگر ابلیس کے برعکس، وہ تکبر کے بجائے عاجزی کے ساتھ اللہ کی طرف پلٹے۔" },
+      { "kind": "verse", "surah": 7, "ayah": 23, "note": "اپنی خطا کے بعد آدم اور حوا کی دعا — سچی توبہ کا نمونہ۔" },
+      { "kind": "p", "text": "اللہ نے اُن کی توبہ قبول کی اور انہیں ہدایت دی۔ یہی آدم کا دائمی سبق ہے: خطا کرنا انسانی بات ہے، مگر اللہ کی طرف لوٹنا نیکوکاروں کا راستہ ہے۔" },
+      { "kind": "heading", "level": 3, "text": "اُن کی زندگی سے اسباق" },
+      { "kind": "list", "items": [
+        { "text": "علم ایک الٰہی اعزاز اور امانت ہے۔" },
+        { "text": "تکبر ابلیس کی تباہی کی جڑ ہے؛ عاجزی رحمت کا دروازہ ہے۔" },
+        { "text": "سچی توبہ کے لیے کوئی گناہ بہت بڑا نہیں۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "2:30-39" },
+    { "type": "quran", "ref": "7:19-25" },
+    { "type": "quran", "ref": "20:115-122" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["prophet-nuh", "concept-tawbah", "concept-shirk"]
+}

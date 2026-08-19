@@ -1,0 +1,68 @@
+{
+  "slug": "basics-hajj",
+  "category": "basics",
+  "featured": false,
+  "title": {
+    "en": "Ḥajj — The Pilgrimage to Makkah",
+    "hi": "हज — मक्का की तीर्थयात्रा",
+    "ur": "حج — بیت اللہ کی زیارت"
+  },
+  "summary": {
+    "en": "Ḥajj is the pilgrimage to the Kaʿbah in Makkah, the fifth pillar of Islam, obligatory once in a lifetime for every Muslim who is able. It gathers millions as equals in simple white garments, reenacting the legacy of Ibrāhīm and his family.",
+    "hi": "हज मक्का में काबा की तीर्थयात्रा है, इस्लाम का पाँचवाँ स्तंभ, हर सक्षम मुसलमान पर जीवन में एक बार अनिवार्य। यह लाखों को सादे सफ़ेद वस्त्रों में समान रूप में इकट्ठा करता है, इब्राहीम और उनके परिवार की विरासत को पुनः जीवंत करते हुए।",
+    "ur": "حج مکہ میں کعبہ کی زیارت ہے، اسلام کا پانچواں رکن، ہر استطاعت رکھنے والے مسلمان پر زندگی میں ایک بار فرض۔ یہ لاکھوں کو سادہ سفید لباس میں برابر جمع کرتا ہے، ابراہیم اور اُن کے خاندان کی وراثت کو دوبارہ زندہ کرتے ہوئے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Ḥajj is the annual pilgrimage to Makkah, obligatory once in a lifetime upon every Muslim who has the physical and financial means to undertake it. Its rites trace back to the Prophet Ibrāhīm and his son Ismāʿīl." },
+      { "kind": "verse", "surah": 3, "ayah": 97, "note": "Pilgrimage to the House is a duty owed to Allah by those who are able to make the journey." },
+      { "kind": "heading", "level": 2, "text": "A call answered across the world" },
+      { "kind": "p", "text": "Ibrāhīm was commanded to call people to the pilgrimage, and the call still echoes: each year millions converge on Makkah from every land, race, and rank." },
+      { "kind": "verse", "surah": 22, "ayah": 27, "note": "And proclaim to the people the pilgrimage; they will come to you on foot and on every lean camel from every distant pass." },
+      { "kind": "heading", "level": 2, "text": "Equality and renewal" },
+      { "kind": "p", "text": "Stripped of fine clothing and status in the simple white iḥrām, the pilgrims stand as equals before Allah. The days of Ḥajj are a season of forgiveness, ending for many in a spiritual rebirth." },
+      { "kind": "verse", "surah": 2, "ayah": 197, "note": "Hajj is in well-known months; whatever good you do, Allah knows it — and take provision, but the best provision is God-consciousness." },
+      { "kind": "list", "items": [
+        { "text": "Ḥajj is obligatory once in a lifetime for those with the means." },
+        { "text": "Its rites revive the legacy of Ibrāhīm, Hājar, and Ismāʿīl." },
+        { "text": "In iḥrām all pilgrims are equal, gathered from every nation before one Lord." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "हज मक्का की वार्षिक तीर्थयात्रा है, हर उस मुसलमान पर जीवन में एक बार अनिवार्य जिसके पास इसे करने के शारीरिक और आर्थिक साधन हों। इसके अनुष्ठान पैगंबर इब्राहीम और उनके पुत्र इस्माईल तक जाते हैं।" },
+      { "kind": "verse", "surah": 3, "ayah": 97, "note": "घर की तीर्थयात्रा उन लोगों पर अल्लाह का हक़ है जो यात्रा करने में सक्षम हैं।" },
+      { "kind": "heading", "level": 2, "text": "पूरी दुनिया में उत्तर दी गई पुकार" },
+      { "kind": "p", "text": "इब्राहीम को लोगों को तीर्थयात्रा के लिए बुलाने का आदेश दिया गया, और वह पुकार आज भी गूँजती है: हर वर्ष लाखों हर देश, नस्ल और पद से मक्का में एकत्र होते हैं।" },
+      { "kind": "verse", "surah": 22, "ayah": 27, "note": "और लोगों में तीर्थयात्रा की घोषणा कर दो; वे पैदल और हर दुबले ऊँट पर हर दूर के दर्रे से तुम्हारे पास आएँगे।" },
+      { "kind": "heading", "level": 2, "text": "समानता और नवीकरण" },
+      { "kind": "p", "text": "सादे सफ़ेद इहराम में बढ़िया कपड़ों और पद से रहित, तीर्थयात्री अल्लाह के समक्ष समान रूप में खड़े होते हैं। हज के दिन क्षमा का मौसम हैं, जो बहुतों के लिए एक आध्यात्मिक पुनर्जन्म में समाप्त होते हैं।" },
+      { "kind": "verse", "surah": 2, "ayah": 197, "note": "हज ज्ञात महीनों में है; जो भला तुम करते हो, अल्लाह उसे जानता है — और पाथेय लो, परन्तु सबसे अच्छा पाथेय ख़ुदा-चेतना है।" },
+      { "kind": "list", "items": [
+        { "text": "हज साधन रखने वालों पर जीवन में एक बार अनिवार्य है।" },
+        { "text": "इसके अनुष्ठान इब्राहीम, हाजरा और इस्माईल की विरासत को पुनर्जीवित करते हैं।" },
+        { "text": "इहराम में सभी तीर्थयात्री समान हैं, हर राष्ट्र से एक रब के समक्ष एकत्रित।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "حج مکہ کی سالانہ زیارت ہے، ہر اُس مسلمان پر زندگی میں ایک بار فرض جس کے پاس اِسے کرنے کے جسمانی اور مالی وسائل ہوں۔ اِس کے مناسک نبی ابراہیم اور اُن کے بیٹے اسماعیل تک جاتے ہیں۔" },
+      { "kind": "verse", "surah": 3, "ayah": 97, "note": "بیت اللہ کی زیارت اُن لوگوں پر اللہ کا حق ہے جو سفر کرنے کی استطاعت رکھتے ہیں۔" },
+      { "kind": "heading", "level": 2, "text": "پوری دنیا میں قبول کی گئی پکار" },
+      { "kind": "p", "text": "ابراہیم کو لوگوں کو زیارت کے لیے بلانے کا حکم دیا گیا، اور وہ پکار آج بھی گونجتی ہے: ہر سال لاکھوں ہر ملک، نسل اور مرتبے سے مکہ میں جمع ہوتے ہیں۔" },
+      { "kind": "verse", "surah": 22, "ayah": 27, "note": "اور لوگوں میں حج کا اعلان کر دو؛ وہ پیدل اور ہر دبلے اونٹ پر ہر دور کے راستے سے تمہارے پاس آئیں گے۔" },
+      { "kind": "heading", "level": 2, "text": "برابری اور تجدید" },
+      { "kind": "p", "text": "سادہ سفید احرام میں عمدہ لباس اور مرتبے سے خالی، حاجی اللہ کے سامنے برابر کھڑے ہوتے ہیں۔ حج کے دن مغفرت کا موسم ہیں، جو بہت سوں کے لیے ایک روحانی نئی زندگی پر ختم ہوتے ہیں۔" },
+      { "kind": "verse", "surah": 2, "ayah": 197, "note": "حج معلوم مہینوں میں ہے؛ جو نیکی تم کرتے ہو، اللہ اُسے جانتا ہے — اور زادِ راہ لو، مگر بہترین زادِ راہ تقویٰ ہے۔" },
+      { "kind": "list", "items": [
+        { "text": "حج وسائل رکھنے والوں پر زندگی میں ایک بار فرض ہے۔" },
+        { "text": "اِس کے مناسک ابراہیم، ہاجرہ اور اسماعیل کی وراثت کو زندہ کرتے ہیں۔" },
+        { "text": "احرام میں تمام حاجی برابر ہیں، ہر قوم سے ایک رب کے سامنے جمع۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "3:97" },
+    { "type": "quran", "ref": "22:27-29" },
+    { "type": "quran", "ref": "2:197" }
+  ],
+  "relatedSlugs": ["basics-five-pillars", "prophet-ibrahim", "prophet-ismail"]
+}

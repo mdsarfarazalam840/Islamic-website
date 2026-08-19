@@ -16,7 +16,7 @@
 // The pagefind.js module is resolved at runtime from a URL, so it has no types.
 
 export interface PagefindMeta {
-  type?: "quran" | "hadith"
+  type?: "quran" | "hadith" | "knowledge"
   title?: string
   // Quran
   surah?: string
@@ -30,6 +30,10 @@ export interface PagefindMeta {
   hadithNumber?: string
   narrator?: string
   grade?: string
+  // Knowledge Base
+  category?: string
+  categoryName?: string
+  slug?: string
 }
 
 export interface PagefindResultData {

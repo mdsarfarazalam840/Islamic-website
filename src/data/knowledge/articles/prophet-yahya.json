@@ -1,0 +1,70 @@
+{
+  "slug": "prophet-yahya",
+  "category": "prophets",
+  "prophetNumber": 23,
+  "featured": false,
+  "title": {
+    "en": "Yaḥyā (John) — Wisdom Given in Youth",
+    "hi": "यह्या (यह्या अलैहिस्सलाम) — बचपन में दी गई हिकमत",
+    "ur": "یحییٰ علیہ السلام — بچپن میں عطا کی گئی حکمت"
+  },
+  "summary": {
+    "en": "Yaḥyā was the son granted to Zakariyyā in old age. Given wisdom while still a child, devout and pure, kind to his parents and never arrogant, he was honoured by Allah with peace at his birth, his death, and his resurrection.",
+    "hi": "यह्या वह पुत्र थे जो ज़करिय्या को वृद्धावस्था में दिए गए। बचपन में ही हिकमत दिए गए, भक्त और पवित्र, अपने माता-पिता के प्रति दयालु और कभी अहंकारी नहीं, उन्हें अल्लाह ने उनके जन्म, मृत्यु और पुनर्जीवन पर शांति से सम्मानित किया।",
+    "ur": "یحییٰ علیہ السلام وہ بیٹے تھے جو زکریا کو بڑھاپے میں عطا ہوئے۔ بچپن ہی میں حکمت دیے گئے، عبادت گزار اور پاکیزہ، اپنے والدین کے ساتھ نیک اور کبھی متکبر نہیں، انہیں اللہ نے اُن کی پیدائش، موت اور دوبارہ اٹھائے جانے پر سلامتی سے عزت دی۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Yaḥyā (peace be upon him) was the answer to Zakariyyā's prayer — a son born to aged parents, and himself a prophet. From his earliest years Allah singled him out with gifts rarely given to the young." },
+      { "kind": "verse", "surah": 19, "ayah": 12, "note": "Allah commands: O Yaḥyā, hold the Scripture with determination. And He gave him wisdom while yet a child." },
+      { "kind": "heading", "level": 2, "text": "Purity and devotion" },
+      { "kind": "p", "text": "The Qur'an describes Yaḥyā with a rare cluster of praises: tenderness from Allah, purity, deep God-consciousness, and devotion — a life untouched by arrogance or disobedience." },
+      { "kind": "verse", "surah": 19, "ayah": 13, "note": "And Allah gave him compassion from Himself and purity, and he was deeply God-conscious." },
+      { "kind": "heading", "level": 2, "text": "Honour to his parents" },
+      { "kind": "p", "text": "Among his defining traits was dutiful kindness to his parents; he was neither a tyrant nor rebellious, a model of the honour Islam places upon the family." },
+      { "kind": "verse", "surah": 19, "ayah": 15, "note": "And peace be upon him the day he was born, the day he dies, and the day he is raised alive." },
+      { "kind": "list", "items": [
+        { "text": "Allah can grant wisdom and maturity even in the earliest years." },
+        { "text": "Purity of heart and God-consciousness are the highest adornments." },
+        { "text": "Kindness to one's parents is a mark of the righteous." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "यह्या (अलैहिस्सलाम) ज़करिय्या की दुआ का उत्तर थे — वृद्ध माता-पिता के यहाँ जन्मे एक पुत्र, और स्वयं एक नबी। अपने आरंभिक वर्षों से ही अल्लाह ने उन्हें ऐसे उपहारों से चुना जो युवाओं को विरले ही दिए जाते हैं।" },
+      { "kind": "verse", "surah": 19, "ayah": 12, "note": "अल्लाह हुक्म देता है: ऐ यह्या, किताब को दृढ़ता से थामो। और उसने उन्हें बचपन में ही हिकमत दी।" },
+      { "kind": "heading", "level": 2, "text": "पवित्रता और भक्ति" },
+      { "kind": "p", "text": "क़ुरआन यह्या का वर्णन प्रशंसाओं के एक विरले समूह से करता है: अल्लाह की ओर से कोमलता, पवित्रता, गहरी ख़ुदा-चेतना और भक्ति — अहंकार या अवज्ञा से अछूता एक जीवन।" },
+      { "kind": "verse", "surah": 19, "ayah": 13, "note": "और अल्लाह ने उन्हें अपनी ओर से करुणा और पवित्रता दी, और वे गहराई से ख़ुदा-चेतन थे।" },
+      { "kind": "heading", "level": 2, "text": "माता-पिता का सम्मान" },
+      { "kind": "p", "text": "उनके निर्णायक गुणों में अपने माता-पिता के प्रति कर्तव्यपरायण दयालुता थी; वे न अत्याचारी थे न विद्रोही, इस्लाम द्वारा परिवार को दिए गए सम्मान का एक आदर्श।" },
+      { "kind": "verse", "surah": 19, "ayah": 15, "note": "और उन पर शांति हो जिस दिन वे जन्मे, जिस दिन वे मरेंगे, और जिस दिन वे जीवित उठाए जाएँगे।" },
+      { "kind": "list", "items": [
+        { "text": "अल्लाह आरंभिक वर्षों में भी हिकमत और परिपक्वता प्रदान कर सकता है।" },
+        { "text": "हृदय की पवित्रता और ख़ुदा-चेतना सर्वोच्च शृंगार हैं।" },
+        { "text": "अपने माता-पिता के प्रति दयालुता धर्मियों की एक पहचान है।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "یحییٰ علیہ السلام زکریا کی دعا کا جواب تھے — بوڑھے والدین کے ہاں پیدا ہونے والے ایک بیٹے، اور خود ایک نبی۔ اپنے ابتدائی برسوں ہی سے اللہ نے انہیں ایسے تحفوں سے چنا جو نوجوانوں کو شاذ و نادر ہی دیے جاتے ہیں۔" },
+      { "kind": "verse", "surah": 19, "ayah": 12, "note": "اللہ حکم دیتا ہے: اے یحییٰ، کتاب کو مضبوطی سے تھامو۔ اور اُس نے انہیں بچپن ہی میں حکمت دی۔" },
+      { "kind": "heading", "level": 2, "text": "پاکیزگی اور عبادت" },
+      { "kind": "p", "text": "قرآن یحییٰ کا ذکر تعریفوں کے ایک نایاب مجموعے سے کرتا ہے: اللہ کی طرف سے نرمی، پاکیزگی، گہرا تقویٰ اور عبادت — تکبر یا نافرمانی سے اچھوتی ایک زندگی۔" },
+      { "kind": "verse", "surah": 19, "ayah": 13, "note": "اور اللہ نے انہیں اپنی طرف سے شفقت اور پاکیزگی دی، اور وہ گہرائی سے متقی تھے۔" },
+      { "kind": "heading", "level": 2, "text": "والدین کا احترام" },
+      { "kind": "p", "text": "اُن کی نمایاں صفات میں اپنے والدین کے ساتھ فرض شناس نیکی تھی؛ وہ نہ ظالم تھے نہ سرکش، اسلام کے خاندان کو دیے گئے احترام کا ایک نمونہ۔" },
+      { "kind": "verse", "surah": 19, "ayah": 15, "note": "اور اُن پر سلامتی ہو جس دن وہ پیدا ہوئے، جس دن وہ مریں گے، اور جس دن وہ زندہ اٹھائے جائیں گے۔" },
+      { "kind": "list", "items": [
+        { "text": "اللہ ابتدائی برسوں میں بھی حکمت اور پختگی عطا کر سکتا ہے۔" },
+        { "text": "دل کی پاکیزگی اور تقویٰ سب سے بلند زینت ہیں۔" },
+        { "text": "اپنے والدین کے ساتھ نیکی نیکوکاروں کی ایک پہچان ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "19:12-15" },
+    { "type": "quran", "ref": "3:39" },
+    { "type": "quran", "ref": "21:90" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["prophet-zakariyya", "prophet-isa", "concept-taqwa"]
+}

@@ -1,0 +1,69 @@
+{
+  "slug": "surah-ayat-al-kursi",
+  "category": "surahs",
+  "surahNumber": 2,
+  "featured": true,
+  "title": {
+    "en": "Āyat al-Kursī — The Verse of the Throne",
+    "hi": "आयतुल कुर्सी — सिंहासन की आयत",
+    "ur": "آیت الکرسی — تختِ الٰہی کی آیت"
+  },
+  "summary": {
+    "en": "The 255th verse of Sūrat al-Baqarah, described by the Prophet ﷺ as the greatest verse in the Qur'an. In a single verse it gathers the majesty of Allah — His life, His knowledge, His throne, and His sovereignty over all things.",
+    "hi": "सूरह अल-बक़रह की 255वीं आयत, जिसे पैगंबर ﷺ ने क़ुरआन की सबसे महान आयत बताया। एक ही आयत में यह अल्लाह की महिमा समेटती है — उसका जीवन, उसका ज्ञान, उसका सिंहासन, और सब चीज़ों पर उसकी सत्ता।",
+    "ur": "سورۃ البقرہ کی 255ویں آیت، جسے نبی ﷺ نے قرآن کی سب سے عظیم آیت بتایا۔ ایک ہی آیت میں یہ اللہ کی عظمت سمیٹتی ہے — اُس کی زندگی، اُس کا علم، اُس کا تخت، اور سب چیزوں پر اُس کی بادشاہی۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Āyat al-Kursī — \"the Verse of the Throne\" — is verse 255 of Sūrat al-Baqarah. When the Prophet ﷺ asked a companion which verse of the Qur'an was the greatest, and he answered with this one, the Prophet ﷺ affirmed it." },
+      { "kind": "verse", "surah": 2, "ayah": 255 },
+      { "kind": "heading", "level": 2, "text": "The majesty of Allah in one verse" },
+      { "kind": "p", "text": "This single verse names attribute after attribute of Allah: His unique divinity, His eternal life, His perfect self-sufficiency, His boundless knowledge, and the vastness of His throne, which encompasses the heavens and the earth without wearying Him." },
+      { "kind": "heading", "level": 2, "text": "A protection recited daily" },
+      { "kind": "p", "text": "The Prophet ﷺ taught that whoever recites Āyat al-Kursī after each obligatory prayer, nothing stands between them and Paradise but death, and that reciting it at night places one under Allah's protection until morning." },
+      { "kind": "heading", "level": 2, "text": "Its themes" },
+      { "kind": "list", "items": [
+        { "text": "Allah is the Ever-Living (al-Ḥayy), the Sustainer of all (al-Qayyūm)." },
+        { "text": "No slumber or sleep overtakes Him; He never tires." },
+        { "text": "His knowledge encompasses all things, and none can intercede except by His leave." },
+        { "text": "His throne extends over the heavens and the earth — He is the Most High, the Most Great." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "आयतुल कुर्सी — \"सिंहासन की आयत\" — सूरह अल-बक़रह की आयत 255 है। जब नबी ﷺ ने एक साथी से पूछा कि क़ुरआन की कौन-सी आयत सबसे महान है, और उसने इसी से उत्तर दिया, तो नबी ﷺ ने इसकी पुष्टि की।" },
+      { "kind": "verse", "surah": 2, "ayah": 255 },
+      { "kind": "heading", "level": 2, "text": "एक आयत में अल्लाह की महिमा" },
+      { "kind": "p", "text": "यह एक ही आयत अल्लाह के गुण पर गुण नामित करती है: उसकी अद्वितीय ईश्वरता, उसका शाश्वत जीवन, उसकी पूर्ण आत्मनिर्भरता, उसका असीम ज्ञान, और उसके सिंहासन की विशालता, जो आकाशों और धरती को समेटता है बिना उसे थकाए।" },
+      { "kind": "heading", "level": 2, "text": "प्रतिदिन पढ़ी जाने वाली एक सुरक्षा" },
+      { "kind": "p", "text": "नबी ﷺ ने सिखाया कि जो हर फ़र्ज़ नमाज़ के बाद आयतुल कुर्सी पढ़े, उसके और जन्नत के बीच मृत्यु के सिवा कुछ नहीं खड़ा, और रात में इसे पढ़ना व्यक्ति को सुबह तक अल्लाह की सुरक्षा में रखता है।" },
+      { "kind": "heading", "level": 2, "text": "इसके विषय" },
+      { "kind": "list", "items": [
+        { "text": "अल्लाह सदा जीवित है (अल-हय्य), सबका धारक (अल-क़य्यूम)।" },
+        { "text": "न ऊँघ न नींद उसे आती है; वह कभी नहीं थकता।" },
+        { "text": "उसका ज्ञान सब चीज़ों को समेटता है, और उसकी अनुमति के बिना कोई सिफ़ारिश नहीं कर सकता।" },
+        { "text": "उसका सिंहासन आकाशों और धरती पर फैला है — वह सर्वोच्च, सबसे महान है।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "آیت الکرسی — \"تختِ الٰہی کی آیت\" — سورۃ البقرہ کی آیت 255 ہے۔ جب نبی ﷺ نے ایک صحابی سے پوچھا کہ قرآن کی کون سی آیت سب سے عظیم ہے، اور اُس نے اِسی سے جواب دیا، تو نبی ﷺ نے اِس کی تصدیق کی۔" },
+      { "kind": "verse", "surah": 2, "ayah": 255 },
+      { "kind": "heading", "level": 2, "text": "ایک آیت میں اللہ کی عظمت" },
+      { "kind": "p", "text": "یہ ایک ہی آیت اللہ کی صفت پر صفت نامزد کرتی ہے: اُس کی یکتا الوہیت، اُس کی ابدی زندگی، اُس کی مکمل بے نیازی، اُس کا لامحدود علم، اور اُس کے تخت کی وسعت، جو آسمانوں اور زمین کو سمیٹتا ہے بغیر اُسے تھکائے۔" },
+      { "kind": "heading", "level": 2, "text": "روزانہ پڑھی جانے والی ایک حفاظت" },
+      { "kind": "p", "text": "نبی ﷺ نے سکھایا کہ جو ہر فرض نماز کے بعد آیت الکرسی پڑھے، اُس کے اور جنت کے درمیان موت کے سوا کچھ نہیں کھڑا، اور رات میں اِسے پڑھنا انسان کو صبح تک اللہ کی حفاظت میں رکھتا ہے۔" },
+      { "kind": "heading", "level": 2, "text": "اِس کے مضامین" },
+      { "kind": "list", "items": [
+        { "text": "اللہ ہمیشہ زندہ ہے (الحی)، سب کا سنبھالنے والا (القیوم)۔" },
+        { "text": "نہ اونگھ نہ نیند اُسے آتی ہے؛ وہ کبھی نہیں تھکتا۔" },
+        { "text": "اُس کا علم سب چیزوں کو سمیٹتا ہے، اور اُس کی اجازت کے بغیر کوئی سفارش نہیں کر سکتا۔" },
+        { "text": "اُس کا تخت آسمانوں اور زمین پر پھیلا ہے — وہ سب سے بلند، سب سے عظیم ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "2:255" },
+    { "type": "hadith", "collection": "muslim", "ref": "810", "grade": "sahih" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["basics-belief-in-allah", "concept-tawhid", "surah-al-ikhlas"]
+}

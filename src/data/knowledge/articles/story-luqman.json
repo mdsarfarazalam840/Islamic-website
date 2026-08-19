@@ -1,0 +1,68 @@
+{
+  "slug": "story-luqman",
+  "category": "quranic",
+  "featured": false,
+  "title": {
+    "en": "Luqmān — The Wise Father's Counsel",
+    "hi": "लुक़मान — बुद्धिमान पिता की सीख",
+    "ur": "لقمان — دانا باپ کی نصیحت"
+  },
+  "summary": {
+    "en": "Luqmān was a servant of Allah granted wisdom, remembered for the tender advice he gave his son. Preserved in the surah that bears his name, his counsel moves from the greatest truth — never associate partners with Allah — to gratitude, prayer, humility, and good character.",
+    "hi": "लुक़मान अल्लाह के एक बंदे थे जिन्हें हिकमत दी गई, जो अपने पुत्र को दी गई कोमल सलाह के लिए याद किए जाते हैं। उनके नाम की सूरह में सुरक्षित, उनकी सीख सबसे बड़े सत्य से — अल्लाह के साथ कभी साझी न ठहराओ — कृतज्ञता, नमाज़, विनम्रता, और अच्छे चरित्र तक जाती है।",
+    "ur": "لقمان اللہ کے ایک بندے تھے جنہیں حکمت دی گئی، جو اپنے بیٹے کو دی گئی نرم نصیحت کے لیے یاد کیے جاتے ہیں۔ اُن کے نام کی سورت میں محفوظ، اُن کی نصیحت سب سے بڑے سچ سے — اللہ کے ساتھ کبھی شریک نہ ٹھہراؤ — شکر، نماز، عاجزی، اور اچھے کردار تک جاتی ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Luqmān was a righteous man — most scholars say a sage rather than a prophet — whom Allah blessed with wisdom. The Qur'an preserves his heartfelt advice to his son as a model of how faith is passed from one generation to the next." },
+      { "kind": "verse", "surah": 31, "ayah": 12, "note": "And We had certainly given Luqmān wisdom, saying: Be grateful to Allah. And whoever is grateful is grateful for the benefit of himself." },
+      { "kind": "heading", "level": 2, "text": "The greatest counsel" },
+      { "kind": "p", "text": "He began with the foundation of all guidance, warning his beloved son against shirk — associating partners with Allah — which he called a tremendous wrong. Sound belief comes before every other virtue." },
+      { "kind": "verse", "surah": 31, "ayah": 13, "note": "And when Luqmān said to his son while instructing him: O my son, do not associate anything with Allah. Indeed, association is a great injustice." },
+      { "kind": "heading", "level": 2, "text": "Prayer, patience, and humility" },
+      { "kind": "p", "text": "He urged his son to establish prayer, to enjoin good and forbid evil, to bear hardship with patience, and never to walk the earth in arrogance — for Allah does not love the self-admiring boaster. Wisdom is faith joined to gentle character." },
+      { "kind": "verse", "surah": 31, "ayah": 18, "note": "And do not turn your cheek in contempt toward people, nor walk through the earth exultantly. Indeed, Allah does not like everyone self-deluded and boastful." },
+      { "kind": "list", "items": [
+        { "text": "Wisdom begins with gratitude to Allah and pure belief in Him alone." },
+        { "text": "Shirk is the one wrong a parent must warn a child against above all." },
+        { "text": "True faith shows in prayer, patience, humility, and gentle speech." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "लुक़मान एक नेक व्यक्ति थे — अधिकांश विद्वान कहते हैं कि एक ऋषि, नबी नहीं — जिन्हें अल्लाह ने हिकमत से नवाज़ा। क़ुरआन उनके पुत्र को दी गई हार्दिक सलाह को इस आदर्श के रूप में सुरक्षित रखता है कि ईमान एक पीढ़ी से अगली तक कैसे पहुँचाया जाए।" },
+      { "kind": "verse", "surah": 31, "ayah": 12, "note": "और निश्चय ही हमने लुक़मान को हिकमत दी, यह कहते हुए: अल्लाह का आभारी हो। और जो आभारी होता है वह अपने ही लाभ के लिए आभारी होता है।" },
+      { "kind": "heading", "level": 2, "text": "सबसे बड़ी सीख" },
+      { "kind": "p", "text": "उन्होंने समस्त मार्गदर्शन की नींव से शुरुआत की, अपने प्रिय पुत्र को शिर्क से चेताते हुए — अल्लाह के साथ साझी ठहराना — जिसे उन्होंने एक ज़बरदस्त अत्याचार कहा। सही अक़ीदा हर दूसरे गुण से पहले आता है।" },
+      { "kind": "verse", "surah": 31, "ayah": 13, "note": "और जब लुक़मान ने अपने पुत्र को नसीहत करते हुए कहा: हे मेरे प्यारे बेटे, अल्लाह के साथ किसी को साझी न ठहरा। निश्चय ही साझी ठहराना एक बड़ा अन्याय है।" },
+      { "kind": "heading", "level": 2, "text": "नमाज़, धैर्य, और विनम्रता" },
+      { "kind": "p", "text": "उन्होंने अपने पुत्र को नमाज़ क़ायम करने, भलाई का आदेश देने और बुराई से रोकने, कठिनाई को धैर्य से सहने, और धरती पर कभी घमंड से न चलने का आग्रह किया — क्योंकि अल्लाह आत्ममुग्ध डींग मारने वाले को पसंद नहीं करता। हिकमत ईमान का कोमल चरित्र से जुड़ना है।" },
+      { "kind": "verse", "surah": 31, "ayah": 18, "note": "और लोगों से तिरस्कार में अपना गाल न फेर, और न धरती पर इतराते हुए चल। निश्चय ही अल्लाह हर आत्ममुग्ध डींगबाज़ को पसंद नहीं करता।" },
+      { "kind": "list", "items": [
+        { "text": "हिकमत अल्लाह के प्रति कृतज्ञता और केवल उसी में शुद्ध ईमान से शुरू होती है।" },
+        { "text": "शिर्क वह एक बुराई है जिससे माता-पिता को बच्चे को सबसे बढ़कर चेताना चाहिए।" },
+        { "text": "सच्चा ईमान नमाज़, धैर्य, विनम्रता, और कोमल वाणी में दिखता है।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "لقمان ایک نیک آدمی تھے — اکثر علماء کہتے ہیں کہ ایک دانا، نبی نہیں — جنہیں اللہ نے حکمت سے نوازا۔ قرآن اُن کی اپنے بیٹے کو دی گئی دلی نصیحت کو اِس نمونے کے طور پر محفوظ رکھتا ہے کہ ایمان ایک نسل سے اگلی تک کیسے پہنچایا جائے۔" },
+      { "kind": "verse", "surah": 31, "ayah": 12, "note": "اور بے شک ہم نے لقمان کو حکمت دی، یہ کہتے ہوئے: اللہ کا شکر ادا کرو۔ اور جو شکر کرتا ہے وہ اپنے ہی فائدے کے لیے شکر کرتا ہے۔" },
+      { "kind": "heading", "level": 2, "text": "سب سے بڑی نصیحت" },
+      { "kind": "p", "text": "اُنہوں نے تمام ہدایت کی بنیاد سے شروع کیا، اپنے پیارے بیٹے کو شرک سے خبردار کرتے ہوئے — اللہ کے ساتھ شریک ٹھہرانا — جسے اُنہوں نے ایک زبردست ظلم کہا۔ درست عقیدہ ہر دوسری خوبی سے پہلے آتا ہے۔" },
+      { "kind": "verse", "surah": 31, "ayah": 13, "note": "اور جب لقمان نے اپنے بیٹے کو نصیحت کرتے ہوئے کہا: اے میرے پیارے بیٹے، اللہ کے ساتھ کسی کو شریک نہ ٹھہرا۔ بے شک شریک ٹھہرانا ایک بڑا ظلم ہے۔" },
+      { "kind": "heading", "level": 2, "text": "نماز، صبر، اور عاجزی" },
+      { "kind": "p", "text": "اُنہوں نے اپنے بیٹے کو نماز قائم کرنے، بھلائی کا حکم دینے اور برائی سے روکنے، مشکل کو صبر سے برداشت کرنے، اور زمین پر کبھی تکبر سے نہ چلنے کی تلقین کی — کیونکہ اللہ خود پسند شیخی باز کو پسند نہیں کرتا۔ حکمت ایمان کا نرم کردار سے جڑنا ہے۔" },
+      { "kind": "verse", "surah": 31, "ayah": 18, "note": "اور لوگوں سے حقارت میں اپنا رخ نہ پھیر، اور نہ زمین پر اِتراتے ہوئے چل۔ بے شک اللہ ہر خود پسند شیخی باز کو پسند نہیں کرتا۔" },
+      { "kind": "list", "items": [
+        { "text": "حکمت اللہ کے شکر اور صرف اُسی پر خالص ایمان سے شروع ہوتی ہے۔" },
+        { "text": "شرک وہ ایک برائی ہے جس سے والدین کو بچے کو سب سے بڑھ کر خبردار کرنا چاہیے۔" },
+        { "text": "سچا ایمان نماز، صبر، عاجزی، اور نرم گفتگو میں ظاہر ہوتا ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "31:12-19" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" },
+    { "type": "tafsir", "scholar": "al-Saʿdī" }
+  ],
+  "relatedSlugs": ["concept-shirk", "concept-tawhid", "concept-sabr"]
+}

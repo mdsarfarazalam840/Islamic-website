@@ -1,0 +1,72 @@
+{
+  "slug": "surah-ya-sin",
+  "category": "surahs",
+  "surahNumber": 36,
+  "featured": false,
+  "title": {
+    "en": "Sūrat Yā-Sīn — The Heart of the Qur'an",
+    "hi": "सूरह या-सीन — क़ुरआन का हृदय",
+    "ur": "سورۃ یٰسین — قرآن کا دل"
+  },
+  "summary": {
+    "en": "A Makkan surah of 83 verses, often called the heart of the Qur'an. It affirms the messengership of Muḥammad ﷺ, argues for resurrection through the signs of creation, and vividly portrays the Day of Judgement — a powerful reminder of Allah's power to give life and to raise the dead.",
+    "hi": "83 आयतों की एक मक्की सूरह, जिसे अक्सर क़ुरआन का हृदय कहा जाता है। यह मुहम्मद ﷺ के रसूल होने की पुष्टि करती है, सृष्टि की निशानियों के माध्यम से पुनरुत्थान का तर्क देती है, और न्याय के दिन को सजीव रूप से चित्रित करती है — अल्लाह की जीवन देने और मुर्दों को उठाने की शक्ति का एक शक्तिशाली स्मरण।",
+    "ur": "83 آیات کی ایک مکی سورت، جسے اکثر قرآن کا دل کہا جاتا ہے۔ یہ محمد ﷺ کے رسول ہونے کی تصدیق کرتی ہے، تخلیق کی نشانیوں کے ذریعے دوبارہ زندہ ہونے کی دلیل دیتی ہے، اور روزِ جزا کو زندہ صورت میں پیش کرتی ہے — اللہ کی زندگی دینے اور مُردوں کو اٹھانے کی طاقت کی ایک زوردار یاد دہانی۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Sūrat Yā-Sīn is a Makkan surah of 83 verses. It opens by swearing by the wise Qur'an that Muḥammad ﷺ is truly among the messengers, sent upon a straight path to warn a people whose forefathers had not been warned." },
+      { "kind": "verse", "surah": 36, "ayah": 1 },
+      { "kind": "verse", "surah": 36, "ayah": 2 },
+      { "kind": "verse", "surah": 36, "ayah": 3 },
+      { "kind": "heading", "level": 2, "text": "Signs of the Giver of life" },
+      { "kind": "p", "text": "The surah points to the dead earth revived by rain, the cycle of night and day, and the sun and moon each running its course — all as proofs that the One who created and sustains this order can surely raise the dead to life." },
+      { "kind": "verse", "surah": 36, "ayah": 33, "note": "A sign for them is the dead earth: We give it life and bring forth grain from it, from which they eat." },
+      { "kind": "heading", "level": 2, "text": "The heart of the Qur'an" },
+      { "kind": "p", "text": "Because it so powerfully gathers the themes of faith, revelation, and resurrection, this surah has long been called the heart of the Qur'an, and believers turn to it in times of difficulty and remembrance." },
+      { "kind": "list", "items": [
+        { "text": "The surah affirms that Muḥammad ﷺ is truly one of the messengers." },
+        { "text": "It draws on the signs of creation as proof of the resurrection." },
+        { "text": "It is known as the heart of the Qur'an for the depth of its themes." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "सूरह या-सीन 83 आयतों की एक मक्की सूरह है। यह बुद्धिमान क़ुरआन की क़सम से शुरू होती है कि मुहम्मद ﷺ सचमुच रसूलों में से हैं, एक सीधे मार्ग पर भेजे गए ताकि ऐसे लोगों को चेताएँ जिनके पूर्वजों को नहीं चेताया गया था।" },
+      { "kind": "verse", "surah": 36, "ayah": 1 },
+      { "kind": "verse", "surah": 36, "ayah": 2 },
+      { "kind": "verse", "surah": 36, "ayah": 3 },
+      { "kind": "heading", "level": 2, "text": "जीवन देने वाले की निशानियाँ" },
+      { "kind": "p", "text": "यह सूरह वर्षा से पुनर्जीवित मृत धरती, रात और दिन के चक्र, और सूर्य व चंद्रमा प्रत्येक अपने मार्ग पर चलते हुए की ओर इशारा करती है — सब इस प्रमाण के रूप में कि जिसने इस व्यवस्था को रचा और धारण किया वह निश्चय ही मुर्दों को जीवित उठा सकता है।" },
+      { "kind": "verse", "surah": 36, "ayah": 33, "note": "उनके लिए एक निशानी मृत धरती है: हम उसे जीवन देते हैं और उससे अनाज निकालते हैं, जिससे वे खाते हैं।" },
+      { "kind": "heading", "level": 2, "text": "क़ुरआन का हृदय" },
+      { "kind": "p", "text": "क्योंकि यह ईमान, वह्य, और पुनरुत्थान के विषयों को इतने शक्तिशाली रूप से समेटती है, इस सूरह को लंबे समय से क़ुरआन का हृदय कहा गया है, और ईमान वाले कठिनाई और स्मरण के समय इसकी ओर मुड़ते हैं।" },
+      { "kind": "list", "items": [
+        { "text": "यह सूरह पुष्टि करती है कि मुहम्मद ﷺ सचमुच रसूलों में से एक हैं।" },
+        { "text": "यह पुनरुत्थान के प्रमाण के रूप में सृष्टि की निशानियों का सहारा लेती है।" },
+        { "text": "अपने विषयों की गहराई के लिए इसे क़ुरआन का हृदय कहा जाता है।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "سورۃ یٰسین 83 آیات کی ایک مکی سورت ہے۔ یہ حکمت والے قرآن کی قسم سے شروع ہوتی ہے کہ محمد ﷺ واقعی رسولوں میں سے ہیں، ایک سیدھے راستے پر بھیجے گئے تاکہ ایسے لوگوں کو خبردار کریں جن کے آباؤ اجداد کو خبردار نہیں کیا گیا تھا۔" },
+      { "kind": "verse", "surah": 36, "ayah": 1 },
+      { "kind": "verse", "surah": 36, "ayah": 2 },
+      { "kind": "verse", "surah": 36, "ayah": 3 },
+      { "kind": "heading", "level": 2, "text": "زندگی دینے والے کی نشانیاں" },
+      { "kind": "p", "text": "یہ سورت بارش سے دوبارہ زندہ ہونے والی مردہ زمین، رات اور دن کے چکر، اور سورج و چاند ہر ایک اپنے راستے پر چلتے ہوئے کی طرف اشارہ کرتی ہے — سب اِس ثبوت کے طور پر کہ جس نے اِس نظام کو پیدا کیا اور سنبھالا وہ یقیناً مُردوں کو زندہ اٹھا سکتا ہے۔" },
+      { "kind": "verse", "surah": 36, "ayah": 33, "note": "اُن کے لیے ایک نشانی مردہ زمین ہے: ہم اُسے زندگی دیتے ہیں اور اُس سے اناج نکالتے ہیں، جس سے وہ کھاتے ہیں۔" },
+      { "kind": "heading", "level": 2, "text": "قرآن کا دل" },
+      { "kind": "p", "text": "چونکہ یہ ایمان، وحی، اور دوبارہ زندہ ہونے کے مضامین کو اِتنے زوردار انداز میں سمیٹتی ہے، اِس سورت کو مدتوں سے قرآن کا دل کہا گیا ہے، اور مومن مشکل اور یاد کے وقت اِس کی طرف رجوع کرتے ہیں۔" },
+      { "kind": "list", "items": [
+        { "text": "یہ سورت تصدیق کرتی ہے کہ محمد ﷺ واقعی رسولوں میں سے ایک ہیں۔" },
+        { "text": "یہ دوبارہ زندہ ہونے کے ثبوت کے طور پر تخلیق کی نشانیوں کا سہارا لیتی ہے۔" },
+        { "text": "اپنے مضامین کی گہرائی کے لیے اِسے قرآن کا دل کہا جاتا ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "36:1-3" },
+    { "type": "quran", "ref": "36:33-40" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["basics-belief-in-last-day", "prophet-muhammad", "surah-al-mulk"]
+}

@@ -1,0 +1,68 @@
+{
+  "slug": "concept-jahannam",
+  "category": "concepts",
+  "featured": false,
+  "title": {
+    "en": "Jahannam — The Hellfire",
+    "hi": "जहन्नम — नरक की आग",
+    "ur": "جہنم — دوزخ کی آگ"
+  },
+  "summary": {
+    "en": "Jahannam is the punishment Allah has warned of for those who reject faith and persist in wrongdoing. The Qur'an describes it as a grave reality to be feared and fled from — a warning meant to turn hearts back to Allah while there is still time to repent.",
+    "hi": "जहन्नम वह दंड है जिससे अल्लाह ने उन्हें चेताया जो ईमान को नकारते और अत्याचार पर अड़े रहते हैं। क़ुरआन इसे एक गंभीर वास्तविकता के रूप में वर्णित करता है जिससे डरना और भागना चाहिए — एक चेतावनी जिसका उद्देश्य दिलों को अल्लाह की ओर वापस मोड़ना है जब तक तौबा का समय है।",
+    "ur": "جہنم وہ سزا ہے جس سے اللہ نے اُنہیں خبردار کیا جو ایمان کو جھٹلاتے اور ظلم پر اڑے رہتے ہیں۔ قرآن اِسے ایک سنگین حقیقت کے طور پر بیان کرتا ہے جس سے ڈرنا اور بھاگنا چاہیے — ایک تنبیہ جس کا مقصد دلوں کو اللہ کی طرف واپس موڑنا ہے جب تک توبہ کا وقت ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Jahannam — the Fire — is the abode of punishment Allah has prepared for those who die rejecting the truth and wronging themselves. The Qur'an speaks of it plainly, both as justice for evil and as a mercy: a warning urgent enough to turn people back before it is too late." },
+      { "kind": "verse", "surah": 2, "ayah": 24, "note": "Then guard yourselves against the Fire whose fuel is men and stones, prepared for those who reject faith." },
+      { "kind": "heading", "level": 2, "text": "A warning of Allah's mercy" },
+      { "kind": "p", "text": "The descriptions of the Fire are not meant to crush hope but to awaken it. Alongside every warning, Allah opens the door of repentance and reminds the servant that His mercy embraces all who turn back to Him." },
+      { "kind": "verse", "surah": 39, "ayah": 53, "note": "Say: O My servants who have wronged themselves, do not despair of Allah's mercy; indeed He forgives all sins." },
+      { "kind": "heading", "level": 2, "text": "A plea to be saved" },
+      { "kind": "p", "text": "Because the punishment is real, the believer constantly asks Allah for protection from it. Seeking refuge from the Fire and striving to avoid it is a mark of the God-conscious heart." },
+      { "kind": "verse", "surah": 2, "ayah": 201, "note": "Our Lord, give us good in this world and good in the Hereafter, and protect us from the punishment of the Fire." },
+      { "kind": "list", "items": [
+        { "text": "Jahannam is the just punishment for those who reject faith and persist in evil." },
+        { "text": "Its warning is a mercy, urging repentance while the door is still open." },
+        { "text": "The believer constantly seeks Allah's refuge and protection from the Fire." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "जहन्नम — आग — वह दंड का ठिकाना है जो अल्लाह ने उनके लिए तैयार किया जो सत्य को नकारते और स्वयं पर अत्याचार करते हुए मरते हैं। क़ुरआन इसकी स्पष्ट बात करता है, बुराई के लिए न्याय के रूप में और दया के रूप में भी: एक चेतावनी इतनी तत्काल कि लोगों को बहुत देर होने से पहले वापस मोड़ दे।" },
+      { "kind": "verse", "surah": 2, "ayah": 24, "note": "तो उस आग से बचो जिसका ईंधन मनुष्य और पत्थर हैं, उनके लिए तैयार जो ईमान को नकारते हैं।" },
+      { "kind": "heading", "level": 2, "text": "अल्लाह की दया की चेतावनी" },
+      { "kind": "p", "text": "आग के वर्णन आशा को कुचलने के लिए नहीं बल्कि उसे जगाने के लिए हैं। हर चेतावनी के साथ, अल्लाह तौबा का द्वार खोलता है और बंदे को याद दिलाता है कि उसकी दया उन सबको समेटती है जो उसकी ओर लौटते हैं।" },
+      { "kind": "verse", "surah": 39, "ayah": 53, "note": "कह दो: ऐ मेरे बंदो जिन्होंने अपने ऊपर अत्याचार किया, अल्लाह की दया से निराश न हो; निःसंदेह वह सब गुनाह क्षमा कर देता है।" },
+      { "kind": "heading", "level": 2, "text": "बचाए जाने की विनती" },
+      { "kind": "p", "text": "क्योंकि दंड वास्तविक है, ईमान वाला निरंतर अल्लाह से इससे सुरक्षा माँगता है। आग से पनाह माँगना और उससे बचने का प्रयास ख़ुदा-चेतनाशील दिल की निशानी है।" },
+      { "kind": "verse", "surah": 2, "ayah": 201, "note": "हे हमारे रब, हमें इस दुनिया में भलाई दे और आख़िरत में भलाई, और हमें आग के दंड से बचा।" },
+      { "kind": "list", "items": [
+        { "text": "जहन्नम उनके लिए न्यायपूर्ण दंड है जो ईमान को नकारते और बुराई पर अड़े रहते हैं।" },
+        { "text": "इसकी चेतावनी एक दया है, जो द्वार खुला रहते तौबा का आग्रह करती है।" },
+        { "text": "ईमान वाला निरंतर आग से अल्लाह की पनाह और सुरक्षा माँगता है।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "جہنم — آگ — وہ سزا کا ٹھکانہ ہے جو اللہ نے اُن کے لیے تیار کیا جو سچ کو جھٹلاتے اور خود پر ظلم کرتے ہوئے مرتے ہیں۔ قرآن اِس کی صاف بات کرتا ہے، برائی کے لیے انصاف کے طور پر اور رحمت کے طور پر بھی: ایک تنبیہ اتنی فوری کہ لوگوں کو بہت دیر ہونے سے پہلے واپس موڑ دے۔" },
+      { "kind": "verse", "surah": 2, "ayah": 24, "note": "تو اُس آگ سے بچو جس کا ایندھن انسان اور پتھر ہیں، اُن کے لیے تیار جو ایمان کو جھٹلاتے ہیں۔" },
+      { "kind": "heading", "level": 2, "text": "اللہ کی رحمت کی تنبیہ" },
+      { "kind": "p", "text": "آگ کے بیانات امید کو کچلنے کے لیے نہیں بلکہ اُسے جگانے کے لیے ہیں۔ ہر تنبیہ کے ساتھ، اللہ توبہ کا دروازہ کھولتا ہے اور بندے کو یاد دلاتا ہے کہ اُس کی رحمت اُن سب کو سمیٹتی ہے جو اُس کی طرف لوٹتے ہیں۔" },
+      { "kind": "verse", "surah": 39, "ayah": 53, "note": "کہہ دو: اے میرے بندو جنہوں نے اپنے اوپر ظلم کیا، اللہ کی رحمت سے مایوس نہ ہو؛ بے شک وہ سب گناہ معاف کر دیتا ہے۔" },
+      { "kind": "heading", "level": 2, "text": "بچائے جانے کی التجا" },
+      { "kind": "p", "text": "چونکہ سزا حقیقی ہے، مومن مسلسل اللہ سے اِس سے حفاظت مانگتا ہے۔ آگ سے پناہ مانگنا اور اُس سے بچنے کی کوشش خدا شناس دل کی نشانی ہے۔" },
+      { "kind": "verse", "surah": 2, "ayah": 201, "note": "اے ہمارے رب، ہمیں اِس دنیا میں بھلائی دے اور آخرت میں بھلائی، اور ہمیں آگ کے عذاب سے بچا۔" },
+      { "kind": "list", "items": [
+        { "text": "جہنم اُن کے لیے انصاف پر مبنی سزا ہے جو ایمان کو جھٹلاتے اور برائی پر اڑے رہتے ہیں۔" },
+        { "text": "اِس کی تنبیہ ایک رحمت ہے، جو دروازہ کھلا رہتے توبہ کی تاکید کرتی ہے۔" },
+        { "text": "مومن مسلسل آگ سے اللہ کی پناہ اور حفاظت مانگتا ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "2:24" },
+    { "type": "quran", "ref": "39:53" },
+    { "type": "quran", "ref": "2:201" }
+  ],
+  "relatedSlugs": ["concept-jannah", "basics-belief-in-last-day", "concept-tawbah"]
+}

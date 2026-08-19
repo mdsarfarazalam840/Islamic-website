@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { BookOpen, MessageSquareText, Video, Search, Home } from "lucide-react"
+import { BookOpen, MessageSquareText, Video, Search, Home, Library } from "lucide-react"
 import { ThemeToggle } from "@/components/shared/ThemeToggle"
 import { cn } from "@/lib/utils"
 
@@ -10,6 +10,7 @@ const mobileLinks = [
   { href: "/", label: "Home", icon: Home },
   { href: "/quran", label: "Quran", icon: BookOpen },
   { href: "/hadith", label: "Hadith", icon: MessageSquareText },
+  { href: "/knowledge-base", label: "Knowledge", icon: Library },
   { href: "/videos", label: "Videos", icon: Video },
   { href: "/search", label: "Search", icon: Search },
 ]

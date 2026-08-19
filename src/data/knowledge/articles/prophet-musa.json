@@ -1,0 +1,76 @@
+{
+  "slug": "prophet-musa",
+  "category": "prophets",
+  "prophetNumber": 14,
+  "featured": true,
+  "title": {
+    "en": "Mūsā (Moses) — The One Who Spoke with Allah",
+    "hi": "मूसा (मूसा अलैहिस्सलाम) — वह जिनसे अल्लाह ने बात की",
+    "ur": "موسیٰ علیہ السلام — کلیم اللہ"
+  },
+  "summary": {
+    "en": "Mūsā is the prophet most often named in the Qur'an. Saved from Pharaoh's slaughter as an infant, called to prophethood at the burning bush, armed with clear signs, he confronted Pharaoh, led the Children of Israel through a parted sea, and received the Torah.",
+    "hi": "मूसा क़ुरआन में सबसे अधिक बार नामित नबी हैं। शिशु के रूप में फ़िरऔन की हत्या से बचाए गए, जलती झाड़ी पर नुबूवत के लिए बुलाए गए, स्पष्ट निशानियों से सज्जित होकर, उन्होंने फ़िरऔन का सामना किया, बनी इसराईल को फटे हुए समुद्र से पार निकाला, और तौरात प्राप्त की।",
+    "ur": "موسیٰ علیہ السلام قرآن میں سب سے زیادہ بار نامزد نبی ہیں۔ شیرخوارگی میں فرعون کے قتلِ عام سے بچائے گئے، جلتی جھاڑی پر نبوت کے لیے بلائے گئے، واضح نشانیوں سے لیس ہو کر، انہوں نے فرعون کا سامنا کیا، بنی اسرائیل کو پھٹے ہوئے سمندر سے پار نکالا، اور تورات حاصل کی۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Mūsā (peace be upon him) was born among the Children of Israel while Pharaoh ruled Egypt as a tyrant who claimed divinity and slaughtered the newborn sons of the Israelites. Into that terror, Allah placed a plan of rescue." },
+      { "kind": "verse", "surah": 28, "ayah": 7, "note": "Allah inspires Mūsā's mother to cast him into the river, promising to return him to her and make him a messenger." },
+      { "kind": "p", "text": "The river carried the infant to Pharaoh's own household, where he was raised in the palace of the very king who sought his people's ruin." },
+      { "kind": "heading", "level": 2, "text": "The burning bush" },
+      { "kind": "p", "text": "Grown and having fled Egypt, Mūsā encountered a fire on Mount Ṭūr. There Allah spoke to him directly — the reason he is called Kalīm Allah, the one to whom Allah spoke — and appointed him a prophet." },
+      { "kind": "verse", "surah": 20, "ayah": 14, "note": "Allah declares: I am Allah; there is no deity except Me, so worship Me and establish prayer for My remembrance." },
+      { "kind": "heading", "level": 2, "text": "Pharaoh and the sea" },
+      { "kind": "p", "text": "Armed with the staff and other signs, Mūsā summoned Pharaoh to Allah. When Pharaoh refused and pursued the fleeing Israelites, Allah parted the sea for Mūsā and drowned the tyrant and his army." },
+      { "kind": "verse", "surah": 26, "ayah": 63, "note": "Allah commands Mūsā to strike the sea with his staff, and it parts, each side like a towering mountain." },
+      { "kind": "p", "text": "Delivered from bondage, Mūsā received the Torah as guidance and light for his people — a scripture and a law by which they were to live." },
+      { "kind": "list", "items": [
+        { "text": "Allah's plan works even through the household of the oppressor." },
+        { "text": "Prophethood begins with the call to worship Allah alone and to pray." },
+        { "text": "No tyranny is beyond the reach of Allah's justice." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "मूसा (अलैहिस्सलाम) बनी इसराईल में उस समय पैदा हुए जब फ़िरऔन मिस्र पर एक अत्याचारी के रूप में शासन करता था जो ख़ुदाई का दावा करता और इसराईलियों के नवजात पुत्रों की हत्या करता था। उस आतंक में, अल्लाह ने एक उद्धार की योजना रखी।" },
+      { "kind": "verse", "surah": 28, "ayah": 7, "note": "अल्लाह मूसा की माँ को प्रेरित करता है कि उन्हें नदी में डाल दें, यह वादा करते हुए कि उन्हें लौटा देगा और एक रसूल बनाएगा।" },
+      { "kind": "p", "text": "नदी शिशु को फ़िरऔन के अपने घराने तक ले गई, जहाँ वे उसी राजा के महल में पले जो उनकी क़ौम का विनाश चाहता था।" },
+      { "kind": "heading", "level": 2, "text": "जलती झाड़ी" },
+      { "kind": "p", "text": "बड़े होकर और मिस्र से भाग जाने के बाद, मूसा को तूर पर्वत पर एक आग मिली। वहाँ अल्लाह ने उनसे सीधे बात की — इसी कारण उन्हें कलीमुल्लाह कहा जाता है, वह जिनसे अल्लाह ने बात की — और उन्हें नबी नियुक्त किया।" },
+      { "kind": "verse", "surah": 20, "ayah": 14, "note": "अल्लाह घोषणा करता है: मैं ही अल्लाह हूँ; मेरे सिवा कोई माबूद नहीं, तो मेरी इबादत करो और मेरी याद के लिए नमाज़ क़ायम करो।" },
+      { "kind": "heading", "level": 2, "text": "फ़िरऔन और समुद्र" },
+      { "kind": "p", "text": "लाठी और अन्य निशानियों से सज्जित होकर, मूसा ने फ़िरऔन को अल्लाह की ओर बुलाया। जब फ़िरऔन ने इनकार किया और भागते इसराईलियों का पीछा किया, तो अल्लाह ने मूसा के लिए समुद्र को फाड़ दिया और अत्याचारी तथा उसकी सेना को डुबो दिया।" },
+      { "kind": "verse", "surah": 26, "ayah": 63, "note": "अल्लाह मूसा को हुक्म देता है कि अपनी लाठी समुद्र पर मारें, और वह फट जाता है, हर ओर एक विशाल पर्वत जैसा।" },
+      { "kind": "p", "text": "ग़ुलामी से मुक्त होकर, मूसा ने अपनी क़ौम के लिए मार्गदर्शन और प्रकाश के रूप में तौरात प्राप्त की — एक ग्रंथ और एक क़ानून जिसके अनुसार उन्हें जीना था।" },
+      { "kind": "list", "items": [
+        { "text": "अल्लाह की योजना अत्याचारी के घराने के द्वारा भी काम करती है।" },
+        { "text": "नुबूवत केवल अल्लाह की इबादत और नमाज़ के आह्वान से आरंभ होती है।" },
+        { "text": "कोई अत्याचार अल्लाह के न्याय की पहुँच से बाहर नहीं।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "موسیٰ علیہ السلام بنی اسرائیل میں اُس وقت پیدا ہوئے جب فرعون مصر پر ایک ظالم کے طور پر حکومت کرتا تھا جو خدائی کا دعویٰ کرتا اور اسرائیلیوں کے نومولود بیٹوں کو ذبح کرتا تھا۔ اُس دہشت میں، اللہ نے ایک نجات کا منصوبہ رکھا۔" },
+      { "kind": "verse", "surah": 28, "ayah": 7, "note": "اللہ موسیٰ کی ماں کو الہام کرتا ہے کہ انہیں دریا میں ڈال دیں، یہ وعدہ کرتے ہوئے کہ انہیں لوٹا دے گا اور ایک رسول بنائے گا۔" },
+      { "kind": "p", "text": "دریا شیرخوار کو فرعون کے اپنے گھرانے تک لے گیا، جہاں وہ اُسی بادشاہ کے محل میں پلے جو اُن کی قوم کی تباہی چاہتا تھا۔" },
+      { "kind": "heading", "level": 2, "text": "جلتی جھاڑی" },
+      { "kind": "p", "text": "بڑے ہو کر اور مصر سے بھاگ جانے کے بعد، موسیٰ کو کوہِ طور پر ایک آگ ملی۔ وہاں اللہ نے اُن سے براہِ راست کلام کیا — اِسی لیے انہیں کلیم اللہ کہا جاتا ہے، وہ جن سے اللہ نے کلام کیا — اور انہیں نبی مقرر کیا۔" },
+      { "kind": "verse", "surah": 20, "ayah": 14, "note": "اللہ اعلان کرتا ہے: میں ہی اللہ ہوں؛ میرے سوا کوئی معبود نہیں، سو میری عبادت کرو اور میری یاد کے لیے نماز قائم کرو۔" },
+      { "kind": "heading", "level": 2, "text": "فرعون اور سمندر" },
+      { "kind": "p", "text": "لاٹھی اور دیگر نشانیوں سے لیس ہو کر، موسیٰ نے فرعون کو اللہ کی طرف بلایا۔ جب فرعون نے انکار کیا اور بھاگتے اسرائیلیوں کا پیچھا کیا، تو اللہ نے موسیٰ کے لیے سمندر کو پھاڑ دیا اور ظالم اور اُس کے لشکر کو ڈبو دیا۔" },
+      { "kind": "verse", "surah": 26, "ayah": 63, "note": "اللہ موسیٰ کو حکم دیتا ہے کہ اپنی لاٹھی سمندر پر ماریں، اور وہ پھٹ جاتا ہے، ہر طرف ایک عظیم پہاڑ کی مانند۔" },
+      { "kind": "p", "text": "غلامی سے نجات پا کر، موسیٰ نے اپنی قوم کے لیے ہدایت اور روشنی کے طور پر تورات حاصل کی — ایک کتاب اور ایک قانون جس کے مطابق انہیں جینا تھا۔" },
+      { "kind": "list", "items": [
+        { "text": "اللہ کا منصوبہ ظالم کے گھرانے کے ذریعے بھی کام کرتا ہے۔" },
+        { "text": "نبوت صرف اللہ کی عبادت اور نماز کی دعوت سے شروع ہوتی ہے۔" },
+        { "text": "کوئی ظلم اللہ کے انصاف کی پہنچ سے باہر نہیں۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "28:1-46" },
+    { "type": "quran", "ref": "20:9-98" },
+    { "type": "quran", "ref": "26:10-68" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["prophet-harun", "prophet-muhammad", "concept-tawhid"]
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "surah-al-fatiha",
+  "category": "surahs",
+  "surahNumber": 1,
+  "featured": true,
+  "title": {
+    "en": "Sūrat al-Fātiḥah — The Opening",
+    "hi": "सूरह अल-फ़ातिहा — प्रारंभ",
+    "ur": "سورۃ الفاتحہ — آغاز"
+  },
+  "summary": {
+    "en": "The opening chapter of the Qur'an, recited in every unit of every prayer. In seven verses it praises Allah, affirms His mercy and sovereignty, and asks for the straight path — a complete conversation between the servant and the Lord.",
+    "hi": "क़ुरआन का प्रारंभिक अध्याय, हर नमाज़ की हर रकअत में पढ़ा जाता है। सात आयतों में यह अल्लाह की प्रशंसा करता है, उसकी दया और सत्ता की पुष्टि करता है, और सीधे मार्ग की माँग करता है — बंदे और रब के बीच एक पूर्ण संवाद।",
+    "ur": "قرآن کا ابتدائی باب، ہر نماز کی ہر رکعت میں پڑھا جاتا ہے۔ سات آیات میں یہ اللہ کی تعریف کرتا ہے، اُس کی رحمت اور بادشاہی کی تصدیق کرتا ہے، اور سیدھے راستے کی درخواست کرتا ہے — بندے اور رب کے درمیان ایک مکمل گفتگو۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Sūrat al-Fātiḥah — \"The Opening\" — is the first chapter of the Qur'an and the most frequently recited, for it is repeated in every unit of the daily prayers. It is also called the Mother of the Book." },
+      { "kind": "verse", "surah": 1, "ayah": 1 },
+      { "kind": "verse", "surah": 1, "ayah": 2 },
+      { "kind": "verse", "surah": 1, "ayah": 3 },
+      { "kind": "verse", "surah": 1, "ayah": 4 },
+      { "kind": "verse", "surah": 1, "ayah": 5 },
+      { "kind": "verse", "surah": 1, "ayah": 6 },
+      { "kind": "verse", "surah": 1, "ayah": 7 },
+      { "kind": "heading", "level": 2, "text": "A conversation between servant and Lord" },
+      { "kind": "p", "text": "In a sacred narration, Allah divides this surah between Himself and His servant: the first verses are His servant's praise of Him, and the final plea — for guidance to the straight path — is the servant's request, which is granted." },
+      { "kind": "heading", "level": 2, "text": "Its themes" },
+      { "kind": "list", "items": [
+        { "text": "Praise of Allah, Lord of all the worlds." },
+        { "text": "Affirmation of His mercy and His sovereignty over the Day of Judgement." },
+        { "text": "Devotion of worship and reliance to Allah alone." },
+        { "text": "A prayer for guidance to the straight path of the righteous." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "सूरह अल-फ़ातिहा — \"प्रारंभ\" — क़ुरआन का पहला अध्याय है और सबसे अधिक पढ़ा जाने वाला, क्योंकि यह दैनिक नमाज़ों की हर रकअत में दोहराया जाता है। इसे किताब की माँ भी कहा जाता है।" },
+      { "kind": "verse", "surah": 1, "ayah": 1 },
+      { "kind": "verse", "surah": 1, "ayah": 2 },
+      { "kind": "verse", "surah": 1, "ayah": 3 },
+      { "kind": "verse", "surah": 1, "ayah": 4 },
+      { "kind": "verse", "surah": 1, "ayah": 5 },
+      { "kind": "verse", "surah": 1, "ayah": 6 },
+      { "kind": "verse", "surah": 1, "ayah": 7 },
+      { "kind": "heading", "level": 2, "text": "बंदे और रब के बीच एक संवाद" },
+      { "kind": "p", "text": "एक पवित्र वर्णन में, अल्लाह इस सूरह को अपने और अपने बंदे के बीच बाँटता है: पहली आयतें उसके बंदे की उसकी प्रशंसा हैं, और अंतिम विनती — सीधे मार्ग के मार्गदर्शन के लिए — बंदे की माँग है, जो पूरी की जाती है।" },
+      { "kind": "heading", "level": 2, "text": "इसके विषय" },
+      { "kind": "list", "items": [
+        { "text": "अल्लाह की प्रशंसा, समस्त संसारों का रब।" },
+        { "text": "उसकी दया और न्याय के दिन पर उसकी सत्ता की पुष्टि।" },
+        { "text": "इबादत और भरोसा केवल अल्लाह के लिए समर्पित करना।" },
+        { "text": "नेक लोगों के सीधे मार्ग के मार्गदर्शन के लिए एक प्रार्थना।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "سورۃ الفاتحہ — \"آغاز\" — قرآن کا پہلا باب ہے اور سب سے زیادہ پڑھا جانے والا، کیونکہ یہ روزانہ کی نمازوں کی ہر رکعت میں دہرایا جاتا ہے۔ اِسے اُمُّ الکتاب بھی کہا جاتا ہے۔" },
+      { "kind": "verse", "surah": 1, "ayah": 1 },
+      { "kind": "verse", "surah": 1, "ayah": 2 },
+      { "kind": "verse", "surah": 1, "ayah": 3 },
+      { "kind": "verse", "surah": 1, "ayah": 4 },
+      { "kind": "verse", "surah": 1, "ayah": 5 },
+      { "kind": "verse", "surah": 1, "ayah": 6 },
+      { "kind": "verse", "surah": 1, "ayah": 7 },
+      { "kind": "heading", "level": 2, "text": "بندے اور رب کے درمیان ایک گفتگو" },
+      { "kind": "p", "text": "ایک مقدس روایت میں، اللہ اِس سورت کو اپنے اور اپنے بندے کے درمیان تقسیم کرتا ہے: پہلی آیات اُس کے بندے کی اُس کی تعریف ہیں، اور آخری التجا — سیدھے راستے کی رہنمائی کے لیے — بندے کی درخواست ہے، جو پوری کی جاتی ہے۔" },
+      { "kind": "heading", "level": 2, "text": "اِس کے مضامین" },
+      { "kind": "list", "items": [
+        { "text": "اللہ کی تعریف، تمام جہانوں کا رب۔" },
+        { "text": "اُس کی رحمت اور روزِ جزا پر اُس کی بادشاہی کی تصدیق۔" },
+        { "text": "عبادت اور بھروسہ صرف اللہ کے لیے وقف کرنا۔" },
+        { "text": "نیک لوگوں کے سیدھے راستے کی رہنمائی کے لیے ایک دعا۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "1:1-7" },
+    { "type": "hadith", "collection": "bukhari", "ref": "4474", "grade": "sahih" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["basics-how-to-pray", "surah-al-ikhlas", "concept-dua"]
+}

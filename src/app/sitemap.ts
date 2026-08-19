@@ -2,6 +2,8 @@ import type { MetadataRoute } from "next"
 import { getAllSurahs } from "@/lib/quran/surahs"
 import { scholars } from "@/config/scholars"
 import { getAllHadiths, getCollection } from "@/lib/hadith/translations"
+import { getAllArticleMeta } from "@/lib/knowledge/articles"
+import { KNOWLEDGE_CATEGORY_IDS } from "@/lib/knowledge/categories"
 
 export const dynamic = "force-static"
 
@@ -12,6 +14,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: baseUrl, lastModified: new Date(), changeFrequency: "monthly", priority: 1.0 },
     { url: `${baseUrl}/quran`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.9 },
     { url: `${baseUrl}/hadith`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.9 },
+    { url: `${baseUrl}/knowledge-base`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.8 },
     { url: `${baseUrl}/videos`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.8 },
     { url: `${baseUrl}/search`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
     { url: `${baseUrl}/about`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.5 },
@@ -60,10 +63,26 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.7,
   }))
 
+  const knowledgeCategoryRoutes: MetadataRoute.Sitemap = KNOWLEDGE_CATEGORY_IDS.map((c) => ({
+    url: `${baseUrl}/knowledge-base/${c}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }))
+
+  const knowledgeArticleRoutes: MetadataRoute.Sitemap = getAllArticleMeta().map((a) => ({
+    url: `${baseUrl}/knowledge-base/${a.category}/${a.slug}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.6,
+  }))
+
   return [
     ...staticRoutes,
     ...surahRoutes,
     ...hadithRoutes,
     ...scholarRoutes,
+    ...knowledgeCategoryRoutes,
+    ...knowledgeArticleRoutes,
   ]
 }

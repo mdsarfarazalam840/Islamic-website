@@ -1,0 +1,73 @@
+{
+  "slug": "prophet-nuh",
+  "category": "prophets",
+  "prophetNumber": 3,
+  "featured": true,
+  "title": {
+    "en": "Nūḥ (Noah) — The Patient Caller and the Ark",
+    "hi": "नूह (नूह अलैहिस्सलाम) — धैर्यवान आह्वानकर्ता और नौका",
+    "ur": "نوح علیہ السلام — صابر داعی اور کشتی"
+  },
+  "summary": {
+    "en": "Nūḥ called his people to worship Allah alone for nearly a thousand years. When they persisted in denial, Allah saved the believers in the Ark and drowned the rest — a decisive sign of patience, warning, and divine justice.",
+    "hi": "नूह ने अपनी क़ौम को लगभग एक हज़ार वर्षों तक केवल अल्लाह की इबादत की ओर बुलाया। जब वे इनकार पर अड़े रहे, तो अल्लाह ने ईमान वालों को नौका में बचा लिया और बाक़ी को डुबो दिया — धैर्य, चेतावनी और ईश्वरीय न्याय की एक निर्णायक निशानी।",
+    "ur": "نوح علیہ السلام نے اپنی قوم کو تقریباً ہزار برس تک صرف اللہ کی عبادت کی دعوت دی۔ جب وہ انکار پر اڑے رہے تو اللہ نے مومنوں کو کشتی میں بچا لیا اور باقی کو غرق کر دیا — صبر، تنبیہ اور عدلِ الٰہی کی ایک فیصلہ کن نشانی۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Nūḥ (peace be upon him) was the first messenger sent to a people who had fallen into idolatry. He called them, day and night, openly and in secret, to abandon their idols and return to the worship of the One God." },
+      { "kind": "verse", "surah": 71, "ayah": 1, "note": "Allah sends Nūḥ to warn his people before a painful punishment reaches them." },
+      { "kind": "heading", "level": 2, "text": "Centuries of patient calling" },
+      { "kind": "p", "text": "The Qur'an records that Nūḥ remained among his people a thousand years minus fifty — nine hundred and fifty years of tireless preaching. Yet only a few believed, while the leaders mocked him and clung to their forefathers' idols." },
+      { "kind": "verse", "surah": 29, "ayah": 14, "note": "Nūḥ stayed among them 950 years, and the flood seized them while they persisted in wrongdoing." },
+      { "kind": "heading", "level": 2, "text": "The Ark and the Flood" },
+      { "kind": "p", "text": "By Allah's command Nūḥ built the Ark while the deniers ridiculed him. When the divine decree came, water gushed from the earth and poured from the sky. The believers and pairs of every creature were carried to safety; the rejecters, including Nūḥ's own son, were drowned." },
+      { "kind": "verse", "surah": 11, "ayah": 42, "note": "Nūḥ calls out to his son to embark and not remain with the disbelievers." },
+      { "kind": "heading", "level": 3, "text": "Lessons from his life" },
+      { "kind": "list", "items": [
+        { "text": "Success in calling to Allah is measured by sincerity and perseverance, not by numbers." },
+        { "text": "Ties of blood cannot save a person who rejects faith." },
+        { "text": "Allah's patience is vast, but His justice is certain." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "नूह (अलैहिस्सलाम) पहले रसूल थे जो एक ऐसी क़ौम की ओर भेजे गए जो मूर्ति-पूजा में पड़ चुकी थी। उन्होंने रात-दिन, खुले और छिपे, उन्हें उनकी मूर्तियों को छोड़कर एक ईश्वर की इबादत की ओर लौटने के लिए बुलाया।" },
+      { "kind": "verse", "surah": 71, "ayah": 1, "note": "अल्लाह नूह को उनकी क़ौम के पास दर्दनाक अज़ाब आने से पहले चेतावनी देने भेजता है।" },
+      { "kind": "heading", "level": 2, "text": "सदियों तक धैर्यपूर्ण आह्वान" },
+      { "kind": "p", "text": "क़ुरआन बताता है कि नूह अपनी क़ौम में एक हज़ार वर्ष कम पचास — यानी साढ़े नौ सौ वर्ष — रहे और अथक उपदेश देते रहे। फिर भी केवल थोड़े लोग ईमान लाए, जबकि सरदारों ने उनका मज़ाक़ उड़ाया और अपने पूर्वजों की मूर्तियों से चिपके रहे।" },
+      { "kind": "verse", "surah": 29, "ayah": 14, "note": "नूह उनमें 950 वर्ष रहे, और तूफ़ान ने उन्हें उस हाल में पकड़ा कि वे अत्याचार पर जमे थे।" },
+      { "kind": "heading", "level": 2, "text": "नौका और तूफ़ान" },
+      { "kind": "p", "text": "अल्लाह के हुक्म से नूह ने नौका बनाई जबकि इनकार करने वाले उनका उपहास करते रहे। जब ईश्वरीय आदेश आया, तो धरती से पानी फूट पड़ा और आसमान से बरसा। ईमान वाले और हर प्राणी के जोड़े सुरक्षित पहुँचाए गए; इनकार करने वाले, नूह के अपने बेटे सहित, डूब गए।" },
+      { "kind": "verse", "surah": 11, "ayah": 42, "note": "नूह अपने बेटे को पुकारते हैं कि सवार हो जाए और इनकार करने वालों के साथ न रहे।" },
+      { "kind": "heading", "level": 3, "text": "उनके जीवन से शिक्षाएँ" },
+      { "kind": "list", "items": [
+        { "text": "अल्लाह की ओर बुलाने में सफलता ईमानदारी और दृढ़ता से नापी जाती है, संख्या से नहीं।" },
+        { "text": "ख़ून का रिश्ता उस व्यक्ति को नहीं बचा सकता जो ईमान को ठुकरा देता है।" },
+        { "text": "अल्लाह का धैर्य विशाल है, परन्तु उसका न्याय निश्चित है।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "نوح علیہ السلام پہلے رسول تھے جو ایک ایسی قوم کی طرف بھیجے گئے جو بت پرستی میں پڑ چکی تھی۔ انہوں نے رات دن، کھلے اور چھپے، اُنہیں اُن کے بتوں کو چھوڑ کر ایک خدا کی عبادت کی طرف پلٹنے کی دعوت دی۔" },
+      { "kind": "verse", "surah": 71, "ayah": 1, "note": "اللہ نوح کو اُن کی قوم کے پاس دردناک عذاب آنے سے پہلے تنبیہ کے لیے بھیجتا ہے۔" },
+      { "kind": "heading", "level": 2, "text": "صدیوں پر محیط صبر کی دعوت" },
+      { "kind": "p", "text": "قرآن بیان کرتا ہے کہ نوح اپنی قوم میں ہزار برس سے پچاس کم — یعنی ساڑھے نو سو برس — رہے اور مسلسل تبلیغ کرتے رہے۔ پھر بھی صرف چند لوگ ایمان لائے، جبکہ سردار اُن کا مذاق اڑاتے رہے اور اپنے آباؤ اجداد کے بتوں سے چمٹے رہے۔" },
+      { "kind": "verse", "surah": 29, "ayah": 14, "note": "نوح اُن میں 950 برس رہے، اور طوفان نے اُنہیں اس حال میں پکڑا کہ وہ ظلم پر جمے ہوئے تھے۔" },
+      { "kind": "heading", "level": 2, "text": "کشتی اور طوفان" },
+      { "kind": "p", "text": "اللہ کے حکم سے نوح نے کشتی بنائی جبکہ منکرین اُن کا تمسخر اڑاتے رہے۔ جب حکمِ الٰہی آیا تو زمین سے پانی ابل پڑا اور آسمان سے برسا۔ مومن اور ہر مخلوق کے جوڑے بحفاظت سوار کیے گئے؛ منکرین، نوح کے اپنے بیٹے سمیت، غرق ہو گئے۔" },
+      { "kind": "verse", "surah": 11, "ayah": 42, "note": "نوح اپنے بیٹے کو پکارتے ہیں کہ سوار ہو جائے اور کافروں کے ساتھ نہ رہے۔" },
+      { "kind": "heading", "level": 3, "text": "اُن کی زندگی سے اسباق" },
+      { "kind": "list", "items": [
+        { "text": "اللہ کی طرف دعوت میں کامیابی اخلاص اور استقامت سے ناپی جاتی ہے، تعداد سے نہیں۔" },
+        { "text": "خون کا رشتہ اُس شخص کو نہیں بچا سکتا جو ایمان کو ٹھکرا دے۔" },
+        { "text": "اللہ کا صبر وسیع ہے، مگر اُس کا عدل یقینی ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "71:1-28" },
+    { "type": "quran", "ref": "11:25-49" },
+    { "type": "quran", "ref": "29:14" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["prophet-adam", "prophet-hud", "concept-sabr"]
+}

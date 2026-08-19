@@ -1,0 +1,80 @@
+{
+  "slug": "prophet-isa",
+  "category": "prophets",
+  "prophetNumber": 24,
+  "featured": true,
+  "title": {
+    "en": "ʿĪsā (Jesus) — The Messiah, Word and Spirit from Allah",
+    "hi": "ईसा (ईसा अलैहिस्सलाम) — मसीह, अल्लाह की ओर से कलिमा और रूह",
+    "ur": "عیسیٰ علیہ السلام — مسیح، اللہ کی طرف سے کلمہ اور روح"
+  },
+  "summary": {
+    "en": "ʿĪsā was born to the virgin Maryam by Allah's command, a prophet and Messiah who spoke in the cradle, healed the sick and raised the dead by Allah's leave, and was given the Injīl. Islam honours him as a servant and messenger of Allah — not divine, and not crucified, but raised to Allah.",
+    "hi": "ईसा का जन्म कुँवारी मरयम से अल्लाह के हुक्म से हुआ, एक नबी और मसीह जिन्होंने पालने में बात की, अल्लाह की अनुमति से बीमारों को चंगा किया और मुर्दों को जीवित किया, और जिन्हें इंजील दी गई। इस्लाम उन्हें अल्लाह का एक बंदा और रसूल मानता है — ईश्वर नहीं, और सूली न चढ़ाए गए, बल्कि अल्लाह की ओर उठा लिए गए।",
+    "ur": "عیسیٰ علیہ السلام کی پیدائش کنواری مریم سے اللہ کے حکم سے ہوئی، ایک نبی اور مسیح جنہوں نے گہوارے میں بات کی، اللہ کے اذن سے بیماروں کو شفا دی اور مُردوں کو زندہ کیا، اور جنہیں انجیل دی گئی۔ اسلام انہیں اللہ کا ایک بندہ اور رسول مانتا ہے — خدا نہیں، اور سولی پر نہ چڑھائے گئے، بلکہ اللہ کی طرف اٹھا لیے گئے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "ʿĪsā ibn Maryam (peace be upon him) holds a unique place among the prophets. Born without a father by the direct command of Allah, he is called in the Qur'an the Messiah, a Word from Allah conveyed to Maryam, and a spirit from Him." },
+      { "kind": "verse", "surah": 3, "ayah": 45, "note": "The angels give Maryam glad tidings of a Word from Allah, whose name is the Messiah, ʿĪsā, son of Maryam — honoured in this world and the next." },
+      { "kind": "heading", "level": 2, "text": "Speech in the cradle" },
+      { "kind": "p", "text": "When Maryam returned to her people with a newborn and no husband, she pointed to the infant. To their astonishment, ʿĪsā spoke from the cradle, declaring himself a servant of Allah, given the Scripture and made a prophet." },
+      { "kind": "verse", "surah": 19, "ayah": 30, "note": "The infant ʿĪsā speaks: indeed, I am the servant of Allah; He has given me the Scripture and made me a prophet." },
+      { "kind": "heading", "level": 2, "text": "Signs by Allah's leave" },
+      { "kind": "p", "text": "ʿĪsā was sent to the Children of Israel with clear signs: he healed the blind and the leper and, by Allah's permission, revived the dead. Every miracle he stressed was by Allah's leave alone, calling his people to worship the One God." },
+      { "kind": "verse", "surah": 5, "ayah": 72, "note": "The Messiah himself said: O Children of Israel, worship Allah, my Lord and your Lord." },
+      { "kind": "heading", "level": 2, "text": "A servant, not a god" },
+      { "kind": "p", "text": "Islam holds ʿĪsā in the highest honour while rejecting his deification. He was not crucified or killed, but raised by Allah to Himself; and he foretold the coming of the final Messenger after him." },
+      { "kind": "verse", "surah": 4, "ayah": 171, "note": "The Messiah, ʿĪsā, was a messenger of Allah and His word — so believe in Allah alone, and do not say \"three.\"" },
+      { "kind": "list", "items": [
+        { "text": "ʿĪsā's miraculous birth and signs were all by the power and leave of Allah." },
+        { "text": "He called only to the worship of the One God, never to worship himself." },
+        { "text": "Honouring ʿĪsā means affirming him as prophet and servant, not as divine." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "ईसा इब्न मरयम (अलैहिस्सलाम) नबियों में एक अनूठा स्थान रखते हैं। अल्लाह के सीधे हुक्म से बिना पिता के जन्मे, उन्हें क़ुरआन में मसीह कहा गया है, अल्लाह की ओर से एक कलिमा जो मरयम तक पहुँचाया गया, और उसकी ओर से एक रूह।" },
+      { "kind": "verse", "surah": 3, "ayah": 45, "note": "फ़रिश्ते मरयम को अल्लाह की ओर से एक कलिमे की शुभ सूचना देते हैं, जिसका नाम मसीह, ईसा इब्न मरयम है — इस दुनिया और आख़िरत में सम्मानित।" },
+      { "kind": "heading", "level": 2, "text": "पालने में वाणी" },
+      { "kind": "p", "text": "जब मरयम एक नवजात के साथ और बिना पति के अपनी क़ौम के पास लौटीं, तो उन्होंने शिशु की ओर इशारा किया। उनके आश्चर्य के लिए, ईसा ने पालने से बात की, स्वयं को अल्लाह का बंदा घोषित करते हुए, जिसे किताब दी गई और नबी बनाया गया।" },
+      { "kind": "verse", "surah": 19, "ayah": 30, "note": "शिशु ईसा बोलते हैं: निःसंदेह, मैं अल्लाह का बंदा हूँ; उसने मुझे किताब दी और मुझे नबी बनाया।" },
+      { "kind": "heading", "level": 2, "text": "अल्लाह की अनुमति से निशानियाँ" },
+      { "kind": "p", "text": "ईसा बनी इसराईल की ओर स्पष्ट निशानियों के साथ भेजे गए: उन्होंने अंधे और कोढ़ी को चंगा किया और, अल्लाह की अनुमति से, मुर्दों को जीवित किया। हर चमत्कार पर उन्होंने ज़ोर दिया कि यह केवल अल्लाह की अनुमति से है, अपनी क़ौम को एक ईश्वर की इबादत की ओर बुलाते हुए।" },
+      { "kind": "verse", "surah": 5, "ayah": 72, "note": "स्वयं मसीह ने कहा: ऐ बनी इसराईल, अल्लाह की इबादत करो, जो मेरा रब और तुम्हारा रब है।" },
+      { "kind": "heading", "level": 2, "text": "एक बंदा, ईश्वर नहीं" },
+      { "kind": "p", "text": "इस्लाम ईसा को सर्वोच्च सम्मान में रखता है जबकि उनके ईश्वरत्व को अस्वीकार करता है। उन्हें न सूली चढ़ाया गया न मारा गया, बल्कि अल्लाह ने उन्हें अपनी ओर उठा लिया; और उन्होंने अपने बाद अंतिम रसूल के आगमन की भविष्यवाणी की।" },
+      { "kind": "verse", "surah": 4, "ayah": 171, "note": "मसीह, ईसा, अल्लाह के रसूल और उसका कलिमा थे — तो केवल अल्लाह पर ईमान लाओ, और \"तीन\" मत कहो।" },
+      { "kind": "list", "items": [
+        { "text": "ईसा का चमत्कारी जन्म और निशानियाँ सब अल्लाह की शक्ति और अनुमति से थीं।" },
+        { "text": "उन्होंने केवल एक ईश्वर की इबादत की ओर बुलाया, कभी अपनी इबादत की ओर नहीं।" },
+        { "text": "ईसा का सम्मान करने का अर्थ है उन्हें नबी और बंदा मानना, ईश्वर नहीं।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "عیسیٰ ابن مریم علیہ السلام انبیاء میں ایک منفرد مقام رکھتے ہیں۔ اللہ کے براہِ راست حکم سے بغیر باپ کے پیدا ہوئے، انہیں قرآن میں مسیح کہا گیا ہے، اللہ کی طرف سے ایک کلمہ جو مریم تک پہنچایا گیا، اور اُس کی طرف سے ایک روح۔" },
+      { "kind": "verse", "surah": 3, "ayah": 45, "note": "فرشتے مریم کو اللہ کی طرف سے ایک کلمے کی خوشخبری دیتے ہیں، جس کا نام مسیح، عیسیٰ ابن مریم ہے — اِس دنیا اور آخرت میں معزز۔" },
+      { "kind": "heading", "level": 2, "text": "گہوارے میں کلام" },
+      { "kind": "p", "text": "جب مریم ایک نومولود کے ساتھ اور بغیر شوہر کے اپنی قوم کے پاس لوٹیں، تو انہوں نے شیرخوار کی طرف اشارہ کیا۔ اُن کی حیرت کے لیے، عیسیٰ نے گہوارے سے بات کی، خود کو اللہ کا بندہ قرار دیتے ہوئے، جسے کتاب دی گئی اور نبی بنایا گیا۔" },
+      { "kind": "verse", "surah": 19, "ayah": 30, "note": "شیرخوار عیسیٰ بولتے ہیں: بے شک، میں اللہ کا بندہ ہوں؛ اُس نے مجھے کتاب دی اور مجھے نبی بنایا۔" },
+      { "kind": "heading", "level": 2, "text": "اللہ کے اذن سے نشانیاں" },
+      { "kind": "p", "text": "عیسیٰ بنی اسرائیل کی طرف واضح نشانیوں کے ساتھ بھیجے گئے: انہوں نے اندھے اور کوڑھی کو شفا دی اور، اللہ کے اذن سے، مُردوں کو زندہ کیا۔ ہر معجزے پر انہوں نے زور دیا کہ یہ صرف اللہ کے اذن سے ہے، اپنی قوم کو ایک خدا کی عبادت کی طرف بلاتے ہوئے۔" },
+      { "kind": "verse", "surah": 5, "ayah": 72, "note": "خود مسیح نے کہا: اے بنی اسرائیل، اللہ کی عبادت کرو، جو میرا رب اور تمہارا رب ہے۔" },
+      { "kind": "heading", "level": 2, "text": "ایک بندہ، خدا نہیں" },
+      { "kind": "p", "text": "اسلام عیسیٰ کو سب سے بلند عزت میں رکھتا ہے جبکہ اُن کی خدائی کو رد کرتا ہے۔ انہیں نہ سولی دی گئی نہ قتل کیا گیا، بلکہ اللہ نے انہیں اپنی طرف اٹھا لیا؛ اور انہوں نے اپنے بعد آخری رسول کے آنے کی پیشین گوئی کی۔" },
+      { "kind": "verse", "surah": 4, "ayah": 171, "note": "مسیح، عیسیٰ، اللہ کے رسول اور اُس کا کلمہ تھے — سو صرف اللہ پر ایمان لاؤ، اور \"تین\" نہ کہو۔" },
+      { "kind": "list", "items": [
+        { "text": "عیسیٰ کی معجزانہ پیدائش اور نشانیاں سب اللہ کی قدرت اور اذن سے تھیں۔" },
+        { "text": "انہوں نے صرف ایک خدا کی عبادت کی طرف بلایا، کبھی اپنی عبادت کی طرف نہیں۔" },
+        { "text": "عیسیٰ کی عزت کا مطلب انہیں نبی اور بندہ ماننا ہے، خدا نہیں۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "3:45-59" },
+    { "type": "quran", "ref": "19:16-36" },
+    { "type": "quran", "ref": "5:72-75" },
+    { "type": "quran", "ref": "4:171" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["story-maryam", "prophet-muhammad", "concept-tawhid"]
+}

@@ -1,0 +1,70 @@
+{
+  "slug": "prophet-yaqub",
+  "category": "prophets",
+  "prophetNumber": 10,
+  "featured": false,
+  "title": {
+    "en": "Yaʿqūb (Jacob) — Beautiful Patience in Grief",
+    "hi": "याक़ूब (याक़ूब अलैहिस्सलाम) — दुःख में सुंदर धैर्य",
+    "ur": "یعقوب علیہ السلام — غم میں صبرِ جمیل"
+  },
+  "summary": {
+    "en": "Yaʿqūb, son of Isḥāq and father of Yūsuf, was a prophet who bore the loss of his beloved son with beautiful patience. His faith never wavered, and Allah reunited his family after long years of sorrow.",
+    "hi": "याक़ूब, इसहाक़ के पुत्र और यूसुफ़ के पिता, एक नबी थे जिन्होंने अपने प्रिय पुत्र के वियोग को सुंदर धैर्य के साथ सहा। उनका ईमान कभी नहीं डगमगाया, और अल्लाह ने लंबे दुःख के वर्षों के बाद उनके परिवार को फिर मिला दिया।",
+    "ur": "یعقوب علیہ السلام، اسحاق کے بیٹے اور یوسف کے والد، ایک نبی تھے جنہوں نے اپنے پیارے بیٹے کی جدائی کو صبرِ جمیل کے ساتھ برداشت کیا۔ اُن کا ایمان کبھی نہ ڈگمگایا، اور اللہ نے طویل غم کے برسوں کے بعد اُن کے خاندان کو دوبارہ ملا دیا۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Yaʿqūb (peace be upon him), also called Isrāʾīl, was the son of Isḥāq and grandson of Ibrāhīm. He was a prophet blessed with twelve sons, from whom descended the twelve tribes of the Children of Israel." },
+      { "kind": "heading", "level": 2, "text": "The loss of Yūsuf" },
+      { "kind": "p", "text": "When his son Yūsuf was taken from him through his brothers' jealousy, Yaʿqūb was struck with deep grief. Yet he did not despair or complain to people — he turned his sorrow to Allah alone and held to beautiful patience." },
+      { "kind": "verse", "surah": 12, "ayah": 18, "note": "Yaʿqūb resolves upon beautiful patience, seeking Allah's help against what they describe." },
+      { "kind": "heading", "level": 2, "text": "Hope that never dies" },
+      { "kind": "p", "text": "Even after years, Yaʿqūb urged his sons never to lose hope in Allah's mercy, teaching that only the disbelievers give up on their Lord's relief." },
+      { "kind": "verse", "surah": 12, "ayah": 87, "note": "Yaʿqūb tells his sons never to despair of the mercy of Allah." },
+      { "kind": "p", "text": "In the end, Allah restored Yūsuf to him, and his sight and joy returned — the reward of a servant who trusted his Lord through the longest trial." },
+      { "kind": "list", "items": [
+        { "text": "Beautiful patience means grieving without complaint against Allah's decree." },
+        { "text": "Never lose hope in Allah's mercy, no matter how long the hardship." },
+        { "text": "Turn your sorrows to Allah, not to the criticism of people." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "याक़ूब (अलैहिस्सलाम), जिन्हें इसराईल भी कहा जाता है, इसहाक़ के पुत्र और इब्राहीम के पौत्र थे। वे एक नबी थे जिन्हें बारह पुत्रों की नेमत मिली, जिनसे बनी इसराईल के बारह क़बीले निकले।" },
+      { "kind": "heading", "level": 2, "text": "यूसुफ़ का वियोग" },
+      { "kind": "p", "text": "जब उनके पुत्र यूसुफ़ को उनके भाइयों की ईर्ष्या के कारण उनसे छीन लिया गया, तो याक़ूब गहरे दुःख से आहत हुए। फिर भी उन्होंने निराशा नहीं की और न लोगों से शिकायत की — उन्होंने अपना दुःख केवल अल्लाह की ओर मोड़ा और सुंदर धैर्य को थामे रखा।" },
+      { "kind": "verse", "surah": 12, "ayah": 18, "note": "याक़ूब सुंदर धैर्य का निश्चय करते हैं, जो वे कहते हैं उसके विरुद्ध अल्लाह से सहायता माँगते हुए।" },
+      { "kind": "heading", "level": 2, "text": "वह आशा जो कभी नहीं मरती" },
+      { "kind": "p", "text": "वर्षों बाद भी, याक़ूब ने अपने पुत्रों को कहा कि अल्लाह की दया से कभी निराश न हों, यह सिखाते हुए कि केवल इनकार करने वाले ही अपने रब की राहत से निराश होते हैं।" },
+      { "kind": "verse", "surah": 12, "ayah": 87, "note": "याक़ूब अपने पुत्रों से कहते हैं कि अल्लाह की दया से कभी निराश न हों।" },
+      { "kind": "p", "text": "अंततः, अल्लाह ने यूसुफ़ को उन्हें लौटा दिया, और उनकी दृष्टि और आनंद लौट आए — उस बंदे का प्रतिफल जिसने सबसे लंबी परीक्षा में अपने रब पर भरोसा रखा।" },
+      { "kind": "list", "items": [
+        { "text": "सुंदर धैर्य का अर्थ है अल्लाह के आदेश के विरुद्ध शिकायत किए बिना दुःख सहना।" },
+        { "text": "अल्लाह की दया से कभी निराश न हों, चाहे कठिनाई कितनी भी लंबी हो।" },
+        { "text": "अपने दुःख अल्लाह की ओर मोड़ें, लोगों की आलोचना की ओर नहीं।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "یعقوب علیہ السلام، جنہیں اسرائیل بھی کہا جاتا ہے، اسحاق کے بیٹے اور ابراہیم کے پوتے تھے۔ وہ ایک نبی تھے جنہیں بارہ بیٹوں کی نعمت ملی، جن سے بنی اسرائیل کے بارہ قبیلے نکلے۔" },
+      { "kind": "heading", "level": 2, "text": "یوسف کی جدائی" },
+      { "kind": "p", "text": "جب اُن کے بیٹے یوسف کو اُن کے بھائیوں کے حسد کے سبب اُن سے چھین لیا گیا، تو یعقوب گہرے غم سے دوچار ہوئے۔ پھر بھی انہوں نے مایوسی نہ کی اور نہ لوگوں سے شکایت کی — انہوں نے اپنا غم صرف اللہ کی طرف موڑا اور صبرِ جمیل کو تھامے رکھا۔" },
+      { "kind": "verse", "surah": 12, "ayah": 18, "note": "یعقوب صبرِ جمیل کا ارادہ کرتے ہیں، جو وہ بیان کرتے ہیں اُس کے خلاف اللہ سے مدد مانگتے ہوئے۔" },
+      { "kind": "heading", "level": 2, "text": "وہ امید جو کبھی نہیں مرتی" },
+      { "kind": "p", "text": "برسوں بعد بھی، یعقوب نے اپنے بیٹوں کو تلقین کی کہ اللہ کی رحمت سے کبھی مایوس نہ ہوں، یہ سکھاتے ہوئے کہ صرف کافر ہی اپنے رب کی راحت سے مایوس ہوتے ہیں۔" },
+      { "kind": "verse", "surah": 12, "ayah": 87, "note": "یعقوب اپنے بیٹوں سے کہتے ہیں کہ اللہ کی رحمت سے کبھی مایوس نہ ہوں۔" },
+      { "kind": "p", "text": "آخرکار، اللہ نے یوسف کو اُن کی طرف لوٹا دیا، اور اُن کی بینائی اور خوشی لوٹ آئی — اُس بندے کا اجر جس نے سب سے طویل آزمائش میں اپنے رب پر بھروسہ رکھا۔" },
+      { "kind": "list", "items": [
+        { "text": "صبرِ جمیل کا مطلب ہے اللہ کے فیصلے کے خلاف شکایت کیے بغیر غم سہنا۔" },
+        { "text": "اللہ کی رحمت سے کبھی مایوس نہ ہوں، خواہ مشکل کتنی ہی طویل ہو۔" },
+        { "text": "اپنے غم اللہ کی طرف موڑیں، لوگوں کی تنقید کی طرف نہیں۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "12:18" },
+    { "type": "quran", "ref": "12:83-87" },
+    { "type": "quran", "ref": "2:132-133" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["prophet-yusuf", "prophet-ishaq", "concept-sabr"]
+}

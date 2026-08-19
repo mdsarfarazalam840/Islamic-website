@@ -1,0 +1,62 @@
+{
+  "slug": "concept-tawhid",
+  "category": "concepts",
+  "featured": true,
+  "title": {
+    "en": "Tawḥīd — The Oneness of Allah",
+    "hi": "तौहीद — अल्लाह की एकता",
+    "ur": "توحید — اللہ کی وحدانیت"
+  },
+  "summary": {
+    "en": "Tawḥīd is the belief in the absolute oneness of Allah — in His lordship, His worship, and His names and attributes. It is the foundation of Islam and the message of every prophet.",
+    "hi": "तौहीद अल्लाह की पूर्ण एकता में विश्वास है — उसकी प्रभुता, उसकी इबादत, और उसके नामों व गुणों में। यह इस्लाम की बुनियाद और हर नबी का संदेश है।",
+    "ur": "توحید اللہ کی مکمل وحدانیت پر ایمان ہے — اُس کی ربوبیت، اُس کی عبادت، اور اُس کے اسماء و صفات میں۔ یہ اسلام کی بنیاد اور ہر نبی کا پیغام ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Tawḥīd — declaring Allah to be One — is the heart of Islam. Every prophet from Adam to Muhammad ﷺ came with the same essential call: worship Allah alone." },
+      { "kind": "verse", "surah": 112, "ayah": 1, "note": "Sūrat al-Ikhlāṣ opens with the purest statement of Allah's oneness." },
+      { "kind": "heading", "level": 2, "text": "Three dimensions of Tawḥīd" },
+      { "kind": "p", "text": "Scholars describe Tawḥīd in three interrelated aspects, all affirmed together." },
+      { "kind": "list", "items": [
+        { "text": "Tawḥīd al-Rubūbiyyah — oneness of lordship: Allah alone creates, sustains, and controls all things." },
+        { "text": "Tawḥīd al-Ulūhiyyah — oneness of worship: worship is due to Allah alone, with no partner." },
+        { "text": "Tawḥīd al-Asmāʾ wa-l-Ṣifāt — oneness of names and attributes: Allah's names and attributes are His alone, as He described Himself." }
+      ] },
+      { "kind": "heading", "level": 2, "text": "The opposite of Tawḥīd" },
+      { "kind": "p", "text": "The gravest sin in Islam is shirk — associating partners with Allah — because it contradicts the very purpose of creation. Tawḥīd is what saves and liberates the heart from servitude to anything besides its Creator." }
+    ],
+    "hi": [
+      { "kind": "p", "text": "तौहीद — अल्लाह को एक घोषित करना — इस्लाम का हृदय है। आदम से लेकर मुहम्मद ﷺ तक हर नबी एक ही मूल पुकार लेकर आया: केवल अल्लाह की इबादत करो।" },
+      { "kind": "verse", "surah": 112, "ayah": 1, "note": "सूरह अल-इख़लास अल्लाह की एकता के सबसे शुद्ध कथन से शुरू होती है।" },
+      { "kind": "heading", "level": 2, "text": "तौहीद के तीन आयाम" },
+      { "kind": "p", "text": "विद्वान तौहीद को तीन परस्पर संबंधित पहलुओं में वर्णित करते हैं, जिन्हें एक साथ स्वीकार किया जाता है।" },
+      { "kind": "list", "items": [
+        { "text": "तौहीद अर-रुबूबिय्या — प्रभुता की एकता: केवल अल्लाह ही सब कुछ रचता, पालता और नियंत्रित करता है।" },
+        { "text": "तौहीद अल-उलूहिय्या — इबादत की एकता: इबादत केवल अल्लाह के लिए है, कोई साझी नहीं।" },
+        { "text": "तौहीद अल-अस्मा वस-सिफ़ात — नामों और गुणों की एकता: अल्लाह के नाम और गुण केवल उसी के हैं, जैसा उसने स्वयं वर्णित किया।" }
+      ] },
+      { "kind": "heading", "level": 2, "text": "तौहीद का विपरीत" },
+      { "kind": "p", "text": "इस्लाम में सबसे बड़ा पाप शिर्क है — अल्लाह के साथ साझी ठहराना — क्योंकि यह सृष्टि के उद्देश्य के ही विरुद्ध है। तौहीद वही है जो दिल को उसके रचयिता के सिवा किसी की ग़ुलामी से बचाती और मुक्त करती है।" }
+    ],
+    "ur": [
+      { "kind": "p", "text": "توحید — اللہ کو ایک ماننا — اسلام کا دل ہے۔ آدم سے لے کر محمد ﷺ تک ہر نبی ایک ہی بنیادی پکار لے کر آیا: صرف اللہ کی عبادت کرو۔" },
+      { "kind": "verse", "surah": 112, "ayah": 1, "note": "سورۃ الاخلاص اللہ کی وحدانیت کے خالص ترین بیان سے شروع ہوتی ہے۔" },
+      { "kind": "heading", "level": 2, "text": "توحید کے تین پہلو" },
+      { "kind": "p", "text": "علماء توحید کو تین باہم مربوط پہلوؤں میں بیان کرتے ہیں، جن کا ایک ساتھ اقرار کیا جاتا ہے۔" },
+      { "kind": "list", "items": [
+        { "text": "توحیدِ ربوبیت — ربوبیت کی وحدانیت: صرف اللہ ہی سب کچھ پیدا کرتا، پالتا اور تدبیر کرتا ہے۔" },
+        { "text": "توحیدِ الوہیت — عبادت کی وحدانیت: عبادت صرف اللہ کے لیے ہے، کوئی شریک نہیں۔" },
+        { "text": "توحیدِ اسماء و صفات — ناموں اور صفات کی وحدانیت: اللہ کے نام اور صفات صرف اُسی کے ہیں، جیسا اُس نے خود بیان فرمایا۔" }
+      ] },
+      { "kind": "heading", "level": 2, "text": "توحید کی ضد" },
+      { "kind": "p", "text": "اسلام میں سب سے بڑا گناہ شرک ہے — اللہ کے ساتھ شریک ٹھہرانا — کیونکہ یہ تخلیق کے مقصد ہی کے خلاف ہے۔ توحید ہی وہ چیز ہے جو دل کو اُس کے خالق کے سوا ہر چیز کی غلامی سے بچاتی اور آزاد کرتی ہے۔" }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "112:1-4" },
+    { "type": "quran", "ref": "51:56" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["concept-shirk", "surah-al-ikhlas", "basics-belief-in-allah"]
+}

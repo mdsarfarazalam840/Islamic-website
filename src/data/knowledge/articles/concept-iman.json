@@ -1,0 +1,68 @@
+{
+  "slug": "concept-iman",
+  "category": "concepts",
+  "featured": false,
+  "title": {
+    "en": "Īmān — Faith",
+    "hi": "ईमान — विश्वास",
+    "ur": "ایمان — یقین"
+  },
+  "summary": {
+    "en": "Īmān is faith: to believe in the heart, affirm with the tongue, and act with the limbs. It rests on six pillars — belief in Allah, His angels, His books, His messengers, the Last Day, and divine decree — and it grows and weakens with a person's deeds.",
+    "hi": "ईमान विश्वास है: दिल से मानना, ज़बान से पुष्टि करना, और अंगों से कर्म करना। यह छह स्तंभों पर टिका है — अल्लाह, उसके फ़रिश्तों, उसकी किताबों, उसके रसूलों, आख़िरत के दिन, और तक़दीर पर विश्वास — और यह व्यक्ति के कर्मों से बढ़ता और घटता है।",
+    "ur": "ایمان یقین ہے: دل سے ماننا، زبان سے اقرار کرنا، اور اعضاء سے عمل کرنا۔ یہ چھ ارکان پر قائم ہے — اللہ، اُس کے فرشتوں، اُس کی کتابوں، اُس کے رسولوں، روزِ آخرت، اور تقدیر پر یقین — اور یہ انسان کے اعمال سے بڑھتا اور گھٹتا ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Īmān — faith — is the foundation of a Muslim's life. It is not mere words: the scholars define it as belief held firmly in the heart, affirmed openly with the tongue, and shown through action. True faith and righteous deeds are named together again and again in the Qur'an." },
+      { "kind": "verse", "surah": 49, "ayah": 15, "note": "The believers are only those who believe in Allah and His Messenger and then do not doubt, striving with their wealth and their lives." },
+      { "kind": "heading", "level": 2, "text": "The six pillars of faith" },
+      { "kind": "p", "text": "When the angel Jibrīl asked the Prophet ﷺ about faith, he answered that it is to believe in Allah, His angels, His books, His messengers, the Last Day, and in the divine decree, its good and its evil." },
+      { "kind": "verse", "surah": 2, "ayah": 285, "note": "The Messenger believes in what was revealed to him, as do the believers — each believes in Allah, His angels, His books, and His messengers." },
+      { "kind": "heading", "level": 2, "text": "Faith that rises and falls" },
+      { "kind": "p", "text": "Īmān is not fixed: it increases with obedience and remembrance and weakens with sin and heedlessness. The believer is urged to tend it constantly, for hearts turn, and Allah alone keeps them firm." },
+      { "kind": "verse", "surah": 8, "ayah": 2, "note": "The believers are those whose hearts tremble when Allah is mentioned, and whose faith increases when His verses are recited to them." },
+      { "kind": "list", "items": [
+        { "text": "Faith is belief in the heart, affirmation on the tongue, and action in the limbs." },
+        { "text": "Its six pillars include belief in Allah, His angels, books, messengers, the Last Day, and decree." },
+        { "text": "Īmān grows with obedience and weakens with sin, so it must be nurtured." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "ईमान — विश्वास — एक मुसलमान के जीवन की बुनियाद है। यह केवल शब्द नहीं: विद्वान इसे दिल में दृढ़ता से रखा गया विश्वास, ज़बान से खुलकर पुष्टि, और कर्म से प्रकट परिभाषित करते हैं। सच्चा ईमान और नेक कर्म क़ुरआन में बार-बार एक साथ नामित हैं।" },
+      { "kind": "verse", "surah": 49, "ayah": 15, "note": "ईमान वाले केवल वे हैं जो अल्लाह और उसके रसूल पर ईमान लाए फिर संदेह नहीं किया, अपने धन और अपनी जानों से संघर्ष करते हुए।" },
+      { "kind": "heading", "level": 2, "text": "ईमान के छह स्तंभ" },
+      { "kind": "p", "text": "जब फ़रिश्ते जिब्रील ने नबी ﷺ से ईमान के बारे में पूछा, उन्होंने उत्तर दिया कि यह अल्लाह, उसके फ़रिश्तों, उसकी किताबों, उसके रसूलों, आख़िरत के दिन, और तक़दीर पर, उसके भले और बुरे पर विश्वास करना है।" },
+      { "kind": "verse", "surah": 2, "ayah": 285, "note": "रसूल उस पर ईमान लाया जो उस पर उतारा गया, और ईमान वाले भी — हर एक अल्लाह, उसके फ़रिश्तों, उसकी किताबों, और उसके रसूलों पर ईमान लाता है।" },
+      { "kind": "heading", "level": 2, "text": "ईमान जो बढ़ता और घटता है" },
+      { "kind": "p", "text": "ईमान स्थिर नहीं: यह आज्ञापालन और स्मरण से बढ़ता है और गुनाह व लापरवाही से घटता है। ईमान वाले से आग्रह है कि इसकी निरंतर देखभाल करे, क्योंकि दिल पलटते हैं, और अल्लाह ही उन्हें दृढ़ रखता है।" },
+      { "kind": "verse", "surah": 8, "ayah": 2, "note": "ईमान वाले वे हैं जिनके दिल अल्लाह के ज़िक्र पर काँप उठते हैं, और जब उसकी आयतें उन्हें पढ़कर सुनाई जाती हैं तो उनका ईमान बढ़ जाता है।" },
+      { "kind": "list", "items": [
+        { "text": "ईमान दिल में विश्वास, ज़बान पर पुष्टि, और अंगों में कर्म है।" },
+        { "text": "इसके छह स्तंभों में अल्लाह, उसके फ़रिश्तों, किताबों, रसूलों, आख़िरत के दिन, और तक़दीर पर विश्वास शामिल है।" },
+        { "text": "ईमान आज्ञापालन से बढ़ता है और गुनाह से घटता है, इसलिए इसे पोषित करना चाहिए।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "ایمان — یقین — ایک مسلمان کی زندگی کی بنیاد ہے۔ یہ محض الفاظ نہیں: علماء اِسے دل میں مضبوطی سے رکھا گیا یقین، زبان سے کھلا اقرار، اور عمل سے ظاہر ہونا بیان کرتے ہیں۔ سچا ایمان اور نیک اعمال قرآن میں بار بار ایک ساتھ نامزد ہیں۔" },
+      { "kind": "verse", "surah": 49, "ayah": 15, "note": "مومن صرف وہی ہیں جو اللہ اور اُس کے رسول پر ایمان لائے پھر شک نہ کیا، اپنے مال اور اپنی جانوں سے جہاد کرتے ہوئے۔" },
+      { "kind": "heading", "level": 2, "text": "ایمان کے چھ ارکان" },
+      { "kind": "p", "text": "جب فرشتے جبریل نے نبی ﷺ سے ایمان کے بارے میں پوچھا، اُنہوں نے جواب دیا کہ یہ اللہ، اُس کے فرشتوں، اُس کی کتابوں، اُس کے رسولوں، روزِ آخرت، اور تقدیر پر، اُس کے اچھے اور برے پر یقین کرنا ہے۔" },
+      { "kind": "verse", "surah": 2, "ayah": 285, "note": "رسول اُس پر ایمان لایا جو اُس پر نازل کیا گیا، اور مومن بھی — ہر ایک اللہ، اُس کے فرشتوں، اُس کی کتابوں، اور اُس کے رسولوں پر ایمان لاتا ہے۔" },
+      { "kind": "heading", "level": 2, "text": "ایمان جو بڑھتا اور گھٹتا ہے" },
+      { "kind": "p", "text": "ایمان ثابت نہیں: یہ اطاعت اور ذکر سے بڑھتا ہے اور گناہ و غفلت سے گھٹتا ہے۔ مومن سے تاکید ہے کہ اِس کی مسلسل دیکھ بھال کرے، کیونکہ دل پلٹتے ہیں، اور اللہ ہی انہیں ثابت رکھتا ہے۔" },
+      { "kind": "verse", "surah": 8, "ayah": 2, "note": "مومن وہ ہیں جن کے دل اللہ کے ذکر پر کانپ اٹھتے ہیں، اور جب اُس کی آیتیں اُنہیں پڑھ کر سنائی جاتی ہیں تو اُن کا ایمان بڑھ جاتا ہے۔" },
+      { "kind": "list", "items": [
+        { "text": "ایمان دل میں یقین، زبان پر اقرار، اور اعضاء میں عمل ہے۔" },
+        { "text": "اِس کے چھ ارکان میں اللہ، اُس کے فرشتوں، کتابوں، رسولوں، روزِ آخرت، اور تقدیر پر یقین شامل ہے۔" },
+        { "text": "ایمان اطاعت سے بڑھتا ہے اور گناہ سے گھٹتا ہے، اِس لیے اِس کی پرورش ضروری ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "49:15" },
+    { "type": "quran", "ref": "2:285" },
+    { "type": "quran", "ref": "8:2-4" }
+  ],
+  "relatedSlugs": ["basics-belief-in-allah", "concept-taqwa", "concept-tawhid"]
+}

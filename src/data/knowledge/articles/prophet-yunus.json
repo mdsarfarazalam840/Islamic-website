@@ -1,0 +1,70 @@
+{
+  "slug": "prophet-yunus",
+  "category": "prophets",
+  "prophetNumber": 21,
+  "featured": true,
+  "title": {
+    "en": "Yūnus (Jonah) — The Prophet of the Whale",
+    "hi": "यूनुस (यूनुस अलैहिस्सलाम) — मछली वाले नबी",
+    "ur": "یونس علیہ السلام — مچھلی والے نبی"
+  },
+  "summary": {
+    "en": "Yūnus left his people in frustration before Allah permitted it and was swallowed by a great fish. In its darkness he called upon Allah with a prayer of humility, was delivered, and returned to find his whole people had believed — the one town saved by turning back in time.",
+    "hi": "यूनुस अल्लाह की अनुमति से पहले हताशा में अपनी क़ौम को छोड़ गए और एक विशाल मछली द्वारा निगल लिए गए। उसके अंधकार में उन्होंने विनम्रता की दुआ के साथ अल्लाह को पुकारा, बचा लिए गए, और लौटकर पाया कि उनकी पूरी क़ौम ईमान ले आई थी — वह एकमात्र बस्ती जो समय रहते लौटकर बच गई।",
+    "ur": "یونس علیہ السلام اللہ کی اجازت سے پہلے بے چینی میں اپنی قوم کو چھوڑ گئے اور ایک بڑی مچھلی نے انہیں نگل لیا۔ اُس کے اندھیرے میں انہوں نے عاجزی کی دعا کے ساتھ اللہ کو پکارا، بچا لیے گئے، اور واپس آ کر پایا کہ اُن کی پوری قوم ایمان لے آئی تھی — وہ واحد بستی جو وقت رہتے پلٹ کر بچ گئی۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Yūnus (peace be upon him) was sent to a great city, but when his people refused to believe, he departed in anger before Allah had given him leave to leave them. He boarded a ship, and out at sea a mighty fish swallowed him whole." },
+      { "kind": "verse", "surah": 21, "ayah": 87, "note": "Yūnus departs in anger, then calls out from the darkness: there is no deity except You; glory to You; I have been among the wrongdoers." },
+      { "kind": "heading", "level": 2, "text": "The prayer in the darkness" },
+      { "kind": "p", "text": "In the layered darkness of the sea, the night, and the fish's belly, Yūnus turned wholly to Allah, confessing his fault and glorifying his Lord. Allah heard him and rescued him from his distress." },
+      { "kind": "verse", "surah": 21, "ayah": 88, "note": "Allah responds: We saved him from the distress. And thus do We save the believers." },
+      { "kind": "heading", "level": 2, "text": "A people who believed in time" },
+      { "kind": "p", "text": "Cast onto the shore and restored, Yūnus returned to his people — and found that they had believed and been spared. The Qur'an holds them up as the one community whose faith, embraced in time, turned away the punishment." },
+      { "kind": "verse", "surah": 10, "ayah": 98, "note": "Had there been a town that believed and profited by its faith — except the people of Yūnus; when they believed, We removed the disgraceful punishment." },
+      { "kind": "list", "items": [
+        { "text": "No darkness is too deep for a sincere call to Allah to reach through." },
+        { "text": "Turning back to Allah in time can avert what is decreed." },
+        { "text": "Even a prophet is taught patience with those he calls." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "यूनुस (अलैहिस्सलाम) एक बड़े नगर की ओर भेजे गए, परन्तु जब उनकी क़ौम ने ईमान लाने से इनकार किया, तो वे अल्लाह की अनुमति से पहले क्रोध में चले गए। वे एक जहाज़ पर सवार हुए, और समुद्र में एक विशाल मछली ने उन्हें पूरा निगल लिया।" },
+      { "kind": "verse", "surah": 21, "ayah": 87, "note": "यूनुस क्रोध में चले जाते हैं, फिर अंधकार से पुकारते हैं: तेरे सिवा कोई माबूद नहीं; तू पाक है; मैं अत्याचारियों में से रहा हूँ।" },
+      { "kind": "heading", "level": 2, "text": "अंधकार में दुआ" },
+      { "kind": "p", "text": "समुद्र, रात और मछली के पेट के परतदार अंधकार में, यूनुस पूरी तरह अल्लाह की ओर मुड़े, अपनी भूल स्वीकार करते और अपने रब की तस्बीह करते हुए। अल्लाह ने उन्हें सुना और उनके संकट से उन्हें बचा लिया।" },
+      { "kind": "verse", "surah": 21, "ayah": 88, "note": "अल्लाह उत्तर देता है: हमने उन्हें संकट से बचा लिया। और इसी प्रकार हम ईमान वालों को बचाते हैं।" },
+      { "kind": "heading", "level": 2, "text": "एक क़ौम जो समय रहते ईमान लाई" },
+      { "kind": "p", "text": "किनारे पर फेंके गए और स्वस्थ किए गए, यूनुस अपनी क़ौम के पास लौटे — और पाया कि वे ईमान ले आए थे और बचा लिए गए थे। क़ुरआन उन्हें उस एकमात्र समुदाय के रूप में प्रस्तुत करता है जिसका ईमान, समय रहते अपनाया गया, ने सज़ा को टाल दिया।" },
+      { "kind": "verse", "surah": 10, "ayah": 98, "note": "काश कोई ऐसी बस्ती होती जो ईमान लाती और अपने ईमान से लाभ उठाती — सिवाय यूनुस की क़ौम के; जब वे ईमान लाए, तो हमने अपमानजनक सज़ा हटा दी।" },
+      { "kind": "list", "items": [
+        { "text": "कोई अंधकार इतना गहरा नहीं कि अल्लाह को की गई निष्ठावान पुकार वहाँ तक न पहुँचे।" },
+        { "text": "समय रहते अल्लाह की ओर लौटना निश्चित को टाल सकता है।" },
+        { "text": "एक नबी को भी उन लोगों के साथ धैर्य सिखाया जाता है जिन्हें वह बुलाता है।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "یونس علیہ السلام ایک بڑے شہر کی طرف بھیجے گئے، مگر جب اُن کی قوم نے ایمان لانے سے انکار کیا، تو وہ اللہ کی اجازت سے پہلے غصے میں چلے گئے۔ وہ ایک کشتی پر سوار ہوئے، اور سمندر میں ایک بڑی مچھلی نے انہیں پورا نگل لیا۔" },
+      { "kind": "verse", "surah": 21, "ayah": 87, "note": "یونس غصے میں چلے جاتے ہیں، پھر اندھیرے سے پکارتے ہیں: تیرے سوا کوئی معبود نہیں؛ تو پاک ہے؛ میں ظالموں میں سے رہا ہوں۔" },
+      { "kind": "heading", "level": 2, "text": "اندھیرے میں دعا" },
+      { "kind": "p", "text": "سمندر، رات اور مچھلی کے پیٹ کے تہ در تہ اندھیرے میں، یونس پوری طرح اللہ کی طرف متوجہ ہوئے، اپنی غلطی کا اعتراف کرتے اور اپنے رب کی تسبیح کرتے ہوئے۔ اللہ نے انہیں سنا اور اُن کی تکلیف سے انہیں بچا لیا۔" },
+      { "kind": "verse", "surah": 21, "ayah": 88, "note": "اللہ جواب دیتا ہے: ہم نے انہیں تکلیف سے بچا لیا۔ اور اسی طرح ہم مومنوں کو بچاتے ہیں۔" },
+      { "kind": "heading", "level": 2, "text": "ایک قوم جو وقت رہتے ایمان لائی" },
+      { "kind": "p", "text": "ساحل پر پھینکے گئے اور بحال کیے گئے، یونس اپنی قوم کے پاس لوٹے — اور پایا کہ وہ ایمان لے آئے تھے اور بچا لیے گئے تھے۔ قرآن انہیں اُس واحد جماعت کے طور پر پیش کرتا ہے جس کا ایمان، وقت رہتے اپنایا گیا، عذاب کو ٹال گیا۔" },
+      { "kind": "verse", "surah": 10, "ayah": 98, "note": "کاش کوئی ایسی بستی ہوتی جو ایمان لاتی اور اپنے ایمان سے فائدہ اٹھاتی — سوائے یونس کی قوم کے؛ جب وہ ایمان لائے، تو ہم نے رسوا کن عذاب ہٹا دیا۔" },
+      { "kind": "list", "items": [
+        { "text": "کوئی اندھیرا اتنا گہرا نہیں کہ اللہ کو کی گئی مخلص پکار وہاں تک نہ پہنچے۔" },
+        { "text": "وقت رہتے اللہ کی طرف پلٹنا مقدر کو ٹال سکتا ہے۔" },
+        { "text": "ایک نبی کو بھی اُن لوگوں کے ساتھ صبر سکھایا جاتا ہے جنہیں وہ بلاتا ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "21:87-88" },
+    { "type": "quran", "ref": "37:139-148" },
+    { "type": "quran", "ref": "10:98" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["concept-tawbah", "concept-dua", "prophet-nuh"]
+}

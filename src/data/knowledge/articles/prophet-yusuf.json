@@ -1,0 +1,79 @@
+{
+  "slug": "prophet-yusuf",
+  "category": "prophets",
+  "prophetNumber": 11,
+  "featured": true,
+  "title": {
+    "en": "Yūsuf (Joseph) — From the Well to Authority",
+    "hi": "यूसुफ़ (यूसुफ़ अलैहिस्सलाम) — कुएँ से सत्ता तक",
+    "ur": "یوسف علیہ السلام — کنویں سے اقتدار تک"
+  },
+  "summary": {
+    "en": "Yūsuf endured his brothers' betrayal, slavery, false accusation, and prison, yet held to faith and forgiveness. Allah raised him to power in Egypt, where he saved a nation from famine and forgave the brothers who wronged him.",
+    "hi": "यूसुफ़ ने अपने भाइयों के विश्वासघात, ग़ुलामी, झूठे आरोप और क़ैद को सहा, फिर भी ईमान और क्षमा को थामे रखा। अल्लाह ने उन्हें मिस्र में सत्ता तक उठाया, जहाँ उन्होंने एक राष्ट्र को अकाल से बचाया और उन भाइयों को क्षमा किया जिन्होंने उन पर अत्याचार किया था।",
+    "ur": "یوسف علیہ السلام نے اپنے بھائیوں کی غداری، غلامی، جھوٹے الزام اور قید کو برداشت کیا، پھر بھی ایمان اور معافی کو تھامے رکھا۔ اللہ نے انہیں مصر میں اقتدار تک پہنچایا، جہاں انہوں نے ایک قوم کو قحط سے بچایا اور اُن بھائیوں کو معاف کیا جنہوں نے اُن پر ظلم کیا تھا۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "The story of Yūsuf (peace be upon him) is called by the Qur'an the most beautiful of narratives. It is a single, complete account of trust in Allah tested through betrayal, temptation, and long suffering — and vindicated in the end." },
+      { "kind": "verse", "surah": 12, "ayah": 4, "note": "The young Yūsuf tells his father of a dream: eleven stars, the sun, and the moon prostrating to him." },
+      { "kind": "heading", "level": 2, "text": "The well and Egypt" },
+      { "kind": "p", "text": "His brothers, envious of their father's love for him, threw him into a well and sold him into slavery. He was carried to Egypt and raised in a noble house, where Allah taught him wisdom and the interpretation of dreams." },
+      { "kind": "verse", "surah": 12, "ayah": 23, "note": "The wife of his master attempts to seduce him, but Yūsuf seeks refuge in Allah." },
+      { "kind": "heading", "level": 2, "text": "Temptation and prison" },
+      { "kind": "p", "text": "Falsely accused after refusing sin, Yūsuf preferred prison to disobeying Allah. There he called his fellow prisoners to the worship of the One God and interpreted the dreams that would one day free him." },
+      { "kind": "verse", "surah": 12, "ayah": 53, "note": "Yūsuf acknowledges that the soul is inclined to evil, except for those to whom his Lord shows mercy." },
+      { "kind": "heading", "level": 2, "text": "Power and forgiveness" },
+      { "kind": "p", "text": "Interpreting the king's dream of seven lean and fat years, Yūsuf was placed over the storehouses of Egypt and steered it through famine. When his brothers came seeking food, he forgave them with the noblest of words and reunited with his father." },
+      { "kind": "verse", "surah": 12, "ayah": 92, "note": "Yūsuf tells his brothers: no blame upon you today; may Allah forgive you." },
+      { "kind": "list", "items": [
+        { "text": "Patience and God-consciousness turn every trial into a step toward honour." },
+        { "text": "Guarding oneself from sin is worth any worldly cost." },
+        { "text": "Forgiveness is the crown of the strong, not the weak." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "यूसुफ़ (अलैहिस्सलाम) की कहानी को क़ुरआन ने कथाओं में सबसे सुंदर कहा है। यह अल्लाह पर भरोसे का एक अकेला, पूर्ण वृत्तांत है जो विश्वासघात, प्रलोभन और लंबे कष्ट से परखा गया — और अंत में सत्य सिद्ध हुआ।" },
+      { "kind": "verse", "surah": 12, "ayah": 4, "note": "युवा यूसुफ़ अपने पिता को एक स्वप्न बताते हैं: ग्यारह तारे, सूरज और चाँद उन्हें सजदा करते हुए।" },
+      { "kind": "heading", "level": 2, "text": "कुआँ और मिस्र" },
+      { "kind": "p", "text": "उनके भाई, अपने पिता के उनके प्रति प्रेम से ईर्ष्यालु होकर, उन्हें एक कुएँ में डाल दिया और ग़ुलामी में बेच दिया। वे मिस्र ले जाए गए और एक कुलीन घर में पले, जहाँ अल्लाह ने उन्हें हिकमत और स्वप्नों की व्याख्या सिखाई।" },
+      { "kind": "verse", "surah": 12, "ayah": 23, "note": "उनके स्वामी की पत्नी उन्हें बहकाने का प्रयास करती है, परन्तु यूसुफ़ अल्लाह की शरण माँगते हैं।" },
+      { "kind": "heading", "level": 2, "text": "प्रलोभन और क़ैद" },
+      { "kind": "p", "text": "पाप से इनकार के बाद झूठा आरोप लगाए जाने पर, यूसुफ़ ने अल्लाह की अवज्ञा के बजाय क़ैद को प्राथमिकता दी। वहाँ उन्होंने अपने साथी क़ैदियों को एक ईश्वर की इबादत की ओर बुलाया और उन स्वप्नों की व्याख्या की जो एक दिन उन्हें मुक्त कराएँगे।" },
+      { "kind": "verse", "surah": 12, "ayah": 53, "note": "यूसुफ़ स्वीकार करते हैं कि मन बुराई की ओर झुका रहता है, सिवाय उनके जिन पर उनका रब दया करे।" },
+      { "kind": "heading", "level": 2, "text": "सत्ता और क्षमा" },
+      { "kind": "p", "text": "राजा के सात दुबले और मोटे वर्षों के स्वप्न की व्याख्या करके, यूसुफ़ को मिस्र के भंडारों पर नियुक्त किया गया और उन्होंने उसे अकाल से पार निकाला। जब उनके भाई भोजन माँगने आए, तो उन्होंने उन्हें सबसे उदार शब्दों से क्षमा किया और अपने पिता से पुनर्मिलन किया।" },
+      { "kind": "verse", "surah": 12, "ayah": 92, "note": "यूसुफ़ अपने भाइयों से कहते हैं: आज तुम पर कोई दोष नहीं; अल्लाह तुम्हें क्षमा करे।" },
+      { "kind": "list", "items": [
+        { "text": "धैर्य और ख़ुदा-चेतना हर परीक्षा को सम्मान की ओर एक क़दम बना देते हैं।" },
+        { "text": "स्वयं को पाप से बचाना किसी भी सांसारिक क़ीमत के योग्य है।" },
+        { "text": "क्षमा बलवानों का ताज है, कमज़ोरों का नहीं।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "یوسف علیہ السلام کا قصہ قرآن نے قصوں میں سب سے خوبصورت کہا ہے۔ یہ اللہ پر بھروسے کی ایک واحد، مکمل داستان ہے جو غداری، آزمائش اور طویل تکلیف سے پرکھی گئی — اور آخر میں سچ ثابت ہوئی۔" },
+      { "kind": "verse", "surah": 12, "ayah": 4, "note": "نوجوان یوسف اپنے والد کو ایک خواب بتاتے ہیں: گیارہ ستارے، سورج اور چاند انہیں سجدہ کرتے ہوئے۔" },
+      { "kind": "heading", "level": 2, "text": "کنواں اور مصر" },
+      { "kind": "p", "text": "اُن کے بھائی، اپنے والد کی اُن سے محبت پر حسد کرتے ہوئے، انہیں ایک کنویں میں ڈال کر غلامی میں بیچ دیا۔ وہ مصر لے جائے گئے اور ایک معزز گھر میں پلے، جہاں اللہ نے انہیں حکمت اور خوابوں کی تعبیر سکھائی۔" },
+      { "kind": "verse", "surah": 12, "ayah": 23, "note": "اُن کے آقا کی بیوی انہیں بہکانے کی کوشش کرتی ہے، مگر یوسف اللہ کی پناہ مانگتے ہیں۔" },
+      { "kind": "heading", "level": 2, "text": "آزمائش اور قید" },
+      { "kind": "p", "text": "گناہ سے انکار کے بعد جھوٹا الزام لگنے پر، یوسف نے اللہ کی نافرمانی کے بجائے قید کو ترجیح دی۔ وہاں انہوں نے اپنے ساتھی قیدیوں کو ایک خدا کی عبادت کی دعوت دی اور اُن خوابوں کی تعبیر کی جو ایک دن انہیں آزاد کرائیں گے۔" },
+      { "kind": "verse", "surah": 12, "ayah": 53, "note": "یوسف اعتراف کرتے ہیں کہ نفس برائی کی طرف مائل رہتا ہے، سوائے اُن کے جن پر اُن کا رب رحم کرے۔" },
+      { "kind": "heading", "level": 2, "text": "اقتدار اور معافی" },
+      { "kind": "p", "text": "بادشاہ کے سات دبلے اور موٹے برسوں کے خواب کی تعبیر کر کے، یوسف کو مصر کے خزانوں پر مقرر کیا گیا اور انہوں نے اُسے قحط سے پار نکالا۔ جب اُن کے بھائی کھانا مانگنے آئے، تو انہوں نے انہیں سب سے شریف الفاظ سے معاف کیا اور اپنے والد سے دوبارہ ملے۔" },
+      { "kind": "verse", "surah": 12, "ayah": 92, "note": "یوسف اپنے بھائیوں سے کہتے ہیں: آج تم پر کوئی ملامت نہیں؛ اللہ تمہیں معاف کرے۔" },
+      { "kind": "list", "items": [
+        { "text": "صبر اور تقویٰ ہر آزمائش کو عزت کی طرف ایک قدم بنا دیتے ہیں۔" },
+        { "text": "خود کو گناہ سے بچانا کسی بھی دنیاوی قیمت کے لائق ہے۔" },
+        { "text": "معافی طاقتور کا تاج ہے، کمزور کا نہیں۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "12:1-111" },
+    { "type": "quran", "ref": "12:53" },
+    { "type": "quran", "ref": "12:90-92" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["prophet-yaqub", "concept-sabr", "concept-tawbah"]
+}
