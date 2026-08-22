@@ -5,6 +5,8 @@ import {
   ScrollText,
   BookMarked,
   Lightbulb,
+  Footprints,
+  Quote,
   type LucideIcon,
 } from "lucide-react"
 
@@ -16,7 +18,7 @@ export interface KnowledgeCategoryInfo {
 }
 
 /**
- * The five Knowledge Base categories, in display order. This is the single
+ * The Knowledge Base categories, in display order. This is the single
  * source of truth mapped over by the landing page, the category filter, and
  * the sitemap. Kept free of `fs`/Node imports so client components can import
  * it directly (the article loader in ./articles.ts is server-only).
@@ -65,6 +67,20 @@ export const KNOWLEDGE_CATEGORIES: KnowledgeCategoryInfo[] = [
     },
   },
   {
+    id: "seerah",
+    icon: Footprints,
+    label: {
+      en: "The Seerah",
+      hi: "सीरत",
+      ur: "سیرت",
+    },
+    blurb: {
+      en: "The life of the Prophet Muhammad ﷺ — the great events, battles, and turning points.",
+      hi: "पैगंबर मुहम्मद ﷺ का जीवन — प्रमुख घटनाएँ, युद्ध और निर्णायक मोड़।",
+      ur: "نبی کریم ﷺ کی حیاتِ طیبہ — عظیم واقعات، غزوات اور اہم موڑ۔",
+    },
+  },
+  {
     id: "quranic",
     icon: ScrollText,
     label: {
@@ -76,6 +92,20 @@ export const KNOWLEDGE_CATEGORIES: KnowledgeCategoryInfo[] = [
       en: "Parables and narratives told in the Qur'an and the lessons they carry.",
       hi: "क़ुरआन में वर्णित दृष्टांत और कथाएँ और उनकी शिक्षाएँ।",
       ur: "قرآن میں بیان کردہ واقعات اور تمثیلیں اور اُن کے اسباق۔",
+    },
+  },
+  {
+    id: "hadith-stories",
+    icon: Quote,
+    label: {
+      en: "Stories from Hadith",
+      hi: "हदीस की कहानियाँ",
+      ur: "احادیث کے قصص",
+    },
+    blurb: {
+      en: "Authentic stories the Prophet ﷺ told, preserved in the hadith collections.",
+      hi: "पैगंबर ﷺ द्वारा सुनाई गई प्रामाणिक कहानियाँ, जो हदीस संग्रहों में सुरक्षित हैं।",
+      ur: "نبی کریم ﷺ کے بیان کردہ مستند قصص، جو کتبِ احادیث میں محفوظ ہیں۔",
     },
   },
   {

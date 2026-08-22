@@ -1,6 +1,6 @@
 "use client"
 
-import { useMemo, useState } from "react"
+import { useEffect, useMemo, useState } from "react"
 import { Library, Search, Filter } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { pick } from "@/lib/knowledge/lang"
@@ -8,7 +8,11 @@ import { KNOWLEDGE_CATEGORIES, type KnowledgeCategoryInfo } from "@/lib/knowledg
 import { KnowledgeCategoryCard } from "./KnowledgeCategoryCard"
 import { KnowledgeCard } from "./KnowledgeCard"
 import { KnowledgeLanguageTabs } from "./KnowledgeLanguageTabs"
+import { Pagination } from "@/components/shared/Pagination"
 import type { KnowledgeArticleMeta, KnowledgeCategory, Language } from "@/types"
+
+// Articles per page — a multiple of 3 so the last row of the 3-column grid stays full.
+const PAGE_SIZE = 12
 
 interface KnowledgeIndexClientProps {
   articles: KnowledgeArticleMeta[]
@@ -30,6 +34,7 @@ export function KnowledgeIndexClient({
   const [lang, setLang] = useState<Language>("en")
   const [query, setQuery] = useState("")
   const [category, setCategory] = useState<CategoryFilter>("all")
+  const [page, setPage] = useState(1)
 
   const isLanding = !!categoryCounts
 
@@ -45,6 +50,21 @@ export function KnowledgeIndexClient({
       )
     })
   }, [articles, query, category, lang, isLanding])
+
+  // Reset to the first page whenever the filtered set changes (search or category).
+  useEffect(() => {
+    setPage(1)
+  }, [query, category])
+
+  const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE))
+  const currentPage = Math.min(page, totalPages)
+  const start = (currentPage - 1) * PAGE_SIZE
+  const visible = filtered.slice(start, start + PAGE_SIZE)
+
+  const goToPage = (p: number) => {
+    setPage(Math.min(Math.max(1, p), totalPages))
+    requestAnimationFrame(() => window.scrollTo({ top: 0, behavior: "smooth" }))
+  }
 
   const pills: { id: CategoryFilter; label: string }[] = useMemo(() => {
     const list: { id: CategoryFilter; label: string }[] = [{ id: "all", label: "All" }]
@@ -132,11 +152,22 @@ export function KnowledgeIndexClient({
           </button>
         </div>
       ) : (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {filtered.map((a) => (
-            <KnowledgeCard key={a.slug} article={a} lang={lang} />
-          ))}
-        </div>
+        <>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {visible.map((a) => (
+              <KnowledgeCard key={a.slug} article={a} lang={lang} />
+            ))}
+          </div>
+          <Pagination
+            currentPage={currentPage}
+            totalPages={totalPages}
+            onPageChange={goToPage}
+          />
+          <p className="text-center text-xs text-muted-foreground mt-6">
+            Showing {start + 1}–{start + visible.length} of {filtered.length}
+            {totalPages > 1 && ` · Page ${currentPage} of ${totalPages}`}
+          </p>
+        </>
       )}
     </>
   )

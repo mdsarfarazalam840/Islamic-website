@@ -1,0 +1,64 @@
+{
+  "slug": "seerah-isra-miraj",
+  "category": "seerah",
+  "title": {
+    "en": "Al-Isra wal-Mi'raj: The Night Journey and Ascension",
+    "hi": "अल-इसरा वल-मेराज: रात्रि यात्रा और ऊर्ध्वारोहण",
+    "ur": "الاسراء والمعراج: شبِ سفر اور معراج"
+  },
+  "summary": {
+    "en": "In a single night, Allah carried the Prophet ﷺ from the Sacred Mosque in Makkah to Jerusalem, then raised him through the heavens to a station none had reached. There the five daily prayers were prescribed — a comfort granted in the Year of Sorrow.",
+    "hi": "एक ही रात में, अल्लाह ने पैगंबर ﷺ को मक्का की मस्जिद-अल-हराम से येरूशलम पहुँचाया, फिर उन्हें आसमानों के पार एक ऐसे मक़ाम तक उठाया जहाँ कोई न पहुँचा था। वहाँ पाँच वक़्त की नमाज़ें फ़र्ज़ की गईं — ग़म के साल में दी गई एक तसल्ली।",
+    "ur": "ایک ہی رات میں، اللہ نے نبی ﷺ کو مکہ کی مسجدِ حرام سے بیت المقدس پہنچایا، پھر انہیں آسمانوں کے پار ایک ایسے مقام تک اٹھایا جہاں کوئی نہ پہنچا تھا۔ وہاں پانچ وقت کی نمازیں فرض کی گئیں — عام الحزن میں دی گئی ایک تسلی۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "After the death of his uncle Abu Talib and his beloved wife Khadijah — the Year of Sorrow — and the harsh rejection at Ta'if, Allah honoured His Prophet ﷺ with a miraculous journey. The Isra was the night journey from the Sacred Mosque (al-Masjid al-Haram) in Makkah to the Farthest Mosque (al-Masjid al-Aqsa) in Jerusalem, carried on a heavenly mount called al-Buraq." },
+      { "kind": "verse", "surah": 17, "ayah": 1, "note": "'Glory to the One who took His servant by night from the Sacred Mosque to the Farthest Mosque, whose surroundings We blessed, to show him of Our signs.'" },
+      { "kind": "heading", "level": 2, "text": "Leading the prophets, ascending the heavens" },
+      { "kind": "p", "text": "At al-Aqsa, the Prophet ﷺ led all the previous prophets in prayer — a sign that the message of Islam completes and unites their missions. Then came the Mi'raj, the ascension through the seven heavens, where he met prophets including Adam, Isa (Jesus), Yusuf, Idris, Harun, Musa (Moses), and Ibrahim (Abraham). He was shown Paradise and the Fire, and taken to the Lote Tree of the Utmost Boundary (Sidrat al-Muntaha), a station of nearness to Allah." },
+      { "kind": "heading", "level": 2, "text": "The gift of prayer" },
+      { "kind": "p", "text": "There Allah prescribed fifty daily prayers. On the advice of Musa, the Prophet ﷺ returned repeatedly to ask for them to be lightened, until they were reduced to five in deed — yet counted as fifty in reward. The salah is thus a direct gift from Allah to the believer, prescribed above the heavens." },
+      { "kind": "heading", "level": 2, "text": "Lessons" },
+      { "kind": "list", "items": [
+        { "text": "After every hardship Allah sends relief and honour to those patient with Him." },
+        { "text": "The five daily prayers are a supreme gift, tying every believer to their Lord." },
+        { "text": "Islam affirms and completes the message of all the prophets before it." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "अपने चाचा अबू तालिब और अपनी प्रिय पत्नी ख़दीजा की मृत्यु — ग़म का साल — और ताइफ़ में कठोर अस्वीकृति के बाद, अल्लाह ने अपने पैगंबर ﷺ को एक चमत्कारी यात्रा से सम्मानित किया। इसरा मक्का की मस्जिद-अल-हराम से येरूशलम की मस्जिद-अल-अक़्सा तक की रात्रि यात्रा थी, बुराक़ नामक एक स्वर्गीय सवारी पर।" },
+      { "kind": "verse", "surah": 17, "ayah": 1, "note": "'पवित्र है वह जो अपने बंदे को रात में मस्जिद-अल-हराम से उस दूरतम मस्जिद तक ले गया जिसके चारों ओर हमने बरकत दी, ताकि उसे अपनी निशानियाँ दिखाएँ।'" },
+      { "kind": "heading", "level": 2, "text": "पैगंबरों की इमामत, आसमानों पर चढ़ाई" },
+      { "kind": "p", "text": "अक़्सा में, पैगंबर ﷺ ने सभी पिछले पैगंबरों को नमाज़ में इमामत कराई — एक निशानी कि इस्लाम का संदेश उनके मिशनों को पूर्ण और एकजुट करता है। फिर आया मेराज, सात आसमानों के पार ऊर्ध्वारोहण, जहाँ वे आदम, ईसा, यूसुफ़, इदरीस, हारून, मूसा और इब्राहीम सहित पैगंबरों से मिले। उन्हें जन्नत और जहन्नम दिखाई गई, और उन्हें सिदरतुल-मुन्तहा (परम सीमा के बेर के पेड़) तक ले जाया गया, अल्लाह की निकटता का एक मक़ाम।" },
+      { "kind": "heading", "level": 2, "text": "नमाज़ का उपहार" },
+      { "kind": "p", "text": "वहाँ अल्लाह ने पचास दैनिक नमाज़ें फ़र्ज़ कीं। मूसा की सलाह पर, पैगंबर ﷺ बार-बार लौटे कि उन्हें हल्का किया जाए, यहाँ तक कि वे कर्म में पाँच कर दी गईं — फिर भी इनाम में पचास गिनी जाती हैं। इस तरह नमाज़ अल्लाह की ओर से ईमान वाले को एक सीधा उपहार है, आसमानों के ऊपर फ़र्ज़ की गई।" },
+      { "kind": "heading", "level": 2, "text": "शिक्षाएँ" },
+      { "kind": "list", "items": [
+        { "text": "हर कठिनाई के बाद अल्लाह उन्हें राहत और सम्मान भेजता है जो उसके साथ सब्र करते हैं।" },
+        { "text": "पाँच वक़्त की नमाज़ें एक सर्वोच्च उपहार हैं, जो हर ईमान वाले को उसके रब से जोड़ती हैं।" },
+        { "text": "इस्लाम अपने से पहले के सभी पैगंबरों के संदेश की पुष्टि करता है और उसे पूर्ण करता है।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "اپنے چچا ابو طالب اور اپنی محبوب بیوی خدیجہ کی وفات — عام الحزن — اور طائف میں سخت انکار کے بعد، اللہ نے اپنے نبی ﷺ کو ایک معجزاتی سفر سے سرفراز کیا۔ اسراء مکہ کی مسجدِ حرام سے بیت المقدس کی مسجدِ اقصیٰ تک کا شبِ سفر تھا، براق نامی ایک آسمانی سواری پر۔" },
+      { "kind": "verse", "surah": 17, "ayah": 1, "note": "'پاک ہے وہ جو اپنے بندے کو رات میں مسجدِ حرام سے اُس دور ترین مسجد تک لے گیا جس کے گرد ہم نے برکت دی، تاکہ اسے اپنی نشانیاں دکھائیں۔'" },
+      { "kind": "heading", "level": 2, "text": "انبیاء کی امامت، آسمانوں پر عروج" },
+      { "kind": "p", "text": "اقصیٰ میں، نبی ﷺ نے تمام سابقہ انبیاء کی نماز میں امامت کرائی — ایک نشانی کہ اسلام کا پیغام اُن کے مشنوں کو مکمل اور متحد کرتا ہے۔ پھر آیا معراج، سات آسمانوں کے پار عروج، جہاں وہ آدم، عیسیٰ، یوسف، ادریس، ہارون، موسیٰ اور ابراہیم سمیت انبیاء سے ملے۔ انہیں جنت اور جہنم دکھائی گئی، اور انہیں سدرۃ المنتہیٰ تک لے جایا گیا، اللہ کے قرب کا ایک مقام۔" },
+      { "kind": "heading", "level": 2, "text": "نماز کا تحفہ" },
+      { "kind": "p", "text": "وہاں اللہ نے پچاس روزانہ نمازیں فرض کیں۔ موسیٰ کے مشورے پر، نبی ﷺ بار بار لوٹے کہ انہیں ہلکا کیا جائے، یہاں تک کہ وہ عمل میں پانچ کر دی گئیں — پھر بھی اجر میں پچاس گنی جاتی ہیں۔ اس طرح نماز اللہ کی طرف سے مومن کو ایک براہِ راست تحفہ ہے، آسمانوں کے اوپر فرض کی گئی۔" },
+      { "kind": "heading", "level": 2, "text": "اسباق" },
+      { "kind": "list", "items": [
+        { "text": "ہر مشکل کے بعد اللہ اُن کو راحت اور عزت بھیجتا ہے جو اس کے ساتھ صبر کرتے ہیں۔" },
+        { "text": "پانچ وقت کی نمازیں ایک اعلیٰ ترین تحفہ ہیں، جو ہر مومن کو اس کے رب سے جوڑتی ہیں۔" },
+        { "text": "اسلام اپنے سے پہلے کے تمام انبیاء کے پیغام کی تصدیق کرتا ہے اور اسے مکمل کرتا ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "17:1" },
+    { "type": "hadith", "collection": "bukhari", "ref": "349", "grade": "sahih" },
+    { "type": "seerah" }
+  ],
+  "relatedSlugs": ["basics-salah", "seerah-first-revelation", "prophet-musa"]
+}

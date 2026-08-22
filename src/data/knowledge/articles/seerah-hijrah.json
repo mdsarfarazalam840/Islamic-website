@@ -1,0 +1,68 @@
+{
+  "slug": "seerah-hijrah",
+  "category": "seerah",
+  "featured": true,
+  "title": {
+    "en": "The Hijrah: Migration to Madinah",
+    "hi": "हिजरत: मदीना की ओर प्रवास",
+    "ur": "ہجرت: مدینہ کی طرف ہجرت"
+  },
+  "summary": {
+    "en": "As persecution in Makkah reached its peak and a plot formed to kill the Prophet ﷺ, Allah commanded the migration to Madinah. With Abu Bakr he hid in the cave of Thawr, protected by Allah, and reached Madinah — the event that begins the Islamic calendar.",
+    "hi": "जब मक्का में उत्पीड़न अपने चरम पर पहुँचा और पैगंबर ﷺ को मारने की साज़िश बनी, अल्लाह ने मदीना की ओर प्रवास का हुक्म दिया। अबू बक्र के साथ वे सौर की गुफ़ा में छिपे, अल्लाह की सुरक्षा में, और मदीना पहुँचे — वह घटना जिससे इस्लामी कैलेंडर शुरू होता है।",
+    "ur": "جب مکہ میں ظلم اپنے عروج پر پہنچا اور نبی ﷺ کو قتل کرنے کی سازش بنی، اللہ نے مدینہ کی طرف ہجرت کا حکم دیا۔ ابو بکر کے ساتھ وہ غارِ ثور میں چھپے، اللہ کی حفاظت میں، اور مدینہ پہنچے — وہ واقعہ جس سے اسلامی کیلنڈر شروع ہوتا ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "For thirteen years the Prophet ﷺ and the early Muslims endured mockery, boycott, torture, and killing in Makkah. When the people of Yathrib (later Madinah) pledged their support and protection, Allah permitted the believers to migrate. Group by group they left, until few remained but the Prophet ﷺ, Abu Bakr, and Ali." },
+      { "kind": "p", "text": "The Quraysh, fearing the growing strength of Islam, plotted to have a young man from each clan strike the Prophet ﷺ together, so his blood would be on all and no single tribe could be blamed. Allah revealed their plot to him." },
+      { "kind": "heading", "level": 2, "text": "The cave of Thawr" },
+      { "kind": "p", "text": "The Prophet ﷺ left by night, having Ali sleep in his bed, and set out with Abu Bakr. They hid three days in the cave of Thawr while the Quraysh searched, reaching the very mouth of the cave. Abu Bakr feared they would be seen, but the Prophet ﷺ reassured him — Allah was with them." },
+      { "kind": "verse", "surah": 9, "ayah": 40, "note": "'When the two were in the cave, he said to his companion, \"Do not grieve; indeed Allah is with us.\" So Allah sent down His tranquillity upon him.'" },
+      { "kind": "heading", "level": 2, "text": "Arrival and a new era" },
+      { "kind": "p", "text": "They reached Madinah, where the Prophet ﷺ was welcomed with joy. There he built the first mosque, established brotherhood between the Emigrants (Muhajirun) and the Helpers (Ansar), and founded the first Muslim community. The Hijrah was so pivotal that the Muslims later dated their calendar from this year." },
+      { "kind": "heading", "level": 2, "text": "Lessons" },
+      { "kind": "list", "items": [
+        { "text": "Trust in Allah brings tranquillity even when danger is at the door." },
+        { "text": "Taking practical means — planning, hiding, a guide — is part of reliance on Allah, not against it." },
+        { "text": "Sacrificing home and wealth for faith is honoured by Allah with victory and honour." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "तेरह वर्ष तक पैगंबर ﷺ और शुरुआती मुसलमानों ने मक्का में उपहास, बहिष्कार, यातना और हत्या सही। जब यसरिब (बाद में मदीना) के लोगों ने अपने समर्थन और सुरक्षा का वचन दिया, अल्लाह ने ईमान वालों को प्रवास की अनुमति दी। समूह दर समूह वे निकले, यहाँ तक कि पैगंबर ﷺ, अबू बक्र और अली के सिवा कम ही बचे।" },
+      { "kind": "p", "text": "क़ुरैश ने, इस्लाम की बढ़ती ताक़त से डर कर, साज़िश रची कि हर क़बीले का एक जवान मिल कर पैगंबर ﷺ पर एक साथ वार करे, ताकि उनका ख़ून सब पर हो और किसी एक क़बीले को दोष न दिया जा सके। अल्लाह ने उनकी साज़िश उन पर ज़ाहिर कर दी।" },
+      { "kind": "heading", "level": 2, "text": "सौर की गुफ़ा" },
+      { "kind": "p", "text": "पैगंबर ﷺ रात में निकले, अली को अपने बिस्तर पर सुला कर, और अबू बक्र के साथ रवाना हुए। वे तीन दिन सौर की गुफ़ा में छिपे रहे जब क़ुरैश खोज रहे थे, गुफ़ा के मुँह तक पहुँच गए। अबू बक्र को डर था कि वे देख लिए जाएँगे, पर पैगंबर ﷺ ने उन्हें आश्वस्त किया — अल्लाह उनके साथ था।" },
+      { "kind": "verse", "surah": 9, "ayah": 40, "note": "'जब वे दोनों गुफ़ा में थे, उसने अपने साथी से कहा, \"ग़म न कर; निस्संदेह अल्लाह हमारे साथ है।\" तो अल्लाह ने उस पर अपनी शांति उतारी।'" },
+      { "kind": "heading", "level": 2, "text": "आगमन और एक नया युग" },
+      { "kind": "p", "text": "वे मदीना पहुँचे, जहाँ पैगंबर ﷺ का हर्ष के साथ स्वागत हुआ। वहाँ उन्होंने पहली मस्जिद बनाई, मुहाजिरीन (प्रवासी) और अंसार (सहायक) के बीच भाईचारा स्थापित किया, और पहला मुस्लिम समुदाय स्थापित किया। हिजरत इतनी निर्णायक थी कि मुसलमानों ने बाद में अपना कैलेंडर इसी वर्ष से गिना।" },
+      { "kind": "heading", "level": 2, "text": "शिक्षाएँ" },
+      { "kind": "list", "items": [
+        { "text": "अल्लाह पर भरोसा शांति लाता है, भले ही ख़तरा दरवाज़े पर हो।" },
+        { "text": "व्यावहारिक साधन अपनाना — योजना, छिपना, एक मार्गदर्शक — अल्लाह पर भरोसे का हिस्सा है, उसके विरुद्ध नहीं।" },
+        { "text": "ईमान के लिए घर और धन क़ुर्बान करना अल्लाह विजय और सम्मान से नवाज़ता है।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "تیرہ سال تک نبی ﷺ اور ابتدائی مسلمانوں نے مکہ میں تمسخر، بائیکاٹ، اذیت اور قتل سہا۔ جب یثرب (بعد میں مدینہ) کے لوگوں نے اپنی حمایت اور حفاظت کا وعدہ کیا، اللہ نے مومنوں کو ہجرت کی اجازت دی۔ گروہ در گروہ وہ نکلے، یہاں تک کہ نبی ﷺ، ابو بکر اور علی کے سوا کم ہی باقی رہے۔" },
+      { "kind": "p", "text": "قریش نے، اسلام کی بڑھتی طاقت سے ڈر کر، سازش کی کہ ہر قبیلے کا ایک جوان مل کر نبی ﷺ پر ایک ساتھ وار کرے، تاکہ اُن کا خون سب پر ہو اور کسی ایک قبیلے کو الزام نہ دیا جا سکے۔ اللہ نے اُن کی سازش اُن پر ظاہر کر دی۔" },
+      { "kind": "heading", "level": 2, "text": "غارِ ثور" },
+      { "kind": "p", "text": "نبی ﷺ رات میں نکلے، علی کو اپنے بستر پر سلا کر، اور ابو بکر کے ساتھ روانہ ہوئے۔ وہ تین دن غارِ ثور میں چھپے رہے جب قریش تلاش کر رہے تھے، غار کے منہ تک پہنچ گئے۔ ابو بکر کو ڈر تھا کہ وہ دیکھ لیے جائیں گے، مگر نبی ﷺ نے انہیں تسلی دی — اللہ اُن کے ساتھ تھا۔" },
+      { "kind": "verse", "surah": 9, "ayah": 40, "note": "'جب وہ دونوں غار میں تھے، اس نے اپنے ساتھی سے کہا، \"غم نہ کر؛ بے شک اللہ ہمارے ساتھ ہے۔\" تو اللہ نے اس پر اپنی سکینت اتاری۔'" },
+      { "kind": "heading", "level": 2, "text": "آمد اور ایک نیا دور" },
+      { "kind": "p", "text": "وہ مدینہ پہنچے، جہاں نبی ﷺ کا خوشی سے استقبال ہوا۔ وہاں انہوں نے پہلی مسجد بنائی، مہاجرین اور انصار کے درمیان بھائی چارہ قائم کیا، اور پہلی مسلم جماعت کی بنیاد رکھی۔ ہجرت اتنی فیصلہ کن تھی کہ مسلمانوں نے بعد میں اپنا کیلنڈر اسی سال سے شمار کیا۔" },
+      { "kind": "heading", "level": 2, "text": "اسباق" },
+      { "kind": "list", "items": [
+        { "text": "اللہ پر بھروسہ سکون لاتا ہے، خواہ خطرہ دروازے پر ہو۔" },
+        { "text": "عملی ذرائع اختیار کرنا — منصوبہ، چھپنا، ایک رہنما — اللہ پر بھروسے کا حصہ ہے، اس کے خلاف نہیں۔" },
+        { "text": "ایمان کے لیے گھر اور دولت قربان کرنا اللہ فتح اور عزت سے نوازتا ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "9:40" },
+    { "type": "hadith", "collection": "bukhari", "ref": "3905", "grade": "sahih" },
+    { "type": "seerah" }
+  ],
+  "relatedSlugs": ["seerah-first-revelation", "concept-tawakkul", "concept-sabr"]
+}

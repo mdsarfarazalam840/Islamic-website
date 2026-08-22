@@ -1,0 +1,74 @@
+{
+  "slug": "story-parting-of-the-sea",
+  "category": "quranic",
+  "featured": false,
+  "title": {
+    "en": "The Parting of the Sea",
+    "hi": "समुद्र का फटना",
+    "ur": "سمندر کا پھٹنا"
+  },
+  "summary": {
+    "en": "As Fir'awn's army closed in on the fleeing Israelites, they were trapped between the soldiers and the sea. At Allah's command Musa struck the water with his staff; it split into towering walls with a dry path between. The believers crossed safely, and when Fir'awn pursued, the sea returned and drowned him and his host.",
+    "hi": "जब फ़िरऔन की सेना भागते बनी इसराईल पर आ पड़ी, वे सैनिकों और समुद्र के बीच फँस गए। अल्लाह के हुक्म पर मूसा ने अपनी लाठी से पानी पर मारा; वह ऊँची दीवारों में फट गया, बीच में एक सूखा रास्ता। ईमान वाले सुरक्षित पार हो गए, और जब फ़िरऔन ने पीछा किया, समुद्र लौट आया और उसे और उसकी सेना को डुबो दिया।",
+    "ur": "جب فرعون کا لشکر بھاگتے بنی اسرائیل پر آ پڑا، وہ سپاہیوں اور سمندر کے درمیان پھنس گئے۔ اللہ کے حکم پر موسیٰ نے اپنی لاٹھی سے پانی پر مارا؛ وہ اونچی دیواروں میں پھٹ گیا، بیچ میں ایک خشک راستہ۔ مومن محفوظ پار ہو گئے، اور جب فرعون نے پیچھا کیا، سمندر لوٹ آیا اور اُسے اور اُس کے لشکر کو ڈبو دیا۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "After the plagues and signs failed to soften Fir'awn's heart, Allah commanded Musa (peace be upon him) to lead the Children of Israel out of Egypt by night. Fir'awn gathered his army and set out in furious pursuit. At dawn the two groups came within sight of one another, with the sea barring the Israelites' escape ahead and the army bearing down behind." },
+      { "kind": "verse", "surah": 26, "ayah": 61, "note": "'And when the two companies saw one another, the companions of Musa said: Indeed, we are to be overtaken!'" },
+      { "kind": "p", "text": "The people despaired, certain they were about to be caught. But Musa, firm in trust, declared that his Lord was with him and would guide him. Allah then revealed the command that turned the impossible into a path of salvation." },
+      { "kind": "verse", "surah": 26, "ayah": 62, "note": "'He said: No! Indeed, with me is my Lord; He will guide me.'" },
+      { "kind": "heading", "level": 2, "text": "The sea splits" },
+      { "kind": "p", "text": "Musa was ordered to strike the sea with his staff. It parted into two mighty walls of water, and between them Allah made dry ground for His servants to cross. The Israelites passed through in safety to the far shore." },
+      { "kind": "verse", "surah": 26, "ayah": 63, "note": "'Then We revealed to Musa: Strike the sea with your staff. And it parted, and each portion was like a great towering mountain.'" },
+      { "kind": "heading", "level": 2, "text": "The drowning of the tyrant" },
+      { "kind": "p", "text": "Fir'awn and his soldiers plunged in after them along the same path. When all the believers had crossed and the pursuers were in the sea's midst, Allah let the waters rush back together. Fir'awn drowned — and only at the point of death did he cry out that he believed, when belief could no longer save him." },
+      { "kind": "verse", "surah": 10, "ayah": 90, "note": "'Until, when drowning overtook him, he said: I believe that there is no deity except that in whom the Children of Israel believe.'" },
+      { "kind": "list", "items": [
+        { "text": "Trust in Allah holds firm even when every worldly escape is closed." },
+        { "text": "Allah opens a way for the believers where none seems possible." },
+        { "text": "Faith declared only at the moment of doom, like Fir'awn's, comes too late." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "जब विपत्तियाँ और निशानियाँ फ़िरऔन के दिल को नरम न कर सकीं, अल्लाह ने मूसा (उन पर शांति हो) को हुक्म दिया कि बनी इसराईल को रात में मिस्र से निकाल ले जाएँ। फ़िरऔन ने अपनी सेना इकट्ठा की और क्रोध में पीछा किया। भोर में दोनों दल एक-दूसरे की नज़र में आ गए, आगे समुद्र बनी इसराईल का भागना रोके और पीछे सेना टूट पड़ती हुई।" },
+      { "kind": "verse", "surah": 26, "ayah": 61, "note": "'और जब दोनों दलों ने एक-दूसरे को देखा, मूसा के साथियों ने कहा: निश्चय ही हम पकड़ लिए जाएँगे!'" },
+      { "kind": "p", "text": "लोग निराश हो गए, यक़ीन कर के कि वे बस पकड़े जाने वाले हैं। पर मूसा, भरोसे में दृढ़, ने घोषणा की कि उनका रब उनके साथ है और उनका मार्गदर्शन करेगा। फिर अल्लाह ने वह हुक्म प्रकट किया जिसने असंभव को मुक्ति का रास्ता बना दिया।" },
+      { "kind": "verse", "surah": 26, "ayah": 62, "note": "'उसने कहा: नहीं! निश्चय ही मेरे साथ मेरा रब है; वह मेरा मार्गदर्शन करेगा।'" },
+      { "kind": "heading", "level": 2, "text": "समुद्र फटता है" },
+      { "kind": "p", "text": "मूसा को हुक्म दिया गया कि समुद्र पर अपनी लाठी मारें। वह पानी की दो विशाल दीवारों में फट गया, और उनके बीच अल्लाह ने अपने बंदों के पार होने के लिए सूखी ज़मीन बना दी। बनी इसराईल सुरक्षित दूसरे किनारे पार हो गए।" },
+      { "kind": "verse", "surah": 26, "ayah": 63, "note": "'फिर हमने मूसा की ओर वह्य की: अपनी लाठी से समुद्र पर मारो। तो वह फट गया, और हर भाग एक विशाल ऊँचे पहाड़ जैसा हो गया।'" },
+      { "kind": "heading", "level": 2, "text": "अत्याचारी का डूबना" },
+      { "kind": "p", "text": "फ़िरऔन और उसके सैनिक उसी रास्ते पर उनके पीछे कूद पड़े। जब सारे ईमान वाले पार हो चुके और पीछा करने वाले समुद्र के बीच में थे, अल्लाह ने पानी को फिर आपस में मिलने दिया। फ़िरऔन डूब गया — और केवल मौत के क्षण में उसने पुकारा कि वह ईमान लाया, जब ईमान उसे न बचा सकता था।" },
+      { "kind": "verse", "surah": 10, "ayah": 90, "note": "'यहाँ तक कि जब डूबना उस पर आ पड़ा, उसने कहा: मैं ईमान लाया कि उसके सिवा कोई माबूद नहीं जिस पर बनी इसराईल ईमान लाए।'" },
+      { "kind": "list", "items": [
+        { "text": "अल्लाह पर भरोसा तब भी दृढ़ रहता है जब हर सांसारिक रास्ता बंद हो।" },
+        { "text": "अल्लाह ईमान वालों के लिए वहाँ रास्ता खोलता है जहाँ कोई संभव न दिखे।" },
+        { "text": "केवल विनाश के क्षण में लाया गया ईमान, फ़िरऔन के जैसा, बहुत देर से आता है।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "جب آفتیں اور نشانیاں فرعون کے دل کو نرم نہ کر سکیں، اللہ نے موسیٰ (علیہ السلام) کو حکم دیا کہ بنی اسرائیل کو رات میں مصر سے نکال لے جائیں۔ فرعون نے اپنا لشکر جمع کیا اور غصے میں پیچھا کیا۔ صبح دونوں گروہ ایک دوسرے کی نظر میں آ گئے، آگے سمندر بنی اسرائیل کا بھاگنا روکے اور پیچھے لشکر ٹوٹ پڑتا ہوا۔" },
+      { "kind": "verse", "surah": 26, "ayah": 61, "note": "'اور جب دونوں گروہوں نے ایک دوسرے کو دیکھا، موسیٰ کے ساتھیوں نے کہا: بے شک ہم پکڑ لیے جائیں گے!'" },
+      { "kind": "p", "text": "لوگ مایوس ہو گئے، یقین کر کے کہ وہ بس پکڑے جانے والے ہیں۔ مگر موسیٰ، بھروسے میں ثابت قدم، نے اعلان کیا کہ اُن کا رب اُن کے ساتھ ہے اور اُن کی رہنمائی کرے گا۔ پھر اللہ نے وہ حکم ظاہر کیا جس نے ناممکن کو نجات کا راستہ بنا دیا۔" },
+      { "kind": "verse", "surah": 26, "ayah": 62, "note": "'اُس نے کہا: نہیں! بے شک میرے ساتھ میرا رب ہے؛ وہ میری رہنمائی کرے گا۔'" },
+      { "kind": "heading", "level": 2, "text": "سمندر پھٹتا ہے" },
+      { "kind": "p", "text": "موسیٰ کو حکم دیا گیا کہ سمندر پر اپنی لاٹھی ماریں۔ وہ پانی کی دو عظیم دیواروں میں پھٹ گیا، اور اُن کے درمیان اللہ نے اپنے بندوں کے پار ہونے کے لیے خشک زمین بنا دی۔ بنی اسرائیل محفوظ دوسرے کنارے پار ہو گئے۔" },
+      { "kind": "verse", "surah": 26, "ayah": 63, "note": "'پھر ہم نے موسیٰ کی طرف وحی کی: اپنی لاٹھی سے سمندر پر مارو۔ تو وہ پھٹ گیا، اور ہر حصہ ایک عظیم اونچے پہاڑ جیسا ہو گیا۔'" },
+      { "kind": "heading", "level": 2, "text": "ظالم کا ڈوبنا" },
+      { "kind": "p", "text": "فرعون اور اُس کے سپاہی اُسی راستے پر اُن کے پیچھے کود پڑے۔ جب سارے مومن پار ہو چکے اور پیچھا کرنے والے سمندر کے بیچ میں تھے، اللہ نے پانی کو پھر آپس میں ملنے دیا۔ فرعون ڈوب گیا — اور صرف موت کے لمحے میں اُس نے پکارا کہ وہ ایمان لایا، جب ایمان اُسے نہ بچا سکتا تھا۔" },
+      { "kind": "verse", "surah": 10, "ayah": 90, "note": "'یہاں تک کہ جب ڈوبنا اُس پر آ پڑا، اُس نے کہا: میں ایمان لایا کہ اُس کے سوا کوئی معبود نہیں جس پر بنی اسرائیل ایمان لائے۔'" },
+      { "kind": "list", "items": [
+        { "text": "اللہ پر بھروسہ تب بھی ثابت رہتا ہے جب ہر دنیوی راستہ بند ہو۔" },
+        { "text": "اللہ مومنوں کے لیے وہاں راستہ کھولتا ہے جہاں کوئی ممکن نہ دکھے۔" },
+        { "text": "صرف تباہی کے لمحے میں لایا گیا ایمان، فرعون کے جیسا، بہت دیر سے آتا ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "26:52-66" },
+    { "type": "quran", "ref": "10:90-92" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["prophet-musa", "concept-tawakkul", "story-golden-calf"]
+}

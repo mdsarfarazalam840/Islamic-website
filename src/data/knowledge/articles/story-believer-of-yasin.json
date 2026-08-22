@@ -1,0 +1,73 @@
+{
+  "slug": "story-believer-of-yasin",
+  "category": "quranic",
+  "featured": false,
+  "title": {
+    "en": "The Believer of Ya-Sin",
+    "hi": "यासीन का मोमिन",
+    "ur": "یٰسین کا مومن"
+  },
+  "summary": {
+    "en": "A town rejected the messengers sent to it. Then a man came running from the farthest end of the city, calling his people to follow those who asked no reward. They killed him, and it was said to him, 'Enter Paradise.' His first wish was that his people could know the forgiveness his Lord had granted him. Told in Surah Ya-Sin, it is the story of one sincere voice against a whole town.",
+    "hi": "एक बस्ती ने उसकी ओर भेजे गए रसूलों को झुठला दिया। फिर शहर के सबसे दूर छोर से एक व्यक्ति दौड़ता हुआ आया, अपने लोगों को उनका अनुसरण करने के लिए बुलाते हुए जो कोई बदला नहीं माँगते। उन्होंने उसे मार डाला, और उससे कहा गया, 'जन्नत में प्रवेश कर।' उसकी पहली चाहत यह थी कि उसके लोग जान पाते कि उसके रब ने उसे क्या क्षमा दी। सूरह यासीन में वर्णित, यह एक पूरी बस्ती के सामने एक सच्ची आवाज़ की कहानी है।",
+    "ur": "ایک بستی نے اپنی طرف بھیجے گئے رسولوں کو جھٹلا دیا۔ پھر شہر کے سب سے دور کنارے سے ایک شخص دوڑتا ہوا آیا، اپنے لوگوں کو اُن کی پیروی کی دعوت دیتے ہوئے جو کوئی بدلہ نہیں مانگتے۔ اُنہوں نے اُسے قتل کر دیا، اور اُس سے کہا گیا، 'جنت میں داخل ہو جا۔' اُس کی پہلی خواہش یہ تھی کہ اُس کے لوگ جان پاتے کہ اُس کے رب نے اُسے کیا بخشش دی۔ سورہ یٰسین میں بیان کردہ، یہ ایک پوری بستی کے سامنے ایک سچی آواز کا قصہ ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Allah gives the example of the people of a town, to whom He sent messengers. They sent two; the town denied them, so they strengthened them with a third. Still the town called them nothing but liars, threatened them with stoning, and blamed them for its misfortune." },
+      { "kind": "verse", "surah": 36, "ayah": 13, "note": "'And present to them an example: the people of the town, when the messengers came to it.'" },
+      { "kind": "p", "text": "Then, from the farthest end of the city, a man came running. He had heard the message and believed, and he could not stay silent while his people turned away." },
+      { "kind": "verse", "surah": 36, "ayah": 20, "note": "'And there came from the farthest end of the city a man, running. He said, O my people, follow the messengers.'" },
+      { "kind": "verse", "surah": 36, "ayah": 21, "note": "'Follow those who ask of you no payment, and who are rightly guided.'" },
+      { "kind": "heading", "level": 2, "text": "Would that my people knew" },
+      { "kind": "p", "text": "He reasoned with them openly: why would he not worship the One who created him, to whom they would all return? He declared his faith before them — and they took his life for it." },
+      { "kind": "verse", "surah": 36, "ayah": 26, "note": "'It was said, Enter Paradise. He said, I wish my people could know.'" },
+      { "kind": "verse", "surah": 36, "ayah": 27, "note": "'Of how my Lord has forgiven me and placed me among the honored.'" },
+      { "kind": "p", "text": "Even as he entered his reward, his heart turned back toward the very people who had killed him — wishing they too could see what awaited the faithful. Then a single blast was enough, and the town fell silent." },
+      { "kind": "list", "items": [
+        { "text": "One sincere believer can stand for the truth against an entire people." },
+        { "text": "Follow those who call to Allah and ask no reward for it." },
+        { "text": "A true believer wishes guidance even for those who wronged him." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "अल्लाह उस बस्ती वालों का उदाहरण देता है, जिनकी ओर उसने रसूल भेजे। उसने दो भेजे; बस्ती ने उन्हें झुठलाया, तो उसने तीसरे से उन्हें मज़बूत किया। फिर भी बस्ती ने उन्हें झूठा ही कहा, संगसार करने की धमकी दी, और अपनी बदक़िस्मती का दोष उन पर डाला।" },
+      { "kind": "verse", "surah": 36, "ayah": 13, "note": "'और उनके सामने उस बस्ती वालों का उदाहरण पेश करो, जब उसके पास रसूल आए।'" },
+      { "kind": "p", "text": "फिर, शहर के सबसे दूर छोर से एक व्यक्ति दौड़ता हुआ आया। उसने संदेश सुना और ईमान लाया, और वह चुप न रह सका जब उसके लोग मुँह मोड़ रहे थे।" },
+      { "kind": "verse", "surah": 36, "ayah": 20, "note": "'और शहर के सबसे दूर छोर से एक व्यक्ति दौड़ता हुआ आया। उसने कहा, ऐ मेरी क़ौम, रसूलों का अनुसरण करो।'" },
+      { "kind": "verse", "surah": 36, "ayah": 21, "note": "'उनका अनुसरण करो जो तुमसे कोई बदला नहीं माँगते, और वे सीधे मार्ग पर हैं।'" },
+      { "kind": "heading", "level": 2, "text": "काश मेरी क़ौम जानती" },
+      { "kind": "p", "text": "उसने खुलकर उनसे तर्क किया: वह उसकी इबादत क्यों न करे जिसने उसे पैदा किया, और जिसकी ओर वे सब लौटाए जाएँगे? उसने उनके सामने अपने ईमान का ऐलान किया — और उन्होंने इसके बदले उसकी जान ले ली।" },
+      { "kind": "verse", "surah": 36, "ayah": 26, "note": "'कहा गया, जन्नत में प्रवेश कर। उसने कहा, काश मेरी क़ौम जानती।'" },
+      { "kind": "verse", "surah": 36, "ayah": 27, "note": "'कि मेरे रब ने मुझे कैसे क्षमा किया और मुझे सम्मानित लोगों में रखा।'" },
+      { "kind": "p", "text": "अपने बदले में प्रवेश करते हुए भी, उसका दिल उन्हीं लोगों की ओर लौटा जिन्होंने उसे मारा था — यह चाहते हुए कि वे भी देख पाते कि ईमान वालों के लिए क्या रखा है। फिर एक ही चीख़ काफ़ी थी, और बस्ती ख़ामोश हो गई।" },
+      { "kind": "list", "items": [
+        { "text": "एक सच्चा मोमिन पूरी क़ौम के सामने सत्य के लिए खड़ा हो सकता है।" },
+        { "text": "उनका अनुसरण करो जो अल्लाह की ओर बुलाते हैं और उसका कोई बदला नहीं माँगते।" },
+        { "text": "सच्चा मोमिन उनके लिए भी हिदायत चाहता है जिन्होंने उस पर ज़ुल्म किया।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "اللہ اُس بستی والوں کی مثال دیتا ہے، جن کی طرف اُس نے رسول بھیجے۔ اُس نے دو بھیجے؛ بستی نے اُنہیں جھٹلایا، تو اُس نے تیسرے سے اُنہیں مضبوط کیا۔ پھر بھی بستی نے اُنہیں جھوٹا ہی کہا، سنگسار کرنے کی دھمکی دی، اور اپنی بدقسمتی کا الزام اُن پر ڈالا۔" },
+      { "kind": "verse", "surah": 36, "ayah": 13, "note": "'اور اُن کے سامنے اُس بستی والوں کی مثال پیش کرو، جب اُس کے پاس رسول آئے۔'" },
+      { "kind": "p", "text": "پھر، شہر کے سب سے دور کنارے سے ایک شخص دوڑتا ہوا آیا۔ اُس نے پیغام سنا اور ایمان لایا، اور وہ خاموش نہ رہ سکا جب اُس کے لوگ منہ موڑ رہے تھے۔" },
+      { "kind": "verse", "surah": 36, "ayah": 20, "note": "'اور شہر کے سب سے دور کنارے سے ایک شخص دوڑتا ہوا آیا۔ اُس نے کہا، اے میری قوم، رسولوں کی پیروی کرو۔'" },
+      { "kind": "verse", "surah": 36, "ayah": 21, "note": "'اُن کی پیروی کرو جو تم سے کوئی بدلہ نہیں مانگتے، اور وہ سیدھی راہ پر ہیں۔'" },
+      { "kind": "heading", "level": 2, "text": "کاش میری قوم جانتی" },
+      { "kind": "p", "text": "اُس نے کھل کر اُن سے دلیل دی: وہ اُس کی عبادت کیوں نہ کرے جس نے اُسے پیدا کیا، اور جس کی طرف وہ سب لوٹائے جائیں گے؟ اُس نے اُن کے سامنے اپنے ایمان کا اعلان کیا — اور اُنہوں نے اِس کے بدلے اُس کی جان لے لی۔" },
+      { "kind": "verse", "surah": 36, "ayah": 26, "note": "'کہا گیا، جنت میں داخل ہو جا۔ اُس نے کہا، کاش میری قوم جانتی۔'" },
+      { "kind": "verse", "surah": 36, "ayah": 27, "note": "'کہ میرے رب نے مجھے کیسے بخش دیا اور مجھے عزت والوں میں رکھا۔'" },
+      { "kind": "p", "text": "اپنے بدلے میں داخل ہوتے ہوئے بھی، اُس کا دل اُنہی لوگوں کی طرف لوٹا جنہوں نے اُسے مارا تھا — یہ چاہتے ہوئے کہ وہ بھی دیکھ پاتے کہ ایمان والوں کے لیے کیا رکھا ہے۔ پھر ایک ہی چیخ کافی تھی، اور بستی خاموش ہو گئی۔" },
+      { "kind": "list", "items": [
+        { "text": "ایک سچا مومن پوری قوم کے سامنے حق کے لیے کھڑا ہو سکتا ہے۔" },
+        { "text": "اُن کی پیروی کرو جو اللہ کی طرف بلاتے ہیں اور اُس کا کوئی بدلہ نہیں مانگتے۔" },
+        { "text": "سچا مومن اُن کے لیے بھی ہدایت چاہتا ہے جنہوں نے اُس پر ظلم کیا۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "36:13-29" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["surah-ya-sin", "concept-iman", "concept-tawbah"]
+}

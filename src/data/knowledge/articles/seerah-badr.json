@@ -1,0 +1,65 @@
+{
+  "slug": "seerah-badr",
+  "category": "seerah",
+  "title": {
+    "en": "The Battle of Badr",
+    "hi": "बद्र की लड़ाई",
+    "ur": "غزوہ بدر"
+  },
+  "summary": {
+    "en": "In the second year after Hijrah, some three hundred ill-equipped Muslims faced a Makkan army of a thousand at the wells of Badr. By Allah's aid and angels sent down, the believers won a decisive victory — the day Allah calls 'the Criterion,' distinguishing truth from falsehood.",
+    "hi": "हिजरत के दूसरे वर्ष, लगभग तीन सौ कम-सज्जित मुसलमानों ने बद्र के कुओं पर एक हज़ार के मक्की सैन्य दल का सामना किया। अल्लाह की सहायता और उतारे गए फ़रिश्तों से, ईमान वालों ने एक निर्णायक विजय पाई — वह दिन जिसे अल्लाह 'फ़ुरक़ान' कहता है, सत्य को असत्य से अलग करने वाला।",
+    "ur": "ہجرت کے دوسرے سال، تقریباً تین سو کم سازوسامان والے مسلمانوں نے بدر کے کنوؤں پر ایک ہزار کے مکی لشکر کا سامنا کیا۔ اللہ کی مدد اور اتارے گئے فرشتوں سے، مومنوں نے ایک فیصلہ کن فتح پائی — وہ دن جسے اللہ 'فرقان' کہتا ہے، حق کو باطل سے جدا کرنے والا۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "In the second year after the Hijrah, the Prophet ﷺ set out with about three hundred and thirteen companions, poorly armed, with few horses and camels. They had intended to intercept a Quraysh trade caravan, but the caravan escaped and a Makkan army of roughly a thousand — well-armed and proud — marched out to crush the Muslims at the wells of Badr." },
+      { "kind": "p", "text": "The Prophet ﷺ spent the night in earnest supplication, imploring Allah: 'O Allah, if this band perishes, You will not be worshipped on earth.' Allah answered with reassurance and reinforcement." },
+      { "kind": "verse", "surah": 3, "ayah": 123, "note": "'Allah had already given you victory at Badr while you were weak; so fear Allah that you may be grateful.'" },
+      { "kind": "verse", "surah": 8, "ayah": 9, "note": "'When you sought help of your Lord, He answered you: I will reinforce you with a thousand angels, rank upon rank.'" },
+      { "kind": "heading", "level": 2, "text": "The day of distinction" },
+      { "kind": "p", "text": "Despite being outnumbered more than three to one, the Muslims fought with unshakeable faith, and Allah cast terror into the hearts of the disbelievers. The Quraysh were routed; their chiefs, including Abu Jahl, were slain. It was the first great victory of Islam, and the Qur'an names that day the Furqan — the Criterion between truth and falsehood." },
+      { "kind": "heading", "level": 2, "text": "Lessons" },
+      { "kind": "list", "items": [
+        { "text": "Victory comes from Allah, not from numbers or equipment." },
+        { "text": "Sincere du'a and reliance on Allah are the believer's greatest weapons." },
+        { "text": "Allah aids those who strive in His cause, even when they are few and weak." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "हिजरत के दूसरे वर्ष, पैगंबर ﷺ लगभग तीन सौ तेरह साथियों के साथ निकले, कमज़ोर हथियारों, कुछ घोड़ों और ऊँटों के साथ। उन्होंने एक क़ुरैश व्यापारिक क़ाफ़िले को रोकने का इरादा किया था, पर क़ाफ़िला बच निकला और लगभग एक हज़ार का एक मक्की सैन्य दल — भली-भाँति सज्जित और घमंडी — बद्र के कुओं पर मुसलमानों को कुचलने निकला।" },
+      { "kind": "p", "text": "पैगंबर ﷺ ने रात गंभीर दुआ में बिताई, अल्लाह से गिड़गिड़ाते हुए: 'ऐ अल्लाह, अगर यह जत्था नष्ट हो गया, तो तेरी इबादत ज़मीन पर न होगी।' अल्लाह ने आश्वासन और सहायता से उत्तर दिया।" },
+      { "kind": "verse", "surah": 3, "ayah": 123, "note": "'अल्लाह ने बद्र में तुम्हें विजय दी थी जब तुम कमज़ोर थे; तो अल्लाह से डरो ताकि तुम शुक्रगुज़ार बनो।'" },
+      { "kind": "verse", "surah": 8, "ayah": 9, "note": "'जब तुमने अपने रब से मदद माँगी, उसने तुम्हें उत्तर दिया: मैं तुम्हें एक हज़ार फ़रिश्तों से मदद दूँगा, एक के पीछे एक।'" },
+      { "kind": "heading", "level": 2, "text": "फ़ैसले का दिन" },
+      { "kind": "p", "text": "तीन गुना से अधिक कम संख्या में होने के बावजूद, मुसलमानों ने अटल ईमान से लड़ाई की, और अल्लाह ने इनकार करने वालों के दिलों में दहशत डाल दी। क़ुरैश परास्त हुए; उनके सरदार, अबू जहल सहित, मारे गए। यह इस्लाम की पहली बड़ी विजय थी, और क़ुरआन उस दिन को फ़ुरक़ान कहता है — सत्य और असत्य के बीच का फ़ैसला।" },
+      { "kind": "heading", "level": 2, "text": "शिक्षाएँ" },
+      { "kind": "list", "items": [
+        { "text": "विजय अल्लाह से आती है, संख्या या साज़-सामान से नहीं।" },
+        { "text": "सच्ची दुआ और अल्लाह पर भरोसा ईमान वाले के सबसे बड़े हथियार हैं।" },
+        { "text": "अल्लाह उनकी मदद करता है जो उसकी राह में जूझते हैं, भले ही वे थोड़े और कमज़ोर हों।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "ہجرت کے دوسرے سال، نبی ﷺ تقریباً تین سو تیرہ ساتھیوں کے ساتھ نکلے، کمزور ہتھیاروں، چند گھوڑوں اور اونٹوں کے ساتھ۔ انہوں نے ایک قریش تجارتی قافلے کو روکنے کا ارادہ کیا تھا، مگر قافلہ بچ نکلا اور تقریباً ایک ہزار کا ایک مکی لشکر — خوب مسلح اور مغرور — بدر کے کنوؤں پر مسلمانوں کو کچلنے نکلا۔" },
+      { "kind": "p", "text": "نبی ﷺ نے رات سنجیدہ دعا میں گزاری، اللہ سے گڑگڑاتے ہوئے: 'اے اللہ، اگر یہ جماعت ہلاک ہو گئی، تو تیری عبادت زمین پر نہ ہوگی۔' اللہ نے تسلی اور مدد سے جواب دیا۔" },
+      { "kind": "verse", "surah": 3, "ayah": 123, "note": "'اللہ نے بدر میں تمہیں فتح دی تھی جب تم کمزور تھے؛ تو اللہ سے ڈرو تاکہ تم شکر گزار بنو۔'" },
+      { "kind": "verse", "surah": 8, "ayah": 9, "note": "'جب تم نے اپنے رب سے مدد مانگی، اس نے تمہیں جواب دیا: میں تمہیں ایک ہزار فرشتوں سے مدد دوں گا، یکے بعد دیگرے۔'" },
+      { "kind": "heading", "level": 2, "text": "فیصلے کا دن" },
+      { "kind": "p", "text": "تین گنا سے زیادہ کم تعداد میں ہونے کے باوجود، مسلمانوں نے اٹل ایمان سے جنگ کی، اور اللہ نے منکروں کے دلوں میں دہشت ڈال دی۔ قریش شکست کھا گئے؛ اُن کے سردار، ابو جہل سمیت، مارے گئے۔ یہ اسلام کی پہلی بڑی فتح تھی، اور قرآن اُس دن کو فرقان کہتا ہے — حق اور باطل کے درمیان فیصلہ۔" },
+      { "kind": "heading", "level": 2, "text": "اسباق" },
+      { "kind": "list", "items": [
+        { "text": "فتح اللہ سے آتی ہے، تعداد یا سازوسامان سے نہیں۔" },
+        { "text": "سچی دعا اور اللہ پر بھروسہ مومن کے سب سے بڑے ہتھیار ہیں۔" },
+        { "text": "اللہ اُن کی مدد کرتا ہے جو اس کی راہ میں جدوجہد کرتے ہیں، خواہ وہ تھوڑے اور کمزور ہوں۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "3:123" },
+    { "type": "quran", "ref": "8:9" },
+    { "type": "hadith", "collection": "bukhari", "ref": "3953", "grade": "sahih" },
+    { "type": "seerah" }
+  ],
+  "relatedSlugs": ["seerah-uhud", "concept-tawakkul", "surah-al-anfal"]
+}

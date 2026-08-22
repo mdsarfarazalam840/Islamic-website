@@ -1,0 +1,70 @@
+{
+  "slug": "story-pharaohs-magicians",
+  "category": "quranic",
+  "featured": false,
+  "title": {
+    "en": "Pharaoh's Magicians Who Believed",
+    "hi": "फ़िरऔन के जादूगर जो ईमान लाए",
+    "ur": "فرعون کے جادوگر جو ایمان لائے"
+  },
+  "summary": {
+    "en": "Pharaoh gathered his greatest magicians to defeat Musa (peace be upon him) before a vast crowd. They cast their ropes and staffs, and Musa cast his — which swallowed their illusion whole. The magicians, who knew real magic from truth, fell down in prostration and declared their faith. Pharaoh threatened them with torture and death, but they would not turn back. In one day they passed from serving a tyrant to dying as believers.",
+    "hi": "फ़िरऔन ने एक विशाल भीड़ के सामने मूसा (उन पर शांति हो) को हराने के लिए अपने सबसे बड़े जादूगर इकट्ठा किए। उन्होंने अपनी रस्सियाँ और लाठियाँ डालीं, और मूसा ने अपनी डाली — जिसने उनके भ्रम को पूरा निगल लिया। जादूगर, जो असली जादू को सत्य से पहचानते थे, सजदे में गिर पड़े और अपने ईमान का ऐलान किया। फ़िरऔन ने उन्हें यातना और मौत की धमकी दी, पर वे न पलटे। एक ही दिन में वे एक अत्याचारी की सेवा से मोमिन के रूप में मरने तक पहुँच गए।",
+    "ur": "فرعون نے ایک بڑے مجمع کے سامنے موسیٰ (علیہ السلام) کو شکست دینے کے لیے اپنے سب سے بڑے جادوگر اکٹھے کیے۔ اُنہوں نے اپنی رسیاں اور لاٹھیاں ڈالیں، اور موسیٰ نے اپنی ڈالی — جس نے اُن کے فریب کو پورا نگل لیا۔ جادوگر، جو اصلی جادو کو حق سے پہچانتے تھے، سجدے میں گر پڑے اور اپنے ایمان کا اعلان کیا۔ فرعون نے اُنہیں اذیت اور موت کی دھمکی دی، پر وہ نہ پلٹے۔ ایک ہی دن میں وہ ایک ظالم کی خدمت سے مومن کے طور پر مرنے تک پہنچ گئے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "When Musa (peace be upon him) brought Allah's signs, Pharaoh called it sorcery and summoned the most skilled magicians in the land. They came bargaining for reward and rank, confident they would prevail." },
+      { "kind": "verse", "surah": 7, "ayah": 116, "note": "'They bewitched the eyes of the people and struck terror into them, and produced a great magic.'" },
+      { "kind": "p", "text": "Then Musa cast his staff, and by Allah's command it swallowed everything their falsehood had conjured. What the crowd had feared as magic was undone in an instant, and the truth stood clear." },
+      { "kind": "verse", "surah": 7, "ayah": 118, "note": "'So the truth was established, and what they were doing was made worthless.'" },
+      { "kind": "heading", "level": 2, "text": "From magicians to believers" },
+      { "kind": "p", "text": "The magicians understood better than anyone that this was no trick — it was a sign from Allah. Before the whole assembly, and against their own master, they fell in prostration." },
+      { "kind": "verse", "surah": 7, "ayah": 121, "note": "'They said, We have believed in the Lord of the worlds — the Lord of Musa and Harun.'" },
+      { "kind": "p", "text": "Enraged, Pharaoh accused them of a plot and threatened to cut off their hands and feet and crucify them. But faith had entered their hearts, and they answered without fear: to their Lord they would return; they only prayed for patience and to die as Muslims." },
+      { "kind": "verse", "surah": 7, "ayah": 126, "note": "'Our Lord, pour upon us patience and let us die as Muslims.'" },
+      { "kind": "list", "items": [
+        { "text": "Those who truly know their craft can be the quickest to recognize the truth." },
+        { "text": "Sincere faith can transform a person in a single moment." },
+        { "text": "No threat of the world outweighs a heart that has met its Lord." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "जब मूसा (उन पर शांति हो) अल्लाह की निशानियाँ लाए, तो फ़िरऔन ने उसे जादू कहा और देश के सबसे कुशल जादूगरों को बुलाया। वे इनाम और ओहदे का मोल-भाव करते हुए आए, इस भरोसे के साथ कि वे जीतेंगे।" },
+      { "kind": "verse", "surah": 7, "ayah": 116, "note": "'उन्होंने लोगों की आँखों पर जादू कर दिया और उन्हें भयभीत कर दिया, और एक बड़ा जादू पेश किया।'" },
+      { "kind": "p", "text": "फिर मूसा ने अपनी लाठी डाली, और अल्लाह के हुक्म से उसने वह सब कुछ निगल लिया जो उनके झूठ ने रचा था। जिसे भीड़ ने जादू समझ कर डर महसूस किया था, वह एक पल में मिट गया, और सत्य साफ़ खड़ा हो गया।" },
+      { "kind": "verse", "surah": 7, "ayah": 118, "note": "'तो सत्य साबित हो गया, और जो कुछ वे कर रहे थे वह बेकार हो गया।'" },
+      { "kind": "heading", "level": 2, "text": "जादूगरों से मोमिन तक" },
+      { "kind": "p", "text": "जादूगर किसी से भी बेहतर समझ गए कि यह कोई चाल न थी — यह अल्लाह की ओर से एक निशानी थी। पूरी सभा के सामने, और अपने ही आक़ा के ख़िलाफ़, वे सजदे में गिर पड़े।" },
+      { "kind": "verse", "surah": 7, "ayah": 121, "note": "'उन्होंने कहा, हम सारे जहानों के रब पर ईमान लाए — मूसा और हारून के रब पर।'" },
+      { "kind": "p", "text": "क्रोधित होकर, फ़िरऔन ने उन पर साज़िश का इल्ज़ाम लगाया और धमकी दी कि वह उनके हाथ-पैर काट देगा और उन्हें सूली पर चढ़ा देगा। पर ईमान उनके दिलों में उतर चुका था, और उन्होंने बेख़ौफ़ जवाब दिया: वे अपने रब की ओर लौटेंगे; उन्होंने केवल सब्र की और मुसलमान होकर मरने की दुआ माँगी।" },
+      { "kind": "verse", "surah": 7, "ayah": 126, "note": "'ऐ हमारे रब, हम पर सब्र उंडेल दे और हमें मुसलमान होकर मौत दे।'" },
+      { "kind": "list", "items": [
+        { "text": "जो अपने फ़न को सचमुच जानते हैं वे सत्य को पहचानने में सबसे तेज़ हो सकते हैं।" },
+        { "text": "सच्चा ईमान एक ही पल में इंसान को बदल सकता है।" },
+        { "text": "दुनिया की कोई धमकी उस दिल पर भारी नहीं जो अपने रब से मिल चुका हो।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "جب موسیٰ (علیہ السلام) اللہ کی نشانیاں لائے، تو فرعون نے اُسے جادو کہا اور ملک کے سب سے ماہر جادوگروں کو بلایا۔ وہ انعام اور عہدے کا مول تول کرتے ہوئے آئے، اِس بھروسے کے ساتھ کہ وہ جیتیں گے۔" },
+      { "kind": "verse", "surah": 7, "ayah": 116, "note": "'اُنہوں نے لوگوں کی آنکھوں پر جادو کر دیا اور اُنہیں خوفزدہ کر دیا، اور ایک بڑا جادو پیش کیا۔'" },
+      { "kind": "p", "text": "پھر موسیٰ نے اپنی لاٹھی ڈالی، اور اللہ کے حکم سے اُس نے وہ سب کچھ نگل لیا جو اُن کے جھوٹ نے رچا تھا۔ جسے مجمع نے جادو سمجھ کر خوف محسوس کیا تھا، وہ ایک لمحے میں مٹ گیا، اور حق صاف کھڑا ہو گیا۔" },
+      { "kind": "verse", "surah": 7, "ayah": 118, "note": "'تو حق ثابت ہو گیا، اور جو کچھ وہ کر رہے تھے وہ بے کار ہو گیا۔'" },
+      { "kind": "heading", "level": 2, "text": "جادوگروں سے مومن تک" },
+      { "kind": "p", "text": "جادوگر کسی سے بھی بہتر سمجھ گئے کہ یہ کوئی چال نہ تھی — یہ اللہ کی طرف سے ایک نشانی تھی۔ پورے مجمع کے سامنے، اور اپنے ہی آقا کے خلاف، وہ سجدے میں گر پڑے۔" },
+      { "kind": "verse", "surah": 7, "ayah": 121, "note": "'اُنہوں نے کہا، ہم سارے جہانوں کے رب پر ایمان لائے — موسیٰ اور ہارون کے رب پر۔'" },
+      { "kind": "p", "text": "غصے میں آ کر، فرعون نے اُن پر سازش کا الزام لگایا اور دھمکی دی کہ وہ اُن کے ہاتھ پاؤں کاٹ دے گا اور اُنہیں سولی پر چڑھا دے گا۔ پر ایمان اُن کے دلوں میں اتر چکا تھا، اور اُنہوں نے بے خوف جواب دیا: وہ اپنے رب کی طرف لوٹیں گے؛ اُنہوں نے صرف صبر کی اور مسلمان ہو کر مرنے کی دعا مانگی۔" },
+      { "kind": "verse", "surah": 7, "ayah": 126, "note": "'اے ہمارے رب، ہم پر صبر انڈیل دے اور ہمیں مسلمان ہو کر موت دے۔'" },
+      { "kind": "list", "items": [
+        { "text": "جو اپنے فن کو واقعی جانتے ہیں وہ حق کو پہچاننے میں سب سے تیز ہو سکتے ہیں۔" },
+        { "text": "سچا ایمان ایک ہی لمحے میں انسان کو بدل سکتا ہے۔" },
+        { "text": "دنیا کی کوئی دھمکی اُس دل پر بھاری نہیں جو اپنے رب سے مل چکا ہو۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "7:113-126" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["prophet-musa", "prophet-harun", "story-parting-of-the-sea"]
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "story-harut-marut",
+  "category": "quranic",
+  "featured": false,
+  "title": {
+    "en": "Harut and Marut",
+    "hi": "हारूत और मारूत",
+    "ur": "ہاروت اور ماروت"
+  },
+  "summary": {
+    "en": "In the time of Sulayman (peace be upon him), devils spread the lie that his kingdom rested on sorcery. The Qur'an clears his name and tells of two angels at Babylon, Harut and Marut, sent as a trial. They taught no one without first warning, 'We are only a trial, so do not disbelieve.' The story marks magic as disbelief and teaches that harm and benefit rest with Allah alone.",
+    "hi": "सुलैमान (उन पर शांति हो) के समय में शैतानों ने यह झूठ फैलाया कि उनका राज्य जादू पर टिका था। क़ुरआन उनका नाम पाक करता है और बाबिल के दो फ़रिश्तों, हारूत और मारूत का ज़िक्र करता है, जिन्हें एक परीक्षा के रूप में भेजा गया। वे किसी को तब तक न सिखाते जब तक पहले यह चेतावनी न दे देते, 'हम तो केवल एक परीक्षा हैं, अतः कुफ़्र न करो।' यह कहानी जादू को कुफ़्र बताती है और सिखाती है कि हानि और लाभ केवल अल्लाह के हाथ में है।",
+    "ur": "سلیمان (علیہ السلام) کے زمانے میں شیطانوں نے یہ جھوٹ پھیلایا کہ اُن کی بادشاہت جادو پر قائم تھی۔ قرآن اُن کا نام پاک کرتا ہے اور بابل کے دو فرشتوں، ہاروت اور ماروت کا ذکر کرتا ہے، جنہیں ایک آزمائش کے طور پر بھیجا گیا۔ وہ کسی کو اُس وقت تک نہ سکھاتے جب تک پہلے یہ خبردار نہ کر دیتے، 'ہم تو صرف ایک آزمائش ہیں، پس کفر نہ کرو۔' یہ قصہ جادو کو کفر قرار دیتا ہے اور سکھاتا ہے کہ نقصان اور نفع صرف اللہ کے ہاتھ میں ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "In the days of Sulayman (peace be upon him), the devils spread a lie: that his kingdom had been built on sorcery. The Qur'an answers the slander plainly — Sulayman never disbelieved. It was the devils who disbelieved, teaching people magic." },
+      { "kind": "verse", "surah": 2, "ayah": 102, "note": "'Sulayman did not disbelieve, but the devils disbelieved — teaching people magic, and that which was sent down to the two angels at Babylon, Harut and Marut.'" },
+      { "kind": "p", "text": "The two angels were themselves a test. They would teach no one their knowledge until they had first given a clear warning: this is a trial, and to use it is disbelief." },
+      { "kind": "heading", "level": 2, "text": "A trial, not a gift" },
+      { "kind": "p", "text": "From the two, people learned that by which they could cause separation between a man and his wife. Yet the Qur'an is exact: they could harm no one except by the permission of Allah. What they gained harmed them and brought no benefit." },
+      { "kind": "p", "text": "And they knew that whoever traded in this had no share in the Hereafter. Wretched was the price for which they sold themselves — if only they had known." },
+      { "kind": "list", "items": [
+        { "text": "Magic and sorcery are a form of disbelief, never a true source of power." },
+        { "text": "Harm and benefit rest with Allah alone; nothing befalls anyone except by His permission." },
+        { "text": "Knowledge chased against Allah's command harms its owner and costs him the Hereafter." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "सुलैमान (उन पर शांति हो) के समय में शैतानों ने यह झूठ फैलाया कि उनका राज्य जादू पर बना था। क़ुरआन इस तोहमत का साफ़ जवाब देता है — सुलैमान ने कभी कुफ़्र न किया। कुफ़्र तो शैतानों ने किया, जो लोगों को जादू सिखाते थे।" },
+      { "kind": "verse", "surah": 2, "ayah": 102, "note": "'सुलैमान ने कुफ़्र न किया, बल्कि शैतानों ने कुफ़्र किया — वे लोगों को जादू सिखाते थे, और वह भी जो बाबिल में दो फ़रिश्तों, हारूत और मारूत पर उतारा गया।'" },
+      { "kind": "p", "text": "वे दोनों फ़रिश्ते स्वयं एक परीक्षा थे। वे किसी को अपना इल्म तब तक न सिखाते जब तक पहले यह साफ़ चेतावनी न दे देते: यह एक आज़माइश है, और इसे इस्तेमाल करना कुफ़्र है।" },
+      { "kind": "heading", "level": 2, "text": "एक परीक्षा, कोई उपहार नहीं" },
+      { "kind": "p", "text": "उन दोनों से लोग वह सीखते जिससे वे पति और पत्नी के बीच जुदाई डाल सकें। फिर भी क़ुरआन ठीक-ठीक कहता है: वे अल्लाह की इजाज़त के बिना किसी को नुक़सान न पहुँचा सकते थे। जो उन्होंने कमाया उसने उन्हें नुक़सान दिया, कोई फ़ायदा न दिया।" },
+      { "kind": "p", "text": "और वे जानते थे कि जो इसका सौदा करेगा उसका आख़िरत में कोई हिस्सा नहीं। कितनी बुरी थी वह क़ीमत जिसके बदले उन्होंने अपने आप को बेच डाला — काश वे जानते।" },
+      { "kind": "list", "items": [
+        { "text": "जादू और सिहर कुफ़्र का एक रूप है, कभी शक्ति का सच्चा स्रोत नहीं।" },
+        { "text": "हानि और लाभ केवल अल्लाह के हाथ में है; उसकी इजाज़त के बिना किसी पर कुछ नहीं आता।" },
+        { "text": "अल्लाह के हुक्म के ख़िलाफ़ पीछा किया गया इल्म अपने मालिक को नुक़सान देता है और उससे आख़िरत छीन लेता है।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "سلیمان (علیہ السلام) کے زمانے میں شیطانوں نے یہ جھوٹ پھیلایا کہ اُن کی بادشاہت جادو پر بنی تھی۔ قرآن اِس بہتان کا صاف جواب دیتا ہے — سلیمان نے کبھی کفر نہ کیا۔ کفر تو شیطانوں نے کیا، جو لوگوں کو جادو سکھاتے تھے۔" },
+      { "kind": "verse", "surah": 2, "ayah": 102, "note": "'سلیمان نے کفر نہ کیا، بلکہ شیطانوں نے کفر کیا — وہ لوگوں کو جادو سکھاتے تھے، اور وہ بھی جو بابل میں دو فرشتوں، ہاروت اور ماروت پر اُتارا گیا۔'" },
+      { "kind": "p", "text": "وہ دونوں فرشتے خود ایک آزمائش تھے۔ وہ کسی کو اپنا علم اُس وقت تک نہ سکھاتے جب تک پہلے یہ صاف خبردار نہ کر دیتے: یہ ایک آزمائش ہے، اور اِسے استعمال کرنا کفر ہے۔" },
+      { "kind": "heading", "level": 2, "text": "ایک آزمائش، کوئی تحفہ نہیں" },
+      { "kind": "p", "text": "اُن دونوں سے لوگ وہ سیکھتے جس سے وہ میاں اور بیوی کے درمیان جدائی ڈال سکیں۔ پھر بھی قرآن ٹھیک ٹھیک کہتا ہے: وہ اللہ کی اجازت کے بغیر کسی کو نقصان نہ پہنچا سکتے تھے۔ جو اُنہوں نے کمایا اُس نے اُنہیں نقصان دیا، کوئی فائدہ نہ دیا۔" },
+      { "kind": "p", "text": "اور وہ جانتے تھے کہ جو اِس کا سودا کرے گا اُس کا آخرت میں کوئی حصہ نہیں۔ کتنی بری تھی وہ قیمت جس کے بدلے اُنہوں نے اپنے آپ کو بیچ ڈالا — کاش وہ جانتے۔" },
+      { "kind": "list", "items": [
+        { "text": "جادو اور سحر کفر کی ایک صورت ہے، کبھی طاقت کا سچا سرچشمہ نہیں۔" },
+        { "text": "نقصان اور نفع صرف اللہ کے ہاتھ میں ہے؛ اُس کی اجازت کے بغیر کسی پر کچھ نہیں آتا۔" },
+        { "text": "اللہ کے حکم کے خلاف پیچھا کیا گیا علم اپنے مالک کو نقصان دیتا ہے اور اُس سے آخرت چھین لیتا ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "2:102" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["prophet-sulayman", "concept-shirk", "concept-iman"]
+}

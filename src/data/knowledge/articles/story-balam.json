@@ -1,0 +1,64 @@
+{
+  "slug": "story-balam",
+  "category": "quranic",
+  "featured": false,
+  "title": {
+    "en": "The One Who Cast Off the Signs",
+    "hi": "जिसने निशानियाँ फेंक दीं",
+    "ur": "جس نے نشانیاں پھینک دیں"
+  },
+  "summary": {
+    "en": "The Qur'an tells of a man to whom Allah had given knowledge of His signs, yet who cast them off and followed his desires, until Satan overtook him and he went astray. Allah likens him to a panting dog. Tradition names him Bal'am ibn Ba'ura. His story is a stern warning that knowledge without humility and restraint can drag a person down to the lowest state.",
+    "hi": "क़ुरआन एक ऐसे व्यक्ति की बात करता है जिसे अल्लाह ने अपनी निशानियों का ज्ञान दिया था, फिर भी उसने उन्हें फेंक दिया और अपनी इच्छाओं के पीछे चला, यहाँ तक कि शैतान ने उसे पकड़ लिया और वह भटक गया। अल्लाह उसे हाँफते हुए कुत्ते से उपमा देता है। रिवायत उसका नाम बल'आम बिन बाऊरा बताती है। उसकी कहानी एक कठोर चेतावनी है कि विनम्रता और संयम के बिना ज्ञान इंसान को सबसे नीच हालत तक गिरा सकता है।",
+    "ur": "قرآن ایک ایسے شخص کی بات کرتا ہے جسے اللہ نے اپنی نشانیوں کا علم دیا تھا، پھر بھی اُس نے اُنہیں پھینک دیا اور اپنی خواہشات کے پیچھے چلا، یہاں تک کہ شیطان نے اُسے پکڑ لیا اور وہ بھٹک گیا۔ اللہ اُسے ہانپتے ہوئے کتے سے تشبیہ دیتا ہے۔ روایت اُس کا نام بلعام بن باعورا بتاتی ہے۔ اُس کا قصہ ایک سخت تنبیہ ہے کہ عاجزی اور ضبط کے بغیر علم انسان کو سب سے پست حالت تک گرا سکتا ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Allah tells His Prophet ﷺ to recite the news of a man to whom He had given His signs — knowledge and understanding of the truth — but who then stripped himself of them, so that Satan followed close and he became of those who went astray." },
+      { "kind": "verse", "surah": 7, "ayah": 175, "note": "'And recite to them the news of the one to whom We gave Our signs, but he detached himself from them; so Satan pursued him, and he became of the deviators.'" },
+      { "kind": "p", "text": "Had Allah willed, He would have raised the man by that knowledge. But the man clung to the earth — to this lowly world — and followed his own desire instead of the truth he knew." },
+      { "kind": "heading", "level": 2, "text": "The likeness of a dog" },
+      { "kind": "p", "text": "Allah gives a piercing image for such a person: whether you approach him with warning or leave him be, he does not change — like a dog that pants whether you drive it away or let it rest. Knowing the truth changed nothing in him, because his heart was set elsewhere." },
+      { "kind": "verse", "surah": 7, "ayah": 176, "note": "'His example is that of a dog: if you drive it away it pants, or if you leave it it pants. That is the example of the people who denied Our signs.'" },
+      { "kind": "p", "text": "The lesson lands not only on him but on all who are given light and turn from it. Knowledge is an amanah — a trust — and it either raises a person or, when betrayed, testifies against him." },
+      { "kind": "list", "items": [
+        { "text": "Knowledge without humble action can become a proof against its owner, not for him." },
+        { "text": "Following desire over known truth is the road by which Satan overtakes a person." },
+        { "text": "Cling to the eternal, not to the fleeting world, or knowledge itself will not save you." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "अल्लाह अपने नबी ﷺ से कहता है कि उस व्यक्ति का हाल सुनाएँ जिसे उसने अपनी निशानियाँ दी थीं — सत्य का ज्ञान और समझ — फिर उसने ख़ुद को उनसे अलग कर लिया, तो शैतान उसके पीछे लग गया और वह भटकने वालों में हो गया।" },
+      { "kind": "verse", "surah": 7, "ayah": 175, "note": "'और उन्हें उस व्यक्ति का हाल सुनाओ जिसे हमने अपनी निशानियाँ दीं, फिर वह उनसे निकल गया; तो शैतान उसके पीछे लग गया, और वह भटकने वालों में हो गया।'" },
+      { "kind": "p", "text": "अगर अल्लाह चाहता, तो उसी ज्ञान से उसे ऊँचा उठा देता। परंतु उस व्यक्ति ने ज़मीन से — इस नीची दुनिया से — चिपके रहना चुना, और उस सत्य के बजाय जो वह जानता था, अपनी इच्छा के पीछे चला।" },
+      { "kind": "heading", "level": 2, "text": "कुत्ते की उपमा" },
+      { "kind": "p", "text": "अल्लाह ऐसे व्यक्ति के लिए एक तीखी तस्वीर देता है: तुम उसे चेतावनी के साथ पास जाओ या छोड़ दो, वह नहीं बदलता — उस कुत्ते की तरह जो हाँफता है चाहे तुम उसे भगाओ या रहने दो। सत्य जानने से उसमें कुछ न बदला, क्योंकि उसका दिल कहीं और लगा था।" },
+      { "kind": "verse", "surah": 7, "ayah": 176, "note": "'उसकी उपमा कुत्ते जैसी है: यदि तुम उस पर झपटो तो हाँफता है, या छोड़ दो तो भी हाँफता है। यही उन लोगों की उपमा है जिन्होंने हमारी निशानियों को झुठलाया।'" },
+      { "kind": "p", "text": "यह सबक़ केवल उस पर नहीं, बल्कि उन सब पर उतरता है जिन्हें रोशनी दी जाती है और वे उससे मुँह मोड़ लेते हैं। ज्ञान एक अमानत है — या तो वह इंसान को ऊँचा करता है, या जब उसमें ख़यानत हो, तो उसके ख़िलाफ़ गवाही देता है।" },
+      { "kind": "list", "items": [
+        { "text": "विनम्र अमल के बिना ज्ञान अपने मालिक के ख़िलाफ़ सबूत बन सकता है, उसके पक्ष में नहीं।" },
+        { "text": "ज्ञात सत्य पर इच्छा को तरजीह देना वह रास्ता है जिससे शैतान इंसान को पकड़ लेता है।" },
+        { "text": "क्षणभंगुर दुनिया के बजाय शाश्वत से चिपको, वरना ज्ञान भी तुम्हें न बचाएगा।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "اللہ اپنے نبی ﷺ سے کہتا ہے کہ اُس شخص کا حال سنائیں جسے اُس نے اپنی نشانیاں دی تھیں — حق کا علم اور سمجھ — پھر اُس نے خود کو اُن سے الگ کر لیا، تو شیطان اُس کے پیچھے لگ گیا اور وہ بھٹکنے والوں میں ہو گیا۔" },
+      { "kind": "verse", "surah": 7, "ayah": 175, "note": "'اور اُنہیں اُس شخص کا حال سناؤ جسے ہم نے اپنی نشانیاں دیں، پھر وہ اُن سے نکل گیا؛ تو شیطان اُس کے پیچھے لگ گیا، اور وہ بھٹکنے والوں میں ہو گیا۔'" },
+      { "kind": "p", "text": "اگر اللہ چاہتا، تو اُسی علم سے اُسے بلند کر دیتا۔ لیکن اُس شخص نے زمین سے — اِس پست دنیا سے — چمٹے رہنا چنا، اور اُس حق کے بجائے جو وہ جانتا تھا، اپنی خواہش کے پیچھے چلا۔" },
+      { "kind": "heading", "level": 2, "text": "کتے کی تشبیہ" },
+      { "kind": "p", "text": "اللہ ایسے شخص کے لیے ایک تیکھی تصویر دیتا ہے: تم اُسے تنبیہ کے ساتھ پاس جاؤ یا چھوڑ دو، وہ نہیں بدلتا — اُس کتے کی طرح جو ہانپتا ہے چاہے تم اُسے بھگاؤ یا رہنے دو۔ حق جاننے سے اُس میں کچھ نہ بدلا، کیونکہ اُس کا دل کہیں اور لگا تھا۔" },
+      { "kind": "verse", "surah": 7, "ayah": 176, "note": "'اُس کی مثال کتے جیسی ہے: اگر تم اُس پر جھپٹو تو ہانپتا ہے، یا چھوڑ دو تو بھی ہانپتا ہے۔ یہی اُن لوگوں کی مثال ہے جنہوں نے ہماری نشانیوں کو جھٹلایا۔'" },
+      { "kind": "p", "text": "یہ سبق صرف اُس پر نہیں، بلکہ اُن سب پر اترتا ہے جنہیں روشنی دی جاتی ہے اور وہ اُس سے منہ موڑ لیتے ہیں۔ علم ایک امانت ہے — یا تو وہ انسان کو بلند کرتا ہے، یا جب اُس میں خیانت ہو، تو اُس کے خلاف گواہی دیتا ہے۔" },
+      { "kind": "list", "items": [
+        { "text": "عاجز عمل کے بغیر علم اپنے مالک کے خلاف ثبوت بن سکتا ہے، اُس کے حق میں نہیں۔" },
+        { "text": "معلوم حق پر خواہش کو ترجیح دینا وہ راستہ ہے جس سے شیطان انسان کو پکڑ لیتا ہے۔" },
+        { "text": "فانی دنیا کے بجائے ابدی سے چمٹو، ورنہ علم بھی تمہیں نہ بچائے گا۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "7:175-176" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["concept-taqwa", "concept-iman", "concept-shirk"]
+}

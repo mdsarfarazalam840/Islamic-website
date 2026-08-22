@@ -1,0 +1,67 @@
+{
+  "slug": "story-believer-of-pharaoh",
+  "category": "quranic",
+  "featured": false,
+  "title": {
+    "en": "The Believer of Pharaoh's Family",
+    "hi": "फ़िरऔन के घराने का मोमिन",
+    "ur": "فرعون کے گھرانے کا مومن"
+  },
+  "summary": {
+    "en": "When Pharaoh resolved to kill Musa (peace be upon him), a believing man from Pharaoh's own household — who had hidden his faith — rose to defend him. He warned his people with wisdom and courage, recalling the fate of earlier nations and pointing them toward the true, lasting home. Allah saved him from their plots, and the plotters were drawn into the worst of punishments. His speech in Surah Ghafir is a model of standing for truth from within.",
+    "hi": "जब फ़िरऔन ने मूसा (उन पर शांति हो) को क़त्ल करने का इरादा किया, तो फ़िरऔन के अपने ही घराने का एक ईमान वाला व्यक्ति — जिसने अपना ईमान छिपा रखा था — उनके बचाव में खड़ा हुआ। उसने अपनी क़ौम को हिकमत और साहस से चेताया, पहली उम्मतों के अंजाम को याद दिलाते हुए और उन्हें सच्चे, बाक़ी रहने वाले घर की ओर इशारा करते हुए। अल्लाह ने उसे उनकी साज़िशों से बचाया, और साज़िश करने वाले सबसे बुरे अज़ाब में घिर गए। सूरह ग़ाफ़िर में उसका भाषण भीतर से सत्य के लिए खड़े होने का एक नमूना है।",
+    "ur": "جب فرعون نے موسیٰ (علیہ السلام) کو قتل کرنے کا ارادہ کیا، تو فرعون کے اپنے ہی گھرانے کا ایک ایمان والا شخص — جس نے اپنا ایمان چھپا رکھا تھا — اُن کے دفاع میں کھڑا ہوا۔ اُس نے اپنی قوم کو حکمت اور جرأت سے خبردار کیا، پہلی امتوں کے انجام کو یاد دلاتے ہوئے اور اُنہیں سچے، باقی رہنے والے گھر کی طرف اشارہ کرتے ہوئے۔ اللہ نے اُسے اُن کی سازشوں سے بچایا، اور سازش کرنے والے سب سے بُرے عذاب میں گھر گئے۔ سورہ غافر میں اُس کی تقریر اندر سے حق کے لیے کھڑے ہونے کا ایک نمونہ ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Pharaoh declared before his court that he would kill Musa (peace be upon him), daring him to call upon his Lord. At that moment a believing man from Pharaoh's own family, who had kept his faith concealed, could stay hidden no longer." },
+      { "kind": "verse", "surah": 40, "ayah": 28, "note": "'And a believing man from the family of Pharaoh, who concealed his faith, said, Would you kill a man merely for saying, My Lord is Allah?'" },
+      { "kind": "p", "text": "He argued with reason: if the man were a liar, his lie was upon himself; but if he were truthful, some of what he warned of would strike them. Why gamble against a messenger who had brought clear proofs?" },
+      { "kind": "heading", "level": 2, "text": "A warning from history and the Hereafter" },
+      { "kind": "p", "text": "He reminded them of the peoples of Nuh, 'Ad, and Thamud, destroyed for their denial, and warned of the Day when they would call to one another in regret. He called them to the path of guidance, contrasting this fleeting world with the everlasting home." },
+      { "kind": "verse", "surah": 40, "ayah": 39, "note": "'O my people, this worldly life is only enjoyment, and the Hereafter — that is the home of settlement.'" },
+      { "kind": "p", "text": "He entrusted his affair to Allah and let them plot as they would. And Allah protected him from the evil of their schemes, while the punishment closed in upon the people of Pharaoh." },
+      { "kind": "verse", "surah": 40, "ayah": 45, "note": "'So Allah protected him from the evils they plotted, and the people of Pharaoh were enveloped by the worst of punishment.'" },
+      { "kind": "list", "items": [
+        { "text": "Faith may be quiet for a time, but it must speak when the truth is under threat." },
+        { "text": "Argue for the truth with wisdom, evidence, and sincere concern for others." },
+        { "text": "Whoever entrusts his affair to Allah, Allah suffices and protects him." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "फ़िरऔन ने अपने दरबार में ऐलान किया कि वह मूसा (उन पर शांति हो) को क़त्ल कर देगा, और उन्हें ललकारा कि वे अपने रब को पुकार लें। उसी घड़ी फ़िरऔन के अपने घराने का एक ईमान वाला व्यक्ति, जिसने अपना ईमान छिपा रखा था, और छिपा न रह सका।" },
+      { "kind": "verse", "surah": 40, "ayah": 28, "note": "'और फ़िरऔन के घराने का एक ईमान वाला व्यक्ति, जो अपना ईमान छिपाए हुए था, बोला, क्या तुम एक व्यक्ति को केवल इसलिए मार डालोगे कि वह कहता है, मेरा रब अल्लाह है?'" },
+      { "kind": "p", "text": "उसने तर्क से बात की: यदि वह व्यक्ति झूठा है, तो उसका झूठ उसी पर है; परंतु यदि वह सच्चा है, तो जिस चीज़ से वह डराता है उसमें से कुछ तुम पर आ पड़ेगी। एक ऐसे रसूल के ख़िलाफ़ दाँव क्यों लगाना जो खुली निशानियाँ लाया है?" },
+      { "kind": "heading", "level": 2, "text": "इतिहास और आख़िरत से एक चेतावनी" },
+      { "kind": "p", "text": "उसने उन्हें नूह, आद और समूद की क़ौमों की याद दिलाई, जो अपने इनकार के कारण नष्ट हुईं, और उस दिन से डराया जब वे एक-दूसरे को पछतावे में पुकारेंगे। उसने उन्हें हिदायत के मार्ग की ओर बुलाया, इस क्षणभंगुर दुनिया की तुलना बाक़ी रहने वाले घर से करते हुए।" },
+      { "kind": "verse", "surah": 40, "ayah": 39, "note": "'ऐ मेरी क़ौम, यह दुनिया की ज़िंदगी तो केवल थोड़ा-सा भोग है, और आख़िरत — वही सदा रहने का घर है।'" },
+      { "kind": "p", "text": "उसने अपना मामला अल्लाह को सौंप दिया और उन्हें जैसा चाहें साज़िश करने दिया। और अल्लाह ने उसे उनकी चालों की बुराई से बचा लिया, जबकि अज़ाब ने फ़िरऔन वालों को घेर लिया।" },
+      { "kind": "verse", "surah": 40, "ayah": 45, "note": "'तो अल्लाह ने उसे उन बुराइयों से बचा लिया जो उन्होंने रचीं, और फ़िरऔन वालों को सबसे बुरे अज़ाब ने घेर लिया।'" },
+      { "kind": "list", "items": [
+        { "text": "ईमान कुछ समय के लिए ख़ामोश रह सकता है, परंतु जब सत्य ख़तरे में हो तो उसे बोलना ही होगा।" },
+        { "text": "सत्य के लिए हिकमत, दलील और दूसरों की सच्ची फ़िक्र के साथ तर्क करो।" },
+        { "text": "जो अपना मामला अल्लाह को सौंप देता है, अल्लाह उसके लिए काफ़ी है और उसकी रक्षा करता है।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "فرعون نے اپنے دربار میں اعلان کیا کہ وہ موسیٰ (علیہ السلام) کو قتل کر دے گا، اور اُنہیں للکارا کہ وہ اپنے رب کو پکار لیں۔ اُسی گھڑی فرعون کے اپنے گھرانے کا ایک ایمان والا شخص، جس نے اپنا ایمان چھپا رکھا تھا، اور چھپا نہ رہ سکا۔" },
+      { "kind": "verse", "surah": 40, "ayah": 28, "note": "'اور فرعون کے گھرانے کا ایک ایمان والا شخص، جو اپنا ایمان چھپائے ہوئے تھا، بولا، کیا تم ایک شخص کو صرف اِس لیے مار ڈالو گے کہ وہ کہتا ہے، میرا رب اللہ ہے؟'" },
+      { "kind": "p", "text": "اُس نے دلیل سے بات کی: اگر وہ شخص جھوٹا ہے، تو اُس کا جھوٹ اُسی پر ہے؛ لیکن اگر وہ سچا ہے، تو جس چیز سے وہ ڈراتا ہے اُس میں سے کچھ تم پر آ پڑے گی۔ ایک ایسے رسول کے خلاف داؤ کیوں لگانا جو کھلی نشانیاں لایا ہے؟" },
+      { "kind": "heading", "level": 2, "text": "تاریخ اور آخرت سے ایک تنبیہ" },
+      { "kind": "p", "text": "اُس نے اُنہیں نوح، عاد اور ثمود کی قوموں کی یاد دلائی، جو اپنے انکار کے سبب ہلاک ہوئیں، اور اُس دن سے ڈرایا جب وہ ایک دوسرے کو پچھتاوے میں پکاریں گے۔ اُس نے اُنہیں ہدایت کی راہ کی طرف بلایا، اِس فانی دنیا کا موازنہ باقی رہنے والے گھر سے کرتے ہوئے۔" },
+      { "kind": "verse", "surah": 40, "ayah": 39, "note": "'اے میری قوم، یہ دنیا کی زندگی تو صرف تھوڑا سا فائدہ ہے، اور آخرت — وہی ہمیشہ رہنے کا گھر ہے۔'" },
+      { "kind": "p", "text": "اُس نے اپنا معاملہ اللہ کے سپرد کر دیا اور اُنہیں جیسا چاہیں سازش کرنے دیا۔ اور اللہ نے اُسے اُن کی چالوں کی برائی سے بچا لیا، جبکہ عذاب نے فرعون والوں کو گھیر لیا۔" },
+      { "kind": "verse", "surah": 40, "ayah": 45, "note": "'تو اللہ نے اُسے اُن برائیوں سے بچا لیا جو اُنہوں نے رچیں، اور فرعون والوں کو سب سے بُرے عذاب نے گھیر لیا۔'" },
+      { "kind": "list", "items": [
+        { "text": "ایمان کچھ عرصے کے لیے خاموش رہ سکتا ہے، لیکن جب حق خطرے میں ہو تو اُسے بولنا ہی ہوگا۔" },
+        { "text": "حق کے لیے حکمت، دلیل اور دوسروں کی سچی فکر کے ساتھ بات کرو۔" },
+        { "text": "جو اپنا معاملہ اللہ کے سپرد کر دیتا ہے، اللہ اُس کے لیے کافی ہے اور اُس کی حفاظت کرتا ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "40:28-45" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["prophet-musa", "concept-iman", "concept-tawakkul"]
+}

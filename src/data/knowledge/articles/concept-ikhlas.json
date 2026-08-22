@@ -1,0 +1,68 @@
+{
+  "slug": "concept-ikhlas",
+  "category": "concepts",
+  "featured": false,
+  "title": {
+    "en": "Ikhlāṣ — Sincerity of Intention",
+    "hi": "इख़लास — नीयत की निष्ठा",
+    "ur": "اخلاص — نیت کا خلوص"
+  },
+  "summary": {
+    "en": "Ikhlāṣ is purity of intention — doing every act of worship for Allah alone, seeking no praise or reward from people. The Qur'an commands worship made sincerely for Him, and the Prophet ﷺ taught that deeds are judged by their intentions.",
+    "hi": "इख़लास नीयत की पवित्रता है — इबादत का हर कर्म केवल अल्लाह के लिए करना, लोगों से किसी प्रशंसा या इनाम की तलाश किए बिना। क़ुरआन उसके लिए निष्ठापूर्वक की गई इबादत का हुक्म देता है, और पैगंबर ﷺ ने सिखाया कि कर्मों का फ़ैसला उनकी नीयतों से होता है।",
+    "ur": "اخلاص نیت کی پاکیزگی ہے — عبادت کا ہر عمل صرف اللہ کے لیے کرنا، لوگوں سے کسی تعریف یا انعام کی تلاش کیے بغیر۔ قرآن اُس کے لیے خالص عبادت کا حکم دیتا ہے، اور نبی ﷺ نے سکھایا کہ اعمال کا فیصلہ اُن کی نیتوں سے ہوتا ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Ikhlāṣ means to purify one's intention so that worship is directed to Allah alone, untouched by the desire for people's praise. It is the inner condition that gives a deed its worth: two people may perform the same act, yet only the sincere one is rewarded. Its opposite is riyā' — showing off." },
+      { "kind": "verse", "surah": 98, "ayah": 5, "note": "'They were commanded only to worship Allah, sincere to Him in religion.'" },
+      { "kind": "heading", "level": 2, "text": "Deeds are by intentions" },
+      { "kind": "p", "text": "The very first hadith recorded by Imam al-Bukhārī sets sincerity as the foundation of all deeds. The same outward action can be worship or vanity depending entirely on why it was done." },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 1, "note": "'The reward of deeds depends upon the intentions, and every person will get the reward according to what he has intended.'" },
+      { "kind": "heading", "level": 2, "text": "For Allah, seeking His Face" },
+      { "kind": "p", "text": "The sincere give and strive seeking nothing back from creation — no thanks, no reward — but the pleasure of Allah alone. This intention transforms ordinary acts into lasting worship." },
+      { "kind": "verse", "surah": 76, "ayah": 9, "note": "'We feed you only for the Face of Allah. We wish not from you reward or gratitude.'" },
+      { "kind": "list", "items": [
+        { "text": "Ikhlāṣ is worship directed to Allah alone, free of showing off." },
+        { "text": "Deeds are judged by their intentions, not their outward size." },
+        { "text": "The sincere seek only Allah's pleasure, not people's praise." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "इख़लास का अर्थ है अपनी नीयत को इतना पवित्र करना कि इबादत केवल अल्लाह की ओर हो, लोगों की प्रशंसा की चाह से अछूती। यह वह भीतरी अवस्था है जो कर्म को उसका मोल देती है: दो लोग एक ही कर्म कर सकते हैं, फिर भी केवल निष्ठावान को इनाम मिलता है। इसका विपरीत है रिया — दिखावा।" },
+      { "kind": "verse", "surah": 98, "ayah": 5, "note": "'उन्हें केवल यही हुक्म दिया गया कि अल्लाह की इबादत करें, धर्म में उसके लिए निष्ठावान रहते हुए।'" },
+      { "kind": "heading", "level": 2, "text": "कर्म नीयतों से हैं" },
+      { "kind": "p", "text": "इमाम बुख़ारी द्वारा दर्ज सबसे पहली हदीस निष्ठा को सभी कर्मों की बुनियाद ठहराती है। एक ही बाहरी कर्म इबादत हो सकता है या घमंड, पूरी तरह इस पर निर्भर कि वह क्यों किया गया।" },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 1, "note": "'कर्मों का इनाम नीयतों पर निर्भर है, और हर व्यक्ति को वही मिलेगा जिसकी उसने नीयत की।'" },
+      { "kind": "heading", "level": 2, "text": "अल्लाह के लिए, उसकी प्रसन्नता चाहते हुए" },
+      { "kind": "p", "text": "निष्ठावान लोग सृष्टि से कुछ भी वापस चाहे बिना देते और जूझते हैं — न धन्यवाद, न इनाम — बल्कि केवल अल्लाह की प्रसन्नता। यह नीयत साधारण कर्मों को स्थायी इबादत में बदल देती है।" },
+      { "kind": "verse", "surah": 76, "ayah": 9, "note": "'हम तुम्हें केवल अल्लाह के चेहरे के लिए खिलाते हैं। हम तुमसे न कोई बदला चाहते हैं न धन्यवाद।'" },
+      { "kind": "list", "items": [
+        { "text": "इख़लास केवल अल्लाह की ओर की गई इबादत है, दिखावे से मुक्त।" },
+        { "text": "कर्मों का फ़ैसला उनकी नीयतों से होता है, उनके बाहरी आकार से नहीं।" },
+        { "text": "निष्ठावान केवल अल्लाह की प्रसन्नता चाहते हैं, लोगों की प्रशंसा नहीं।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "اخلاص کا مطلب ہے اپنی نیت کو اتنا خالص کرنا کہ عبادت صرف اللہ کی طرف ہو، لوگوں کی تعریف کی خواہش سے پاک۔ یہ وہ باطنی حالت ہے جو عمل کو اُس کی قدر دیتی ہے: دو لوگ ایک ہی عمل کر سکتے ہیں، پھر بھی صرف مخلص کو اجر ملتا ہے۔ اِس کی ضد ہے ریا — دکھاوا۔" },
+      { "kind": "verse", "surah": 98, "ayah": 5, "note": "'اُنہیں صرف یہی حکم دیا گیا کہ اللہ کی عبادت کریں، دین میں اُس کے لیے خالص ہوتے ہوئے۔'" },
+      { "kind": "heading", "level": 2, "text": "اعمال نیتوں سے ہیں" },
+      { "kind": "p", "text": "امام بخاری کی درج کی گئی سب سے پہلی حدیث خلوص کو تمام اعمال کی بنیاد ٹھہراتی ہے۔ ایک ہی ظاہری عمل عبادت ہو سکتا ہے یا تکبر، پوری طرح اِس پر منحصر کہ وہ کیوں کیا گیا۔" },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 1, "note": "'اعمال کا اجر نیتوں پر منحصر ہے، اور ہر شخص کو وہی ملے گا جس کی اُس نے نیت کی۔'" },
+      { "kind": "heading", "level": 2, "text": "اللہ کے لیے، اُس کی رضا چاہتے ہوئے" },
+      { "kind": "p", "text": "مخلص لوگ مخلوق سے کچھ بھی واپس چاہے بغیر دیتے اور جدوجہد کرتے ہیں — نہ شکریہ، نہ انعام — بلکہ صرف اللہ کی رضا۔ یہ نیت عام اعمال کو دائمی عبادت میں بدل دیتی ہے۔" },
+      { "kind": "verse", "surah": 76, "ayah": 9, "note": "'ہم تمہیں صرف اللہ کے چہرے کے لیے کھلاتے ہیں۔ ہم تم سے نہ کوئی بدلہ چاہتے ہیں نہ شکریہ۔'" },
+      { "kind": "list", "items": [
+        { "text": "اخلاص صرف اللہ کی طرف کی گئی عبادت ہے، دکھاوے سے پاک۔" },
+        { "text": "اعمال کا فیصلہ اُن کی نیتوں سے ہوتا ہے، اُن کے ظاہری حجم سے نہیں۔" },
+        { "text": "مخلص صرف اللہ کی رضا چاہتے ہیں، لوگوں کی تعریف نہیں۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "98:5" },
+    { "type": "hadith", "collection": "bukhari", "ref": "1", "grade": "sahih" },
+    { "type": "quran", "ref": "76:9" }
+  ],
+  "relatedSlugs": ["concept-taqwa", "concept-shirk", "story-juraij-the-worshipper"]
+}

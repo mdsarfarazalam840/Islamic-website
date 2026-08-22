@@ -1,0 +1,74 @@
+{
+  "slug": "surah-an-nas",
+  "category": "surahs",
+  "surahNumber": 114,
+  "featured": false,
+  "title": {
+    "en": "Sūrat an-Nās — Mankind",
+    "hi": "सूरह अन-नास — मानवजाति",
+    "ur": "سورۃ الناس — انسان"
+  },
+  "summary": {
+    "en": "The final surah of the Qur'an — a short Makkan chapter of six verses and the second of the two \"seeking-refuge\" surahs. It teaches the believer to seek refuge in Allah as Lord, King, and God of mankind, from the whispering of the devil that slips into human hearts.",
+    "hi": "क़ुरआन की अंतिम सूरह — छह आयतों की एक छोटी मक्की सूरह और दो \"शरण माँगने वाली\" सूरतों में से दूसरी। यह ईमान वाले को सिखाती है कि अल्लाह की — मानवजाति के रब, बादशाह, और माबूद के रूप में — उस शैतान की फुसफुसाहट से शरण माँगे जो मनुष्यों के दिलों में सरक आती है।",
+    "ur": "قرآن کی آخری سورت — چھ آیات کی ایک مختصر مکی سورت اور دو \"پناہ مانگنے والی\" سورتوں میں سے دوسری۔ یہ مومن کو سکھاتی ہے کہ اللہ کی — انسانوں کے رب، بادشاہ، اور معبود کے طور پر — اُس شیطان کی وسوسے سے پناہ مانگے جو انسانوں کے دلوں میں سرک آتا ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Sūrat an-Nās — \"Mankind\" — is the one hundred and fourteenth and final surah of the Qur'an, a short Makkan chapter of six verses. With al-Falaq before it, it completes the Mu'awwidhatayn, the two surahs of refuge that the Prophet ﷺ recited for protection." },
+      { "kind": "verse", "surah": 114, "ayah": 1, "note": "'Say: I seek refuge in the Lord of mankind.'" },
+      { "kind": "verse", "surah": 114, "ayah": 2, "note": "'The King of mankind.'" },
+      { "kind": "verse", "surah": 114, "ayah": 3, "note": "'The God of mankind.'" },
+      { "kind": "heading", "level": 2, "text": "From the whisperer" },
+      { "kind": "p", "text": "The surah opens by affirming Allah with three names — Lord, King, and God of mankind — then names the danger it seeks refuge from: the retreating whisperer who casts evil suggestions into human hearts, whether from among the jinn or from people." },
+      { "kind": "verse", "surah": 114, "ayah": 4, "note": "'From the evil of the retreating whisperer.'" },
+      { "kind": "verse", "surah": 114, "ayah": 6, "note": "'From among the jinn and mankind.'" },
+      { "kind": "heading", "level": 2, "text": "The seal of the Qur'an" },
+      { "kind": "p", "text": "That the Qur'an closes by teaching the human being to take refuge in his Lord — against the subtlest inward enemy — is a fitting seal to the whole Book, whose purpose is to guide the heart back to Allah." },
+      { "kind": "list", "items": [
+        { "text": "An-Nās is the final surah and the second of the two surahs of refuge." },
+        { "text": "It affirms Allah as Lord, King, and God of all mankind." },
+        { "text": "It seeks protection from the whisper of Satan that enters the heart." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "सूरह अन-नास — \"मानवजाति\" — क़ुरआन की एक सौ चौदहवीं और अंतिम सूरह है, छह आयतों की एक छोटी मक्की सूरह। इससे पहले की अल-फ़लक़ के साथ, यह मुअव्विज़तैन पूरी करती है — शरण की दो सूरतें जिन्हें पैगंबर ﷺ सुरक्षा के लिए पढ़ते थे।" },
+      { "kind": "verse", "surah": 114, "ayah": 1, "note": "'कह दो: मैं मानवजाति के रब की शरण माँगता हूँ।'" },
+      { "kind": "verse", "surah": 114, "ayah": 2, "note": "'मानवजाति के बादशाह की।'" },
+      { "kind": "verse", "surah": 114, "ayah": 3, "note": "'मानवजाति के माबूद की।'" },
+      { "kind": "heading", "level": 2, "text": "फुसफुसाने वाले से" },
+      { "kind": "p", "text": "सूरह अल्लाह की तीन नामों से पुष्टि से शुरू होती है — मानवजाति का रब, बादशाह, और माबूद — फिर उस ख़तरे का नाम लेती है जिससे शरण माँगती है: पीछे हटने वाला फुसफुसाने वाला जो मनुष्यों के दिलों में बुरे सुझाव डालता है, चाहे वह जिन्न में से हो या लोगों में से।" },
+      { "kind": "verse", "surah": 114, "ayah": 4, "note": "'पीछे हटने वाले फुसफुसाने वाले की बुराई से।'" },
+      { "kind": "verse", "surah": 114, "ayah": 6, "note": "'जिन्न और मनुष्यों में से।'" },
+      { "kind": "heading", "level": 2, "text": "क़ुरआन की मुहर" },
+      { "kind": "p", "text": "क़ुरआन का मनुष्य को अपने रब की शरण लेना सिखाते हुए समाप्त होना — सबसे सूक्ष्म भीतरी शत्रु के विरुद्ध — पूरे ग्रंथ की एक उपयुक्त मुहर है, जिसका उद्देश्य दिल को अल्लाह की ओर लौटाना है।" },
+      { "kind": "list", "items": [
+        { "text": "अन-नास अंतिम सूरह और शरण की दो सूरतों में से दूसरी है।" },
+        { "text": "यह अल्लाह की सारी मानवजाति के रब, बादशाह, और माबूद के रूप में पुष्टि करती है।" },
+        { "text": "यह शैतान की उस फुसफुसाहट से सुरक्षा माँगती है जो दिल में प्रवेश करती है।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "سورۃ الناس — \"انسان\" — قرآن کی ایک سو چودہویں اور آخری سورت ہے، چھ آیات کی ایک مختصر مکی سورت۔ اِس سے پہلے کی الفلق کے ساتھ، یہ معوذتین مکمل کرتی ہے — پناہ کی دو سورتیں جنہیں نبی ﷺ حفاظت کے لیے پڑھتے تھے۔" },
+      { "kind": "verse", "surah": 114, "ayah": 1, "note": "'کہہ دو: میں انسانوں کے رب کی پناہ مانگتا ہوں۔'" },
+      { "kind": "verse", "surah": 114, "ayah": 2, "note": "'انسانوں کے بادشاہ کی۔'" },
+      { "kind": "verse", "surah": 114, "ayah": 3, "note": "'انسانوں کے معبود کی۔'" },
+      { "kind": "heading", "level": 2, "text": "وسوسہ ڈالنے والے سے" },
+      { "kind": "p", "text": "سورت اللہ کی تین ناموں سے تصدیق سے شروع ہوتی ہے — انسانوں کا رب، بادشاہ، اور معبود — پھر اُس خطرے کا نام لیتی ہے جس سے پناہ مانگتی ہے: پیچھے ہٹنے والا وسوسہ ڈالنے والا جو انسانوں کے دلوں میں بری سوچیں ڈالتا ہے، خواہ وہ جنوں میں سے ہو یا لوگوں میں سے۔" },
+      { "kind": "verse", "surah": 114, "ayah": 4, "note": "'پیچھے ہٹنے والے وسوسہ ڈالنے والے کی برائی سے۔'" },
+      { "kind": "verse", "surah": 114, "ayah": 6, "note": "'جنوں اور انسانوں میں سے۔'" },
+      { "kind": "heading", "level": 2, "text": "قرآن کی مہر" },
+      { "kind": "p", "text": "قرآن کا انسان کو اپنے رب کی پناہ لینا سکھاتے ہوئے ختم ہونا — سب سے باریک باطنی دشمن کے خلاف — پوری کتاب کی ایک موزوں مہر ہے، جس کا مقصد دل کو اللہ کی طرف لوٹانا ہے۔" },
+      { "kind": "list", "items": [
+        { "text": "الناس آخری سورت اور پناہ کی دو سورتوں میں سے دوسری ہے۔" },
+        { "text": "یہ اللہ کی تمام انسانوں کے رب، بادشاہ، اور معبود کے طور پر تصدیق کرتی ہے۔" },
+        { "text": "یہ شیطان کے اُس وسوسے سے حفاظت مانگتی ہے جو دل میں داخل ہوتا ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "114:1-6" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["surah-al-falaq", "surah-al-ikhlas", "concept-shirk"]
+}

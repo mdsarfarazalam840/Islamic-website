@@ -1,0 +1,61 @@
+{
+  "slug": "story-three-men-in-the-cave",
+  "category": "hadith-stories",
+  "featured": true,
+  "title": {
+    "en": "The Three Men Trapped in the Cave",
+    "hi": "गुफ़ा में फँसे तीन आदमी",
+    "ur": "غار میں پھنسے تین آدمی"
+  },
+  "summary": {
+    "en": "Three travellers took shelter in a cave when a boulder sealed its mouth. Each prayed to Allah by the most sincere deed he had done — kindness to parents, fear of Allah in private, and honest dealing — and the rock moved until they were freed.",
+    "hi": "तीन यात्रियों ने एक गुफ़ा में शरण ली जब एक चट्टान ने उसका मुँह बंद कर दिया। प्रत्येक ने अपने सबसे निष्ठापूर्ण किए हुए कर्म के वसीले से अल्लाह से दुआ की — माता-पिता के साथ भलाई, एकांत में अल्लाह का डर, और ईमानदार लेन-देन — और चट्टान हटती गई यहाँ तक कि वे मुक्त हो गए।",
+    "ur": "تین مسافروں نے ایک غار میں پناہ لی جب ایک چٹان نے اس کا منہ بند کر دیا۔ ہر ایک نے اپنے سب سے مخلص عمل کے وسیلے سے اللہ سے دعا کی — والدین سے حسنِ سلوک، تنہائی میں اللہ کا خوف، اور دیانت دارانہ معاملہ — اور چٹان ہٹتی گئی یہاں تک کہ وہ رہا ہو گئے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "The Prophet Muhammad ﷺ told of three men from a nation before us who, while travelling, sheltered in a cave. A great rock rolled down and blocked the entrance, trapping them. They realised nothing could save them but to call on Allah through their most sincere righteous deeds." },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 3465, "note": "The full narration of the three men trapped in the cave and their supplication by their sincere deeds." },
+      { "kind": "heading", "level": 2, "text": "Three sincere deeds" },
+      { "kind": "p", "text": "The first recalled how he never gave his own family milk to drink before his elderly parents, waiting through the night rather than wake them — and the rock shifted a little. The second remembered how he refused to wrong his cousin whom he desired, leaving her untouched for the sake of Allah though he had the chance — and the rock moved further. The third had preserved a labourer's wages, investing them until they multiplied into herds, then gave him all of it — and the rock rolled away completely." },
+      { "kind": "heading", "level": 2, "text": "Lessons" },
+      { "kind": "list", "items": [
+        { "text": "Tawassul — seeking nearness to Allah through one's own sincere righteous deeds — is a means of relief in hardship." },
+        { "text": "Deeds done privately, purely for Allah, carry great weight with Him." },
+        { "text": "Honouring parents, guarding chastity, and honesty in dealings are pillars of true faith." }
+      ] },
+      { "kind": "verse", "surah": 65, "ayah": 2, "note": "'Whoever fears Allah — He will make a way out for him.'" }
+    ],
+    "hi": [
+      { "kind": "p", "text": "पैगंबर मुहम्मद ﷺ ने हमसे पहले की एक क़ौम के तीन आदमियों की कथा सुनाई जो यात्रा करते हुए एक गुफ़ा में शरण ले बैठे। एक बड़ी चट्टान लुढ़क कर द्वार पर आ गिरी और उन्हें फँसा दिया। उन्होंने समझ लिया कि उन्हें अपने सबसे निष्ठापूर्ण नेक कर्मों के वसीले से अल्लाह को पुकारने के सिवा कुछ नहीं बचा सकता।" },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 3465, "note": "गुफ़ा में फँसे तीन आदमियों और उनके निष्ठापूर्ण कर्मों के वसीले से दुआ का पूरा वृत्तांत।" },
+      { "kind": "heading", "level": 2, "text": "तीन निष्ठापूर्ण कर्म" },
+      { "kind": "p", "text": "पहले ने याद किया कि उसने अपने बूढ़े माता-पिता से पहले कभी अपने परिवार को दूध नहीं पिलाया, रात भर प्रतीक्षा की बजाय उन्हें जगाने के — और चट्टान थोड़ी हटी। दूसरे ने याद किया कि उसने अपनी उस चचेरी बहन के साथ अन्याय करने से इनकार किया जिसे वह चाहता था, अवसर होते हुए भी अल्लाह के लिए उसे अछूता छोड़ दिया — और चट्टान और हटी। तीसरे ने एक मज़दूर की मज़दूरी सँभाल कर रखी, उसे तब तक बढ़ाता रहा जब तक वह झुंडों में बदल गई, फिर सब उसे दे दी — और चट्टान पूरी तरह हट गई।" },
+      { "kind": "heading", "level": 2, "text": "शिक्षाएँ" },
+      { "kind": "list", "items": [
+        { "text": "तवस्सुल — अपने निष्ठापूर्ण नेक कर्मों के वसीले से अल्लाह की निकटता चाहना — कठिनाई में राहत का साधन है।" },
+        { "text": "एकांत में, विशुद्ध रूप से अल्लाह के लिए किए कर्म उसके यहाँ बड़ा भार रखते हैं।" },
+        { "text": "माता-पिता का सम्मान, पवित्रता की रक्षा, और लेन-देन में ईमानदारी सच्चे ईमान के स्तंभ हैं।" }
+      ] },
+      { "kind": "verse", "surah": 65, "ayah": 2, "note": "'जो अल्लाह से डरता है — वह उसके लिए निकलने का रास्ता बना देता है।'" }
+    ],
+    "ur": [
+      { "kind": "p", "text": "نبی کریم ﷺ نے ہم سے پہلے کی ایک قوم کے تین آدمیوں کا قصہ سنایا جو سفر کرتے ہوئے ایک غار میں پناہ گزین ہوئے۔ ایک بڑی چٹان لڑھک کر دروازے پر آ گری اور انہیں پھنسا دیا۔ انہوں نے سمجھ لیا کہ انہیں اپنے سب سے مخلص نیک اعمال کے وسیلے سے اللہ کو پکارنے کے سوا کچھ نہیں بچا سکتا۔" },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 3465, "note": "غار میں پھنسے تین آدمیوں اور اُن کے مخلص اعمال کے وسیلے سے دعا کا مکمل بیان۔" },
+      { "kind": "heading", "level": 2, "text": "تین مخلص اعمال" },
+      { "kind": "p", "text": "پہلے نے یاد کیا کہ اس نے اپنے بوڑھے والدین سے پہلے کبھی اپنے گھر والوں کو دودھ نہ پلایا، رات بھر انتظار کیا بجائے انہیں جگانے کے — اور چٹان تھوڑی ہٹی۔ دوسرے نے یاد کیا کہ اس نے اپنی اُس چچازاد بہن کے ساتھ زیادتی سے انکار کیا جسے وہ چاہتا تھا، موقع ہونے کے باوجود اللہ کے لیے اسے چھوڑ دیا — اور چٹان مزید ہٹی۔ تیسرے نے ایک مزدور کی مزدوری سنبھال کر رکھی، اسے تب تک بڑھاتا رہا یہاں تک کہ وہ ریوڑوں میں بدل گئی، پھر سب اسے دے دی — اور چٹان مکمل طور پر ہٹ گئی۔" },
+      { "kind": "heading", "level": 2, "text": "اسباق" },
+      { "kind": "list", "items": [
+        { "text": "توسل — اپنے مخلص نیک اعمال کے وسیلے سے اللہ کا قرب چاہنا — مشکل میں راحت کا ذریعہ ہے۔" },
+        { "text": "تنہائی میں، خالص اللہ کے لیے کیے گئے اعمال اس کے ہاں بڑا وزن رکھتے ہیں۔" },
+        { "text": "والدین کا احترام، عفت کی حفاظت، اور معاملات میں دیانت سچے ایمان کے ستون ہیں۔" }
+      ] },
+      { "kind": "verse", "surah": 65, "ayah": 2, "note": "'جو اللہ سے ڈرتا ہے — وہ اس کے لیے نکلنے کا راستہ بنا دیتا ہے۔'" }
+    ]
+  },
+  "sources": [
+    { "type": "hadith", "collection": "bukhari", "ref": "3465", "grade": "sahih" },
+    { "type": "quran", "ref": "65:2-3" }
+  ],
+  "relatedSlugs": ["concept-taqwa", "concept-dua", "concept-sabr"]
+}

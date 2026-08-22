@@ -1,0 +1,69 @@
+{
+  "slug": "story-habil-qabil",
+  "category": "quranic",
+  "title": {
+    "en": "Habil and Qabil — The Two Sons of Adam",
+    "hi": "हाबील और क़ाबील — आदम के दो पुत्र",
+    "ur": "ہابیل اور قابیل — آدم کے دو بیٹے"
+  },
+  "summary": {
+    "en": "The first murder in human history: two sons of Adam each offered a sacrifice, one was accepted and the other not, and envy drove one brother to kill the other — a lesson in sincerity, self-restraint, and the sanctity of life.",
+    "hi": "मानव इतिहास की पहली हत्या: आदम के दो पुत्रों ने बलि चढ़ाई, एक की स्वीकार हुई और दूसरे की नहीं, और ईर्ष्या ने एक भाई को दूसरे की हत्या के लिए प्रेरित किया — निष्ठा, आत्म-संयम और जीवन की पवित्रता की एक शिक्षा।",
+    "ur": "انسانی تاریخ کا پہلا قتل: آدم کے دو بیٹوں نے قربانی پیش کی، ایک کی قبول ہوئی اور دوسرے کی نہیں، اور حسد نے ایک بھائی کو دوسرے کے قتل پر آمادہ کیا — اخلاص، ضبطِ نفس اور جان کی حرمت کا ایک سبق۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "The Qur'an relates the story of the two sons of Adam (peace be upon him) as a true account carrying timeless meaning. Each of them offered a sacrifice to Allah; it was accepted from one and not from the other. The one whose offering was refused was consumed by envy and threatened to kill his brother." },
+      { "kind": "verse", "surah": 5, "ayah": 27, "note": "The offering was accepted from one and not the other; the rejected one said, 'I will surely kill you.'" },
+      { "kind": "p", "text": "The righteous brother answered with remarkable restraint, refusing to return violence with violence, and warning his brother of the consequence before Allah." },
+      { "kind": "verse", "surah": 5, "ayah": 28, "note": "'If you raise your hand to kill me, I will not raise mine to kill you — I fear Allah, Lord of the worlds.'" },
+      { "kind": "heading", "level": 2, "text": "The first murder" },
+      { "kind": "p", "text": "Envy overpowered the other brother and he killed his sibling, becoming among the losers. Not knowing even how to conceal the body, he was taught by a crow that Allah sent to scratch the earth." },
+      { "kind": "verse", "surah": 5, "ayah": 31, "note": "Allah sent a crow digging the ground to show him how to bury his brother's corpse; he was struck with regret." },
+      { "kind": "heading", "level": 2, "text": "Lessons" },
+      { "kind": "list", "items": [
+        { "text": "Allah accepts deeds from the people of taqwa (God-consciousness), not by outward form alone." },
+        { "text": "Envy (hasad) is a destroyer that can lead to the gravest sins." },
+        { "text": "The sanctity of human life is so great that unjustly killing one soul is likened to killing all of humanity." }
+      ] },
+      { "kind": "verse", "surah": 5, "ayah": 32, "note": "Because of this, whoever kills a soul unjustly, it is as if he killed all mankind; and whoever saves one, it is as if he saved all mankind." }
+    ],
+    "hi": [
+      { "kind": "p", "text": "क़ुरआन आदम (उन पर शांति हो) के दो पुत्रों की कथा एक सत्य वृत्तांत के रूप में सुनाता है जो शाश्वत अर्थ रखता है। दोनों ने अल्लाह के लिए बलि चढ़ाई; एक की स्वीकार हुई और दूसरे की नहीं। जिसकी बलि अस्वीकृत हुई वह ईर्ष्या से भर उठा और अपने भाई की हत्या की धमकी दी।" },
+      { "kind": "verse", "surah": 5, "ayah": 27, "note": "बलि एक से स्वीकार हुई और दूसरे से नहीं; अस्वीकृत ने कहा, 'मैं तुझे अवश्य मार डालूँगा।'" },
+      { "kind": "p", "text": "धर्मनिष्ठ भाई ने असाधारण संयम के साथ उत्तर दिया, हिंसा का बदला हिंसा से देने से इनकार किया, और अपने भाई को अल्लाह के समक्ष परिणाम की चेतावनी दी।" },
+      { "kind": "verse", "surah": 5, "ayah": 28, "note": "'यदि तू मुझे मारने के लिए हाथ बढ़ाएगा, तो मैं तुझे मारने के लिए हाथ नहीं बढ़ाऊँगा — मैं सारे संसार के रब अल्लाह से डरता हूँ।'" },
+      { "kind": "heading", "level": 2, "text": "पहली हत्या" },
+      { "kind": "p", "text": "ईर्ष्या ने दूसरे भाई पर काबू पा लिया और उसने अपने भाई की हत्या कर दी, और घाटा उठाने वालों में से हो गया। शव को छिपाना भी न जानते हुए, उसे एक कौवे ने सिखाया जिसे अल्लाह ने ज़मीन कुरेदने के लिए भेजा।" },
+      { "kind": "verse", "surah": 5, "ayah": 31, "note": "अल्लाह ने एक कौवा भेजा जो ज़मीन खोद रहा था ताकि उसे भाई के शव को दफ़नाने का ढंग दिखाए; वह पछतावे से भर उठा।" },
+      { "kind": "heading", "level": 2, "text": "शिक्षाएँ" },
+      { "kind": "list", "items": [
+        { "text": "अल्लाह तक़वा (ईश-भय) वालों से कर्म स्वीकार करता है, केवल बाहरी रूप से नहीं।" },
+        { "text": "ईर्ष्या (हसद) एक विनाशक है जो घोरतम पापों तक ले जा सकती है।" },
+        { "text": "मानव जीवन की पवित्रता इतनी महान है कि एक निर्दोष जान की हत्या पूरी मानवता की हत्या के समान है।" }
+      ] },
+      { "kind": "verse", "surah": 5, "ayah": 32, "note": "इसी कारण, जिसने किसी जान को अन्यायपूर्वक मारा, मानो उसने पूरी मानवता को मार डाला; और जिसने एक को बचाया, मानो उसने पूरी मानवता को बचा लिया।" }
+    ],
+    "ur": [
+      { "kind": "p", "text": "قرآن آدم (علیہ السلام) کے دو بیٹوں کا قصہ ایک سچے واقعے کے طور پر بیان کرتا ہے جو ابدی معنی رکھتا ہے۔ دونوں نے اللہ کے لیے قربانی پیش کی؛ ایک کی قبول ہوئی اور دوسرے کی نہیں۔ جس کی قربانی رد ہوئی وہ حسد میں جل اٹھا اور اپنے بھائی کے قتل کی دھمکی دی۔" },
+      { "kind": "verse", "surah": 5, "ayah": 27, "note": "قربانی ایک سے قبول ہوئی اور دوسرے سے نہیں؛ مردود نے کہا، 'میں تجھے ضرور قتل کروں گا۔'" },
+      { "kind": "p", "text": "نیک بھائی نے غیر معمولی ضبط کے ساتھ جواب دیا، تشدد کا بدلہ تشدد سے دینے سے انکار کیا، اور اپنے بھائی کو اللہ کے سامنے انجام سے خبردار کیا۔" },
+      { "kind": "verse", "surah": 5, "ayah": 28, "note": "'اگر تو مجھے قتل کرنے کے لیے ہاتھ بڑھائے گا، تو میں تجھے قتل کرنے کے لیے ہاتھ نہیں بڑھاؤں گا — میں اللہ، رب العالمین سے ڈرتا ہوں۔'" },
+      { "kind": "heading", "level": 2, "text": "پہلا قتل" },
+      { "kind": "p", "text": "حسد نے دوسرے بھائی پر غلبہ پا لیا اور اس نے اپنے بھائی کو قتل کر دیا، اور نقصان اٹھانے والوں میں سے ہو گیا۔ لاش کو چھپانا بھی نہ جانتے ہوئے، اسے ایک کوے نے سکھایا جسے اللہ نے زمین کریدنے کے لیے بھیجا۔" },
+      { "kind": "verse", "surah": 5, "ayah": 31, "note": "اللہ نے ایک کوا بھیجا جو زمین کھود رہا تھا تاکہ اسے بھائی کی لاش دفن کرنے کا طریقہ دکھائے؛ وہ ندامت سے بھر گیا۔" },
+      { "kind": "heading", "level": 2, "text": "اسباق" },
+      { "kind": "list", "items": [
+        { "text": "اللہ اہلِ تقویٰ سے اعمال قبول کرتا ہے، محض ظاہری صورت سے نہیں۔" },
+        { "text": "حسد ایک تباہ کن چیز ہے جو سنگین ترین گناہوں تک لے جا سکتی ہے۔" },
+        { "text": "انسانی جان کی حرمت اتنی عظیم ہے کہ ایک بے گناہ جان کا ناحق قتل پوری انسانیت کے قتل کے مترادف ہے۔" }
+      ] },
+      { "kind": "verse", "surah": 5, "ayah": 32, "note": "اسی وجہ سے، جس نے کسی جان کو ناحق قتل کیا، گویا اس نے پوری انسانیت کو قتل کر دیا؛ اور جس نے ایک کو بچایا، گویا اس نے پوری انسانیت کو بچا لیا۔" }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "5:27-32" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["prophet-adam", "concept-taqwa", "concept-sabr"]
+}

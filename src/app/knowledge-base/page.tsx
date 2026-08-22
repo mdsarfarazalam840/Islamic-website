@@ -7,7 +7,7 @@ import type { KnowledgeCategory } from "@/types"
 export const metadata: Metadata = {
   title: "Knowledge Base — Noor",
   description:
-    "A trilingual, source-graded library on Islam — the pillars, the prophets, core concepts, Quranic stories, and surah virtues, in English, Hindi, and Urdu.",
+    "A trilingual, source-graded library on Islam — the pillars, the prophets, the Seerah, core concepts, Quranic and hadith stories, and surah virtues, in English, Hindi, and Urdu.",
 }
 
 export default function KnowledgeBasePage() {

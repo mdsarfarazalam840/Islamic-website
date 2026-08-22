@@ -1,0 +1,68 @@
+{
+  "slug": "concept-shukr",
+  "category": "concepts",
+  "featured": false,
+  "title": {
+    "en": "Shukr — Gratitude to Allah",
+    "hi": "शुक्र — अल्लाह का आभार",
+    "ur": "شکر — اللہ کا شکر"
+  },
+  "summary": {
+    "en": "Shukr is gratitude: recognising that every blessing comes from Allah, feeling thankful in the heart, praising Him with the tongue, and obeying Him with the limbs. Allah promises to increase those who are grateful and warns that ingratitude invites loss.",
+    "hi": "शुक्र आभार है: यह पहचानना कि हर नेमत अल्लाह से आती है, दिल में कृतज्ञ होना, ज़बान से उसकी प्रशंसा करना, और अंगों से उसकी आज्ञा मानना। अल्लाह शुक्रगुज़ारों को बढ़ाने का वादा करता है और चेताता है कि कृतघ्नता हानि को बुलाती है।",
+    "ur": "شکر احسان مندی ہے: یہ پہچاننا کہ ہر نعمت اللہ سے آتی ہے، دل میں ممنون ہونا، زبان سے اُس کی تعریف کرنا، اور اعضاء سے اُس کی اطاعت کرنا۔ اللہ شکر گزاروں کو بڑھانے کا وعدہ کرتا ہے اور خبردار کرتا ہے کہ ناشکری نقصان کو دعوت دیتی ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Shukr is thankfulness to Allah for His countless favours. The scholars describe it as gratitude of the heart (recognising the Giver), of the tongue (praising Him), and of the limbs (using His gifts in obedience). Its opposite, kufr in the sense of ingratitude, is deeply blameworthy in the Qur'an." },
+      { "kind": "verse", "surah": 14, "ayah": 7, "note": "'If you are grateful, I will surely increase you; but if you deny, indeed My punishment is severe.'" },
+      { "kind": "heading", "level": 2, "text": "Remember Me and thank Me" },
+      { "kind": "p", "text": "Allah ties remembrance of Him directly to gratitude, and gratitude to nearness with Him. The grateful servant lives in awareness that all good is a gift, and that awareness itself is a form of worship." },
+      { "kind": "verse", "surah": 2, "ayah": 152, "note": "'So remember Me; I will remember you. And be grateful to Me and do not deny Me.'" },
+      { "kind": "heading", "level": 2, "text": "Gratitude is for your own good" },
+      { "kind": "p", "text": "Allah gains nothing from our thanks and loses nothing from our ingratitude — the benefit of shukr returns entirely to the one who practises it, as Allah taught through the wisdom given to Luqmān." },
+      { "kind": "verse", "surah": 31, "ayah": 12, "note": "'Be grateful to Allah; whoever is grateful is grateful for the good of his own soul.'" },
+      { "kind": "list", "items": [
+        { "text": "Shukr is gratitude of the heart, the tongue, and the limbs." },
+        { "text": "Allah promises to increase the grateful and warns the ungrateful." },
+        { "text": "The benefit of gratitude returns to the grateful person themselves." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "शुक्र अल्लाह की अनगिनत नेमतों के लिए उसका आभार है। विद्वान इसे दिल का आभार (देने वाले को पहचानना), ज़बान का (उसकी प्रशंसा करना), और अंगों का (उसकी नेमतों को आज्ञापालन में लगाना) बताते हैं। इसका विपरीत, कृतघ्नता के अर्थ में कुफ़्र, क़ुरआन में अत्यंत निंदनीय है।" },
+      { "kind": "verse", "surah": 14, "ayah": 7, "note": "'अगर तुम शुक्र करोगे, तो मैं ज़रूर तुम्हें बढ़ाऊँगा; पर अगर तुम इनकार करोगे, तो निश्चय ही मेरी सज़ा कठोर है।'" },
+      { "kind": "heading", "level": 2, "text": "मुझे याद करो और मेरा शुक्र करो" },
+      { "kind": "p", "text": "अल्लाह अपनी याद को सीधे आभार से, और आभार को अपने साथ निकटता से जोड़ता है। शुक्रगुज़ार बंदा इस चेतना में जीता है कि हर भलाई एक उपहार है, और वह चेतना स्वयं इबादत का एक रूप है।" },
+      { "kind": "verse", "surah": 2, "ayah": 152, "note": "'तो मुझे याद करो; मैं तुम्हें याद करूँगा। और मेरा शुक्र करो और मेरा इनकार न करो।'" },
+      { "kind": "heading", "level": 2, "text": "आभार तुम्हारे अपने भले के लिए है" },
+      { "kind": "p", "text": "अल्लाह को हमारे शुक्र से कुछ नहीं मिलता और हमारी कृतघ्नता से कुछ नहीं खोता — शुक्र का लाभ पूरी तरह उसी को लौटता है जो इसे करता है, जैसा अल्लाह ने लुक़मान को दी गई हिकमत से सिखाया।" },
+      { "kind": "verse", "surah": 31, "ayah": 12, "note": "'अल्लाह का शुक्र करो; जो शुक्र करता है वह अपनी ही आत्मा के भले के लिए शुक्र करता है।'" },
+      { "kind": "list", "items": [
+        { "text": "शुक्र दिल, ज़बान और अंगों का आभार है।" },
+        { "text": "अल्लाह शुक्रगुज़ारों को बढ़ाने का वादा करता है और कृतघ्नों को चेताता है।" },
+        { "text": "आभार का लाभ स्वयं शुक्रगुज़ार व्यक्ति को लौटता है।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "شکر اللہ کی بے شمار نعمتوں کے لیے اُس کی احسان مندی ہے۔ علماء اِسے دل کا شکر (دینے والے کو پہچاننا)، زبان کا (اُس کی تعریف کرنا)، اور اعضاء کا (اُس کی نعمتوں کو اطاعت میں لگانا) بتاتے ہیں۔ اِس کی ضد، ناشکری کے معنی میں کفر، قرآن میں سخت قابلِ مذمت ہے۔" },
+      { "kind": "verse", "surah": 14, "ayah": 7, "note": "'اگر تم شکر کرو گے، تو میں ضرور تمہیں بڑھاؤں گا؛ مگر اگر تم انکار کرو گے، تو بے شک میری سزا سخت ہے۔'" },
+      { "kind": "heading", "level": 2, "text": "مجھے یاد کرو اور میرا شکر کرو" },
+      { "kind": "p", "text": "اللہ اپنی یاد کو براہِ راست شکر سے، اور شکر کو اپنے ساتھ قرب سے جوڑتا ہے۔ شکر گزار بندہ اِس شعور میں جیتا ہے کہ ہر بھلائی ایک تحفہ ہے، اور وہ شعور خود عبادت کی ایک صورت ہے۔" },
+      { "kind": "verse", "surah": 2, "ayah": 152, "note": "'تو مجھے یاد کرو؛ میں تمہیں یاد کروں گا۔ اور میرا شکر کرو اور میرا انکار نہ کرو۔'" },
+      { "kind": "heading", "level": 2, "text": "شکر تمہارے اپنے بھلے کے لیے ہے" },
+      { "kind": "p", "text": "اللہ کو ہمارے شکر سے کچھ نہیں ملتا اور ہماری ناشکری سے کچھ نہیں کھوتا — شکر کا فائدہ پوری طرح اُسی کو لوٹتا ہے جو اِسے کرتا ہے، جیسا اللہ نے لقمان کو دی گئی حکمت سے سکھایا۔" },
+      { "kind": "verse", "surah": 31, "ayah": 12, "note": "'اللہ کا شکر کرو؛ جو شکر کرتا ہے وہ اپنی ہی جان کے بھلے کے لیے شکر کرتا ہے۔'" },
+      { "kind": "list", "items": [
+        { "text": "شکر دل، زبان اور اعضاء کی احسان مندی ہے۔" },
+        { "text": "اللہ شکر گزاروں کو بڑھانے کا وعدہ کرتا ہے اور ناشکروں کو خبردار کرتا ہے۔" },
+        { "text": "شکر کا فائدہ خود شکر گزار شخص کو لوٹتا ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "14:7" },
+    { "type": "quran", "ref": "2:152" },
+    { "type": "quran", "ref": "31:12" }
+  ],
+  "relatedSlugs": ["concept-rizq", "concept-sabr", "story-leper-bald-blind"]
+}

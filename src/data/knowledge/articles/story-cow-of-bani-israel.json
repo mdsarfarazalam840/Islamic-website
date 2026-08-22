@@ -1,0 +1,72 @@
+{
+  "slug": "story-cow-of-bani-israel",
+  "category": "quranic",
+  "title": {
+    "en": "The Cow of Bani Israel",
+    "hi": "बनी इसराईल की गाय",
+    "ur": "بنی اسرائیل کی گائے"
+  },
+  "summary": {
+    "en": "When a man was murdered among the Children of Israel and the killer hidden, Allah commanded them through Musa to sacrifice a cow. Instead of obeying at once, they asked question after question until the task became hard — then struck the dead man with part of the cow and he spoke, naming his killer. The surah al-Baqarah (\"The Cow\") is named after this event.",
+    "hi": "जब बनी इसराईल में एक व्यक्ति की हत्या हुई और हत्यारा छिपा रहा, तो अल्लाह ने मूसा के ज़रिए उन्हें एक गाय क़ुर्बान करने का हुक्म दिया। तुरंत मानने के बजाय वे सवाल पर सवाल करते रहे यहाँ तक कि काम कठिन हो गया — फिर मृतक को गाय के एक हिस्से से मारा गया और वह बोल उठा, अपने हत्यारे का नाम बताते हुए। सूरह अल-बक़रा (\"गाय\") का नाम इसी घटना पर है।",
+    "ur": "جب بنی اسرائیل میں ایک شخص کا قتل ہوا اور قاتل چھپ گیا، تو اللہ نے موسیٰ کے ذریعے انہیں ایک گائے ذبح کرنے کا حکم دیا۔ فوراً ماننے کے بجائے وہ سوال پر سوال کرتے رہے یہاں تک کہ کام مشکل ہو گیا — پھر مقتول کو گائے کے ایک حصے سے مارا گیا اور وہ بول اٹھا، اپنے قاتل کا نام بتاتے ہوئے۔ سورۃ البقرہ (\"گائے\") کا نام اسی واقعے پر ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Among the Children of Israel a man was killed, and the people fell to disputing and accusing one another while the murderer stayed hidden. So Musa (peace be upon him) conveyed Allah's command: sacrifice a cow." },
+      { "kind": "verse", "surah": 2, "ayah": 67, "note": "Musa told his people that Allah commands them to sacrifice a cow; they thought he was mocking them." },
+      { "kind": "p", "text": "Had they slaughtered any cow, they would have fulfilled the command. Instead they questioned Musa about its age, then its colour, then its kind — and with every question the requirements grew more specific and the animal harder to find." },
+      { "kind": "verse", "surah": 2, "ayah": 68, "note": "They asked its age; the answer: neither old nor young, but in between." },
+      { "kind": "verse", "surah": 2, "ayah": 69, "note": "They asked its colour; the answer: a bright yellow cow, pleasing to the beholders." },
+      { "kind": "verse", "surah": 2, "ayah": 71, "note": "It was to be a sound cow, never yoked to plough or water the field, with no blemish. 'Now you have brought the truth,' they said — and slaughtered it, though they almost did not." },
+      { "kind": "heading", "level": 2, "text": "The dead man speaks" },
+      { "kind": "p", "text": "Then Allah commanded them to strike the slain man with a part of the sacrificed cow. He was revived by Allah's power, named his killer, and died again — settling the dispute and displaying Allah's power to give life to the dead." },
+      { "kind": "verse", "surah": 2, "ayah": 72, "note": "You killed a soul and blamed one another, but Allah would bring to light what you concealed." },
+      { "kind": "verse", "surah": 2, "ayah": 73, "note": "Strike the slain with part of it — thus Allah gives life to the dead and shows you His signs, that you may understand." },
+      { "kind": "list", "items": [
+        { "text": "Obey Allah's command promptly; excessive questioning and hesitation only make obedience harder." },
+        { "text": "Allah can restore life to the dead — a sign pointing to the resurrection." },
+        { "text": "No crime stays hidden from Allah; the truth is brought to light in His time." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "बनी इसराईल में एक व्यक्ति मारा गया, और लोग आपस में झगड़ने और एक-दूसरे पर इल्ज़ाम लगाने लगे जबकि हत्यारा छिपा रहा। तब मूसा (उन पर शांति हो) ने अल्लाह का हुक्म पहुँचाया: एक गाय क़ुर्बान करो।" },
+      { "kind": "verse", "surah": 2, "ayah": 67, "note": "मूसा ने अपनी क़ौम से कहा कि अल्लाह एक गाय ज़बह करने का हुक्म देता है; उन्होंने समझा वे मज़ाक़ कर रहे हैं।" },
+      { "kind": "p", "text": "अगर वे कोई भी गाय ज़बह कर देते तो हुक्म पूरा हो जाता। इसके बजाय उन्होंने मूसा से उसकी उम्र पूछी, फिर रंग, फिर क़िस्म — और हर सवाल के साथ शर्तें और ख़ास होती गईं और गाय ढूँढना और कठिन।" },
+      { "kind": "verse", "surah": 2, "ayah": 68, "note": "उन्होंने उम्र पूछी; जवाब: न बूढ़ी न बछिया, बल्कि बीच की।" },
+      { "kind": "verse", "surah": 2, "ayah": 69, "note": "उन्होंने रंग पूछा; जवाब: चटख़ पीली गाय, देखने वालों को भाने वाली।" },
+      { "kind": "verse", "surah": 2, "ayah": 71, "note": "वह भली-चंगी गाय हो, न हल में जुती न खेत सींचती, बेदाग़। 'अब तुम सच लाए,' उन्होंने कहा — और उसे ज़बह किया, हालाँकि क़रीब था कि न करते।" },
+      { "kind": "heading", "level": 2, "text": "मृतक बोल उठता है" },
+      { "kind": "p", "text": "फिर अल्लाह ने हुक्म दिया कि मारे गए व्यक्ति को क़ुर्बान की गई गाय के एक हिस्से से मारो। अल्लाह की क़ुदरत से वह जीवित हुआ, अपने हत्यारे का नाम बताया, और फिर मर गया — झगड़ा ख़त्म हुआ और अल्लाह की मुर्दों को ज़िंदा करने की क़ुदरत ज़ाहिर हुई।" },
+      { "kind": "verse", "surah": 2, "ayah": 72, "note": "तुमने एक जान मारी और एक-दूसरे पर इल्ज़ाम धरा, पर अल्लाह जो तुम छिपाते थे उसे ज़ाहिर करने वाला था।" },
+      { "kind": "verse", "surah": 2, "ayah": 73, "note": "मृतक को उसके एक हिस्से से मारो — यूँ अल्लाह मुर्दों को ज़िंदा करता है और तुम्हें अपनी निशानियाँ दिखाता है, ताकि तुम समझो।" },
+      { "kind": "list", "items": [
+        { "text": "अल्लाह का हुक्म तुरंत मानो; हद से ज़्यादा सवाल और हिचकिचाहट आज्ञापालन को कठिन बना देते हैं।" },
+        { "text": "अल्लाह मुर्दों को ज़िंदा कर सकता है — एक निशानी जो पुनरुत्थान की ओर इशारा करती है।" },
+        { "text": "कोई अपराध अल्लाह से छिपा नहीं रहता; सच्चाई उसके वक़्त पर ज़ाहिर होती है।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "بنی اسرائیل میں ایک شخص قتل ہوا، اور لوگ آپس میں جھگڑنے اور ایک دوسرے پر الزام لگانے لگے جبکہ قاتل چھپا رہا۔ تب موسیٰ (علیہ السلام) نے اللہ کا حکم پہنچایا: ایک گائے ذبح کرو۔" },
+      { "kind": "verse", "surah": 2, "ayah": 67, "note": "موسیٰ نے اپنی قوم سے کہا کہ اللہ ایک گائے ذبح کرنے کا حکم دیتا ہے؛ انہوں نے سمجھا وہ مذاق کر رہے ہیں۔" },
+      { "kind": "p", "text": "اگر وہ کوئی بھی گائے ذبح کر دیتے تو حکم پورا ہو جاتا۔ اس کے بجائے انہوں نے موسیٰ سے اس کی عمر پوچھی، پھر رنگ، پھر قسم — اور ہر سوال کے ساتھ شرطیں مزید مخصوص ہوتی گئیں اور گائے ڈھونڈنا مزید مشکل۔" },
+      { "kind": "verse", "surah": 2, "ayah": 68, "note": "انہوں نے عمر پوچھی؛ جواب: نہ بوڑھی نہ بچھیا، بلکہ درمیانی۔" },
+      { "kind": "verse", "surah": 2, "ayah": 69, "note": "انہوں نے رنگ پوچھا؛ جواب: چمکیلی زرد گائے، دیکھنے والوں کو بھلی لگنے والی۔" },
+      { "kind": "verse", "surah": 2, "ayah": 71, "note": "وہ صحیح سالم گائے ہو، نہ ہل میں جتی نہ کھیت سیراب کرتی، بے عیب۔ 'اب تم سچ لائے،' انہوں نے کہا — اور اسے ذبح کیا، حالانکہ قریب تھا کہ نہ کرتے۔" },
+      { "kind": "heading", "level": 2, "text": "مقتول بول اٹھتا ہے" },
+      { "kind": "p", "text": "پھر اللہ نے حکم دیا کہ مقتول کو ذبح کی گئی گائے کے ایک حصے سے مارو۔ اللہ کی قدرت سے وہ زندہ ہوا، اپنے قاتل کا نام بتایا، اور پھر مر گیا — جھگڑا ختم ہوا اور اللہ کی مُردوں کو زندہ کرنے کی قدرت ظاہر ہوئی۔" },
+      { "kind": "verse", "surah": 2, "ayah": 72, "note": "تم نے ایک جان قتل کی اور ایک دوسرے پر الزام دھرا، مگر اللہ جو تم چھپاتے تھے اسے ظاہر کرنے والا تھا۔" },
+      { "kind": "verse", "surah": 2, "ayah": 73, "note": "مقتول کو اس کے ایک حصے سے مارو — یوں اللہ مُردوں کو زندہ کرتا ہے اور تمہیں اپنی نشانیاں دکھاتا ہے، تاکہ تم سمجھو۔" },
+      { "kind": "list", "items": [
+        { "text": "اللہ کا حکم فوراً مانو؛ حد سے زیادہ سوال اور جھجک اطاعت کو مشکل بنا دیتے ہیں۔" },
+        { "text": "اللہ مُردوں کو زندہ کر سکتا ہے — ایک نشانی جو قیامت کی طرف اشارہ کرتی ہے۔" },
+        { "text": "کوئی جرم اللہ سے چھپا نہیں رہتا؛ سچائی اس کے وقت پر ظاہر ہوتی ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "2:67-73" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["prophet-musa", "story-golden-calf"]
+}

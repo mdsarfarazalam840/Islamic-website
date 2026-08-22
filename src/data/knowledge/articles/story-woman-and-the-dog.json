@@ -1,0 +1,60 @@
+{
+  "slug": "story-woman-and-the-dog",
+  "category": "hadith-stories",
+  "title": {
+    "en": "The Woman and the Thirsty Dog",
+    "hi": "औरत और प्यासा कुत्ता",
+    "ur": "عورت اور پیاسا کتا"
+  },
+  "summary": {
+    "en": "A sinful woman found a dog dying of thirst at a well. Moved with mercy, she filled her shoe with water and gave it to drink — and for this single act of compassion Allah forgave her sins. A companion story tells of a man forgiven for the same, and a woman punished for cruelty to a cat.",
+    "hi": "एक पापी औरत ने एक कुएँ के पास एक कुत्ते को प्यास से मरते पाया। दया से भर कर, उसने अपने जूते में पानी भरा और उसे पिलाया — और इस एक करुणा के कर्म के लिए अल्लाह ने उसके पाप क्षमा कर दिए। एक साथी कथा एक आदमी की है जो इसी के लिए क्षमा किया गया, और एक औरत की जो बिल्ली पर क्रूरता के लिए दंडित हुई।",
+    "ur": "ایک گناہ گار عورت نے ایک کنویں کے پاس ایک کتے کو پیاس سے مرتے پایا۔ رحم سے بھر کر، اس نے اپنے جوتے میں پانی بھرا اور اسے پلایا — اور اس ایک رحم کے عمل کے لیے اللہ نے اس کے گناہ معاف کر دیے۔ ایک ساتھی قصہ ایک آدمی کا ہے جو اسی کے لیے معاف کیا گیا، اور ایک عورت کا جو بلی پر ظلم کے لیے سزا پائی۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "The Prophet Muhammad ﷺ told of a woman — in one narration a prostitute of Bani Israel — who was walking on a hot day and came upon a dog by a well, panting and licking the dust in its extreme thirst. She felt pity for it, drew water using her leather shoe, and gave the dog to drink until it was satisfied. For this Allah forgave her." },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 3467, "note": "The narration of the woman forgiven for giving water to a thirsty dog." },
+      { "kind": "heading", "level": 2, "text": "Mercy rewarded, cruelty punished" },
+      { "kind": "p", "text": "The Companions asked, 'O Messenger of Allah, is there a reward for us in serving animals?' He ﷺ replied, 'In every living being there is a reward.' In a parallel narration a man who gave water to a thirsty dog was likewise forgiven. Yet in another, a woman was punished and entered the Fire because of a cat she imprisoned: she neither fed it nor let it free to eat of the vermin of the earth, until it died." },
+      { "kind": "heading", "level": 2, "text": "Lessons" },
+      { "kind": "list", "items": [
+        { "text": "Mercy to any living creature is beloved to Allah and can be a cause of forgiveness." },
+        { "text": "No good deed is small in Allah's sight; sincerity magnifies it." },
+        { "text": "Cruelty to animals is a sin that can bring severe consequences." }
+      ] },
+      { "kind": "verse", "surah": 21, "ayah": 107, "note": "'And We have not sent you except as a mercy to the worlds.'" }
+    ],
+    "hi": [
+      { "kind": "p", "text": "पैगंबर मुहम्मद ﷺ ने एक औरत की कथा सुनाई — एक वर्णन में बनी इसराईल की एक वेश्या — जो एक गर्म दिन चल रही थी और एक कुएँ के पास एक कुत्ते के पास पहुँची, जो अत्यधिक प्यास से हाँफ रहा था और मिट्टी चाट रहा था। उसे उस पर दया आई, उसने अपने चमड़े के जूते से पानी निकाला, और कुत्ते को तब तक पिलाया जब तक वह तृप्त न हुआ। इसके लिए अल्लाह ने उसे क्षमा कर दिया।" },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 3467, "note": "उस औरत का वृत्तांत जिसे प्यासे कुत्ते को पानी पिलाने के लिए क्षमा किया गया।" },
+      { "kind": "heading", "level": 2, "text": "दया का इनाम, क्रूरता का दंड" },
+      { "kind": "p", "text": "सहाबा ने पूछा, 'ऐ अल्लाह के रसूल, क्या जानवरों की सेवा में हमारे लिए इनाम है?' आप ﷺ ने उत्तर दिया, 'हर जीवित प्राणी में इनाम है।' एक समानांतर वर्णन में एक आदमी जिसने प्यासे कुत्ते को पानी पिलाया, उसी तरह क्षमा किया गया। फिर भी एक अन्य में, एक औरत दंडित हुई और आग में गई एक बिल्ली के कारण जिसे उसने क़ैद रखा: न उसने उसे खिलाया न आज़ाद छोड़ा कि वह ज़मीन के कीड़े-मकोड़े खा ले, यहाँ तक कि वह मर गई।" },
+      { "kind": "heading", "level": 2, "text": "शिक्षाएँ" },
+      { "kind": "list", "items": [
+        { "text": "किसी भी जीवित प्राणी पर दया अल्लाह को प्रिय है और क्षमा का कारण बन सकती है।" },
+        { "text": "अल्लाह की नज़र में कोई नेक कर्म छोटा नहीं; निष्ठा उसे बड़ा कर देती है।" },
+        { "text": "जानवरों पर क्रूरता एक पाप है जो कठोर परिणाम ला सकता है।" }
+      ] },
+      { "kind": "verse", "surah": 21, "ayah": 107, "note": "'और हमने तुझे केवल सारे संसार के लिए दया बना कर भेजा है।'" }
+    ],
+    "ur": [
+      { "kind": "p", "text": "نبی کریم ﷺ نے ایک عورت کا قصہ سنایا — ایک روایت میں بنی اسرائیل کی ایک فاحشہ — جو ایک گرم دن چل رہی تھی اور ایک کنویں کے پاس ایک کتے کے پاس پہنچی، جو شدید پیاس سے ہانپ رہا تھا اور مٹی چاٹ رہا تھا۔ اسے اس پر ترس آیا، اس نے اپنے چمڑے کے جوتے سے پانی نکالا، اور کتے کو تب تک پلایا جب تک وہ سیراب نہ ہوا۔ اس کے لیے اللہ نے اسے معاف کر دیا۔" },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 3467, "note": "اُس عورت کا بیان جسے پیاسے کتے کو پانی پلانے کے لیے معاف کیا گیا۔" },
+      { "kind": "heading", "level": 2, "text": "رحم کا انعام، ظلم کی سزا" },
+      { "kind": "p", "text": "صحابہ نے پوچھا، 'اے اللہ کے رسول، کیا جانوروں کی خدمت میں ہمارے لیے اجر ہے؟' آپ ﷺ نے جواب دیا، 'ہر جاندار میں اجر ہے۔' ایک متوازی روایت میں ایک آدمی جس نے پیاسے کتے کو پانی پلایا، اسی طرح معاف کیا گیا۔ پھر بھی ایک اور میں، ایک عورت سزا پائی اور آگ میں گئی ایک بلی کی وجہ سے جسے اس نے قید رکھا: نہ اس نے اسے کھلایا نہ آزاد چھوڑا کہ وہ زمین کے کیڑے مکوڑے کھا لے، یہاں تک کہ وہ مر گئی۔" },
+      { "kind": "heading", "level": 2, "text": "اسباق" },
+      { "kind": "list", "items": [
+        { "text": "کسی بھی جاندار پر رحم اللہ کو محبوب ہے اور مغفرت کا سبب بن سکتا ہے۔" },
+        { "text": "اللہ کی نظر میں کوئی نیک عمل چھوٹا نہیں؛ اخلاص اسے بڑا کر دیتا ہے۔" },
+        { "text": "جانوروں پر ظلم ایک گناہ ہے جو سخت نتائج لا سکتا ہے۔" }
+      ] },
+      { "kind": "verse", "surah": 21, "ayah": 107, "note": "'اور ہم نے تجھے صرف تمام جہانوں کے لیے رحمت بنا کر بھیجا ہے۔'" }
+    ]
+  },
+  "sources": [
+    { "type": "hadith", "collection": "bukhari", "ref": "3467", "grade": "sahih" },
+    { "type": "quran", "ref": "21:107" }
+  ],
+  "relatedSlugs": ["concept-rahmah", "concept-tawbah", "concept-jannah"]
+}

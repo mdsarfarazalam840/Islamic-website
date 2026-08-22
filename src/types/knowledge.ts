@@ -16,7 +16,7 @@ export interface LocalizedText {
   ur: string
 }
 
-export type KnowledgeCategory = "basics" | "prophets" | "quranic" | "surahs" | "concepts"
+export type KnowledgeCategory = "basics" | "prophets" | "quranic" | "surahs" | "concepts" | "seerah" | "hadith-stories"
 
 /** Hadith authenticity grade, as carried on a source tag. */
 export type HadithGrade = "sahih" | "hasan" | "daif"

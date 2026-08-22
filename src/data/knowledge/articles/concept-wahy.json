@@ -1,0 +1,68 @@
+{
+  "slug": "concept-wahy",
+  "category": "concepts",
+  "featured": false,
+  "title": {
+    "en": "Waḥy — Divine Revelation",
+    "hi": "वह्य — दिव्य प्रकाशना",
+    "ur": "وحی — الٰہی وحی"
+  },
+  "summary": {
+    "en": "Waḥy is the revelation by which Allah communicates His guidance to His prophets. The Qur'an is the final revelation, sent down upon the heart of the Prophet ﷺ through the angel Jibrīl. Allah describes the ways He reveals — from behind a veil, by inspiration, or by sending a messenger-angel.",
+    "hi": "वह्य वह प्रकाशना है जिसके द्वारा अल्लाह अपने पैगंबरों तक अपना मार्गदर्शन पहुँचाता है। क़ुरआन अंतिम प्रकाशना है, जो फ़रिश्ते जिब्रील के माध्यम से पैगंबर ﷺ के दिल पर उतारी गई। अल्लाह प्रकाशना के तरीक़े बताता है — पर्दे के पीछे से, प्रेरणा द्वारा, या एक फ़रिश्ता-दूत भेज कर।",
+    "ur": "وحی وہ نزول ہے جس کے ذریعے اللہ اپنے انبیاء تک اپنی رہنمائی پہنچاتا ہے۔ قرآن آخری وحی ہے، جو فرشتے جبریل کے ذریعے نبی ﷺ کے دل پر اتاری گئی۔ اللہ وحی کے طریقے بتاتا ہے — پردے کے پیچھے سے، الہام کے ذریعے، یا ایک فرشتہ قاصد بھیج کر۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Waḥy is divine revelation: the way Allah conveys His words and guidance to the prophets He chooses. It is not the product of a prophet's own mind or desire, but speech from Allah, protected and exact. The Qur'an is the last and preserved waḥy to humanity." },
+      { "kind": "verse", "surah": 53, "ayah": 4, "note": "'It is nothing but a revelation revealed.'" },
+      { "kind": "heading", "level": 2, "text": "The ways of revelation" },
+      { "kind": "p", "text": "Allah describes that He does not speak to a human except in one of three ways: by inspiration cast into the heart, from behind a veil, or by sending an angel-messenger who reveals by His permission. This frames how the prophets received guidance." },
+      { "kind": "verse", "surah": 42, "ayah": 51, "note": "'It is not for any human that Allah should speak to him except by revelation, or from behind a veil, or by sending a messenger.'" },
+      { "kind": "heading", "level": 2, "text": "Brought down upon the heart" },
+      { "kind": "p", "text": "The Qur'an was brought down by the trustworthy spirit — the angel Jibrīl — upon the heart of the Prophet Muhammad ﷺ, in clear Arabic, so that he would be among the warners. This is the beginning of the mission that started in the cave of Ḥirā'." },
+      { "kind": "verse", "surah": 26, "ayah": 193, "note": "'The Trustworthy Spirit has brought it down upon your heart, that you may be of the warners.'" },
+      { "kind": "list", "items": [
+        { "text": "Waḥy is Allah's own speech conveyed to His prophets, not human authorship." },
+        { "text": "Allah reveals by inspiration, from behind a veil, or through an angel." },
+        { "text": "The Qur'an was brought by Jibrīl upon the heart of the Prophet ﷺ." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "वह्य दिव्य प्रकाशना है: वह तरीक़ा जिससे अल्लाह अपने चुने हुए पैगंबरों तक अपने शब्द और मार्गदर्शन पहुँचाता है। यह पैगंबर के अपने मन या इच्छा की उपज नहीं, बल्कि अल्लाह की ओर से वाणी है, सुरक्षित और यथार्थ। क़ुरआन मानवता के लिए अंतिम और सुरक्षित वह्य है।" },
+      { "kind": "verse", "surah": 53, "ayah": 4, "note": "'यह तो केवल एक प्रकाशना है जो उतारी जाती है।'" },
+      { "kind": "heading", "level": 2, "text": "प्रकाशना के तरीक़े" },
+      { "kind": "p", "text": "अल्लाह बताता है कि वह किसी मनुष्य से तीन में से एक तरीक़े के सिवा बात नहीं करता: दिल में डाली गई प्रेरणा द्वारा, पर्दे के पीछे से, या एक फ़रिश्ता-दूत भेज कर जो उसकी अनुमति से प्रकाशना करे। यह वह ढाँचा है जिससे पैगंबरों को मार्गदर्शन मिला।" },
+      { "kind": "verse", "surah": 42, "ayah": 51, "note": "'किसी मनुष्य के लिए संभव नहीं कि अल्लाह उससे बात करे सिवाय प्रकाशना के, या पर्दे के पीछे से, या कोई दूत भेज कर।'" },
+      { "kind": "heading", "level": 2, "text": "दिल पर उतारी गई" },
+      { "kind": "p", "text": "क़ुरआन विश्वसनीय रूह — फ़रिश्ते जिब्रील — द्वारा पैगंबर मुहम्मद ﷺ के दिल पर उतारा गया, स्पष्ट अरबी में, ताकि वह चेताने वालों में से हों। यह उस मिशन की शुरुआत है जो हिरा की गुफ़ा में आरंभ हुआ।" },
+      { "kind": "verse", "surah": 26, "ayah": 193, "note": "'विश्वसनीय रूह इसे तेरे दिल पर उतार लाई है, ताकि तू चेताने वालों में से हो।'" },
+      { "kind": "list", "items": [
+        { "text": "वह्य अल्लाह की अपनी वाणी है जो उसके पैगंबरों तक पहुँचाई जाती है, मानव रचना नहीं।" },
+        { "text": "अल्लाह प्रेरणा द्वारा, पर्दे के पीछे से, या एक फ़रिश्ते के माध्यम से प्रकाशना करता है।" },
+        { "text": "क़ुरआन जिब्रील द्वारा पैगंबर ﷺ के दिल पर लाया गया।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "وحی الٰہی نزول ہے: وہ طریقہ جس سے اللہ اپنے چنے ہوئے انبیاء تک اپنے کلام اور رہنمائی پہنچاتا ہے۔ یہ نبی کے اپنے ذہن یا خواہش کی پیداوار نہیں، بلکہ اللہ کی طرف سے کلام ہے، محفوظ اور بالکل درست۔ قرآن انسانیت کے لیے آخری اور محفوظ وحی ہے۔" },
+      { "kind": "verse", "surah": 53, "ayah": 4, "note": "'یہ تو صرف ایک وحی ہے جو اتاری جاتی ہے۔'" },
+      { "kind": "heading", "level": 2, "text": "وحی کے طریقے" },
+      { "kind": "p", "text": "اللہ بتاتا ہے کہ وہ کسی انسان سے تین میں سے ایک طریقے کے سوا بات نہیں کرتا: دل میں ڈالے گئے الہام کے ذریعے، پردے کے پیچھے سے، یا ایک فرشتہ قاصد بھیج کر جو اُس کی اجازت سے وحی کرے۔ یہ وہ ڈھانچہ ہے جس سے انبیاء کو رہنمائی ملی۔" },
+      { "kind": "verse", "surah": 42, "ayah": 51, "note": "'کسی انسان کے لیے ممکن نہیں کہ اللہ اُس سے بات کرے سوائے وحی کے، یا پردے کے پیچھے سے، یا کوئی قاصد بھیج کر۔'" },
+      { "kind": "heading", "level": 2, "text": "دل پر اتاری گئی" },
+      { "kind": "p", "text": "قرآن امانت دار روح — فرشتے جبریل — کے ذریعے نبی کریم ﷺ کے دل پر اتارا گیا، صاف عربی میں، تاکہ آپ ڈرانے والوں میں سے ہوں۔ یہ اُس مشن کا آغاز ہے جو غارِ حرا میں شروع ہوا۔" },
+      { "kind": "verse", "surah": 26, "ayah": 193, "note": "'امانت دار روح اِسے تیرے دل پر اتار لائی ہے، تاکہ تو ڈرانے والوں میں سے ہو۔'" },
+      { "kind": "list", "items": [
+        { "text": "وحی اللہ کا اپنا کلام ہے جو اُس کے انبیاء تک پہنچایا جاتا ہے، انسانی تصنیف نہیں۔" },
+        { "text": "اللہ الہام کے ذریعے، پردے کے پیچھے سے، یا ایک فرشتے کے ذریعے وحی کرتا ہے۔" },
+        { "text": "قرآن جبریل کے ذریعے نبی ﷺ کے دل پر لایا گیا۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "53:4" },
+    { "type": "quran", "ref": "42:51" },
+    { "type": "quran", "ref": "26:192-194" }
+  ],
+  "relatedSlugs": ["seerah-first-revelation", "prophet-muhammad", "basics-belief-in-books"]
+}

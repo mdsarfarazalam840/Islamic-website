@@ -1,0 +1,65 @@
+{
+  "slug": "seerah-uhud",
+  "category": "seerah",
+  "title": {
+    "en": "The Battle of Uhud",
+    "hi": "उहुद की लड़ाई",
+    "ur": "غزوہ احد"
+  },
+  "summary": {
+    "en": "A year after Badr, the Quraysh returned in force to avenge their dead. The Muslims held the advantage until the archers left their post for the spoils; the enemy cavalry turned the battle, and many companions were martyred. A hard lesson in obedience and steadfastness.",
+    "hi": "बद्र के एक वर्ष बाद, क़ुरैश अपने मृतकों का बदला लेने पूरी ताक़त से लौटे। मुसलमानों का पलड़ा भारी था जब तक तीरंदाज़ माल-ए-ग़नीमत के लिए अपनी जगह न छोड़ बैठे; दुश्मन के घुड़सवारों ने लड़ाई पलट दी, और कई सहाबा शहीद हुए। आज्ञापालन और दृढ़ता का एक कठिन सबक़।",
+    "ur": "بدر کے ایک سال بعد، قریش اپنے مقتولوں کا بدلہ لینے پوری طاقت سے لوٹے۔ مسلمانوں کا پلڑا بھاری تھا یہاں تک کہ تیر انداز مالِ غنیمت کے لیے اپنی جگہ چھوڑ بیٹھے؛ دشمن کے سواروں نے جنگ پلٹ دی، اور کئی صحابہ شہید ہوئے۔ اطاعت اور ثابت قدمی کا ایک سخت سبق۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "In the third year after Hijrah, the Quraysh marched on Madinah with some three thousand men to avenge their losses at Badr. The Prophet ﷺ positioned his roughly seven hundred followers at the foot of Mount Uhud, placing fifty archers on a hill with strict orders never to leave it, whatever the outcome." },
+      { "kind": "p", "text": "At first the Muslims prevailed and the Quraysh began to flee. But seeing the enemy retreat, most of the archers abandoned their post to gather the spoils, disobeying the Prophet's command. The Quraysh cavalry, led by Khalid ibn al-Walid (then not yet Muslim), swept around the exposed hill and attacked from behind." },
+      { "kind": "heading", "level": 2, "text": "The trial and the recovery" },
+      { "kind": "p", "text": "The tide turned violently. The Prophet ﷺ was wounded, his tooth broken and face injured, and a rumour spread that he had been killed. Around seventy companions were martyred, including his uncle Hamzah. Yet the Prophet ﷺ rallied the believers, and the Quraysh withdrew without destroying them. Afterwards Allah revealed verses explaining the defeat as a test and a consequence of disobedience." },
+      { "kind": "verse", "surah": 3, "ayah": 152, "note": "'Allah fulfilled His promise to you when you were killing them by His permission, until you lost courage, disputed the order, and disobeyed after He showed you what you loved.'" },
+      { "kind": "verse", "surah": 3, "ayah": 165, "note": "'When a disaster struck you, though you had struck them with one twice as great, you said, \"How is this?\" Say, \"It is from yourselves.\"'" },
+      { "kind": "heading", "level": 2, "text": "Lessons" },
+      { "kind": "list", "items": [
+        { "text": "Obedience to leadership and to Allah's command must not waver, even at the scent of victory." },
+        { "text": "Love of worldly gain can snatch away a victory already within reach." },
+        { "text": "Trials purify the believers and distinguish the sincere from the wavering." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "हिजरत के तीसरे वर्ष, क़ुरैश बद्र में अपने नुक़सान का बदला लेने लगभग तीन हज़ार लोगों के साथ मदीना पर चढ़ आए। पैगंबर ﷺ ने अपने लगभग सात सौ अनुयायियों को उहुद पर्वत की तलहटी में तैनात किया, पचास तीरंदाज़ों को एक पहाड़ी पर सख़्त हुक्म के साथ रखा कि परिणाम चाहे जो हो, उसे कभी न छोड़ें।" },
+      { "kind": "p", "text": "पहले मुसलमानों का पलड़ा भारी रहा और क़ुरैश भागने लगे। पर दुश्मन को पीछे हटता देख, अधिकांश तीरंदाज़ माल-ए-ग़नीमत बटोरने अपनी जगह छोड़ बैठे, पैगंबर के हुक्म की अवहेलना करते हुए। क़ुरैश के घुड़सवारों ने, ख़ालिद इब्न अल-वलीद (जो तब मुसलमान न थे) के नेतृत्व में, खुली पहाड़ी के चारों ओर से घूम कर पीछे से हमला किया।" },
+      { "kind": "heading", "level": 2, "text": "आज़माइश और वापसी" },
+      { "kind": "p", "text": "पासा हिंसक रूप से पलट गया। पैगंबर ﷺ घायल हुए, उनका दाँत टूटा और चेहरा ज़ख़्मी हुआ, और यह अफ़वाह फैली कि वे मारे गए। लगभग सत्तर सहाबा शहीद हुए, उनके चाचा हमज़ा सहित। फिर भी पैगंबर ﷺ ने ईमान वालों को फिर संगठित किया, और क़ुरैश उन्हें नष्ट किए बिना लौट गए। बाद में अल्लाह ने आयतें उतारीं जो हार को एक परीक्षा और अवज्ञा का परिणाम बता रही थीं।" },
+      { "kind": "verse", "surah": 3, "ayah": 152, "note": "'अल्लाह ने तुमसे अपना वादा पूरा किया जब तुम उसकी अनुमति से उन्हें मार रहे थे, यहाँ तक कि तुमने हिम्मत खो दी, हुक्म में झगड़ा किया, और जो तुम्हें प्रिय था वह दिखाए जाने के बाद अवज्ञा की।'" },
+      { "kind": "verse", "surah": 3, "ayah": 165, "note": "'जब तुम पर एक विपत्ति आई, जबकि तुमने उन्हें उससे दुगुनी पहुँचाई थी, तुमने कहा, \"यह कैसे?\" कह दो, \"यह तुम्हारी अपनी ओर से है।\"'" },
+      { "kind": "heading", "level": 2, "text": "शिक्षाएँ" },
+      { "kind": "list", "items": [
+        { "text": "नेतृत्व और अल्लाह के हुक्म का आज्ञापालन डगमगाना नहीं चाहिए, विजय की महक पर भी।" },
+        { "text": "दुनियावी लाभ का प्रेम पहुँच में आई विजय को छीन सकता है।" },
+        { "text": "परीक्षाएँ ईमान वालों को शुद्ध करती हैं और सच्चों को डगमगाने वालों से अलग करती हैं।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "ہجرت کے تیسرے سال، قریش بدر میں اپنے نقصان کا بدلہ لینے تقریباً تین ہزار افراد کے ساتھ مدینہ پر چڑھ آئے۔ نبی ﷺ نے اپنے تقریباً سات سو پیروکاروں کو اُحد پہاڑ کے دامن میں تعینات کیا، پچاس تیر اندازوں کو ایک پہاڑی پر سخت حکم کے ساتھ رکھا کہ نتیجہ چاہے جو ہو، اسے کبھی نہ چھوڑیں۔" },
+      { "kind": "p", "text": "پہلے مسلمانوں کا پلڑا بھاری رہا اور قریش بھاگنے لگے۔ مگر دشمن کو پیچھے ہٹتا دیکھ، اکثر تیر انداز مالِ غنیمت سمیٹنے اپنی جگہ چھوڑ بیٹھے، نبی کے حکم کی خلاف ورزی کرتے ہوئے۔ قریش کے سواروں نے، خالد بن الولید (جو تب مسلمان نہ تھے) کی قیادت میں، کھلی پہاڑی کے گرد گھوم کر پیچھے سے حملہ کیا۔" },
+      { "kind": "heading", "level": 2, "text": "آزمائش اور بحالی" },
+      { "kind": "p", "text": "پانسہ شدت سے پلٹ گیا۔ نبی ﷺ زخمی ہوئے، اُن کا دانت ٹوٹا اور چہرہ زخمی ہوا، اور یہ افواہ پھیلی کہ وہ مارے گئے۔ تقریباً ستر صحابہ شہید ہوئے، اُن کے چچا حمزہ سمیت۔ پھر بھی نبی ﷺ نے مومنوں کو دوبارہ منظم کیا، اور قریش انہیں تباہ کیے بغیر لوٹ گئے۔ بعد میں اللہ نے آیات نازل کیں جو شکست کو ایک آزمائش اور نافرمانی کا نتیجہ بتا رہی تھیں۔" },
+      { "kind": "verse", "surah": 3, "ayah": 152, "note": "'اللہ نے تم سے اپنا وعدہ پورا کیا جب تم اس کی اجازت سے انہیں مار رہے تھے، یہاں تک کہ تم نے ہمت کھو دی، حکم میں جھگڑا کیا، اور جو تمہیں محبوب تھا وہ دکھائے جانے کے بعد نافرمانی کی۔'" },
+      { "kind": "verse", "surah": 3, "ayah": 165, "note": "'جب تم پر ایک مصیبت آئی، جبکہ تم نے انہیں اس سے دگنی پہنچائی تھی، تم نے کہا، \"یہ کیسے؟\" کہہ دو، \"یہ تمہاری اپنی طرف سے ہے۔\"'" },
+      { "kind": "heading", "level": 2, "text": "اسباق" },
+      { "kind": "list", "items": [
+        { "text": "قیادت اور اللہ کے حکم کی اطاعت میں تزلزل نہیں آنا چاہیے، فتح کی خوشبو پر بھی۔" },
+        { "text": "دنیاوی نفع کی محبت پہنچ میں آئی فتح چھین سکتی ہے۔" },
+        { "text": "آزمائشیں مومنوں کو پاک کرتی ہیں اور سچوں کو ڈگمگانے والوں سے جدا کرتی ہیں۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "3:152" },
+    { "type": "quran", "ref": "3:165-166" },
+    { "type": "hadith", "collection": "bukhari", "ref": "4043", "grade": "sahih" },
+    { "type": "seerah" }
+  ],
+  "relatedSlugs": ["seerah-badr", "seerah-trench", "concept-sabr"]
+}

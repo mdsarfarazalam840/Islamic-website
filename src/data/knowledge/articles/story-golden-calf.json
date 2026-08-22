@@ -1,0 +1,79 @@
+{
+  "slug": "story-golden-calf",
+  "category": "quranic",
+  "title": {
+    "en": "The Golden Calf and Samiri",
+    "hi": "सोने का बछड़ा और सामरी",
+    "ur": "سونے کا بچھڑا اور سامری"
+  },
+  "summary": {
+    "en": "While Musa was away on Mount Tur to receive revelation, a man named Samiri fashioned a golden calf that made a lowing sound, and led the Children of Israel to worship it. Harun tried to stop them but was overpowered. Musa returned in fury, rebuked his people and his brother, and drove Samiri out — a stark lesson on how quickly a people can fall into idolatry.",
+    "hi": "जब मूसा वह्य पाने के लिए तूर पर्वत पर गए हुए थे, सामरी नामक एक व्यक्ति ने सोने का एक बछड़ा बनाया जो रँभाने की आवाज़ निकालता था, और बनी इसराईल को उसकी पूजा की ओर ले गया। हारून ने रोकने की कोशिश की पर वे हावी हो गए। मूसा क्रोध में लौटे, अपनी क़ौम और अपने भाई को डाँटा, और सामरी को निकाल दिया — इस पर एक कड़ा सबक़ कि क़ौम कितनी जल्दी मूर्तिपूजा में गिर सकती है।",
+    "ur": "جب موسیٰ وحی پانے کے لیے کوہِ طور پر گئے ہوئے تھے، سامری نامی ایک شخص نے سونے کا ایک بچھڑا بنایا جو گائے کی سی آواز نکالتا تھا، اور بنی اسرائیل کو اس کی پوجا کی طرف لے گیا۔ ہارون نے روکنے کی کوشش کی مگر وہ غالب آ گئے۔ موسیٰ غصے میں لوٹے، اپنی قوم اور اپنے بھائی کو ڈانٹا، اور سامری کو نکال دیا — اس پر ایک سخت سبق کہ قوم کتنی جلدی بت پرستی میں گر سکتی ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Allah appointed for Musa (peace be upon him) a meeting at Mount Tur, and Musa hurried ahead of his people to his Lord, leaving Harun in charge. In his absence, a trial befell the Children of Israel." },
+      { "kind": "verse", "surah": 20, "ayah": 83, "note": "Allah asked, 'What made you hasten from your people, O Musa?'" },
+      { "kind": "verse", "surah": 20, "ayah": 85, "note": "'We have tried your people after you, and the Samiri has led them astray.'" },
+      { "kind": "heading", "level": 2, "text": "The calf that lowed" },
+      { "kind": "p", "text": "Samiri gathered the people's ornaments and cast for them a calf's body that emitted a lowing sound, and he declared it their god. Many were seduced into worshipping it, forgetting the Lord who had saved them from Pharaoh." },
+      { "kind": "verse", "surah": 20, "ayah": 88, "note": "He produced for them a calf, a body that lowed, and they said, 'This is your god and the god of Musa, but he has forgotten.'" },
+      { "kind": "p", "text": "Harun (peace be upon him) had warned them clearly that this was only a trial and that their true Lord is the Most Merciful, but they refused to stop until Musa returned." },
+      { "kind": "verse", "surah": 20, "ayah": 90, "note": "Harun had told them, 'O my people, you are only being tested by it; your Lord is the Most Merciful, so follow me and obey my order.'" },
+      { "kind": "heading", "level": 2, "text": "Musa returns in anger" },
+      { "kind": "p", "text": "Musa came back angry and grieved. He seized his brother, who explained that the people had nearly killed him and he feared causing division. Then Musa turned to Samiri and banished him, and the calf was burned and scattered into the sea." },
+      { "kind": "verse", "surah": 7, "ayah": 150, "note": "Musa returned to his people, angry and grieved; he threw down the tablets and seized his brother's head, dragging him." },
+      { "kind": "verse", "surah": 20, "ayah": 97, "note": "Musa said to Samiri, 'Go! In this life you will say, Touch me not; and you have an appointment you cannot break. Look at your god you kept worshipping — we will burn it and scatter it in the sea.'" },
+      { "kind": "list", "items": [
+        { "text": "A community can slip into shirk with astonishing speed when it loses sight of its Lord." },
+        { "text": "The caller to truth may be outnumbered and threatened, as Harun was, yet must hold firm." },
+        { "text": "Those who lead others astray, like Samiri, bear their own ruin and a lasting disgrace." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "अल्लाह ने मूसा (उन पर शांति हो) के लिए तूर पर्वत पर एक मुलाक़ात ठहराई, और मूसा अपनी क़ौम से आगे अपने रब की ओर जल्दी गए, हारून को ज़िम्मेदार छोड़कर। उनकी ग़ैरमौजूदगी में बनी इसराईल पर एक आज़माइश आ पड़ी।" },
+      { "kind": "verse", "surah": 20, "ayah": 83, "note": "अल्लाह ने पूछा, 'ऐ मूसा, तुझे अपनी क़ौम से आगे जल्दी आने पर किस चीज़ ने उभारा?'" },
+      { "kind": "verse", "surah": 20, "ayah": 85, "note": "'हमने तेरे बाद तेरी क़ौम को आज़माया, और सामरी ने उन्हें गुमराह कर दिया।'" },
+      { "kind": "heading", "level": 2, "text": "रँभाता बछड़ा" },
+      { "kind": "p", "text": "सामरी ने लोगों के ज़ेवर इकट्ठे किए और उनके लिए एक बछड़े का ढाँचा ढाला जो रँभाने की आवाज़ निकालता था, और उसे उनका ख़ुदा घोषित किया। बहुत से लोग उसकी पूजा में बहक गए, उस रब को भूलकर जिसने उन्हें फ़िरऔन से बचाया था।" },
+      { "kind": "verse", "surah": 20, "ayah": 88, "note": "उसने उनके लिए एक बछड़ा निकाला, एक ढाँचा जो रँभाता था, और वे बोले, 'यह तुम्हारा और मूसा का ख़ुदा है, पर वह भूल गया।'" },
+      { "kind": "p", "text": "हारून (उन पर शांति हो) ने उन्हें साफ़ चेताया था कि यह केवल एक आज़माइश है और उनका सच्चा रब अत्यंत दयावान है, पर उन्होंने मूसा के लौटने तक रुकने से इनकार किया।" },
+      { "kind": "verse", "surah": 20, "ayah": 90, "note": "हारून ने उनसे कहा था, 'ऐ मेरी क़ौम, तुम केवल इससे आज़माए जा रहे हो; तुम्हारा रब अत्यंत दयावान है, तो मेरा अनुसरण करो और मेरा हुक्म मानो।'" },
+      { "kind": "heading", "level": 2, "text": "मूसा क्रोध में लौटते हैं" },
+      { "kind": "p", "text": "मूसा क्रोधित और दुखी होकर लौटे। उन्होंने अपने भाई को पकड़ा, जिसने बताया कि लोगों ने उसे क़रीब-क़रीब मार डाला था और उसे फूट डालने का डर था। फिर मूसा सामरी की ओर मुड़े और उसे निकाल दिया, और बछड़े को जलाकर समुद्र में बिखेर दिया गया।" },
+      { "kind": "verse", "surah": 7, "ayah": 150, "note": "मूसा अपनी क़ौम की ओर क्रोधित और दुखी लौटे; उन्होंने तख़्तियाँ रख दीं और अपने भाई का सिर पकड़कर अपनी ओर खींचा।" },
+      { "kind": "verse", "surah": 20, "ayah": 97, "note": "मूसा ने सामरी से कहा, 'जा! इस ज़िंदगी में तू कहेगा, मुझे न छूना; और तेरे लिए एक वादा है जिसे तू टाल नहीं सकता। अपने ख़ुदा को देख जिसकी तू पूजा करता रहा — हम उसे जलाएँगे और समुद्र में बिखेर देंगे।'" },
+      { "kind": "list", "items": [
+        { "text": "एक समुदाय हैरतअंगेज़ तेज़ी से शिर्क में फिसल सकता है जब वह अपने रब से ग़ाफ़िल हो जाए।" },
+        { "text": "सत्य का बुलाने वाला अल्पसंख्यक और धमकाया हुआ हो सकता है, जैसे हारून थे, फिर भी उसे दृढ़ रहना चाहिए।" },
+        { "text": "जो दूसरों को गुमराह करते हैं, जैसे सामरी, वे अपना विनाश और स्थायी अपमान उठाते हैं।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "اللہ نے موسیٰ (علیہ السلام) کے لیے کوہِ طور پر ایک ملاقات مقرر کی، اور موسیٰ اپنی قوم سے آگے اپنے رب کی طرف جلدی گئے، ہارون کو ذمہ دار چھوڑ کر۔ ان کی غیر موجودگی میں بنی اسرائیل پر ایک آزمائش آ پڑی۔" },
+      { "kind": "verse", "surah": 20, "ayah": 83, "note": "اللہ نے پوچھا، 'اے موسیٰ، تجھے اپنی قوم سے آگے جلدی آنے پر کس چیز نے ابھارا؟'" },
+      { "kind": "verse", "surah": 20, "ayah": 85, "note": "'ہم نے تیرے بعد تیری قوم کو آزمایا، اور سامری نے انہیں گمراہ کر دیا۔'" },
+      { "kind": "heading", "level": 2, "text": "گائے کی سی آواز نکالتا بچھڑا" },
+      { "kind": "p", "text": "سامری نے لوگوں کے زیورات جمع کیے اور ان کے لیے ایک بچھڑے کا ڈھانچہ ڈھالا جو گائے کی سی آواز نکالتا تھا، اور اسے ان کا خدا قرار دیا۔ بہت سے لوگ اس کی پوجا میں بہک گئے، اس رب کو بھول کر جس نے انہیں فرعون سے بچایا تھا۔" },
+      { "kind": "verse", "surah": 20, "ayah": 88, "note": "اس نے ان کے لیے ایک بچھڑا نکالا، ایک ڈھانچہ جو آواز نکالتا تھا، اور وہ بولے، 'یہ تمہارا اور موسیٰ کا خدا ہے، مگر وہ بھول گیا۔'" },
+      { "kind": "p", "text": "ہارون (علیہ السلام) نے انہیں صاف خبردار کیا تھا کہ یہ صرف ایک آزمائش ہے اور ان کا سچا رب رحمٰن ہے، مگر انہوں نے موسیٰ کے لوٹنے تک رکنے سے انکار کیا۔" },
+      { "kind": "verse", "surah": 20, "ayah": 90, "note": "ہارون نے ان سے کہا تھا، 'اے میری قوم، تم صرف اس سے آزمائے جا رہے ہو؛ تمہارا رب رحمٰن ہے، تو میری پیروی کرو اور میرا حکم مانو۔'" },
+      { "kind": "heading", "level": 2, "text": "موسیٰ غصے میں لوٹتے ہیں" },
+      { "kind": "p", "text": "موسیٰ غصے اور رنج میں لوٹے۔ انہوں نے اپنے بھائی کو پکڑا، جس نے بتایا کہ لوگوں نے اسے قریب قریب مار ڈالا تھا اور اسے تفرقہ ڈالنے کا ڈر تھا۔ پھر موسیٰ سامری کی طرف مڑے اور اسے نکال دیا، اور بچھڑے کو جلا کر سمندر میں بکھیر دیا گیا۔" },
+      { "kind": "verse", "surah": 7, "ayah": 150, "note": "موسیٰ اپنی قوم کی طرف غصے اور رنج میں لوٹے؛ انہوں نے تختیاں رکھ دیں اور اپنے بھائی کا سر پکڑ کر اپنی طرف کھینچا۔" },
+      { "kind": "verse", "surah": 20, "ayah": 97, "note": "موسیٰ نے سامری سے کہا، 'جا! اس زندگی میں تو کہے گا، مجھے نہ چھونا؛ اور تیرے لیے ایک وعدہ ہے جسے تو ٹال نہیں سکتا۔ اپنے خدا کو دیکھ جس کی تو پوجا کرتا رہا — ہم اسے جلائیں گے اور سمندر میں بکھیر دیں گے۔'" },
+      { "kind": "list", "items": [
+        { "text": "ایک قوم حیران کن تیزی سے شرک میں پھسل سکتی ہے جب وہ اپنے رب سے غافل ہو جائے۔" },
+        { "text": "حق کی طرف بلانے والا اقلیت میں اور دھمکایا ہوا ہو سکتا ہے، جیسے ہارون تھے، پھر بھی اسے ثابت قدم رہنا چاہیے۔" },
+        { "text": "جو دوسروں کو گمراہ کرتے ہیں، جیسے سامری، وہ اپنی تباہی اور دائمی رسوائی اٹھاتے ہیں۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "20:83-98" },
+    { "type": "quran", "ref": "7:148-153" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["prophet-musa", "prophet-harun", "story-cow-of-bani-israel", "concept-shirk"]
+}

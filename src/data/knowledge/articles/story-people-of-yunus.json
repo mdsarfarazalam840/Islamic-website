@@ -1,0 +1,65 @@
+{
+  "slug": "story-people-of-yunus",
+  "category": "quranic",
+  "featured": false,
+  "title": {
+    "en": "The People of Yunus Who Believed",
+    "hi": "यूनुस की क़ौम जो ईमान लाई",
+    "ur": "یونس کی قوم جو ایمان لائی"
+  },
+  "summary": {
+    "en": "When the prophet Yunus left his people in anger and Allah's punishment loomed over them, the whole town turned back to Allah in sincere repentance before it struck. The Qur'an singles them out as the one community whose belief, at the very edge of destruction, was accepted and their punishment lifted.",
+    "hi": "जब पैगंबर यूनुस अपनी क़ौम को क्रोध में छोड़ गए और अल्लाह का अज़ाब उन पर मंडराने लगा, पूरी बस्ती उसके आने से पहले सच्ची तौबा के साथ अल्लाह की ओर लौट आई। क़ुरआन उन्हें उस एकमात्र समुदाय के रूप में अलग बताता है जिसका ईमान, विनाश के बिल्कुल किनारे पर, क़बूल हुआ और उनका अज़ाब हटा दिया गया।",
+    "ur": "جب پیغمبر یونس اپنی قوم کو غصے میں چھوڑ گئے اور اللہ کا عذاب اُن پر منڈلانے لگا، پوری بستی اُس کے آنے سے پہلے سچی توبہ کے ساتھ اللہ کی طرف لوٹ آئی۔ قرآن اُنہیں اُس واحد قوم کے طور پر ممتاز کرتا ہے جس کا ایمان، تباہی کے بالکل کنارے پر، قبول ہوا اور اُن کا عذاب ہٹا دیا گیا۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Yunus (Jonah, peace be upon him) was sent to a great city — traditionally identified as Nineveh — whose people persisted in denial. When they refused to believe and he despaired of them, he departed in anger, before Allah had given him leave to do so. As he left, the signs of a promised punishment began to gather over the town." },
+      { "kind": "p", "text": "Seeing the sky darken with the approach of Allah's chastisement, the people were struck with fear and realised the truth of their prophet's warning. The entire town — men, women, and children — turned out in humble, weeping repentance, imploring Allah to spare them. And Allah, in His mercy, accepted their turning and removed the punishment that was upon the horizon." },
+      { "kind": "verse", "surah": 10, "ayah": 98, "note": "'Why was there no town that believed and its faith benefited it except the people of Yunus? When they believed, We removed from them the punishment of disgrace in worldly life.'" },
+      { "kind": "heading", "level": 2, "text": "A repentance accepted at the brink" },
+      { "kind": "p", "text": "The Qur'an holds up the people of Yunus as unique: other doomed nations believed only when the punishment had already fallen upon them, when belief no longer availed. But this people repented in time — collectively and sincerely — and so their faith was accepted and they were saved." },
+      { "kind": "verse", "surah": 37, "ayah": 148, "note": "'And they believed, so We gave them enjoyment for a while.'" },
+      { "kind": "heading", "level": 2, "text": "Lessons" },
+      { "kind": "list", "items": [
+        { "text": "Sincere repentance, even at the edge of ruin, can turn away Allah's punishment." },
+        { "text": "Allah's mercy welcomes a whole people back when they return to Him together." },
+        { "text": "Faith benefits most when it comes before the punishment arrives, not after." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "यूनुस (उन पर शांति हो) एक बड़े नगर की ओर भेजे गए — परंपरा में जिसे नीनवा बताया जाता है — जिसके लोग इनकार पर अड़े रहे। जब उन्होंने ईमान लाने से इनकार किया और यूनुस उनसे निराश हो गए, वे क्रोध में चले गए, इससे पहले कि अल्लाह ने उन्हें ऐसा करने की अनुमति दी हो। ज्यों ही वे निकले, एक वादा किए गए अज़ाब के आसार बस्ती पर इकट्ठा होने लगे।" },
+      { "kind": "p", "text": "अल्लाह के अज़ाब के आने से आसमान को अँधेरा होते देख, लोग भय से भर गए और अपने पैगंबर की चेतावनी का सच समझ गए। पूरी बस्ती — पुरुष, स्त्रियाँ, और बच्चे — विनम्र, रोती हुई तौबा में निकल पड़ी, अल्लाह से बचाने की गिड़गिड़ाहट करते हुए। और अल्लाह ने, अपनी रहमत से, उनकी वापसी क़बूल की और वह अज़ाब हटा दिया जो क्षितिज पर था।" },
+      { "kind": "verse", "surah": 10, "ayah": 98, "note": "'कोई बस्ती ऐसी क्यों न हुई जो ईमान लाती और उसका ईमान उसे लाभ देता, सिवाय यूनुस की क़ौम के? जब वे ईमान लाए, हमने उनसे दुनियावी जीवन में रुसवाई का अज़ाब हटा दिया।'" },
+      { "kind": "heading", "level": 2, "text": "किनारे पर क़बूल हुई तौबा" },
+      { "kind": "p", "text": "क़ुरआन यूनुस की क़ौम को अनोखा बता कर पेश करता है: दूसरी बर्बाद क़ौमें तभी ईमान लाईं जब अज़ाब उन पर आ पड़ा, जब ईमान काम न आता था। पर यह क़ौम समय रहते तौबा कर बैठी — सामूहिक और सच्ची — और इसलिए उनका ईमान क़बूल हुआ और वे बच गए।" },
+      { "kind": "verse", "surah": 37, "ayah": 148, "note": "'और वे ईमान लाए, तो हमने उन्हें एक समय तक लाभ उठाने दिया।'" },
+      { "kind": "heading", "level": 2, "text": "शिक्षाएँ" },
+      { "kind": "list", "items": [
+        { "text": "सच्ची तौबा, बर्बादी के किनारे पर भी, अल्लाह के अज़ाब को टाल सकती है।" },
+        { "text": "अल्लाह की रहमत एक पूरी क़ौम का स्वागत करती है जब वे मिल कर उसकी ओर लौटते हैं।" },
+        { "text": "ईमान सबसे अधिक तब लाभ देता है जब वह अज़ाब आने से पहले आए, बाद में नहीं।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "یونس (علیہ السلام) ایک بڑے شہر کی طرف بھیجے گئے — روایت میں جسے نینوا بتایا جاتا ہے — جس کے لوگ انکار پر اڑے رہے۔ جب اُنہوں نے ایمان لانے سے انکار کیا اور یونس اُن سے مایوس ہو گئے، وہ غصے میں چلے گئے، اِس سے پہلے کہ اللہ نے اُنہیں ایسا کرنے کی اجازت دی ہو۔ جیسے ہی وہ نکلے، ایک وعدہ کیے گئے عذاب کے آثار بستی پر جمع ہونے لگے۔" },
+      { "kind": "p", "text": "اللہ کے عذاب کے آنے سے آسمان کو تاریک ہوتے دیکھ، لوگ خوف سے بھر گئے اور اپنے پیغمبر کی تنبیہ کا سچ سمجھ گئے۔ پوری بستی — مرد، عورتیں، اور بچے — عاجز، روتی ہوئی توبہ میں نکل پڑی، اللہ سے بچانے کی التجا کرتے ہوئے۔ اور اللہ نے، اپنی رحمت سے، اُن کی واپسی قبول کی اور وہ عذاب ہٹا دیا جو اُفق پر تھا۔" },
+      { "kind": "verse", "surah": 10, "ayah": 98, "note": "'کوئی بستی ایسی کیوں نہ ہوئی جو ایمان لاتی اور اُس کا ایمان اُسے فائدہ دیتا، سوائے یونس کی قوم کے؟ جب وہ ایمان لائے، ہم نے اُن سے دنیوی زندگی میں رسوائی کا عذاب ہٹا دیا۔'" },
+      { "kind": "heading", "level": 2, "text": "کنارے پر قبول ہوئی توبہ" },
+      { "kind": "p", "text": "قرآن یونس کی قوم کو منفرد بنا کر پیش کرتا ہے: دوسری تباہ شدہ قومیں تب ایمان لائیں جب عذاب اُن پر آ پڑا، جب ایمان کام نہ آتا تھا۔ مگر یہ قوم وقت رہتے توبہ کر بیٹھی — اجتماعی اور سچی — اور اِس لیے اُن کا ایمان قبول ہوا اور وہ بچ گئے۔" },
+      { "kind": "verse", "surah": 37, "ayah": 148, "note": "'اور وہ ایمان لائے، تو ہم نے اُنہیں ایک وقت تک فائدہ اٹھانے دیا۔'" },
+      { "kind": "heading", "level": 2, "text": "اسباق" },
+      { "kind": "list", "items": [
+        { "text": "سچی توبہ، تباہی کے کنارے پر بھی، اللہ کے عذاب کو ٹال سکتی ہے۔" },
+        { "text": "اللہ کی رحمت ایک پوری قوم کا استقبال کرتی ہے جب وہ مل کر اُس کی طرف لوٹتے ہیں۔" },
+        { "text": "ایمان سب سے زیادہ تب فائدہ دیتا ہے جب وہ عذاب آنے سے پہلے آئے، بعد میں نہیں۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "10:98" },
+    { "type": "quran", "ref": "37:139-148" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["prophet-yunus", "concept-tawbah", "concept-rahmah"]
+}

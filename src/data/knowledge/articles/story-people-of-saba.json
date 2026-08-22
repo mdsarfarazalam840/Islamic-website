@@ -1,0 +1,72 @@
+{
+  "slug": "story-people-of-saba",
+  "category": "quranic",
+  "title": {
+    "en": "The People of Saba and the Flood",
+    "hi": "क़ौम-ए-सबा और सैलाब",
+    "ur": "قومِ سبا اور سیلاب"
+  },
+  "summary": {
+    "en": "Saba (Sheba) was a prosperous kingdom in Yemen blessed with lush gardens on both sides and a great dam. Told to eat of their Lord's provision and give thanks, they turned away in ingratitude. So Allah loosed the flood of the dam, replacing their gardens with bitter, barren growth and scattering them across the land — a lesson on gratitude and its opposite.",
+    "hi": "सबा यमन का एक समृद्ध राज्य था, जिसे दोनों ओर हरे-भरे बाग़ों और एक बड़े बाँध से नवाज़ा गया था। जब उन्हें अपने रब की दी रोज़ी खाने और शुक्र करने को कहा गया, तो उन्होंने कृतघ्नता में मुँह फेर लिया। तो अल्लाह ने बाँध का सैलाब छोड़ दिया, उनके बाग़ों को कड़वी, बंजर उपज से बदल दिया और उन्हें ज़मीन भर में बिखेर दिया — शुक्र और उसके विपरीत पर एक सबक़।",
+    "ur": "سبا یمن کی ایک خوشحال سلطنت تھی، جسے دونوں طرف سرسبز باغوں اور ایک بڑے بند سے نوازا گیا تھا۔ جب انہیں اپنے رب کا دیا رزق کھانے اور شکر کرنے کو کہا گیا، تو انہوں نے ناشکری میں منہ پھیر لیا۔ تو اللہ نے بند کا سیلاب چھوڑ دیا، ان کے باغوں کو کڑوی، بنجر پیداوار سے بدل دیا اور انہیں زمین بھر میں بکھیر دیا — شکر اور اس کی ضد پر ایک سبق۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "The people of Saba lived in a fertile land in the south of Arabia. Allah placed for them a clear sign in their own dwelling: two great tracts of gardens, one on the right and one on the left, watered by a mighty dam." },
+      { "kind": "verse", "surah": 34, "ayah": 15, "note": "There was for Saba a sign in their dwelling: two gardens, right and left. 'Eat of your Lord's provision and be grateful to Him — a good land, and a forgiving Lord.'" },
+      { "kind": "p", "text": "The command was simple: enjoy this abundance and be thankful to the One who gave it. Their land was pure and pleasant, their Lord forgiving. Gratitude was all that was asked." },
+      { "kind": "heading", "level": 2, "text": "The bursting of the dam" },
+      { "kind": "p", "text": "But they turned away from thankfulness. So Allah released against them the flood of the dam (Sayl al-'Arim), which swept away their gardens and left in their place only bitter fruit, tamarisk, and a few sparse lote-trees." },
+      { "kind": "verse", "surah": 34, "ayah": 16, "note": "They turned away, so We sent the flood of the dam and exchanged their two gardens for two of bitter fruit, tamarisk, and a little of the lote-tree." },
+      { "kind": "verse", "surah": 34, "ayah": 17, "note": "Thus We repaid them for their ingratitude — and do We repay any but the ungrateful?" },
+      { "kind": "heading", "level": 2, "text": "Scattered as tales" },
+      { "kind": "p", "text": "Once, safe towns lay so close along their trade routes that travellers passed between them by day and night in security. But they grew discontent, wronged themselves, and so Allah dispersed them completely — turning a great people into mere stories told to others, a sign for all who are patient and grateful." },
+      { "kind": "verse", "surah": 34, "ayah": 19, "note": "They said, 'Lord, lengthen the distance between our journeys,' and wronged themselves. So We made them tales and scattered them utterly — signs in this for every patient, grateful one." },
+      { "kind": "list", "items": [
+        { "text": "Blessings are a test: gratitude preserves them, ingratitude invites their removal." },
+        { "text": "Security and ease can be lost in a moment when a people forget the Giver." },
+        { "text": "The ruins of past nations are signs for the patient and thankful to reflect upon." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "क़ौम-ए-सबा अरब के दक्षिण में एक उपजाऊ भूमि में रहती थी। अल्लाह ने उनके अपने आवास में एक साफ़ निशानी रखी: बाग़ों के दो बड़े क्षेत्र, एक दाहिने और एक बाएँ, एक विशाल बाँध से सिंचित।" },
+      { "kind": "verse", "surah": 34, "ayah": 15, "note": "सबा के लिए उनके आवास में एक निशानी थी: दो बाग़, दाहिने और बाएँ। 'अपने रब की रोज़ी खाओ और उसका शुक्र करो — एक अच्छा शहर, और एक बख़्शने वाला रब।'" },
+      { "kind": "p", "text": "हुक्म सरल था: इस बहुतायत का आनंद लो और उसका शुक्र करो जिसने दी। उनकी भूमि पाकीज़ा और सुहावनी थी, उनका रब बख़्शने वाला। बस शुक्र माँगा गया था।" },
+      { "kind": "heading", "level": 2, "text": "बाँध का टूटना" },
+      { "kind": "p", "text": "पर उन्होंने शुक्र से मुँह फेर लिया। तो अल्लाह ने उन पर बाँध का सैलाब (सैल-उल-अरिम) छोड़ दिया, जो उनके बाग़ों को बहा ले गया और उनकी जगह केवल कड़वे फल, झाऊ, और कुछ छितरी बेरियाँ छोड़ गया।" },
+      { "kind": "verse", "surah": 34, "ayah": 16, "note": "उन्होंने मुँह फेरा, तो हमने बाँध का सैलाब भेजा और उनके दो बाग़ों को कड़वे फल, झाऊ, और थोड़ी बेरी वाले दो बाग़ों से बदल दिया।" },
+      { "kind": "verse", "surah": 34, "ayah": 17, "note": "यूँ हमने उन्हें उनकी नाशुक्री का बदला दिया — और क्या हम नाशुक्रों के सिवा किसी को बदला देते हैं?" },
+      { "kind": "heading", "level": 2, "text": "क़िस्सों में बिखर गए" },
+      { "kind": "p", "text": "कभी उनके व्यापार मार्गों पर सुरक्षित बस्तियाँ इतनी पास थीं कि मुसाफ़िर दिन-रात उनके बीच बेखटके गुज़रते। पर वे असंतुष्ट हो गए, अपने ऊपर ज़ुल्म किया, और अल्लाह ने उन्हें पूरी तरह बिखेर दिया — एक बड़ी क़ौम को दूसरों को सुनाए जाने वाले महज़ क़िस्सों में बदलकर, हर सब्र और शुक्र करने वाले के लिए एक निशानी।" },
+      { "kind": "verse", "surah": 34, "ayah": 19, "note": "उन्होंने कहा, 'रब, हमारे सफ़रों की दूरी बढ़ा दे,' और अपने ऊपर ज़ुल्म किया। तो हमने उन्हें क़िस्से बना दिया और पूरी तरह बिखेर दिया — इसमें हर सब्र, शुक्र करने वाले के लिए निशानियाँ हैं।" },
+      { "kind": "list", "items": [
+        { "text": "नेमतें एक आज़माइश हैं: शुक्र उन्हें बनाए रखता है, नाशुक्री उनके छिन जाने को बुलाती है।" },
+        { "text": "सुरक्षा और आराम एक पल में खो सकते हैं जब क़ौम देने वाले को भूल जाए।" },
+        { "text": "बीती क़ौमों के खंडहर सब्र और शुक्र करने वालों के लिए चिंतन की निशानियाँ हैं।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "قومِ سبا عرب کے جنوب میں ایک زرخیز سرزمین میں رہتی تھی۔ اللہ نے اُن کے اپنے مسکن میں ایک صاف نشانی رکھی: باغوں کے دو بڑے قطعے، ایک دائیں اور ایک بائیں، ایک عظیم بند سے سیراب۔" },
+      { "kind": "verse", "surah": 34, "ayah": 15, "note": "سبا کے لیے اُن کے مسکن میں ایک نشانی تھی: دو باغ، دائیں اور بائیں۔ 'اپنے رب کا رزق کھاؤ اور اس کا شکر کرو — ایک اچھا شہر، اور ایک بخشنے والا رب۔'" },
+      { "kind": "p", "text": "حکم سادہ تھا: اس فراوانی سے لطف اٹھاؤ اور اُس کا شکر کرو جس نے دی۔ اُن کی سرزمین پاکیزہ اور خوشگوار تھی، اُن کا رب بخشنے والا۔ بس شکر مانگا گیا تھا۔" },
+      { "kind": "heading", "level": 2, "text": "بند کا ٹوٹنا" },
+      { "kind": "p", "text": "مگر انہوں نے شکر سے منہ پھیر لیا۔ تو اللہ نے اُن پر بند کا سیلاب (سیلِ عرم) چھوڑ دیا، جو اُن کے باغوں کو بہا لے گیا اور اُن کی جگہ صرف کڑوے پھل، جھاؤ، اور کچھ چھدری بیریاں چھوڑ گیا۔" },
+      { "kind": "verse", "surah": 34, "ayah": 16, "note": "انہوں نے منہ پھیرا، تو ہم نے بند کا سیلاب بھیجا اور اُن کے دو باغوں کو کڑوے پھل، جھاؤ، اور تھوڑی بیری والے دو باغوں سے بدل دیا۔" },
+      { "kind": "verse", "surah": 34, "ayah": 17, "note": "یوں ہم نے انہیں اُن کی ناشکری کا بدلہ دیا — اور کیا ہم ناشکروں کے سوا کسی کو بدلہ دیتے ہیں؟" },
+      { "kind": "heading", "level": 2, "text": "قصوں میں بکھر گئے" },
+      { "kind": "p", "text": "کبھی اُن کے تجارتی راستوں پر محفوظ بستیاں اتنی قریب تھیں کہ مسافر دن رات اُن کے درمیان بے خوف گزرتے۔ مگر وہ ناراض ہو گئے، اپنے اوپر ظلم کیا، اور اللہ نے انہیں پوری طرح بکھیر دیا — ایک بڑی قوم کو دوسروں کو سنائے جانے والے محض قصوں میں بدل کر، ہر صبر اور شکر کرنے والے کے لیے ایک نشانی۔" },
+      { "kind": "verse", "surah": 34, "ayah": 19, "note": "انہوں نے کہا، 'رب، ہمارے سفروں کی دوری بڑھا دے،' اور اپنے اوپر ظلم کیا۔ تو ہم نے انہیں قصے بنا دیا اور پوری طرح بکھیر دیا — اس میں ہر صابر، شاکر کے لیے نشانیاں ہیں۔" },
+      { "kind": "list", "items": [
+        { "text": "نعمتیں ایک آزمائش ہیں: شکر انہیں برقرار رکھتا ہے، ناشکری اُن کے چھن جانے کو دعوت دیتی ہے۔" },
+        { "text": "حفاظت اور آسائش ایک لمحے میں کھو سکتی ہے جب قوم دینے والے کو بھول جائے۔" },
+        { "text": "گزری قوموں کے کھنڈرات صبر اور شکر کرنے والوں کے لیے غور کی نشانیاں ہیں۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "34:15-19" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["story-queen-of-sheba", "prophet-sulayman", "concept-sabr", "story-owners-of-the-garden"]
+}

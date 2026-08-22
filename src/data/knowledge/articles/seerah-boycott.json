@@ -1,0 +1,64 @@
+{
+  "slug": "seerah-boycott",
+  "category": "seerah",
+  "featured": false,
+  "title": {
+    "en": "The Boycott of Banu Hashim",
+    "hi": "बनू हाशिम का बहिष्कार",
+    "ur": "بنو ہاشم کا بائیکاٹ"
+  },
+  "summary": {
+    "en": "Unable to stop the message of Islam, the Quraysh imposed a total social and economic boycott on the Prophet ﷺ and his clan, Banu Hashim. For about three years they were confined to a mountain valley, cut off from trade and marriage, enduring hunger and hardship until the unjust pact finally collapsed.",
+    "hi": "इस्लाम के संदेश को रोकने में नाकाम, क़ुरैश ने पैगंबर ﷺ और उनके क़बीले बनू हाशिम पर पूरा सामाजिक और आर्थिक बहिष्कार थोप दिया। लगभग तीन साल तक वे एक पहाड़ी घाटी में क़ैद रहे, व्यापार और विवाह से कटे हुए, भूख और कठिनाई सहते रहे, यहाँ तक कि वह अन्यायपूर्ण समझौता आख़िरकार टूट गया।",
+    "ur": "اسلام کے پیغام کو روکنے میں ناکام، قریش نے نبی ﷺ اور اُن کے قبیلے بنو ہاشم پر مکمل سماجی اور معاشی بائیکاٹ تھوپ دیا۔ تقریباً تین سال تک وہ ایک پہاڑی گھاٹی میں محصور رہے، تجارت اور شادی سے کٹے ہوئے، بھوک اور مشکل سہتے رہے، یہاں تک کہ وہ ظالمانہ معاہدہ آخرکار ٹوٹ گیا۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "As more people embraced Islam and the leaders of Quraysh failed to silence the Prophet ﷺ through mockery, bribery, and persecution, they turned to collective punishment. They drafted a document pledging that no one would trade with, marry into, or even sit with Banu Hashim and Banu al-Muttalib — the Prophet's clan — until they handed him over. The pact was hung inside the Ka'bah to give it weight." },
+      { "kind": "p", "text": "The Prophet ﷺ, his followers, and his relatives — believers and not-yet-believers alike out of family loyalty — withdrew to the valley of Abu Talib. For roughly three years they lived in siege: supplies were blocked, and the hunger grew so severe that they were driven to eat leaves. The cries of hungry children could be heard from the valley." },
+      { "kind": "heading", "level": 2, "text": "Patience under trial" },
+      { "kind": "p", "text": "Through those years the small community held firm. The Qur'an had already prepared the believers for exactly this kind of testing — that faith would be tried by loss of wealth and by harm from opponents, and that steadfastness was the path Allah loves." },
+      { "kind": "verse", "surah": 3, "ayah": 186, "note": "'You will surely be tested in your wealth and your lives, and you will hear much abuse from those given the Scripture before you and from the polytheists. But if you are patient and fear Allah — that is of the matters of determination.'" },
+      { "kind": "heading", "level": 2, "text": "The pact destroyed" },
+      { "kind": "p", "text": "In time, several fair-minded men of Quraysh grew ashamed of the cruelty inflicted on their own kin and moved to annul the boycott. When the document was brought out, it was found that termites had eaten it away, leaving only the words bearing Allah's name — a sign that broke the resolve of the boycotters. The pact was torn up and Banu Hashim returned to Makkah." },
+      { "kind": "list", "items": [
+        { "text": "Truth is often met first with pressure meant to starve it into silence." },
+        { "text": "Faith is tested through loss of comfort, wealth, and social standing." },
+        { "text": "Injustice carries the seeds of its own collapse; Allah's plan outlasts the oppressor's." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "जैसे-जैसे अधिक लोग इस्लाम में दाख़िल हुए और क़ुरैश के सरदार मज़ाक़, रिश्वत और उत्पीड़न से पैगंबर ﷺ को चुप न करा सके, वे सामूहिक सज़ा की ओर मुड़े। उन्होंने एक दस्तावेज़ लिखा, यह वादा करते हुए कि कोई भी बनू हाशिम और बनू अल-मुत्तलिब — पैगंबर के क़बीले — के साथ न व्यापार करेगा, न विवाह, न बैठेगा तक, जब तक वे उन्हें सौंप न दें। वज़न देने के लिए वह समझौता काबा के भीतर टाँग दिया गया।" },
+      { "kind": "p", "text": "पैगंबर ﷺ, उनके अनुयायी, और उनके रिश्तेदार — ईमान वाले और परिवार की वफ़ादारी में अभी ईमान न लाए दोनों — अबू तालिब की घाटी में सिमट गए। लगभग तीन साल तक वे घेराबंदी में जिए: रसद रोक दी गई, और भूख इतनी बढ़ गई कि वे पत्ते खाने पर मजबूर हुए। भूखे बच्चों की चीख़ें घाटी से सुनी जा सकती थीं।" },
+      { "kind": "heading", "level": 2, "text": "आज़माइश में सब्र" },
+      { "kind": "p", "text": "उन वर्षों में वह छोटा समुदाय दृढ़ रहा। क़ुरआन ने ईमान वालों को ठीक इसी तरह की आज़माइश के लिए पहले ही तैयार कर दिया था — कि ईमान माल के नुक़सान और विरोधियों की तकलीफ़ से परखा जाएगा, और दृढ़ता वह राह है जिसे अल्लाह पसंद करता है।" },
+      { "kind": "verse", "surah": 3, "ayah": 186, "note": "'तुम अपने माल और अपनी जानों में ज़रूर आज़माए जाओगे, और तुमसे पहले किताब वालों और मुशरिकों से बहुत सी दुख देने वाली बातें सुनोगे। पर अगर तुम सब्र करो और तक़वा रखो — तो यह हिम्मत के कामों में से है।'" },
+      { "kind": "heading", "level": 2, "text": "समझौते का नाश" },
+      { "kind": "p", "text": "समय पाकर क़ुरैश के कई इंसाफ़-पसंद लोग अपने ही रिश्तेदारों पर ढाए गए ज़ुल्म से शर्मिंदा हुए और बहिष्कार को रद्द करने चले। जब वह दस्तावेज़ निकाला गया, पाया गया कि दीमक ने उसे खा लिया था, केवल अल्लाह का नाम लिए शब्द बाक़ी थे — एक निशानी जिसने बहिष्कार करने वालों का इरादा तोड़ दिया। समझौता फाड़ दिया गया और बनू हाशिम मक्का लौट आए।" },
+      { "kind": "list", "items": [
+        { "text": "सच्चाई का सामना अक्सर पहले उस दबाव से होता है जो उसे भूखा रख कर चुप कराना चाहता है।" },
+        { "text": "ईमान आराम, माल और सामाजिक हैसियत के नुक़सान से परखा जाता है।" },
+        { "text": "अन्याय अपने ही नाश के बीज लिए होता है; अल्लाह की योजना ज़ालिम से आगे तक रहती है।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "جیسے جیسے زیادہ لوگ اسلام میں داخل ہوئے اور قریش کے سردار مذاق، رشوت اور ظلم سے نبی ﷺ کو خاموش نہ کرا سکے، وہ اجتماعی سزا کی طرف مڑے۔ اُنہوں نے ایک دستاویز لکھی، یہ عہد کرتے ہوئے کہ کوئی بھی بنو ہاشم اور بنو المطلب — نبی کے قبیلے — کے ساتھ نہ تجارت کرے گا، نہ شادی، نہ بیٹھے گا تک، جب تک وہ اُنہیں سونپ نہ دیں۔ وزن دینے کے لیے وہ معاہدہ کعبہ کے اندر لٹکا دیا گیا۔" },
+      { "kind": "p", "text": "نبی ﷺ، اُن کے پیروکار، اور اُن کے رشتہ دار — مومن اور خاندانی وفاداری میں ابھی ایمان نہ لائے دونوں — ابو طالب کی گھاٹی میں سمٹ گئے۔ تقریباً تین سال تک وہ محاصرے میں جیے: رسد روک دی گئی، اور بھوک اتنی بڑھ گئی کہ وہ پتے کھانے پر مجبور ہوئے۔ بھوکے بچوں کی چیخیں گھاٹی سے سنی جا سکتی تھیں۔" },
+      { "kind": "heading", "level": 2, "text": "آزمائش میں صبر" },
+      { "kind": "p", "text": "اُن برسوں میں وہ چھوٹی جماعت ثابت قدم رہی۔ قرآن نے مومنوں کو بالکل اِسی طرح کی آزمائش کے لیے پہلے ہی تیار کر دیا تھا — کہ ایمان مال کے نقصان اور مخالفوں کی تکلیف سے پرکھا جائے گا، اور ثابت قدمی وہ راہ ہے جسے اللہ پسند کرتا ہے۔" },
+      { "kind": "verse", "surah": 3, "ayah": 186, "note": "'تم اپنے مال اور اپنی جانوں میں ضرور آزمائے جاؤ گے، اور تم سے پہلے کتاب والوں اور مشرکوں سے بہت سی دکھ دینے والی باتیں سنو گے۔ مگر اگر تم صبر کرو اور تقویٰ رکھو — تو یہ ہمت کے کاموں میں سے ہے۔'" },
+      { "kind": "heading", "level": 2, "text": "معاہدے کی تباہی" },
+      { "kind": "p", "text": "وقت پا کر قریش کے کئی انصاف پسند لوگ اپنے ہی رشتہ داروں پر ڈھائے گئے ظلم سے شرمندہ ہوئے اور بائیکاٹ کو ختم کرنے چلے۔ جب وہ دستاویز نکالی گئی، پایا گیا کہ دیمک نے اُسے کھا لیا تھا، صرف اللہ کا نام لیے الفاظ باقی تھے — ایک نشانی جس نے بائیکاٹ کرنے والوں کا ارادہ توڑ دیا۔ معاہدہ پھاڑ دیا گیا اور بنو ہاشم مکہ لوٹ آئے۔" },
+      { "kind": "list", "items": [
+        { "text": "سچائی کا سامنا اکثر پہلے اُس دباؤ سے ہوتا ہے جو اُسے بھوکا رکھ کر خاموش کرانا چاہتا ہے۔" },
+        { "text": "ایمان آرام، مال اور سماجی حیثیت کے نقصان سے پرکھا جاتا ہے۔" },
+        { "text": "ناانصافی اپنے ہی نقصان کے بیج لیے ہوتی ہے؛ اللہ کا منصوبہ ظالم سے آگے تک رہتا ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "3:186" },
+    { "type": "seerah" }
+  ],
+  "relatedSlugs": ["seerah-year-of-sorrow", "seerah-hijrah", "concept-sabr"]
+}
