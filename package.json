@@ -15,6 +15,7 @@
     "fetch:hadith": "tsx scripts/fetch-hadith-data.ts",
     "fetch:youtube": "tsx scripts/fetch-youtube-data.ts",
     "build:pagefind": "node scripts/build-pagefind-index.mjs",
+    "validate:knowledge": "node scripts/validate-knowledge.mjs",
     "fetch:all": "npm run fetch:quran && npm run fetch:hadith && npm run fetch:youtube && npm run build:pagefind",
     "app:build": "node scripts/build-apps.mjs",
     "app:desktop": "node scripts/build-apps.mjs desktop",

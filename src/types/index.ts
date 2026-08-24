@@ -13,6 +13,7 @@ export type {
   ListBlock,
   VerseBlock,
   HadithBlock,
+  ArabicBlock,
   KnowledgeArticle,
   KnowledgeArticleMeta,
   HydratedBlock,

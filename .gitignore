@@ -59,7 +59,7 @@ next-env.d.ts
 .superpowers/sdd/progress.md
 install.ps1
 .superpowers/sdd/progress.md
-.superpowers/
+.superpowers/sdd/
 test*
 !src/components/ui/testimonials-card.tsx
 .opencode*
@@ -72,3 +72,9 @@ skills-lock.json
 .agents/skills/create-readme/SKILL.md
 .agents/
 .claude/
+.superpowers/sdd/
+
+.superpowers/sdd/task-1-brief.md
+.superpowers/sdd/task-1-report.md
+.superpowers/sdd/task-2-brief.md
+.superpowers/sdd/task-2-report.md

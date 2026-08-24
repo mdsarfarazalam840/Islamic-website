@@ -1,0 +1,87 @@
+{
+  "slug": "creed-kalima-shahadah",
+  "category": "creed",
+  "order": 2,
+  "title": {
+    "en": "Second Kalima — Shahādah (The Word of Witnessing)",
+    "hi": "दूसरा कलिमा — शहादत (गवाही का कलिमा)",
+    "ur": "دوسرا کلمہ — شہادت (گواہی کا کلمہ)"
+  },
+  "summary": {
+    "en": "Ash-hadu an lā ilāha illa'llāh… — the same truth as the first kalima, but now sworn in the first person, with Allah described as one without partner and Muhammad ﷺ named as His servant before he is named His messenger.",
+    "hi": "अश-हदु अन ला इलाहा इल्लल्लाह… — पहले कलिमे जैसी ही सच्चाई, मगर अब पहले पुरुष में गवाही के रूप में, जिसमें अल्लाह को बेशरीक बताया गया है और मुहम्मद ﷺ को रसूल कहने से पहले उसका बंदा कहा गया है।",
+    "ur": "اَشْہَدُ اَنْ لَا اِلٰہَ اِلَّا اللہ… — پہلے کلمے جیسی ہی حقیقت، مگر اب متکلم کی زبان سے حلفی گواہی کے طور پر، جس میں اللہ کو بے شریک بتایا گیا ہے اور محمد ﷺ کو رسول کہنے سے پہلے اُس کا بندہ کہا گیا ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "arabic", "text": "أَشْهَدُ أَنْ لَا إِلٰهَ إِلَّا اللهُ وَحْدَهُ لَا شَرِيكَ لَهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ", "transliteration": "Ash-hadu an lā ilāha illa'llāhu waḥdahū lā sharīka lahū, wa ash-hadu anna Muḥammadan ʿabduhū wa rasūluhū", "translation": "I bear witness that there is no god but Allah, alone, having no partner; and I bear witness that Muhammad is His servant and His messenger.", "label": "Kalima Shahādah" },
+      { "kind": "p", "text": "The first kalima states a fact about reality. The second turns that fact into personal testimony: ash-hadu, \"I bear witness.\" It is the sentence a person says on entering Islam, and the sentence a Muslim repeats in every prayer." },
+      { "kind": "heading", "level": 2, "text": "Tafsīr: what \"I bear witness\" commits you to" },
+      { "kind": "p", "text": "Shahādah is a courtroom word. A witness in Arabic usage is not someone offering an opinion; a witness is someone who saw, who knows, and who will be held to their statement. Saying ash-hadu therefore claims certainty and accepts liability. It is far heavier than \"I think\" or \"I was raised to believe.\"" },
+      { "kind": "p", "text": "Two clauses are added to the first kalima's wording. Waḥdahū — \"alone\" — closes the door on any hidden plurality. Lā sharīka lahū — \"having no partner\" — closes it a second time, explicitly, so nothing may be smuggled alongside Him: no consort, no offspring, no intercessor with independent power, no second authority in creation or command." },
+      { "kind": "verse", "surah": 112, "ayah": 1, "note": "Say: He is Allah, the One." },
+      { "kind": "verse", "surah": 112, "ayah": 4, "note": "And there is nothing comparable to Him — the Qur'anic ground for lā sharīka lahū." },
+      { "kind": "heading", "level": 2, "text": "ʿAbduhū before rasūluhū" },
+      { "kind": "p", "text": "The order of the second half is the heart of the kalima's balance. Muhammad ﷺ is called ʿabduhū — His servant — before rasūluhū — His messenger. Servanthood comes first. The most honoured human being in creation is honoured precisely as a servant of Allah, not as a partner in His divinity." },
+      { "kind": "p", "text": "This single ordering guards both errors at once: it forbids belittling the Prophet ﷺ, since he is the Messenger who must be obeyed; and it forbids raising him beyond his station, since he remains a servant who worshipped, needed, and depended on Allah exactly as every servant does." },
+      { "kind": "verse", "surah": 3, "ayah": 64, "note": "The call to worship none but Allah and take no lords besides Him — the same boundary the shahādah draws." },
+      { "kind": "heading", "level": 2, "text": "Where it is said" },
+      { "kind": "list", "items": [
+        { "text": "On entering Islam — this is the wording by which a person becomes Muslim." },
+        { "text": "In the tashahhud of every prayer, sitting after each two units." },
+        { "text": "In the azaan and the iqamah, called out over the rooftops five times a day." },
+        { "text": "As the recommended supplication after completing wuḍūʾ." }
+      ] },
+      { "kind": "hadith", "collection": "tirmidhi", "hadith": 55, "note": "The Prophet ﷺ taught this testimony as the words to say after performing wuḍūʾ well." }
+    ],
+    "hi": [
+      { "kind": "arabic", "text": "أَشْهَدُ أَنْ لَا إِلٰهَ إِلَّا اللهُ وَحْدَهُ لَا شَرِيكَ لَهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ", "transliteration": "Ash-hadu an lā ilāha illa'llāhu waḥdahū lā sharīka lahū, wa ash-hadu anna Muḥammadan ʿabduhū wa rasūluhū", "translation": "मैं गवाही देता हूँ कि अल्लाह के सिवा कोई माबूद नहीं, वह अकेला है, उसका कोई शरीक नहीं; और मैं गवाही देता हूँ कि मुहम्मद उसके बंदे और उसके रसूल हैं।", "label": "कलिमा शहादत" },
+      { "kind": "p", "text": "पहला कलिमा हक़ीक़त के बारे में एक तथ्य बताता है। दूसरा उस तथ्य को ज़ाती गवाही में बदल देता है: अश-हदु, \"मैं गवाही देता हूँ।\" यही वह वाक्य है जो इंसान इस्लाम में दाख़िल होते वक़्त कहता है, और यही वह वाक्य है जो मुसलमान हर नमाज़ में दोहराता है।" },
+      { "kind": "heading", "level": 2, "text": "तफ़्सीर: \"मैं गवाही देता हूँ\" किस बात का पाबंद बनाता है" },
+      { "kind": "p", "text": "शहादत अदालत का लफ़्ज़ है। अरबी इस्तेमाल में गवाह वह नहीं जो राय पेश कर रहा हो; गवाह वह है जिसने देखा, जो जानता है, और जिसे उसके बयान पर पकड़ा जाएगा। इसलिए अश-हदु कहना यक़ीन का दावा है और ज़िम्मेदारी क़बूल करना है। यह \"मेरा ख़याल है\" या \"मुझे ऐसा सिखाया गया\" से कहीं भारी है।" },
+      { "kind": "p", "text": "पहले कलिमे के अल्फ़ाज़ में दो जुमले बढ़ाए गए हैं। वहदहू — \"अकेला\" — किसी छिपी कसरत का दरवाज़ा बंद करता है। ला शरीका लहू — \"उसका कोई शरीक नहीं\" — उसे दूसरी बार, साफ़ लफ़्ज़ों में बंद करता है, ताकि उसके साथ कुछ भी न घुसाया जा सके: न बीवी, न औलाद, न कोई ख़ुदमुख़्तार सिफ़ारिशी, न पैदा करने या हुक्म देने में कोई दूसरा इख़्तियार।" },
+      { "kind": "verse", "surah": 112, "ayah": 1, "note": "कह दो: वह अल्लाह है, एक है।" },
+      { "kind": "verse", "surah": 112, "ayah": 4, "note": "और कोई उसके बराबर नहीं — ला शरीका लहू की क़ुरआनी बुनियाद।" },
+      { "kind": "heading", "level": 2, "text": "रसूलुहू से पहले अब्दुहू" },
+      { "kind": "p", "text": "दूसरे हिस्से का क्रम इस कलिमे के संतुलन का दिल है। मुहम्मद ﷺ को अब्दुहू — उसका बंदा — कहा गया है, रसूलुहू — उसका रसूल — कहने से पहले। बंदगी पहले आती है। सारी मख़लूक़ में सबसे मुअज़्ज़ज़ इंसान की इज़्ज़त ठीक इसी हैसियत से है कि वह अल्लाह का बंदा है, न कि उसकी ख़ुदाई में शरीक।" },
+      { "kind": "p", "text": "यही एक तरतीब दोनों ग़लतियों से एक साथ बचाती है: यह नबी ﷺ को कमतर समझने से रोकती है, क्योंकि वह रसूल हैं जिनकी इताअत लाज़िम है; और यह उन्हें उनके मक़ाम से ऊपर उठाने से रोकती है, क्योंकि वह बंदे ही रहते हैं जिन्होंने इबादत की, जिन्हें ज़रूरत पड़ी, और जो अल्लाह पर उसी तरह मुनहसिर रहे जैसे हर बंदा।" },
+      { "kind": "verse", "surah": 3, "ayah": 64, "note": "अल्लाह के सिवा किसी की इबादत न करने और उसके सिवा कोई रब न बनाने की दावत — वही हद जो शहादत खींचती है।" },
+      { "kind": "heading", "level": 2, "text": "यह कहाँ कहा जाता है" },
+      { "kind": "list", "items": [
+        { "text": "इस्लाम में दाख़िल होते वक़्त — इन्हीं अल्फ़ाज़ से इंसान मुसलमान होता है।" },
+        { "text": "हर नमाज़ के तशह्हुद में, हर दो रकअत के बाद बैठकर।" },
+        { "text": "अज़ान और इक़ामत में, दिन में पाँच बार छतों पर पुकारा जाता है।" },
+        { "text": "वुज़ू पूरा करने के बाद पढ़ी जाने वाली मुस्तहब दुआ के तौर पर।" }
+      ] },
+      { "kind": "hadith", "collection": "tirmidhi", "hadith": 55, "note": "नबी ﷺ ने यही गवाही वुज़ू अच्छी तरह करने के बाद पढ़ने के लिए सिखाई।" }
+    ],
+    "ur": [
+      { "kind": "arabic", "text": "أَشْهَدُ أَنْ لَا إِلٰهَ إِلَّا اللهُ وَحْدَهُ لَا شَرِيكَ لَهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ", "transliteration": "Ash-hadu an lā ilāha illa'llāhu waḥdahū lā sharīka lahū, wa ash-hadu anna Muḥammadan ʿabduhū wa rasūluhū", "translation": "میں گواہی دیتا ہوں کہ اللہ کے سوا کوئی معبود نہیں، وہ اکیلا ہے، اُس کا کوئی شریک نہیں؛ اور میں گواہی دیتا ہوں کہ محمد اُس کے بندے اور اُس کے رسول ہیں۔", "label": "کلمہ شہادت" },
+      { "kind": "p", "text": "پہلا کلمہ حقیقت کے بارے میں ایک بات بتاتا ہے۔ دوسرا اُس بات کو ذاتی گواہی میں بدل دیتا ہے: اَشْہَدُ، \"میں گواہی دیتا ہوں۔\" یہی وہ جملہ ہے جو انسان اسلام میں داخل ہوتے وقت کہتا ہے، اور یہی وہ جملہ ہے جو مسلمان ہر نماز میں دہراتا ہے۔" },
+      { "kind": "heading", "level": 2, "text": "تفسیر: \"میں گواہی دیتا ہوں\" کس بات کا پابند بناتا ہے" },
+      { "kind": "p", "text": "شہادت عدالت کا لفظ ہے۔ عربی استعمال میں گواہ وہ نہیں جو رائے پیش کر رہا ہو؛ گواہ وہ ہے جس نے دیکھا، جو جانتا ہے، اور جسے اُس کے بیان پر پکڑا جائے گا۔ چنانچہ اَشْہَدُ کہنا یقین کا دعویٰ ہے اور ذمہ داری قبول کرنا ہے۔ یہ \"میرا خیال ہے\" یا \"مجھے ایسا سکھایا گیا\" سے کہیں بھاری ہے۔" },
+      { "kind": "p", "text": "پہلے کلمے کے الفاظ میں دو جملے بڑھائے گئے ہیں۔ وَحْدَہُ — \"اکیلا\" — کسی پوشیدہ کثرت کا دروازہ بند کرتا ہے۔ لَا شَرِيكَ لَهُ — \"اُس کا کوئی شریک نہیں\" — اُسے دوسری بار، صاف الفاظ میں بند کرتا ہے، تاکہ اُس کے ساتھ کچھ بھی داخل نہ کیا جا سکے: نہ بیوی، نہ اولاد، نہ کوئی خود مختار سفارشی، نہ پیدا کرنے یا حکم دینے میں کوئی دوسرا اختیار۔" },
+      { "kind": "verse", "surah": 112, "ayah": 1, "note": "کہہ دو: وہ اللہ ہے، ایک ہے۔" },
+      { "kind": "verse", "surah": 112, "ayah": 4, "note": "اور کوئی اُس کے برابر نہیں — لَا شَرِيكَ لَهُ کی قرآنی بنیاد۔" },
+      { "kind": "heading", "level": 2, "text": "رَسُولُهُ سے پہلے عَبْدُهُ" },
+      { "kind": "p", "text": "دوسرے حصے کی ترتیب اِس کلمے کے توازن کا دل ہے۔ محمد ﷺ کو عَبْدُهُ — اُس کا بندہ — کہا گیا ہے، رَسُولُهُ — اُس کا رسول — کہنے سے پہلے۔ بندگی پہلے آتی ہے۔ ساری مخلوق میں سب سے معزز انسان کی عزت بالکل اِسی حیثیت سے ہے کہ وہ اللہ کا بندہ ہے، نہ کہ اُس کی خدائی میں شریک۔" },
+      { "kind": "p", "text": "یہی ایک ترتیب دونوں غلطیوں سے بیک وقت بچاتی ہے: یہ نبی ﷺ کو کم تر سمجھنے سے روکتی ہے، کیونکہ وہ رسول ہیں جن کی اطاعت لازم ہے؛ اور یہ اُنہیں اُن کے مقام سے اوپر اٹھانے سے روکتی ہے، کیونکہ وہ بندے ہی رہتے ہیں جنہوں نے عبادت کی، جنہیں ضرورت پیش آئی، اور جو اللہ پر اُسی طرح منحصر رہے جیسے ہر بندہ۔" },
+      { "kind": "verse", "surah": 3, "ayah": 64, "note": "اللہ کے سوا کسی کی عبادت نہ کرنے اور اُس کے سوا کوئی رب نہ بنانے کی دعوت — وہی حد جو شہادت کھینچتی ہے۔" },
+      { "kind": "heading", "level": 2, "text": "یہ کہاں کہا جاتا ہے" },
+      { "kind": "list", "items": [
+        { "text": "اسلام میں داخل ہوتے وقت — اِنہی الفاظ سے انسان مسلمان ہوتا ہے۔" },
+        { "text": "ہر نماز کے تشہد میں، ہر دو رکعت کے بعد بیٹھ کر۔" },
+        { "text": "اذان اور اقامت میں، دن میں پانچ بار چھتوں پر پکارا جاتا ہے۔" },
+        { "text": "وضو مکمل کرنے کے بعد پڑھی جانے والی مستحب دعا کے طور پر۔" }
+      ] },
+      { "kind": "hadith", "collection": "tirmidhi", "hadith": 55, "note": "نبی ﷺ نے یہی گواہی وضو اچھی طرح کرنے کے بعد پڑھنے کے لیے سکھائی۔" }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "112:1-4" },
+    { "type": "quran", "ref": "3:64" },
+    { "type": "hadith", "collection": "tirmidhi", "ref": "55", "grade": "sahih" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["creed-kalima-tayyibah", "creed-six-kalimas", "basics-shahada"]
+}

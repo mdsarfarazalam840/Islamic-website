@@ -1,0 +1,100 @@
+{
+  "slug": "creed-six-kalimas",
+  "category": "creed",
+  "order": 0,
+  "featured": true,
+  "title": {
+    "en": "The Six Kalimas",
+    "hi": "छह कलिमे",
+    "ur": "چھ کلمے"
+  },
+  "summary": {
+    "en": "Six short Arabic declarations — Tayyibah, Shahādah, Tamjīd, Tawḥīd, Astaghfār, and Radd-e-Kufr — traditionally taught first to every Muslim child. Together they carry the whole creed in miniature: who Allah is, who His Messenger is, how He is glorified, how forgiveness is sought, and what must be renounced.",
+    "hi": "छह छोटे अरबी कलिमे — तय्यिबा, शहादत, तमजीद, तौहीद, इस्तिग़फ़ार, और रद्द-ए-कुफ़्र — जो परंपरागत रूप से हर मुसलमान बच्चे को सबसे पहले सिखाए जाते हैं। मिलकर ये पूरे अक़ीदे को संक्षेप में समेटते हैं: अल्लाह कौन है, उसका रसूल कौन है, उसकी तस्बीह कैसे की जाए, माफ़ी कैसे माँगी जाए, और किस चीज़ से बरी होना ज़रूरी है।",
+    "ur": "چھ مختصر عربی کلمے — طیبہ، شہادت، تمجید، توحید، استغفار، اور ردِ کفر — جو روایتی طور پر ہر مسلمان بچے کو سب سے پہلے سکھائے جاتے ہیں۔ یہ مل کر پورے عقیدے کو مختصراً سمیٹتے ہیں: اللہ کون ہے، اُس کا رسول کون ہے، اُس کی تسبیح کیسے کی جائے، مغفرت کیسے مانگی جائے، اور کس چیز سے براءت لازم ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Across the Indian subcontinent and much of the Muslim world, six short Arabic formulas are memorised before anything else. They are not a sixth pillar or a separate obligation — they are a teaching device, a compact syllabus that puts the essentials of belief on the tongue of a child before the mind is old enough to argue them out." },
+      { "kind": "p", "text": "Every phrase in them is drawn from the Qur'an and the Sunnah. What the scholars of the subcontinent did was arrange those phrases into six steps that move in a deliberate order: first affirm, then testify, then glorify, then declare Allah's oneness in detail, then seek forgiveness, and finally renounce everything that contradicts the first step." },
+      { "kind": "heading", "level": 2, "text": "The six, in order" },
+      { "kind": "list", "items": [
+        { "text": "First — Kalima Ṭayyibah, \"the pure word\": there is no god but Allah, Muhammad is the Messenger of Allah. The bedrock." },
+        { "text": "Second — Kalima Shahādah, \"the word of witnessing\": the same truth spoken as sworn testimony, in the first person." },
+        { "text": "Third — Kalima Tamjīd, \"the word of glorification\": Allah is glorified, praised, declared one and greatest; all power belongs to Him alone." },
+        { "text": "Fourth — Kalima Tawḥīd, \"the word of oneness\": Allah's oneness spelled out — sovereignty, praise, life and death, permanence, majesty, and power are His." },
+        { "text": "Fifth — Kalima Astaghfār, \"the word of seeking forgiveness\": repentance for sins known and unknown, deliberate and accidental, hidden and open." },
+        { "text": "Sixth — Kalima Radd-e-Kufr, \"the word of rejecting disbelief\": explicit disavowal of shirk, lying, backbiting, innovation, and every sin, closing with the first kalima again." }
+      ] },
+      { "kind": "heading", "level": 2, "text": "Why start here" },
+      { "kind": "p", "text": "The Prophet ﷺ named the four phrases that make up the third kalima as the words dearest to Allah, and he pressed the first kalima on his dying uncle as the one sentence that could have saved him. These are not children's rhymes; they are the load-bearing sentences of the religion." },
+      { "kind": "hadith", "collection": "muslim", "hadith": 5601, "note": "The four phrases of Kalima Tamjīd, named by the Prophet ﷺ as the dearest words to Allah." },
+      { "kind": "verse", "surah": 47, "ayah": 19, "note": "The Qur'an itself pairs the two movements of the kalimas: know that there is no god but Allah — and ask forgiveness." },
+      { "kind": "p", "text": "Note that the six are a curriculum, not a revealed list. A Muslim who has never heard the numbering but believes and lives by what the phrases say has lost nothing. Their value is that they teach the creed in a form that can be carried in the memory for a lifetime." },
+      { "kind": "heading", "level": 2, "text": "What comes after the six" },
+      { "kind": "p", "text": "The same syllabus continues past the kalimas with three more pieces, and they are taught in this order:" },
+      { "kind": "list", "items": [
+        { "text": "Imaan-e-Mujmal — faith in brief: belief in Allah as He is, with His names and attributes, and acceptance of every ruling He gave." },
+        { "text": "Imaan-e-Mufassal — faith in detail: the same belief itemised, from the angels and the books to qadar and the resurrection." },
+        { "text": "The azaan — the creed called out loud five times a day, with the iqāmah, the listener's response, and the dua that follows it." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "भारतीय उपमहाद्वीप और मुस्लिम जगत के बड़े हिस्से में, छह छोटे अरबी कलिमे सबसे पहले याद कराए जाते हैं। ये कोई छठा स्तंभ या अलग फ़र्ज़ नहीं हैं — ये सिखाने का एक तरीक़ा हैं, एक संक्षिप्त पाठ्यक्रम जो ईमान की बुनियादी बातें बच्चे की ज़ुबान पर उस उम्र से पहले ही रख देता है जब वह उन पर बहस करने लायक़ हो।" },
+      { "kind": "p", "text": "इनका हर वाक्यांश क़ुरआन और सुन्नत से लिया गया है। उपमहाद्वीप के उलमा ने जो किया वह यह था कि उन वाक्यांशों को छह चरणों में एक सोचे-समझे क्रम से सजा दिया: पहले इक़रार, फिर गवाही, फिर तस्बीह, फिर अल्लाह की वहदानियत का विस्तार, फिर माफ़ी की तलब, और अंत में उस हर चीज़ से बराअत जो पहले चरण के विपरीत है।" },
+      { "kind": "heading", "level": 2, "text": "छहों, क्रम से" },
+      { "kind": "list", "items": [
+        { "text": "पहला — कलिमा तय्यिबा, \"पाक कलिमा\": अल्लाह के सिवा कोई माबूद नहीं, मुहम्मद अल्लाह के रसूल हैं। बुनियाद।" },
+        { "text": "दूसरा — कलिमा शहादत, \"गवाही का कलिमा\": वही सच्चाई, शपथपूर्ण गवाही के रूप में, पहले पुरुष में।" },
+        { "text": "तीसरा — कलिमा तमजीद, \"बड़ाई का कलिमा\": अल्लाह की तस्बीह, हम्द, वहदानियत और बड़ाई; सारी क़ुव्वत केवल उसी की है।" },
+        { "text": "चौथा — कलिमा तौहीद, \"वहदानियत का कलिमा\": अल्लाह की वहदानियत विस्तार से — बादशाही, हम्द, जीवन और मृत्यु, स्थायित्व, जलाल और क़ुदरत सब उसी की हैं।" },
+        { "text": "पाँचवाँ — कलिमा इस्तिग़फ़ार, \"माफ़ी माँगने का कलिमा\": जाने-अनजाने, जानबूझकर या भूल से, छिपे या खुले हर गुनाह से तौबा।" },
+        { "text": "छठा — कलिमा रद्द-ए-कुफ़्र, \"कुफ़्र को ठुकराने का कलिमा\": शिर्क, झूठ, ग़ीबत, बिदअत और हर गुनाह से खुली बराअत, और अंत में फिर पहला कलिमा।" }
+      ] },
+      { "kind": "heading", "level": 2, "text": "यहीं से शुरुआत क्यों" },
+      { "kind": "p", "text": "नबी ﷺ ने उन चार वाक्यांशों को, जिनसे तीसरा कलिमा बना है, अल्लाह के निकट सबसे प्रिय शब्द कहा; और अपने मरणासन्न चाचा पर पहला कलिमा इस तरह ज़ोर दिया जैसे वही एक वाक्य उन्हें बचा सकता था। ये बच्चों की तुकबंदी नहीं हैं; ये दीन की भार उठाने वाली बुनियादी पंक्तियाँ हैं।" },
+      { "kind": "hadith", "collection": "muslim", "hadith": 5601, "note": "कलिमा तमजीद के चारों वाक्यांश, जिन्हें नबी ﷺ ने अल्लाह के निकट सबसे प्रिय शब्द बताया।" },
+      { "kind": "verse", "surah": 47, "ayah": 19, "note": "क़ुरआन स्वयं कलिमों की दोनों गतियों को जोड़ता है: जान लो कि अल्लाह के सिवा कोई माबूद नहीं — और माफ़ी माँगो।" },
+      { "kind": "p", "text": "ध्यान रहे कि ये छह एक पाठ्यक्रम हैं, कोई नाज़िल की गई सूची नहीं। जिस मुसलमान ने यह गिनती कभी सुनी ही नहीं, मगर वह इन वाक्यों के मानी पर ईमान रखता और उन्हीं पर जीता है, उसका कुछ नहीं गया। इनका मूल्य यह है कि ये अक़ीदे को ऐसी शक्ल में सिखाते हैं जो उम्र भर याद में रह सकती है।" },
+      { "kind": "heading", "level": 2, "text": "छहों के बाद क्या" },
+      { "kind": "p", "text": "यही पाठ्यक्रम कलिमों के बाद तीन और चीज़ों तक जाता है, और इसी तरतीब से सिखाई जाती हैं:" },
+      { "kind": "list", "items": [
+        { "text": "ईमान-ए-मुजमल — ईमान का संक्षिप्त बयान: अल्लाह पर वैसा ईमान जैसा वह है, उसके नामों और सिफ़ात के साथ, और उसके हर हुक्म को क़ुबूल करना।" },
+        { "text": "ईमान-ए-मुफ़स्सल — ईमान का तफ़सीली बयान: वही ईमान गिनकर — फ़रिश्तों और किताबों से लेकर तक़दीर और दोबारा उठाए जाने तक।" },
+        { "text": "अज़ान — वही अक़ीदा दिन में पाँच बार बुलंद आवाज़ में, इक़ामत, सुनने वाले के जवाब और उसके बाद की दुआ के साथ।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "برصغیر اور عالمِ اسلام کے بڑے حصے میں چھ مختصر عربی کلمے سب سے پہلے یاد کرائے جاتے ہیں۔ یہ کوئی چھٹا رکن یا الگ فرض نہیں — یہ تعلیم کا ایک طریقہ ہیں، ایک مختصر نصاب جو ایمان کی بنیادی باتیں بچے کی زبان پر اُس عمر سے پہلے ہی رکھ دیتا ہے جب وہ اُن پر بحث کے قابل ہو۔" },
+      { "kind": "p", "text": "اِن کا ہر جملہ قرآن و سنت سے لیا گیا ہے۔ برصغیر کے علما نے یہ کیا کہ اُن جملوں کو چھ مراحل میں ایک سوچے سمجھے ترتیب سے سجا دیا: پہلے اقرار، پھر گواہی، پھر تسبیح، پھر اللہ کی وحدانیت کی تفصیل، پھر مغفرت کی طلب، اور آخر میں ہر اُس چیز سے براءت جو پہلے مرحلے کے خلاف ہے۔" },
+      { "kind": "heading", "level": 2, "text": "چھ کلمے، بالترتیب" },
+      { "kind": "list", "items": [
+        { "text": "پہلا — کلمہ طیبہ، \"پاک کلمہ\": اللہ کے سوا کوئی معبود نہیں، محمد اللہ کے رسول ہیں۔ بنیاد۔" },
+        { "text": "دوسرا — کلمہ شہادت، \"گواہی کا کلمہ\": وہی حقیقت، حلفی گواہی کی صورت میں، متکلم کی زبان سے۔" },
+        { "text": "تیسرا — کلمہ تمجید، \"بڑائی کا کلمہ\": اللہ کی تسبیح، حمد، وحدانیت اور کبریائی؛ ساری قوت اُسی کی ہے۔" },
+        { "text": "چوتھا — کلمہ توحید، \"وحدانیت کا کلمہ\": اللہ کی وحدانیت تفصیل سے — بادشاہی، حمد، زندگی و موت، بقا، جلال اور قدرت سب اُسی کے ہیں۔" },
+        { "text": "پانچواں — کلمہ استغفار، \"مغفرت طلب کرنے کا کلمہ\": معلوم و نامعلوم، جان بوجھ کر یا بھول سے، پوشیدہ یا کھلے ہر گناہ سے توبہ۔" },
+        { "text": "چھٹا — کلمہ ردِ کفر، \"کفر کو رد کرنے کا کلمہ\": شرک، جھوٹ، غیبت، بدعت اور ہر گناہ سے کھلی براءت، اور آخر میں پھر پہلا کلمہ۔" }
+      ] },
+      { "kind": "heading", "level": 2, "text": "آغاز یہیں سے کیوں" },
+      { "kind": "p", "text": "نبی کریم ﷺ نے اُن چار جملوں کو، جن سے تیسرا کلمہ بنا ہے، اللہ کے نزدیک سب سے محبوب کلمات فرمایا؛ اور اپنے قریب المرگ چچا پر پہلا کلمہ اِس طرح زور دیا جیسے وہی ایک جملہ اُنہیں بچا سکتا تھا۔ یہ بچوں کی تُک بندی نہیں؛ یہ دین کی بوجھ اٹھانے والی بنیادی سطریں ہیں۔" },
+      { "kind": "hadith", "collection": "muslim", "hadith": 5601, "note": "کلمہ تمجید کے چاروں جملے، جنہیں نبی ﷺ نے اللہ کے نزدیک سب سے محبوب کلمات بتایا۔" },
+      { "kind": "verse", "surah": 47, "ayah": 19, "note": "قرآن خود کلمات کی دونوں حرکتوں کو جوڑتا ہے: جان لو کہ اللہ کے سوا کوئی معبود نہیں — اور مغفرت مانگو۔" },
+      { "kind": "p", "text": "یہ ذہن میں رہے کہ یہ چھ ایک نصاب ہیں، کوئی نازل شدہ فہرست نہیں۔ جس مسلمان نے یہ گنتی کبھی سنی ہی نہیں، مگر وہ اِن جملوں کے معنی پر ایمان رکھتا اور اُنہی پر جیتا ہے، اُس کا کچھ نہیں گیا۔ اِن کی قیمت یہ ہے کہ یہ عقیدہ ایسی شکل میں سکھاتے ہیں جو عمر بھر یاد میں رہ سکتی ہے۔" },
+      { "kind": "heading", "level": 2, "text": "چھ کلموں کے بعد کیا" },
+      { "kind": "p", "text": "یہی نصاب کلموں کے بعد تین مزید چیزوں تک جاتا ہے، اور اِسی ترتیب سے سکھائی جاتی ہیں:" },
+      { "kind": "list", "items": [
+        { "text": "ایمانِ مجمل — ایمان کا مختصر بیان: اللہ پر ویسا ایمان جیسا وہ ہے، اُس کے ناموں اور صفات کے ساتھ، اور اُس کے ہر حکم کو قبول کرنا۔" },
+        { "text": "ایمانِ مفصل — ایمان کا تفصیلی بیان: وہی ایمان گن کر — فرشتوں اور کتابوں سے لے کر تقدیر اور دوبارہ اٹھائے جانے تک۔" },
+        { "text": "اذان — وہی عقیدہ دن میں پانچ بار بلند آواز میں، اقامت، سننے والے کے جواب اور اُس کے بعد کی دعا کے ساتھ۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "47:19" },
+    { "type": "hadith", "collection": "muslim", "ref": "5601", "grade": "sahih" },
+    { "type": "hadith", "collection": "bukhari", "ref": "6681", "grade": "sahih" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["creed-kalima-tayyibah", "creed-imaan-e-mufassal", "basics-shahada"]
+}

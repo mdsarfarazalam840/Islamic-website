@@ -16,7 +16,15 @@ export interface LocalizedText {
   ur: string
 }
 
-export type KnowledgeCategory = "basics" | "prophets" | "quranic" | "surahs" | "concepts" | "seerah" | "hadith-stories"
+export type KnowledgeCategory =
+  | "basics"
+  | "prophets"
+  | "quranic"
+  | "surahs"
+  | "concepts"
+  | "seerah"
+  | "hadith-stories"
+  | "creed"
 
 /** Hadith authenticity grade, as carried on a source tag. */
 export type HadithGrade = "sahih" | "hasan" | "daif"
@@ -55,6 +63,19 @@ export interface VerseBlock {
   ayah: number
   note?: string
 }
+/**
+ * A devotional Arabic text that is NOT a Qur'an ayah — a kalima, the words of
+ * the azaan, imaan-e-mujmal, and the like. `text` is the Arabic and is repeated
+ * verbatim across the three language bodies; `transliteration`, `translation`
+ * and `label` are authored per language, like a verse block's `note`.
+ */
+export interface ArabicBlock {
+  kind: "arabic"
+  text: string
+  transliteration?: string
+  translation?: string
+  label?: string
+}
 export interface HadithBlock {
   kind: "hadith"
   collection: string
@@ -64,7 +85,7 @@ export interface HadithBlock {
   note?: string
 }
 
-export type Block = ParagraphBlock | HeadingBlock | ListBlock | VerseBlock | HadithBlock
+export type Block = ParagraphBlock | HeadingBlock | ListBlock | VerseBlock | HadithBlock | ArabicBlock
 
 export interface KnowledgeArticle {
   slug: string
@@ -78,6 +99,14 @@ export interface KnowledgeArticle {
   }
   sources: SourceTag[]
   relatedSlugs: string[]
+  /**
+   * Explicit display sequence within the category. Resolved by
+   * src/lib/knowledge/order.ts as order ?? prophetNumber ?? surahNumber, then
+   * alphabetically by title.en, then by slug. Optional: "prophets" and "surahs"
+   * use the numbers they already carry, and concepts/quranic/hadith-stories are
+   * alphabetical by design.
+   */
+  order?: number
   /** Set for category "surahs": links the article to a surah. */
   surahNumber?: number
   /** Set for category "prophets": 1-based ordering of the 25 named prophets. */
@@ -115,6 +144,7 @@ export type HydratedBlock =
   | ParagraphBlock
   | HeadingBlock
   | ListBlock
+  | ArabicBlock
   | HydratedVerseBlock
   | HydratedHadithBlock
 

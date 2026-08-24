@@ -7,6 +7,7 @@ import {
   Lightbulb,
   Footprints,
   Quote,
+  BadgeCheck,
   type LucideIcon,
 } from "lucide-react"
 
@@ -50,6 +51,20 @@ export const KNOWLEDGE_CATEGORIES: KnowledgeCategoryInfo[] = [
       en: "Key ideas that shape Islamic belief and practice.",
       hi: "इस्लामी आस्था और व्यवहार को आकार देने वाले मुख्य विचार।",
       ur: "اسلامی عقیدہ و عمل کی تشکیل کرنے والے کلیدی تصورات۔",
+    },
+  },
+  {
+    id: "creed",
+    icon: BadgeCheck,
+    label: {
+      en: "Kalimas & Creed",
+      hi: "कलिमे और अक़ीदा",
+      ur: "کلمات و عقائد",
+    },
+    blurb: {
+      en: "The six kalimas, imaan-e-mujmal and mufassal, and the azaan — the words a Muslim learns first, with their meaning explained.",
+      hi: "छह कलिमे, ईमान-ए-मुजमल और मुफ़स्सल, और अज़ान — वे शब्द जो एक मुसलमान सबसे पहले सीखता है, उनके अर्थ की व्याख्या के साथ।",
+      ur: "چھ کلمے، ایمانِ مجمل و مفصل، اور اذان — وہ کلمات جو ایک مسلمان سب سے پہلے سیکھتا ہے، اُن کے معنی کی تشریح کے ساتھ۔",
     },
   },
   {

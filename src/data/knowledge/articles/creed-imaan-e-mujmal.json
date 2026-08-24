@@ -1,0 +1,73 @@
+{
+  "slug": "creed-imaan-e-mujmal",
+  "category": "creed",
+  "order": 7,
+  "title": {
+    "en": "Imaan-e-Mujmal — Faith in Brief",
+    "hi": "ईमान-ए-मुजमल — ईमान का संक्षिप्त बयान",
+    "ur": "ایمانِ مجمل — ایمان کا مختصر بیان"
+  },
+  "summary": {
+    "en": "Āmantu bi'llāhi kamā huwa bi asmā'ihī wa ṣifātihī… — one sentence that states faith in summary: belief in Allah as He truly is, with His names and attributes, acceptance of every ruling He gave, affirmed by the tongue and assented to by the heart.",
+    "hi": "आमन्तु बिल्लाहि कमा हुवा बि अस्माइही व सिफ़ातिही… — एक ही जुमला जो ईमान को समेट देता है: अल्लाह पर वैसा ही ईमान जैसा वह है, उसके नामों और सिफ़ात के साथ, उसके हर हुक्म को क़ुबूल करना, ज़ुबान से इक़रार और दिल से तस्दीक़।",
+    "ur": "آمَنْتُ بِاللہِ کَمَا ھُوَ بِاَسْمَآئِہٖ وَصِفَاتِہٖ… — ایک ہی جملہ جو ایمان کو سمیٹ دیتا ہے: اللہ پر ویسا ہی ایمان جیسا وہ ہے، اُس کے ناموں اور صفات کے ساتھ، اُس کے ہر حکم کو قبول کرنا، زبان سے اقرار اور دل سے تصدیق۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "arabic", "text": "آمَنْتُ بِاللهِ كَمَا هُوَ بِأَسْمَائِهِ وَصِفَاتِهِ وَقَبِلْتُ جَمِيعَ أَحْكَامِهِ إِقْرَارٌ بِاللِّسَانِ وَتَصْدِيقٌ بِالْقَلْبِ", "transliteration": "Āmantu bi'llāhi kamā huwa bi asmā'ihī wa ṣifātihī wa qabiltu jamīʿa aḥkāmihī, iqrārun bi'l-lisāni wa taṣdīqun bi'l-qalb", "translation": "I believe in Allah as He is, with His names and His attributes, and I accept every one of His rulings — an affirmation with the tongue and an assent with the heart.", "label": "Imaan-e-Mujmal" },
+      { "kind": "p", "text": "After the six kalimas, the traditional syllabus teaches two summaries of belief: one short, one itemised. This is the short one — mujmal means \"in brief\", faith compressed into a single line so that a person who is asked \"what do you believe?\" has an answer ready that leaves nothing essential out." },
+      { "kind": "heading", "level": 2, "text": "Tafsīr: \"as He is\"" },
+      { "kind": "p", "text": "The three words kamā huwa — as He is — carry the weight of the sentence. They rule out believing in a god of one's own construction: not as I imagine Him, not as it suits me to imagine Him, but as He is. The clause that follows says how that is known — bi asmā'ihī wa ṣifātihī, through His names and attributes, meaning the ones He gave Himself in revelation rather than any a person might infer." },
+      { "kind": "verse", "surah": 7, "ayah": 180, "note": "To Allah belong the most beautiful names, so call upon Him by them — the names are His to give, not ours to invent." },
+      { "kind": "p", "text": "This is why the sentence names attributes at all. A vague belief in \"a higher power\" fails the test: it affirms something exists without affirming anything about it. Imaan-e-Mujmal insists that faith has content, and that the content comes from Allah's own self-description." },
+      { "kind": "heading", "level": 2, "text": "Accepting every ruling" },
+      { "kind": "p", "text": "Wa qabiltu jamīʿa aḥkāmihī — and I accept all His rulings. Belief in the second half of the sentence is not only about who Allah is; it is about what follows from that. To accept the Lord and reject the law He gave is not a partial faith but a contradiction, and the wording closes that door before it opens: jamīʿa, all of them, including the ones a person finds heavy or does not yet understand." },
+      { "kind": "verse", "surah": 4, "ayah": 59, "note": "Obey Allah and His Messenger, and refer what you dispute back to them — the practical shape of accepting His rulings." },
+      { "kind": "hadith", "collection": "muslim", "hadith": 851, "note": "Whoever says, on hearing the mu'adhdhin, that he is content with Allah as Lord, Muhammad as Messenger and Islam as his religion, is forgiven — the same three-part contentment this kalima states." },
+      { "kind": "heading", "level": 2, "text": "Tongue and heart, both named" },
+      { "kind": "p", "text": "The closing phrase is a definition, not a flourish. Iqrārun bi'l-lisān — spoken affirmation — is what makes a person a Muslim in the sight of others and gives them the rights of a Muslim. Taṣdīqun bi'l-qalb — the heart's assent — is what makes it faith before Allah. Take away the tongue and there is nothing anyone can act on; take away the heart and what remains is hypocrisy. The Qur'an draws exactly that line." },
+      { "kind": "verse", "surah": 49, "ayah": 14, "note": "The desert Arabs said \"we believe\"; they were told to say \"we submit\", for faith had not yet entered their hearts." },
+      { "kind": "verse", "surah": 3, "ayah": 18, "note": "Allah bears witness that there is no god but He, and so do the angels and those endowed with knowledge — testimony as the form belief takes." }
+    ],
+    "hi": [
+      { "kind": "arabic", "text": "آمَنْتُ بِاللهِ كَمَا هُوَ بِأَسْمَائِهِ وَصِفَاتِهِ وَقَبِلْتُ جَمِيعَ أَحْكَامِهِ إِقْرَارٌ بِاللِّسَانِ وَتَصْدِيقٌ بِالْقَلْبِ", "transliteration": "Āmantu bi'llāhi kamā huwa bi asmā'ihī wa ṣifātihī wa qabiltu jamīʿa aḥkāmihī, iqrārun bi'l-lisāni wa taṣdīqun bi'l-qalb", "translation": "मैं अल्लाह पर ईमान लाया जैसा वह है, उसके नामों और उसकी सिफ़ात के साथ, और मैंने उसके सारे अहकाम क़ुबूल किए — ज़ुबान से इक़रार और दिल से तस्दीक़।", "label": "ईमान-ए-मुजमल" },
+      { "kind": "p", "text": "छह कलिमों के बाद परंपरागत पाठ्यक्रम ईमान के दो बयान सिखाता है: एक मुख़्तसर, एक तफ़सील वाला। यह मुख़्तसर वाला है — मुजमल का मानी है \"संक्षेप में\": ईमान एक ही सतर में सिमटा हुआ, ताकि जिससे पूछा जाए \"तुम किस बात पर ईमान रखते हो?\", उसके पास ऐसा जवाब तैयार हो जो कोई ज़रूरी बात न छोड़े।" },
+      { "kind": "heading", "level": 2, "text": "तफ़्सीर: \"जैसा वह है\"" },
+      { "kind": "p", "text": "कमा हुवा — जैसा वह है — यही दो लफ़्ज़ पूरे जुमले का बोझ उठाते हैं। ये अपने बनाए हुए ख़ुदा पर ईमान की गुंजाइश ख़त्म कर देते हैं: वैसा नहीं जैसा मैं गुमान करूँ, न वैसा जैसा मानना मुझे रास आए, बल्कि जैसा वह है। अगला जुमला बताता है कि यह कैसे जाना जाए — बि अस्माइही व सिफ़ातिही, उसके नामों और सिफ़ात के ज़रीए, यानी वे जो उसने वही में ख़ुद बताए, न कि वे जो इंसान अपनी अक़्ल से गढ़ ले।" },
+      { "kind": "verse", "surah": 7, "ayah": 180, "note": "अल्लाह के सब नाम बेहतरीन हैं, उन्हीं से उसे पुकारो — नाम देना उसका काम है, हमारा गढ़ना नहीं।" },
+      { "kind": "p", "text": "इसी वजह से जुमले में सिफ़ात का ज़िक्र है। \"कोई बड़ी ताक़त है\" जैसा धुँधला अक़ीदा इस कसौटी पर पूरा नहीं उतरता: वह किसी के होने का इक़रार करता है, उसके बारे में कुछ नहीं। ईमान-ए-मुजमल इस बात पर ज़ोर देता है कि ईमान का कोई मज़मून है, और वह मज़मून अल्लाह के अपने बयान से आता है।" },
+      { "kind": "heading", "level": 2, "text": "हर हुक्म को क़ुबूल करना" },
+      { "kind": "p", "text": "व क़बिल्तु जमीअ अहकामिही — और मैंने उसके सारे अहकाम क़ुबूल किए। जुमले का दूसरा हिस्सा सिर्फ़ यह नहीं बताता कि अल्लाह कौन है; यह बताता है कि उससे क्या लाज़िम आता है। रब को मानना और उसका दिया हुआ क़ानून ठुकरा देना अधूरा ईमान नहीं, तनाक़ुज़ है, और अल्फ़ाज़ यह दरवाज़ा खुलने से पहले ही बंद कर देते हैं: जमीअ — सारे, वे भी जो इंसान को भारी लगें या जिनकी हिकमत उसकी समझ में अभी न आए।" },
+      { "kind": "verse", "surah": 4, "ayah": 59, "note": "अल्लाह और उसके रसूल की इताअत करो, और झगड़े की बात उन्हीं की तरफ़ लौटाओ — अहकाम क़ुबूल करने की अमली शक्ल।" },
+      { "kind": "hadith", "collection": "muslim", "hadith": 851, "note": "जो अज़ान सुनकर कहे कि वह अल्लाह के रब होने, मुहम्मद ﷺ के रसूल होने और इस्लाम के दीन होने पर राज़ी है, उसके गुनाह बख़्श दिए जाते हैं — वही तीन बातें जिनका यह कलिमा इक़रार करता है।" },
+      { "kind": "heading", "level": 2, "text": "ज़ुबान और दिल, दोनों का नाम" },
+      { "kind": "p", "text": "आख़िरी जुमला सजावट नहीं, तारीफ़ है। इक़रारुन बिल-लिसान — ज़ुबान का इक़रार — वह है जिससे इंसान लोगों की नज़र में मुसलमान बनता है और उसे मुसलमान के हुक़ूक़ मिलते हैं। तस्दीक़ुन बिल-क़ल्ब — दिल की तस्दीक़ — वह है जिससे यह अल्लाह के नज़दीक ईमान बनता है। ज़ुबान हटा दें तो किसी के अमल करने के लिए कुछ नहीं बचता; दिल हटा दें तो जो बचता है वह निफ़ाक़ है। क़ुरआन ठीक यही लकीर खींचता है।" },
+      { "kind": "verse", "surah": 49, "ayah": 14, "note": "देहाती अरबों ने कहा \"हम ईमान लाए\"; उन्हें कहा गया कहो \"हम इस्लाम लाए\", क्योंकि ईमान अभी उनके दिलों में नहीं उतरा था।" },
+      { "kind": "verse", "surah": 3, "ayah": 18, "note": "अल्लाह ने गवाही दी कि उसके सिवा कोई माबूद नहीं, और फ़रिश्तों और इल्म वालों ने भी — गवाही, जो ईमान की शक्ल है।" }
+    ],
+    "ur": [
+      { "kind": "arabic", "text": "آمَنْتُ بِاللهِ كَمَا هُوَ بِأَسْمَائِهِ وَصِفَاتِهِ وَقَبِلْتُ جَمِيعَ أَحْكَامِهِ إِقْرَارٌ بِاللِّسَانِ وَتَصْدِيقٌ بِالْقَلْبِ", "transliteration": "Āmantu bi'llāhi kamā huwa bi asmā'ihī wa ṣifātihī wa qabiltu jamīʿa aḥkāmihī, iqrārun bi'l-lisāni wa taṣdīqun bi'l-qalb", "translation": "میں اللہ پر ایمان لایا جیسا وہ ہے، اُس کے ناموں اور اُس کی صفات کے ساتھ، اور میں نے اُس کے سارے احکام قبول کیے — زبان سے اقرار اور دل سے تصدیق۔", "label": "ایمانِ مجمل" },
+      { "kind": "p", "text": "چھ کلموں کے بعد روایتی نصاب ایمان کے دو بیان سکھاتا ہے: ایک مختصر، ایک تفصیلی۔ یہ مختصر والا ہے — مجمل کے معنی \"اختصار کے ساتھ\": ایمان ایک ہی سطر میں سمٹا ہوا، تاکہ جس سے پوچھا جائے \"تم کس بات پر ایمان رکھتے ہو؟\"، اُس کے پاس ایسا جواب تیار ہو جو کوئی ضروری بات نہ چھوڑے۔" },
+      { "kind": "heading", "level": 2, "text": "تفسیر: \"جیسا وہ ہے\"" },
+      { "kind": "p", "text": "کَمَا ھُوَ — جیسا وہ ہے — یہی دو لفظ پورے جملے کا بوجھ اٹھاتے ہیں۔ یہ اپنے بنائے ہوئے خدا پر ایمان کی گنجائش ختم کر دیتے ہیں: ویسا نہیں جیسا میں گمان کروں، نہ ویسا جیسا ماننا مجھے راس آئے، بلکہ جیسا وہ ہے۔ اگلا جملہ بتاتا ہے کہ یہ کیسے جانا جائے — بِاَسْمَآئِہٖ وَصِفَاتِہٖ، اُس کے ناموں اور صفات کے ذریعے، یعنی وہ جو اُس نے وحی میں خود بتائے، نہ کہ وہ جو انسان اپنی عقل سے گھڑ لے۔" },
+      { "kind": "verse", "surah": 7, "ayah": 180, "note": "اللہ کے سب نام بہترین ہیں، اُنہی سے اُسے پکارو — نام دینا اُس کا کام ہے، ہمارا گھڑنا نہیں۔" },
+      { "kind": "p", "text": "اِسی وجہ سے جملے میں صفات کا ذکر ہے۔ \"کوئی بڑی طاقت ہے\" جیسا دھندلا عقیدہ اِس کسوٹی پر پورا نہیں اترتا: وہ کسی کے ہونے کا اقرار کرتا ہے، اُس کے بارے میں کچھ نہیں۔ ایمانِ مجمل اِس بات پر زور دیتا ہے کہ ایمان کا کوئی مضمون ہے، اور وہ مضمون اللہ کے اپنے بیان سے آتا ہے۔" },
+      { "kind": "heading", "level": 2, "text": "ہر حکم کو قبول کرنا" },
+      { "kind": "p", "text": "وَقَبِلْتُ جَمِيعَ أَحْكَامِهِ — اور میں نے اُس کے سارے احکام قبول کیے۔ جملے کا دوسرا حصہ صرف یہ نہیں بتاتا کہ اللہ کون ہے؛ یہ بتاتا ہے کہ اُس سے کیا لازم آتا ہے۔ رب کو ماننا اور اُس کا دیا ہوا قانون ٹھکرا دینا ادھورا ایمان نہیں، تناقض ہے، اور الفاظ یہ دروازہ کھلنے سے پہلے ہی بند کر دیتے ہیں: جَمِيعَ — سارے، وہ بھی جو انسان کو بھاری لگیں یا جن کی حکمت اُس کی سمجھ میں ابھی نہ آئے۔" },
+      { "kind": "verse", "surah": 4, "ayah": 59, "note": "اللہ اور اُس کے رسول کی اطاعت کرو، اور جھگڑے کی بات اُنہی کی طرف لوٹاؤ — احکام قبول کرنے کی عملی صورت۔" },
+      { "kind": "hadith", "collection": "muslim", "hadith": 851, "note": "جو اذان سن کر کہے کہ وہ اللہ کے رب ہونے، محمد ﷺ کے رسول ہونے اور اسلام کے دین ہونے پر راضی ہے، اُس کے گناہ بخش دیے جاتے ہیں — وہی تین باتیں جن کا یہ کلمہ اقرار کرتا ہے۔" },
+      { "kind": "heading", "level": 2, "text": "زبان اور دل، دونوں کا نام" },
+      { "kind": "p", "text": "آخری جملہ آرائش نہیں، تعریف ہے۔ اِقْرَارٌ بِاللِّسَانِ — زبان کا اقرار — وہ ہے جس سے انسان لوگوں کی نظر میں مسلمان بنتا ہے اور اُسے مسلمان کے حقوق ملتے ہیں۔ تَصْدِيقٌ بِالْقَلْبِ — دل کی تصدیق — وہ ہے جس سے یہ اللہ کے نزدیک ایمان بنتا ہے۔ زبان ہٹا دیں تو کسی کے عمل کرنے کے لیے کچھ نہیں بچتا؛ دل ہٹا دیں تو جو بچتا ہے وہ نفاق ہے۔ قرآن بالکل یہی لکیر کھینچتا ہے۔" },
+      { "kind": "verse", "surah": 49, "ayah": 14, "note": "دیہاتی عربوں نے کہا \"ہم ایمان لائے\"؛ اُن سے کہا گیا کہو \"ہم اسلام لائے\"، کیونکہ ایمان ابھی اُن کے دلوں میں نہیں اترا تھا۔" },
+      { "kind": "verse", "surah": 3, "ayah": 18, "note": "اللہ نے گواہی دی کہ اُس کے سوا کوئی معبود نہیں، اور فرشتوں اور اہلِ علم نے بھی — گواہی، جو ایمان کی صورت ہے۔" }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "7:180" },
+    { "type": "quran", "ref": "4:59" },
+    { "type": "quran", "ref": "49:14" },
+    { "type": "quran", "ref": "3:18" },
+    { "type": "hadith", "collection": "muslim", "ref": "851", "grade": "sahih" }
+  ],
+  "relatedSlugs": ["creed-imaan-e-mufassal", "creed-six-kalimas", "concept-iman"]
+}

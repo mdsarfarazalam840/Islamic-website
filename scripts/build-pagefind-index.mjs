@@ -30,8 +30,11 @@ const OUTPUT_DIR = path.resolve("public/pagefind")
 const KNOWLEDGE_CATEGORY_NAMES = {
   basics: "The Basics",
   concepts: "Core Concepts",
+  creed: "Kalimas & Creed",
   prophets: "The Prophets",
+  seerah: "The Seerah",
   quranic: "Quranic Stories",
+  "hadith-stories": "Stories from Hadith",
   surahs: "Surah Virtues",
 }
 
@@ -156,6 +159,7 @@ async function main() {
           if (b.kind === "p" || b.kind === "heading") return [b.text]
           if (b.kind === "list") return (b.items ?? []).map((i) => i?.text)
           if (b.kind === "verse" || b.kind === "hadith") return [b.note]
+          if (b.kind === "arabic") return [b.text, b.transliteration, b.translation, b.label]
           return []
         })
         .filter(Boolean)

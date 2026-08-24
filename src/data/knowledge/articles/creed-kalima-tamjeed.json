@@ -1,0 +1,81 @@
+{
+  "slug": "creed-kalima-tamjeed",
+  "category": "creed",
+  "order": 3,
+  "title": {
+    "en": "Third Kalima — Tamjīd (The Word of Glorification)",
+    "hi": "तीसरा कलिमा — तमजीद (बड़ाई का कलिमा)",
+    "ur": "تیسرا کلمہ — تمجید (بڑائی کا کلمہ)"
+  },
+  "summary": {
+    "en": "Subḥāna'llāh, wal-ḥamdu li'llāh, wa lā ilāha illa'llāh, wa'llāhu akbar — the four phrases the Prophet ﷺ named as the words dearest to Allah, followed by the declaration that no power exists except by Allah, the Most High, the Most Great.",
+    "hi": "सुब्हानल्लाह, वल-हम्दु लिल्लाह, वला इलाहा इल्लल्लाह, वल्लाहु अकबर — वही चार वाक्यांश जिन्हें नबी ﷺ ने अल्लाह के निकट सबसे प्रिय शब्द कहा, और उसके बाद यह इक़रार कि कोई क़ुव्वत नहीं मगर अल्लाह की, जो सबसे बुलंद और सबसे बड़ा है।",
+    "ur": "سبحان اللہ، والحمد للہ، ولا الہ الا اللہ، واللہ اکبر — وہی چار جملے جنہیں نبی ﷺ نے اللہ کے نزدیک سب سے محبوب کلمات فرمایا، اور اُس کے بعد یہ اقرار کہ کوئی قوت نہیں مگر اللہ کی، جو سب سے بلند اور سب سے بڑا ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "arabic", "text": "سُبْحَانَ اللهِ وَالْحَمْدُ لِلهِ وَلَا إِلٰهَ إِلَّا اللهُ وَاللهُ أَكْبَرُ وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللهِ الْعَلِيِّ الْعَظِيمِ", "transliteration": "Subḥāna'llāhi wal-ḥamdu li'llāhi wa lā ilāha illa'llāhu wa'llāhu akbar, wa lā ḥawla wa lā quwwata illā bi'llāhil-ʿaliyyil-ʿaẓīm", "translation": "Glory be to Allah; all praise belongs to Allah; there is no god but Allah; Allah is the Greatest. And there is no capacity and no strength except by Allah, the Most High, the Most Great.", "label": "Kalima Tamjīd" },
+      { "kind": "p", "text": "Where the first two kalimas establish who Allah is, the third turns toward Him in praise. It is built from four phrases known in the Sunnah as al-bāqiyāt aṣ-ṣāliḥāt, \"the enduring good deeds\", and the Prophet ﷺ said plainly that these four are the words dearest to Allah, in any order you begin with." },
+      { "kind": "hadith", "collection": "muslim", "hadith": 5601, "note": "The four phrases of this kalima, named by the Prophet ﷺ as the dearest speech to Allah." },
+      { "kind": "heading", "level": 2, "text": "Tafsīr: four movements of the heart" },
+      { "kind": "list", "items": [
+        { "text": "Subḥāna'llāh — tanzīh: declaring Allah free of every defect, need, and resemblance to creation. It is the mind clearing away wrong pictures of God." },
+        { "text": "Al-ḥamdu li'llāh — praise for who He is and gratitude for what He gives. Not thanks for a favour received only, but praise owed to Him whether or not the favour comes." },
+        { "text": "Lā ilāha illa'llāh — tawḥīd: the first kalima's core, placed at the centre of the praise so that glorification never drifts toward more than One." },
+        { "text": "Allāhu akbar — takbīr: Allah is greater. Greater than the fear in front of you, the desire pulling at you, the authority threatening you, and greater than any description you could reach for." }
+      ] },
+      { "kind": "verse", "surah": 17, "ayah": 44, "note": "The heavens, the earth, and everything in them glorify Him — the human tongue joins a chorus already sounding." },
+      { "kind": "verse", "surah": 87, "ayah": 1, "note": "Glorify the name of your Lord, the Most High — the command from which subḥāna'llāh and al-ʿaliyy both draw." },
+      { "kind": "heading", "level": 2, "text": "\"No capacity and no strength except by Allah\"" },
+      { "kind": "p", "text": "The closing clause, lā ḥawla wa lā quwwata illā bi'llāh, is a hadith-taught phrase in its own right. Ḥawl is the ability to change a situation; quwwa is the strength to act at all. Denying both to oneself and returning them to Allah is the exact opposite of self-reliance in the arrogant sense — and, oddly, the source of enormous courage: nothing depends on how strong you are." },
+      { "kind": "verse", "surah": 18, "ayah": 39, "note": "The believing companion in Surah al-Kahf rebukes his arrogant friend with this very idea: no power except by Allah." },
+      { "kind": "heading", "level": 2, "text": "Where it is used" },
+      { "kind": "p", "text": "The four phrases are recited after the obligatory prayers, in tasbīḥ on the fingers or beads, in the tashbīḥāt of ṭawāf, and between the units of Ṣalāt at-Tasbīḥ. They are also the standing answer to good news, bad news, astonishment, and fear — which is why they end up on a Muslim's tongue more often than any other words in the day." }
+    ],
+    "hi": [
+      { "kind": "arabic", "text": "سُبْحَانَ اللهِ وَالْحَمْدُ لِلهِ وَلَا إِلٰهَ إِلَّا اللهُ وَاللهُ أَكْبَرُ وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللهِ الْعَلِيِّ الْعَظِيمِ", "transliteration": "Subḥāna'llāhi wal-ḥamdu li'llāhi wa lā ilāha illa'llāhu wa'llāhu akbar, wa lā ḥawla wa lā quwwata illā bi'llāhil-ʿaliyyil-ʿaẓīm", "translation": "अल्लाह की पाकी है; सारी हम्द अल्लाह के लिए है; अल्लाह के सिवा कोई माबूद नहीं; अल्लाह सबसे बड़ा है। और कोई ताक़त और कोई क़ुव्वत नहीं मगर अल्लाह की मदद से, जो सबसे बुलंद, सबसे अज़ीम है।", "label": "कलिमा तमजीद" },
+      { "kind": "p", "text": "जहाँ पहले दो कलिमे यह तय करते हैं कि अल्लाह कौन है, तीसरा उसकी तरफ़ हम्द के साथ रुख़ करता है। यह चार वाक्यांशों से बना है जिन्हें सुन्नत में अल-बाक़ियात अस-सालिहात, \"बाक़ी रहने वाली नेकियाँ\", कहा गया है, और नबी ﷺ ने साफ़ फ़रमाया कि ये चारों अल्लाह के निकट सबसे प्रिय शब्द हैं, चाहे इनमें से किसी से भी शुरू करो।" },
+      { "kind": "hadith", "collection": "muslim", "hadith": 5601, "note": "इस कलिमे के चारों वाक्यांश, जिन्हें नबी ﷺ ने अल्लाह के निकट सबसे प्रिय कलाम बताया।" },
+      { "kind": "heading", "level": 2, "text": "तफ़्सीर: दिल की चार हरकतें" },
+      { "kind": "list", "items": [
+        { "text": "सुब्हानल्लाह — तंज़ीह: अल्लाह को हर ऐब, हर ज़रूरत, और मख़लूक़ से हर मुशाबहत से पाक कहना। यह ज़ेहन का ख़ुदा की ग़लत तस्वीरें साफ़ करना है।" },
+        { "text": "अल-हम्दु लिल्लाह — इस बात की हम्द कि वह कौन है, और इस बात का शुक्र कि वह क्या देता है। सिर्फ़ मिली हुई नेमत का शुक्रिया नहीं, बल्कि वह हम्द जो उसका हक़ है, नेमत आए या न आए।" },
+        { "text": "ला इलाहा इल्लल्लाह — तौहीद: पहले कलिमे का मग़ज़, हम्द के बीचोंबीच रखा गया, ताकि बड़ाई कभी एक से ज़्यादा की तरफ़ न बहक जाए।" },
+        { "text": "अल्लाहु अकबर — तकबीर: अल्लाह बड़ा है। उस डर से बड़ा जो सामने है, उस ख़्वाहिश से बड़ा जो खींच रही है, उस इख़्तियार से बड़ा जो धमका रहा है, और हर उस बयान से बड़ा जिस तक तुम पहुँच सको।" }
+      ] },
+      { "kind": "verse", "surah": 17, "ayah": 44, "note": "आसमान, ज़मीन, और उनमें जो कुछ है सब उसकी तस्बीह करते हैं — इंसानी ज़ुबान एक ऐसे कोरस में शामिल होती है जो पहले से गूँज रहा है।" },
+      { "kind": "verse", "surah": 87, "ayah": 1, "note": "अपने रब के नाम की तस्बीह करो जो सबसे बुलंद है — वही हुक्म जिससे सुब्हानल्लाह और अल-अली दोनों निकलते हैं।" },
+      { "kind": "heading", "level": 2, "text": "\"कोई ताक़त और क़ुव्वत नहीं मगर अल्लाह से\"" },
+      { "kind": "p", "text": "आख़िरी जुमला, ला हौला वला क़ुव्वता इल्ला बिल्लाह, अपने आप में हदीस से सिखाया गया कलिमा है। हौल हालात बदलने की सलाहियत है; क़ुव्वत अमल करने की ताक़त है। दोनों का अपने बारे में इनकार करके उन्हें अल्लाह की तरफ़ लौटा देना घमंड भरी ख़ुद-एतमादी के बिल्कुल उलट है — और अजीब बात है कि यही बहुत बड़ी हिम्मत का सोता है: कुछ भी इस पर मुनहसिर नहीं कि तुम कितने ताक़तवर हो।" },
+      { "kind": "verse", "surah": 18, "ayah": 39, "note": "सूरह अल-कहफ़ में ईमान वाला साथी अपने मुतकब्बिर दोस्त को ठीक इसी बात से टोकता है: कोई क़ुव्वत नहीं मगर अल्लाह से।" },
+      { "kind": "heading", "level": 2, "text": "यह कहाँ पढ़ा जाता है" },
+      { "kind": "p", "text": "ये चार वाक्यांश फ़र्ज़ नमाज़ों के बाद, उँगलियों या तस्बीह पर, तवाफ़ की तस्बीहात में, और सलातुत-तस्बीह की रकअतों के बीच पढ़े जाते हैं। यही ख़ुशख़बरी, बुरी ख़बर, हैरानी और ख़ौफ़ का भी मुक़र्रर जवाब हैं — इसीलिए ये दिन भर में मुसलमान की ज़ुबान पर बाक़ी हर अल्फ़ाज़ से ज़्यादा आते हैं।" }
+    ],
+    "ur": [
+      { "kind": "arabic", "text": "سُبْحَانَ اللهِ وَالْحَمْدُ لِلهِ وَلَا إِلٰهَ إِلَّا اللهُ وَاللهُ أَكْبَرُ وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللهِ الْعَلِيِّ الْعَظِيمِ", "transliteration": "Subḥāna'llāhi wal-ḥamdu li'llāhi wa lā ilāha illa'llāhu wa'llāhu akbar, wa lā ḥawla wa lā quwwata illā bi'llāhil-ʿaliyyil-ʿaẓīm", "translation": "اللہ کی پاکی ہے؛ ساری حمد اللہ کے لیے ہے؛ اللہ کے سوا کوئی معبود نہیں؛ اللہ سب سے بڑا ہے۔ اور کوئی طاقت اور کوئی قوت نہیں مگر اللہ کی مدد سے، جو سب سے بلند، سب سے عظیم ہے۔", "label": "کلمہ تمجید" },
+      { "kind": "p", "text": "جہاں پہلے دو کلمے یہ طے کرتے ہیں کہ اللہ کون ہے، تیسرا اُس کی طرف حمد کے ساتھ رخ کرتا ہے۔ یہ چار جملوں سے بنا ہے جنہیں سنت میں الباقیات الصالحات، \"باقی رہنے والی نیکیاں\"، کہا گیا ہے، اور نبی ﷺ نے صاف فرمایا کہ یہ چاروں اللہ کے نزدیک سب سے محبوب کلمات ہیں، خواہ اِن میں سے کسی سے بھی شروع کرو۔" },
+      { "kind": "hadith", "collection": "muslim", "hadith": 5601, "note": "اِس کلمے کے چاروں جملے، جنہیں نبی ﷺ نے اللہ کے نزدیک سب سے محبوب کلام بتایا۔" },
+      { "kind": "heading", "level": 2, "text": "تفسیر: دل کی چار حرکتیں" },
+      { "kind": "list", "items": [
+        { "text": "سبحان اللہ — تنزیہ: اللہ کو ہر عیب، ہر ضرورت، اور مخلوق سے ہر مشابہت سے پاک کہنا۔ یہ ذہن کا خدا کی غلط تصویریں صاف کرنا ہے۔" },
+        { "text": "الحمد للہ — اِس بات کی حمد کہ وہ کون ہے، اور اِس بات کا شکر کہ وہ کیا دیتا ہے۔ صرف ملی ہوئی نعمت کا شکریہ نہیں، بلکہ وہ حمد جو اُس کا حق ہے، نعمت آئے یا نہ آئے۔" },
+        { "text": "لا الہ الا اللہ — توحید: پہلے کلمے کا مغز، حمد کے عین درمیان رکھا گیا، تاکہ بڑائی کبھی ایک سے زیادہ کی طرف نہ بہک جائے۔" },
+        { "text": "اللہ اکبر — تکبیر: اللہ بڑا ہے۔ اُس خوف سے بڑا جو سامنے ہے، اُس خواہش سے بڑا جو کھینچ رہی ہے، اُس اختیار سے بڑا جو دھمکا رہا ہے، اور ہر اُس بیان سے بڑا جس تک تم پہنچ سکو۔" }
+      ] },
+      { "kind": "verse", "surah": 17, "ayah": 44, "note": "آسمان، زمین، اور اُن میں جو کچھ ہے سب اُس کی تسبیح کرتے ہیں — انسانی زبان ایک ایسے ہم آواز مجمع میں شامل ہوتی ہے جو پہلے سے گونج رہا ہے۔" },
+      { "kind": "verse", "surah": 87, "ayah": 1, "note": "اپنے رب کے نام کی تسبیح کرو جو سب سے بلند ہے — وہی حکم جس سے سبحان اللہ اور العلی دونوں نکلتے ہیں۔" },
+      { "kind": "heading", "level": 2, "text": "\"کوئی طاقت اور قوت نہیں مگر اللہ سے\"" },
+      { "kind": "p", "text": "آخری جملہ، لا حول ولا قوۃ الا باللہ، بذاتِ خود حدیث سے سکھایا گیا کلمہ ہے۔ حول حالات بدلنے کی صلاحیت ہے؛ قوت عمل کرنے کی طاقت ہے۔ دونوں کی اپنے بارے میں نفی کر کے اُنہیں اللہ کی طرف لوٹا دینا مغرور خود اعتمادی کے بالکل برعکس ہے — اور عجیب بات ہے کہ یہی بہت بڑی ہمت کا سرچشمہ ہے: کچھ بھی اِس پر منحصر نہیں کہ تم کتنے طاقتور ہو۔" },
+      { "kind": "verse", "surah": 18, "ayah": 39, "note": "سورۃ الکہف میں مومن ساتھی اپنے مغرور دوست کو بالکل اِسی بات سے ٹوکتا ہے: کوئی قوت نہیں مگر اللہ سے۔" },
+      { "kind": "heading", "level": 2, "text": "یہ کہاں پڑھا جاتا ہے" },
+      { "kind": "p", "text": "یہ چار جملے فرض نمازوں کے بعد، انگلیوں یا تسبیح پر، طواف کی تسبیحات میں، اور صلاۃ التسبیح کی رکعتوں کے درمیان پڑھے جاتے ہیں۔ یہی خوشخبری، بری خبر، حیرت اور خوف کا بھی مقرر جواب ہیں — اِسی لیے یہ دن بھر میں مسلمان کی زبان پر باقی ہر الفاظ سے زیادہ آتے ہیں۔" }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "17:44" },
+    { "type": "quran", "ref": "87:1" },
+    { "type": "hadith", "collection": "muslim", "ref": "5601", "grade": "sahih" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["creed-six-kalimas", "creed-kalima-tawheed", "concept-shukr"]
+}
