@@ -43,7 +43,7 @@ A premium open-source Quran & Hadith platform — complete Quran with multilingu
 All 114 surahs with Arabic (Uthmani script) + English, Urdu, Hindi translations. Triptych layout: navigation sidebar | Arabic center panel | translation panel. Gold-illuminated ayah numbers, gold drop-caps, verse markers. Juz navigator with gold dot indicators. Ayah bookmarking, copy, and share.
 
 ### 📜 Hadith Collections
-36,000+ authentic hadiths across 7 major collections — Bukhari, Muslim, Abu Dawud, Tirmidhi, Nasa'i, Ibn Majah, and Muwatta Malik. Sanad (narration chain) visualization. Grade badges: emerald (Sahih), gold (Hasan), muted (Da'if). Full-text search via Pagefind.
+36,000+ authentic hadiths across 7 major collections — Bukhari, Muslim, Abu Dawud, Tirmidhi, Nasa'i, Ibn Majah, and Muwatta Malik. Sanad (narration chain) visualization. Grade badges: emerald (Sahih), gold (Hasan), muted (Da'if). Full-text search via Pagefind, plus direct hadith-number lookup.
 
 ### 📚 Knowledge Base
 A trilingual (English · हिन्दी · اردو) library of 63 source-graded articles across five categories — the Basics (pillars & articles of faith), Core Concepts, the 25 Prophets, Quranic Stories, and Surah Virtues. Per-article language toggle. `verse` blocks render **live** Arabic + translations pulled from the Quran data (no duplicated scripture); `hadith` blocks deep-link into the Hadith library. Every article carries graded source tags (Quran / hadith / tafsir / seerah) rendered as strength-colored badges. Indexed into Pagefind.
@@ -53,6 +53,14 @@ A trilingual (English · हिन्दी · اردو) library of 63 source-gr
 
 ### 🔍 Global Search
 Unified search across Quran, Hadith, Knowledge Base, and Videos. Pagefind static index for Quran, Hadith & Knowledge Base — fetches only fragment chunks per query. Fuse.js for the video list.
+
+### #️⃣ Hadith Number Lookup
+Type a hadith number and land on the hadith, not on whatever text happens to rank for the digits. Accepts a bare number (`1234`), a collection-qualified reference (`Bukhari 1234`, `Sahih Muslim 500`), and common separators (`bukhari:1234`, `#1234`); a bare number inside a collection stays in that collection, while on the Hadith landing page and in global search it resolves across all seven. Results link straight to the hadith's anchor in its book.
+
+A bare number can't tell you which of a collection's ~100 books holds it, so a build step (`npm run build:hadith-index`) run-length-encodes every number→book mapping into a single 34 KB file. The lookup fetches that once instead of downloading a collection (~22 MB for Bukhari).
+
+### 🔖 Saved & Resume
+Bookmark any ayah, hadith, or Knowledge Base article, or hit **Save my spot** while reading to keep the exact verse/hadith you were on. The **Saved** tab (bottom nav on mobile, main nav on desktop) lists every bookmark with filters, plus a "pick up where you left off" row for the Quran, Hadith, Knowledge Base, and videos — each deep-linking straight back to the anchor you left. Reading positions are tracked automatically as you scroll. All of it lives in `localStorage`, per device, with no account required.
 
 ### 🎨 Noor Al-Quds Design System
 Chamber-based navigation — every page is a sacred chamber with unique lighting. Gold + deep navy palette. Vanishing navbar with floating lantern button. Three.js 3D environment (star particles, Kaaba model). Dark/Light modes.
@@ -137,7 +145,7 @@ Every page is a chamber in a sacred building, each with its own lighting and moo
 | Styling | Tailwind CSS v4 + tw-animate-css |
 | 3D | Three.js + React Three Fiber + Drei |
 | Animation | Framer Motion |
-| Search | Pagefind (Quran + Hadith + Knowledge Base) · Fuse.js (videos) |
+| Search | Pagefind (Quran + Hadith + Knowledge Base) · Fuse.js (videos, hadith text) · run-length number index (hadith references) |
 | Icons | Lucide React |
 | State | Zustand + TanStack Query |
 | Validation | Zod |
@@ -171,13 +179,14 @@ npm run fetch:quran        # Quran JSON
 npm run fetch:hadith       # 7 Hadith collections
 npm run fetch:youtube      # Latest videos
 npm run build:pagefind     # Search index
+npm run build:hadith-index # Hadith number → book lookup (34 KB)
 npm run fetch:all          # All of the above
 ```
 
 ### Production Build
 
 ```bash
-npm run build:static       # Pagefind + Next.js → out/
+npm run build:static       # Hadith number index + Pagefind + Next.js → out/
 ```
 
 ### Test
@@ -207,6 +216,7 @@ src/
 │   ├── knowledge-base/     # Knowledge Base (category & article routes)
 │   ├── videos/             # Video library
 │   ├── search/             # Global search
+│   ├── saved/              # Bookmarks + resume positions
 │   └── about/              # About page
 ├── components/
 │   ├── layout/             # Navbar, Footer, Sidebar, MobileNav
@@ -214,12 +224,13 @@ src/
 │   ├── hadith/             # HadithCard, HadithChain, CollectionCard, HadithSearch
 │   ├── knowledge/          # ArticleView, BlockRenderer, VerseBlockView, HadithBlockView, SourceTagBadge
 │   ├── videos/             # VideoCard, VideoGrid, YouTubeEmbed, CategoryFilter
+│   ├── saved/              # SavedClient, SavedItemCard, ContinueSection
 │   ├── three/              # HeroScene3D, KaabaModel, MosqueScene, StarParticles
 │   ├── ui/                 # shadcn primitives
-│   └── shared/             # ThemeToggle, BookmarkButton, SearchBar, Breadcrumbs, ErrorBoundary
+│   └── shared/             # ThemeToggle, BookmarkButton, SaveSpotButton, SearchBar, Breadcrumbs, ErrorBoundary
 ├── config/                 # site.ts, scholars.ts, api.ts
 ├── lib/                    # Data layers (quran, hadith, youtube, knowledge, utils)
-├── hooks/                  # useBookmarks, useQuran, useYouTube
+├── hooks/                  # useBookmarks, useQuran, useYouTube, reading/hadith/article/video progress
 └── types/                  # TypeScript interfaces
 
 public/

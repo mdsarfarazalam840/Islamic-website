@@ -103,15 +103,18 @@ export function HadithCard({ hadith, index = 0 }: HadithCardProps) {
               toggleBookmark({
                 id: bookmarkId,
                 type: "hadith",
-                reference: `${hadith.reference.collection} ${hadith.hadithNumber}`,
+                reference: `${hadith.reference.collection} · Hadith ${hadith.hadithNumber}`,
                 text: hadith.english.slice(0, 100),
+                href: `/hadith/${hadith.collection}/${hadith.bookId}#hadith-${hadith.id}`,
               })
             }
             className={cn(
-              "rounded-lg p-1.5 transition-all",
+              // Hover-reveal is a desktop affordance only — touch devices never
+              // fire hover, so on mobile this stays visible.
+              "rounded-lg p-2 md:p-1.5 transition-all",
               isBookmarked(bookmarkId)
                 ? "text-gold-light bg-gold-dim/10"
-                : "text-muted-foreground hover:text-gold-light hover:bg-gold-dim/5 opacity-0 group-hover:opacity-100",
+                : "text-muted-foreground hover:text-gold-light hover:bg-gold-dim/5 md:opacity-0 md:group-hover:opacity-100",
             )}
             aria-label={isBookmarked(bookmarkId) ? "Remove bookmark" : "Bookmark"}
           >
@@ -119,7 +122,7 @@ export function HadithCard({ hadith, index = 0 }: HadithCardProps) {
           </button>
           <button
             onClick={handleCopy}
-            className="rounded-lg p-1.5 text-muted-foreground hover:text-gold-light hover:bg-gold-dim/5 opacity-0 group-hover:opacity-100 transition-all"
+            className="rounded-lg p-2 md:p-1.5 text-muted-foreground hover:text-gold-light hover:bg-gold-dim/5 md:opacity-0 md:group-hover:opacity-100 transition-all"
             aria-label="Copy hadith"
           >
             {copied ? <Check className="size-3.5 text-emerald" /> : <Copy className="size-3.5" />}

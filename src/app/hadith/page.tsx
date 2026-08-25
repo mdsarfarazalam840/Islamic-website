@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import { MessageSquareText } from "lucide-react"
 import { CollectionCard } from "@/components/hadith/CollectionCard"
 import { ContinueReadingHadith } from "@/components/hadith/ContinueReadingHadith"
+import { HadithReferenceSearch } from "@/components/hadith/HadithReferenceSearch"
 import { getCollections } from "@/lib/hadith/translations"
 
 export const metadata: Metadata = {
@@ -23,6 +24,8 @@ export default function HadithPage() {
       </div>
 
       <ContinueReadingHadith />
+
+      <HadithReferenceSearch />
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {collections.map((collection) => (

@@ -1,39 +1,82 @@
 "use client"
 
-import { useState, useCallback, useRef, useEffect } from "react"
+import { useState, useCallback, useRef, useEffect, useMemo } from "react"
 import { Search, Loader2, X, Filter } from "lucide-react"
 import Fuse from "fuse.js"
 import { HadithCard } from "./HadithCard"
+import {
+  HadithReferenceResults,
+  type HadithReferenceResolution,
+} from "./HadithReferenceResults"
 import { cn, assetPath } from "@/lib/utils"
 import { COLLECTION_DISPLAY_NAMES } from "@/lib/hadith/collections"
-import type { Hadith, HadithBook } from "@/types"
+import { parseHadithReference } from "@/lib/hadith/numberIndex"
+import { useDebounce } from "@/hooks/useDebounce"
+import type { Hadith, HadithBook, HadithCollectionId } from "@/types"
 
 interface HadithSearchProps {
   collectionId: string
   books: HadithBook[]
 }
 
+const MAX_TEXT_RESULTS = 50
+
 export function HadithSearch({ collectionId, books }: HadithSearchProps) {
   const [query, setQuery] = useState("")
-  const [results, setResults] = useState<Hadith[]>([])
-  const [loading, setLoading] = useState(false)
-  const [loadingData, setLoadingData] = useState(true)
-  const [searched, setSearched] = useState(false)
   const [selectedBook, setSelectedBook] = useState<number | null>(null)
-  const [fuse, setFuse] = useState<Fuse<Hadith> | null>(null)
-  const inputRef = useRef<HTMLInputElement>(null)
   const [showFilters, setShowFilters] = useState(false)
+  const inputRef = useRef<HTMLInputElement>(null)
 
-  useEffect(() => {
-    async function loadData() {
-      try {
-        const allHadiths: Hadith[] = []
-        for (const book of books) {
-          const res = await fetch(assetPath(`/data/hadith/${collectionId}/books/book-${book.id}.json`))
-          const data = await res.json()
-          const mapped: Hadith[] = data.map((h: any) => ({
+  // Keystroke-rate Fuse queries over thousands of hadiths are wasteful. Clearing
+  // the box skips the debounce so results disappear the moment it empties.
+  const debounced = useDebounce(query, 250)
+  const trimmed = query.trim() === "" ? "" : debounced.trim()
+
+  // A reference query ("1234", "Bukhari 1234") is answered from the number index
+  // alone, so the keyword search sits it out.
+  const reference = useMemo(() => parseHadithReference(trimmed), [trimmed])
+  const [referenceState, setReferenceState] = useState<HadithReferenceResolution | null>(null)
+
+  // Keyword results are stored against the query+book filter they belong to, so
+  // "which results are current" and "are we still loading" are both derived
+  // rather than tracked with extra state.
+  const textKey = !trimmed || reference ? null : `${trimmed} ${selectedBook ?? ""}`
+  const [textState, setTextState] = useState<{ key: string; results: Hadith[] } | null>(null)
+  const [textError, setTextError] = useState<{ key: string; message: string } | null>(null)
+
+  const fuseRef = useRef<Fuse<Hadith> | null>(null)
+  const loadRef = useRef<Promise<Fuse<Hadith>> | null>(null)
+
+  /**
+   * Build the full-text index on first keyword search rather than on mount.
+   * It needs every book file in the collection (~22 MB for Bukhari), which is a
+   * lot to spend on a reader who only wants to jump to a hadith number — the
+   * number index answers that in 34 KB.
+   */
+  const ensureTextIndex = useCallback((): Promise<Fuse<Hadith>> => {
+    if (fuseRef.current) return Promise.resolve(fuseRef.current)
+    if (loadRef.current) return loadRef.current
+
+    const collectionName =
+      COLLECTION_DISPLAY_NAMES[collectionId as HadithCollectionId] ?? collectionId
+
+    loadRef.current = (async () => {
+      const pages = await Promise.all(
+        books.map(async (book) => {
+          const res = await fetch(
+            assetPath(`/data/hadith/${collectionId}/books/book-${book.id}.json`),
+          )
+          if (!res.ok) throw new Error(`Failed to load book ${book.id}`)
+          return res.json()
+        }),
+      )
+
+      const allHadiths: Hadith[] = []
+      for (const page of pages) {
+        for (const h of page) {
+          allHadiths.push({
             id: `${collectionId}-${h.number}`,
-            collection: collectionId,
+            collection: collectionId as HadithCollectionId,
             bookId: h.bookId,
             bookName: h.bookName,
             chapterId: h.chapterId,
@@ -45,85 +88,98 @@ export function HadithSearch({ collectionId, books }: HadithSearchProps) {
             narrator: h.narrator,
             grade: h.grade,
             reference: {
-              collection: COLLECTION_DISPLAY_NAMES[collectionId as keyof typeof COLLECTION_DISPLAY_NAMES] ?? collectionId,
+              collection: collectionName,
               book: h.bookName,
               hadithNumber: h.number,
               bookNumber: h.bookId,
             },
             tags: [],
-          }))
-          allHadiths.push(...mapped)
+          })
         }
-        const f = new Fuse(allHadiths, {
-          keys: [
-            { name: "english", weight: 1 },
-            { name: "arabic", weight: 0.6 },
-            { name: "narrator", weight: 0.4 },
-            { name: "bookName", weight: 0.3 },
-          ],
-          threshold: 0.4,
-          distance: 100,
-          minMatchCharLength: 2,
-        })
-        setFuse(f)
-      } catch (err) {
-        console.error("Failed to load hadith data:", err)
-      } finally {
-        setLoadingData(false)
       }
-    }
-    loadData()
+
+      const fuse = new Fuse(allHadiths, {
+        keys: [
+          { name: "english", weight: 1 },
+          { name: "arabic", weight: 0.6 },
+          { name: "narrator", weight: 0.4 },
+          { name: "bookName", weight: 0.3 },
+        ],
+        threshold: 0.4,
+        distance: 100,
+        minMatchCharLength: 2,
+      })
+      fuseRef.current = fuse
+      return fuse
+    })()
+
+    loadRef.current.catch(() => {
+      // Let the next keyword search retry instead of caching the rejection.
+      loadRef.current = null
+    })
+    return loadRef.current
   }, [collectionId, books])
 
-  const handleSearch = useCallback(
-    (q: string) => {
-      setQuery(q)
-      if (!q.trim() || !fuse) {
-        if (!q.trim()) setResults([])
-        setSearched(false)
-        return
-      }
-      setLoading(true)
-      setSearched(true)
-      let raw = fuse.search(q.trim()).map((r) => r.item)
-      if (selectedBook) {
-        raw = raw.filter((h) => h.bookId === selectedBook)
-      }
-      setResults(raw.slice(0, 50))
-      setLoading(false)
-    },
-    [fuse, selectedBook],
-  )
+  useEffect(() => {
+    if (!textKey) return
+
+    let cancelled = false
+    ensureTextIndex()
+      .then((fuse) => {
+        if (cancelled) return
+        let raw = fuse.search(trimmed).map((r) => r.item)
+        if (selectedBook) raw = raw.filter((h) => h.bookId === selectedBook)
+        setTextState({ key: textKey, results: raw.slice(0, MAX_TEXT_RESULTS) })
+      })
+      .catch((err) => {
+        console.error("Failed to load hadith data:", err)
+        if (cancelled) return
+        setTextError({
+          key: textKey,
+          message: "Could not load the hadith text for this collection. Check your connection and try again.",
+        })
+      })
+
+    return () => {
+      cancelled = true
+    }
+  }, [textKey, trimmed, selectedBook, ensureTextIndex])
+
+  const results = textState?.key === textKey ? textState.results : []
+  const errorMessage = textError?.key === textKey ? textError.message : null
+  const searchingText = textKey !== null && textState?.key !== textKey && errorMessage === null
+
+  const referenceResolved = referenceState?.query === trimmed
+  // A number the index doesn't know — say that, rather than falling through to a
+  // keyword "no results" message that misdescribes the problem.
+  const missingReference = !!reference && referenceResolved && referenceState.count === 0
 
   const clearSearch = () => {
     setQuery("")
-    setResults([])
-    setSearched(false)
     setSelectedBook(null)
     inputRef.current?.focus()
   }
 
-  const filteredBooks = selectedBook
-    ? books.filter((b) => b.id === selectedBook)
-    : books
-
   return (
     <div className="space-y-4">
       <div className="flex items-center gap-2">
-        <div className="relative flex-1">
+        <div className="relative flex-1 min-w-0">
           <Search className="absolute left-3 top-1/2 -translate-y-1/2 size-4 text-muted-foreground" />
           <input
             ref={inputRef}
             type="search"
             value={query}
-            onChange={(e) => handleSearch(e.target.value)}
-            placeholder={loadingData ? "Loading hadith data..." : "Search hadith by keyword..."}
-            disabled={loadingData}
-            className="w-full rounded-xl border border-border/20 bg-card/40 px-10 py-3 text-sm text-foreground placeholder:text-muted-foreground outline-none focus:border-gold-dim/40 transition-colors disabled:opacity-50"
-            aria-label="Search hadith"
+            onChange={(e) => setQuery(e.target.value)}
+            placeholder="Search by keyword or hadith number…"
+            className="w-full rounded-xl border border-border/20 bg-card/40 px-10 py-3 text-sm text-foreground placeholder:text-muted-foreground outline-none focus:border-gold-dim/40 transition-colors"
+            aria-label="Search hadith by keyword or number"
           />
           {query && (
-            <button onClick={clearSearch} className="absolute right-3 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground">
+            <button
+              onClick={clearSearch}
+              className="absolute right-3 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground"
+              aria-label="Clear search"
+            >
               <X className="size-4" />
             </button>
           )}
@@ -131,12 +187,13 @@ export function HadithSearch({ collectionId, books }: HadithSearchProps) {
         <button
           onClick={() => setShowFilters(!showFilters)}
           className={cn(
-            "rounded-xl border p-3 transition-all",
+            "shrink-0 rounded-xl border p-3 transition-all",
             showFilters || selectedBook
               ? "border-gold-dim/30 bg-gold-dim/10 text-gold-light"
               : "border-border/20 bg-card/40 text-muted-foreground hover:text-gold-dim",
           )}
-          aria-label="Filter"
+          aria-label="Filter by book"
+          aria-pressed={showFilters}
         >
           <Filter className="size-4" />
         </button>
@@ -147,7 +204,7 @@ export function HadithSearch({ collectionId, books }: HadithSearchProps) {
           <p className="text-xs font-medium text-muted-foreground mb-2 uppercase tracking-wider">Book Filter</p>
           <div className="flex flex-wrap gap-1.5 max-h-40 overflow-y-auto">
             <button
-              onClick={() => { setSelectedBook(null); if (query) handleSearch(query) }}
+              onClick={() => setSelectedBook(null)}
               className={cn(
                 "rounded-lg px-2.5 py-1 text-xs font-medium transition-all",
                 !selectedBook
@@ -160,36 +217,56 @@ export function HadithSearch({ collectionId, books }: HadithSearchProps) {
             {books.map((book) => (
               <button
                 key={book.id}
-                onClick={() => { setSelectedBook(book.id); if (query) handleSearch(query) }}
+                onClick={() => setSelectedBook(book.id)}
                 className={cn(
-                  "rounded-lg px-2.5 py-1 text-xs font-medium transition-all",
+                  "max-w-full truncate rounded-lg px-2.5 py-1 text-xs font-medium transition-all",
                   selectedBook === book.id
                     ? "bg-gold-dim/20 text-gold-light border border-gold-dim/20"
                     : "bg-space-mid/20 text-muted-foreground hover:text-gold-dim border border-transparent",
                 )}
               >
-                {book.id}. {book.name.length > 25 ? book.name.slice(0, 25) + "..." : book.name}
+                {book.id}. {book.name}
               </button>
             ))}
           </div>
         </div>
       )}
 
-      {loadingData && (
-        <div className="flex items-center justify-center gap-3 py-16">
-          <Loader2 className="size-5 animate-spin text-gold-light" />
-          <p className="text-sm text-muted-foreground">Loading hadith data...</p>
-        </div>
-      )}
+      <HadithReferenceResults
+        query={trimmed}
+        scopeCollection={collectionId as HadithCollectionId}
+        onResolve={setReferenceState}
+      />
 
-      {!loadingData && loading && (
+      {reference && !referenceResolved && (
         <div className="flex items-center justify-center gap-3 py-8">
           <Loader2 className="size-5 animate-spin text-gold-light" />
-          <p className="text-sm text-muted-foreground">Searching...</p>
+          <p className="text-sm text-muted-foreground">Looking up hadith {reference.number}…</p>
         </div>
       )}
 
-      {!loadingData && !loading && searched && results.length === 0 && (
+      {missingReference && (
+        <div className="flex flex-col items-center justify-center py-16 text-center">
+          <Search className="size-12 text-muted-foreground/40 mb-4" />
+          <p className="text-lg font-medium text-foreground">No hadith numbered {reference.number}</p>
+          <p className="text-sm text-muted-foreground">Check the number, or search by keyword instead.</p>
+        </div>
+      )}
+
+      {searchingText && (
+        <div className="flex items-center justify-center gap-3 py-8">
+          <Loader2 className="size-5 animate-spin text-gold-light" />
+          <p className="text-sm text-muted-foreground">Searching hadith text…</p>
+        </div>
+      )}
+
+      {errorMessage && (
+        <p className="rounded-xl border border-border/20 bg-card/40 p-4 text-sm text-muted-foreground">
+          {errorMessage}
+        </p>
+      )}
+
+      {textKey && !searchingText && !errorMessage && results.length === 0 && (
         <div className="flex flex-col items-center justify-center py-16 text-center">
           <Search className="size-12 text-muted-foreground/40 mb-4" />
           <p className="text-lg font-medium text-foreground">No hadith found</p>
@@ -197,10 +274,11 @@ export function HadithSearch({ collectionId, books }: HadithSearchProps) {
         </div>
       )}
 
-      {!loadingData && results.length > 0 && (
+      {results.length > 0 && (
         <div className="space-y-2">
           <p className="text-xs text-muted-foreground">
             Found {results.length} result{results.length !== 1 ? "s" : ""}
+            {results.length === MAX_TEXT_RESULTS ? " (showing the closest matches)" : ""}
           </p>
           <div className="space-y-3">
             {results.map((hadith, i) => (
@@ -210,11 +288,15 @@ export function HadithSearch({ collectionId, books }: HadithSearchProps) {
         </div>
       )}
 
-      {!loadingData && !searched && (
+      {!trimmed && (
         <div className="flex flex-col items-center justify-center py-16 text-center">
           <Search className="size-12 text-muted-foreground/20 mb-4" />
           <p className="text-muted-foreground text-sm">
-            Search across {books.length} books and {books.reduce((s, b) => s + b.hadithCount, 0).toLocaleString()} hadiths
+            Search across {books.length} books and{" "}
+            {books.reduce((s, b) => s + b.hadithCount, 0).toLocaleString()} hadiths
+          </p>
+          <p className="text-muted-foreground/70 text-xs mt-1">
+            Type a hadith number to jump straight to it.
           </p>
         </div>
       )}

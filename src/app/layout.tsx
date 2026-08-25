@@ -80,7 +80,9 @@ export default function RootLayout({
           </a>
           <Navbar />
           <ErrorBoundary>
-            <main id="main-content" className="flex-1 pt-16 pb-16 md:pb-0" role="main">
+            {/* Nav clearance lives on the Footer, which is what actually ends
+                the page — see Footer.tsx. */}
+            <main id="main-content" className="flex-1 pt-16" role="main">
               {children}
             </main>
           </ErrorBoundary>

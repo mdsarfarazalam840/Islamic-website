@@ -12,6 +12,7 @@ import { getAllSurahs } from "@/lib/quran/surahs"
 import { cn } from "@/lib/utils"
 import { useFontSize, getFontSizeClass } from "@/hooks/useFontSize"
 import { saveReadingProgress } from "@/hooks/useReadingProgress"
+import { SaveQuranSpotButton } from "@/components/shared/SaveSpotButton"
 import { useAudioPlayer } from "./AudioPlayerContext"
 
 interface QuranReaderProps {
@@ -127,6 +128,8 @@ export function QuranReader({ surah, ayahs }: QuranReaderProps) {
     <div className="grid grid-cols-1 lg:grid-cols-[280px_1fr_260px] gap-6">
       {/* Left Panel — Navigation & Surah Info */}
       <div className="space-y-4 lg:sticky lg:top-24 lg:self-start lg:order-1 order-1">
+        <SaveQuranSpotButton surahNumber={surah.number} surahName={surah.name} />
+
         <div className="rounded-xl border border-gold-dim/15 bg-card/50 p-4">
           <div className="flex items-center gap-2 mb-3">
             <BookOpen className="size-4 text-gold-light" />

@@ -80,6 +80,7 @@ export default async function BookPage({ params }: Props) {
       <HadithBookClient
         collection={collection as HadithCollectionId}
         bookId={Number(bookId)}
+        bookName={book.name}
         totalHadiths={book.hadithCount}
       />
 
