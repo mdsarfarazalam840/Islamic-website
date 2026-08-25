@@ -6,6 +6,7 @@ import type {
   KnowledgeCategory,
 } from "@/types"
 import { KNOWLEDGE_CATEGORY_IDS } from "./categories"
+import { compareArticles } from "./order"
 
 // One JSON file per article. Both this loader and the Pagefind indexer
 // (scripts/build-pagefind-index.mjs) read this directory directly via `fs` —
@@ -50,6 +51,12 @@ export function getAllArticles(): KnowledgeArticle[] {
     articles.push(JSON.parse(raw) as KnowledgeArticle)
   }
   validate(articles)
+  // Sort once, here, rather than at each call site. getArticlesByCategory,
+  // getAllArticleMeta and getArticleMetaByCategory are all pure derivations of
+  // this cached array, so they inherit the order and cannot drift out of sync.
+  // getRelatedArticles is the deliberate exception: it indexes by slug to
+  // preserve the author's relatedSlugs order.
+  articles.sort(compareArticles)
   articlesCache = articles
   return articles
 }

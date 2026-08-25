@@ -1,0 +1,72 @@
+{
+  "slug": "story-owner-of-two-gardens",
+  "category": "quranic",
+  "title": {
+    "en": "The Owner of the Two Gardens",
+    "hi": "दो बाग़ों का मालिक",
+    "ur": "دو باغوں کا مالک"
+  },
+  "summary": {
+    "en": "A parable in Surah Al-Kahf of two men: one blessed with two flourishing gardens who grew arrogant and denied the Hereafter, and his believing companion who reminded him of Allah. The gardens were destroyed overnight — a lesson that all blessings belong to Allah.",
+    "hi": "सूरह अल-कहफ़ में दो व्यक्तियों का एक दृष्टांत: एक जिसे दो फलते-फूलते बाग़ मिले जो घमंडी हो गया और आख़िरत का इनकार किया, और उसका ईमान वाला साथी जिसने उसे अल्लाह की याद दिलाई। बाग़ रातों-रात नष्ट हो गए — यह शिक्षा कि सभी नेमतें अल्लाह की हैं।",
+    "ur": "سورۃ الکہف میں دو آدمیوں کی ایک تمثیل: ایک جسے دو سرسبز باغ ملے جو متکبر ہو گیا اور آخرت کا انکار کیا، اور اس کا مومن ساتھی جس نے اسے اللہ کی یاد دلائی۔ باغ راتوں رات تباہ ہو گئے — یہ سبق کہ تمام نعمتیں اللہ کی ہیں۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "In Surah Al-Kahf, Allah gives a parable of two men. To one He gave two gardens of grapevines bordered with palms and crops, with a river flowing through — abundant, thriving, lacking nothing." },
+      { "kind": "verse", "surah": 18, "ayah": 32, "note": "A man given two gardens of grapevines, surrounded by date-palms, with cultivated land between them." },
+      { "kind": "p", "text": "Proud of his wealth, he boasted to his believing companion, denying that the Hour would ever come and imagining that even if returned to his Lord he would find something better." },
+      { "kind": "verse", "surah": 18, "ayah": 35, "note": "He entered his garden wronging himself, saying, 'I do not think this will ever perish.'" },
+      { "kind": "heading", "level": 2, "text": "The believer's reminder" },
+      { "kind": "p", "text": "His companion rebuked him: how can you disbelieve in the One who created you from dust, then a drop, then fashioned you a man? The believer wished he had said, upon entering his garden, 'Whatever Allah wills — there is no power except with Allah.'" },
+      { "kind": "verse", "surah": 18, "ayah": 39, "note": "'Why, when you entered your garden, did you not say: what Allah wills; there is no power except in Allah?'" },
+      { "kind": "heading", "level": 2, "text": "The gardens destroyed" },
+      { "kind": "p", "text": "Then ruin encompassed the fruit, and he was left wringing his hands over all he had spent, the trellises fallen upon their supports. He said, 'Would that I had not associated anyone with my Lord.' No party could help him, for all true power belongs to Allah." },
+      { "kind": "verse", "surah": 18, "ayah": 42, "note": "His fruit was encircled by ruin; he wrung his hands, saying, 'If only I had not associated anyone with my Lord.'" },
+      { "kind": "list", "items": [
+        { "text": "Wealth and provision are a test, not a sign of Allah's pleasure." },
+        { "text": "Saying 'Ma sha Allah, la quwwata illa billah' guards blessings against pride." },
+        { "text": "The true protector and the best reward are with Allah alone." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "सूरह अल-कहफ़ में, अल्लाह दो व्यक्तियों का एक दृष्टांत देता है। एक को उसने अंगूर की बेलों के दो बाग़ दिए, जिनके किनारे खजूर और बीच में खेती थी, और उनमें से एक नदी बहती थी — भरपूर, फलता-फूलता, किसी चीज़ की कमी नहीं।" },
+      { "kind": "verse", "surah": 18, "ayah": 32, "note": "एक व्यक्ति को अंगूर के दो बाग़ दिए गए, खजूरों से घिरे, और उनके बीच खेती की ज़मीन।" },
+      { "kind": "p", "text": "अपने धन पर घमंड करते हुए, उसने अपने ईमान वाले साथी से डींग मारी, इनकार करते हुए कि क़यामत कभी आएगी, और यह कल्पना करते हुए कि अगर अपने रब की ओर लौटाया भी गया तो उससे बेहतर पाएगा।" },
+      { "kind": "verse", "surah": 18, "ayah": 35, "note": "वह अपने बाग़ में अपने ऊपर अत्याचार करते हुए घुसा, कहते हुए, 'मैं नहीं समझता कि यह कभी नष्ट होगा।'" },
+      { "kind": "heading", "level": 2, "text": "ईमान वाले की याददिहानी" },
+      { "kind": "p", "text": "उसके साथी ने उसे झिड़का: तू उसका इनकार कैसे करता है जिसने तुझे मिट्टी से, फिर एक बूँद से बनाया, फिर तुझे एक पूरा आदमी गढ़ा? ईमान वाले ने चाहा कि काश उसने अपने बाग़ में घुसते समय कहा होता, 'जो अल्लाह चाहे — कोई शक्ति नहीं सिवाय अल्लाह के।'" },
+      { "kind": "verse", "surah": 18, "ayah": 39, "note": "'तूने अपने बाग़ में घुसते समय यह क्यों न कहा: जो अल्लाह चाहे; कोई शक्ति नहीं सिवाय अल्लाह के?'" },
+      { "kind": "heading", "level": 2, "text": "बाग़ नष्ट हो गए" },
+      { "kind": "p", "text": "फिर विनाश ने फल को घेर लिया, और वह अपने ख़र्च किए पर हाथ मलता रह गया, जबकि मंडप अपने खंभों पर गिर चुके थे। उसने कहा, 'काश मैंने अपने रब के साथ किसी को साझी न बनाया होता।' कोई गिरोह उसकी मदद न कर सका, क्योंकि सारी सच्ची शक्ति अल्लाह की है।" },
+      { "kind": "verse", "surah": 18, "ayah": 42, "note": "उसका फल विनाश से घिर गया; वह हाथ मलते हुए बोला, 'काश मैंने अपने रब के साथ किसी को साझी न बनाया होता।'" },
+      { "kind": "list", "items": [
+        { "text": "धन और रोज़ी एक परीक्षा है, अल्लाह की प्रसन्नता की निशानी नहीं।" },
+        { "text": "'माशाअल्लाह, ला क़ुव्वता इल्ला बिल्लाह' कहना नेमतों को घमंड से बचाता है।" },
+        { "text": "सच्चा रक्षक और सर्वश्रेष्ठ प्रतिफल केवल अल्लाह के पास है।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "سورۃ الکہف میں، اللہ دو آدمیوں کی ایک تمثیل دیتا ہے۔ ایک کو اس نے انگور کی بیلوں کے دو باغ دیے، جن کے کنارے کھجوریں اور بیچ میں کھیتی تھی، اور اُن میں سے ایک نہر بہتی تھی — بھرپور، سرسبز، کسی چیز کی کمی نہیں۔" },
+      { "kind": "verse", "surah": 18, "ayah": 32, "note": "ایک آدمی کو انگور کے دو باغ دیے گئے، کھجوروں سے گھرے، اور اُن کے بیچ کھیتی کی زمین۔" },
+      { "kind": "p", "text": "اپنی دولت پر تکبر کرتے ہوئے، اس نے اپنے مومن ساتھی سے فخر جتایا، انکار کرتے ہوئے کہ قیامت کبھی آئے گی، اور یہ خیال کرتے ہوئے کہ اگر اپنے رب کی طرف لوٹایا بھی گیا تو اس سے بہتر پائے گا۔" },
+      { "kind": "verse", "surah": 18, "ayah": 35, "note": "وہ اپنے باغ میں اپنے آپ پر ظلم کرتے ہوئے داخل ہوا، کہتے ہوئے، 'میں نہیں سمجھتا کہ یہ کبھی فنا ہوگا۔'" },
+      { "kind": "heading", "level": 2, "text": "مومن کی یاد دہانی" },
+      { "kind": "p", "text": "اس کے ساتھی نے اسے جھڑکا: تو اُس کا انکار کیسے کرتا ہے جس نے تجھے مٹی سے، پھر ایک بوند سے بنایا، پھر تجھے ایک پورا آدمی گھڑا؟ مومن نے چاہا کہ کاش اس نے اپنے باغ میں داخل ہوتے وقت کہا ہوتا، 'جو اللہ چاہے — کوئی طاقت نہیں سوائے اللہ کے۔'" },
+      { "kind": "verse", "surah": 18, "ayah": 39, "note": "'تو نے اپنے باغ میں داخل ہوتے وقت یہ کیوں نہ کہا: جو اللہ چاہے؛ کوئی طاقت نہیں سوائے اللہ کے؟'" },
+      { "kind": "heading", "level": 2, "text": "باغ تباہ ہو گئے" },
+      { "kind": "p", "text": "پھر تباہی نے پھل کو گھیر لیا، اور وہ اپنے خرچ کیے پر ہاتھ ملتا رہ گیا، جبکہ ٹٹیاں اپنے ستونوں پر گر چکی تھیں۔ اس نے کہا، 'کاش میں نے اپنے رب کے ساتھ کسی کو شریک نہ کیا ہوتا۔' کوئی گروہ اس کی مدد نہ کر سکا، کیونکہ ساری سچی طاقت اللہ کی ہے۔" },
+      { "kind": "verse", "surah": 18, "ayah": 42, "note": "اس کا پھل تباہی سے گھر گیا؛ وہ ہاتھ ملتے ہوئے بولا، 'کاش میں نے اپنے رب کے ساتھ کسی کو شریک نہ کیا ہوتا۔'" },
+      { "kind": "list", "items": [
+        { "text": "دولت اور رزق ایک آزمائش ہے، اللہ کی رضا کی نشانی نہیں۔" },
+        { "text": "'ماشاءاللہ، لا قوۃ الا باللہ' کہنا نعمتوں کو تکبر سے بچاتا ہے۔" },
+        { "text": "سچا محافظ اور بہترین اجر صرف اللہ کے پاس ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "18:32-44" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["surah-al-kahf", "story-qarun", "concept-tawakkul"]
+}

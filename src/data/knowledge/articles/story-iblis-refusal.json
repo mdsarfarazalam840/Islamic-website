@@ -1,0 +1,68 @@
+{
+  "slug": "story-iblis-refusal",
+  "category": "quranic",
+  "featured": false,
+  "title": {
+    "en": "The Refusal of Iblīs",
+    "hi": "इबलीस का इनकार",
+    "ur": "ابلیس کا انکار"
+  },
+  "summary": {
+    "en": "When Allah created Adam and commanded the angels to prostrate to him, all obeyed except Iblīs, who refused out of pride, claiming he was better because he was made of fire and Adam of clay. His arrogance cast him out of Allah's mercy — the first sin, and the root of every act of pride against Allah's command.",
+    "hi": "जब अल्लाह ने आदम को रचा और फ़रिश्तों को उन्हें सज्दा करने का हुक्म दिया, इबलीस के सिवा सब ने मान लिया, जिसने घमंड से इनकार किया, यह दावा करते हुए कि वह बेहतर है क्योंकि वह आग से बना और आदम मिट्टी से। उसके अहंकार ने उसे अल्लाह की रहमत से बाहर कर दिया — पहला गुनाह, और अल्लाह के हुक्म के विरुद्ध हर घमंड के कर्म की जड़।",
+    "ur": "جب اللہ نے آدم کو پیدا کیا اور فرشتوں کو اُنہیں سجدہ کرنے کا حکم دیا، ابلیس کے سوا سب نے مان لیا، جس نے تکبر سے انکار کیا، یہ دعویٰ کرتے ہوئے کہ وہ بہتر ہے کیونکہ وہ آگ سے بنا اور آدم مٹی سے۔ اُس کے تکبر نے اُسے اللہ کی رحمت سے باہر کر دیا — پہلا گناہ، اور اللہ کے حکم کے خلاف ہر تکبر کے عمل کی جڑ۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "When Allah fashioned Adam and breathed into him of His spirit, He commanded the angels to prostrate before him in honour. They all fell down in obedience — but Iblīs, who was of the jinn, held back. He alone refused, and in that refusal lay the first act of rebellion against Allah in creation." },
+      { "kind": "verse", "surah": 2, "ayah": 34, "note": "'And when We said to the angels, Prostrate before Adam, they prostrated — except Iblīs. He refused and was arrogant, and became of the disbelievers.'" },
+      { "kind": "heading", "level": 2, "text": "The claim of the arrogant" },
+      { "kind": "p", "text": "Asked why he did not prostrate, Iblīs did not plead ignorance — he argued. He judged himself superior to Adam, weighing fire against clay and deciding he was the nobler substance. It was not a failure of knowledge but a disease of pride: he knew Allah's command and set his own reasoning above it." },
+      { "kind": "verse", "surah": 7, "ayah": 12, "note": "'He said: I am better than him. You created me from fire and created him from clay.'" },
+      { "kind": "heading", "level": 2, "text": "Cast out, and a respite granted" },
+      { "kind": "p", "text": "For his arrogance Iblīs was expelled and cursed. He then asked for respite until the Day of Resurrection and vowed to lead the children of Adam astray from every direction — except, Allah affirmed, the sincere servants over whom he would have no power. Thus the enmity between Satan and humanity was set." },
+      { "kind": "verse", "surah": 15, "ayah": 39, "note": "'He said: My Lord, because You have put me in error, I will surely make disobedience attractive to them on earth, and I will mislead them all.'" },
+      { "kind": "list", "items": [
+        { "text": "The first sin was pride — refusing Allah's command while thinking oneself superior." },
+        { "text": "Knowledge without humility is no protection; Iblīs knew Allah yet disobeyed." },
+        { "text": "Satan's power reaches only those who leave sincerity; the devoted are protected." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "जब अल्लाह ने आदम को बनाया और उनमें अपनी रूह फूँकी, उसने फ़रिश्तों को हुक्म दिया कि सम्मान में उनके आगे सज्दा करें। सब आज्ञापालन में झुक गए — पर इबलीस, जो जिन्न में से था, रुक गया। केवल उसने इनकार किया, और उस इनकार में सृष्टि में अल्लाह के विरुद्ध पहला विद्रोह का कर्म था।" },
+      { "kind": "verse", "surah": 2, "ayah": 34, "note": "'और जब हमने फ़रिश्तों से कहा, आदम को सज्दा करो, उन्होंने सज्दा किया — सिवाय इबलीस के। उसने इनकार किया और घमंड किया, और इनकार करने वालों में से हो गया।'" },
+      { "kind": "heading", "level": 2, "text": "घमंडी का दावा" },
+      { "kind": "p", "text": "पूछे जाने पर कि उसने सज्दा क्यों न किया, इबलीस ने अनजान होने का बहाना न किया — उसने बहस की। उसने ख़ुद को आदम से श्रेष्ठ ठहराया, आग को मिट्टी के मुक़ाबले तौलते हुए और यह तय करते हुए कि वह अधिक श्रेष्ठ पदार्थ है। यह ज्ञान की कमी नहीं बल्कि घमंड की बीमारी थी: वह अल्लाह के हुक्म को जानता था और अपनी सोच को उससे ऊपर रखा।" },
+      { "kind": "verse", "surah": 7, "ayah": 12, "note": "'उसने कहा: मैं उससे बेहतर हूँ। तूने मुझे आग से बनाया और उसे मिट्टी से बनाया।'" },
+      { "kind": "heading", "level": 2, "text": "निकाला गया, और एक मोहलत दी गई" },
+      { "kind": "p", "text": "अपने घमंड के कारण इबलीस निकाला और धिक्कारा गया। फिर उसने क़यामत के दिन तक मोहलत माँगी और क़सम खाई कि आदम की संतान को हर ओर से भटकाएगा — सिवाय, अल्लाह ने पुष्टि की, उन सच्चे बंदों के जिन पर उसका कोई ज़ोर न होगा। इस तरह शैतान और मानवता के बीच शत्रुता तय हुई।" },
+      { "kind": "verse", "surah": 15, "ayah": 39, "note": "'उसने कहा: मेरे रब, चूँकि तूने मुझे गुमराही में डाला, मैं ज़रूर उनके लिए धरती में नाफ़रमानी को सुंदर बना दूँगा, और उन सब को भटका दूँगा।'" },
+      { "kind": "list", "items": [
+        { "text": "पहला गुनाह घमंड था — अल्लाह के हुक्म से इनकार, ख़ुद को श्रेष्ठ समझते हुए।" },
+        { "text": "विनम्रता के बिना ज्ञान कोई सुरक्षा नहीं; इबलीस अल्लाह को जानता था फिर भी नाफ़रमानी की।" },
+        { "text": "शैतान का ज़ोर केवल उन तक पहुँचता है जो निष्ठा छोड़ते हैं; समर्पित लोग सुरक्षित हैं।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "جب اللہ نے آدم کو بنایا اور اُن میں اپنی روح پھونکی، اُس نے فرشتوں کو حکم دیا کہ عزت میں اُن کے آگے سجدہ کریں۔ سب اطاعت میں جھک گئے — مگر ابلیس، جو جنوں میں سے تھا، رک گیا۔ صرف اُس نے انکار کیا، اور اُس انکار میں تخلیق میں اللہ کے خلاف پہلا بغاوت کا عمل تھا۔" },
+      { "kind": "verse", "surah": 2, "ayah": 34, "note": "'اور جب ہم نے فرشتوں سے کہا، آدم کو سجدہ کرو، اُنہوں نے سجدہ کیا — سوائے ابلیس کے۔ اُس نے انکار کیا اور تکبر کیا، اور انکار کرنے والوں میں سے ہو گیا۔'" },
+      { "kind": "heading", "level": 2, "text": "متکبر کا دعویٰ" },
+      { "kind": "p", "text": "پوچھے جانے پر کہ اُس نے سجدہ کیوں نہ کیا، ابلیس نے ناواقفیت کا بہانہ نہ کیا — اُس نے بحث کی۔ اُس نے خود کو آدم سے برتر ٹھہرایا، آگ کو مٹی کے مقابلے تولتے ہوئے اور یہ طے کرتے ہوئے کہ وہ زیادہ شریف مادہ ہے۔ یہ علم کی کمی نہیں بلکہ تکبر کی بیماری تھی: وہ اللہ کے حکم کو جانتا تھا اور اپنی سوچ کو اُس سے اوپر رکھا۔" },
+      { "kind": "verse", "surah": 7, "ayah": 12, "note": "'اُس نے کہا: میں اُس سے بہتر ہوں۔ تُو نے مجھے آگ سے بنایا اور اُسے مٹی سے بنایا۔'" },
+      { "kind": "heading", "level": 2, "text": "نکالا گیا، اور ایک مہلت دی گئی" },
+      { "kind": "p", "text": "اپنے تکبر کے سبب ابلیس نکالا اور لعنت کیا گیا۔ پھر اُس نے قیامت کے دن تک مہلت مانگی اور قسم کھائی کہ آدم کی اولاد کو ہر طرف سے بہکائے گا — سوائے، اللہ نے تصدیق کی، اُن سچے بندوں کے جن پر اُس کا کوئی زور نہ ہوگا۔ اِس طرح شیطان اور انسانیت کے درمیان دشمنی طے ہوئی۔" },
+      { "kind": "verse", "surah": 15, "ayah": 39, "note": "'اُس نے کہا: میرے رب، چونکہ تُو نے مجھے گمراہی میں ڈالا، میں ضرور اُن کے لیے زمین میں نافرمانی کو خوبصورت بنا دوں گا، اور اُن سب کو بہکا دوں گا۔'" },
+      { "kind": "list", "items": [
+        { "text": "پہلا گناہ تکبر تھا — اللہ کے حکم سے انکار، خود کو برتر سمجھتے ہوئے۔" },
+        { "text": "عاجزی کے بغیر علم کوئی حفاظت نہیں؛ ابلیس اللہ کو جانتا تھا پھر بھی نافرمانی کی۔" },
+        { "text": "شیطان کا زور صرف اُن تک پہنچتا ہے جو خلوص چھوڑتے ہیں؛ پُرعزم لوگ محفوظ ہیں۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "2:34" },
+    { "type": "quran", "ref": "7:11-18" },
+    { "type": "quran", "ref": "15:28-42" }
+  ],
+  "relatedSlugs": ["prophet-adam", "concept-shirk", "surah-an-nas"]
+}

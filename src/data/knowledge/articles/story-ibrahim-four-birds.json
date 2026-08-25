@@ -1,0 +1,64 @@
+{
+  "slug": "story-ibrahim-four-birds",
+  "category": "quranic",
+  "title": {
+    "en": "Ibrahim and the Four Birds",
+    "hi": "इबराहीम और चार पक्षी",
+    "ur": "ابراہیم اور چار پرندے"
+  },
+  "summary": {
+    "en": "Ibrahim asked his Lord to show him how He gives life to the dead — not from doubt, but to settle his heart. Allah told him to take four birds, tame them, then place a part of each on separate hills and call them; they came flying back to him alive. A demonstration that Allah is Almighty and All-Wise.",
+    "hi": "इबराहीम ने अपने रब से माँगा कि उसे दिखाए कि वह मुर्दों को कैसे ज़िंदा करता है — शक से नहीं, बल्कि दिल के इत्मीनान के लिए। अल्लाह ने कहा कि चार पक्षी लो, उन्हें सिखाओ, फिर हर एक का एक हिस्सा अलग-अलग पहाड़ों पर रखो और उन्हें बुलाओ; वे ज़िंदा उड़ते हुए उसके पास लौट आए। इसका प्रमाण कि अल्लाह सर्वशक्तिमान और हिकमत वाला है।",
+    "ur": "ابراہیم نے اپنے رب سے مانگا کہ اسے دکھائے کہ وہ مُردوں کو کیسے زندہ کرتا ہے — شک سے نہیں، بلکہ دل کے اطمینان کے لیے۔ اللہ نے کہا کہ چار پرندے لو، انہیں سدھاؤ، پھر ہر ایک کا ایک حصہ الگ الگ پہاڑوں پر رکھو اور انہیں بلاؤ؛ وہ زندہ اڑتے ہوئے اس کے پاس لوٹ آئے۔ اس کا ثبوت کہ اللہ غالب اور حکمت والا ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Ibrahim (peace be upon him), the intimate friend of Allah, asked his Lord to show him with his own eyes how He restores life to the dead. Allah asked, 'Do you not believe?' — and Ibrahim answered that he did, but wished his heart to be fully at rest." },
+      { "kind": "verse", "surah": 2, "ayah": 260, "note": "Ibrahim asked to be shown how Allah revives the dead. Told to take four birds, tame them, place a part on each hill, then call — they came flying. 'Know that Allah is Almighty, All-Wise.'" },
+      { "kind": "heading", "level": 2, "text": "A believer's request" },
+      { "kind": "p", "text": "His question was not the doubt of a denier but the longing of faith to move from believing to seeing. The Prophet Muhammad ﷺ later remarked that we have more right to that longing than Ibrahim — honouring, not faulting, his request." },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 3372, "note": "The Prophet ﷺ said: 'We are more entitled to doubt than Ibrahim,' when he asked to be shown how the dead are given life — a statement of humility, affirming Ibrahim's faith." },
+      { "kind": "heading", "level": 2, "text": "The birds return" },
+      { "kind": "p", "text": "Allah instructed him to take four birds, draw them close and make them familiar to him, then place a portion of each upon separate hills. When Ibrahim called out, the scattered parts rejoined and the birds came rushing back to him, alive — a living proof of the resurrection witnessed by the friend of Allah." },
+      { "kind": "list", "items": [
+        { "text": "Seeking certainty of heart is part of faith, not opposed to it." },
+        { "text": "Allah gives life to the dead by His command; the resurrection is real and near to His power." },
+        { "text": "Even the greatest prophets loved to have their hearts set at ease by clear signs." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "इबराहीम (उन पर शांति हो), अल्लाह के घनिष्ठ मित्र, ने अपने रब से माँगा कि उन्हें अपनी आँखों से दिखाए कि वह मुर्दों को कैसे ज़िंदा करता है। अल्लाह ने पूछा, 'क्या तुम यक़ीन नहीं रखते?' — और इबराहीम ने कहा कि रखते हैं, पर चाहते हैं कि दिल पूरी तरह चैन पा जाए।" },
+      { "kind": "verse", "surah": 2, "ayah": 260, "note": "इबराहीम ने माँगा कि दिखाया जाए अल्लाह मुर्दों को कैसे ज़िंदा करता है। कहा गया चार पक्षी लो, सिखाओ, हर पहाड़ पर एक हिस्सा रखो, फिर बुलाओ — वे उड़ते आए। 'जान लो कि अल्लाह ग़ालिब, हिकमत वाला है।'" },
+      { "kind": "heading", "level": 2, "text": "एक मोमिन की दरख़्वास्त" },
+      { "kind": "p", "text": "उनका सवाल इनकारी का शक न था बल्कि ईमान की वह चाहत थी कि मानने से देखने की ओर बढ़े। नबी मुहम्मद ﷺ ने बाद में फ़रमाया कि उस चाहत का हम इबराहीम से ज़्यादा हक़ रखते हैं — उनकी दरख़्वास्त का सम्मान करते हुए, दोष नहीं।" },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 3372, "note": "नबी ﷺ ने फ़रमाया: 'हम इबराहीम से ज़्यादा शक का हक़ रखते हैं,' जब उन्होंने माँगा कि दिखाया जाए मुर्दे कैसे ज़िंदा किए जाते हैं — यह विनम्रता का कथन है, इबराहीम के ईमान की पुष्टि करता।" },
+      { "kind": "heading", "level": 2, "text": "पक्षी लौटते हैं" },
+      { "kind": "p", "text": "अल्लाह ने उन्हें हुक्म दिया कि चार पक्षी लें, उन्हें क़रीब करें और अपने से मानूस बनाएँ, फिर हर एक का एक हिस्सा अलग-अलग पहाड़ों पर रखें। जब इबराहीम ने पुकारा, बिखरे हिस्से फिर जुड़ गए और पक्षी ज़िंदा दौड़ते हुए उनके पास लौट आए — पुनरुत्थान का जीवित प्रमाण जो अल्लाह के मित्र ने देखा।" },
+      { "kind": "list", "items": [
+        { "text": "दिल का यक़ीन तलाशना ईमान का हिस्सा है, उसके विरुद्ध नहीं।" },
+        { "text": "अल्लाह अपने हुक्म से मुर्दों को ज़िंदा करता है; पुनरुत्थान सच है और उसकी क़ुदरत के क़रीब।" },
+        { "text": "बड़े से बड़े पैगंबर भी चाहते थे कि साफ़ निशानियों से उनके दिल को चैन मिले।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "ابراہیم (علیہ السلام)، اللہ کے خلیل، نے اپنے رب سے مانگا کہ انہیں اپنی آنکھوں سے دکھائے کہ وہ مُردوں کو کیسے زندہ کرتا ہے۔ اللہ نے پوچھا، 'کیا تم یقین نہیں رکھتے؟' — اور ابراہیم نے کہا کہ رکھتے ہیں، مگر چاہتے ہیں کہ دل پوری طرح مطمئن ہو جائے۔" },
+      { "kind": "verse", "surah": 2, "ayah": 260, "note": "ابراہیم نے مانگا کہ دکھایا جائے اللہ مُردوں کو کیسے زندہ کرتا ہے۔ کہا گیا چار پرندے لو، سدھاؤ، ہر پہاڑ پر ایک حصہ رکھو، پھر بلاؤ — وہ اڑتے آئے۔ 'جان لو کہ اللہ غالب، حکمت والا ہے۔'" },
+      { "kind": "heading", "level": 2, "text": "ایک مومن کی درخواست" },
+      { "kind": "p", "text": "اُن کا سوال منکر کا شک نہ تھا بلکہ ایمان کی وہ چاہت تھی کہ ماننے سے دیکھنے کی طرف بڑھے۔ نبی محمد ﷺ نے بعد میں فرمایا کہ اُس چاہت کا ہم ابراہیم سے زیادہ حق رکھتے ہیں — اُن کی درخواست کا احترام کرتے ہوئے، عیب نہیں۔" },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 3372, "note": "نبی ﷺ نے فرمایا: 'ہم ابراہیم سے زیادہ شک کا حق رکھتے ہیں،' جب انہوں نے مانگا کہ دکھایا جائے مُردے کیسے زندہ کیے جاتے ہیں — یہ عاجزی کا قول ہے، ابراہیم کے ایمان کی تصدیق کرتا۔" },
+      { "kind": "heading", "level": 2, "text": "پرندے لوٹتے ہیں" },
+      { "kind": "p", "text": "اللہ نے انہیں حکم دیا کہ چار پرندے لیں، انہیں قریب کریں اور اپنے سے مانوس بنائیں، پھر ہر ایک کا ایک حصہ الگ الگ پہاڑوں پر رکھیں۔ جب ابراہیم نے پکارا، بکھرے حصے پھر جڑ گئے اور پرندے زندہ دوڑتے ہوئے اُن کے پاس لوٹ آئے — قیامت کا زندہ ثبوت جو اللہ کے خلیل نے دیکھا۔" },
+      { "kind": "list", "items": [
+        { "text": "دل کا یقین تلاش کرنا ایمان کا حصہ ہے، اس کے خلاف نہیں۔" },
+        { "text": "اللہ اپنے حکم سے مُردوں کو زندہ کرتا ہے؛ قیامت سچ ہے اور اس کی قدرت کے قریب۔" },
+        { "text": "بڑے سے بڑے انبیاء بھی چاہتے تھے کہ صاف نشانیوں سے اُن کے دل کو اطمینان ملے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "2:260" },
+    { "type": "hadith", "collection": "bukhari", "ref": "3372", "grade": "sahih" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["prophet-ibrahim", "story-hundred-years-sleep", "basics-belief-in-last-day", "concept-iman"]
+}

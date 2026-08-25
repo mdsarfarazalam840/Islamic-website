@@ -1,0 +1,84 @@
+{
+  "slug": "story-owners-of-the-garden",
+  "category": "quranic",
+  "title": {
+    "en": "The Owners of the Garden",
+    "hi": "बाग़ वाले",
+    "ur": "اصحابِ جنت (باغ والے)"
+  },
+  "summary": {
+    "en": "The owners of a fruitful garden swore to harvest it at dawn and give the poor nothing, saying nothing of 'if Allah wills.' In the night a calamity from Allah destroyed it, leaving it black and barren. When they found it ruined, they recognised their sin and repented — a parable in Surat al-Qalam against greed and forgetting Allah.",
+    "hi": "एक फलदार बाग़ के मालिकों ने क़सम खाई कि सुबह-सवेरे उसकी फ़सल काटेंगे और ग़रीबों को कुछ न देंगे, 'अगर अल्लाह चाहे' कहे बिना। रात में अल्लाह की ओर से एक आफ़त ने उसे नष्ट कर दिया, उसे काला और बंजर छोड़कर। जब उन्होंने उसे बरबाद पाया, तो अपने गुनाह को पहचाना और तौबा की — सूरह अल-क़लम में लालच और अल्लाह को भूलने के विरुद्ध एक दृष्टांत।",
+    "ur": "ایک پھلدار باغ کے مالکوں نے قسم کھائی کہ صبح سویرے اس کی فصل کاٹیں گے اور غریبوں کو کچھ نہ دیں گے، 'اگر اللہ چاہے' کہے بغیر۔ رات میں اللہ کی طرف سے ایک آفت نے اسے تباہ کر دیا، اسے کالا اور بنجر چھوڑ کر۔ جب انہوں نے اسے برباد پایا، تو اپنے گناہ کو پہچانا اور توبہ کی — سورۃ القلم میں لالچ اور اللہ کو بھولنے کے خلاف ایک تمثیل۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "In Surat al-Qalam, Allah relates the parable of the owners of a garden, whom He tested just as He tested the arrogant Makkans. They resolved to pluck its fruit early in the morning." },
+      { "kind": "verse", "surah": 68, "ayah": 17, "note": "We tried them as We tried the owners of the garden, when they swore to harvest it in the morning." },
+      { "kind": "verse", "surah": 68, "ayah": 18, "note": "And they made no exception (did not say, 'if Allah wills')." },
+      { "kind": "p", "text": "Their intent was to gather everything for themselves at daybreak, deliberately excluding the poor who had a share in the harvest of the righteous. But they left Allah out of their plans." },
+      { "kind": "heading", "level": 2, "text": "A garden ruined overnight" },
+      { "kind": "p", "text": "While they slept, a visitation from their Lord swept over the garden, and by morning it was as though it had been reaped to ruin — blackened and stripped bare." },
+      { "kind": "verse", "surah": 68, "ayah": 19, "note": "Then a visitation from your Lord came upon it while they slept," },
+      { "kind": "verse", "surah": 68, "ayah": 20, "note": "And by morning it was as though harvested to blackness." },
+      { "kind": "p", "text": "They set out at dawn, urging one another to reach their harvest, whispering that no poor person should enter it that day. When they saw the desolation, they first thought they were lost, then realised they had been deprived." },
+      { "kind": "verse", "surah": 68, "ayah": 24, "note": "'Let no poor person enter it upon you today,' they whispered as they went." },
+      { "kind": "heading", "level": 2, "text": "Regret and repentance" },
+      { "kind": "p", "text": "The most balanced among them reminded them that they had forgotten to glorify Allah. They admitted their wrong, blamed their own transgression, and turned in hope to their Lord — the punishment of this world being a warning less than the punishment of the Hereafter." },
+      { "kind": "verse", "surah": 68, "ayah": 29, "note": "They said, 'Glory be to our Lord! Indeed, we were wrongdoers.'" },
+      { "kind": "verse", "surah": 68, "ayah": 32, "note": "'Perhaps our Lord will replace it with something better; indeed, we turn to our Lord in hope.'" },
+      { "kind": "list", "items": [
+        { "text": "Say 'if Allah wills' (in sha' Allah): no plan succeeds without Allah's leave." },
+        { "text": "Withholding the due of the poor is a sin that can strip away the very blessing one hoards." },
+        { "text": "Loss in this life is a mercy if it awakens sincere repentance before the Hereafter." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "सूरह अल-क़लम में अल्लाह बाग़ वालों का दृष्टांत बयान करता है, जिन्हें उसने वैसे ही आज़माया जैसे घमंडी मक्का वालों को। उन्होंने ठान लिया कि सुबह-सवेरे उसका फल तोड़ लेंगे।" },
+      { "kind": "verse", "surah": 68, "ayah": 17, "note": "हमने उन्हें वैसे आज़माया जैसे बाग़ वालों को, जब उन्होंने क़सम खाई कि सुबह उसकी फ़सल काटेंगे।" },
+      { "kind": "verse", "surah": 68, "ayah": 18, "note": "और उन्होंने कोई अपवाद न रखा ('अगर अल्लाह चाहे' न कहा)।" },
+      { "kind": "p", "text": "उनका इरादा था कि सुबह सब कुछ अपने लिए समेट लें, जानबूझकर ग़रीबों को छोड़कर जिनका धर्मनिष्ठों की फ़सल में हिस्सा था। पर उन्होंने अपनी योजनाओं से अल्लाह को छोड़ दिया।" },
+      { "kind": "heading", "level": 2, "text": "रातों-रात बरबाद बाग़" },
+      { "kind": "p", "text": "जब वे सोए हुए थे, उनके रब की ओर से एक आफ़त बाग़ पर घूम गई, और सुबह तक वह ऐसा हो गया मानो काटकर बरबाद कर दिया गया हो — काला और उजड़ा हुआ।" },
+      { "kind": "verse", "surah": 68, "ayah": 19, "note": "फिर तुम्हारे रब की ओर से एक आफ़त उस पर आई जब वे सो रहे थे," },
+      { "kind": "verse", "surah": 68, "ayah": 20, "note": "और सुबह तक वह ऐसा हो गया मानो काटकर काला कर दिया गया हो।" },
+      { "kind": "p", "text": "वे सुबह निकले, एक-दूसरे को फ़सल तक पहुँचने की जल्दी दिलाते, फुसफुसाते कि उस दिन कोई ग़रीब उसमें न घुसे। जब उन्होंने उजाड़ देखा, पहले समझे राह भटक गए, फिर जाना कि वे वंचित कर दिए गए।" },
+      { "kind": "verse", "surah": 68, "ayah": 24, "note": "'आज तुम पर कोई ग़रीब उसमें न घुसे,' वे जाते हुए फुसफुसाए।" },
+      { "kind": "heading", "level": 2, "text": "पछतावा और तौबा" },
+      { "kind": "p", "text": "उनमें सबसे संतुलित ने याद दिलाया कि वे अल्लाह की तस्बीह करना भूल गए थे। उन्होंने अपनी ग़लती मानी, अपनी ही ज़्यादती को दोषी ठहराया, और उम्मीद के साथ अपने रब की ओर लौटे — दुनिया का अज़ाब आख़िरत के अज़ाब से कम एक चेतावनी है।" },
+      { "kind": "verse", "surah": 68, "ayah": 29, "note": "उन्होंने कहा, 'हमारा रब पाक है! बेशक हम ही अत्याचारी थे।'" },
+      { "kind": "verse", "surah": 68, "ayah": 32, "note": "'शायद हमारा रब इसके बदले कुछ बेहतर दे; बेशक हम अपने रब की ओर उम्मीद से रुजू करते हैं।'" },
+      { "kind": "list", "items": [
+        { "text": "'अगर अल्लाह चाहे' (इन शा अल्लाह) कहो: कोई योजना अल्लाह की इजाज़त के बिना सफल नहीं होती।" },
+        { "text": "ग़रीब का हक़ रोकना एक गुनाह है जो उसी नेमत को छीन सकता है जिसे इंसान जमा करता है।" },
+        { "text": "इस जीवन में नुक़सान एक रहमत है अगर वह आख़िरत से पहले सच्ची तौबा जगा दे।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "سورۃ القلم میں اللہ باغ والوں کی تمثیل بیان کرتا ہے، جنہیں اس نے ویسے ہی آزمایا جیسے متکبر اہلِ مکہ کو۔ انہوں نے ٹھان لیا کہ صبح سویرے اس کا پھل توڑ لیں گے۔" },
+      { "kind": "verse", "surah": 68, "ayah": 17, "note": "ہم نے انہیں ویسے آزمایا جیسے باغ والوں کو، جب انہوں نے قسم کھائی کہ صبح اس کی فصل کاٹیں گے۔" },
+      { "kind": "verse", "surah": 68, "ayah": 18, "note": "اور انہوں نے کوئی استثنا نہ رکھا ('اگر اللہ چاہے' نہ کہا)۔" },
+      { "kind": "p", "text": "اُن کا ارادہ تھا کہ صبح سب کچھ اپنے لیے سمیٹ لیں، جان بوجھ کر غریبوں کو چھوڑ کر جن کا نیکوکاروں کی فصل میں حصہ تھا۔ مگر انہوں نے اپنی منصوبوں سے اللہ کو چھوڑ دیا۔" },
+      { "kind": "heading", "level": 2, "text": "راتوں رات برباد باغ" },
+      { "kind": "p", "text": "جب وہ سوئے ہوئے تھے، اُن کے رب کی طرف سے ایک آفت باغ پر پھر گئی، اور صبح تک وہ ایسا ہو گیا گویا کاٹ کر برباد کر دیا گیا ہو — کالا اور اجڑا ہوا۔" },
+      { "kind": "verse", "surah": 68, "ayah": 19, "note": "پھر تمہارے رب کی طرف سے ایک آفت اس پر آئی جب وہ سو رہے تھے," },
+      { "kind": "verse", "surah": 68, "ayah": 20, "note": "اور صبح تک وہ ایسا ہو گیا گویا کاٹ کر کالا کر دیا گیا ہو۔" },
+      { "kind": "p", "text": "وہ صبح نکلے، ایک دوسرے کو فصل تک پہنچنے کی جلدی دلاتے، سرگوشی کرتے کہ اُس دن کوئی غریب اس میں نہ گھسے۔ جب انہوں نے اجاڑ دیکھا، پہلے سمجھے راہ بھٹک گئے، پھر جانا کہ وہ محروم کر دیے گئے۔" },
+      { "kind": "verse", "surah": 68, "ayah": 24, "note": "'آج تم پر کوئی غریب اس میں نہ گھسے،' وہ جاتے ہوئے سرگوشی کرتے۔" },
+      { "kind": "heading", "level": 2, "text": "پچھتاوا اور توبہ" },
+      { "kind": "p", "text": "اُن میں سب سے متوازن نے یاد دلایا کہ وہ اللہ کی تسبیح کرنا بھول گئے تھے۔ انہوں نے اپنی غلطی مانی، اپنی ہی زیادتی کو قصوروار ٹھہرایا، اور امید کے ساتھ اپنے رب کی طرف لوٹے — دنیا کا عذاب آخرت کے عذاب سے کم ایک تنبیہ ہے۔" },
+      { "kind": "verse", "surah": 68, "ayah": 29, "note": "انہوں نے کہا، 'ہمارا رب پاک ہے! بے شک ہم ہی ظالم تھے۔'" },
+      { "kind": "verse", "surah": 68, "ayah": 32, "note": "'شاید ہمارا رب اس کے بدلے کچھ بہتر دے؛ بے شک ہم اپنے رب کی طرف امید سے رجوع کرتے ہیں۔'" },
+      { "kind": "list", "items": [
+        { "text": "'اگر اللہ چاہے' (ان شاء اللہ) کہو: کوئی منصوبہ اللہ کی اجازت کے بغیر کامیاب نہیں ہوتا۔" },
+        { "text": "غریب کا حق روکنا ایک گناہ ہے جو اُسی نعمت کو چھین سکتا ہے جسے انسان جمع کرتا ہے۔" },
+        { "text": "اس زندگی میں نقصان ایک رحمت ہے اگر وہ آخرت سے پہلے سچی توبہ جگا دے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "68:17-33" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["story-owner-of-two-gardens", "story-qarun", "concept-tawakkul", "basics-zakat"]
+}

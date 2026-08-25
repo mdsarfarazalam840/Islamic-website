@@ -1,0 +1,64 @@
+{
+  "slug": "story-loan-across-the-sea",
+  "category": "hadith-stories",
+  "featured": false,
+  "title": {
+    "en": "The Loan Entrusted to the Sea",
+    "hi": "समुद्र को सौंपा गया क़र्ज़",
+    "ur": "سمندر کے سپرد کیا گیا قرض"
+  },
+  "summary": {
+    "en": "The Prophet ﷺ told of a man of Bani Israel who lent a thousand dinars on nothing but Allah as witness and guarantor. When the debtor could find no ship to repay in time, he sealed the money in a hollowed log and cast it into the sea, trusting Allah to deliver it — and Allah carried it safely to the lender's own door.",
+    "hi": "पैगंबर ﷺ ने बनी इसराईल के एक व्यक्ति की कहानी सुनाई जिसने केवल अल्लाह को गवाह और ज़ामिन मान कर हज़ार दीनार क़र्ज़ दिए। जब क़र्ज़दार को समय पर लौटाने के लिए कोई जहाज़ न मिला, उसने पैसे एक खोखले लट्ठे में सील कर दिए और समुद्र में डाल दिए, अल्लाह पर भरोसा करते हुए कि वह उसे पहुँचाएगा — और अल्लाह उसे सही-सलामत क़र्ज़ देने वाले के दरवाज़े तक ले आया।",
+    "ur": "نبی ﷺ نے بنی اسرائیل کے ایک شخص کی کہانی سنائی جس نے صرف اللہ کو گواہ اور ضامن مان کر ہزار دینار قرض دیے۔ جب قرض دار کو وقت پر لوٹانے کے لیے کوئی جہاز نہ ملا، اُس نے پیسے ایک کھوکھلے لٹھے میں سیل کر دیے اور سمندر میں ڈال دیے، اللہ پر بھروسہ کرتے ہوئے کہ وہ اُسے پہنچائے گا — اور اللہ اُسے صحیح سلامت قرض دینے والے کے دروازے تک لے آیا۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "The Prophet ﷺ related that a man of the Children of Israel asked another to lend him a thousand dinars. The lender asked for witnesses; the borrower said, 'Allah is sufficient as a witness.' The lender asked for a guarantor; the borrower said, 'Allah is sufficient as a guarantor.' The lender accepted this and handed over the money for a fixed term." },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 2291, "note": "The full narration: the borrower who took a loan with Allah as his only witness and surety, and how the money crossed the sea inside a hollowed piece of wood." },
+      { "kind": "heading", "level": 2, "text": "Trusting Allah to deliver" },
+      { "kind": "p", "text": "The borrower travelled overseas to trade. When the debt fell due he searched for a ship to carry him back but found none. So he took a piece of wood, hollowed it, placed inside it the thousand dinars and a letter to the lender, sealed it tight, and brought it to the shore. He prayed openly to Allah — reminding Him that He had been the witness and the guarantor — and threw the log into the sea, entrusting the repayment to his Lord." },
+      { "kind": "heading", "level": 2, "text": "Delivered by Allah's hand" },
+      { "kind": "p", "text": "The lender, meanwhile, came out looking for a ship that might bring his money. Instead he found a piece of driftwood, took it home for firewood, and on cutting it open discovered his thousand dinars and the letter. Later the borrower himself arrived with another thousand, having failed to find a ship earlier — and learned that Allah had already delivered the first payment. He kept the second and returned home rightly guided." },
+      { "kind": "verse", "surah": 65, "ayah": 3, "note": "'...And whoever relies upon Allah — then He is sufficient for him. Indeed, Allah will accomplish His purpose.'" },
+      { "kind": "list", "items": [
+        { "text": "Whoever truly places Allah as his witness and guarantor is never let down." },
+        { "text": "Honesty in debt and firm reliance on Allah open doors no ship could reach." },
+        { "text": "Allah fulfils His purpose; provision and repayment can arrive by means beyond our reckoning." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "पैगंबर ﷺ ने बताया कि बनी इसराईल के एक व्यक्ति ने दूसरे से हज़ार दीनार क़र्ज़ माँगे। क़र्ज़ देने वाले ने गवाह माँगे; क़र्ज़ लेने वाले ने कहा, 'अल्लाह गवाह के रूप में काफ़ी है।' उसने ज़ामिन माँगा; उसने कहा, 'अल्लाह ज़ामिन के रूप में काफ़ी है।' क़र्ज़ देने वाले ने यह मान लिया और एक तय मुद्दत के लिए पैसे सौंप दिए।" },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 2291, "note": "पूरी रिवायत: वह क़र्ज़दार जिसने केवल अल्लाह को गवाह और ज़ामिन मान कर क़र्ज़ लिया, और कैसे पैसे एक खोखले लकड़ी के टुकड़े के अंदर समुद्र पार पहुँचे।" },
+      { "kind": "heading", "level": 2, "text": "पहुँचाने के लिए अल्लाह पर भरोसा" },
+      { "kind": "p", "text": "क़र्ज़दार व्यापार के लिए समुद्र पार गया। जब क़र्ज़ की मुद्दत आई, उसने लौटने के लिए जहाज़ ढूँढा पर कोई न मिला। तो उसने लकड़ी का एक टुकड़ा लिया, उसे खोखला किया, उसमें हज़ार दीनार और क़र्ज़ देने वाले के नाम एक ख़त रखा, कस कर सील किया, और किनारे पर लाया। उसने खुल कर अल्लाह से दुआ की — उसे याद दिलाते हुए कि वही गवाह और ज़ामिन था — और लट्ठा समुद्र में डाल दिया, अदायगी अपने रब के सुपुर्द करते हुए।" },
+      { "kind": "heading", "level": 2, "text": "अल्लाह के हाथों पहुँचा" },
+      { "kind": "p", "text": "इस बीच, क़र्ज़ देने वाला यह देखने निकला कि कोई जहाज़ शायद उसका पैसा लाए। बजाय इसके उसे बहता हुआ लकड़ी का टुकड़ा मिला, जिसे वह जलाने के लिए घर ले गया, और काटने पर उसमें अपने हज़ार दीनार और ख़त पाए। बाद में क़र्ज़दार ख़ुद एक और हज़ार लेकर आया, पहले जहाज़ न पा सकने के कारण — और जाना कि अल्लाह पहली अदायगी पहले ही पहुँचा चुका है। उसने दूसरा रख लिया और सही राह पाकर घर लौटा।" },
+      { "kind": "verse", "surah": 65, "ayah": 3, "note": "'...और जो अल्लाह पर भरोसा करे — तो वह उसके लिए काफ़ी है। बेशक अल्लाह अपना काम पूरा करके रहता है।'" },
+      { "kind": "list", "items": [
+        { "text": "जो सच्चे दिल से अल्लाह को अपना गवाह और ज़ामिन बनाता है, वह कभी नाकाम नहीं होता।" },
+        { "text": "क़र्ज़ में ईमानदारी और अल्लाह पर पक्का भरोसा वे दरवाज़े खोलते हैं जहाँ कोई जहाज़ न पहुँचे।" },
+        { "text": "अल्लाह अपना मक़सद पूरा करता है; रिज़्क़ और अदायगी हमारी सोच से परे ज़रियों से आ सकती है।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "نبی ﷺ نے بتایا کہ بنی اسرائیل کے ایک شخص نے دوسرے سے ہزار دینار قرض مانگے۔ قرض دینے والے نے گواہ مانگے؛ قرض لینے والے نے کہا، 'اللہ گواہ کے طور پر کافی ہے۔' اُس نے ضامن مانگا؛ اُس نے کہا، 'اللہ ضامن کے طور پر کافی ہے۔' قرض دینے والے نے یہ مان لیا اور ایک طے مدت کے لیے پیسے سونپ دیے۔" },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 2291, "note": "پوری روایت: وہ قرض دار جس نے صرف اللہ کو گواہ اور ضامن مان کر قرض لیا، اور کیسے پیسے ایک کھوکھلے لکڑی کے ٹکڑے کے اندر سمندر پار پہنچے۔" },
+      { "kind": "heading", "level": 2, "text": "پہنچانے کے لیے اللہ پر بھروسہ" },
+      { "kind": "p", "text": "قرض دار تجارت کے لیے سمندر پار گیا۔ جب قرض کی مدت آئی، اُس نے لوٹنے کے لیے جہاز ڈھونڈا مگر کوئی نہ ملا۔ تو اُس نے لکڑی کا ایک ٹکڑا لیا، اُسے کھوکھلا کیا، اُس میں ہزار دینار اور قرض دینے والے کے نام ایک خط رکھا، کس کر سیل کیا، اور کنارے پر لایا۔ اُس نے کھل کر اللہ سے دعا کی — اُسے یاد دلاتے ہوئے کہ وہی گواہ اور ضامن تھا — اور لٹھا سمندر میں ڈال دیا، ادائیگی اپنے رب کے سپرد کرتے ہوئے۔" },
+      { "kind": "heading", "level": 2, "text": "اللہ کے ہاتھوں پہنچا" },
+      { "kind": "p", "text": "اِس دوران، قرض دینے والا یہ دیکھنے نکلا کہ کوئی جہاز شاید اُس کا پیسہ لائے۔ بجائے اِس کے اُسے بہتا ہوا لکڑی کا ٹکڑا ملا، جسے وہ جلانے کے لیے گھر لے گیا، اور کاٹنے پر اُس میں اپنے ہزار دینار اور خط پائے۔ بعد میں قرض دار خود ایک اور ہزار لے کر آیا، پہلے جہاز نہ پا سکنے کے سبب — اور جانا کہ اللہ پہلی ادائیگی پہلے ہی پہنچا چکا ہے۔ اُس نے دوسرا رکھ لیا اور سیدھی راہ پا کر گھر لوٹا۔" },
+      { "kind": "verse", "surah": 65, "ayah": 3, "note": "'...اور جو اللہ پر بھروسہ کرے — تو وہ اُس کے لیے کافی ہے۔ بے شک اللہ اپنا کام پورا کر کے رہتا ہے۔'" },
+      { "kind": "list", "items": [
+        { "text": "جو سچے دل سے اللہ کو اپنا گواہ اور ضامن بناتا ہے، وہ کبھی ناکام نہیں ہوتا۔" },
+        { "text": "قرض میں ایمانداری اور اللہ پر پکا بھروسہ وہ دروازے کھولتے ہیں جہاں کوئی جہاز نہ پہنچے۔" },
+        { "text": "اللہ اپنا مقصد پورا کرتا ہے؛ رزق اور ادائیگی ہماری سوچ سے پرے ذرائع سے آ سکتی ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "hadith", "collection": "bukhari", "ref": "2291", "grade": "sahih" },
+    { "type": "quran", "ref": "65:3" }
+  ],
+  "relatedSlugs": ["concept-tawakkul", "concept-rizq", "story-three-men-in-the-cave"]
+}

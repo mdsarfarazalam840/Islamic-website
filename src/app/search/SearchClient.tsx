@@ -8,6 +8,12 @@ import { useSearchParams } from "next/navigation"
 import { cn } from "@/lib/utils"
 import { getAllSurahs } from "@/lib/quran/surahs"
 import { COLLECTION_DISPLAY_NAMES } from "@/lib/hadith/collections"
+import { parseHadithReference } from "@/lib/hadith/numberIndex"
+import {
+  HadithReferenceResults,
+  type HadithReferenceResolution,
+} from "@/components/hadith/HadithReferenceResults"
+import { useDebounce } from "@/hooks/useDebounce"
 import { loadVideosForSearch } from "./videoData"
 import { getPagefind, type PagefindResultData } from "./pagefind"
 import type { Ayah, Hadith, Video as VideoType } from "@/types"
@@ -28,15 +34,6 @@ const PAGE_SIZE = 10
 
 // A single un-hydrated Pagefind hit: the fragment is fetched lazily via data().
 type PagefindRef = { id: string; data: () => Promise<PagefindResultData> }
-
-function useDebounce<T>(value: T, delay: number): T {
-  const [debouncedValue, setDebouncedValue] = useState(value)
-  useEffect(() => {
-    const timer = setTimeout(() => setDebouncedValue(value), delay)
-    return () => clearTimeout(timer)
-  }, [value, delay])
-  return debouncedValue
-}
 
 interface QuranResult {
   type: "quran"
@@ -158,6 +155,14 @@ export function SearchClient() {
   const [loadingData, setLoadingData] = useState(false)
   const inputRef = useRef<HTMLInputElement>(null)
   const debouncedQuery = useDebounce(query, 300)
+  const trimmedQuery = debouncedQuery.trim()
+
+  // Numeric queries are hadith citations far more often than they are text to
+  // match, and Pagefind can only rank them as text. Resolve them as references
+  // and show that above the ranked results.
+  const hadithReference = useMemo(() => parseHadithReference(trimmedQuery), [trimmedQuery])
+  const [referenceState, setReferenceState] = useState<HadithReferenceResolution | null>(null)
+  const referenceCount = referenceState?.query === trimmedQuery ? referenceState.count : 0
 
   const surahs = getAllSurahs()
   const surahMap = useMemo(() => new Map(surahs.map((s) => [s.number, s])), [surahs])
@@ -331,7 +336,7 @@ export function SearchClient() {
           value={query}
           onChange={(e) => handleSearch(e.target.value)}
           onKeyDown={(e) => { if (e.key === "Enter") handleSearch(query) }}
-          placeholder="Search by keyword…"
+          placeholder="Search by keyword, or a hadith number…"
           className="w-full rounded-xl border border-border/50 bg-card px-10 py-3 text-sm text-foreground placeholder:text-muted-foreground outline-none focus:border-secondary/50 transition-colors"
           aria-label="Search"
         />
@@ -342,6 +347,12 @@ export function SearchClient() {
         )}
       </div>
 
+      <HadithReferenceResults
+        query={trimmedQuery}
+        onResolve={setReferenceState}
+        className="mt-2 mb-6"
+      />
+
       {loadingData && (
         <div className="flex items-center gap-2 py-3 text-xs text-muted-foreground">
           <Loader2 className="size-3 animate-spin text-gold-light" />
@@ -349,11 +360,15 @@ export function SearchClient() {
         </div>
       )}
 
-      {searched && !loadingData && totalCount === 0 && (
+      {searched && !loadingData && totalCount === 0 && referenceCount === 0 && (
         <div className="flex flex-col items-center justify-center py-16 text-center">
           <Search className="size-12 text-muted-foreground/20 mb-4" />
           <p className="text-lg font-medium text-foreground">No results found</p>
-          <p className="text-sm text-muted-foreground mt-1">Try a different keyword.</p>
+          <p className="text-sm text-muted-foreground mt-1">
+            {hadithReference
+              ? `No hadith is numbered ${hadithReference.number}. Check the number, or search by keyword.`
+              : "Try a different keyword."}
+          </p>
         </div>
       )}
 
@@ -516,6 +531,7 @@ export function SearchClient() {
         <div className="flex flex-col items-center justify-center py-16 text-center">
           <Search className="size-12 text-muted-foreground/20 mb-4" />
           <p className="text-muted-foreground text-sm">Search for any word or phrase across Quran, Hadith, Knowledge Base, and Videos</p>
+          <p className="text-muted-foreground/70 text-xs mt-1">Or type a hadith number — &ldquo;1234&rdquo;, &ldquo;Bukhari 1234&rdquo; — to jump straight to it.</p>
         </div>
       )}
     </div>

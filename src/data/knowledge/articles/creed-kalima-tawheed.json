@@ -1,0 +1,87 @@
+{
+  "slug": "creed-kalima-tawheed",
+  "category": "creed",
+  "order": 4,
+  "title": {
+    "en": "Fourth Kalima — Tawḥīd (The Word of Oneness)",
+    "hi": "चौथा कलिमा — तौहीद (वहदानियत का कलिमा)",
+    "ur": "چوتھا کلمہ — توحید (وحدانیت کا کلمہ)"
+  },
+  "summary": {
+    "en": "Lā ilāha illa'llāhu waḥdahū lā sharīka lah… — the oneness of Allah spelled out clause by clause: sovereignty, praise, the giving of life and death, permanence beyond death, and power over everything.",
+    "hi": "ला इलाहा इल्लल्लाहु वहदहू ला शरीका लह… — अल्लाह की वहदानियत जुमला-ब-जुमला खोलकर बयान: बादशाही, हम्द, जीवन और मृत्यु देना, मौत से परे बाक़ी रहना, और हर चीज़ पर क़ुदरत।",
+    "ur": "لا الہ الا اللہ وحدہ لا شریک لہ… — اللہ کی وحدانیت جملہ بہ جملہ کھول کر بیان: بادشاہی، حمد، زندگی و موت دینا، موت سے ماورا بقا، اور ہر چیز پر قدرت۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "arabic", "text": "لَا إِلٰهَ إِلَّا اللهُ وَحْدَهُ لَا شَرِيكَ لَهُ لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ يُحْيِي وَيُمِيتُ وَهُوَ حَيٌّ لَا يَمُوتُ أَبَدًا أَبَدًا ذُو الْجَلَالِ وَالْإِكْرَامِ بِيَدِهِ الْخَيْرُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ", "transliteration": "Lā ilāha illa'llāhu waḥdahū lā sharīka lah, lahul-mulku wa lahul-ḥamd, yuḥyī wa yumīt, wa huwa ḥayyun lā yamūtu abadan abadā, dhul-jalāli wal-ikrām, bi-yadihil-khayr, wa huwa ʿalā kulli shay'in qadīr", "translation": "There is no god but Allah, alone, having no partner. His is the dominion and His is the praise. He gives life and gives death, and He is Living and will never die — never. Owner of majesty and honour. In His hand is all good, and He has power over everything.", "label": "Kalima Tawḥīd" },
+      { "kind": "p", "text": "The first kalima says that Allah is one. The fourth answers the next question: one in what? Rather than leaving \"oneness\" as a slogan, this kalima itemises it — dominion, praise, the giving of life and death, deathless permanence, majesty, and absolute power. Each clause is a door that shirk might have entered through, and each is closed." },
+      { "kind": "heading", "level": 2, "text": "Tafsīr, clause by clause" },
+      { "kind": "list", "items": [
+        { "text": "Lahul-mulk — \"His is the dominion.\" All authority is delegated; no king, state, or system rules by right of its own. This is the clause that has always made the kalima politically inconvenient." },
+        { "text": "Wa lahul-ḥamd — \"and His is the praise.\" Whatever good you receive through a person, the ultimate thanks travels past them to Him." },
+        { "text": "Yuḥyī wa yumīt — \"He gives life and gives death.\" The two events no creature controls, at either end of every existence." },
+        { "text": "Wa huwa ḥayyun lā yamūtu abadan abadā — \"He is Living and will never die, never.\" The doubling of abadā is emphasis: whatever else you love will end; He does not." },
+        { "text": "Dhul-jalāli wal-ikrām — \"Owner of majesty and honour.\" Awe-inspiring and generous at once; the two are not in tension in Him." },
+        { "text": "Bi-yadihil-khayr — \"in His hand is all good.\" Good has one source, so it is sought from one place." },
+        { "text": "Wa huwa ʿalā kulli shay'in qadīr — \"He has power over everything.\" No exception, no limit, nothing outside His reach." }
+      ] },
+      { "kind": "verse", "surah": 3, "ayah": 26, "note": "Say: O Lord of all dominion — You give and take away kingship, exalt and debase; all good is in Your hand. The Qur'anic source of lahul-mulk and bi-yadihil-khayr." },
+      { "kind": "verse", "surah": 2, "ayah": 255, "note": "Āyat al-Kursī: the Living, the Self-Subsisting — the ground of \"He is Living and will never die.\"" },
+      { "kind": "heading", "level": 2, "text": "Why the detail matters" },
+      { "kind": "p", "text": "Shirk rarely announces itself as the worship of a second god. It arrives as a small exception: this one matter is outside Allah's decree; this authority owes Him nothing; this person can grant what only He grants. The fourth kalima works by refusing exceptions one at a time, so that a believer who recites it thoughtfully has already answered the objection before it forms." },
+      { "kind": "verse", "surah": 67, "ayah": 1, "note": "Blessed is He in whose hand is dominion, and who has power over everything — the same two clauses that close this kalima." },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 6403, "note": "A hundred repetitions of this dhikr — the core of the fourth kalima — carry the reward of freeing ten slaves." },
+      { "kind": "p", "text": "The Prophet ﷺ taught a nearly identical formula as a daily remembrance after prayer and in the morning and evening, with great reward attached to it. The fourth kalima is essentially that prophetic dhikr, arranged for memorisation." }
+    ],
+    "hi": [
+      { "kind": "arabic", "text": "لَا إِلٰهَ إِلَّا اللهُ وَحْدَهُ لَا شَرِيكَ لَهُ لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ يُحْيِي وَيُمِيتُ وَهُوَ حَيٌّ لَا يَمُوتُ أَبَدًا أَبَدًا ذُو الْجَلَالِ وَالْإِكْرَامِ بِيَدِهِ الْخَيْرُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ", "transliteration": "Lā ilāha illa'llāhu waḥdahū lā sharīka lah, lahul-mulku wa lahul-ḥamd, yuḥyī wa yumīt, wa huwa ḥayyun lā yamūtu abadan abadā, dhul-jalāli wal-ikrām, bi-yadihil-khayr, wa huwa ʿalā kulli shay'in qadīr", "translation": "अल्लाह के सिवा कोई माबूद नहीं, वह अकेला है, उसका कोई शरीक नहीं। उसी की बादशाही है और उसी के लिए हम्द है। वह ज़िंदा करता है और मौत देता है, और वह ज़िंदा है, कभी नहीं मरेगा — कभी नहीं। जलाल और इकराम वाला। भलाई उसी के हाथ में है, और वह हर चीज़ पर क़ुदरत रखने वाला है।", "label": "कलिमा तौहीद" },
+      { "kind": "p", "text": "पहला कलिमा कहता है कि अल्लाह एक है। चौथा अगले सवाल का जवाब देता है: किस चीज़ में एक? \"वहदानियत\" को नारा छोड़ देने के बजाय, यह कलिमा उसे गिनकर बताता है — बादशाही, हम्द, ज़िंदगी और मौत देना, न मरने वाला बाक़ी रहना, जलाल, और मुकम्मल क़ुदरत। हर जुमला एक ऐसा दरवाज़ा है जिससे शिर्क दाख़िल हो सकता था, और हर एक बंद कर दिया गया है।" },
+      { "kind": "heading", "level": 2, "text": "तफ़्सीर, जुमला-ब-जुमला" },
+      { "kind": "list", "items": [
+        { "text": "लहुल-मुल्क — \"उसी की बादशाही है।\" हर इख़्तियार सौंपा हुआ है; कोई बादशाह, रियासत या निज़ाम अपने ज़ाती हक़ से हुकूमत नहीं करता। यही वह जुमला है जिसने कलिमे को हमेशा सियासी तौर पर नागवार बनाया।" },
+        { "text": "वलहुल-हम्द — \"और उसी के लिए हम्द है।\" जो भी भलाई तुम्हें किसी इंसान के ज़रिए मिले, आख़िरी शुक्र उससे आगे बढ़कर उसी तक जाता है।" },
+        { "text": "युह्यी व युमीत — \"वह ज़िंदा करता है और मौत देता है।\" हर वजूद के दोनों सिरों पर वे दो वाक़िए जिन पर किसी मख़लूक़ का बस नहीं।" },
+        { "text": "व हुव हय्युन ला यमूतु अबदन अबदा — \"वह ज़िंदा है और कभी नहीं मरेगा, कभी नहीं।\" अबदा का दोहराना ताकीद है: तुम जिस चीज़ से भी मुहब्बत करो वह ख़त्म होगी; वह नहीं होता।" },
+        { "text": "ज़ुल-जलालि वल-इकराम — \"जलाल और इकराम वाला।\" रोब वाला और करीम, एक साथ; उसके यहाँ इन दोनों में कोई टकराव नहीं।" },
+        { "text": "बि-यदिहिल-ख़ैर — \"भलाई उसी के हाथ में है।\" भलाई का एक ही सोता है, इसलिए वह एक ही जगह से माँगी जाती है।" },
+        { "text": "व हुव अला कुल्लि शैइन क़दीर — \"वह हर चीज़ पर क़ुदरत रखता है।\" कोई इस्तिस्ना नहीं, कोई हद नहीं, कुछ भी उसकी पहुँच से बाहर नहीं।" }
+      ] },
+      { "kind": "verse", "surah": 3, "ayah": 26, "note": "कह दो: ऐ सारी बादशाहियों के मालिक — तू बादशाही देता और छीनता है, इज़्ज़त देता और ज़लील करता है; सारी भलाई तेरे हाथ में है। लहुल-मुल्क और बि-यदिहिल-ख़ैर का क़ुरआनी सोता।" },
+      { "kind": "verse", "surah": 2, "ayah": 255, "note": "आयतुल-कुर्सी: ज़िंदा, क़ायम रखने वाला — \"वह ज़िंदा है और कभी नहीं मरेगा\" की बुनियाद।" },
+      { "kind": "heading", "level": 2, "text": "यह तफ़सील क्यों ज़रूरी है" },
+      { "kind": "p", "text": "शिर्क कम ही ऐलान करके दूसरे ख़ुदा की इबादत के तौर पर आता है। वह एक छोटे इस्तिस्ना की शक्ल में आता है: यह एक मामला अल्लाह के फ़ैसले से बाहर है; यह इख़्तियार उसका कुछ मक़रूज़ नहीं; यह शख़्स वह दे सकता है जो सिर्फ़ वही देता है। चौथा कलिमा एक-एक इस्तिस्ना को रद्द करके काम करता है, ताकि जो मोमिन इसे ग़ौर से पढ़े वह एतराज़ बनने से पहले ही उसका जवाब दे चुका हो।" },
+      { "kind": "verse", "surah": 67, "ayah": 1, "note": "बरकत वाला है वह जिसके हाथ में बादशाही है, और जो हर चीज़ पर क़ुदरत रखता है — वही दो जुमले जिन पर यह कलिमा ख़त्म होता है।" },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 6403, "note": "इस ज़िक्र — चौथे कलिमे के मग़ज़ — को सौ बार पढ़ने पर दस ग़ुलाम आज़ाद करने का सवाब है।" },
+      { "kind": "p", "text": "नबी ﷺ ने लगभग यही अल्फ़ाज़ नमाज़ के बाद और सुबह-शाम के रोज़ाना ज़िक्र के तौर पर सिखाए, और उन पर बड़ा सवाब बताया। चौथा कलिमा दरअसल वही नबवी ज़िक्र है, याद करने के लिए तरतीब दिया हुआ।" }
+    ],
+    "ur": [
+      { "kind": "arabic", "text": "لَا إِلٰهَ إِلَّا اللهُ وَحْدَهُ لَا شَرِيكَ لَهُ لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ يُحْيِي وَيُمِيتُ وَهُوَ حَيٌّ لَا يَمُوتُ أَبَدًا أَبَدًا ذُو الْجَلَالِ وَالْإِكْرَامِ بِيَدِهِ الْخَيْرُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ", "transliteration": "Lā ilāha illa'llāhu waḥdahū lā sharīka lah, lahul-mulku wa lahul-ḥamd, yuḥyī wa yumīt, wa huwa ḥayyun lā yamūtu abadan abadā, dhul-jalāli wal-ikrām, bi-yadihil-khayr, wa huwa ʿalā kulli shay'in qadīr", "translation": "اللہ کے سوا کوئی معبود نہیں، وہ اکیلا ہے، اُس کا کوئی شریک نہیں۔ اُسی کی بادشاہی ہے اور اُسی کے لیے حمد ہے۔ وہ زندہ کرتا ہے اور موت دیتا ہے، اور وہ زندہ ہے، کبھی نہیں مرے گا — کبھی نہیں۔ جلال اور اکرام والا۔ بھلائی اُسی کے ہاتھ میں ہے، اور وہ ہر چیز پر قدرت رکھنے والا ہے۔", "label": "کلمہ توحید" },
+      { "kind": "p", "text": "پہلا کلمہ کہتا ہے کہ اللہ ایک ہے۔ چوتھا اگلے سوال کا جواب دیتا ہے: کس چیز میں ایک؟ \"وحدانیت\" کو نعرہ چھوڑ دینے کے بجائے، یہ کلمہ اُسے گن کر بتاتا ہے — بادشاہی، حمد، زندگی و موت دینا، نہ مرنے والی بقا، جلال، اور مکمل قدرت۔ ہر جملہ ایک ایسا دروازہ ہے جس سے شرک داخل ہو سکتا تھا، اور ہر ایک بند کر دیا گیا ہے۔" },
+      { "kind": "heading", "level": 2, "text": "تفسیر، جملہ بہ جملہ" },
+      { "kind": "list", "items": [
+        { "text": "لَهُ الْمُلْكُ — \"اُسی کی بادشاہی ہے۔\" ہر اختیار سونپا ہوا ہے؛ کوئی بادشاہ، ریاست یا نظام اپنے ذاتی حق سے حکومت نہیں کرتا۔ یہی وہ جملہ ہے جس نے کلمے کو ہمیشہ سیاسی طور پر ناگوار بنایا۔" },
+        { "text": "وَلَهُ الْحَمْدُ — \"اور اُسی کے لیے حمد ہے۔\" جو بھی بھلائی تمہیں کسی انسان کے ذریعے ملے، آخری شکر اُس سے آگے بڑھ کر اُسی تک جاتا ہے۔" },
+        { "text": "يُحْيِي وَيُمِيتُ — \"وہ زندہ کرتا ہے اور موت دیتا ہے۔\" ہر وجود کے دونوں سروں پر وہ دو واقعے جن پر کسی مخلوق کا بس نہیں۔" },
+        { "text": "وَهُوَ حَيٌّ لَا يَمُوتُ أَبَدًا أَبَدًا — \"وہ زندہ ہے اور کبھی نہیں مرے گا، کبھی نہیں۔\" أَبَدًا کا دہرانا تاکید ہے: تم جس چیز سے بھی محبت کرو وہ ختم ہوگی؛ وہ نہیں ہوتا۔" },
+        { "text": "ذُو الْجَلَالِ وَالْإِكْرَامِ — \"جلال اور اکرام والا۔\" رعب والا اور کریم، بیک وقت؛ اُس کے ہاں اِن دونوں میں کوئی ٹکراؤ نہیں۔" },
+        { "text": "بِيَدِهِ الْخَيْرُ — \"بھلائی اُسی کے ہاتھ میں ہے۔\" بھلائی کا ایک ہی سرچشمہ ہے، چنانچہ وہ ایک ہی جگہ سے مانگی جاتی ہے۔" },
+        { "text": "وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ — \"وہ ہر چیز پر قدرت رکھتا ہے۔\" کوئی استثنا نہیں، کوئی حد نہیں، کچھ بھی اُس کی پہنچ سے باہر نہیں۔" }
+      ] },
+      { "kind": "verse", "surah": 3, "ayah": 26, "note": "کہہ دو: اے ساری بادشاہیوں کے مالک — تو بادشاہی دیتا اور چھینتا ہے، عزت دیتا اور ذلیل کرتا ہے؛ ساری بھلائی تیرے ہاتھ میں ہے۔ لَهُ الْمُلْكُ اور بِيَدِهِ الْخَيْرُ کا قرآنی سرچشمہ۔" },
+      { "kind": "verse", "surah": 2, "ayah": 255, "note": "آیتِ کریمہ (آیۃ الکرسی): زندہ، قائم رکھنے والا — \"وہ زندہ ہے اور کبھی نہیں مرے گا\" کی بنیاد۔" },
+      { "kind": "heading", "level": 2, "text": "یہ تفصیل کیوں ضروری ہے" },
+      { "kind": "p", "text": "شرک کم ہی اعلان کر کے دوسرے خدا کی عبادت کے طور پر آتا ہے۔ وہ ایک چھوٹے استثنا کی شکل میں آتا ہے: یہ ایک معاملہ اللہ کے فیصلے سے باہر ہے؛ یہ اختیار اُس کا کچھ مقروض نہیں؛ یہ شخص وہ دے سکتا ہے جو صرف وہی دیتا ہے۔ چوتھا کلمہ ایک ایک استثنا کو رد کر کے کام کرتا ہے، تاکہ جو مومن اِسے غور سے پڑھے وہ اعتراض بننے سے پہلے ہی اُس کا جواب دے چکا ہو۔" },
+      { "kind": "verse", "surah": 67, "ayah": 1, "note": "برکت والا ہے وہ جس کے ہاتھ میں بادشاہی ہے، اور جو ہر چیز پر قدرت رکھتا ہے — وہی دو جملے جن پر یہ کلمہ ختم ہوتا ہے۔" },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 6403, "note": "اِس ذکر — چوتھے کلمے کے مغز — کو سو بار پڑھنے پر دس غلام آزاد کرنے کا ثواب ہے۔" },
+      { "kind": "p", "text": "نبی کریم ﷺ نے تقریباً یہی الفاظ نماز کے بعد اور صبح و شام کے روزانہ ذکر کے طور پر سکھائے، اور اُن پر بڑا ثواب بتایا۔ چوتھا کلمہ درحقیقت وہی نبوی ذکر ہے، یاد کرنے کے لیے ترتیب دیا ہوا۔" }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "3:26" },
+    { "type": "quran", "ref": "2:255" },
+    { "type": "quran", "ref": "67:1" },
+    { "type": "hadith", "collection": "bukhari", "ref": "6403", "grade": "sahih" }
+  ],
+  "relatedSlugs": ["creed-six-kalimas", "creed-kalima-tamjeed", "concept-tawhid"]
+}

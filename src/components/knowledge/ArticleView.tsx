@@ -1,12 +1,14 @@
 "use client"
 
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import Link from "next/link"
 import { ArrowRight } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { pick, langDir, langFont } from "@/lib/knowledge/lang"
 import { getCategoryInfo } from "@/lib/knowledge/categories"
 import { Breadcrumbs } from "@/components/shared/Breadcrumbs"
+import { SaveArticleButton } from "@/components/shared/SaveSpotButton"
+import { saveArticleProgress } from "@/hooks/useArticleProgress"
 import { KnowledgeLanguageTabs } from "./KnowledgeLanguageTabs"
 import { BlockRenderer } from "./BlockRenderer"
 import { SourceTagBadge } from "./SourceTagBadge"
@@ -24,6 +26,18 @@ export function ArticleView({ article, related }: ArticleViewProps) {
   const info = getCategoryInfo(article.category)
   const dir = langDir(lang)
   const font = langFont(lang)
+
+  // Opening an article is the whole progress signal — articles are short enough
+  // that there's no scroll position worth tracking, unlike the Quran and hadith
+  // readers. Always records the English title so /saved reads consistently
+  // regardless of the language tab the reader happened to leave selected.
+  useEffect(() => {
+    saveArticleProgress({
+      category: article.category,
+      slug: article.slug,
+      title: article.title.en,
+    })
+  }, [article.category, article.slug, article.title.en])
 
   return (
     <article>
@@ -46,6 +60,14 @@ export function ArticleView({ article, related }: ArticleViewProps) {
         </div>
         <KnowledgeLanguageTabs active={lang} onChange={setLang} className="shrink-0" />
       </div>
+
+      <SaveArticleButton
+        category={article.category}
+        slug={article.slug}
+        title={article.title.en}
+        categoryLabel={info ? info.label.en : article.category}
+        className="mb-6 sm:max-w-xs"
+      />
 
       {article.sources.length > 0 && (
         <div className="mb-8 rounded-xl border border-border/20 bg-card/30 p-4">

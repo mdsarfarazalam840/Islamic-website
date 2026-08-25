@@ -1,0 +1,64 @@
+{
+  "slug": "seerah-taif",
+  "category": "seerah",
+  "featured": false,
+  "title": {
+    "en": "The Journey to Ta'if",
+    "hi": "ता'इफ़ की यात्रा",
+    "ur": "طائف کا سفر"
+  },
+  "summary": {
+    "en": "After the Year of Sorrow, the Prophet ﷺ travelled to the city of Ta'if seeking support for the message. Its leaders rejected him harshly and set their mob to stone him until his feet bled. Yet when the angel of the mountains offered to destroy the town, he refused — praying instead that their descendants might one day worship Allah.",
+    "hi": "ग़म के साल के बाद, पैगंबर ﷺ संदेश के लिए समर्थन तलाशते ता'इफ़ शहर गए। उसके सरदारों ने उन्हें कठोरता से ठुकराया और अपनी भीड़ को उन पर पत्थर बरसाने लगाया, यहाँ तक कि उनके पैरों से ख़ून बहने लगा। फिर भी जब पहाड़ों के फ़रिश्ते ने शहर को नष्ट करने की पेशकश की, उन्होंने इनकार किया — बजाय इसके यह दुआ की कि उनकी संतान एक दिन अल्लाह की इबादत करे।",
+    "ur": "غم کے سال کے بعد، نبی ﷺ پیغام کے لیے حمایت تلاشتے طائف شہر گئے۔ اُس کے سرداروں نے اُنہیں سختی سے ٹھکرایا اور اپنی بھیڑ کو اُن پر پتھر برسانے لگایا، یہاں تک کہ اُن کے پاؤں سے خون بہنے لگا۔ پھر بھی جب پہاڑوں کے فرشتے نے شہر کو تباہ کرنے کی پیشکش کی، اُنہوں نے انکار کیا — بجائے اِس کے یہ دعا کی کہ اُن کی اولاد ایک دن اللہ کی عبادت کرے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "With the death of Abu Talib the Prophet ﷺ had lost his protection in Makkah, and the Quraysh's hostility hardened. Seeking a new soil where the message might take root, he travelled about sixty miles to the mountain city of Ta'if and called its chiefs to Islam. Instead of listening, they mocked him and rejected him outright, unwilling to anger the Quraysh." },
+      { "kind": "p", "text": "Worse followed: they incited the town's youths and slaves to line the streets and pelt him with stones as he left, until his blessed feet bled. Wounded and grieving, he withdrew to the shade of a garden wall and turned to his Lord with one of the most moving supplications of his life — complaining of his weakness only to Allah, and asking for nothing but His pleasure." },
+      { "kind": "heading", "level": 2, "text": "Mercy over vengeance" },
+      { "kind": "p", "text": "Then Jibril came to him with the angel of the mountains, who offered to crush the people of Ta'if between the two hills if the Prophet ﷺ so wished. He refused. He said he hoped that Allah would bring from their loins descendants who would worship Allah alone and associate nothing with Him. This was the mercy at the heart of his mission." },
+      { "kind": "verse", "surah": 21, "ayah": 107, "note": "'And We have not sent you except as a mercy to the worlds.'" },
+      { "kind": "heading", "level": 2, "text": "Comfort after rejection" },
+      { "kind": "p", "text": "On his way back, disheartened, he was consoled by a sign of acceptance from beyond Ta'if: a group of jinn heard him reciting the Qur'an and believed. The rejection of a town did not mean the rejection of the message — Allah was opening other doors." },
+      { "kind": "list", "items": [
+        { "text": "A caller to truth may be rejected and injured, yet must not answer cruelty with cruelty." },
+        { "text": "In hardship the believer complains of his weakness to Allah alone, not to people." },
+        { "text": "Mercy and patience, not vengeance, were the hallmark of the Prophet ﷺ even toward those who harmed him." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "अबू तालिब की मृत्यु से पैगंबर ﷺ ने मक्का में अपनी सुरक्षा खो दी थी, और क़ुरैश की दुश्मनी और सख़्त हो गई। एक नई ज़मीन तलाशते हुए जहाँ संदेश जड़ पकड़ सके, वे लगभग साठ मील दूर पहाड़ी शहर ता'इफ़ गए और उसके सरदारों को इस्लाम की ओर बुलाया। सुनने के बजाय, उन्होंने उनका मज़ाक़ उड़ाया और साफ़ ठुकरा दिया, क़ुरैश को नाराज़ करने से बचते हुए।" },
+      { "kind": "p", "text": "इससे बुरा हुआ: उन्होंने शहर के लड़कों और ग़ुलामों को उकसाया कि गलियों में खड़े होकर जाते हुए उन पर पत्थर बरसाएँ, यहाँ तक कि उनके मुबारक पैरों से ख़ून बहने लगा। घायल और ग़मगीन, वे एक बाग़ की दीवार की छाया में हटे और अपने रब की ओर अपनी ज़िंदगी की सबसे दिल छू लेने वाली दुआओं में से एक के साथ मुड़े — अपनी कमज़ोरी की शिकायत केवल अल्लाह से करते हुए, और उसकी ख़ुशी के सिवा कुछ न माँगते हुए।" },
+      { "kind": "heading", "level": 2, "text": "बदले पर रहमत" },
+      { "kind": "p", "text": "फिर जिब्रील पहाड़ों के फ़रिश्ते के साथ उनके पास आए, जिसने पेशकश की कि अगर पैगंबर ﷺ चाहें तो ता'इफ़ के लोगों को दो पहाड़ियों के बीच कुचल दे। उन्होंने इनकार किया। उन्होंने कहा कि उन्हें उम्मीद है अल्लाह उनकी नस्ल से ऐसी संतान लाएगा जो केवल अल्लाह की इबादत करे और उसके साथ किसी को शरीक न करे। यही रहमत उनके मिशन के दिल में थी।" },
+      { "kind": "verse", "surah": 21, "ayah": 107, "note": "'और हमने तुम्हें केवल संसारों के लिए रहमत बना कर भेजा है।'" },
+      { "kind": "heading", "level": 2, "text": "ठुकराए जाने के बाद सांत्वना" },
+      { "kind": "p", "text": "लौटते हुए, हताश, उन्हें ता'इफ़ से परे स्वीकृति की एक निशानी से सांत्वना मिली: जिन्नों के एक समूह ने उन्हें क़ुरआन पढ़ते सुना और ईमान लाए। एक शहर के ठुकराने का मतलब संदेश का ठुकराया जाना न था — अल्लाह दूसरे दरवाज़े खोल रहा था।" },
+      { "kind": "list", "items": [
+        { "text": "सच्चाई का बुलाने वाला ठुकराया और घायल हो सकता है, फिर भी क्रूरता का जवाब क्रूरता से न दे।" },
+        { "text": "कठिनाई में ईमान वाला अपनी कमज़ोरी की शिकायत केवल अल्लाह से करता है, लोगों से नहीं।" },
+        { "text": "रहमत और सब्र, बदला नहीं, पैगंबर ﷺ की पहचान थी उन के प्रति भी जिन्होंने उन्हें दुख दिया।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "ابو طالب کی موت سے نبی ﷺ نے مکہ میں اپنی حفاظت کھو دی تھی، اور قریش کی دشمنی اور سخت ہو گئی۔ ایک نئی زمین تلاشتے ہوئے جہاں پیغام جڑ پکڑ سکے، وہ تقریباً ساٹھ میل دور پہاڑی شہر طائف گئے اور اُس کے سرداروں کو اسلام کی طرف بلایا۔ سننے کے بجائے، اُنہوں نے اُن کا مذاق اڑایا اور صاف ٹھکرا دیا، قریش کو ناراض کرنے سے بچتے ہوئے۔" },
+      { "kind": "p", "text": "اِس سے برا ہوا: اُنہوں نے شہر کے لڑکوں اور غلاموں کو اکسایا کہ گلیوں میں کھڑے ہو کر جاتے ہوئے اُن پر پتھر برسائیں، یہاں تک کہ اُن کے مبارک پاؤں سے خون بہنے لگا۔ زخمی اور غمگین، وہ ایک باغ کی دیوار کی چھاؤں میں ہٹے اور اپنے رب کی طرف اپنی زندگی کی سب سے دل چھو لینے والی دعاؤں میں سے ایک کے ساتھ مڑے — اپنی کمزوری کی شکایت صرف اللہ سے کرتے ہوئے، اور اُس کی خوشی کے سوا کچھ نہ مانگتے ہوئے۔" },
+      { "kind": "heading", "level": 2, "text": "بدلے پر رحمت" },
+      { "kind": "p", "text": "پھر جبریل پہاڑوں کے فرشتے کے ساتھ اُن کے پاس آئے، جس نے پیشکش کی کہ اگر نبی ﷺ چاہیں تو طائف کے لوگوں کو دو پہاڑیوں کے درمیان کچل دے۔ اُنہوں نے انکار کیا۔ اُنہوں نے کہا کہ اُنہیں امید ہے اللہ اُن کی نسل سے ایسی اولاد لائے گا جو صرف اللہ کی عبادت کرے اور اُس کے ساتھ کسی کو شریک نہ کرے۔ یہی رحمت اُن کے مشن کے دل میں تھی۔" },
+      { "kind": "verse", "surah": 21, "ayah": 107, "note": "'اور ہم نے تمہیں صرف جہانوں کے لیے رحمت بنا کر بھیجا ہے۔'" },
+      { "kind": "heading", "level": 2, "text": "ٹھکرائے جانے کے بعد تسلی" },
+      { "kind": "p", "text": "لوٹتے ہوئے، مایوس، اُنہیں طائف سے پرے قبولیت کی ایک نشانی سے تسلی ملی: جنوں کے ایک گروہ نے اُنہیں قرآن پڑھتے سنا اور ایمان لائے۔ ایک شہر کے ٹھکرانے کا مطلب پیغام کا ٹھکرایا جانا نہ تھا — اللہ دوسرے دروازے کھول رہا تھا۔" },
+      { "kind": "list", "items": [
+        { "text": "سچائی کا بلانے والا ٹھکرایا اور زخمی ہو سکتا ہے، پھر بھی ظلم کا جواب ظلم سے نہ دے۔" },
+        { "text": "مشکل میں مومن اپنی کمزوری کی شکایت صرف اللہ سے کرتا ہے، لوگوں سے نہیں۔" },
+        { "text": "رحمت اور صبر، بدلہ نہیں، نبی ﷺ کی پہچان تھی اُن کے لیے بھی جنہوں نے اُنہیں دکھ دیا۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "21:107" },
+    { "type": "seerah" }
+  ],
+  "relatedSlugs": ["seerah-year-of-sorrow", "seerah-isra-miraj", "concept-rahmah"]
+}

@@ -1,0 +1,71 @@
+{
+  "slug": "story-musa-khidr",
+  "category": "quranic",
+  "featured": false,
+  "title": {
+    "en": "Musa and al-Khiḍr",
+    "hi": "मूसा और अल-ख़िज़्र",
+    "ur": "موسیٰ اور الخضر"
+  },
+  "summary": {
+    "en": "Musa (peace be upon him) journeyed to learn from a servant of Allah given special knowledge — al-Khiḍr. Three times Khiḍr acted in ways Musa could not bear in silence: scuttling a boat, taking a boy's life, and repairing a wall for free. Each was a hidden mercy, teaching that Allah's wisdom lies beyond what we see.",
+    "hi": "मूसा (उन पर शांति हो) एक ऐसे बंदे से सीखने के लिए यात्रा पर निकले जिसे अल्लाह ने विशेष ज्ञान दिया था — अल-ख़िज़्र। तीन बार ख़िज़्र ने ऐसे काम किए जिन्हें मूसा चुप रह कर सहन न कर सके: एक नाव में छेद करना, एक लड़के की जान लेना, और एक दीवार बिना मज़दूरी के ठीक करना। हर एक एक छिपी रहमत थी, यह सिखाते हुए कि अल्लाह की हिकमत उससे परे है जो हम देखते हैं।",
+    "ur": "موسیٰ (علیہ السلام) اللہ کے ایک ایسے بندے سے سیکھنے کے لیے سفر پر نکلے جسے اللہ نے خاص علم دیا تھا — الخضر۔ تین بار خضر نے ایسے کام کیے جنہیں موسیٰ خاموش رہ کر برداشت نہ کر سکے: ایک کشتی میں سوراخ کرنا، ایک لڑکے کی جان لینا، اور ایک دیوار بغیر اجرت کے ٹھیک کرنا۔ ہر ایک ایک پوشیدہ رحمت تھی، یہ سکھاتے ہوئے کہ اللہ کی حکمت اُس سے پرے ہے جو ہم دیکھتے ہیں۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Musa (peace be upon him) was once asked who was the most knowledgeable of people, and he answered, 'I am.' Allah corrected him: there was a servant at the junction of the two seas who had knowledge Musa did not possess. Musa set out to find him, determined to learn, taking a fish as a sign for the meeting place." },
+      { "kind": "verse", "surah": 18, "ayah": 65, "note": "'They found a servant from among Our servants to whom We had given mercy from Us and taught knowledge from Ourself.'" },
+      { "kind": "p", "text": "When Musa found him — al-Khiḍr, as the Prophet ﷺ named him — he humbly asked to follow and learn. Khiḍr warned that Musa would not be able to bear patiently with what he did not understand, and set one condition: ask nothing until Khiḍr himself chose to explain." },
+      { "kind": "verse", "surah": 18, "ayah": 66, "note": "Musa said, 'May I follow you, that you teach me some of the right guidance you have been taught?'" },
+      { "kind": "heading", "level": 2, "text": "Three things Musa could not bear" },
+      { "kind": "p", "text": "They boarded a boat, and Khiḍr made a hole in it — Musa protested. They met a boy, and Khiḍr took his life — Musa protested more sharply. They came to a town that refused them food, yet Khiḍr rebuilt its falling wall without pay — again Musa objected. After the third, they parted." },
+      { "kind": "heading", "level": 2, "text": "The hidden wisdom" },
+      { "kind": "p", "text": "Then Khiḍr explained: the boat belonged to poor workers, and a king was seizing every sound vessel by force — the flaw saved it. The boy would have grieved his believing parents with rebellion, so Allah replaced him with one better. And the wall hid a treasure for two orphans, kept safe until they came of age. Nothing was done of Khiḍr's own accord." },
+      { "kind": "verse", "surah": 18, "ayah": 82, "note": "'And I did it not of my own accord. That is the interpretation of that about which you could not have patience.'" },
+      { "kind": "list", "items": [
+        { "text": "Even a prophet is taught that there is knowledge beyond his own." },
+        { "text": "What appears as harm can be a mercy whose wisdom is hidden from us." },
+        { "text": "Trust in Allah's plan requires patience with what we cannot yet understand." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "मूसा (उन पर शांति हो) से एक बार पूछा गया कि लोगों में सबसे अधिक ज्ञानी कौन है, और उन्होंने उत्तर दिया, 'मैं।' अल्लाह ने उन्हें सुधारा: दो समुद्रों के संगम पर एक बंदा है जिसके पास ऐसा ज्ञान है जो मूसा के पास नहीं। मूसा उसे खोजने निकले, सीखने के लिए दृढ़, मिलन-स्थल की निशानी के रूप में एक मछली साथ लेते हुए।" },
+      { "kind": "verse", "surah": 18, "ayah": 65, "note": "'उन्होंने हमारे बंदों में से एक बंदा पाया जिसे हमने अपनी ओर से रहमत दी थी और अपने पास से ज्ञान सिखाया था।'" },
+      { "kind": "p", "text": "जब मूसा ने उसे पाया — अल-ख़िज़्र, जैसा पैगंबर ﷺ ने नाम बताया — उन्होंने विनम्रता से साथ चलने और सीखने की अनुमति माँगी। ख़िज़्र ने चेताया कि मूसा उस पर सब्र न कर पाएँगे जो वे न समझें, और एक शर्त रखी: तब तक कुछ न पूछें जब तक ख़िज़्र स्वयं समझाना न चाहें।" },
+      { "kind": "verse", "surah": 18, "ayah": 66, "note": "मूसा ने कहा, 'क्या मैं आपके पीछे चलूँ, ताकि आप मुझे उस सही मार्गदर्शन में से सिखाएँ जो आपको सिखाया गया है?'" },
+      { "kind": "heading", "level": 2, "text": "तीन बातें जो मूसा सहन न कर सके" },
+      { "kind": "p", "text": "वे एक नाव पर चढ़े, और ख़िज़्र ने उसमें छेद कर दिया — मूसा ने आपत्ति की। वे एक लड़के से मिले, और ख़िज़्र ने उसकी जान ले ली — मूसा ने और तीखी आपत्ति की। वे एक बस्ती में आए जिसने उन्हें खाना देने से इनकार किया, फिर भी ख़िज़्र ने उसकी गिरती दीवार बिना मज़दूरी के फिर से बनाई — मूसा ने फिर एतराज़ किया। तीसरे के बाद, वे अलग हो गए।" },
+      { "kind": "heading", "level": 2, "text": "छिपी हिकमत" },
+      { "kind": "p", "text": "फिर ख़िज़्र ने समझाया: नाव ग़रीब मज़दूरों की थी, और एक बादशाह हर सही नाव को ज़बरदस्ती छीन रहा था — दोष ने उसे बचा लिया। लड़का बड़ा होकर अपने ईमान वाले माता-पिता को सरकशी से दुखी करता, तो अल्लाह ने उसकी जगह बेहतर संतान दी। और दीवार दो अनाथों के लिए एक ख़ज़ाना छिपाए थी, जो उनके बालिग़ होने तक सुरक्षित रखा गया। कुछ भी ख़िज़्र ने अपनी ओर से न किया।" },
+      { "kind": "verse", "surah": 18, "ayah": 82, "note": "'और मैंने यह अपनी मर्ज़ी से न किया। यह उसकी व्याख्या है जिस पर तुम सब्र न कर सके।'" },
+      { "kind": "list", "items": [
+        { "text": "एक पैगंबर को भी सिखाया जाता है कि उसके अपने ज्ञान से परे भी ज्ञान है।" },
+        { "text": "जो हानि प्रतीत होता है वह एक रहमत हो सकती है जिसकी हिकमत हमसे छिपी है।" },
+        { "text": "अल्लाह की योजना पर भरोसा उस पर सब्र माँगता है जिसे हम अभी नहीं समझ सकते।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "موسیٰ (علیہ السلام) سے ایک بار پوچھا گیا کہ لوگوں میں سب سے زیادہ علم والا کون ہے، اور اُنہوں نے جواب دیا، 'میں۔' اللہ نے اُنہیں درست کیا: دو سمندروں کے سنگم پر ایک بندہ ہے جس کے پاس ایسا علم ہے جو موسیٰ کے پاس نہیں۔ موسیٰ اُسے ڈھونڈنے نکلے، سیکھنے کے لیے پُرعزم، ملاقات کی جگہ کی نشانی کے طور پر ایک مچھلی ساتھ لیتے ہوئے۔" },
+      { "kind": "verse", "surah": 18, "ayah": 65, "note": "'اُنہوں نے ہمارے بندوں میں سے ایک بندہ پایا جسے ہم نے اپنی طرف سے رحمت دی تھی اور اپنے پاس سے علم سکھایا تھا۔'" },
+      { "kind": "p", "text": "جب موسیٰ نے اُسے پایا — الخضر، جیسا نبی ﷺ نے نام بتایا — اُنہوں نے عاجزی سے ساتھ چلنے اور سیکھنے کی اجازت مانگی۔ خضر نے خبردار کیا کہ موسیٰ اُس پر صبر نہ کر سکیں گے جو وہ نہ سمجھیں، اور ایک شرط رکھی: اُس وقت تک کچھ نہ پوچھیں جب تک خضر خود بتانا نہ چاہیں۔" },
+      { "kind": "verse", "surah": 18, "ayah": 66, "note": "موسیٰ نے کہا، 'کیا میں آپ کے پیچھے چلوں، تاکہ آپ مجھے اُس درست رہنمائی میں سے سکھائیں جو آپ کو سکھائی گئی ہے؟'" },
+      { "kind": "heading", "level": 2, "text": "تین باتیں جو موسیٰ برداشت نہ کر سکے" },
+      { "kind": "p", "text": "وہ ایک کشتی پر سوار ہوئے، اور خضر نے اُس میں سوراخ کر دیا — موسیٰ نے اعتراض کیا۔ وہ ایک لڑکے سے ملے، اور خضر نے اُس کی جان لے لی — موسیٰ نے زیادہ سختی سے اعتراض کیا۔ وہ ایک بستی میں آئے جس نے اُنہیں کھانا دینے سے انکار کیا، پھر بھی خضر نے اُس کی گرتی دیوار بغیر اجرت کے دوبارہ بنائی — موسیٰ نے پھر اعتراض کیا۔ تیسرے کے بعد، وہ جدا ہو گئے۔" },
+      { "kind": "heading", "level": 2, "text": "پوشیدہ حکمت" },
+      { "kind": "p", "text": "پھر خضر نے سمجھایا: کشتی غریب مزدوروں کی تھی، اور ایک بادشاہ ہر درست کشتی کو زبردستی چھین رہا تھا — نقص نے اُسے بچا لیا۔ لڑکا بڑا ہو کر اپنے مومن والدین کو سرکشی سے دُکھ دیتا، تو اللہ نے اُس کی جگہ بہتر اولاد دی۔ اور دیوار دو یتیموں کے لیے ایک خزانہ چھپائے تھی، جو اُن کے بالغ ہونے تک محفوظ رکھا گیا۔ کچھ بھی خضر نے اپنی طرف سے نہ کیا۔" },
+      { "kind": "verse", "surah": 18, "ayah": 82, "note": "'اور میں نے یہ اپنی مرضی سے نہ کیا۔ یہ اُس کی تشریح ہے جس پر تم صبر نہ کر سکے۔'" },
+      { "kind": "list", "items": [
+        { "text": "ایک نبی کو بھی سکھایا جاتا ہے کہ اُس کے اپنے علم سے پرے بھی علم ہے۔" },
+        { "text": "جو نقصان دکھائی دیتا ہے وہ ایک رحمت ہو سکتی ہے جس کی حکمت ہم سے پوشیدہ ہے۔" },
+        { "text": "اللہ کے منصوبے پر بھروسہ اُس پر صبر مانگتا ہے جسے ہم ابھی نہیں سمجھ سکتے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "18:60-82" },
+    { "type": "hadith", "collection": "bukhari", "ref": "122", "grade": "sahih" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["prophet-musa", "surah-al-kahf", "concept-sabr"]
+}

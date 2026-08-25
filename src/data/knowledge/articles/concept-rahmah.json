@@ -1,0 +1,68 @@
+{
+  "slug": "concept-rahmah",
+  "category": "concepts",
+  "featured": false,
+  "title": {
+    "en": "Raḥmah — Mercy and Compassion",
+    "hi": "रहमत — दया और करुणा",
+    "ur": "رحمت — رحم اور شفقت"
+  },
+  "summary": {
+    "en": "Raḥmah is the mercy that defines Allah's dealings with His creation and that He loves to see among His servants. Allah's mercy encompasses all things, He sent His Messenger ﷺ as a mercy to the worlds, and He shows mercy to those who are merciful to others.",
+    "hi": "रहमत वह दया है जो अल्लाह के अपनी सृष्टि के साथ व्यवहार को परिभाषित करती है और जिसे वह अपने बंदों में देखना पसंद करता है। अल्लाह की रहमत हर चीज़ को घेरे हुए है, उसने अपने रसूल ﷺ को संसारों के लिए रहमत बना कर भेजा, और वह उन पर दया करता है जो दूसरों पर दया करते हैं।",
+    "ur": "رحمت وہ رحم ہے جو اللہ کے اپنی مخلوق کے ساتھ سلوک کو متعین کرتی ہے اور جسے وہ اپنے بندوں میں دیکھنا پسند کرتا ہے۔ اللہ کی رحمت ہر چیز کو گھیرے ہوئے ہے، اُس نے اپنے رسول ﷺ کو جہانوں کے لیے رحمت بنا کر بھیجا، اور وہ اُن پر رحم کرتا ہے جو دوسروں پر رحم کرتے ہیں۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Raḥmah — mercy, tenderness, compassion — is among the most repeated themes of the Qur'an. Every chapter but one opens by naming Allah al-Raḥmān al-Raḥīm, the Most Merciful, the Bestower of Mercy. Allah describes His own mercy as embracing all things, without limit and without exhaustion." },
+      { "kind": "verse", "surah": 7, "ayah": 156, "note": "'My mercy encompasses all things' — Allah's mercy is boundless and reaches every part of His creation." },
+      { "kind": "heading", "level": 2, "text": "A mercy to the worlds" },
+      { "kind": "p", "text": "Allah did not send the Prophet Muhammad ﷺ as a conqueror or a judge alone, but as a mercy — to believers and to all creation. His guidance, his patience, and his concern for people's salvation were all expressions of that mercy." },
+      { "kind": "verse", "surah": 21, "ayah": 107, "note": "'And We have not sent you except as a mercy to the worlds.'" },
+      { "kind": "heading", "level": 2, "text": "Mercy invites mercy" },
+      { "kind": "p", "text": "The Prophet ﷺ taught that Allah's mercy toward a servant is bound to that servant's mercy toward others. Those who withhold compassion from creation cut themselves off from the compassion of the Creator." },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 7376, "note": "'Allah will not be merciful to those who are not merciful to mankind.'" },
+      { "kind": "list", "items": [
+        { "text": "Allah's mercy encompasses all things and precedes His wrath." },
+        { "text": "The Prophet ﷺ was sent as a living mercy to all the worlds." },
+        { "text": "Showing mercy to others is the path to receiving Allah's mercy." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "रहमत — दया, कोमलता, करुणा — क़ुरआन के सबसे अधिक दोहराए गए विषयों में से एक है। एक को छोड़ हर अध्याय अल्लाह को अर-रहमान अर-रहीम — अत्यंत दयावान, दया प्रदान करने वाला — कह कर शुरू होता है। अल्लाह अपनी रहमत को हर चीज़ को घेरने वाली बताता है, बिना सीमा और बिना समाप्ति के।" },
+      { "kind": "verse", "surah": 7, "ayah": 156, "note": "'मेरी रहमत हर चीज़ को घेरे हुए है' — अल्लाह की रहमत असीम है और उसकी सृष्टि के हर भाग तक पहुँचती है।" },
+      { "kind": "heading", "level": 2, "text": "संसारों के लिए रहमत" },
+      { "kind": "p", "text": "अल्लाह ने पैगंबर मुहम्मद ﷺ को केवल विजेता या न्यायाधीश बना कर नहीं भेजा, बल्कि एक रहमत के रूप में — ईमान वालों के लिए और सारी सृष्टि के लिए। उनका मार्गदर्शन, उनका धैर्य, और लोगों की मुक्ति की उनकी चिंता — सब उसी रहमत की अभिव्यक्ति थे।" },
+      { "kind": "verse", "surah": 21, "ayah": 107, "note": "'और हमने तुझे केवल सारे संसार के लिए रहमत बना कर भेजा है।'" },
+      { "kind": "heading", "level": 2, "text": "दया दया को बुलाती है" },
+      { "kind": "p", "text": "पैगंबर ﷺ ने सिखाया कि किसी बंदे पर अल्लाह की रहमत उस बंदे की दूसरों पर दया से जुड़ी है। जो सृष्टि से करुणा रोकते हैं वे स्वयं को रचयिता की करुणा से काट लेते हैं।" },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 7376, "note": "'जो लोगों पर दया नहीं करता, अल्लाह उस पर दया नहीं करता।'" },
+      { "kind": "list", "items": [
+        { "text": "अल्लाह की रहमत हर चीज़ को घेरे हुए है और उसके क्रोध से आगे है।" },
+        { "text": "पैगंबर ﷺ को सारे संसारों के लिए एक जीवंत रहमत बना कर भेजा गया।" },
+        { "text": "दूसरों पर दया करना अल्लाह की रहमत पाने का मार्ग है।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "رحمت — رحم، نرمی، شفقت — قرآن کے سب سے زیادہ دہرائے گئے موضوعات میں سے ایک ہے۔ ایک کے سوا ہر باب اللہ کو الرحمٰن الرحیم — نہایت مہربان، رحم فرمانے والا — کہہ کر شروع ہوتا ہے۔ اللہ اپنی رحمت کو ہر چیز کو گھیرنے والی بتاتا ہے، بغیر کسی حد اور بغیر ختم ہوئے۔" },
+      { "kind": "verse", "surah": 7, "ayah": 156, "note": "'میری رحمت ہر چیز کو گھیرے ہوئے ہے' — اللہ کی رحمت لامحدود ہے اور اُس کی مخلوق کے ہر حصے تک پہنچتی ہے۔" },
+      { "kind": "heading", "level": 2, "text": "جہانوں کے لیے رحمت" },
+      { "kind": "p", "text": "اللہ نے نبی کریم ﷺ کو صرف فاتح یا منصف بنا کر نہیں بھیجا، بلکہ ایک رحمت کے طور پر — مومنوں کے لیے اور ساری مخلوق کے لیے۔ اُن کی رہنمائی، اُن کا صبر، اور لوگوں کی نجات کی اُن کی فکر — سب اُسی رحمت کا اظہار تھے۔" },
+      { "kind": "verse", "surah": 21, "ayah": 107, "note": "'اور ہم نے تجھے صرف تمام جہانوں کے لیے رحمت بنا کر بھیجا ہے۔'" },
+      { "kind": "heading", "level": 2, "text": "رحم رحم کو دعوت دیتا ہے" },
+      { "kind": "p", "text": "نبی ﷺ نے سکھایا کہ کسی بندے پر اللہ کی رحمت اُس بندے کے دوسروں پر رحم سے جڑی ہے۔ جو مخلوق سے شفقت روکتے ہیں وہ خود کو خالق کی شفقت سے کاٹ لیتے ہیں۔" },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 7376, "note": "'جو لوگوں پر رحم نہیں کرتا، اللہ اُس پر رحم نہیں کرتا۔'" },
+      { "kind": "list", "items": [
+        { "text": "اللہ کی رحمت ہر چیز کو گھیرے ہوئے ہے اور اُس کے غضب سے آگے ہے۔" },
+        { "text": "نبی ﷺ کو تمام جہانوں کے لیے ایک زندہ رحمت بنا کر بھیجا گیا۔" },
+        { "text": "دوسروں پر رحم کرنا اللہ کی رحمت پانے کا راستہ ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "7:156" },
+    { "type": "quran", "ref": "21:107" },
+    { "type": "hadith", "collection": "bukhari", "ref": "7376", "grade": "sahih" }
+  ],
+  "relatedSlugs": ["prophet-muhammad", "concept-tawbah", "story-woman-and-the-dog"]
+}

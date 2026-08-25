@@ -1,0 +1,75 @@
+{
+  "slug": "seerah-conquest-of-makkah",
+  "category": "seerah",
+  "featured": true,
+  "title": {
+    "en": "The Conquest of Makkah",
+    "hi": "मक्का की विजय",
+    "ur": "فتح مکہ"
+  },
+  "summary": {
+    "en": "When the Quraysh broke the treaty, the Prophet ﷺ marched on Makkah with ten thousand and entered almost without bloodshed. Standing victorious over those who had tortured and expelled him, he declared a general amnesty, cleansed the Ka'bah of idols, and truth prevailed.",
+    "hi": "जब क़ुरैश ने संधि तोड़ी, पैगंबर ﷺ दस हज़ार के साथ मक्का पर चढ़े और लगभग बिना ख़ूनख़राबे के प्रवेश किया। जिन्होंने उन्हें यातना दी और निकाला था, उन पर विजयी खड़े होकर, उन्होंने आम माफ़ी की घोषणा की, काबा को मूर्तियों से पाक किया, और सत्य की जीत हुई।",
+    "ur": "جب قریش نے معاہدہ توڑا، نبی ﷺ دس ہزار کے ساتھ مکہ پر چڑھے اور تقریباً بغیر خون خرابے کے داخل ہوئے۔ جنہوں نے انہیں اذیت دی اور نکالا تھا، اُن پر فاتح کھڑے ہو کر، انہوں نے عام معافی کا اعلان کیا، کعبہ کو بتوں سے پاک کیا، اور سچائی کی جیت ہوئی۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "In the eighth year after Hijrah, the Quraysh and their allies violated the Treaty of Hudaybiyyah by attacking a tribe allied to the Muslims. The Prophet ﷺ gathered an army of ten thousand and advanced on Makkah so swiftly and secretly that the city had no time to prepare its defence." },
+      { "kind": "p", "text": "Camped outside Makkah with countless fires lit at night, the sheer scale of the force broke the Quraysh's will. Abu Sufyan, one of Islam's fiercest former enemies, came out and accepted Islam. The Prophet ﷺ declared that whoever entered Abu Sufyan's house, or the Sacred Mosque, or stayed home and shut their door, would be safe." },
+      { "kind": "heading", "level": 2, "text": "Victory without vengeance" },
+      { "kind": "p", "text": "The Muslims entered Makkah almost without fighting. The Prophet ﷺ entered humbly, his head bowed so low in gratitude that it nearly touched his mount. Standing before the very people who had persecuted, boycotted, and driven him out, he asked, 'What do you think I will do with you?' They said, 'Good — a noble brother, son of a noble brother.' He replied with the words of Yusuf to his brothers: 'No blame upon you today. Go, for you are free.' He then cleansed the Ka'bah of its three hundred and sixty idols, reciting:" },
+      { "kind": "verse", "surah": 17, "ayah": 81, "note": "'And say: Truth has come and falsehood has vanished. Indeed, falsehood is ever bound to vanish.'" },
+      { "kind": "heading", "level": 2, "text": "A promised triumph" },
+      { "kind": "p", "text": "Later Allah revealed Surah An-Nasr, marking the fulfilment of the mission and foreshadowing the Prophet's own passing, as people entered Allah's religion in crowds." },
+      { "kind": "verse", "surah": 110, "ayah": 1, "note": "'When the victory of Allah has come and the conquest.'" },
+      { "kind": "verse", "surah": 110, "ayah": 2, "note": "'And you see the people entering into the religion of Allah in multitudes.'" },
+      { "kind": "heading", "level": 2, "text": "Lessons" },
+      { "kind": "list", "items": [
+        { "text": "True strength is shown in mercy and forgiveness at the moment of power." },
+        { "text": "The purpose of victory in Islam is to establish truth, not to avenge the self." },
+        { "text": "Falsehood, however entrenched, is destined to perish before the truth." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "हिजरत के आठवें वर्ष, क़ुरैश और उनके सहयोगियों ने मुसलमानों के एक सहयोगी क़बीले पर हमला कर के हुदैबिया की संधि का उल्लंघन किया। पैगंबर ﷺ ने दस हज़ार की सेना जुटाई और मक्का पर इतनी तेज़ी और गोपनीयता से बढ़े कि शहर को अपनी रक्षा की तैयारी का समय न मिला।" },
+      { "kind": "p", "text": "मक्का के बाहर पड़ाव डाले, रात में अनगिनत आगें जलाए, सेना के विशाल आकार ने क़ुरैश की इच्छाशक्ति तोड़ दी। अबू सुफ़यान, इस्लाम के सबसे कट्टर पूर्व शत्रुओं में से एक, बाहर आया और इस्लाम क़बूल किया। पैगंबर ﷺ ने घोषणा की कि जो अबू सुफ़यान के घर में, या मस्जिद-अल-हराम में दाख़िल हो, या घर में रह कर अपना दरवाज़ा बंद कर ले, वह सुरक्षित रहेगा।" },
+      { "kind": "heading", "level": 2, "text": "प्रतिशोध बिना विजय" },
+      { "kind": "p", "text": "मुसलमान लगभग बिना लड़े मक्का में दाख़िल हुए। पैगंबर ﷺ विनम्रता से दाख़िल हुए, उनका सिर कृतज्ञता में इतना झुका कि सवारी को लगभग छू गया। उन्हीं लोगों के सामने खड़े होकर जिन्होंने उन्हें सताया, बहिष्कृत किया, और निकाला था, उन्होंने पूछा, 'तुम क्या समझते हो मैं तुम्हारे साथ क्या करूँगा?' उन्होंने कहा, 'भला — एक नेक भाई, नेक भाई का बेटा।' उन्होंने यूसुफ़ के अपने भाइयों से कहे शब्दों से उत्तर दिया: 'आज तुम पर कोई दोष नहीं। जाओ, तुम आज़ाद हो।' फिर उन्होंने काबा को उसकी तीन सौ साठ मूर्तियों से पाक किया, यह पढ़ते हुए:" },
+      { "kind": "verse", "surah": 17, "ayah": 81, "note": "'और कह दो: सत्य आ गया और असत्य मिट गया। निस्संदेह असत्य मिटने ही वाला है।'" },
+      { "kind": "heading", "level": 2, "text": "एक वादा की गई जीत" },
+      { "kind": "p", "text": "बाद में अल्लाह ने सूरह अन-नस्र उतारी, मिशन की पूर्ति को चिह्नित करते हुए और पैगंबर के अपने देहांत की ओर संकेत करते हुए, जब लोग झुंड के झुंड अल्लाह के दीन में दाख़िल हो रहे थे।" },
+      { "kind": "verse", "surah": 110, "ayah": 1, "note": "'जब अल्लाह की मदद और विजय आ गई।'" },
+      { "kind": "verse", "surah": 110, "ayah": 2, "note": "'और तू लोगों को झुंड के झुंड अल्लाह के दीन में दाख़िल होते देखे।'" },
+      { "kind": "heading", "level": 2, "text": "शिक्षाएँ" },
+      { "kind": "list", "items": [
+        { "text": "सच्ची शक्ति ताक़त के क्षण में दया और क्षमा में दिखती है।" },
+        { "text": "इस्लाम में विजय का उद्देश्य सत्य को स्थापित करना है, स्वयं का बदला लेना नहीं।" },
+        { "text": "असत्य, चाहे कितना भी जड़ जमाया हो, सत्य के आगे मिटने को है।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "ہجرت کے آٹھویں سال، قریش اور اُن کے اتحادیوں نے مسلمانوں کے ایک اتحادی قبیلے پر حملہ کر کے صلح حدیبیہ کی خلاف ورزی کی۔ نبی ﷺ نے دس ہزار کی فوج جمع کی اور مکہ پر اتنی تیزی اور رازداری سے بڑھے کہ شہر کو اپنے دفاع کی تیاری کا وقت نہ ملا۔" },
+      { "kind": "p", "text": "مکہ کے باہر پڑاؤ ڈالے، رات میں بے شمار آگیں جلائے، فوج کے عظیم حجم نے قریش کی قوتِ ارادی توڑ دی۔ ابو سفیان، اسلام کے سب سے سخت سابقہ دشمنوں میں سے ایک، باہر آیا اور اسلام قبول کیا۔ نبی ﷺ نے اعلان کیا کہ جو ابو سفیان کے گھر میں، یا مسجدِ حرام میں داخل ہو، یا گھر میں رہ کر اپنا دروازہ بند کر لے، وہ محفوظ رہے گا۔" },
+      { "kind": "heading", "level": 2, "text": "انتقام کے بغیر فتح" },
+      { "kind": "p", "text": "مسلمان تقریباً بغیر لڑے مکہ میں داخل ہوئے۔ نبی ﷺ عاجزی سے داخل ہوئے، اُن کا سر شکر میں اتنا جھکا کہ سواری کو تقریباً چھو گیا۔ اُنہی لوگوں کے سامنے کھڑے ہو کر جنہوں نے انہیں ستایا، بائیکاٹ کیا، اور نکالا تھا، انہوں نے پوچھا، 'تم کیا سمجھتے ہو میں تمہارے ساتھ کیا کروں گا؟' انہوں نے کہا، 'بھلا — ایک شریف بھائی، شریف بھائی کا بیٹا۔' انہوں نے یوسف کے اپنے بھائیوں سے کہے کلمات سے جواب دیا: 'آج تم پر کوئی الزام نہیں۔ جاؤ، تم آزاد ہو۔' پھر انہوں نے کعبہ کو اس کے تین سو ساٹھ بتوں سے پاک کیا، یہ پڑھتے ہوئے:" },
+      { "kind": "verse", "surah": 17, "ayah": 81, "note": "'اور کہہ دو: حق آ گیا اور باطل مٹ گیا۔ بے شک باطل مٹنے ہی والا ہے۔'" },
+      { "kind": "heading", "level": 2, "text": "ایک وعدہ شدہ فتح" },
+      { "kind": "p", "text": "بعد میں اللہ نے سورۃ النصر نازل کی، مشن کی تکمیل کو نمایاں کرتے ہوئے اور نبی کی اپنی وفات کی طرف اشارہ کرتے ہوئے، جب لوگ جوق در جوق اللہ کے دین میں داخل ہو رہے تھے۔" },
+      { "kind": "verse", "surah": 110, "ayah": 1, "note": "'جب اللہ کی مدد اور فتح آ گئی۔'" },
+      { "kind": "verse", "surah": 110, "ayah": 2, "note": "'اور تو لوگوں کو جوق در جوق اللہ کے دین میں داخل ہوتے دیکھے۔'" },
+      { "kind": "heading", "level": 2, "text": "اسباق" },
+      { "kind": "list", "items": [
+        { "text": "سچی طاقت قوت کے لمحے میں رحم اور معافی میں ظاہر ہوتی ہے۔" },
+        { "text": "اسلام میں فتح کا مقصد سچائی قائم کرنا ہے، اپنا بدلہ لینا نہیں۔" },
+        { "text": "باطل، خواہ کتنا ہی جڑ پکڑے ہو، سچائی کے آگے مٹنے کو ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "110:1-3" },
+    { "type": "quran", "ref": "17:81" },
+    { "type": "hadith", "collection": "bukhari", "ref": "4280", "grade": "sahih" },
+    { "type": "seerah" }
+  ],
+  "relatedSlugs": ["seerah-hudaybiyyah", "prophet-muhammad", "concept-rahmah"]
+}

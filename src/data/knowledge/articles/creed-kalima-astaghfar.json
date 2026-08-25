@@ -1,0 +1,84 @@
+{
+  "slug": "creed-kalima-astaghfar",
+  "category": "creed",
+  "order": 5,
+  "title": {
+    "en": "Fifth Kalima — Astaghfār (The Word of Seeking Forgiveness)",
+    "hi": "पाँचवाँ कलिमा — इस्तिग़फ़ार (माफ़ी माँगने का कलिमा)",
+    "ur": "پانچواں کلمہ — استغفار (مغفرت مانگنے کا کلمہ)"
+  },
+  "summary": {
+    "en": "Astaghfiru'llāha rabbī min kulli dhambin… — repentance worded to leave no gap: sins done knowingly and unknowingly, in secret and openly, and forgiveness sought for every sin a person knows of and every sin they do not.",
+    "hi": "अस्तग़फ़िरुल्लाहा रब्बी मिन कुल्लि ज़म्बिन… — तौबा ऐसे अल्फ़ाज़ में जो कोई कोना नहीं छोड़ती: जान-बूझकर और अनजाने किए गुनाह, छिपकर और खुल्लम-खुल्ला, और हर उस गुनाह की माफ़ी जो इंसान जानता है और हर उस की भी जो नहीं जानता।",
+    "ur": "اَسْتَغْفِرُ اللہَ رَبِّی مِنْ کُلِّ ذَنْبٍ… — توبہ ایسے الفاظ میں جو کوئی گوشہ نہیں چھوڑتی: جان بوجھ کر اور نادانستہ کیے گناہ، چھپ کر اور کھلے عام، اور ہر اُس گناہ کی مغفرت جو انسان جانتا ہے اور ہر اُس کی بھی جو نہیں جانتا۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "arabic", "text": "أَسْتَغْفِرُ اللهَ رَبِّي مِنْ كُلِّ ذَنْبٍ أَذْنَبْتُهُ عَمْدًا أَوْ خَطَأً سِرًّا أَوْ عَلَانِيَةً وَأَتُوبُ إِلَيْهِ مِنَ الذَّنْبِ الَّذِي أَعْلَمُ وَمِنَ الذَّنْبِ الَّذِي لَا أَعْلَمُ إِنَّكَ أَنْتَ عَلَّامُ الْغُيُوبِ وَسَتَّارُ الْعُيُوبِ وَغَفَّارُ الذُّنُوبِ وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللهِ الْعَلِيِّ الْعَظِيمِ", "transliteration": "Astaghfiru'llāha rabbī min kulli dhambin adhnabtuhū ʿamdan aw khaṭa'an sirran aw ʿalāniyah, wa atūbu ilayhi mina'dh-dhambil-ladhī aʿlamu wa mina'dh-dhambil-ladhī lā aʿlam, innaka anta ʿallāmul-ghuyūbi wa sattārul-ʿuyūbi wa ghaffārudh-dhunūb, wa lā ḥawla wa lā quwwata illā bi'llāhil-ʿaliyyil-ʿaẓīm", "translation": "I seek forgiveness from Allah, my Lord, for every sin I committed deliberately or by mistake, secretly or openly; and I turn to Him in repentance from the sin I know of and from the sin I do not know of. Truly You are the Knower of all that is hidden, the Concealer of faults, the Forgiver of sins. And there is no capacity and no strength except by Allah, the Most High, the Most Great.", "label": "Kalima Astaghfār" },
+      { "kind": "p", "text": "The first four kalimas describe Allah. The fifth turns the speaker around to face themselves. Having declared who the Lord is, the natural next sentence is an admission of how poorly one has served Him." },
+      { "kind": "heading", "level": 2, "text": "Tafsīr: a repentance with no escape clause" },
+      { "kind": "p", "text": "Read the wording closely and you will notice it is built as a set of paired opposites, each pair sealing off a way of quietly excusing oneself:" },
+      { "kind": "list", "items": [
+        { "text": "ʿAmdan aw khaṭa'an — deliberately or by mistake. Not only the sins I chose, but the harm I caused carelessly." },
+        { "text": "Sirran aw ʿalāniyah — in secret or openly. Not only the public failures, but the private ones no one witnessed." },
+        { "text": "Alladhī aʿlamu wa alladhī lā aʿlam — that I know of and that I do not know of. The most humbling clause: the assumption that my self-audit is incomplete." }
+      ] },
+      { "kind": "p", "text": "That last pair is the point of the whole kalima. A person can only repent from what they can see, and the honest believer knows they cannot see all of it — the arrogance they mistook for confidence, the injustice they never noticed doing. So the wording asks forgiveness for the unseen remainder too." },
+      { "kind": "verse", "surah": 39, "ayah": 53, "note": "Do not despair of the mercy of Allah — He forgives all sins. The verse the fifth kalima leans on." },
+      { "kind": "heading", "level": 2, "text": "Three names, three mercies" },
+      { "kind": "p", "text": "The closing praise names Allah three times, and the order is precise. ʿAllāmul-ghuyūb — He knows the hidden, so nothing can be concealed from Him. Sattārul-ʿuyūb — yet He veils faults, choosing not to expose what He knows. Ghaffārudh-dhunūb — and beyond veiling, He forgives outright. Knowing everything, He still covers; covering, He still pardons." },
+      { "kind": "verse", "surah": 3, "ayah": 135, "note": "Those who, when they wrong themselves, remember Allah and seek forgiveness — for who forgives except Allah?" },
+      { "kind": "verse", "surah": 66, "ayah": 8, "note": "Turn to Allah in sincere repentance — tawbatan naṣūḥā, the repentance this kalima aims at." },
+      { "kind": "heading", "level": 2, "text": "Repentance is not one event" },
+      { "kind": "p", "text": "Istighfār in the Sunnah is a daily habit, not a crisis measure. The Prophet ﷺ — sinless — sought forgiveness dozens of times a day, which settles the question of whether a good Muslim outgrows the need for it. The fifth kalima gives that habit words comprehensive enough to be said every night without needing to remember what specifically went wrong." },
+      { "kind": "verse", "surah": 11, "ayah": 3, "note": "Seek His forgiveness and turn to Him, and He will grant you good provision — istighfār joined to worldly and lasting benefit." }
+    ],
+    "hi": [
+      { "kind": "arabic", "text": "أَسْتَغْفِرُ اللهَ رَبِّي مِنْ كُلِّ ذَنْبٍ أَذْنَبْتُهُ عَمْدًا أَوْ خَطَأً سِرًّا أَوْ عَلَانِيَةً وَأَتُوبُ إِلَيْهِ مِنَ الذَّنْبِ الَّذِي أَعْلَمُ وَمِنَ الذَّنْبِ الَّذِي لَا أَعْلَمُ إِنَّكَ أَنْتَ عَلَّامُ الْغُيُوبِ وَسَتَّارُ الْعُيُوبِ وَغَفَّارُ الذُّنُوبِ وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللهِ الْعَلِيِّ الْعَظِيمِ", "transliteration": "Astaghfiru'llāha rabbī min kulli dhambin adhnabtuhū ʿamdan aw khaṭa'an sirran aw ʿalāniyah, wa atūbu ilayhi mina'dh-dhambil-ladhī aʿlamu wa mina'dh-dhambil-ladhī lā aʿlam, innaka anta ʿallāmul-ghuyūbi wa sattārul-ʿuyūbi wa ghaffārudh-dhunūb, wa lā ḥawla wa lā quwwata illā bi'llāhil-ʿaliyyil-ʿaẓīm", "translation": "मैं अल्लाह से, अपने रब से, हर उस गुनाह की माफ़ी माँगता हूँ जो मैंने जान-बूझकर या भूल से, छिपकर या खुल्लम-खुल्ला किया; और मैं उसकी तरफ़ तौबा करता हूँ उस गुनाह से जो मैं जानता हूँ और उस गुनाह से जो मैं नहीं जानता। बेशक तू ही छिपी बातों का जानने वाला, ऐबों को ढाँकने वाला, और गुनाहों को बख़्शने वाला है। और कोई ताक़त और क़ुव्वत नहीं मगर अल्लाह से, जो सबसे बुलंद, सबसे अज़ीम है।", "label": "कलिमा इस्तिग़फ़ार" },
+      { "kind": "p", "text": "पहले चार कलिमे अल्लाह का बयान करते हैं। पाँचवाँ कहने वाले का रुख़ ख़ुद उसकी तरफ़ मोड़ देता है। यह बता चुकने के बाद कि रब कौन है, अगला क़ुदरती वाक्य यह इक़रार है कि उसकी ख़िदमत में कितनी कोताही हुई।" },
+      { "kind": "heading", "level": 2, "text": "तफ़्सीर: बचाव का कोई रास्ता छोड़े बिना तौबा" },
+      { "kind": "p", "text": "अल्फ़ाज़ को ग़ौर से पढ़िए तो मालूम होगा कि यह जोड़ों में बना है, और हर जोड़ा अपने आपको चुपके से माफ़ करने का एक रास्ता बंद कर देता है:" },
+      { "kind": "list", "items": [
+        { "text": "अम्दन औ ख़ताअन — जान-बूझकर या भूल से। सिर्फ़ वे गुनाह नहीं जो मैंने चुने, बल्कि वह नुक़सान भी जो मैंने बेपरवाही से पहुँचाया।" },
+        { "text": "सिर्रन औ अलानिया — छिपकर या खुल्लम-खुल्ला। सिर्फ़ खुली कोताहियाँ नहीं, वे भी जिनका कोई गवाह नहीं था।" },
+        { "text": "अल्लज़ी अअलमु व अल्लज़ी ला अअलम — जो मैं जानता हूँ और जो मैं नहीं जानता। सबसे आजिज़ करने वाला जुमला: यह मान लेना कि मेरा अपना हिसाब अधूरा है।" }
+      ] },
+      { "kind": "p", "text": "यही आख़िरी जोड़ा पूरे कलिमे का मक़सद है। इंसान सिर्फ़ उसी से तौबा कर सकता है जो उसे दिखता है, और ईमानदार मोमिन जानता है कि उसे सब कुछ नहीं दिखता — वह घमंड जिसे उसने ख़ुद-एतमादी समझा, वह ज़ुल्म जो उसे कभी महसूस ही नहीं हुआ। इसलिए यह अल्फ़ाज़ उस अनदेखे बचे हुए हिस्से की भी माफ़ी माँगते हैं।" },
+      { "kind": "verse", "surah": 39, "ayah": 53, "note": "अल्लाह की रहमत से नाउम्मीद न हो — वह सारे गुनाह बख़्श देता है। वही आयत जिस पर पाँचवाँ कलिमा टिका है।" },
+      { "kind": "heading", "level": 2, "text": "तीन नाम, तीन रहमतें" },
+      { "kind": "p", "text": "आख़िर में अल्लाह की तीन बार तारीफ़ है, और तरतीब बहुत सटीक है। अल्लामुल-ग़ुयूब — वह छिपी बातें जानता है, इसलिए उससे कुछ छिपाया नहीं जा सकता। सत्तारुल-उयूब — फिर भी वह ऐब ढाँक देता है, जो वह जानता है उसे उछालने से इनकार करते हुए। ग़फ़्फ़ारुज़-ज़ुनूब — और ढाँकने से आगे बढ़कर वह माफ़ भी कर देता है। सब जानते हुए भी छिपाता है; छिपाते हुए भी बख़्श देता है।" },
+      { "kind": "verse", "surah": 3, "ayah": 135, "note": "वे लोग जो अपनी जान पर ज़ुल्म करने के बाद अल्लाह को याद करते और माफ़ी माँगते हैं — और अल्लाह के सिवा कौन बख़्शता है?" },
+      { "kind": "verse", "surah": 66, "ayah": 8, "note": "अल्लाह की तरफ़ सच्ची तौबा करो — तौबतन नसूहा, वही तौबा जिसका यह कलिमा निशाना है।" },
+      { "kind": "heading", "level": 2, "text": "तौबा एक बार का वाक़िआ नहीं" },
+      { "kind": "p", "text": "सुन्नत में इस्तिग़फ़ार रोज़ की आदत है, मुसीबत का इलाज नहीं। नबी ﷺ — जिनसे कोई गुनाह न था — दिन में दर्जनों बार माफ़ी माँगते थे, जिससे यह सवाल तय हो जाता है कि कोई नेक मुसलमान इसकी ज़रूरत से बड़ा हो जाता है या नहीं। पाँचवाँ कलिमा उस आदत को ऐसे जामे अल्फ़ाज़ देता है जो हर रात कहे जा सकते हैं, बग़ैर इसके कि याद करना पड़े कि आख़िर ग़लती क्या हुई थी।" },
+      { "kind": "verse", "surah": 11, "ayah": 3, "note": "उससे माफ़ी माँगो और उसकी तरफ़ रुजू करो, वह तुम्हें अच्छा सामान देगा — इस्तिग़फ़ार दुनिया और आख़िरत दोनों के नफ़े से जुड़ा हुआ।" }
+    ],
+    "ur": [
+      { "kind": "arabic", "text": "أَسْتَغْفِرُ اللهَ رَبِّي مِنْ كُلِّ ذَنْبٍ أَذْنَبْتُهُ عَمْدًا أَوْ خَطَأً سِرًّا أَوْ عَلَانِيَةً وَأَتُوبُ إِلَيْهِ مِنَ الذَّنْبِ الَّذِي أَعْلَمُ وَمِنَ الذَّنْبِ الَّذِي لَا أَعْلَمُ إِنَّكَ أَنْتَ عَلَّامُ الْغُيُوبِ وَسَتَّارُ الْعُيُوبِ وَغَفَّارُ الذُّنُوبِ وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللهِ الْعَلِيِّ الْعَظِيمِ", "transliteration": "Astaghfiru'llāha rabbī min kulli dhambin adhnabtuhū ʿamdan aw khaṭa'an sirran aw ʿalāniyah, wa atūbu ilayhi mina'dh-dhambil-ladhī aʿlamu wa mina'dh-dhambil-ladhī lā aʿlam, innaka anta ʿallāmul-ghuyūbi wa sattārul-ʿuyūbi wa ghaffārudh-dhunūb, wa lā ḥawla wa lā quwwata illā bi'llāhil-ʿaliyyil-ʿaẓīm", "translation": "میں اللہ سے، اپنے رب سے، ہر اُس گناہ کی مغفرت مانگتا ہوں جو میں نے جان بوجھ کر یا بھول سے، چھپ کر یا کھلے عام کیا؛ اور میں اُس کی طرف توبہ کرتا ہوں اُس گناہ سے جو میں جانتا ہوں اور اُس گناہ سے جو میں نہیں جانتا۔ بے شک تُو ہی پوشیدہ باتوں کا جاننے والا، عیبوں کو ڈھانپنے والا، اور گناہوں کو بخشنے والا ہے۔ اور کوئی طاقت اور قوت نہیں مگر اللہ سے، جو سب سے بلند، سب سے عظیم ہے۔", "label": "کلمہ استغفار" },
+      { "kind": "p", "text": "پہلے چار کلمے اللہ کا بیان کرتے ہیں۔ پانچواں کہنے والے کا رخ خود اُس کی طرف موڑ دیتا ہے۔ یہ بتا چکنے کے بعد کہ رب کون ہے، اگلا فطری جملہ یہ اقرار ہے کہ اُس کی خدمت میں کتنی کوتاہی ہوئی۔" },
+      { "kind": "heading", "level": 2, "text": "تفسیر: بچاؤ کا کوئی راستہ چھوڑے بغیر توبہ" },
+      { "kind": "p", "text": "الفاظ کو غور سے پڑھیے تو معلوم ہوگا کہ یہ جوڑوں میں بنا ہے، اور ہر جوڑا اپنے آپ کو چپکے سے معاف کرنے کا ایک راستہ بند کر دیتا ہے:" },
+      { "kind": "list", "items": [
+        { "text": "عَمْدًا أَوْ خَطَأً — جان بوجھ کر یا بھول سے۔ صرف وہ گناہ نہیں جو میں نے چنے، بلکہ وہ نقصان بھی جو میں نے بے پروائی سے پہنچایا۔" },
+        { "text": "سِرًّا أَوْ عَلَانِيَةً — چھپ کر یا کھلے عام۔ صرف کھلی کوتاہیاں نہیں، وہ بھی جن کا کوئی گواہ نہ تھا۔" },
+        { "text": "الَّذِي أَعْلَمُ وَالَّذِي لَا أَعْلَمُ — جو میں جانتا ہوں اور جو میں نہیں جانتا۔ سب سے عاجز کرنے والا جملہ: یہ مان لینا کہ میرا اپنا حساب ادھورا ہے۔" }
+      ] },
+      { "kind": "p", "text": "یہی آخری جوڑا پورے کلمے کا مقصد ہے۔ انسان صرف اُسی سے توبہ کر سکتا ہے جو اُسے دکھتا ہے، اور دیانت دار مومن جانتا ہے کہ اُسے سب کچھ نہیں دکھتا — وہ تکبر جسے اُس نے خود اعتمادی سمجھا، وہ ظلم جو اُسے کبھی محسوس ہی نہ ہوا۔ چنانچہ یہ الفاظ اُس اَن دیکھے بچے ہوئے حصے کی بھی مغفرت مانگتے ہیں۔" },
+      { "kind": "verse", "surah": 39, "ayah": 53, "note": "اللہ کی رحمت سے ناامید نہ ہو — وہ سارے گناہ بخش دیتا ہے۔ وہی آیت جس پر پانچواں کلمہ قائم ہے۔" },
+      { "kind": "heading", "level": 2, "text": "تین نام، تین رحمتیں" },
+      { "kind": "p", "text": "آخر میں اللہ کی تین بار تعریف ہے، اور ترتیب بہت درست ہے۔ عَلَّامُ الْغُيُوبِ — وہ پوشیدہ باتیں جانتا ہے، چنانچہ اُس سے کچھ چھپایا نہیں جا سکتا۔ سَتَّارُ الْعُيُوبِ — پھر بھی وہ عیب ڈھانپ دیتا ہے، جو وہ جانتا ہے اُسے اچھالنے سے انکار کرتے ہوئے۔ غَفَّارُ الذُّنُوبِ — اور ڈھانپنے سے آگے بڑھ کر وہ معاف بھی کر دیتا ہے۔ سب جانتے ہوئے بھی چھپاتا ہے؛ چھپاتے ہوئے بھی بخش دیتا ہے۔" },
+      { "kind": "verse", "surah": 3, "ayah": 135, "note": "وہ لوگ جو اپنی جان پر ظلم کرنے کے بعد اللہ کو یاد کرتے اور مغفرت مانگتے ہیں — اور اللہ کے سوا کون بخشتا ہے؟" },
+      { "kind": "verse", "surah": 66, "ayah": 8, "note": "اللہ کی طرف سچی توبہ کرو — توبۃً نصوحاً، وہی توبہ جس کا یہ کلمہ نشانہ ہے۔" },
+      { "kind": "heading", "level": 2, "text": "توبہ ایک بار کا واقعہ نہیں" },
+      { "kind": "p", "text": "سنت میں استغفار روز کی عادت ہے، مصیبت کا علاج نہیں۔ نبی کریم ﷺ — جن سے کوئی گناہ نہ تھا — دن میں درجنوں بار مغفرت مانگتے تھے، جس سے یہ سوال طے ہو جاتا ہے کہ کوئی نیک مسلمان اِس کی ضرورت سے بڑا ہو جاتا ہے یا نہیں۔ پانچواں کلمہ اُس عادت کو ایسے جامع الفاظ دیتا ہے جو ہر رات کہے جا سکتے ہیں، بغیر اِس کے کہ یاد کرنا پڑے کہ آخر غلطی کیا ہوئی تھی۔" },
+      { "kind": "verse", "surah": 11, "ayah": 3, "note": "اُس سے مغفرت مانگو اور اُس کی طرف رجوع کرو، وہ تمہیں اچھا سامان دے گا — استغفار دنیا و آخرت دونوں کے نفع سے جڑا ہوا۔" }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "39:53" },
+    { "type": "quran", "ref": "3:135" },
+    { "type": "quran", "ref": "66:8" },
+    { "type": "hadith", "collection": "bukhari", "ref": "6307", "grade": "sahih" }
+  ],
+  "relatedSlugs": ["creed-six-kalimas", "creed-kalima-radd-e-kufr", "concept-tawbah"]
+}

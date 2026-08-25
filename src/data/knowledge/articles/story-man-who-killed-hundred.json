@@ -1,0 +1,63 @@
+{
+  "slug": "story-man-who-killed-hundred",
+  "category": "hadith-stories",
+  "title": {
+    "en": "The Man Who Killed a Hundred",
+    "hi": "वह आदमी जिसने सौ को मारा",
+    "ur": "وہ آدمی جس نے سو کو قتل کیا"
+  },
+  "summary": {
+    "en": "A man who had killed ninety-nine people, then a hundred, sincerely sought repentance and set out toward a land of righteous people. He died on the way — and Allah's mercy accepted him because his heart had truly turned back.",
+    "hi": "एक आदमी जिसने निन्यानबे लोगों को, फिर सौ को मारा था, सच्चे दिल से तौबा की तलाश में एक नेक लोगों की भूमि की ओर निकला। रास्ते में उसकी मृत्यु हो गई — और अल्लाह की दया ने उसे स्वीकार कर लिया क्योंकि उसका दिल सचमुच लौट आया था।",
+    "ur": "ایک آدمی جس نے ننانوے لوگوں کو، پھر سو کو قتل کیا تھا، سچے دل سے توبہ کی تلاش میں ایک نیک لوگوں کی سرزمین کی طرف نکلا۔ راستے میں اس کی موت ہو گئی — اور اللہ کی رحمت نے اسے قبول کر لیا کیونکہ اس کا دل واقعی پلٹ آیا تھا۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "The Prophet Muhammad ﷺ told of a man among the people before us who had killed ninety-nine souls. Seeking to know whether repentance was possible, he asked a monk, who told him there was no repentance for him — so he killed him too, completing a hundred." },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 3470, "note": "The narration of the man who killed a hundred and journeyed toward repentance." },
+      { "kind": "heading", "level": 2, "text": "The turning point" },
+      { "kind": "p", "text": "Still searching, he was directed to a learned man, who told him: nothing stands between you and repentance. He advised him to leave his land of evil and go to a certain town where righteous people worshipped Allah. The man set out — but death overtook him on the way." },
+      { "kind": "p", "text": "The angels of mercy and the angels of punishment disputed over him. Allah commanded them to measure the distance to each town; he was found a hand-span closer to the town of the righteous, so the angels of mercy took him. In another narration, Allah commanded the righteous land to draw nearer and the evil land to move away." },
+      { "kind": "verse", "surah": 39, "ayah": 53, "note": "'Do not despair of the mercy of Allah. Indeed, Allah forgives all sins.'" },
+      { "kind": "heading", "level": 2, "text": "Lessons" },
+      { "kind": "list", "items": [
+        { "text": "No sin is too great for Allah's mercy when repentance is sincere." },
+        { "text": "Turning away from a sinful environment toward righteous company is part of true repentance." },
+        { "text": "A single genuine step toward Allah can tip the scales in one's favour." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "पैगंबर मुहम्मद ﷺ ने हमसे पहले के लोगों में से एक आदमी की कथा सुनाई जिसने निन्यानबे जानें ली थीं। यह जानने के लिए कि क्या तौबा संभव है, उसने एक संन्यासी से पूछा, जिसने कहा कि उसके लिए कोई तौबा नहीं — तो उसने उसे भी मार डाला, सौ पूरे कर दिए।" },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 3470, "note": "उस आदमी का वृत्तांत जिसने सौ को मारा और तौबा की ओर यात्रा की।" },
+      { "kind": "heading", "level": 2, "text": "मोड़ का क्षण" },
+      { "kind": "p", "text": "फिर भी तलाश करते हुए, उसे एक विद्वान की ओर भेजा गया, जिसने कहा: तेरे और तौबा के बीच कुछ भी नहीं। उसने सलाह दी कि वह अपनी बुराई की भूमि छोड़ दे और एक ऐसे नगर में जाए जहाँ नेक लोग अल्लाह की इबादत करते हैं। आदमी निकल पड़ा — पर रास्ते में मौत ने उसे आ लिया।" },
+      { "kind": "p", "text": "दया के फ़रिश्तों और अज़ाब के फ़रिश्तों में उसके बारे में विवाद हुआ। अल्लाह ने उन्हें हर नगर की दूरी नापने का हुक्म दिया; वह नेक लोगों के नगर से एक बालिश्त अधिक निकट पाया गया, तो दया के फ़रिश्तों ने उसे ले लिया। एक अन्य वर्णन में, अल्लाह ने नेक भूमि को निकट आने और बुरी भूमि को दूर हटने का हुक्म दिया।" },
+      { "kind": "verse", "surah": 39, "ayah": 53, "note": "'अल्लाह की दया से निराश न हो। निस्संदेह अल्लाह सभी पापों को क्षमा कर देता है।'" },
+      { "kind": "heading", "level": 2, "text": "शिक्षाएँ" },
+      { "kind": "list", "items": [
+        { "text": "जब तौबा सच्ची हो तो कोई पाप अल्लाह की दया के लिए बहुत बड़ा नहीं।" },
+        { "text": "पापमय वातावरण से मुँह मोड़ कर नेक संगत की ओर जाना सच्ची तौबा का हिस्सा है।" },
+        { "text": "अल्लाह की ओर एक सच्चा क़दम भी तराज़ू को किसी के पक्ष में झुका सकता है।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "نبی کریم ﷺ نے ہم سے پہلے کے لوگوں میں سے ایک آدمی کا قصہ سنایا جس نے ننانوے جانیں لی تھیں۔ یہ جاننے کے لیے کہ کیا توبہ ممکن ہے، اس نے ایک راہب سے پوچھا، جس نے کہا کہ اس کے لیے کوئی توبہ نہیں — تو اس نے اسے بھی قتل کر دیا، سو پورے کر دیے۔" },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 3470, "note": "اُس آدمی کا بیان جس نے سو کو قتل کیا اور توبہ کی طرف سفر کیا۔" },
+      { "kind": "heading", "level": 2, "text": "موڑ کا لمحہ" },
+      { "kind": "p", "text": "پھر بھی تلاش کرتے ہوئے، اسے ایک عالم کی طرف بھیجا گیا، جس نے کہا: تیرے اور توبہ کے درمیان کچھ بھی نہیں۔ اس نے مشورہ دیا کہ وہ اپنی برائی کی سرزمین چھوڑ دے اور ایک ایسے شہر میں جائے جہاں نیک لوگ اللہ کی عبادت کرتے ہیں۔ آدمی نکل پڑا — مگر راستے میں موت نے اسے آ لیا۔" },
+      { "kind": "p", "text": "رحمت کے فرشتوں اور عذاب کے فرشتوں میں اس کے بارے میں جھگڑا ہوا۔ اللہ نے انہیں ہر شہر کا فاصلہ ناپنے کا حکم دیا؛ وہ نیک لوگوں کے شہر سے ایک بالشت زیادہ قریب پایا گیا، تو رحمت کے فرشتوں نے اسے لے لیا۔ ایک اور روایت میں، اللہ نے نیک سرزمین کو قریب آنے اور بری سرزمین کو دور ہٹنے کا حکم دیا۔" },
+      { "kind": "verse", "surah": 39, "ayah": 53, "note": "'اللہ کی رحمت سے مایوس نہ ہو۔ بے شک اللہ تمام گناہ معاف کر دیتا ہے۔'" },
+      { "kind": "heading", "level": 2, "text": "اسباق" },
+      { "kind": "list", "items": [
+        { "text": "جب توبہ سچی ہو تو کوئی گناہ اللہ کی رحمت کے لیے بہت بڑا نہیں۔" },
+        { "text": "گناہ آلود ماحول سے منہ موڑ کر نیک صحبت کی طرف جانا سچی توبہ کا حصہ ہے۔" },
+        { "text": "اللہ کی طرف ایک سچا قدم بھی ترازو کو کسی کے حق میں جھکا سکتا ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "hadith", "collection": "bukhari", "ref": "3470", "grade": "sahih" },
+    { "type": "quran", "ref": "39:53" }
+  ],
+  "relatedSlugs": ["concept-tawbah", "concept-dua", "concept-jannah"]
+}

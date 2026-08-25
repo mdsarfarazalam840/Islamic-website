@@ -1,0 +1,72 @@
+{
+  "slug": "story-qarun",
+  "category": "quranic",
+  "title": {
+    "en": "Qarun and His Treasures",
+    "hi": "क़ारून और उसके ख़ज़ाने",
+    "ur": "قارون اور اس کے خزانے"
+  },
+  "summary": {
+    "en": "Qarun was a man of Musa's people whom Allah gave immense wealth, but he grew arrogant and claimed his riches came from his own knowledge. Allah caused the earth to swallow him and his home — a warning against pride and ingratitude.",
+    "hi": "क़ारून मूसा की क़ौम का एक व्यक्ति था जिसे अल्लाह ने अपार धन दिया, पर वह घमंडी हो गया और दावा किया कि उसका धन उसके अपने ज्ञान से आया। अल्लाह ने ज़मीन को उसे और उसके घर को निगल जाने का हुक्म दिया — घमंड और कृतघ्नता के विरुद्ध एक चेतावनी।",
+    "ur": "قارون موسیٰ کی قوم کا ایک شخص تھا جسے اللہ نے بے پناہ دولت دی، مگر وہ متکبر ہو گیا اور دعویٰ کیا کہ اس کی دولت اس کے اپنے علم سے آئی۔ اللہ نے زمین کو اسے اور اس کے گھر کو نگل جانے کا حکم دیا — تکبر اور ناشکری کے خلاف ایک تنبیہ۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Qarun (Korah) belonged to the people of Musa (peace be upon him), yet he oppressed them. Allah had granted him treasures so vast that their very keys would burden a band of strong men — but wealth made him transgress." },
+      { "kind": "verse", "surah": 28, "ayah": 76, "note": "Qarun was of Musa's people but oppressed them; his treasures' keys would weigh down a strong company." },
+      { "kind": "p", "text": "The righteous among his people counselled him: seek the Hereafter with your wealth, do not forget your share of this world, do good as Allah has done good to you, and do not spread corruption." },
+      { "kind": "verse", "surah": 28, "ayah": 77, "note": "'Seek, through what Allah has given you, the home of the Hereafter… and do not desire corruption in the land.'" },
+      { "kind": "heading", "level": 2, "text": "The claim of the ungrateful" },
+      { "kind": "p", "text": "Qarun rejected their advice, insisting his wealth was earned purely by his own knowledge and merit — forgetting that Allah is the true Giver, who had destroyed mightier men before him." },
+      { "kind": "verse", "surah": 28, "ayah": 78, "note": "He said, 'I was only given it because of knowledge I possess' — but Allah had destroyed those mightier and richer than him." },
+      { "kind": "heading", "level": 2, "text": "The earth swallows him" },
+      { "kind": "p", "text": "He went out among his people in dazzling splendour, and those who craved the world envied him. Then Allah caused the earth to swallow him and his house; no party could help him, and those who had wished for his place realised the ruin of ingratitude." },
+      { "kind": "verse", "surah": 28, "ayah": 81, "note": "We caused the earth to swallow him and his home; no group could defend him against Allah." },
+      { "kind": "list", "items": [
+        { "text": "Wealth is a trust from Allah, not a proof of one's own greatness." },
+        { "text": "Ingratitude and arrogance invite ruin, however secure a person feels." },
+        { "text": "The believer uses what Allah gives to seek the Hereafter without neglecting lawful worldly good." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "क़ारून मूसा (उन पर शांति हो) की क़ौम से था, फिर भी उन पर अत्याचार करता था। अल्लाह ने उसे इतने विशाल ख़ज़ाने दिए थे कि उनकी चाबियाँ ही बलवान लोगों के एक समूह पर भारी पड़तीं — पर धन ने उसे हद से आगे बढ़ा दिया।" },
+      { "kind": "verse", "surah": 28, "ayah": 76, "note": "क़ारून मूसा की क़ौम से था पर उन पर अत्याचार करता था; उसके ख़ज़ानों की चाबियाँ एक बलवान समूह पर भारी पड़तीं।" },
+      { "kind": "p", "text": "उसकी क़ौम के धर्मनिष्ठ लोगों ने उसे समझाया: अपने धन से आख़िरत तलाश कर, दुनिया में अपना हिस्सा न भूल, भलाई कर जैसे अल्लाह ने तुझ पर भलाई की, और धरती में बिगाड़ न फैला।" },
+      { "kind": "verse", "surah": 28, "ayah": 77, "note": "'अल्लाह ने जो तुझे दिया है उससे आख़िरत का घर तलाश कर… और धरती में बिगाड़ की चाह न रख।'" },
+      { "kind": "heading", "level": 2, "text": "कृतघ्न का दावा" },
+      { "kind": "p", "text": "क़ारून ने उनकी सलाह ठुकरा दी, यह ज़िद करते हुए कि उसका धन केवल उसके अपने ज्ञान और योग्यता से कमाया गया — यह भूल कर कि अल्लाह ही सच्चा देने वाला है, जिसने उससे पहले उससे बलवान लोगों को नष्ट किया था।" },
+      { "kind": "verse", "surah": 28, "ayah": 78, "note": "उसने कहा, 'यह मुझे केवल उस ज्ञान के कारण मिला है जो मेरे पास है' — पर अल्लाह ने उससे बलवान और धनवान लोगों को नष्ट कर दिया था।" },
+      { "kind": "heading", "level": 2, "text": "धरती उसे निगल लेती है" },
+      { "kind": "p", "text": "वह अपनी क़ौम के सामने चकाचौंध भरी शान से निकला, और जो दुनिया के भूखे थे उन्होंने उससे ईर्ष्या की। फिर अल्लाह ने ज़मीन को उसे और उसके घर को निगल जाने का हुक्म दिया; कोई गिरोह उसकी मदद न कर सका, और जिन्होंने उसकी जगह की चाह की थी उन्होंने कृतघ्नता का विनाश समझ लिया।" },
+      { "kind": "verse", "surah": 28, "ayah": 81, "note": "हमने ज़मीन को उसे और उसके घर को निगलवा दिया; कोई गिरोह अल्लाह के मुक़ाबले उसकी रक्षा न कर सका।" },
+      { "kind": "list", "items": [
+        { "text": "धन अल्लाह की अमानत है, अपनी महानता का प्रमाण नहीं।" },
+        { "text": "कृतघ्नता और घमंड विनाश को बुलाते हैं, चाहे व्यक्ति कितना ही सुरक्षित महसूस करे।" },
+        { "text": "ईमान वाला अल्लाह के दिए से आख़िरत तलाशता है, वैध सांसारिक भलाई की उपेक्षा किए बिना।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "قارون موسیٰ (علیہ السلام) کی قوم سے تھا، پھر بھی اُن پر ظلم کرتا تھا۔ اللہ نے اسے اتنے وسیع خزانے دیے تھے کہ اُن کی چابیاں ہی طاقتور لوگوں کے ایک گروہ پر بھاری پڑتیں — مگر دولت نے اسے حد سے آگے بڑھا دیا۔" },
+      { "kind": "verse", "surah": 28, "ayah": 76, "note": "قارون موسیٰ کی قوم سے تھا مگر اُن پر ظلم کرتا تھا؛ اس کے خزانوں کی چابیاں ایک طاقتور جماعت پر بھاری پڑتیں۔" },
+      { "kind": "p", "text": "اس کی قوم کے نیک لوگوں نے اسے سمجھایا: اپنی دولت سے آخرت تلاش کر، دنیا میں اپنا حصہ نہ بھول، احسان کر جیسے اللہ نے تجھ پر احسان کیا، اور زمین میں فساد نہ پھیلا۔" },
+      { "kind": "verse", "surah": 28, "ayah": 77, "note": "'اللہ نے جو تجھے دیا ہے اس سے آخرت کا گھر تلاش کر… اور زمین میں فساد کی خواہش نہ رکھ۔'" },
+      { "kind": "heading", "level": 2, "text": "ناشکرے کا دعویٰ" },
+      { "kind": "p", "text": "قارون نے اُن کی نصیحت ٹھکرا دی، یہ اصرار کرتے ہوئے کہ اس کی دولت صرف اس کے اپنے علم اور قابلیت سے کمائی گئی — یہ بھول کر کہ اللہ ہی سچا دینے والا ہے، جس نے اس سے پہلے اس سے زیادہ طاقتور لوگوں کو تباہ کیا تھا۔" },
+      { "kind": "verse", "surah": 28, "ayah": 78, "note": "اس نے کہا، 'یہ مجھے صرف اُس علم کی وجہ سے ملا ہے جو میرے پاس ہے' — مگر اللہ نے اس سے زیادہ طاقتور اور مالدار لوگوں کو تباہ کر دیا تھا۔" },
+      { "kind": "heading", "level": 2, "text": "زمین اسے نگل لیتی ہے" },
+      { "kind": "p", "text": "وہ اپنی قوم کے سامنے خیرہ کن ٹھاٹھ کے ساتھ نکلا، اور جو دنیا کے بھوکے تھے انہوں نے اس سے حسد کیا۔ پھر اللہ نے زمین کو اسے اور اس کے گھر کو نگل جانے کا حکم دیا؛ کوئی گروہ اس کی مدد نہ کر سکا، اور جنہوں نے اس کی جگہ کی خواہش کی تھی انہوں نے ناشکری کی تباہی سمجھ لی۔" },
+      { "kind": "verse", "surah": 28, "ayah": 81, "note": "ہم نے زمین کو اسے اور اس کے گھر کو نگلوا دیا؛ کوئی گروہ اللہ کے مقابلے میں اس کی حفاظت نہ کر سکا۔" },
+      { "kind": "list", "items": [
+        { "text": "دولت اللہ کی امانت ہے، اپنی عظمت کا ثبوت نہیں۔" },
+        { "text": "ناشکری اور تکبر تباہی کو دعوت دیتے ہیں، خواہ انسان کتنا ہی محفوظ محسوس کرے۔" },
+        { "text": "مومن اللہ کے دیے سے آخرت تلاش کرتا ہے، جائز دنیوی بھلائی کو نظر انداز کیے بغیر۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "28:76-82" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["prophet-musa", "concept-taqwa", "story-owner-of-two-gardens"]
+}

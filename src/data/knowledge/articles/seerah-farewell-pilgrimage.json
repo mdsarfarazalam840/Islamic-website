@@ -1,0 +1,68 @@
+{
+  "slug": "seerah-farewell-pilgrimage",
+  "category": "seerah",
+  "featured": false,
+  "title": {
+    "en": "The Farewell Pilgrimage",
+    "hi": "विदाई हज",
+    "ur": "حجۃ الوداع"
+  },
+  "summary": {
+    "en": "In the final year of his life the Prophet ﷺ led the Muslims in Hajj and delivered his famous Farewell Sermon on the plain of 'Arafah. Before a vast gathering he affirmed the sanctity of life and property, abolished the practices of ignorance, upheld the rights of women, and declared that all people are equal before Allah. There the verse announcing the completion of the religion was revealed.",
+    "hi": "अपने जीवन के आख़िरी साल में पैगंबर ﷺ ने मुसलमानों को हज में नेतृत्व दिया और अराफ़ात के मैदान में अपना मशहूर विदाई ख़ुत्बा दिया। एक विशाल जमावड़े के सामने उन्होंने जान और माल की पवित्रता की पुष्टि की, जाहिलियत की प्रथाओं को ख़त्म किया, स्त्रियों के अधिकार क़ायम किए, और घोषणा की कि सब लोग अल्लाह के सामने बराबर हैं। वहीं वह आयत उतरी जिसने दीन के मुकम्मल होने का ऐलान किया।",
+    "ur": "اپنی زندگی کے آخری سال میں نبی ﷺ نے مسلمانوں کو حج میں قیادت دی اور عرفات کے میدان میں اپنا مشہور خطبۂ وداع دیا۔ ایک وسیع اجتماع کے سامنے اُنہوں نے جان اور مال کی حرمت کی تصدیق کی، جاہلیت کی رسموں کو ختم کیا، عورتوں کے حقوق قائم کیے، اور اعلان کیا کہ سب لوگ اللہ کے سامنے برابر ہیں۔ وہیں وہ آیت اتری جس نے دین کے مکمل ہونے کا اعلان کیا۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "In the tenth year after the Hijrah, the Prophet ﷺ announced that he would perform the Hajj. Tens of thousands of Muslims joined him. It would be the only Hajj of his life and his last great gathering with the believers — remembered ever after as the Farewell Pilgrimage." },
+      { "kind": "p", "text": "On the Day of 'Arafah he addressed the immense assembly with a sermon that reads like a summary of Islam's social teaching. He declared the blood and property of every person sacred and inviolable, like the sanctity of that sacred day, month, and town." },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 1739, "note": "The Prophet ﷺ on the Day of Nahr: 'Your blood, your property, and your honour are sacred to one another, like the sanctity of this day of yours, in this town of yours, in this month of yours.'" },
+      { "kind": "heading", "level": 2, "text": "The teachings of the sermon" },
+      { "kind": "p", "text": "He abolished the blood-feuds and the interest (riba) of the age of ignorance, urged the good treatment of women and reminded the men of their duties toward them, and affirmed the brotherhood of the believers. He proclaimed that no Arab is superior to a non-Arab, nor white over black, except by piety and good action — striking at the root of racial and tribal pride." },
+      { "kind": "heading", "level": 2, "text": "The religion perfected" },
+      { "kind": "p", "text": "It was there, on that day at 'Arafah, that Allah revealed the verse announcing that the religion had been completed and His favour upon the believers fulfilled — words the Companions understood as a sign that the Prophet's mission was nearing its end." },
+      { "kind": "verse", "surah": 5, "ayah": 3, "note": "'This day I have perfected for you your religion and completed My favour upon you and have approved for you Islam as religion.'" },
+      { "kind": "list", "items": [
+        { "text": "The sanctity of every person's life, wealth, and honour is a foundation of Islam." },
+        { "text": "All people are equal before Allah; superiority is only through piety, not race or lineage." },
+        { "text": "The religion was completed in the Prophet's lifetime — nothing essential is left to be added." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "हिजरत के दसवें साल में पैगंबर ﷺ ने ऐलान किया कि वे हज करेंगे। दसियों हज़ार मुसलमान उनके साथ जुड़े। यह उनके जीवन का एकमात्र हज होगा और ईमान वालों के साथ उनका आख़िरी बड़ा जमावड़ा — जो सदा 'विदाई हज' के रूप में याद रखा गया।" },
+      { "kind": "p", "text": "अराफ़ात के दिन उन्होंने विशाल सभा को एक ख़ुत्बे से संबोधित किया जो इस्लाम की सामाजिक शिक्षा के सार जैसा पढ़ा जाता है। उन्होंने हर व्यक्ति के ख़ून और माल को पवित्र और अनुल्लंघनीय घोषित किया, जैसे उस पवित्र दिन, महीने और शहर की पवित्रता।" },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 1739, "note": "पैगंबर ﷺ नहर के दिन: 'तुम्हारा ख़ून, तुम्हारा माल और तुम्हारी इज़्ज़त एक-दूसरे पर पवित्र हैं, जैसे तुम्हारे इस दिन की, तुम्हारे इस शहर की, तुम्हारे इस महीने की पवित्रता।'" },
+      { "kind": "heading", "level": 2, "text": "ख़ुत्बे की शिक्षाएँ" },
+      { "kind": "p", "text": "उन्होंने जाहिलियत के ख़ून के झगड़े और ब्याज (रिबा) को ख़त्म किया, स्त्रियों के साथ अच्छे बर्ताव का आग्रह किया और पुरुषों को उनके प्रति अपने कर्तव्य याद दिलाए, और ईमान वालों के भाईचारे की पुष्टि की। उन्होंने घोषणा की कि कोई अरब किसी ग़ैर-अरब से श्रेष्ठ नहीं, न गोरा काले से, सिवाय तक़वा और अच्छे कर्म के — नस्लीय और क़बीलाई घमंड की जड़ पर चोट करते हुए।" },
+      { "kind": "heading", "level": 2, "text": "दीन मुकम्मल हुआ" },
+      { "kind": "p", "text": "वहीं, अराफ़ात के उस दिन, अल्लाह ने वह आयत उतारी जिसने ऐलान किया कि दीन मुकम्मल हो गया और ईमान वालों पर उसकी नेमत पूरी हो गई — वे शब्द जिन्हें सहाबा ने इस निशानी के रूप में समझा कि पैगंबर का मिशन अपने अंत के क़रीब है।" },
+      { "kind": "verse", "surah": 5, "ayah": 3, "note": "'आज मैंने तुम्हारे लिए तुम्हारा दीन मुकम्मल कर दिया और तुम पर अपनी नेमत पूरी कर दी और तुम्हारे लिए इस्लाम को दीन के रूप में पसंद किया।'" },
+      { "kind": "list", "items": [
+        { "text": "हर व्यक्ति के जीवन, माल और इज़्ज़त की पवित्रता इस्लाम की एक बुनियाद है।" },
+        { "text": "सब लोग अल्लाह के सामने बराबर हैं; श्रेष्ठता केवल तक़वा से है, नस्ल या वंश से नहीं।" },
+        { "text": "दीन पैगंबर के जीवन में ही मुकम्मल हो गया — कुछ ज़रूरी जोड़ना बाक़ी नहीं।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "ہجرت کے دسویں سال میں نبی ﷺ نے اعلان کیا کہ وہ حج کریں گے۔ دسیوں ہزار مسلمان اُن کے ساتھ جڑے۔ یہ اُن کی زندگی کا واحد حج ہوگا اور ایمان والوں کے ساتھ اُن کا آخری بڑا اجتماع — جو ہمیشہ 'حجۃ الوداع' کے طور پر یاد رکھا گیا۔" },
+      { "kind": "p", "text": "عرفات کے دن اُنہوں نے وسیع اجتماع کو ایک خطبے سے مخاطب کیا جو اسلام کی سماجی تعلیم کے خلاصے جیسا پڑھا جاتا ہے۔ اُنہوں نے ہر شخص کے خون اور مال کو مقدس اور ناقابلِ پامالی قرار دیا، جیسے اُس مقدس دن، مہینے اور شہر کی حرمت۔" },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 1739, "note": "نبی ﷺ نحر کے دن: 'تمہارا خون، تمہارا مال اور تمہاری عزت ایک دوسرے پر مقدس ہیں، جیسے تمہارے اِس دن کی، تمہارے اِس شہر کی، تمہارے اِس مہینے کی حرمت۔'" },
+      { "kind": "heading", "level": 2, "text": "خطبے کی تعلیمات" },
+      { "kind": "p", "text": "اُنہوں نے جاہلیت کے خون کے جھگڑے اور سود (ربا) کو ختم کیا، عورتوں کے ساتھ اچھے سلوک کی تاکید کی اور مردوں کو اُن کے حقوق یاد دلائے، اور ایمان والوں کے بھائی چارے کی تصدیق کی۔ اُنہوں نے اعلان کیا کہ کوئی عرب کسی غیر عرب سے برتر نہیں، نہ گورا کالے سے، سوائے تقویٰ اور اچھے عمل کے — نسلی اور قبائلی تکبر کی جڑ پر چوٹ کرتے ہوئے۔" },
+      { "kind": "heading", "level": 2, "text": "دین مکمل ہوا" },
+      { "kind": "p", "text": "وہیں، عرفات کے اُس دن، اللہ نے وہ آیت اتاری جس نے اعلان کیا کہ دین مکمل ہو گیا اور ایمان والوں پر اُس کی نعمت پوری ہو گئی — وہ الفاظ جنہیں صحابہ نے اِس نشانی کے طور پر سمجھا کہ نبی کا مشن اپنے اختتام کے قریب ہے۔" },
+      { "kind": "verse", "surah": 5, "ayah": 3, "note": "'آج میں نے تمہارے لیے تمہارا دین مکمل کر دیا اور تم پر اپنی نعمت پوری کر دی اور تمہارے لیے اسلام کو دین کے طور پر پسند کیا۔'" },
+      { "kind": "list", "items": [
+        { "text": "ہر شخص کی جان، مال اور عزت کی حرمت اسلام کی ایک بنیاد ہے۔" },
+        { "text": "سب لوگ اللہ کے سامنے برابر ہیں؛ برتری صرف تقویٰ سے ہے، نسل یا نسب سے نہیں۔" },
+        { "text": "دین نبی کی زندگی میں ہی مکمل ہو گیا — کچھ ضروری جوڑنا باقی نہیں۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "5:3" },
+    { "type": "hadith", "collection": "bukhari", "ref": "1739", "grade": "sahih" },
+    { "type": "seerah" }
+  ],
+  "relatedSlugs": ["basics-hajj", "seerah-conquest-of-makkah", "prophet-muhammad"]
+}

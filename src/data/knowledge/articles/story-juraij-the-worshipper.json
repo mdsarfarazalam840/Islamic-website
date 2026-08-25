@@ -1,0 +1,60 @@
+{
+  "slug": "story-juraij-the-worshipper",
+  "category": "hadith-stories",
+  "title": {
+    "en": "Juraij the Worshipper",
+    "hi": "जुरैज इबादत करने वाला",
+    "ur": "جریج عبادت گزار"
+  },
+  "summary": {
+    "en": "A devout worshipper named Juraij chose his prayer over answering his mother's call, and she prayed he would be tested. Falsely accused of fathering a child, Allah cleared his name when a newborn spoke — teaching that a parent's right can outweigh even voluntary worship.",
+    "hi": "जुरैज नाम का एक धर्मनिष्ठ इबादत करने वाला अपनी माँ की पुकार का जवाब देने के बजाय अपनी नमाज़ को चुन बैठा, और उसने दुआ की कि वह आज़माया जाए। एक बच्चे का पिता होने के झूठे आरोप में, अल्लाह ने उसका नाम तब निर्दोष कर दिया जब एक नवजात बोला — यह सिखाते हुए कि माता-पिता का हक़ स्वैच्छिक इबादत से भी भारी हो सकता है।",
+    "ur": "جریج نامی ایک عبادت گزار اپنی ماں کی پکار کا جواب دینے کے بجائے اپنی نماز کو چن بیٹھا، اور اس نے دعا کی کہ وہ آزمایا جائے۔ ایک بچے کا باپ ہونے کے جھوٹے الزام میں، اللہ نے اس کا نام تب بری کیا جب ایک نومولود بولا — یہ سکھاتے ہوئے کہ والدین کا حق نفلی عبادت سے بھی بھاری ہو سکتا ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "The Prophet Muhammad ﷺ told of Juraij, a man devoted to worship in his hermitage. One day his mother called him while he was praying. Torn between answering her and continuing his prayer, he chose the prayer — three times she called, and three times he did not answer. Distressed, she prayed that Allah would let him see the faces of the harlots before he died." },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 3436, "note": "The narration of Juraij, and of the infants who spoke by Allah's leave." },
+      { "kind": "heading", "level": 2, "text": "The false accusation" },
+      { "kind": "p", "text": "Later, a sinful woman claimed that Juraij had fathered her child, and the people, believing her, destroyed his hermitage and dragged him out. Juraij asked for the newborn to be brought, prayed, and then asked the infant, 'Who is your father?' By Allah's power the baby spoke: 'My father is so-and-so, the shepherd.' The people, ashamed, offered to rebuild his cell in gold; he asked only that it be rebuilt in clay as before." },
+      { "kind": "heading", "level": 2, "text": "Lessons" },
+      { "kind": "list", "items": [
+        { "text": "Answering one's parent can take precedence even over voluntary (nafl) prayer." },
+        { "text": "Allah defends the sincere and clears the innocent, even by a miracle." },
+        { "text": "A believer seeks vindication from Allah, not worldly reward." }
+      ] },
+      { "kind": "verse", "surah": 17, "ayah": 23, "note": "'Your Lord has decreed that you worship none but Him, and be good to parents.'" }
+    ],
+    "hi": [
+      { "kind": "p", "text": "पैगंबर मुहम्मद ﷺ ने जुरैज की कथा सुनाई, एक व्यक्ति जो अपने इबादतख़ाने में इबादत के लिए समर्पित था। एक दिन उसकी माँ ने उसे पुकारा जब वह नमाज़ पढ़ रहा था। उसका जवाब देने और नमाज़ जारी रखने के बीच फँसा, उसने नमाज़ को चुना — तीन बार उसने पुकारा, और तीन बार उसने जवाब न दिया। दुखी होकर उसने दुआ की कि अल्लाह उसे मरने से पहले वेश्याओं के चेहरे दिखाए।" },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 3436, "note": "जुरैज का वृत्तांत, और उन शिशुओं का जो अल्लाह की अनुमति से बोले।" },
+      { "kind": "heading", "level": 2, "text": "झूठा आरोप" },
+      { "kind": "p", "text": "बाद में, एक पापी स्त्री ने दावा किया कि जुरैज उसके बच्चे का पिता है, और लोगों ने उस पर विश्वास कर के उसका इबादतख़ाना ढा दिया और उसे बाहर घसीटा। जुरैज ने नवजात को लाने को कहा, नमाज़ पढ़ी, फिर शिशु से पूछा, 'तेरा पिता कौन है?' अल्लाह की शक्ति से बच्चा बोला: 'मेरा पिता फ़लाँ है, वह चरवाहा।' लोगों ने शर्मिंदा होकर उसकी कोठरी सोने से बनवाने की पेशकश की; उसने केवल यही माँगा कि उसे पहले की तरह मिट्टी से बना दिया जाए।" },
+      { "kind": "heading", "level": 2, "text": "शिक्षाएँ" },
+      { "kind": "list", "items": [
+        { "text": "माता-पिता का जवाब देना स्वैच्छिक (नफ़्ल) नमाज़ पर भी प्राथमिकता ले सकता है।" },
+        { "text": "अल्लाह सच्चों की रक्षा करता है और निर्दोष को बरी करता है, चमत्कार से भी।" },
+        { "text": "ईमान वाला अल्लाह से निर्दोषिता चाहता है, दुनियावी इनाम नहीं।" }
+      ] },
+      { "kind": "verse", "surah": 17, "ayah": 23, "note": "'तेरे रब ने फ़ैसला कर दिया कि उसके सिवा किसी की इबादत न करो, और माता-पिता के साथ भलाई करो।'" }
+    ],
+    "ur": [
+      { "kind": "p", "text": "نبی کریم ﷺ نے جریج کا قصہ سنایا، ایک آدمی جو اپنے عبادت خانے میں عبادت کے لیے وقف تھا۔ ایک دن اس کی ماں نے اسے پکارا جب وہ نماز پڑھ رہا تھا۔ اس کا جواب دینے اور نماز جاری رکھنے کے درمیان پھنسا، اس نے نماز کو چنا — تین بار اس نے پکارا، اور تین بار اس نے جواب نہ دیا۔ دل گرفتہ ہو کر اس نے دعا کی کہ اللہ اسے مرنے سے پہلے بدکار عورتوں کے چہرے دکھائے۔" },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 3436, "note": "جریج کا بیان، اور اُن شیر خوار بچوں کا جو اللہ کے حکم سے بولے۔" },
+      { "kind": "heading", "level": 2, "text": "جھوٹا الزام" },
+      { "kind": "p", "text": "بعد میں، ایک بدکار عورت نے دعویٰ کیا کہ جریج اس کے بچے کا باپ ہے، اور لوگوں نے اس پر یقین کر کے اس کا عبادت خانہ ڈھا دیا اور اسے باہر گھسیٹا۔ جریج نے نومولود کو لانے کو کہا، نماز پڑھی، پھر بچے سے پوچھا، 'تیرا باپ کون ہے؟' اللہ کی قدرت سے بچہ بولا: 'میرا باپ فلاں ہے، وہ چرواہا۔' لوگوں نے شرمندہ ہو کر اس کی کوٹھری سونے سے بنوانے کی پیشکش کی؛ اس نے صرف یہی مانگا کہ اسے پہلے کی طرح مٹی سے بنا دیا جائے۔" },
+      { "kind": "heading", "level": 2, "text": "اسباق" },
+      { "kind": "list", "items": [
+        { "text": "والدین کا جواب دینا نفلی نماز پر بھی مقدم ہو سکتا ہے۔" },
+        { "text": "اللہ سچوں کی حفاظت کرتا ہے اور بے گناہ کو بری کرتا ہے، معجزے سے بھی۔" },
+        { "text": "مومن اللہ سے برات چاہتا ہے، دنیاوی انعام نہیں۔" }
+      ] },
+      { "kind": "verse", "surah": 17, "ayah": 23, "note": "'تیرے رب نے فیصلہ کر دیا کہ اس کے سوا کسی کی عبادت نہ کرو، اور والدین کے ساتھ اچھا سلوک کرو۔'" }
+    ]
+  },
+  "sources": [
+    { "type": "hadith", "collection": "bukhari", "ref": "3436", "grade": "sahih" },
+    { "type": "quran", "ref": "17:23" }
+  ],
+  "relatedSlugs": ["concept-birr-al-walidayn", "basics-salah", "concept-ikhlas"]
+}

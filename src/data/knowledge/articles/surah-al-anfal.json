@@ -1,0 +1,69 @@
+{
+  "slug": "surah-al-anfal",
+  "category": "surahs",
+  "surahNumber": 8,
+  "featured": false,
+  "title": {
+    "en": "Sūrat al-Anfāl — The Spoils of War",
+    "hi": "सूरह अल-अनफ़ाल — युद्ध का माल",
+    "ur": "سورۃ الانفال — مالِ غنیمت"
+  },
+  "summary": {
+    "en": "A Madinan surah revealed around the Battle of Badr. It answers a dispute over the spoils by returning all affairs to Allah and His Messenger, describes the qualities of true believers, and recounts how Allah aided the faithful at Badr with angels and unshakeable resolve.",
+    "hi": "बद्र की लड़ाई के आसपास उतरी एक मदनी सूरह। यह माल-ए-ग़नीमत पर एक विवाद का उत्तर सारे मामले अल्लाह और उसके रसूल की ओर लौटा कर देती है, सच्चे ईमान वालों के गुण बताती है, और बताती है कि अल्लाह ने बद्र में ईमान वालों की फ़रिश्तों और अटल दृढ़ता से किस तरह मदद की।",
+    "ur": "غزوہ بدر کے آس پاس نازل ہونے والی ایک مدنی سورت۔ یہ مالِ غنیمت پر ایک تنازعے کا جواب سارے معاملات اللہ اور اُس کے رسول کی طرف لوٹا کر دیتی ہے، سچے مومنوں کی صفات بیان کرتی ہے، اور بتاتی ہے کہ اللہ نے بدر میں مومنوں کی فرشتوں اور اٹل عزم سے کیسے مدد کی۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Sūrat al-Anfāl — \"The Spoils of War\" — is a Madinan surah of seventy-five verses, revealed in the aftermath of the Battle of Badr in the second year of Hijrah. When the companions disputed over the distribution of the spoils, the surah opened by returning the matter entirely to Allah and His Messenger." },
+      { "kind": "verse", "surah": 8, "ayah": 1, "note": "'They ask you about the spoils. Say: the spoils are for Allah and the Messenger. So fear Allah and set things right among yourselves.'" },
+      { "kind": "heading", "level": 2, "text": "The believers described" },
+      { "kind": "p", "text": "Immediately the surah paints a portrait of the true believers: hearts that tremble at Allah's mention, faith that grows when His verses are recited, and complete reliance upon their Lord — followed by prayer and spending in His way." },
+      { "kind": "verse", "surah": 8, "ayah": 2, "note": "'The believers are only those who, when Allah is mentioned, their hearts become fearful, and when His verses are recited, it increases them in faith.'" },
+      { "kind": "heading", "level": 2, "text": "Aid at Badr" },
+      { "kind": "p", "text": "The surah recalls how Allah answered the believers' plea at Badr, reinforcing them with angels and casting firmness into their hearts, so that a small, ill-equipped band overcame a far larger foe. Victory, it stresses, comes from Allah alone." },
+      { "kind": "verse", "surah": 8, "ayah": 9, "note": "'When you sought help of your Lord, He answered you: I will reinforce you with a thousand angels, rank upon rank.'" },
+      { "kind": "list", "items": [
+        { "text": "All affairs, even the spoils of victory, are returned to Allah and His Messenger." },
+        { "text": "True faith is marked by awe of Allah, growing iman, and reliance on Him." },
+        { "text": "Victory at Badr came by Allah's aid, not by numbers or arms." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "सूरह अल-अनफ़ाल — \"युद्ध का माल\" — पचहत्तर आयतों की एक मदनी सूरह है, जो हिजरत के दूसरे वर्ष बद्र की लड़ाई के बाद उतरी। जब सहाबा ने माल-ए-ग़नीमत के बँटवारे पर विवाद किया, सूरह ने यह मामला पूरी तरह अल्लाह और उसके रसूल की ओर लौटा कर शुरुआत की।" },
+      { "kind": "verse", "surah": 8, "ayah": 1, "note": "'वे तुझसे माल-ए-ग़नीमत के बारे में पूछते हैं। कह दो: माल अल्लाह और रसूल का है। तो अल्लाह से डरो और आपस में सुलह रखो।'" },
+      { "kind": "heading", "level": 2, "text": "ईमान वालों का वर्णन" },
+      { "kind": "p", "text": "तुरंत सूरह सच्चे ईमान वालों का चित्र खींचती है: वे दिल जो अल्लाह के ज़िक्र पर काँप उठते हैं, वह ईमान जो उसकी आयतें पढ़ी जाने पर बढ़ता है, और अपने रब पर पूर्ण भरोसा — इसके बाद नमाज़ और उसकी राह में ख़र्च।" },
+      { "kind": "verse", "surah": 8, "ayah": 2, "note": "'ईमान वाले तो केवल वे हैं जिनके दिल अल्लाह के ज़िक्र पर डर जाते हैं, और जब उसकी आयतें पढ़ी जाती हैं तो उनका ईमान बढ़ जाता है।'" },
+      { "kind": "heading", "level": 2, "text": "बद्र में मदद" },
+      { "kind": "p", "text": "सूरह याद दिलाती है कि अल्लाह ने बद्र में ईमान वालों की विनती का उत्तर कैसे दिया, उन्हें फ़रिश्तों से मज़बूत करते हुए और उनके दिलों में दृढ़ता डालते हुए, ताकि एक छोटा, कम-सज्जित जत्था कहीं बड़े शत्रु पर विजय पाए। विजय, यह ज़ोर देती है, केवल अल्लाह से आती है।" },
+      { "kind": "verse", "surah": 8, "ayah": 9, "note": "'जब तुमने अपने रब से मदद माँगी, उसने तुम्हें उत्तर दिया: मैं तुम्हें एक हज़ार फ़रिश्तों से मदद दूँगा, एक के पीछे एक।'" },
+      { "kind": "list", "items": [
+        { "text": "सारे मामले, यहाँ तक कि विजय का माल भी, अल्लाह और उसके रसूल की ओर लौटाए जाते हैं।" },
+        { "text": "सच्चा ईमान अल्लाह के भय, बढ़ते ईमान, और उस पर भरोसे से पहचाना जाता है।" },
+        { "text": "बद्र की विजय अल्लाह की मदद से आई, संख्या या हथियारों से नहीं।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "سورۃ الانفال — \"مالِ غنیمت\" — پچھتر آیات کی ایک مدنی سورت ہے، جو ہجرت کے دوسرے سال غزوہ بدر کے بعد نازل ہوئی۔ جب صحابہ نے مالِ غنیمت کی تقسیم پر اختلاف کیا، سورت نے یہ معاملہ پوری طرح اللہ اور اُس کے رسول کی طرف لوٹا کر آغاز کیا۔" },
+      { "kind": "verse", "surah": 8, "ayah": 1, "note": "'وہ تجھ سے مالِ غنیمت کے بارے میں پوچھتے ہیں۔ کہہ دو: مال اللہ اور رسول کا ہے۔ تو اللہ سے ڈرو اور آپس میں صلح رکھو۔'" },
+      { "kind": "heading", "level": 2, "text": "مومنوں کا بیان" },
+      { "kind": "p", "text": "فوراً سورت سچے مومنوں کی تصویر کھینچتی ہے: وہ دل جو اللہ کے ذکر پر کانپ اٹھتے ہیں، وہ ایمان جو اُس کی آیات پڑھی جانے پر بڑھتا ہے، اور اپنے رب پر مکمل بھروسہ — اِس کے بعد نماز اور اُس کی راہ میں خرچ۔" },
+      { "kind": "verse", "surah": 8, "ayah": 2, "note": "'مومن تو صرف وہ ہیں جن کے دل اللہ کے ذکر پر ڈر جاتے ہیں، اور جب اُس کی آیات پڑھی جاتی ہیں تو اُن کا ایمان بڑھ جاتا ہے۔'" },
+      { "kind": "heading", "level": 2, "text": "بدر میں مدد" },
+      { "kind": "p", "text": "سورت یاد دلاتی ہے کہ اللہ نے بدر میں مومنوں کی التجا کا جواب کیسے دیا، اُنہیں فرشتوں سے مضبوط کرتے ہوئے اور اُن کے دلوں میں ثابت قدمی ڈالتے ہوئے، تاکہ ایک چھوٹا، کم سازوسامان والا گروہ کہیں بڑے دشمن پر فتح پائے۔ فتح، یہ زور دیتی ہے، صرف اللہ سے آتی ہے۔" },
+      { "kind": "verse", "surah": 8, "ayah": 9, "note": "'جب تم نے اپنے رب سے مدد مانگی، اُس نے تمہیں جواب دیا: میں تمہیں ایک ہزار فرشتوں سے مدد دوں گا، یکے بعد دیگرے۔'" },
+      { "kind": "list", "items": [
+        { "text": "سارے معاملات، حتیٰ کہ فتح کا مال بھی، اللہ اور اُس کے رسول کی طرف لوٹائے جاتے ہیں۔" },
+        { "text": "سچا ایمان اللہ کے خوف، بڑھتے ایمان، اور اُس پر بھروسے سے پہچانا جاتا ہے۔" },
+        { "text": "بدر کی فتح اللہ کی مدد سے آئی، تعداد یا ہتھیاروں سے نہیں۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "8:1-2" },
+    { "type": "quran", "ref": "8:9" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["seerah-badr", "concept-tawakkul", "surah-al-mulk"]
+}

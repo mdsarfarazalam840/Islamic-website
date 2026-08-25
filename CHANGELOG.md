@@ -1,3 +1,14 @@
+## [Unreleased]
+
+### Features
+- Saved tab: bookmark ayahs, hadiths, and Knowledge Base articles, and resume reading where you left off. Bookmark actions are now visible on touch devices (they were hover-only), a "Save my spot" button on each reader stores the exact ayah/hadith position, and the new `/saved` route lists bookmarks alongside Quran, Hadith, Knowledge Base, and video resume points. The mobile bottom nav's Home tab becomes Saved (the Noor wordmark still links home).
+- Hadith number lookup: typing a hadith number resolves it to the hadith itself instead of relying on text ranking. Works on the Hadith landing page, inside a collection's search, and in global search, and accepts a bare number (`1234`), a collection-qualified reference (`Bukhari 1234`, `Sahih Muslim 500`), and common separators (`bukhari:1234`, `#1234`). Results link straight to the hadith's anchor in its book. Backed by a new 34 KB run-length index (`public/data/hadith/number-index.json`, built by `npm run build:hadith-index`) that maps hadith numbers to books without downloading a collection.
+
+### Bug Fixes
+- Mobile layout fixes: the bottom nav no longer overflows a 360px screen (it dropped the theme toggle that duplicated the one in the top bar, switched to an even 6-column grid, and shortened "Knowledge" to "Learn"), the footer's last line is no longer hidden behind the fixed bottom nav, and the Saved page's filter chips and "Save my spot" labels stay inside the viewport.
+
+### Performance
+- A collection's full-text search index is now built on the first keyword search rather than on page load, so opening a collection or looking up a hadith number no longer downloads every book in it (~22 MB for Bukhari).
 ## [0.2.7] - 2026-08-19
 
 ### Other

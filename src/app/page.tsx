@@ -4,6 +4,7 @@ import { buttonVariants } from "@/components/ui/button"
 import { DynamicHero } from "@/components/three/DynamicHero"
 import { getAllSurahs } from "@/lib/quran/surahs"
 import { AyahOfTheDay } from "@/components/home/AyahOfTheDay"
+import { ContinueSection } from "@/components/saved/ContinueSection"
 
 const quickLinks = [
   {
@@ -118,6 +119,11 @@ export default function HomePage() {
 
       {/* Sacred Margin */}
       <div className="sacred-margin" />
+
+      {/* Resume — renders nothing until the reader has a saved position */}
+      <section className="mx-auto max-w-7xl w-full px-4 sm:px-6">
+        <ContinueSection heading="Pick up where you left off" className="mb-8" />
+      </section>
 
       {/* Quick Links — Five Chambers */}
       <section className="mx-auto max-w-7xl w-full px-4 sm:px-6">

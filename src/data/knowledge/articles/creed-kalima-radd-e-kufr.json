@@ -1,0 +1,97 @@
+{
+  "slug": "creed-kalima-radd-e-kufr",
+  "category": "creed",
+  "order": 6,
+  "title": {
+    "en": "Sixth Kalima — Radd-e-Kufr (The Word of Rejecting Disbelief)",
+    "hi": "छठा कलिमा — रद्द-ए-कुफ़्र (कुफ़्र को ठुकराने का कलिमा)",
+    "ur": "چھٹا کلمہ — ردِ کفر (کفر کو رد کرنے کا کلمہ)"
+  },
+  "summary": {
+    "en": "Allāhumma innī aʿūdhu bika min an ushrika bika shay'an… — the last kalima names what must be renounced: shirk known and unknown, lying, backbiting, innovation, talebearing, indecency, slander, and every sin. It closes by returning to the first kalima, so the six end where they began.",
+    "hi": "अल्लाहुम्मा इन्नी अऊज़ु बिका मिन अन उश्रिका बिका शैअन… — आख़िरी कलिमा उन चीज़ों का नाम लेता है जिनसे बराअत ज़रूरी है: जाना-अनजाना शिर्क, झूठ, ग़ीबत, बिदअत, चुग़लख़ोरी, बेहयाई, बोहतान और हर गुनाह। और यह पहले कलिमे पर लौटकर ख़त्म होता है, ताकि छहों वहीं पूरे हों जहाँ से शुरू हुए थे।",
+    "ur": "اَللّٰھُمَّ اِنِّی اَعُوْذُ بِکَ مِنْ اَنْ اُشْرِکَ بِکَ شَیْئًا… — آخری کلمہ اُن چیزوں کا نام لیتا ہے جن سے براءت لازم ہے: معلوم و نامعلوم شرک، جھوٹ، غیبت، بدعت، چغل خوری، بے حیائی، بہتان اور ہر گناہ۔ اور یہ پہلے کلمے پر لوٹ کر ختم ہوتا ہے، تاکہ چھ کلمے وہیں مکمل ہوں جہاں سے شروع ہوئے تھے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "arabic", "text": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ أَنْ أُشْرِكَ بِكَ شَيْئًا وَأَنَا أَعْلَمُ بِهِ وَأَسْتَغْفِرُكَ لِمَا لَا أَعْلَمُ بِهِ تُبْتُ عَنْهُ وَتَبَرَّأْتُ مِنَ الْكُفْرِ وَالشِّرْكِ وَالْكِذْبِ وَالْغِيبَةِ وَالْبِدْعَةِ وَالنَّمِيمَةِ وَالْفَوَاحِشِ وَالْبُهْتَانِ وَالْمَعَاصِي كُلِّهَا وَأَسْلَمْتُ وَأَقُولُ لَا إِلَهَ إِلَّا اللهُ مُحَمَّدٌ رَسُولُ اللهِ", "transliteration": "Allāhumma innī aʿūdhu bika min an ushrika bika shay'an wa anā aʿlamu bih, wa astaghfiruka limā lā aʿlamu bih, tubtu ʿanhu wa tabarra'tu mina'l-kufri wa'sh-shirki wa'l-kidhbi wa'l-ghībati wa'l-bidʿati wa'n-namīmati wa'l-fawāḥishi wa'l-buhtāni wa'l-maʿāṣī kullihā, wa aslamtu wa aqūlu lā ilāha illa'llāhu Muḥammadur rasūlu'llāh", "translation": "O Allah, I seek refuge in You from associating anything with You while I am aware of it, and I seek Your forgiveness for what I am not aware of. I have repented from it, and I renounce disbelief, shirk, lying, backbiting, innovation, talebearing, indecency, slander, and every act of disobedience. I have submitted, and I say: there is no god but Allah, Muhammad is the Messenger of Allah.", "label": "Kalima Radd-e-Kufr" },
+      { "kind": "p", "text": "The fifth kalima asked for forgiveness. The sixth stops the leak. Asking to be pardoned for a sin while still holding on to it is not repentance, so the last of the six is worded as a disavowal — a list of things the speaker formally puts down and walks away from." },
+      { "kind": "heading", "level": 2, "text": "Tafsīr: what is being renounced" },
+      { "kind": "p", "text": "The list is not random. It moves from the gravest matter of belief outward into the sins of the tongue and the body, which is how a life actually comes apart:" },
+      { "kind": "list", "items": [
+        { "text": "Kufr and shirk — rejecting Allah, and giving His due to something else. The two failures of belief itself." },
+        { "text": "Kidhb — lying. The first tool every other sin needs to survive." },
+        { "text": "Ghībah and namīmah — backbiting and talebearing. Speaking behind a person's back, and carrying words between people to set them against each other." },
+        { "text": "Bidʿah — inventing acts of worship and presenting them as religion." },
+        { "text": "Fawāḥish and buhtān — indecency, and slander that accuses someone of what they never did." },
+        { "text": "Al-maʿāṣī kullihā — and every act of disobedience. The clause that stops the list from being read as exhaustive." }
+      ] },
+      { "kind": "verse", "surah": 4, "ayah": 48, "note": "Allah does not forgive that partners be ascribed to Him, though He forgives anything else He wills — why shirk heads the list." },
+      { "kind": "p", "text": "Notice that only shirk is singled out with a plea for refuge; the rest are renounced. Every other sin on the list is forgivable, and the kalima treats them accordingly — as things to be dropped, not things to be dreaded." },
+      { "kind": "heading", "level": 2, "text": "Shirk known and unknown" },
+      { "kind": "p", "text": "The opening lines separate the shirk a person commits knowingly from the shirk they commit without recognising it. That second category is the reason this kalima exists. Hidden shirk rarely announces itself: it looks like praying to be seen, fearing a person the way one should fear Allah, or trusting a cause more than the One who made it a cause. A person cannot repent by name from what they never identified, so the wording asks forgiveness for the whole unseen category at once." },
+      { "kind": "verse", "surah": 31, "ayah": 13, "note": "Luqmān's first counsel to his son: do not associate anyone with Allah — to do so is a grievous wrong." },
+      { "kind": "verse", "surah": 49, "ayah": 12, "note": "The verse that names backbiting for what it is, and pairs it with suspicion and prying." },
+      { "kind": "heading", "level": 2, "text": "It ends where the first kalima began" },
+      { "kind": "p", "text": "The last words of the sixth kalima are the whole of the first: lā ilāha illa'llāhu Muḥammadur rasūlu'llāh. That is deliberate. A renunciation that ends in nothing leaves a person empty; this one ends in the sentence it started from, so the six kalimas close as a circle rather than a list. What was affirmed at the beginning is what remains after everything else has been set down." },
+      { "kind": "verse", "surah": 2, "ayah": 256, "note": "Whoever rejects false objects of worship and believes in Allah has grasped a handhold that will not break — rejection and affirmation in one verse." },
+      { "kind": "hadith", "collection": "muslim", "hadith": 148, "note": "The Prophet ﷺ to Muʿādh: whoever testifies to it sincerely from the heart, Allah forbids the Fire for him." }
+    ],
+    "hi": [
+      { "kind": "arabic", "text": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ أَنْ أُشْرِكَ بِكَ شَيْئًا وَأَنَا أَعْلَمُ بِهِ وَأَسْتَغْفِرُكَ لِمَا لَا أَعْلَمُ بِهِ تُبْتُ عَنْهُ وَتَبَرَّأْتُ مِنَ الْكُفْرِ وَالشِّرْكِ وَالْكِذْبِ وَالْغِيبَةِ وَالْبِدْعَةِ وَالنَّمِيمَةِ وَالْفَوَاحِشِ وَالْبُهْتَانِ وَالْمَعَاصِي كُلِّهَا وَأَسْلَمْتُ وَأَقُولُ لَا إِلَهَ إِلَّا اللهُ مُحَمَّدٌ رَسُولُ اللهِ", "transliteration": "Allāhumma innī aʿūdhu bika min an ushrika bika shay'an wa anā aʿlamu bih, wa astaghfiruka limā lā aʿlamu bih, tubtu ʿanhu wa tabarra'tu mina'l-kufri wa'sh-shirki wa'l-kidhbi wa'l-ghībati wa'l-bidʿati wa'n-namīmati wa'l-fawāḥishi wa'l-buhtāni wa'l-maʿāṣī kullihā, wa aslamtu wa aqūlu lā ilāha illa'llāhu Muḥammadur rasūlu'llāh", "translation": "ऐ अल्लाह! मैं तेरी पनाह चाहता हूँ इस बात से कि मैं जानते-बूझते तेरे साथ किसी को शरीक करूँ, और जो मुझे मालूम नहीं उसकी तुझसे माफ़ी माँगता हूँ। मैंने उससे तौबा की, और मैं कुफ़्र, शिर्क, झूठ, ग़ीबत, बिदअत, चुग़लख़ोरी, बेहयाई, बोहतान और हर नाफ़रमानी से बराअत करता हूँ। मैंने इस्लाम क़ुबूल किया और मैं कहता हूँ: अल्लाह के सिवा कोई माबूद नहीं, मुहम्मद अल्लाह के रसूल हैं।", "label": "कलिमा रद्द-ए-कुफ़्र" },
+      { "kind": "p", "text": "पाँचवें कलिमे ने माफ़ी माँगी। छठा उस सूराख़ को बंद करता है। किसी गुनाह की माफ़ी माँगना और उसे पकड़े रहना तौबा नहीं है, इसलिए छहों में आख़िरी कलिमा बराअत के अल्फ़ाज़ में है — उन चीज़ों की फ़ेहरिस्त जिन्हें कहने वाला रस्मी तौर पर छोड़कर आगे बढ़ जाता है।" },
+      { "kind": "heading", "level": 2, "text": "तफ़्सीर: किस चीज़ से बराअत" },
+      { "kind": "p", "text": "यह फ़ेहरिस्त बेतरतीब नहीं है। यह अक़ीदे के सबसे बड़े मामले से शुरू होकर ज़ुबान और बदन के गुनाहों तक जाती है — और ज़िंदगी असल में इसी तरतीब से बिखरती है:" },
+      { "kind": "list", "items": [
+        { "text": "कुफ़्र और शिर्क — अल्लाह का इनकार, और उसका हक़ किसी और को देना। ईमान की दो बुनियादी कोताहियाँ।" },
+        { "text": "किज़्ब — झूठ। वह पहला औज़ार जिसकी हर दूसरे गुनाह को ज़िंदा रहने के लिए ज़रूरत है।" },
+        { "text": "ग़ीबत और नमीमा — पीठ पीछे बुराई, और एक की बात दूसरे तक पहुँचाकर लोगों को आपस में लड़ाना।" },
+        { "text": "बिदअत — इबादत की नई बातें गढ़कर उन्हें दीन बताकर पेश करना।" },
+        { "text": "फ़वाहिश और बोहतान — बेहयाई, और वह इलज़ाम जो किसी पर उस बात का लगाया जाए जो उसने की ही नहीं।" },
+        { "text": "अल-मआसी कुल्लिहा — और हर नाफ़रमानी। यही जुमला इस फ़ेहरिस्त को \"बस इतना ही\" समझे जाने से रोकता है।" }
+      ] },
+      { "kind": "verse", "surah": 4, "ayah": 48, "note": "अल्लाह शिर्क को माफ़ नहीं करता, इसके सिवा जो चाहे बख़्श देता है — इसीलिए फ़ेहरिस्त में शिर्क सबसे पहले है।" },
+      { "kind": "p", "text": "ग़ौर करें कि पनाह सिर्फ़ शिर्क से माँगी गई है; बाक़ी सबसे बराअत की गई है। फ़ेहरिस्त का हर दूसरा गुनाह क़ाबिल-ए-माफ़ी है, और कलिमा उनके साथ वैसा ही सुलूक करता है — छोड़ देने की चीज़ें, दहशत खाने की नहीं।" },
+      { "kind": "heading", "level": 2, "text": "जाना हुआ और अनजाना शिर्क" },
+      { "kind": "p", "text": "शुरू की सतरें उस शिर्क को अलग करती हैं जो इंसान जानते-बूझते करता है, और उस शिर्क को जो वह पहचाने बिना कर जाता है। यही दूसरी क़िस्म इस कलिमे के वजूद की वजह है। छिपा शिर्क अपना एलान नहीं करता: वह दिखावे की नमाज़ की शक्ल में आता है, किसी इंसान से वैसा डर जैसा अल्लाह से होना चाहिए, या सबब पर उससे ज़्यादा भरोसा जिसने उसे सबब बनाया। जिसे इंसान ने पहचाना ही नहीं, उससे नाम लेकर तौबा नहीं हो सकती, इसलिए अल्फ़ाज़ पूरी अनदेखी क़िस्म की एक ही बार माफ़ी माँग लेते हैं।" },
+      { "kind": "verse", "surah": 31, "ayah": 13, "note": "लुक़मान की अपने बेटे को पहली नसीहत: अल्लाह के साथ किसी को शरीक न करो — यह बड़ा ज़ुल्म है।" },
+      { "kind": "verse", "surah": 49, "ayah": 12, "note": "वह आयत जो ग़ीबत को उसके असली नाम से पुकारती है, और उसे बदगुमानी और टाँग अड़ाने के साथ जोड़ती है।" },
+      { "kind": "heading", "level": 2, "text": "यह वहीं ख़त्म होता है जहाँ पहला कलिमा शुरू हुआ था" },
+      { "kind": "p", "text": "छठे कलिमे के आख़िरी अल्फ़ाज़ पूरा पहला कलिमा हैं: ला इलाहा इल्लल्लाहु मुहम्मदुर रसूलुल्लाह। यह जान-बूझकर है। जो बराअत ख़ालीपन पर ख़त्म हो वह इंसान को ख़ाली छोड़ देती है; यह उसी जुमले पर ख़त्म होती है जहाँ से चली थी, ताकि छह कलिमे एक फ़ेहरिस्त की तरह नहीं, एक दायरे की तरह मुकम्मल हों। जिसका इक़रार शुरू में किया गया, बाक़ी सब कुछ रख देने के बाद वही बचता है।" },
+      { "kind": "verse", "surah": 2, "ayah": 256, "note": "जो झूठे माबूदों का इनकार करके अल्लाह पर ईमान लाए, उसने वह सहारा थाम लिया जो टूटता नहीं — इनकार और इक़रार एक ही आयत में।" },
+      { "kind": "hadith", "collection": "muslim", "hadith": 148, "note": "नबी ﷺ का मुआज़ से इरशाद: जो दिल की सच्चाई से इसकी गवाही दे, अल्लाह उस पर आग हराम कर देता है।" }
+    ],
+    "ur": [
+      { "kind": "arabic", "text": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ أَنْ أُشْرِكَ بِكَ شَيْئًا وَأَنَا أَعْلَمُ بِهِ وَأَسْتَغْفِرُكَ لِمَا لَا أَعْلَمُ بِهِ تُبْتُ عَنْهُ وَتَبَرَّأْتُ مِنَ الْكُفْرِ وَالشِّرْكِ وَالْكِذْبِ وَالْغِيبَةِ وَالْبِدْعَةِ وَالنَّمِيمَةِ وَالْفَوَاحِشِ وَالْبُهْتَانِ وَالْمَعَاصِي كُلِّهَا وَأَسْلَمْتُ وَأَقُولُ لَا إِلَهَ إِلَّا اللهُ مُحَمَّدٌ رَسُولُ اللهِ", "transliteration": "Allāhumma innī aʿūdhu bika min an ushrika bika shay'an wa anā aʿlamu bih, wa astaghfiruka limā lā aʿlamu bih, tubtu ʿanhu wa tabarra'tu mina'l-kufri wa'sh-shirki wa'l-kidhbi wa'l-ghībati wa'l-bidʿati wa'n-namīmati wa'l-fawāḥishi wa'l-buhtāni wa'l-maʿāṣī kullihā, wa aslamtu wa aqūlu lā ilāha illa'llāhu Muḥammadur rasūlu'llāh", "translation": "اے اللہ! میں تیری پناہ چاہتا ہوں اِس بات سے کہ میں جانتے بوجھتے تیرے ساتھ کسی کو شریک کروں، اور جو مجھے معلوم نہیں اُس کی تجھ سے مغفرت مانگتا ہوں۔ میں نے اُس سے توبہ کی، اور میں کفر، شرک، جھوٹ، غیبت، بدعت، چغل خوری، بے حیائی، بہتان اور ہر نافرمانی سے براءت کرتا ہوں۔ میں نے اسلام قبول کیا اور میں کہتا ہوں: اللہ کے سوا کوئی معبود نہیں، محمد اللہ کے رسول ہیں۔", "label": "کلمہ ردِ کفر" },
+      { "kind": "p", "text": "پانچویں کلمے نے مغفرت مانگی۔ چھٹا اُس شکاف کو بند کرتا ہے۔ کسی گناہ کی معافی مانگنا اور اُسے تھامے رہنا توبہ نہیں، چنانچہ چھ میں سے آخری کلمہ براءت کے الفاظ میں ہے — اُن چیزوں کی فہرست جنہیں کہنے والا باقاعدہ چھوڑ کر آگے بڑھ جاتا ہے۔" },
+      { "kind": "heading", "level": 2, "text": "تفسیر: کس چیز سے براءت" },
+      { "kind": "p", "text": "یہ فہرست بے ترتیب نہیں۔ یہ عقیدے کے سب سے بڑے معاملے سے شروع ہو کر زبان اور بدن کے گناہوں تک جاتی ہے — اور زندگی حقیقت میں اِسی ترتیب سے بکھرتی ہے:" },
+      { "kind": "list", "items": [
+        { "text": "کفر اور شرک — اللہ کا انکار، اور اُس کا حق کسی اور کو دینا۔ ایمان کی دو بنیادی کوتاہیاں۔" },
+        { "text": "کِذب — جھوٹ۔ وہ پہلا اوزار جس کی ہر دوسرے گناہ کو زندہ رہنے کے لیے ضرورت ہے۔" },
+        { "text": "غیبت اور نمیمہ — پیٹھ پیچھے برائی، اور ایک کی بات دوسرے تک پہنچا کر لوگوں کو آپس میں لڑانا۔" },
+        { "text": "بدعت — عبادت میں نئی باتیں گھڑ کر اُنہیں دین بنا کر پیش کرنا۔" },
+        { "text": "فواحش اور بہتان — بے حیائی، اور وہ الزام جو کسی پر اُس بات کا لگایا جائے جو اُس نے کی ہی نہیں۔" },
+        { "text": "اَلْمَعَاصِي كُلِّهَا — اور ہر نافرمانی۔ یہی جملہ اِس فہرست کو \"بس اتنا ہی\" سمجھے جانے سے روکتا ہے۔" }
+      ] },
+      { "kind": "verse", "surah": 4, "ayah": 48, "note": "اللہ شرک کو معاف نہیں کرتا، اِس کے سوا جو چاہے بخش دیتا ہے — اِسی لیے فہرست میں شرک سب سے پہلے ہے۔" },
+      { "kind": "p", "text": "غور کریں کہ پناہ صرف شرک سے مانگی گئی ہے؛ باقی سب سے براءت کی گئی ہے۔ فہرست کا ہر دوسرا گناہ قابلِ مغفرت ہے، اور کلمہ اُن کے ساتھ ویسا ہی سلوک کرتا ہے — چھوڑ دینے کی چیزیں، دہشت کھانے کی نہیں۔" },
+      { "kind": "heading", "level": 2, "text": "معلوم اور نامعلوم شرک" },
+      { "kind": "p", "text": "ابتدائی سطریں اُس شرک کو الگ کرتی ہیں جو انسان جانتے بوجھتے کرتا ہے، اور اُس شرک کو جو وہ پہچانے بغیر کر جاتا ہے۔ یہی دوسری قسم اِس کلمے کے وجود کی وجہ ہے۔ چھپا شرک اپنا اعلان نہیں کرتا: وہ دکھاوے کی نماز کی صورت میں آتا ہے، کسی انسان سے ویسا خوف جیسا اللہ سے ہونا چاہیے، یا سبب پر اُس سے زیادہ بھروسہ جس نے اُسے سبب بنایا۔ جسے انسان نے پہچانا ہی نہیں، اُس سے نام لے کر توبہ نہیں ہو سکتی، چنانچہ الفاظ پوری اَن دیکھی قسم کی ایک ہی بار مغفرت مانگ لیتے ہیں۔" },
+      { "kind": "verse", "surah": 31, "ayah": 13, "note": "لقمان کی اپنے بیٹے کو پہلی نصیحت: اللہ کے ساتھ کسی کو شریک نہ کرو — یہ بڑا ظلم ہے۔" },
+      { "kind": "verse", "surah": 49, "ayah": 12, "note": "وہ آیت جو غیبت کو اُس کے اصل نام سے پکارتی ہے، اور اُسے بدگمانی اور ٹانگ اڑانے کے ساتھ جوڑتی ہے۔" },
+      { "kind": "heading", "level": 2, "text": "یہ وہیں ختم ہوتا ہے جہاں پہلا کلمہ شروع ہوا تھا" },
+      { "kind": "p", "text": "چھٹے کلمے کے آخری الفاظ پورا پہلا کلمہ ہیں: لَا اِلٰہَ اِلَّا اللہُ مُحَمَّدٌ رَسُوْلُ اللہِ۔ یہ جان بوجھ کر ہے۔ جو براءت خالی پن پر ختم ہو وہ انسان کو خالی چھوڑ دیتی ہے؛ یہ اُسی جملے پر ختم ہوتی ہے جہاں سے چلی تھی، تاکہ چھ کلمے ایک فہرست کی طرح نہیں، ایک دائرے کی طرح مکمل ہوں۔ جس کا اقرار شروع میں کیا گیا، باقی سب کچھ رکھ دینے کے بعد وہی بچتا ہے۔" },
+      { "kind": "verse", "surah": 2, "ayah": 256, "note": "جو جھوٹے معبودوں کا انکار کر کے اللہ پر ایمان لائے، اُس نے وہ سہارا تھام لیا جو ٹوٹتا نہیں — انکار اور اقرار ایک ہی آیت میں۔" },
+      { "kind": "hadith", "collection": "muslim", "hadith": 148, "note": "نبی کریم ﷺ کا معاذ سے ارشاد: جو دل کی سچائی سے اِس کی گواہی دے، اللہ اُس پر آگ حرام کر دیتا ہے۔" }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "4:48" },
+    { "type": "quran", "ref": "31:13" },
+    { "type": "quran", "ref": "49:12" },
+    { "type": "quran", "ref": "2:256" },
+    { "type": "hadith", "collection": "muslim", "ref": "148", "grade": "sahih" }
+  ],
+  "relatedSlugs": ["creed-kalima-astaghfar", "creed-six-kalimas", "concept-shirk"]
+}

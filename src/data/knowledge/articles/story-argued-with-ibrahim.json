@@ -1,0 +1,64 @@
+{
+  "slug": "story-argued-with-ibrahim",
+  "category": "quranic",
+  "featured": false,
+  "title": {
+    "en": "The One Who Argued with Ibrahim",
+    "hi": "जिसने इब्राहीम से बहस की",
+    "ur": "جس نے ابراہیم سے جھگڑا کیا"
+  },
+  "summary": {
+    "en": "A king, given power by Allah, grew so arrogant that he disputed with Ibrahim (peace be upon him) about his Lord Himself. When Ibrahim said, 'My Lord gives life and causes death,' the king claimed he too could do so. So Ibrahim silenced him with a challenge no tyrant could meet: 'Allah brings the sun from the east — bring it from the west.' The story shows how a single truth can leave arrogance speechless.",
+    "hi": "एक बादशाह, जिसे अल्लाह ने सत्ता दी थी, इतना घमंडी हो गया कि उसने इब्राहीम (उन पर शांति हो) से स्वयं उनके रब के बारे में झगड़ा किया। जब इब्राहीम ने कहा, 'मेरा रब जीवन देता है और मृत्यु देता है,' तो बादशाह ने दावा किया कि वह भी ऐसा कर सकता है। तब इब्राहीम ने उसे एक ऐसी चुनौती से चुप करा दिया जिसका कोई अत्याचारी सामना न कर सके: 'अल्लाह सूरज को पूर्व से लाता है — तू उसे पश्चिम से ले आ।' यह कहानी दिखाती है कि एक अकेला सत्य घमंड को कैसे निरुत्तर कर सकता है।",
+    "ur": "ایک بادشاہ، جسے اللہ نے اقتدار دیا تھا، اِتنا مغرور ہو گیا کہ اُس نے ابراہیم (علیہ السلام) سے خود اُن کے رب کے بارے میں جھگڑا کیا۔ جب ابراہیم نے کہا، 'میرا رب زندگی دیتا ہے اور موت دیتا ہے،' تو بادشاہ نے دعویٰ کیا کہ وہ بھی ایسا کر سکتا ہے۔ تب ابراہیم نے اُسے ایک ایسی للکار سے خاموش کرا دیا جس کا کوئی ظالم سامنا نہ کر سکے: 'اللہ سورج کو مشرق سے لاتا ہے — تُو اُسے مغرب سے لے آ۔' یہ قصہ دکھاتا ہے کہ ایک اکیلا سچ غرور کو کیسے لاجواب کر سکتا ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "The Qur'an points to a striking case of arrogance: a man to whom Allah had given kingship, and who let that very gift make him dispute with Ibrahim (peace be upon him) about his Lord. Tradition names him as the tyrant Nimrod." },
+      { "kind": "verse", "surah": 2, "ayah": 258, "note": "'Have you not considered the one who argued with Ibrahim about his Lord, because Allah had given him kingship?'" },
+      { "kind": "heading", "level": 2, "text": "Life, death, and the rising sun" },
+      { "kind": "p", "text": "Ibrahim said: my Lord is the One who gives life and causes death. The king answered, 'I give life and cause death' — and, it is said, spared one condemned man and killed another to make his hollow point." },
+      { "kind": "p", "text": "So Ibrahim did not argue over words. He raised the challenge to the heavens themselves: Allah brings the sun from the east; if you are its lord, bring it from the west. At this the disbeliever was dumbfounded — there was no reply to give." },
+      { "kind": "verse", "surah": 2, "ayah": 258, "note": "'Ibrahim said, Indeed Allah brings the sun from the east, so bring it from the west. So the disbeliever was overwhelmed, and Allah does not guide the wrongdoing people.'" },
+      { "kind": "p", "text": "The verse closes with a quiet verdict: Allah does not guide a people who wrong themselves. Power had been a test, and the king failed it by mistaking a gift for godhood." },
+      { "kind": "list", "items": [
+        { "text": "Every blessing, including power, is a trust from Allah — never proof of one's own greatness." },
+        { "text": "Truth argued with clarity leaves arrogance with nothing to say." },
+        { "text": "Only Allah commands the order of creation; no ruler shares in it." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "क़ुरआन घमंड के एक चौंकाने वाले मामले की ओर इशारा करता है: एक व्यक्ति जिसे अल्लाह ने बादशाहत दी थी, और जिसने उसी देन को ख़ुद को इब्राहीम (उन पर शांति हो) से उनके रब के बारे में झगड़ा करने पर लगा दिया। रिवायत उसका नाम अत्याचारी नमरूद बताती है।" },
+      { "kind": "verse", "surah": 2, "ayah": 258, "note": "'क्या तुमने उसे नहीं देखा जिसने इब्राहीम से उसके रब के बारे में झगड़ा किया, इसलिए कि अल्लाह ने उसे बादशाहत दी थी?'" },
+      { "kind": "heading", "level": 2, "text": "जीवन, मृत्यु, और उगता सूरज" },
+      { "kind": "p", "text": "इब्राहीम ने कहा: मेरा रब वही है जो जीवन देता है और मृत्यु देता है। बादशाह ने उत्तर दिया, 'मैं जीवन देता हूँ और मृत्यु देता हूँ' — और, कहा जाता है, उसने एक फाँसी वाले को छोड़ दिया और दूसरे को मार डाला ताकि अपनी खोखली बात साबित कर सके।" },
+      { "kind": "p", "text": "तो इब्राहीम ने शब्दों पर बहस न की। उन्होंने चुनौती को स्वयं आसमानों तक उठा दिया: अल्लाह सूरज को पूर्व से लाता है; यदि तू उसका रब है, तो उसे पश्चिम से ले आ। इस पर वह इनकार करने वाला हक्का-बक्का रह गया — कोई जवाब न था।" },
+      { "kind": "verse", "surah": 2, "ayah": 258, "note": "'इब्राहीम ने कहा, अल्लाह तो सूरज को पूर्व से लाता है, तू उसे पश्चिम से ले आ। तब वह इनकार करने वाला हक्का-बक्का रह गया, और अल्लाह ज़ालिम लोगों को मार्ग नहीं दिखाता।'" },
+      { "kind": "p", "text": "आयत एक शांत फ़ैसले के साथ बंद होती है: अल्लाह उन लोगों को हिदायत नहीं देता जो अपने ऊपर ज़ुल्म करते हैं। सत्ता एक परीक्षा थी, और बादशाह एक देन को ख़ुदाई समझ कर उसमें नाकाम रहा।" },
+      { "kind": "list", "items": [
+        { "text": "हर नेमत, सत्ता समेत, अल्लाह की ओर से एक अमानत है — कभी अपनी बड़ाई का सबूत नहीं।" },
+        { "text": "स्पष्टता से पेश किया गया सत्य घमंड के पास कहने को कुछ नहीं छोड़ता।" },
+        { "text": "सृष्टि की व्यवस्था केवल अल्लाह के हुक्म में है; कोई शासक उसमें साझी नहीं।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "قرآن غرور کے ایک چونکا دینے والے واقعے کی طرف اشارہ کرتا ہے: ایک شخص جسے اللہ نے بادشاہت دی تھی، اور جس نے اُسی عطا کو خود کو ابراہیم (علیہ السلام) سے اُن کے رب کے بارے میں جھگڑا کرنے پر لگا دیا۔ روایت اُس کا نام ظالم نمرود بتاتی ہے۔" },
+      { "kind": "verse", "surah": 2, "ayah": 258, "note": "'کیا تم نے اُسے نہیں دیکھا جس نے ابراہیم سے اُس کے رب کے بارے میں جھگڑا کیا، اِس لیے کہ اللہ نے اُسے بادشاہت دی تھی؟'" },
+      { "kind": "heading", "level": 2, "text": "زندگی، موت، اور طلوع ہوتا سورج" },
+      { "kind": "p", "text": "ابراہیم نے کہا: میرا رب وہی ہے جو زندگی دیتا ہے اور موت دیتا ہے۔ بادشاہ نے جواب دیا، 'میں زندگی دیتا ہوں اور موت دیتا ہوں' — اور، کہا جاتا ہے، اُس نے ایک سزائے موت والے کو چھوڑ دیا اور دوسرے کو مار ڈالا تاکہ اپنی کھوکھلی بات ثابت کر سکے۔" },
+      { "kind": "p", "text": "تو ابراہیم نے الفاظ پر بحث نہ کی۔ اُنہوں نے للکار کو خود آسمانوں تک اٹھا دیا: اللہ سورج کو مشرق سے لاتا ہے؛ اگر تُو اُس کا رب ہے، تو اُسے مغرب سے لے آ۔ اِس پر وہ منکر حیران و ششدر رہ گیا — کوئی جواب نہ تھا۔" },
+      { "kind": "verse", "surah": 2, "ayah": 258, "note": "'ابراہیم نے کہا، اللہ تو سورج کو مشرق سے لاتا ہے، تُو اُسے مغرب سے لے آ۔ تب وہ منکر حیران و ششدر رہ گیا، اور اللہ ظالم لوگوں کو راہ نہیں دکھاتا۔'" },
+      { "kind": "p", "text": "آیت ایک خاموش فیصلے کے ساتھ ختم ہوتی ہے: اللہ اُن لوگوں کو ہدایت نہیں دیتا جو اپنے اوپر ظلم کرتے ہیں۔ اقتدار ایک آزمائش تھی، اور بادشاہ ایک عطا کو خدائی سمجھ کر اُس میں ناکام رہا۔" },
+      { "kind": "list", "items": [
+        { "text": "ہر نعمت، اقتدار سمیت، اللہ کی طرف سے ایک امانت ہے — کبھی اپنی بڑائی کا ثبوت نہیں۔" },
+        { "text": "وضاحت سے پیش کیا گیا حق غرور کے پاس کہنے کو کچھ نہیں چھوڑتا۔" },
+        { "text": "تخلیق کا نظام صرف اللہ کے حکم میں ہے؛ کوئی حکمران اُس میں شریک نہیں۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "2:258" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["prophet-ibrahim", "story-ibrahim-four-birds", "concept-tawhid"]
+}

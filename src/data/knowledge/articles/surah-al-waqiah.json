@@ -1,0 +1,110 @@
+{
+  "slug": "surah-al-waqiah",
+  "category": "surahs",
+  "surahNumber": 56,
+  "featured": false,
+  "title": {
+    "en": "Sūrat al-Wāqi'ah — The Inevitable Event",
+    "hi": "सूरह अल-वाक़िआ — घटित होने वाली घटना",
+    "ur": "سورۃ الواقعہ — واقع ہونے والی"
+  },
+  "summary": {
+    "en": "A ninety-six-verse Makkan surah that vividly portrays the Day of Judgment, when mankind is sorted into three groups: the foremost (those brought near), the companions of the right, and the companions of the left. It contrasts the eternal reward of the believers with the torment of the deniers, and closes by arguing for resurrection through the signs of creation.",
+    "hi": "छियानवे आयतों की एक मक्की सूरह जो क़यामत के दिन का सजीव चित्रण करती है, जब मानवजाति तीन समूहों में बाँटी जाएगी: अग्रगामी (क़रीब किए गए लोग), दाहिने हाथ वाले, और बाएँ हाथ वाले। यह ईमान वालों के शाश्वत प्रतिफल की तुलना इनकार करने वालों की यातना से करती है, और सृष्टि की निशानियों से पुनरुत्थान का तर्क देकर समाप्त होती है।",
+    "ur": "چھیانوے آیات کی ایک مکی سورت جو قیامت کے دن کی جیتی جاگتی منظر کشی کرتی ہے، جب انسانیت تین گروہوں میں تقسیم ہوگی: سبقت لے جانے والے (مقربین)، دائیں ہاتھ والے، اور بائیں ہاتھ والے۔ یہ اہلِ ایمان کے دائمی اجر کا مقابلہ منکرین کے عذاب سے کرتی ہے، اور تخلیق کی نشانیوں سے دوبارہ زندہ کیے جانے کی دلیل دے کر ختم ہوتی ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Sūrat al-Wāqi'ah — \"The Inevitable Event\" — is a Makkan surah of ninety-six verses, named after the Great Event: the Day of Resurrection, whose coming no soul can deny. It opens by declaring that when it strikes, it will bring down some and raise up others." },
+      { "kind": "verse", "surah": 56, "ayah": 1, "note": "When the Inevitable Event comes to pass —" },
+      { "kind": "verse", "surah": 56, "ayah": 3, "note": "It will bring low (some) and raise high (others)." },
+      { "kind": "heading", "level": 2, "text": "The three groups of mankind" },
+      { "kind": "p", "text": "The surah divides all people on that Day into three ranks. The believers are told they will be sorted into these categories according to the lives they led." },
+      { "kind": "verse", "surah": 56, "ayah": 7, "note": "And you will be of three kinds." },
+      { "kind": "p", "text": "First are the foremost — the elite of the believers, foremost in faith and good deeds — who will be the ones brought nearest to Allah in the Gardens of Bliss." },
+      { "kind": "verse", "surah": 56, "ayah": 10, "note": "And the foremost — the foremost;" },
+      { "kind": "verse", "surah": 56, "ayah": 11, "note": "Those are the ones brought near (to Allah)." },
+      { "kind": "p", "text": "Second are the companions of the right hand, the righteous believers, who receive their record in the right hand and enter Paradise amid thornless lote-trees, spreading shade, and flowing water." },
+      { "kind": "verse", "surah": 56, "ayah": 27, "note": "The companions of the right — what of the companions of the right!" },
+      { "kind": "p", "text": "Third are the companions of the left hand, the deniers and the misguided, who face scorching wind, boiling water, and the shadow of black smoke — a recompense for a life of luxury spent in rejecting the truth and persisting in the great sin." },
+      { "kind": "verse", "surah": 56, "ayah": 41, "note": "The companions of the left — what of the companions of the left!" },
+      { "kind": "heading", "level": 2, "text": "The proof of resurrection" },
+      { "kind": "p", "text": "To those who deny they will be raised after becoming dust, the surah turns to the signs of creation as proof: the seed they sow, the water they drink, and the fire they kindle. The One who first created these can surely recreate the human being." },
+      { "kind": "verse", "surah": 56, "ayah": 63, "note": "Have you seen that (seed) which you sow?" },
+      { "kind": "verse", "surah": 56, "ayah": 64, "note": "Is it you who make it grow, or are We the grower?" },
+      { "kind": "heading", "level": 2, "text": "A Qur'an most honoured" },
+      { "kind": "p", "text": "The surah affirms the sanctity of the Qur'an — a noble recitation, in a well-guarded Book, a revelation from the Lord of the worlds — before closing on the certainty of death and the states of the three groups as the soul departs." },
+      { "kind": "verse", "surah": 56, "ayah": 77, "note": "Indeed, it is a most honourable Qur'an," },
+      { "kind": "p", "text": "It is widely reported that the Prophet ﷺ recited Sūrat al-Wāqi'ah and other detailed surahs in the Maghrib prayer, and a popular tradition holds that reciting it nightly guards against poverty — though scholars grade that particular narration as weak, so it is best recited for reflection on the Hereafter rather than for that promise alone." },
+      { "kind": "list", "items": [
+        { "text": "The Day of Judgment is a certainty that will lower the arrogant and raise the humble believers." },
+        { "text": "People end in three groups: those brought near, the companions of the right, and the companions of the left." },
+        { "text": "The signs of creation — the crop, the rain, the fire — are proof that Allah can raise the dead." },
+        { "text": "The Qur'an is an honoured revelation, guarded and sent from the Lord of the worlds." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "सूरह अल-वाक़िआ — \"घटित होने वाली घटना\" — छियानवे आयतों की एक मक्की सूरह है, जिसका नाम उस महान घटना पर है: क़यामत का दिन, जिसके आने को कोई प्राणी झुठला नहीं सकता। यह इस घोषणा से शुरू होती है कि जब वह घटित होगी, तो किसी को गिराएगी और किसी को ऊँचा उठाएगी।" },
+      { "kind": "verse", "surah": 56, "ayah": 1, "note": "जब घटित होने वाली घटना घटित होगी —" },
+      { "kind": "verse", "surah": 56, "ayah": 3, "note": "यह किसी को पस्त करेगी, किसी को बुलंद।" },
+      { "kind": "heading", "level": 2, "text": "मानवजाति के तीन समूह" },
+      { "kind": "p", "text": "यह सूरह उस दिन सभी लोगों को तीन श्रेणियों में बाँटती है। ईमान वालों को बताया गया कि वे अपने बिताए जीवन के अनुसार इन श्रेणियों में बँट जाएँगे।" },
+      { "kind": "verse", "surah": 56, "ayah": 7, "note": "और तुम तीन प्रकार के हो जाओगे।" },
+      { "kind": "p", "text": "पहले वे अग्रगामी हैं — ईमान वालों के श्रेष्ठ, ईमान और नेक कर्मों में सबसे आगे — जो नेमत के बागों में अल्लाह के सबसे क़रीब किए जाएँगे।" },
+      { "kind": "verse", "surah": 56, "ayah": 10, "note": "और अग्रगामी तो अग्रगामी ही हैं;" },
+      { "kind": "verse", "surah": 56, "ayah": 11, "note": "यही वे लोग हैं जो (अल्लाह के) क़रीब किए गए।" },
+      { "kind": "p", "text": "दूसरे दाहिने हाथ वाले हैं, नेक ईमान वाले, जो अपना कर्म-पत्र दाहिने हाथ में पाएँगे और काँटों-रहित बेरी के पेड़ों, फैली छाया और बहते पानी के बीच जन्नत में प्रवेश करेंगे।" },
+      { "kind": "verse", "surah": 56, "ayah": 27, "note": "और दाहिने हाथ वाले — क्या कहना दाहिने हाथ वालों का!" },
+      { "kind": "p", "text": "तीसरे बाएँ हाथ वाले हैं, इनकार करने वाले और गुमराह, जो झुलसाने वाली लू, खौलते पानी और काले धुएँ की छाया का सामना करेंगे — विलासिता में बिताए और सत्य को ठुकराते हुए बड़े पाप पर अड़े रहने वाले जीवन का बदला।" },
+      { "kind": "verse", "surah": 56, "ayah": 41, "note": "और बाएँ हाथ वाले — क्या हाल है बाएँ हाथ वालों का!" },
+      { "kind": "heading", "level": 2, "text": "पुनरुत्थान का प्रमाण" },
+      { "kind": "p", "text": "जो इनकार करते हैं कि मिट्टी बन जाने के बाद उठाए जाएँगे, उनके लिए सूरह सृष्टि की निशानियों को प्रमाण बनाती है: जो बीज वे बोते हैं, जो पानी वे पीते हैं, और जो आग वे जलाते हैं। जिसने इन्हें पहली बार रचा वह निश्चय ही मनुष्य को फिर से बना सकता है।" },
+      { "kind": "verse", "surah": 56, "ayah": 63, "note": "क्या तुमने उस (बीज) को देखा जो तुम बोते हो?" },
+      { "kind": "verse", "surah": 56, "ayah": 64, "note": "क्या तुम उसे उगाते हो, या हम उगाने वाले हैं?" },
+      { "kind": "heading", "level": 2, "text": "एक अत्यंत सम्मानित क़ुरआन" },
+      { "kind": "p", "text": "सूरह क़ुरआन की पवित्रता की पुष्टि करती है — एक प्रतिष्ठित पाठ, एक सुरक्षित किताब में, सारे जहानों के रब की ओर से अवतरण — फिर मृत्यु की निश्चितता और प्राण निकलते समय तीनों समूहों की दशाओं पर समाप्त होती है।" },
+      { "kind": "verse", "surah": 56, "ayah": 77, "note": "निस्संदेह यह एक अत्यंत सम्मानित क़ुरआन है," },
+      { "kind": "p", "text": "व्यापक रूप से वर्णित है कि नबी ﷺ ने मग़रिब की नमाज़ में सूरह अल-वाक़िआ और अन्य विस्तृत सूरतें पढ़ीं, और एक प्रचलित रिवायत मानती है कि इसे हर रात पढ़ना ग़रीबी से बचाता है — हालाँकि विद्वान उस विशेष रिवायत को कमज़ोर ठहराते हैं, इसलिए इसे केवल उस वादे के लिए नहीं, बल्कि आख़िरत पर चिंतन के लिए पढ़ना बेहतर है।" },
+      { "kind": "list", "items": [
+        { "text": "क़यामत का दिन एक निश्चितता है जो घमंडियों को गिराएगा और विनम्र ईमान वालों को ऊँचा उठाएगा।" },
+        { "text": "लोग तीन समूहों में समाप्त होते हैं: क़रीब किए गए, दाहिने हाथ वाले, और बाएँ हाथ वाले।" },
+        { "text": "सृष्टि की निशानियाँ — फ़सल, बारिश, आग — प्रमाण हैं कि अल्लाह मुर्दों को उठा सकता है।" },
+        { "text": "क़ुरआन एक सम्मानित अवतरण है, सुरक्षित और सारे जहानों के रब की ओर से भेजा गया।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "سورۃ الواقعہ — \"واقع ہونے والی\" — چھیانوے آیات کی ایک مکی سورت ہے، جس کا نام اُس عظیم واقعے پر ہے: قیامت کا دن، جس کے آنے کو کوئی جان جھٹلا نہیں سکتی۔ یہ اِس اعلان سے شروع ہوتی ہے کہ جب وہ واقع ہوگی، تو کسی کو پست کرے گی اور کسی کو بلند۔" },
+      { "kind": "verse", "surah": 56, "ayah": 1, "note": "جب واقع ہونے والی واقع ہو جائے —" },
+      { "kind": "verse", "surah": 56, "ayah": 3, "note": "وہ کسی کو پست کرے گی، کسی کو بلند۔" },
+      { "kind": "heading", "level": 2, "text": "انسانیت کے تین گروہ" },
+      { "kind": "p", "text": "یہ سورت اُس دن تمام لوگوں کو تین درجوں میں تقسیم کرتی ہے۔ اہلِ ایمان کو بتایا گیا کہ وہ اپنی گزاری ہوئی زندگی کے مطابق اِن درجوں میں بٹ جائیں گے۔" },
+      { "kind": "verse", "surah": 56, "ayah": 7, "note": "اور تم تین قسم کے ہو جاؤ گے۔" },
+      { "kind": "p", "text": "پہلے وہ سبقت لے جانے والے ہیں — اہلِ ایمان کے بہترین، ایمان اور نیک اعمال میں سب سے آگے — جو نعمت کے باغوں میں اللہ کے سب سے قریب کیے جائیں گے۔" },
+      { "kind": "verse", "surah": 56, "ayah": 10, "note": "اور سبقت لے جانے والے تو سبقت لے جانے والے ہی ہیں؛" },
+      { "kind": "verse", "surah": 56, "ayah": 11, "note": "یہی وہ لوگ ہیں جو (اللہ کے) قریب کیے گئے۔" },
+      { "kind": "p", "text": "دوسرے دائیں ہاتھ والے ہیں، نیک اہلِ ایمان، جو اپنا نامۂ اعمال دائیں ہاتھ میں پائیں گے اور بے خار بیری کے درختوں، پھیلی چھاؤں اور بہتے پانی کے درمیان جنت میں داخل ہوں گے۔" },
+      { "kind": "verse", "surah": 56, "ayah": 27, "note": "اور دائیں ہاتھ والے — کیا کہنا دائیں ہاتھ والوں کا!" },
+      { "kind": "p", "text": "تیسرے بائیں ہاتھ والے ہیں، منکر اور گمراہ، جو جھلسا دینے والی لُو، کھولتے پانی اور کالے دھوئیں کی چھاؤں کا سامنا کریں گے — عیش میں گزاری اور حق کو ٹھکراتے ہوئے بڑے گناہ پر اڑے رہنے والی زندگی کا بدلہ۔" },
+      { "kind": "verse", "surah": 56, "ayah": 41, "note": "اور بائیں ہاتھ والے — کیا حال ہے بائیں ہاتھ والوں کا!" },
+      { "kind": "heading", "level": 2, "text": "دوبارہ زندہ کیے جانے کی دلیل" },
+      { "kind": "p", "text": "جو انکار کرتے ہیں کہ مٹی بن جانے کے بعد اٹھائے جائیں گے، اُن کے لیے سورت تخلیق کی نشانیوں کو دلیل بناتی ہے: جو بیج وہ بوتے ہیں، جو پانی وہ پیتے ہیں، اور جو آگ وہ سلگاتے ہیں۔ جس نے اِنہیں پہلی بار پیدا کیا وہ یقیناً انسان کو دوبارہ بنا سکتا ہے۔" },
+      { "kind": "verse", "surah": 56, "ayah": 63, "note": "کیا تم نے اُس (بیج) کو دیکھا جو تم بوتے ہو؟" },
+      { "kind": "verse", "surah": 56, "ayah": 64, "note": "کیا تم اُسے اگاتے ہو، یا ہم اگانے والے ہیں؟" },
+      { "kind": "heading", "level": 2, "text": "ایک نہایت معزز قرآن" },
+      { "kind": "p", "text": "سورت قرآن کی حرمت کی تصدیق کرتی ہے — ایک باعزت تلاوت، ایک محفوظ کتاب میں، تمام جہانوں کے رب کی طرف سے نازل — پھر موت کے یقینی ہونے اور روح نکلتے وقت تینوں گروہوں کی حالتوں پر ختم ہوتی ہے۔" },
+      { "kind": "verse", "surah": 56, "ayah": 77, "note": "بے شک یہ ایک نہایت معزز قرآن ہے," },
+      { "kind": "p", "text": "بکثرت مروی ہے کہ نبی ﷺ نے مغرب کی نماز میں سورۃ الواقعہ اور دیگر تفصیلی سورتیں پڑھیں، اور ایک مشہور روایت مانتی ہے کہ اِسے ہر رات پڑھنا غربت سے بچاتا ہے — اگرچہ علماء اُس مخصوص روایت کو ضعیف قرار دیتے ہیں، اِس لیے اِسے صرف اُس وعدے کے لیے نہیں بلکہ آخرت پر غور کے لیے پڑھنا بہتر ہے۔" },
+      { "kind": "list", "items": [
+        { "text": "قیامت کا دن ایک یقینی حقیقت ہے جو متکبروں کو پست کرے گا اور عاجز اہلِ ایمان کو بلند کرے گا۔" },
+        { "text": "لوگ تین گروہوں میں ختم ہوتے ہیں: مقرب کیے گئے، دائیں ہاتھ والے، اور بائیں ہاتھ والے۔" },
+        { "text": "تخلیق کی نشانیاں — فصل، بارش، آگ — دلیل ہیں کہ اللہ مُردوں کو زندہ کر سکتا ہے۔" },
+        { "text": "قرآن ایک معزز وحی ہے، محفوظ اور تمام جہانوں کے رب کی طرف سے بھیجی گئی۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "56:1-96" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["surah-al-mulk", "concept-jannah", "concept-jahannam", "basics-belief-in-last-day"]
+}

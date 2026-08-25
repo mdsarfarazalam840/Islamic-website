@@ -6,6 +6,7 @@ import { HadithCard } from "./HadithCard"
 import type { Hadith, HadithCollectionId } from "@/types"
 import { getCollectionDisplayName } from "@/lib/hadith/collections"
 import { saveHadithProgress } from "@/hooks/useHadithProgress"
+import { SaveHadithSpotButton } from "@/components/shared/SaveSpotButton"
 import { assetPath } from "@/lib/utils"
 
 interface RawHadith {
@@ -24,6 +25,7 @@ interface RawHadith {
 interface Props {
   collection: HadithCollectionId
   bookId: number
+  bookName: string
   totalHadiths: number
 }
 
@@ -55,7 +57,7 @@ function mapHadith(h: RawHadith, collection: HadithCollectionId): Hadith {
   }
 }
 
-export function HadithBookClient({ collection, bookId, totalHadiths }: Props) {
+export function HadithBookClient({ collection, bookId, bookName, totalHadiths }: Props) {
   const [hadiths, setHadiths] = useState<Hadith[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
@@ -200,6 +202,13 @@ export function HadithBookClient({ collection, bookId, totalHadiths }: Props) {
 
   return (
     <div className="space-y-3">
+      <SaveHadithSpotButton
+        collection={collection}
+        bookId={bookId}
+        bookName={bookName}
+        className="mb-3 sm:max-w-xs"
+      />
+
       <div ref={listRef} className="space-y-3">
         {visible.map((hadith, i) => (
           <HadithCard key={hadith.id} hadith={hadith} index={i} />

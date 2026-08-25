@@ -1,0 +1,103 @@
+{
+  "slug": "creed-imaan-e-mufassal",
+  "category": "creed",
+  "order": 8,
+  "title": {
+    "en": "Imaan-e-Mufassal — Faith in Detail",
+    "hi": "ईमान-ए-मुफ़स्सल — ईमान का तफ़सीली बयान",
+    "ur": "ایمانِ مفصل — ایمان کا تفصیلی بیان"
+  },
+  "summary": {
+    "en": "Āmantu bi'llāhi wa malā'ikatihī wa kutubihī wa rusulihī… — the same faith spelled out item by item: Allah, His angels, His books, His messengers, the Last Day, divine decree with its good and its evil, and resurrection after death. The six articles of faith in one sentence a child can hold.",
+    "hi": "आमन्तु बिल्लाहि व मलाइकतिही व कुतुबिही व रुसुलिही… — वही ईमान, एक-एक बात गिनकर: अल्लाह, उसके फ़रिश्ते, उसकी किताबें, उसके रसूल, आख़िरत का दिन, तक़दीर — उसकी भलाई और बुराई दोनों, और मरने के बाद उठाया जाना। ईमान के छह अनुच्छेद एक ऐसे जुमले में जो बच्चा भी याद रख सके।",
+    "ur": "آمَنْتُ بِاللہِ وَمَلَآئِکَتِہٖ وَکُتُبِہٖ وَرُسُلِہٖ… — وہی ایمان، ایک ایک بات گن کر: اللہ، اُس کے فرشتے، اُس کی کتابیں، اُس کے رسول، آخرت کا دن، تقدیر — اُس کی بھلائی اور برائی دونوں، اور مرنے کے بعد اٹھایا جانا۔ ایمان کے چھ اجزاء ایک ایسے جملے میں جو بچہ بھی یاد رکھ سکے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "arabic", "text": "آمَنْتُ بِاللهِ وَمَلَائِكَتِهِ وَكُتُبِهِ وَرُسُلِهِ وَالْيَوْمِ الْآخِرِ وَالْقَدَرِ خَيْرِهِ وَشَرِّهِ مِنَ اللهِ تَعَالَى وَالْبَعْثِ بَعْدَ الْمَوْتِ", "transliteration": "Āmantu bi'llāhi wa malā'ikatihī wa kutubihī wa rusulihī wa'l-yawmi'l-ākhiri wa'l-qadari khayrihī wa sharrihī mina'llāhi taʿālā wa'l-baʿthi baʿda'l-mawt", "translation": "I believe in Allah, and in His angels, and in His books, and in His messengers, and in the Last Day, and in the divine decree — that its good and its evil are from Allah the Exalted — and in the resurrection after death.", "label": "Imaan-e-Mufassal" },
+      { "kind": "p", "text": "Mufassal means \"in detail\". Where Imaan-e-Mujmal states faith as a whole, this sentence itemises it, and the items are the six articles of faith with the resurrection named separately at the end for emphasis. It is the shortest complete creed in the syllabus, and the reason a child raised on it can tell you what a Muslim believes without hesitating." },
+      { "kind": "heading", "level": 2, "text": "The items, one by one" },
+      { "kind": "list", "items": [
+        { "text": "Allāh — belief in Him as He described Himself: one, without partner, unlike His creation." },
+        { "text": "Malā'ikatihī — His angels: created from light, sinless, carrying out His command without failing." },
+        { "text": "Kutubihī — His books: the Torah, the Zabūr, the Injīl, the scrolls given before, and the Qur'an that came last and remains unaltered." },
+        { "text": "Rusulihī — His messengers: every prophet from Ādam to Muhammad ﷺ, believed in as a body, none of them singled out for rejection." },
+        { "text": "Al-yawm al-ākhir — the Last Day: the reckoning, the scale, the account settled." },
+        { "text": "Al-qadar, khayrihī wa sharrihī — the decree, its good and its evil, from Allah: nothing occurs outside His knowledge and will." },
+        { "text": "Al-baʿth baʿda'l-mawt — resurrection after death: the bodies raised, not only the souls." }
+      ] },
+      { "kind": "verse", "surah": 2, "ayah": 285, "note": "The Messenger and the believers believe in Allah, His angels, His books and His messengers, making no distinction between the messengers — nearly the wording of this kalima." },
+      { "kind": "p", "text": "Read the two side by side and the source of the list is obvious. This is not a formula invented by the madrasas; it is a Qur'anic sentence rearranged for memorisation, with the phrase about qadar added from the hadith that defines faith." },
+      { "kind": "heading", "level": 2, "text": "Where the list comes from" },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 50, "note": "Jibrīl asked the Prophet ﷺ what faith is. The answer listed Allah, His angels, meeting Him, His messengers and the resurrection — the hadith behind Imaan-e-Mufassal." },
+      { "kind": "verse", "surah": 4, "ayah": 136, "note": "Whoever disbelieves in Allah, His angels, His books, His messengers and the Last Day has strayed far — the list stated as a threshold, not a preference." },
+      { "kind": "p", "text": "That verse settles a question people often ask about the six articles: whether all of them are required. The Qur'an treats the list as indivisible. Accepting five and rejecting one is not a smaller faith; it is described as having gone far astray." },
+      { "kind": "heading", "level": 2, "text": "Qadar: its good and its evil" },
+      { "kind": "p", "text": "The hardest clause is khayrihī wa sharrihī — its good and its evil, from Allah. It does not mean Allah loves evil or commands it. It means nothing happens in His creation outside His knowledge, measure and permission — including what a person experiences as loss. The believer's position is that the pen was not idle and the accident was not random, even when the wisdom is not visible from where they stand." },
+      { "kind": "verse", "surah": 54, "ayah": 49, "note": "We have created everything by measure — qadar as measure rather than blind fate." },
+      { "kind": "verse", "surah": 64, "ayah": 11, "note": "No calamity strikes except by Allah's permission, and He guides the heart of whoever believes — the practical fruit of believing in qadar." },
+      { "kind": "p", "text": "The sentence ends where the Qur'an usually ends its arguments: with the resurrection. Faith in a decree without an accounting would be fatalism; faith in an accounting without a resurrection would leave the wronged unpaid. The last clause supplies both." },
+      { "kind": "verse", "surah": 22, "ayah": 7, "note": "The Hour is coming, no doubt of it, and Allah will raise those who are in the graves." }
+    ],
+    "hi": [
+      { "kind": "arabic", "text": "آمَنْتُ بِاللهِ وَمَلَائِكَتِهِ وَكُتُبِهِ وَرُسُلِهِ وَالْيَوْمِ الْآخِرِ وَالْقَدَرِ خَيْرِهِ وَشَرِّهِ مِنَ اللهِ تَعَالَى وَالْبَعْثِ بَعْدَ الْمَوْتِ", "transliteration": "Āmantu bi'llāhi wa malā'ikatihī wa kutubihī wa rusulihī wa'l-yawmi'l-ākhiri wa'l-qadari khayrihī wa sharrihī mina'llāhi taʿālā wa'l-baʿthi baʿda'l-mawt", "translation": "मैं ईमान लाया अल्लाह पर, और उसके फ़रिश्तों पर, और उसकी किताबों पर, और उसके रसूलों पर, और आख़िरत के दिन पर, और तक़दीर पर — कि उसकी भलाई और उसकी बुराई अल्लाह तआला की तरफ़ से है — और मरने के बाद उठाए जाने पर।", "label": "ईमान-ए-मुफ़स्सल" },
+      { "kind": "p", "text": "मुफ़स्सल का मानी है \"तफ़सील के साथ\"। ईमान-ए-मुजमल जहाँ ईमान को एक कुल की तरह बयान करता है, यह जुमला उसे गिन-गिनकर बताता है, और ये गिनतियाँ ईमान के छह अनुच्छेद हैं, जिनमें मरने के बाद उठाए जाने का ज़िक्र आख़िर में ज़ोर देने के लिए अलग से आया है। यह पाठ्यक्रम का सबसे छोटा मुकम्मल अक़ीदा है, और यही वजह है कि इस पर पला बच्चा बिना अटके बता सकता है कि मुसलमान किस बात पर ईमान रखता है।" },
+      { "kind": "heading", "level": 2, "text": "एक-एक बात" },
+      { "kind": "list", "items": [
+        { "text": "अल्लाह — उस पर वैसा ईमान जैसा उसने ख़ुद अपना बयान किया: एक, बेशरीक, अपनी मख़लूक़ जैसा नहीं।" },
+        { "text": "मलाइकतिही — उसके फ़रिश्ते: नूर से पैदा, गुनाह से पाक, उसके हुक्म की तामील में कोई कोताही नहीं।" },
+        { "text": "कुतुबिही — उसकी किताबें: तौरात, ज़बूर, इंजील, पहले दिए गए सहीफ़े, और क़ुरआन जो आख़िर में आया और जैसा उतरा वैसा ही महफ़ूज़ है।" },
+        { "text": "रुसुलिही — उसके रसूल: आदम से मुहम्मद ﷺ तक हर नबी, सब पर एक साथ ईमान, किसी एक का भी इनकार नहीं।" },
+        { "text": "अल-यौमुल-आख़िर — आख़िरत का दिन: हिसाब, तराज़ू, और मामले का फ़ैसला।" },
+        { "text": "अल-क़दर, ख़ैरिही व शर्रिही — तक़दीर, उसकी भलाई और बुराई, अल्लाह की तरफ़ से: कुछ भी उसके इल्म और इरादे से बाहर नहीं होता।" },
+        { "text": "अल-बअ्स बअ्दल-मौत — मरने के बाद उठाया जाना: सिर्फ़ रूहें नहीं, बदन भी उठाए जाएँगे।" }
+      ] },
+      { "kind": "verse", "surah": 2, "ayah": 285, "note": "रसूल और मोमिन अल्लाह, उसके फ़रिश्तों, उसकी किताबों और उसके रसूलों पर ईमान रखते हैं, और रसूलों में कोई फ़र्क़ नहीं करते — तक़रीबन इसी कलिमे के अल्फ़ाज़।" },
+      { "kind": "p", "text": "दोनों को साथ रखकर पढ़ें तो फ़ेहरिस्त का सोता साफ़ हो जाता है। यह मदरसों की गढ़ी हुई तरतीब नहीं; यह एक क़ुरआनी जुमला है जिसे याद करने के लिए सजा दिया गया, और उसमें तक़दीर का जुमला उस हदीस से जोड़ा गया जो ईमान की तारीफ़ करती है।" },
+      { "kind": "heading", "level": 2, "text": "यह फ़ेहरिस्त कहाँ से आई" },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 50, "note": "जिब्रील ने नबी ﷺ से पूछा ईमान क्या है। जवाब में अल्लाह, उसके फ़रिश्ते, उससे मुलाक़ात, उसके रसूल और दोबारा उठाया जाना गिनाया गया — यही हदीस ईमान-ए-मुफ़स्सल की बुनियाद है।" },
+      { "kind": "verse", "surah": 4, "ayah": 136, "note": "जिसने अल्लाह, उसके फ़रिश्तों, उसकी किताबों, उसके रसूलों और आख़िरत के दिन का इनकार किया, वह दूर की गुमराही में जा पड़ा — फ़ेहरिस्त एक हद है, पसंद का मामला नहीं।" },
+      { "kind": "p", "text": "यह आयत उस सवाल का फ़ैसला कर देती है जो छह अनुच्छेदों के बारे में अक्सर पूछा जाता है: क्या सब मानना ज़रूरी है? क़ुरआन इस फ़ेहरिस्त को नाक़ाबिल-ए-तक़सीम मानता है। पाँच मानकर एक ठुकरा देना छोटा ईमान नहीं; उसे दूर की गुमराही कहा गया है।" },
+      { "kind": "heading", "level": 2, "text": "तक़दीर: उसकी भलाई और बुराई" },
+      { "kind": "p", "text": "सबसे भारी जुमला यही है — ख़ैरिही व शर्रिही, उसकी भलाई और बुराई, अल्लाह की तरफ़ से। इसका मानी यह नहीं कि अल्लाह बुराई को पसंद करता या उसका हुक्म देता है। मानी यह है कि उसकी कायनात में कुछ भी उसके इल्म, अंदाज़े और इजाज़त से बाहर नहीं होता — वह भी जो इंसान को नुक़सान की शक्ल में मिलता है। मोमिन का मौक़िफ़ यह है कि क़लम बेकार नहीं चला और हादसा बेतरतीब नहीं था, चाहे हिकमत उसकी जगह से दिखाई न दे।" },
+      { "kind": "verse", "surah": 54, "ayah": 49, "note": "हमने हर चीज़ एक अंदाज़े से पैदा की — क़दर यानी अंदाज़ा, अंधी तक़दीर नहीं।" },
+      { "kind": "verse", "surah": 64, "ayah": 11, "note": "कोई मुसीबत अल्लाह की इजाज़त के बिना नहीं आती, और जो ईमान लाए उसके दिल को वह हिदायत देता है — तक़दीर पर ईमान का अमली फ़ायदा।" },
+      { "kind": "p", "text": "जुमला वहीं ख़त्म होता है जहाँ क़ुरआन आम तौर पर अपनी दलील ख़त्म करता है: दोबारा उठाए जाने पर। हिसाब के बिना तक़दीर का ईमान जब्रियत बन जाता है; और उठाए जाने के बिना हिसाब का ईमान मज़लूम का हक़ अदा नहीं करता। आख़िरी जुमला दोनों की कमी पूरी कर देता है।" },
+      { "kind": "verse", "surah": 22, "ayah": 7, "note": "क़यामत आने वाली है, इसमें कोई शक नहीं, और अल्लाह उन्हें उठाएगा जो क़ब्रों में हैं।" }
+    ],
+    "ur": [
+      { "kind": "arabic", "text": "آمَنْتُ بِاللهِ وَمَلَائِكَتِهِ وَكُتُبِهِ وَرُسُلِهِ وَالْيَوْمِ الْآخِرِ وَالْقَدَرِ خَيْرِهِ وَشَرِّهِ مِنَ اللهِ تَعَالَى وَالْبَعْثِ بَعْدَ الْمَوْتِ", "transliteration": "Āmantu bi'llāhi wa malā'ikatihī wa kutubihī wa rusulihī wa'l-yawmi'l-ākhiri wa'l-qadari khayrihī wa sharrihī mina'llāhi taʿālā wa'l-baʿthi baʿda'l-mawt", "translation": "میں ایمان لایا اللہ پر، اور اُس کے فرشتوں پر، اور اُس کی کتابوں پر، اور اُس کے رسولوں پر، اور آخرت کے دن پر، اور تقدیر پر — کہ اُس کی بھلائی اور اُس کی برائی اللہ تعالیٰ کی طرف سے ہے — اور مرنے کے بعد اٹھائے جانے پر۔", "label": "ایمانِ مفصل" },
+      { "kind": "p", "text": "مفصل کے معنی \"تفصیل کے ساتھ\"۔ ایمانِ مجمل جہاں ایمان کو ایک کل کی طرح بیان کرتا ہے، یہ جملہ اُسے گن گن کر بتاتا ہے، اور یہ گنتیاں ایمان کے چھ اجزاء ہیں، جن میں مرنے کے بعد اٹھائے جانے کا ذکر آخر میں زور دینے کے لیے الگ سے آیا ہے۔ یہ نصاب کا سب سے مختصر مکمل عقیدہ ہے، اور یہی وجہ ہے کہ اِس پر پلا بچہ بغیر اٹکے بتا سکتا ہے کہ مسلمان کس بات پر ایمان رکھتا ہے۔" },
+      { "kind": "heading", "level": 2, "text": "ایک ایک بات" },
+      { "kind": "list", "items": [
+        { "text": "اللہ — اُس پر ویسا ایمان جیسا اُس نے خود اپنا بیان کیا: ایک، بے شریک، اپنی مخلوق جیسا نہیں۔" },
+        { "text": "مَلَآئِکَتِہٖ — اُس کے فرشتے: نور سے پیدا، گناہ سے پاک، اُس کے حکم کی تعمیل میں کوئی کوتاہی نہیں۔" },
+        { "text": "کُتُبِہٖ — اُس کی کتابیں: تورات، زبور، انجیل، پہلے دیے گئے صحیفے، اور قرآن جو آخر میں آیا اور جیسا اترا ویسا ہی محفوظ ہے۔" },
+        { "text": "رُسُلِہٖ — اُس کے رسول: آدم سے محمد ﷺ تک ہر نبی، سب پر ایک ساتھ ایمان، کسی ایک کا بھی انکار نہیں۔" },
+        { "text": "اَلْیَوْمُ الْآخِر — آخرت کا دن: حساب، ترازو، اور معاملے کا فیصلہ۔" },
+        { "text": "اَلْقَدَر، خَیْرِہٖ وَشَرِّہٖ — تقدیر، اُس کی بھلائی اور برائی، اللہ کی طرف سے: کچھ بھی اُس کے علم اور ارادے سے باہر نہیں ہوتا۔" },
+        { "text": "اَلْبَعْث بَعْدَ الْمَوْت — مرنے کے بعد اٹھایا جانا: صرف روحیں نہیں، بدن بھی اٹھائے جائیں گے۔" }
+      ] },
+      { "kind": "verse", "surah": 2, "ayah": 285, "note": "رسول اور مومن اللہ، اُس کے فرشتوں، اُس کی کتابوں اور اُس کے رسولوں پر ایمان رکھتے ہیں، اور رسولوں میں کوئی فرق نہیں کرتے — تقریباً اِسی کلمے کے الفاظ۔" },
+      { "kind": "p", "text": "دونوں کو ساتھ رکھ کر پڑھیں تو فہرست کا سرچشمہ صاف ہو جاتا ہے۔ یہ مدرسوں کی گھڑی ہوئی ترتیب نہیں؛ یہ ایک قرآنی جملہ ہے جسے یاد کرنے کے لیے سجا دیا گیا، اور اُس میں تقدیر کا جملہ اُس حدیث سے جوڑا گیا جو ایمان کی تعریف کرتی ہے۔" },
+      { "kind": "heading", "level": 2, "text": "یہ فہرست کہاں سے آئی" },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 50, "note": "جبریل نے نبی کریم ﷺ سے پوچھا ایمان کیا ہے۔ جواب میں اللہ، اُس کے فرشتے، اُس سے ملاقات، اُس کے رسول اور دوبارہ اٹھایا جانا گنوایا گیا — یہی حدیث ایمانِ مفصل کی بنیاد ہے۔" },
+      { "kind": "verse", "surah": 4, "ayah": 136, "note": "جس نے اللہ، اُس کے فرشتوں، اُس کی کتابوں، اُس کے رسولوں اور آخرت کے دن کا انکار کیا، وہ دور کی گمراہی میں جا پڑا — فہرست ایک حد ہے، پسند کا معاملہ نہیں۔" },
+      { "kind": "p", "text": "یہ آیت اُس سوال کا فیصلہ کر دیتی ہے جو چھ اجزاء کے بارے میں اکثر پوچھا جاتا ہے: کیا سب ماننا ضروری ہے؟ قرآن اِس فہرست کو ناقابلِ تقسیم مانتا ہے۔ پانچ مان کر ایک ٹھکرا دینا چھوٹا ایمان نہیں؛ اُسے دور کی گمراہی کہا گیا ہے۔" },
+      { "kind": "heading", "level": 2, "text": "تقدیر: اُس کی بھلائی اور برائی" },
+      { "kind": "p", "text": "سب سے بھاری جملہ یہی ہے — خَیْرِہٖ وَشَرِّہٖ، اُس کی بھلائی اور برائی، اللہ کی طرف سے۔ اِس کا مطلب یہ نہیں کہ اللہ برائی کو پسند کرتا یا اُس کا حکم دیتا ہے۔ مطلب یہ ہے کہ اُس کی کائنات میں کچھ بھی اُس کے علم، اندازے اور اجازت سے باہر نہیں ہوتا — وہ بھی جو انسان کو نقصان کی صورت میں ملتا ہے۔ مومن کا موقف یہ ہے کہ قلم بے کار نہیں چلا اور حادثہ بے ترتیب نہ تھا، خواہ حکمت اُس کی جگہ سے دکھائی نہ دے۔" },
+      { "kind": "verse", "surah": 54, "ayah": 49, "note": "ہم نے ہر چیز ایک اندازے سے پیدا کی — قدر یعنی اندازہ، اندھی تقدیر نہیں۔" },
+      { "kind": "verse", "surah": 64, "ayah": 11, "note": "کوئی مصیبت اللہ کی اجازت کے بغیر نہیں آتی، اور جو ایمان لائے اُس کے دل کو وہ ہدایت دیتا ہے — تقدیر پر ایمان کا عملی فائدہ۔" },
+      { "kind": "p", "text": "جملہ وہیں ختم ہوتا ہے جہاں قرآن عام طور پر اپنی دلیل ختم کرتا ہے: دوبارہ اٹھائے جانے پر۔ حساب کے بغیر تقدیر کا ایمان جبریت بن جاتا ہے؛ اور اٹھائے جانے کے بغیر حساب کا ایمان مظلوم کا حق ادا نہیں کرتا۔ آخری جملہ دونوں کی کمی پوری کر دیتا ہے۔" },
+      { "kind": "verse", "surah": 22, "ayah": 7, "note": "قیامت آنے والی ہے، اِس میں کوئی شک نہیں، اور اللہ اُنہیں اٹھائے گا جو قبروں میں ہیں۔" }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "2:285" },
+    { "type": "quran", "ref": "4:136" },
+    { "type": "quran", "ref": "54:49" },
+    { "type": "quran", "ref": "22:7" },
+    { "type": "hadith", "collection": "bukhari", "ref": "50", "grade": "sahih" }
+  ],
+  "relatedSlugs": ["creed-imaan-e-mujmal", "basics-five-pillars", "basics-belief-in-qadar"]
+}

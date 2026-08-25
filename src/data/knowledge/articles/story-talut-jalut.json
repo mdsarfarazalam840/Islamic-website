@@ -1,0 +1,70 @@
+{
+  "slug": "story-talut-jalut",
+  "category": "quranic",
+  "featured": true,
+  "title": {
+    "en": "Talut and Jalut (Saul and Goliath)",
+    "hi": "तालूत और जालूत (साऊल और गोलियथ)",
+    "ur": "طالوت اور جالوت"
+  },
+  "summary": {
+    "en": "Allah appointed Talut as king over the Children of Israel, tested his army at a river, and through the small band of true believers — and the young David who slew the giant Jalut — granted victory to the few who trusted in Allah.",
+    "hi": "अल्लाह ने तालूत को बनी इसराईल पर राजा नियुक्त किया, एक नदी पर उसकी सेना की परीक्षा ली, और सच्चे ईमान वालों के छोटे समूह के ज़रिए — और युवा दाऊद के हाथों जिसने विशाल जालूत को मार गिराया — उन थोड़े लोगों को विजय दी जिन्होंने अल्लाह पर भरोसा किया।",
+    "ur": "اللہ نے طالوت کو بنی اسرائیل پر بادشاہ مقرر کیا، ایک دریا پر اس کے لشکر کی آزمائش لی، اور سچے مومنوں کے چھوٹے گروہ کے ذریعے — اور نوجوان داؤد کے ہاتھوں جس نے دیو ہیکل جالوت کو مار گرایا — اُن تھوڑے لوگوں کو فتح دی جنہوں نے اللہ پر بھروسہ کیا۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "After the time of Musa (peace be upon him), the leaders of the Children of Israel asked their prophet to appoint a king so they could fight in the way of Allah. Allah chose Talut (Saul), granting him knowledge and physical strength, though some objected that he was not wealthy." },
+      { "kind": "verse", "surah": 2, "ayah": 247, "note": "The prophet told them Allah had chosen Talut and increased him in knowledge and stature." },
+      { "kind": "heading", "level": 2, "text": "The test at the river" },
+      { "kind": "p", "text": "As Talut marched out with his army, Allah tested them with a river: whoever drank freely from it was not with him, except one who took only a handful. Most drank — only a small band of the faithful crossed with him." },
+      { "kind": "verse", "surah": 2, "ayah": 249, "note": "Those who crossed said, 'How often a small company has overcome a large company by Allah's permission.'" },
+      { "kind": "heading", "level": 2, "text": "David and Goliath" },
+      { "kind": "p", "text": "Facing the overwhelming army of Jalut (Goliath), the believers prayed for steadfastness. The young David (Dawud, peace be upon him) killed Jalut, and Allah gave him kingship and wisdom." },
+      { "kind": "verse", "surah": 2, "ayah": 250, "note": "'Our Lord, pour patience upon us, plant our feet firmly, and give us victory over the disbelieving people.'" },
+      { "kind": "verse", "surah": 2, "ayah": 251, "note": "So they defeated them by Allah's permission, and Dawud killed Jalut, and Allah gave him sovereignty and wisdom." },
+      { "kind": "list", "items": [
+        { "text": "Victory comes from Allah, not from numbers or apparent strength." },
+        { "text": "Discipline in small trials (like the river) reveals who is truly reliable in great ones." },
+        { "text": "Patience and sincere du'a are the weapons of the believer against overwhelming odds." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "मूसा (उन पर शांति हो) के समय के बाद, बनी इसराईल के सरदारों ने अपने नबी से एक राजा नियुक्त करने को कहा ताकि वे अल्लाह के मार्ग में लड़ सकें। अल्लाह ने तालूत (साऊल) को चुना, उसे ज्ञान और शारीरिक शक्ति दी, यद्यपि कुछ ने आपत्ति की कि वह धनवान नहीं था।" },
+      { "kind": "verse", "surah": 2, "ayah": 247, "note": "नबी ने उन्हें बताया कि अल्लाह ने तालूत को चुना है और उसे ज्ञान व शारीरिक क्षमता में बढ़ाया है।" },
+      { "kind": "heading", "level": 2, "text": "नदी की परीक्षा" },
+      { "kind": "p", "text": "जब तालूत अपनी सेना के साथ निकला, अल्लाह ने उन्हें एक नदी से परखा: जो उससे जी भर कर पिए वह उसके साथ नहीं, सिवाय उसके जो केवल एक चुल्लू ले। अधिकतर ने पिया — केवल ईमान वालों का एक छोटा समूह उसके साथ पार हुआ।" },
+      { "kind": "verse", "surah": 2, "ayah": 249, "note": "जो पार हुए उन्होंने कहा, 'कितनी ही बार एक छोटा समूह अल्लाह की अनुमति से बड़े समूह पर विजयी हुआ है।'" },
+      { "kind": "heading", "level": 2, "text": "दाऊद और जालूत" },
+      { "kind": "p", "text": "जालूत (गोलियथ) की विशाल सेना का सामना करते हुए, ईमान वालों ने दृढ़ता की दुआ की। युवा दाऊद (उन पर शांति हो) ने जालूत को मार गिराया, और अल्लाह ने उन्हें राज्य और हिकमत प्रदान की।" },
+      { "kind": "verse", "surah": 2, "ayah": 250, "note": "'ऐ हमारे रब, हम पर धैर्य उंडेल, हमारे पाँव जमा दे, और इनकार करने वाले लोगों पर हमें विजय दे।'" },
+      { "kind": "verse", "surah": 2, "ayah": 251, "note": "तो उन्होंने अल्लाह की अनुमति से उन्हें हरा दिया, और दाऊद ने जालूत को मारा, और अल्लाह ने उन्हें बादशाहत और हिकमत दी।" },
+      { "kind": "list", "items": [
+        { "text": "विजय अल्लाह से आती है, संख्या या दिखावटी शक्ति से नहीं।" },
+        { "text": "छोटी परीक्षाओं (जैसे नदी) में अनुशासन दिखाता है कि बड़ी परीक्षाओं में कौन सचमुच भरोसेमंद है।" },
+        { "text": "धैर्य और सच्ची दुआ भारी विषमताओं के विरुद्ध ईमान वाले के हथियार हैं।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "موسیٰ (علیہ السلام) کے زمانے کے بعد، بنی اسرائیل کے سرداروں نے اپنے نبی سے ایک بادشاہ مقرر کرنے کو کہا تاکہ وہ اللہ کی راہ میں لڑ سکیں۔ اللہ نے طالوت کو چنا، اسے علم اور جسمانی قوت عطا کی، اگرچہ کچھ نے اعتراض کیا کہ وہ مالدار نہیں تھا۔" },
+      { "kind": "verse", "surah": 2, "ayah": 247, "note": "نبی نے انہیں بتایا کہ اللہ نے طالوت کو چن لیا ہے اور اسے علم و جسمانی قوت میں بڑھایا ہے۔" },
+      { "kind": "heading", "level": 2, "text": "دریا کی آزمائش" },
+      { "kind": "p", "text": "جب طالوت اپنے لشکر کے ساتھ نکلا، اللہ نے انہیں ایک دریا سے آزمایا: جو اس سے سیر ہو کر پیے وہ اس کے ساتھ نہیں، سوائے اس کے جو صرف ایک چلو لے۔ اکثر نے پیا — صرف مومنوں کا ایک چھوٹا گروہ اس کے ساتھ پار ہوا۔" },
+      { "kind": "verse", "surah": 2, "ayah": 249, "note": "جو پار ہوئے انہوں نے کہا، 'کتنی ہی بار ایک چھوٹی جماعت اللہ کے حکم سے بڑی جماعت پر غالب آئی ہے۔'" },
+      { "kind": "heading", "level": 2, "text": "داؤد اور جالوت" },
+      { "kind": "p", "text": "جالوت کے عظیم لشکر کا سامنا کرتے ہوئے، مومنوں نے ثابت قدمی کی دعا کی۔ نوجوان داؤد (علیہ السلام) نے جالوت کو مار گرایا، اور اللہ نے انہیں بادشاہت اور حکمت عطا کی۔" },
+      { "kind": "verse", "surah": 2, "ayah": 250, "note": "'اے ہمارے رب، ہم پر صبر انڈیل، ہمارے قدم جما دے، اور کافر قوم پر ہمیں فتح دے۔'" },
+      { "kind": "verse", "surah": 2, "ayah": 251, "note": "پس انہوں نے اللہ کے حکم سے انہیں شکست دی، اور داؤد نے جالوت کو قتل کیا، اور اللہ نے انہیں بادشاہت اور حکمت دی۔" },
+      { "kind": "list", "items": [
+        { "text": "فتح اللہ کی طرف سے آتی ہے، تعداد یا ظاہری طاقت سے نہیں۔" },
+        { "text": "چھوٹی آزمائشوں (جیسے دریا) میں نظم و ضبط ظاہر کرتا ہے کہ بڑی آزمائشوں میں کون واقعی قابلِ اعتماد ہے۔" },
+        { "text": "صبر اور سچی دعا بھاری مشکلات کے خلاف مومن کے ہتھیار ہیں۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "2:246-251" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["prophet-dawud", "concept-sabr", "concept-tawakkul"]
+}

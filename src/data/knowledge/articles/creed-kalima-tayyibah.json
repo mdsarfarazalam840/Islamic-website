@@ -1,0 +1,91 @@
+{
+  "slug": "creed-kalima-tayyibah",
+  "category": "creed",
+  "order": 1,
+  "featured": true,
+  "title": {
+    "en": "First Kalima — Ṭayyibah (The Pure Word)",
+    "hi": "पहला कलिमा — तय्यिबा (पाक कलिमा)",
+    "ur": "پہلا کلمہ — طیبہ (پاک کلمہ)"
+  },
+  "summary": {
+    "en": "Lā ilāha illa'llāh, Muḥammadur rasūlu'llāh — \"There is no god but Allah; Muhammad is the Messenger of Allah.\" The single sentence a person enters Islam by, and the one the Prophet ﷺ urged on the dying. Its two halves are a denial and an affirmation, and everything else in the religion rests on them.",
+    "hi": "ला इलाहा इल्लल्लाह, मुहम्मदुर रसूलुल्लाह — \"अल्लाह के सिवा कोई माबूद नहीं; मुहम्मद अल्लाह के रसूल हैं।\" वही एक वाक्य जिससे इंसान इस्लाम में दाख़िल होता है, और वही जिसे नबी ﷺ ने मरणासन्न लोगों पर ज़ोर दिया। इसके दो हिस्से एक इनकार और एक इक़रार हैं, और दीन की हर चीज़ इन्हीं पर टिकी है।",
+    "ur": "لا الہ الا اللہ، محمد رسول اللہ — \"اللہ کے سوا کوئی معبود نہیں؛ محمد اللہ کے رسول ہیں۔\" وہی ایک جملہ جس سے انسان اسلام میں داخل ہوتا ہے، اور وہی جسے نبی ﷺ نے قریب المرگ لوگوں پر زور دیا۔ اِس کے دو حصے ایک نفی اور ایک اثبات ہیں، اور دین کی ہر چیز اِنہی پر قائم ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "arabic", "text": "لَا إِلٰهَ إِلَّا اللهُ مُحَمَّدٌ رَسُولُ اللهِ", "transliteration": "Lā ilāha illa'llāh, Muḥammadur rasūlu'llāh", "translation": "There is no god but Allah; Muhammad is the Messenger of Allah.", "label": "Kalima Ṭayyibah" },
+      { "kind": "p", "text": "It is called ṭayyibah — \"pure\", \"wholesome\" — because it purifies the heart of everything it is spoken against. Ten words in Arabic, and the whole of Islam is inside them." },
+      { "kind": "heading", "level": 2, "text": "Tafsīr: a denial before an affirmation" },
+      { "kind": "p", "text": "The sentence does not begin by saying \"Allah exists.\" It begins by clearing the ground: lā ilāha — there is no god at all. Only after that emptying does it place One in the space: illa'llāh — except Allah. The order is deliberate. A heart already full of other masters has no room for its Lord; the first half evicts them, the second half installs Him." },
+      { "kind": "p", "text": "The word ilāh does not only mean an idol of stone. It means whatever a person ultimately obeys, fears, hopes in, and organises their life around. So the denial reaches further than temples — it reaches wealth, status, appetite, the opinion of others, and the self. Each of these can be an ilāh, and each is denied by the first two words." },
+      { "kind": "verse", "surah": 20, "ayah": 14, "note": "Allah speaks the first half of the kalima about Himself, and joins to it the command to worship and to pray." },
+      { "kind": "heading", "level": 2, "text": "Why the second half is not optional" },
+      { "kind": "p", "text": "Muḥammadur rasūlu'llāh is not an addendum. Without it, the first half is a statement anyone might make while worshipping Allah however they please. The second half says that the way to Allah is the way He sent, taught by the man He sent it through — so the kalima commits the speaker not only to Allah's oneness but to His guidance, in the form it actually arrived." },
+      { "kind": "verse", "surah": 3, "ayah": 18, "note": "Allah, the angels, and those given knowledge all bear the same witness the kalima puts on a human tongue." },
+      { "kind": "heading", "level": 2, "text": "What the kalima obliges" },
+      { "kind": "list", "items": [
+        { "text": "Knowledge — understanding what is denied and what is affirmed, not reciting sounds." },
+        { "text": "Certainty — no doubt held back in reserve." },
+        { "text": "Sincerity — said for Allah, not for family, marriage, or convenience." },
+        { "text": "Truthfulness — the tongue and the heart saying the same thing." },
+        { "text": "Love, acceptance, and submission — welcoming what it entails rather than resenting it." },
+        { "text": "Disavowal of what it denies — you cannot affirm the kalima and keep the idols." }
+      ] },
+      { "kind": "p", "text": "This is why the Prophet ﷺ, at his uncle Abū Ṭālib's deathbed, asked for this one sentence and nothing else — \"a word with which I will be able to defend you before Allah.\" It was refused, and the refusal cost everything." },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 6681, "note": "The Prophet ﷺ pressing the first kalima on his dying uncle — the single sentence he wanted from him." }
+    ],
+    "hi": [
+      { "kind": "arabic", "text": "لَا إِلٰهَ إِلَّا اللهُ مُحَمَّدٌ رَسُولُ اللهِ", "transliteration": "Lā ilāha illa'llāh, Muḥammadur rasūlu'llāh", "translation": "अल्लाह के सिवा कोई माबूद नहीं; मुहम्मद अल्लाह के रसूल हैं।", "label": "कलिमा तय्यिबा" },
+      { "kind": "p", "text": "इसे तय्यिबा — \"पाक\", \"सुथरा\" — कहा जाता है क्योंकि यह दिल को उस हर चीज़ से पाक कर देता है जिसके विरुद्ध यह कहा जाता है। अरबी में दस शब्द, और पूरा इस्लाम उनके भीतर।" },
+      { "kind": "heading", "level": 2, "text": "तफ़्सीर: इक़रार से पहले इनकार" },
+      { "kind": "p", "text": "यह वाक्य \"अल्लाह मौजूद है\" कहकर शुरू नहीं होता। यह ज़मीन साफ़ करके शुरू होता है: ला इलाहा — कोई माबूद ही नहीं। इस ख़ालीपन के बाद ही वह उस जगह में एक को रखता है: इल्लल्लाह — सिवाय अल्लाह के। यह क्रम सोचा-समझा है। जो दिल पहले से दूसरे आक़ाओं से भरा है उसमें उसके रब के लिए जगह नहीं; पहला हिस्सा उन्हें निकालता है, दूसरा हिस्सा उसे बिठाता है।" },
+      { "kind": "p", "text": "इलाह का अर्थ केवल पत्थर की मूर्ति नहीं। इसका अर्थ वह है जिसकी इंसान आख़िर में इताअत करता है, जिससे डरता है, जिससे उम्मीद रखता है, और जिसके इर्द-गिर्द अपनी ज़िंदगी सजाता है। इसलिए यह इनकार मंदिरों से आगे तक जाता है — यह दौलत, रुतबे, ख़्वाहिश, लोगों की राय, और ख़ुद अपनी नफ़्स तक पहुँचता है। इनमें से हर एक इलाह बन सकता है, और हर एक का पहले दो शब्दों से इनकार हो जाता है।" },
+      { "kind": "verse", "surah": 20, "ayah": 14, "note": "अल्लाह कलिमे का पहला हिस्सा अपने बारे में कहता है, और उसके साथ इबादत और नमाज़ का हुक्म जोड़ देता है।" },
+      { "kind": "heading", "level": 2, "text": "दूसरा हिस्सा इख़्तियारी क्यों नहीं" },
+      { "kind": "p", "text": "मुहम्मदुर रसूलुल्लाह कोई जोड़ नहीं है। इसके बिना पहला हिस्सा एक ऐसा बयान रह जाता जो कोई भी अल्लाह की इबादत अपनी मर्ज़ी से करते हुए कह सकता। दूसरा हिस्सा कहता है कि अल्लाह तक का रास्ता वही है जो उसने भेजा, उसी शख़्स से सिखाया गया जिसके ज़रिए उसने भेजा — इसलिए कलिमा कहने वाले को न केवल अल्लाह की वहदानियत का, बल्कि उसकी हिदायत का भी, ठीक उस शक्ल में जिसमें वह आई, पाबंद बना देता है।" },
+      { "kind": "verse", "surah": 3, "ayah": 18, "note": "अल्लाह, फ़रिश्ते, और इल्म वाले सब वही गवाही देते हैं जो कलिमा इंसानी ज़ुबान पर रख देता है।" },
+      { "kind": "heading", "level": 2, "text": "कलिमा किस बात का पाबंद बनाता है" },
+      { "kind": "list", "items": [
+        { "text": "इल्म — यह समझना कि किसका इनकार है और किसका इक़रार, न कि आवाज़ें दोहराना।" },
+        { "text": "यक़ीन — कोई शक बचाकर न रखना।" },
+        { "text": "इख़लास — अल्लाह के लिए कहा गया हो, ख़ानदान, निकाह या सहूलत के लिए नहीं।" },
+        { "text": "सच्चाई — ज़ुबान और दिल एक ही बात कहें।" },
+        { "text": "मुहब्बत, क़बूलियत और फ़रमाँबरदारी — इसके तक़ाज़ों का खुले दिल से स्वागत, नाराज़ी नहीं।" },
+        { "text": "बराअत — जिस चीज़ का यह इनकार करता है उससे अलग होना; कलिमा मानकर बुत रखे नहीं जा सकते।" }
+      ] },
+      { "kind": "p", "text": "इसी वजह से नबी ﷺ ने अपने चाचा अबू तालिब के मरणासन्न बिस्तर पर यही एक वाक्य माँगा और कुछ नहीं — \"एक कलिमा जिसके ज़रिए मैं अल्लाह के सामने तुम्हारी वकालत कर सकूँगा।\" वह इनकार कर गए, और उस इनकार ने सब कुछ ले लिया।" },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 6681, "note": "नबी ﷺ अपने मरणासन्न चाचा पर पहला कलिमा ज़ोर देते हुए — वही एक वाक्य जो वे उनसे चाहते थे।" }
+    ],
+    "ur": [
+      { "kind": "arabic", "text": "لَا إِلٰهَ إِلَّا اللهُ مُحَمَّدٌ رَسُولُ اللهِ", "transliteration": "Lā ilāha illa'llāh, Muḥammadur rasūlu'llāh", "translation": "اللہ کے سوا کوئی معبود نہیں؛ محمد اللہ کے رسول ہیں۔", "label": "کلمہ طیبہ" },
+      { "kind": "p", "text": "اِسے طیبہ — \"پاک\"، \"ستھرا\" — کہا جاتا ہے کیونکہ یہ دل کو ہر اُس چیز سے پاک کر دیتا ہے جس کے خلاف یہ کہا جاتا ہے۔ عربی میں دس الفاظ، اور پورا اسلام اُن کے اندر۔" },
+      { "kind": "heading", "level": 2, "text": "تفسیر: اثبات سے پہلے نفی" },
+      { "kind": "p", "text": "یہ جملہ \"اللہ موجود ہے\" کہہ کر شروع نہیں ہوتا۔ یہ زمین صاف کر کے شروع ہوتا ہے: لا الہ — کوئی معبود ہی نہیں۔ اِس خالی کرنے کے بعد ہی وہ اُس جگہ میں ایک کو رکھتا ہے: الا اللہ — سوائے اللہ کے۔ یہ ترتیب سوچی سمجھی ہے۔ جو دل پہلے ہی دوسرے آقاؤں سے بھرا ہو اُس میں اُس کے رب کے لیے جگہ نہیں؛ پہلا حصہ اُنہیں نکالتا ہے، دوسرا حصہ اُسے بٹھاتا ہے۔" },
+      { "kind": "p", "text": "لفظ الٰہ کا مطلب صرف پتھر کا بت نہیں۔ اِس کا مطلب وہ ہے جس کی انسان بالآخر اطاعت کرتا ہے، جس سے ڈرتا ہے، جس سے امید رکھتا ہے، اور جس کے گرد اپنی زندگی ترتیب دیتا ہے۔ چنانچہ یہ نفی مندروں سے آگے تک جاتی ہے — یہ دولت، مرتبے، خواہش، لوگوں کی رائے، اور خود اپنے نفس تک پہنچتی ہے۔ اِن میں سے ہر ایک الٰہ بن سکتا ہے، اور ہر ایک کی پہلے دو الفاظ سے نفی ہو جاتی ہے۔" },
+      { "kind": "verse", "surah": 20, "ayah": 14, "note": "اللہ کلمے کا پہلا حصہ اپنے بارے میں فرماتا ہے، اور اُس کے ساتھ عبادت اور نماز کا حکم جوڑ دیتا ہے۔" },
+      { "kind": "heading", "level": 2, "text": "دوسرا حصہ اختیاری کیوں نہیں" },
+      { "kind": "p", "text": "محمد رسول اللہ کوئی اضافہ نہیں ہے۔ اِس کے بغیر پہلا حصہ ایک ایسا بیان رہ جاتا جو کوئی بھی اللہ کی عبادت اپنی مرضی سے کرتے ہوئے کہہ سکتا۔ دوسرا حصہ کہتا ہے کہ اللہ تک کا راستہ وہی ہے جو اُس نے بھیجا، اُسی شخص سے سکھایا گیا جس کے ذریعے اُس نے بھیجا — چنانچہ کلمہ کہنے والے کو نہ صرف اللہ کی وحدانیت کا، بلکہ اُس کی ہدایت کا بھی، بالکل اُسی شکل میں جس میں وہ آئی، پابند بنا دیتا ہے۔" },
+      { "kind": "verse", "surah": 3, "ayah": 18, "note": "اللہ، فرشتے، اور اہلِ علم سب وہی گواہی دیتے ہیں جو کلمہ انسانی زبان پر رکھ دیتا ہے۔" },
+      { "kind": "heading", "level": 2, "text": "کلمہ کس بات کا پابند بناتا ہے" },
+      { "kind": "list", "items": [
+        { "text": "علم — یہ سمجھنا کہ کس کی نفی ہے اور کس کا اثبات، نہ کہ آوازیں دہرانا۔" },
+        { "text": "یقین — کوئی شک بچا کر نہ رکھنا۔" },
+        { "text": "اخلاص — اللہ کے لیے کہا گیا ہو، خاندان، نکاح یا سہولت کے لیے نہیں۔" },
+        { "text": "صداقت — زبان اور دل ایک ہی بات کہیں۔" },
+        { "text": "محبت، قبولیت اور فرمانبرداری — اِس کے تقاضوں کا کھلے دل سے خیر مقدم، ناراضی نہیں۔" },
+        { "text": "براءت — جس چیز کی یہ نفی کرتا ہے اُس سے علیحدگی؛ کلمہ مان کر بت رکھے نہیں جا سکتے۔" }
+      ] },
+      { "kind": "p", "text": "اِسی وجہ سے نبی کریم ﷺ نے اپنے چچا ابو طالب کے بسترِ مرگ پر یہی ایک جملہ مانگا اور کچھ نہیں — \"ایک کلمہ جس کے ذریعے میں اللہ کے سامنے تمہاری وکالت کر سکوں گا۔\" وہ انکار کر گئے، اور اُس انکار نے سب کچھ لے لیا۔" },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 6681, "note": "نبی ﷺ اپنے قریب المرگ چچا پر پہلا کلمہ زور دیتے ہوئے — وہی ایک جملہ جو وہ اُن سے چاہتے تھے۔" }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "20:14" },
+    { "type": "quran", "ref": "3:18" },
+    { "type": "hadith", "collection": "bukhari", "ref": "6681", "grade": "sahih" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["creed-six-kalimas", "creed-kalima-shahadah", "concept-tawhid"]
+}

@@ -1,0 +1,67 @@
+{
+  "slug": "concept-birr-al-walidayn",
+  "category": "concepts",
+  "featured": false,
+  "title": {
+    "en": "Birr al-Wālidayn — Kindness to Parents",
+    "hi": "बिर्र अल-वालिदैन — माता-पिता के साथ भलाई",
+    "ur": "برّ الوالدین — والدین کے ساتھ حسنِ سلوک"
+  },
+  "summary": {
+    "en": "Birr al-wālidayn is dutiful kindness to one's parents — a duty Allah places directly after worship of Him. The Qur'an forbids even a word of annoyance to them, and the Prophet ﷺ named kindness to parents among the most beloved deeds to Allah.",
+    "hi": "बिर्र अल-वालिदैन माता-पिता के साथ कर्तव्यनिष्ठ भलाई है — एक कर्तव्य जिसे अल्लाह अपनी इबादत के ठीक बाद रखता है। क़ुरआन उनसे झुँझलाहट का एक शब्द भी मना करता है, और पैगंबर ﷺ ने माता-पिता के साथ भलाई को अल्लाह के सबसे प्रिय कर्मों में गिना।",
+    "ur": "برّ الوالدین والدین کے ساتھ فرض شناس حسنِ سلوک ہے — ایک فرض جسے اللہ اپنی عبادت کے فوراً بعد رکھتا ہے۔ قرآن اُن سے جھنجھلاہٹ کا ایک لفظ بھی منع کرتا ہے، اور نبی ﷺ نے والدین کے ساتھ نیکی کو اللہ کے سب سے محبوب اعمال میں شمار کیا۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Birr al-wālidayn — goodness and dutiful care toward one's parents — is one of the greatest obligations in Islam. Again and again the Qur'an pairs the command to worship Allah alone with the command to treat parents well, showing how weighty this duty is." },
+      { "kind": "verse", "surah": 17, "ayah": 23, "note": "'Your Lord has decreed that you worship none but Him, and to parents good treatment.'" },
+      { "kind": "heading", "level": 2, "text": "Not even a word of complaint" },
+      { "kind": "p", "text": "Especially in their old age, Allah forbids the believer from showing the slightest irritation to parents — not even the smallest word of dismissal — commanding instead gentle speech, humility, and prayer for their mercy." },
+      { "kind": "verse", "surah": 17, "ayah": 24, "note": "'And lower to them the wing of humility out of mercy, and say: My Lord, have mercy upon them as they raised me when I was small.'" },
+      { "kind": "heading", "level": 2, "text": "The most beloved companionship" },
+      { "kind": "p", "text": "When a man asked the Prophet ﷺ who most deserved his good companionship, he answered 'your mother' three times before naming the father — underscoring the immense right of the mother in particular." },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 5971, "note": "'Your mother,' said three times, then 'your father' — on who most deserves good companionship." },
+      { "kind": "list", "items": [
+        { "text": "Kindness to parents is placed right after the worship of Allah." },
+        { "text": "Even a word of annoyance to aging parents is forbidden." },
+        { "text": "The mother's right to good treatment is emphasised above all." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "बिर्र अल-वालिदैन — माता-पिता के प्रति भलाई और कर्तव्यनिष्ठ देखभाल — इस्लाम के सबसे बड़े दायित्वों में से एक है। बार-बार क़ुरआन केवल अल्लाह की इबादत के हुक्म को माता-पिता के साथ अच्छे व्यवहार के हुक्म के साथ जोड़ता है, यह दिखाते हुए कि यह कर्तव्य कितना भारी है।" },
+      { "kind": "verse", "surah": 17, "ayah": 23, "note": "'तेरे रब ने फ़ैसला कर दिया कि उसके सिवा किसी की इबादत न करो, और माता-पिता के साथ अच्छा व्यवहार करो।'" },
+      { "kind": "heading", "level": 2, "text": "शिकायत का एक शब्द भी नहीं" },
+      { "kind": "p", "text": "विशेषकर उनके बुढ़ापे में, अल्लाह ईमान वाले को माता-पिता के प्रति ज़रा भी झुँझलाहट दिखाने से मना करता है — दुत्कार का सबसे छोटा शब्द भी नहीं — बल्कि कोमल बात, विनम्रता, और उनकी दया के लिए दुआ का हुक्म देता है।" },
+      { "kind": "verse", "surah": 17, "ayah": 24, "note": "'और उनके सामने दया से विनम्रता का पंख झुका दो, और कहो: मेरे रब, उन पर दया कर जैसे उन्होंने मुझे छोटा होने पर पाला।'" },
+      { "kind": "heading", "level": 2, "text": "सबसे प्रिय साथ" },
+      { "kind": "p", "text": "जब एक व्यक्ति ने पैगंबर ﷺ से पूछा कि उसके अच्छे साथ का सबसे अधिक हक़दार कौन है, आप ने पिता का नाम लेने से पहले तीन बार 'तेरी माँ' कहा — विशेषकर माँ के अपार हक़ को रेखांकित करते हुए।" },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 5971, "note": "'तेरी माँ' तीन बार, फिर 'तेरा पिता' — इस पर कि अच्छे साथ का सबसे अधिक हक़दार कौन है।" },
+      { "kind": "list", "items": [
+        { "text": "माता-पिता के साथ भलाई अल्लाह की इबादत के ठीक बाद रखी गई है।" },
+        { "text": "बूढ़े माता-पिता से झुँझलाहट का एक शब्द भी मना है।" },
+        { "text": "माँ का अच्छे व्यवहार का हक़ सबसे ऊपर बताया गया है।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "برّ الوالدین — والدین کے ساتھ نیکی اور فرض شناس دیکھ بھال — اسلام کے سب سے بڑے فرائض میں سے ایک ہے۔ بار بار قرآن صرف اللہ کی عبادت کے حکم کو والدین کے ساتھ اچھے سلوک کے حکم سے جوڑتا ہے، یہ دکھاتے ہوئے کہ یہ فرض کتنا بھاری ہے۔" },
+      { "kind": "verse", "surah": 17, "ayah": 23, "note": "'تیرے رب نے فیصلہ کر دیا کہ اُس کے سوا کسی کی عبادت نہ کرو، اور والدین کے ساتھ اچھا سلوک کرو۔'" },
+      { "kind": "heading", "level": 2, "text": "شکایت کا ایک لفظ بھی نہیں" },
+      { "kind": "p", "text": "خاص طور پر اُن کے بڑھاپے میں، اللہ مومن کو والدین کے ساتھ ذرا سی بھی جھنجھلاہٹ دکھانے سے منع کرتا ہے — جھڑکنے کا سب سے چھوٹا لفظ بھی نہیں — بلکہ نرم بات، عاجزی، اور اُن کی رحمت کے لیے دعا کا حکم دیتا ہے۔" },
+      { "kind": "verse", "surah": 17, "ayah": 24, "note": "'اور اُن کے سامنے رحم سے عاجزی کا بازو جھکا دو، اور کہو: میرے رب، اُن پر رحم فرما جیسے اُنہوں نے مجھے چھوٹا ہونے پر پالا۔'" },
+      { "kind": "heading", "level": 2, "text": "سب سے محبوب رفاقت" },
+      { "kind": "p", "text": "جب ایک آدمی نے نبی ﷺ سے پوچھا کہ اُس کے اچھے سلوک کا سب سے زیادہ حق دار کون ہے، آپ نے باپ کا نام لینے سے پہلے تین بار 'تیری ماں' فرمایا — خاص طور پر ماں کے عظیم حق کو اجاگر کرتے ہوئے۔" },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 5971, "note": "'تیری ماں' تین بار، پھر 'تیرا باپ' — اِس پر کہ اچھے سلوک کا سب سے زیادہ حق دار کون ہے۔" },
+      { "kind": "list", "items": [
+        { "text": "والدین کے ساتھ نیکی اللہ کی عبادت کے فوراً بعد رکھی گئی ہے۔" },
+        { "text": "بوڑھے والدین سے جھنجھلاہٹ کا ایک لفظ بھی منع ہے۔" },
+        { "text": "ماں کا اچھے سلوک کا حق سب سے اوپر بتایا گیا ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "17:23-24" },
+    { "type": "hadith", "collection": "bukhari", "ref": "5971", "grade": "sahih" }
+  ],
+  "relatedSlugs": ["concept-taqwa", "story-juraij-the-worshipper", "concept-rahmah"]
+}

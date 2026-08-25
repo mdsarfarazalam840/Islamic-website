@@ -1,0 +1,68 @@
+{
+  "slug": "concept-rizq",
+  "category": "concepts",
+  "featured": false,
+  "title": {
+    "en": "Rizq — Provision from Allah",
+    "hi": "रिज़्क़ — अल्लाह की ओर से रोज़ी",
+    "ur": "رزق — اللہ کی طرف سے روزی"
+  },
+  "summary": {
+    "en": "Rizq is every provision Allah bestows — food, wealth, knowledge, health, and more. Allah alone is al-Razzāq, the Provider, who has apportioned each creature's share. The believer works with trust, seeking lawful provision while knowing its source is Allah.",
+    "hi": "रिज़्क़ हर वह प्रदान है जो अल्लाह देता है — भोजन, धन, ज्ञान, स्वास्थ्य, और अधिक। केवल अल्लाह ही अर-रज़्ज़ाक़, रोज़ी देने वाला है, जिसने हर प्राणी का हिस्सा नियत किया है। ईमान वाला भरोसे के साथ मेहनत करता है, वैध रोज़ी तलाशते हुए यह जानते हुए कि उसका स्रोत अल्लाह है।",
+    "ur": "رزق ہر وہ عطا ہے جو اللہ بخشتا ہے — کھانا، دولت، علم، صحت، اور بہت کچھ۔ صرف اللہ ہی الرزّاق، روزی دینے والا ہے، جس نے ہر مخلوق کا حصہ مقرر کیا ہے۔ مومن بھروسے کے ساتھ محنت کرتا ہے، جائز روزی تلاش کرتے ہوئے یہ جانتے ہوئے کہ اُس کا سرچشمہ اللہ ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Rizq is all that Allah provides to sustain His creation — not only food and money, but health, children, knowledge, and peace of heart. The Qur'an makes plain that no creature moves across the earth without its provision resting with Allah alone." },
+      { "kind": "verse", "surah": 11, "ayah": 6, "note": "'There is no creature on earth but that its provision is upon Allah.'" },
+      { "kind": "heading", "level": 2, "text": "Provision from where you do not expect" },
+      { "kind": "p", "text": "Allah links provision to God-consciousness and reliance: the one who fears Allah and trusts Him is promised a way out of hardship and sustenance from sources they never imagined. This is not a call to abandon effort, but to work while depending on Allah." },
+      { "kind": "verse", "surah": 65, "ayah": 3, "note": "'And will provide for him from where he does not expect. And whoever relies upon Allah — He is sufficient for him.'" },
+      { "kind": "heading", "level": 2, "text": "He expands and restricts" },
+      { "kind": "p", "text": "Allah widens provision for whom He wills and narrows it for whom He wills — sometimes wealth is a test, sometimes little is a mercy. The believer neither despairs in scarcity nor grows arrogant in abundance, for the Provider is One." },
+      { "kind": "verse", "surah": 29, "ayah": 60, "note": "'And how many a creature carries not its own provision! Allah provides for it and for you.'" },
+      { "kind": "list", "items": [
+        { "text": "Rizq includes every sustaining gift, not wealth alone." },
+        { "text": "Allah alone apportions provision; effort and trust go together." },
+        { "text": "God-consciousness opens provision from unexpected sources." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "रिज़्क़ वह सब है जो अल्लाह अपनी सृष्टि को क़ायम रखने के लिए देता है — केवल भोजन और धन नहीं, बल्कि स्वास्थ्य, संतान, ज्ञान, और दिल का सुकून। क़ुरआन स्पष्ट करता है कि धरती पर कोई प्राणी नहीं चलता जिसकी रोज़ी केवल अल्लाह के पास न हो।" },
+      { "kind": "verse", "surah": 11, "ayah": 6, "note": "'धरती पर कोई प्राणी नहीं जिसकी रोज़ी अल्लाह के ज़िम्मे न हो।'" },
+      { "kind": "heading", "level": 2, "text": "वहाँ से रोज़ी जहाँ से तुम आशा न करो" },
+      { "kind": "p", "text": "अल्लाह रोज़ी को अल्लाह के डर और भरोसे से जोड़ता है: जो अल्लाह से डरता है और उस पर भरोसा करता है उससे कठिनाई से निकलने का रास्ता और ऐसे स्रोतों से रोज़ी का वादा है जिनकी उसने कभी कल्पना न की। यह मेहनत छोड़ने की पुकार नहीं, बल्कि अल्लाह पर निर्भर रहते हुए मेहनत करने की है।" },
+      { "kind": "verse", "surah": 65, "ayah": 3, "note": "'और उसे वहाँ से रोज़ी देगा जहाँ से वह आशा न करे। और जो अल्लाह पर भरोसा करे — वह उसके लिए काफ़ी है।'" },
+      { "kind": "heading", "level": 2, "text": "वह बढ़ाता और घटाता है" },
+      { "kind": "p", "text": "अल्लाह जिसके लिए चाहे रोज़ी बढ़ाता है और जिसके लिए चाहे घटाता है — कभी धन एक परीक्षा है, कभी थोड़ा एक रहमत। ईमान वाला न तंगी में निराश होता है न बहुतायत में घमंडी, क्योंकि रोज़ी देने वाला एक ही है।" },
+      { "kind": "verse", "surah": 29, "ayah": 60, "note": "'और कितने ही प्राणी हैं जो अपनी रोज़ी नहीं उठाते! अल्लाह उन्हें और तुम्हें रोज़ी देता है।'" },
+      { "kind": "list", "items": [
+        { "text": "रिज़्क़ में हर क़ायम रखने वाली नेमत शामिल है, केवल धन नहीं।" },
+        { "text": "केवल अल्लाह रोज़ी नियत करता है; मेहनत और भरोसा साथ चलते हैं।" },
+        { "text": "अल्लाह का डर अप्रत्याशित स्रोतों से रोज़ी खोलता है।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "رزق وہ سب ہے جو اللہ اپنی مخلوق کو قائم رکھنے کے لیے دیتا ہے — صرف کھانا اور دولت نہیں، بلکہ صحت، اولاد، علم، اور دل کا سکون۔ قرآن واضح کرتا ہے کہ زمین پر کوئی مخلوق نہیں چلتی جس کی روزی صرف اللہ کے پاس نہ ہو۔" },
+      { "kind": "verse", "surah": 11, "ayah": 6, "note": "'زمین پر کوئی چلنے والا نہیں جس کی روزی اللہ کے ذمے نہ ہو۔'" },
+      { "kind": "heading", "level": 2, "text": "وہاں سے روزی جہاں سے تم گمان نہ کرو" },
+      { "kind": "p", "text": "اللہ روزی کو تقویٰ اور بھروسے سے جوڑتا ہے: جو اللہ سے ڈرتا ہے اور اُس پر بھروسہ کرتا ہے اُس سے مشکل سے نکلنے کا راستہ اور ایسے سرچشموں سے روزی کا وعدہ ہے جن کا اُس نے کبھی تصور نہ کیا۔ یہ محنت چھوڑنے کی پکار نہیں، بلکہ اللہ پر بھروسہ کرتے ہوئے محنت کرنے کی ہے۔" },
+      { "kind": "verse", "surah": 65, "ayah": 3, "note": "'اور اُسے وہاں سے روزی دے گا جہاں سے وہ گمان نہ کرے۔ اور جو اللہ پر بھروسہ کرے — وہ اُس کے لیے کافی ہے۔'" },
+      { "kind": "heading", "level": 2, "text": "وہ بڑھاتا اور تنگ کرتا ہے" },
+      { "kind": "p", "text": "اللہ جس کے لیے چاہے روزی کشادہ کرتا ہے اور جس کے لیے چاہے تنگ کرتا ہے — کبھی دولت ایک آزمائش ہے، کبھی تھوڑا ایک رحمت۔ مومن نہ تنگی میں مایوس ہوتا ہے نہ فراوانی میں مغرور، کیونکہ روزی دینے والا ایک ہی ہے۔" },
+      { "kind": "verse", "surah": 29, "ayah": 60, "note": "'اور کتنی ہی مخلوق ہے جو اپنی روزی نہیں اٹھاتی! اللہ اُسے اور تمہیں روزی دیتا ہے۔'" },
+      { "kind": "list", "items": [
+        { "text": "رزق میں ہر قائم رکھنے والی نعمت شامل ہے، صرف دولت نہیں۔" },
+        { "text": "صرف اللہ روزی مقرر کرتا ہے؛ محنت اور بھروسہ ساتھ چلتے ہیں۔" },
+        { "text": "تقویٰ غیر متوقع سرچشموں سے روزی کھولتا ہے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "11:6" },
+    { "type": "quran", "ref": "65:2-3" },
+    { "type": "quran", "ref": "29:60" }
+  ],
+  "relatedSlugs": ["concept-tawakkul", "concept-shukr", "story-leper-bald-blind"]
+}

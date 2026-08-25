@@ -1,0 +1,67 @@
+{
+  "slug": "story-ashab-al-ukhdud",
+  "category": "quranic",
+  "title": {
+    "en": "The People of the Ditch (Aṣḥāb al-Ukhdūd)",
+    "hi": "खाई वाले (अस्हाब अल-उख़्दूद)",
+    "ur": "اصحابِ اخدود — کھائی والے"
+  },
+  "summary": {
+    "en": "Tyrants dug trenches of fire and burned believers who refused to abandon their faith. The Qur'an condemns the persecutors and honours the steadfast — a story of faith that would rather die than deny Allah.",
+    "hi": "अत्याचारियों ने आग की खाइयाँ खोदीं और उन ईमान वालों को जलाया जिन्होंने अपने ईमान को त्यागने से इनकार किया। क़ुरआन उत्पीड़कों की निंदा करता है और दृढ़ रहने वालों का सम्मान करता है — उस ईमान की कथा जो अल्लाह से इनकार करने के बजाय मरना पसंद करे।",
+    "ur": "ظالموں نے آگ کی خندقیں کھودیں اور اُن مومنوں کو جلایا جنہوں نے اپنے ایمان کو چھوڑنے سے انکار کیا۔ قرآن ظالموں کی مذمت کرتا ہے اور ثابت قدم رہنے والوں کی عزت کرتا ہے — اُس ایمان کا قصہ جو اللہ کے انکار کے بجائے مرنا پسند کرے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "In Surah Al-Buruj, Allah tells of a people who dug great ditches, kindled them with fire, and sat around watching as they cast believers into the flames — their only 'crime' being faith in Allah, the Almighty, the Praiseworthy." },
+      { "kind": "verse", "surah": 85, "ayah": 4, "note": "'Cursed were the people of the ditch.'" },
+      { "kind": "verse", "surah": 85, "ayah": 7, "note": "'And they were witnesses to what they were doing to the believers.'" },
+      { "kind": "verse", "surah": 85, "ayah": 8, "note": "They resented them only because they believed in Allah, the Exalted in Might, the Praiseworthy." },
+      { "kind": "heading", "level": 2, "text": "The boy, the king, and the sorcerer" },
+      { "kind": "p", "text": "The Prophet Muhammad ﷺ narrated the fuller story preserved in Sahih Muslim: a righteous boy, taught by a devout monk, whose faith in Allah brought healing and guidance to many. A tyrant king tried every means to kill him and failed, until the boy told him the only way — to gather the people and kill him in the name of Allah. When the king did so, the whole crowd declared faith in the Lord of the boy, and the enraged king had the trenches of fire dug for them." },
+      { "kind": "heading", "level": 2, "text": "Lessons" },
+      { "kind": "list", "items": [
+        { "text": "Faith can be dearer to a believer than life itself." },
+        { "text": "Tyranny may win a battle, but the truth it tries to bury only spreads further." },
+        { "text": "Allah records every wrong done to the oppressed, and the ultimate victory is His." }
+      ] },
+      { "kind": "verse", "surah": 85, "ayah": 11, "note": "For those who believe and do righteous deeds are gardens beneath which rivers flow — the great triumph." }
+    ],
+    "hi": [
+      { "kind": "p", "text": "सूरह अल-बुरूज में, अल्लाह उन लोगों की कथा सुनाता है जिन्होंने बड़ी खाइयाँ खोदीं, उन्हें आग से भड़काया, और चारों ओर बैठ कर देखते रहे जब वे ईमान वालों को आग में झोंकते थे — उनका एकमात्र 'अपराध' अल्लाह, सर्वशक्तिमान, प्रशंसित पर ईमान था।" },
+      { "kind": "verse", "surah": 85, "ayah": 4, "note": "'खाई वाले शापित हुए।'" },
+      { "kind": "verse", "surah": 85, "ayah": 7, "note": "'और वे उस पर गवाह थे जो वे ईमान वालों के साथ कर रहे थे।'" },
+      { "kind": "verse", "surah": 85, "ayah": 8, "note": "उन्होंने उनसे केवल इसलिए बैर रखा क्योंकि वे अल्लाह पर ईमान लाए थे, जो प्रभुत्वशाली, प्रशंसित है।" },
+      { "kind": "heading", "level": 2, "text": "लड़का, बादशाह और जादूगर" },
+      { "kind": "p", "text": "पैगंबर मुहम्मद ﷺ ने सहीह मुस्लिम में सुरक्षित पूरी कथा सुनाई: एक धर्मनिष्ठ लड़का, जिसे एक भक्त संन्यासी ने सिखाया, जिसके अल्लाह पर ईमान ने बहुतों को चंगाई और मार्गदर्शन दिया। एक अत्याचारी बादशाह ने उसे मारने का हर उपाय किया और असफल रहा, यहाँ तक कि लड़के ने उसे एकमात्र तरीक़ा बताया — लोगों को इकट्ठा कर के उसे अल्लाह के नाम पर मारना। जब बादशाह ने ऐसा किया, तो पूरी भीड़ ने लड़के के रब पर ईमान की घोषणा की, और क्रोधित बादशाह ने उनके लिए आग की खाइयाँ खुदवाईं।" },
+      { "kind": "heading", "level": 2, "text": "शिक्षाएँ" },
+      { "kind": "list", "items": [
+        { "text": "ईमान वाले के लिए ईमान जीवन से भी प्रिय हो सकता है।" },
+        { "text": "अत्याचार एक लड़ाई जीत सकता है, पर जिस सत्य को वह दफ़नाना चाहता है वह और फैलता है।" },
+        { "text": "अल्लाह उत्पीड़ितों के साथ किए हर अन्याय को दर्ज करता है, और अंतिम विजय उसी की है।" }
+      ] },
+      { "kind": "verse", "surah": 85, "ayah": 11, "note": "जो ईमान लाए और नेक कर्म किए उनके लिए ऐसे बाग़ हैं जिनके नीचे नहरें बहती हैं — यही बड़ी सफलता है।" }
+    ],
+    "ur": [
+      { "kind": "p", "text": "سورۃ البروج میں، اللہ اُن لوگوں کا قصہ سناتا ہے جنہوں نے بڑی خندقیں کھودیں، انہیں آگ سے بھڑکایا، اور گرد بیٹھ کر دیکھتے رہے جب وہ مومنوں کو شعلوں میں جھونکتے تھے — اُن کا واحد 'جرم' اللہ، غالب، قابلِ تعریف پر ایمان تھا۔" },
+      { "kind": "verse", "surah": 85, "ayah": 4, "note": "'کھائی والے ملعون ہوئے۔'" },
+      { "kind": "verse", "surah": 85, "ayah": 7, "note": "'اور وہ اس پر گواہ تھے جو وہ مومنوں کے ساتھ کر رہے تھے۔'" },
+      { "kind": "verse", "surah": 85, "ayah": 8, "note": "انہوں نے اُن سے صرف اس لیے دشمنی رکھی کیونکہ وہ اللہ پر ایمان لائے تھے، جو غالب، قابلِ تعریف ہے۔" },
+      { "kind": "heading", "level": 2, "text": "لڑکا، بادشاہ اور جادوگر" },
+      { "kind": "p", "text": "نبی کریم ﷺ نے صحیح مسلم میں محفوظ مکمل قصہ بیان کیا: ایک نیک لڑکا، جسے ایک عبادت گزار راہب نے سکھایا، جس کے اللہ پر ایمان نے بہتوں کو شفا اور ہدایت دی۔ ایک ظالم بادشاہ نے اسے قتل کرنے کی ہر تدبیر کی اور ناکام رہا، یہاں تک کہ لڑکے نے اسے واحد طریقہ بتایا — لوگوں کو جمع کر کے اسے اللہ کے نام پر قتل کرنا۔ جب بادشاہ نے ایسا کیا، تو پوری بھیڑ نے لڑکے کے رب پر ایمان کا اعلان کیا، اور غضب ناک بادشاہ نے اُن کے لیے آگ کی خندقیں کھدوائیں۔" },
+      { "kind": "heading", "level": 2, "text": "اسباق" },
+      { "kind": "list", "items": [
+        { "text": "مومن کے لیے ایمان جان سے بھی عزیز ہو سکتا ہے۔" },
+        { "text": "ظلم ایک جنگ جیت سکتا ہے، مگر جس سچائی کو وہ دفن کرنا چاہتا ہے وہ اور پھیلتی ہے۔" },
+        { "text": "اللہ مظلوموں کے ساتھ کیے گئے ہر ظلم کو درج کرتا ہے، اور آخری فتح اسی کی ہے۔" }
+      ] },
+      { "kind": "verse", "surah": 85, "ayah": 11, "note": "جو ایمان لائے اور نیک عمل کیے اُن کے لیے ایسے باغ ہیں جن کے نیچے نہریں بہتی ہیں — یہی بڑی کامیابی ہے۔" }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "85:1-11" },
+    { "type": "hadith", "collection": "muslim", "ref": "3005", "grade": "sahih" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["story-boy-and-the-king", "concept-sabr", "story-people-of-the-cave"]
+}

@@ -1,0 +1,67 @@
+{
+  "slug": "seerah-year-of-sorrow",
+  "category": "seerah",
+  "featured": false,
+  "title": {
+    "en": "The Year of Sorrow",
+    "hi": "ग़म का साल",
+    "ur": "غم کا سال"
+  },
+  "summary": {
+    "en": "In a single year the Prophet ﷺ lost his uncle and protector Abu Talib and, soon after, his beloved wife Khadijah — the two people who had shielded and comforted him most. This grief-laden year, known as 'Aam al-Huzn, left him exposed to his enemies, yet Allah's support never left him.",
+    "hi": "एक ही साल में पैगंबर ﷺ ने अपने चाचा और संरक्षक अबू तालिब को खोया और, कुछ ही बाद, अपनी प्रिय पत्नी ख़दीजा को — वे दो लोग जिन्होंने उन्हें सबसे अधिक ढाल दी और सांत्वना दी थी। यह ग़म से भरा साल, जिसे 'आमुल-हुज़्न कहा जाता है, ने उन्हें अपने दुश्मनों के सामने खुला छोड़ दिया, फिर भी अल्लाह का सहारा उन्हें कभी न छोड़ा।",
+    "ur": "ایک ہی سال میں نبی ﷺ نے اپنے چچا اور محافظ ابو طالب کو کھویا اور، کچھ ہی بعد، اپنی محبوب بیوی خدیجہ کو — وہ دو لوگ جنہوں نے اُنہیں سب سے زیادہ ڈھال دی اور تسلی دی تھی۔ یہ غم سے بھرا سال، جسے عامُ الحُزن کہا جاتا ہے، نے اُنہیں اپنے دشمنوں کے سامنے کھلا چھوڑ دیا، پھر بھی اللہ کا سہارا اُنہیں کبھی نہ چھوڑا۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Shortly after the boycott ended, the Prophet ﷺ was struck by two great losses. His uncle Abu Talib, who had protected him from the Quraysh for years despite not accepting Islam himself, fell ill and passed away. With him gone, the tribal shield that had held back the Prophet's enemies was removed." },
+      { "kind": "p", "text": "Then Khadijah (may Allah be pleased with her) died — the first to believe in him, the wife who had steadied him from the very first revelation, who had spent her wealth in the cause and comforted his heart in every hardship. The Prophet ﷺ loved her deeply, and her loss cut him to the core. So heavy were these blows that the year became known as 'the Year of Sorrow.'" },
+      { "kind": "heading", "level": 2, "text": "Grief met with divine comfort" },
+      { "kind": "p", "text": "The enemies of Islam grew bolder after Abu Talib's death, harming the Prophet ﷺ more openly. Yet Allah did not abandon His Messenger. Revelation reassured him that his Lord had neither forsaken him nor grown displeased, and that what lay ahead was better than what had passed." },
+      { "kind": "verse", "surah": 93, "ayah": 3, "note": "'Your Lord has not forsaken you, nor does He hate you.'" },
+      { "kind": "verse", "surah": 93, "ayah": 4, "note": "'And the Hereafter is better for you than the first life.'" },
+      { "kind": "heading", "level": 2, "text": "After the sorrow" },
+      { "kind": "p", "text": "It was in the wake of this year that the Prophet ﷺ sought new ground for the message — travelling to Ta'if, and soon after being honoured with the Night Journey and Ascension. The deepest grief was followed by some of the greatest signs of Allah's care." },
+      { "kind": "list", "items": [
+        { "text": "Even the beloved of Allah was not spared the pain of losing those dearest to him." },
+        { "text": "Loss of human support is an occasion to lean more fully on Allah's support." },
+        { "text": "After every season of sorrow, Allah opens what is better than what was lost." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "बहिष्कार ख़त्म होने के कुछ ही बाद, पैगंबर ﷺ पर दो बड़े ग़म आ पड़े। उनके चाचा अबू तालिब, जिन्होंने ख़ुद इस्लाम न मानने के बावजूद वर्षों तक उन्हें क़ुरैश से बचाया, बीमार पड़े और गुज़र गए। उनके जाने से वह क़बीलाई ढाल हट गई जो पैगंबर के दुश्मनों को रोके थी।" },
+      { "kind": "p", "text": "फिर ख़दीजा (अल्लाह उनसे राज़ी हो) का इंतक़ाल हुआ — उन पर सबसे पहले ईमान लाने वाली, वह पत्नी जिसने पहली वह्य से ही उन्हें थामे रखा, जिसने इस काम में अपना माल ख़र्च किया और हर कठिनाई में उनके दिल को सांत्वना दी। पैगंबर ﷺ उनसे गहरा प्रेम करते थे, और उनका जाना उन्हें भीतर तक चीर गया। ये चोटें इतनी भारी थीं कि वह साल 'ग़म का साल' कहलाया।" },
+      { "kind": "heading", "level": 2, "text": "ग़म के सामने ईश्वरीय सांत्वना" },
+      { "kind": "p", "text": "अबू तालिब की मृत्यु के बाद इस्लाम के दुश्मन और दिलेर हो गए, पैगंबर ﷺ को और खुल कर सताने लगे। फिर भी अल्लाह ने अपने रसूल को न छोड़ा। वह्य ने उन्हें भरोसा दिलाया कि उनके रब ने न उन्हें छोड़ा है न नाराज़ हुआ, और जो आगे है वह बीते से बेहतर है।" },
+      { "kind": "verse", "surah": 93, "ayah": 3, "note": "'तुम्हारे रब ने न तुम्हें छोड़ा और न वह नाराज़ हुआ।'" },
+      { "kind": "verse", "surah": 93, "ayah": 4, "note": "'और आख़िरत तुम्हारे लिए पहली ज़िंदगी से बेहतर है।'" },
+      { "kind": "heading", "level": 2, "text": "ग़म के बाद" },
+      { "kind": "p", "text": "इसी साल के बाद पैगंबर ﷺ ने संदेश के लिए नई ज़मीन तलाशी — ता'इफ़ की यात्रा की, और कुछ ही बाद रात के सफ़र और मेराज से सम्मानित हुए। सबसे गहरे ग़म के बाद अल्लाह की देखभाल की कुछ सबसे बड़ी निशानियाँ आईं।" },
+      { "kind": "list", "items": [
+        { "text": "अल्लाह के प्रिय को भी अपने सबसे प्यारों को खोने का दर्द न बख़्शा गया।" },
+        { "text": "इंसानी सहारे का जाना अल्लाह के सहारे पर और पूरी तरह टेक लगाने का अवसर है।" },
+        { "text": "हर ग़म के मौसम के बाद, अल्लाह उससे बेहतर खोलता है जो खोया था।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "بائیکاٹ ختم ہونے کے کچھ ہی بعد، نبی ﷺ پر دو بڑے غم آ پڑے۔ اُن کے چچا ابو طالب، جنہوں نے خود اسلام نہ ماننے کے باوجود برسوں تک اُنہیں قریش سے بچایا، بیمار پڑے اور گزر گئے۔ اُن کے جانے سے وہ قبائلی ڈھال ہٹ گئی جو نبی کے دشمنوں کو روکے تھی۔" },
+      { "kind": "p", "text": "پھر خدیجہ (اللہ اُن سے راضی ہو) کا انتقال ہوا — اُن پر سب سے پہلے ایمان لانے والی، وہ بیوی جس نے پہلی وحی سے ہی اُنہیں تھامے رکھا، جس نے اِس کام میں اپنا مال خرچ کیا اور ہر مشکل میں اُن کے دل کو تسلی دی۔ نبی ﷺ اُن سے گہری محبت کرتے تھے، اور اُن کا جانا اُنہیں اندر تک چیر گیا۔ یہ چوٹیں اتنی بھاری تھیں کہ وہ سال 'غم کا سال' کہلایا۔" },
+      { "kind": "heading", "level": 2, "text": "غم کے سامنے الٰہی تسلی" },
+      { "kind": "p", "text": "ابو طالب کی موت کے بعد اسلام کے دشمن اور دلیر ہو گئے، نبی ﷺ کو اور کھل کر ستانے لگے۔ پھر بھی اللہ نے اپنے رسول کو نہ چھوڑا۔ وحی نے اُنہیں بھروسہ دلایا کہ اُن کے رب نے نہ اُنہیں چھوڑا ہے نہ ناراض ہوا، اور جو آگے ہے وہ بیتے سے بہتر ہے۔" },
+      { "kind": "verse", "surah": 93, "ayah": 3, "note": "'تمہارے رب نے نہ تمہیں چھوڑا اور نہ وہ ناراض ہوا۔'" },
+      { "kind": "verse", "surah": 93, "ayah": 4, "note": "'اور آخرت تمہارے لیے پہلی زندگی سے بہتر ہے۔'" },
+      { "kind": "heading", "level": 2, "text": "غم کے بعد" },
+      { "kind": "p", "text": "اِسی سال کے بعد نبی ﷺ نے پیغام کے لیے نئی زمین تلاش کی — طائف کا سفر کیا، اور کچھ ہی بعد رات کے سفر اور معراج سے سرفراز ہوئے۔ سب سے گہرے غم کے بعد اللہ کی دیکھ بھال کی کچھ سب سے بڑی نشانیاں آئیں۔" },
+      { "kind": "list", "items": [
+        { "text": "اللہ کے محبوب کو بھی اپنے سب سے پیاروں کو کھونے کا درد نہ بخشا گیا۔" },
+        { "text": "انسانی سہارے کا جانا اللہ کے سہارے پر اور پوری طرح ٹیک لگانے کا موقع ہے۔" },
+        { "text": "ہر غم کے موسم کے بعد، اللہ اُس سے بہتر کھولتا ہے جو کھویا تھا۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "93:3-5" },
+    { "type": "seerah" }
+  ],
+  "relatedSlugs": ["seerah-boycott", "seerah-taif", "seerah-isra-miraj"]
+}

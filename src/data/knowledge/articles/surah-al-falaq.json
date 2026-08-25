@@ -1,0 +1,68 @@
+{
+  "slug": "surah-al-falaq",
+  "category": "surahs",
+  "surahNumber": 113,
+  "featured": false,
+  "title": {
+    "en": "Sūrat al-Falaq — The Daybreak",
+    "hi": "सूरह अल-फ़लक़ — भोर",
+    "ur": "سورۃ الفلق — صبح"
+  },
+  "summary": {
+    "en": "A short Makkan surah of five verses, the first of the two \"seeking-refuge\" chapters. It teaches the believer to seek Allah's protection — the Lord of the daybreak — from every created evil, from the darkness of night, from harmful magic, and from the envier's envy.",
+    "hi": "पाँच आयतों की एक छोटी मक्की सूरह, दो \"शरण माँगने वाली\" सूरतों में से पहली। यह ईमान वाले को सिखाती है कि अल्लाह — भोर के रब — से हर पैदा की गई बुराई से, रात के अँधेरे से, हानिकारक जादू से, और जलने वाले के जलन से शरण माँगे।",
+    "ur": "پانچ آیات کی ایک مختصر مکی سورت، دو \"پناہ مانگنے والی\" سورتوں میں سے پہلی۔ یہ مومن کو سکھاتی ہے کہ اللہ — صبح کے رب — سے ہر پیدا کی گئی برائی سے، رات کے اندھیرے سے، نقصان دہ جادو سے، اور حسد کرنے والے کے حسد سے پناہ مانگے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Sūrat al-Falaq — \"The Daybreak\" — is a short Makkan surah of five verses. Together with the surah that follows it, an-Nās, it forms the Mu'awwidhatayn — the two chapters of seeking refuge. The Prophet ﷺ would recite them for protection, especially at night and when seeking healing." },
+      { "kind": "verse", "surah": 113, "ayah": 1, "note": "'Say: I seek refuge in the Lord of the daybreak.'" },
+      { "kind": "verse", "surah": 113, "ayah": 2, "note": "'From the evil of that which He created.'" },
+      { "kind": "heading", "level": 2, "text": "Refuge from four evils" },
+      { "kind": "p", "text": "The surah names specific evils to seek refuge from: the encroaching darkness of night, the harm of those who practise magic, and the corrosive envy of an envier. In naming them, it turns the believer's heart to the only true Protector." },
+      { "kind": "verse", "surah": 113, "ayah": 5, "note": "'And from the evil of an envier when he envies.'" },
+      { "kind": "heading", "level": 2, "text": "The two protectors" },
+      { "kind": "p", "text": "The Prophet ﷺ taught that no one has sought refuge with anything like these two surahs. Many believers recite al-Falaq and an-Nās each morning and evening, and before sleep, placing themselves in Allah's care." },
+      { "kind": "list", "items": [
+        { "text": "Al-Falaq is the first of the Mu'awwidhatayn, the two surahs of refuge." },
+        { "text": "It seeks Allah's protection from created evil, darkness, magic, and envy." },
+        { "text": "The Prophet ﷺ recited it regularly for protection and healing." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "सूरह अल-फ़लक़ — \"भोर\" — पाँच आयतों की एक छोटी मक्की सूरह है। इसके बाद आने वाली सूरह अन-नास के साथ, यह मुअव्विज़तैन बनाती है — शरण माँगने वाली दो सूरतें। पैगंबर ﷺ इन्हें सुरक्षा के लिए पढ़ते थे, विशेषकर रात में और उपचार चाहते समय।" },
+      { "kind": "verse", "surah": 113, "ayah": 1, "note": "'कह दो: मैं भोर के रब की शरण माँगता हूँ।'" },
+      { "kind": "verse", "surah": 113, "ayah": 2, "note": "'उस चीज़ की बुराई से जो उसने पैदा की।'" },
+      { "kind": "heading", "level": 2, "text": "चार बुराइयों से शरण" },
+      { "kind": "p", "text": "सूरह विशेष बुराइयों का नाम लेती है जिनसे शरण माँगी जाए: रात के छाते अँधेरे, जादू करने वालों की हानि, और जलने वाले की क्षयकारी जलन। इन्हें नाम देकर, यह ईमान वाले के दिल को एकमात्र सच्चे रक्षक की ओर मोड़ती है।" },
+      { "kind": "verse", "surah": 113, "ayah": 5, "note": "'और जलने वाले की बुराई से जब वह जले।'" },
+      { "kind": "heading", "level": 2, "text": "दो रक्षक" },
+      { "kind": "p", "text": "पैगंबर ﷺ ने सिखाया कि किसी ने इन दो सूरतों जैसी किसी चीज़ से शरण नहीं माँगी। बहुत से ईमान वाले हर सुबह-शाम और सोने से पहले अल-फ़लक़ और अन-नास पढ़ते हैं, स्वयं को अल्लाह की देखरेख में रखते हुए।" },
+      { "kind": "list", "items": [
+        { "text": "अल-फ़लक़ मुअव्विज़तैन में से पहली है, शरण की दो सूरतें।" },
+        { "text": "यह पैदा की गई बुराई, अँधेरे, जादू, और जलन से अल्लाह की सुरक्षा माँगती है।" },
+        { "text": "पैगंबर ﷺ इसे सुरक्षा और उपचार के लिए नियमित पढ़ते थे।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "سورۃ الفلق — \"صبح\" — پانچ آیات کی ایک مختصر مکی سورت ہے۔ اِس کے بعد آنے والی سورۃ الناس کے ساتھ، یہ معوذتین بناتی ہے — پناہ مانگنے والی دو سورتیں۔ نبی ﷺ اِنہیں حفاظت کے لیے پڑھتے تھے، خاص طور پر رات میں اور شفا چاہتے وقت۔" },
+      { "kind": "verse", "surah": 113, "ayah": 1, "note": "'کہہ دو: میں صبح کے رب کی پناہ مانگتا ہوں۔'" },
+      { "kind": "verse", "surah": 113, "ayah": 2, "note": "'اُس چیز کی برائی سے جو اُس نے پیدا کی۔'" },
+      { "kind": "heading", "level": 2, "text": "چار برائیوں سے پناہ" },
+      { "kind": "p", "text": "سورت مخصوص برائیوں کا نام لیتی ہے جن سے پناہ مانگی جائے: رات کے چھاتے اندھیرے، جادو کرنے والوں کا نقصان، اور حسد کرنے والے کا کاٹ کھاتا حسد۔ اِنہیں نام دے کر، یہ مومن کے دل کو واحد سچے محافظ کی طرف موڑتی ہے۔" },
+      { "kind": "verse", "surah": 113, "ayah": 5, "note": "'اور حسد کرنے والے کی برائی سے جب وہ حسد کرے۔'" },
+      { "kind": "heading", "level": 2, "text": "دو محافظ" },
+      { "kind": "p", "text": "نبی ﷺ نے سکھایا کہ کسی نے اِن دو سورتوں جیسی کسی چیز سے پناہ نہیں مانگی۔ بہت سے مومن ہر صبح و شام اور سونے سے پہلے الفلق اور الناس پڑھتے ہیں، خود کو اللہ کی حفاظت میں دیتے ہوئے۔" },
+      { "kind": "list", "items": [
+        { "text": "الفلق معوذتین میں سے پہلی ہے، پناہ کی دو سورتیں۔" },
+        { "text": "یہ پیدا کی گئی برائی، اندھیرے، جادو، اور حسد سے اللہ کی حفاظت مانگتی ہے۔" },
+        { "text": "نبی ﷺ اِسے حفاظت اور شفا کے لیے باقاعدہ پڑھتے تھے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "113:1-5" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["surah-an-nas", "surah-al-ikhlas", "surah-ayat-al-kursi"]
+}

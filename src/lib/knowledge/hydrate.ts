@@ -19,6 +19,7 @@ function hydrateBlock(block: Block): HydratedBlock | null {
     case "p":
     case "heading":
     case "list":
+    case "arabic":
       return block
 
     case "verse": {

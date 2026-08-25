@@ -1,0 +1,68 @@
+{
+  "slug": "seerah-hudaybiyyah",
+  "category": "seerah",
+  "title": {
+    "en": "The Treaty of Hudaybiyyah",
+    "hi": "हुदैबिया की संधि",
+    "ur": "صلح حدیبیہ"
+  },
+  "summary": {
+    "en": "Setting out for pilgrimage, the Prophet ﷺ was blocked by the Quraysh at Hudaybiyyah. The treaty he signed seemed a humiliating setback to many companions, yet the Qur'an called it 'a clear victory' — and within two years Islam spread more than in all the years before.",
+    "hi": "उमराह के लिए निकलते हुए, पैगंबर ﷺ को क़ुरैश ने हुदैबिया पर रोक दिया। जो संधि उन्होंने की वह कई सहाबा को अपमानजनक झटका लगी, फिर भी क़ुरआन ने उसे 'एक स्पष्ट विजय' कहा — और दो वर्षों के भीतर इस्लाम पहले के सारे वर्षों से अधिक फैला।",
+    "ur": "عمرے کے لیے نکلتے ہوئے، نبی ﷺ کو قریش نے حدیبیہ پر روک دیا۔ جو صلح انہوں نے کی وہ کئی صحابہ کو ذلت آمیز دھچکا لگی، پھر بھی قرآن نے اسے 'ایک کھلی فتح' کہا — اور دو سالوں کے اندر اسلام پہلے کے تمام سالوں سے زیادہ پھیلا۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "In the sixth year after Hijrah, the Prophet ﷺ set out with about fourteen hundred companions to perform the lesser pilgrimage (Umrah), unarmed but for travellers' swords, intending no war. The Quraysh, however, barred them from Makkah at a place called Hudaybiyyah." },
+      { "kind": "p", "text": "After tense negotiations, a treaty was agreed. Its terms seemed one-sided: the Muslims would return that year without performing Umrah and come back the next; there would be a ten-year truce; anyone fleeing from Quraysh to the Muslims must be returned, but not the reverse. Some companions, including Umar, were deeply troubled by what looked like concession and humiliation." },
+      { "kind": "heading", "level": 2, "text": "A clear victory" },
+      { "kind": "p", "text": "On the return journey, Allah revealed Surah Al-Fath, opening with words that reframed the whole affair:" },
+      { "kind": "verse", "surah": 48, "ayah": 1, "note": "'Indeed, We have granted you a clear victory.'" },
+      { "kind": "p", "text": "The peace it secured opened the roads: people met the Muslims freely, heard the Qur'an, and embraced Islam in unprecedented numbers. Great figures such as Khalid ibn al-Walid and Amr ibn al-As accepted Islam in this period. Allah also praised the believers who had pledged loyalty under the tree (Bay'at al-Ridwan)." },
+      { "kind": "verse", "surah": 48, "ayah": 18, "note": "'Allah was certainly pleased with the believers when they pledged allegiance to you under the tree; He knew what was in their hearts, so He sent down tranquillity upon them and rewarded them with a near victory.'" },
+      { "kind": "heading", "level": 2, "text": "Lessons" },
+      { "kind": "list", "items": [
+        { "text": "What looks like a loss may be, in Allah's wisdom, the greatest of victories." },
+        { "text": "Patience and obedience to the Prophet ﷺ, even when the reason is unclear, is rewarded." },
+        { "text": "Peace and open dialogue can spread the truth more effectively than war." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "हिजरत के छठे वर्ष, पैगंबर ﷺ लगभग चौदह सौ सहाबा के साथ उमराह (छोटी हज) करने निकले, यात्रियों की तलवारों के सिवा निहत्थे, किसी युद्ध का इरादा नहीं। पर क़ुरैश ने उन्हें हुदैबिया नामक स्थान पर मक्का से रोक दिया।" },
+      { "kind": "p", "text": "तनावपूर्ण वार्ता के बाद, एक संधि पर सहमति हुई। इसकी शर्तें एकतरफ़ा लगीं: मुसलमान उस वर्ष बिना उमराह किए लौटेंगे और अगले वर्ष आएँगे; दस वर्ष का युद्धविराम होगा; क़ुरैश से भाग कर मुसलमानों के पास आने वाले को लौटाना होगा, पर उल्टा नहीं। कुछ सहाबा, उमर सहित, इससे गहराई से व्यथित हुए जो रियायत और अपमान जैसा लगा।" },
+      { "kind": "heading", "level": 2, "text": "एक स्पष्ट विजय" },
+      { "kind": "p", "text": "वापसी की यात्रा पर, अल्लाह ने सूरह अल-फ़त्ह उतारी, ऐसे शब्दों से शुरू जो पूरे मामले को नए सिरे से गढ़ रहे थे:" },
+      { "kind": "verse", "surah": 48, "ayah": 1, "note": "'निस्संदेह, हमने तुझे एक स्पष्ट विजय दी।'" },
+      { "kind": "p", "text": "जो शांति इसने सुरक्षित की उसने रास्ते खोल दिए: लोग मुसलमानों से खुल कर मिले, क़ुरआन सुना, और अभूतपूर्व संख्या में इस्लाम अपनाया। ख़ालिद इब्न अल-वलीद और अम्र इब्न अल-आस जैसी बड़ी हस्तियों ने इसी दौर में इस्लाम क़बूल किया। अल्लाह ने उन ईमान वालों की भी प्रशंसा की जिन्होंने पेड़ के नीचे निष्ठा का वचन दिया (बैअत अल-रिज़वान)।" },
+      { "kind": "verse", "surah": 48, "ayah": 18, "note": "'अल्लाह ईमान वालों से निश्चय प्रसन्न हुआ जब उन्होंने पेड़ के नीचे तुझसे बैअत की; उसने जान लिया जो उनके दिलों में था, तो उन पर शांति उतारी और उन्हें एक निकट विजय से नवाज़ा।'" },
+      { "kind": "heading", "level": 2, "text": "शिक्षाएँ" },
+      { "kind": "list", "items": [
+        { "text": "जो हार जैसा दिखता है वह अल्लाह की हिकमत में सबसे बड़ी विजय हो सकती है।" },
+        { "text": "पैगंबर ﷺ का सब्र और आज्ञापालन, भले ही कारण स्पष्ट न हो, नवाज़ा जाता है।" },
+        { "text": "शांति और खुला संवाद सत्य को युद्ध से अधिक प्रभावी ढंग से फैला सकते हैं।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "ہجرت کے چھٹے سال، نبی ﷺ تقریباً چودہ سو صحابہ کے ساتھ عمرہ کرنے نکلے، مسافروں کی تلواروں کے سوا نہتے، کسی جنگ کا ارادہ نہیں۔ مگر قریش نے انہیں حدیبیہ نامی مقام پر مکہ سے روک دیا۔" },
+      { "kind": "p", "text": "کشیدہ مذاکرات کے بعد، ایک معاہدے پر اتفاق ہوا۔ اس کی شرائط یک طرفہ لگیں: مسلمان اس سال بغیر عمرہ کیے لوٹیں گے اور اگلے سال آئیں گے؛ دس سال کی جنگ بندی ہوگی؛ قریش سے بھاگ کر مسلمانوں کے پاس آنے والے کو لوٹانا ہوگا، مگر الٹا نہیں۔ کچھ صحابہ، عمر سمیت، اس سے گہرے مضطرب ہوئے جو رعایت اور ذلت جیسا لگا۔" },
+      { "kind": "heading", "level": 2, "text": "ایک کھلی فتح" },
+      { "kind": "p", "text": "واپسی کے سفر پر، اللہ نے سورۃ الفتح نازل کی، ایسے کلمات سے شروع جو پورے معاملے کو نئے سرے سے ڈھال رہے تھے:" },
+      { "kind": "verse", "surah": 48, "ayah": 1, "note": "'بے شک، ہم نے تجھے ایک کھلی فتح دی۔'" },
+      { "kind": "p", "text": "جو صلح اس نے محفوظ کی اس نے راستے کھول دیے: لوگ مسلمانوں سے کھل کر ملے، قرآن سنا، اور بے مثال تعداد میں اسلام قبول کیا۔ خالد بن الولید اور عمرو بن العاص جیسی بڑی شخصیات نے اسی دور میں اسلام قبول کیا۔ اللہ نے اُن مومنوں کی بھی تعریف کی جنہوں نے درخت کے نیچے وفاداری کا عہد کیا (بیعت الرضوان)۔" },
+      { "kind": "verse", "surah": 48, "ayah": 18, "note": "'اللہ مومنوں سے یقیناً راضی ہوا جب انہوں نے درخت کے نیچے تجھ سے بیعت کی؛ اس نے جان لیا جو اُن کے دلوں میں تھا، تو اُن پر سکینت اتاری اور انہیں ایک قریبی فتح سے نوازا۔'" },
+      { "kind": "heading", "level": 2, "text": "اسباق" },
+      { "kind": "list", "items": [
+        { "text": "جو ہار جیسا دکھتا ہے وہ اللہ کی حکمت میں سب سے بڑی فتح ہو سکتا ہے۔" },
+        { "text": "نبی ﷺ کا صبر اور اطاعت، خواہ وجہ واضح نہ ہو، اجر پاتا ہے۔" },
+        { "text": "صلح اور کھلا مکالمہ سچائی کو جنگ سے زیادہ مؤثر طریقے سے پھیلا سکتے ہیں۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "48:1" },
+    { "type": "quran", "ref": "48:18" },
+    { "type": "hadith", "collection": "bukhari", "ref": "2731", "grade": "sahih" },
+    { "type": "seerah" }
+  ],
+  "relatedSlugs": ["seerah-trench", "seerah-conquest-of-makkah", "concept-sabr"]
+}

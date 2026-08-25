@@ -131,18 +131,21 @@ export function AyahActions({ ayah, surah }: AyahActionsProps) {
   }, [ayah, surah])
 
   return (
-    <div className="flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+    // Hover-reveal is a desktop affordance only — touch devices never fire
+    // hover, so on mobile these stay visible (and get a bigger tap target).
+    <div className="flex items-center gap-1 opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-200">
       <button
         onClick={() =>
           toggleBookmark({
             id: bookmarkId,
             type: "ayah",
-            reference: `${surah.name} ${ayah.ayahNumber}`,
+            reference: `${surah.name} · Ayah ${ayah.ayahNumber}`,
             text: ayah.translations.en.slice(0, 100),
+            href: `/quran/${surah.number}#ayah-${ayah.number}`,
           })
         }
         className={cn(
-          "rounded-lg p-2 transition-all duration-200",
+          "rounded-lg p-2.5 md:p-2 transition-all duration-200",
           isBookmarked(bookmarkId)
             ? "text-secondary bg-secondary/10"
             : "text-muted-foreground hover:text-secondary hover:bg-secondary/5",
@@ -154,7 +157,7 @@ export function AyahActions({ ayah, surah }: AyahActionsProps) {
 
       <button
         onClick={handleCopy}
-        className="rounded-lg p-2 text-muted-foreground hover:text-secondary hover:bg-secondary/5 transition-all duration-200"
+        className="rounded-lg p-2.5 md:p-2 text-muted-foreground hover:text-secondary hover:bg-secondary/5 transition-all duration-200"
         aria-label="Copy ayah"
       >
         {copied ? <Check className="size-4 text-accent" /> : <Copy className="size-4" />}
@@ -162,7 +165,7 @@ export function AyahActions({ ayah, surah }: AyahActionsProps) {
 
       <button
         onClick={handleShare}
-        className="rounded-lg p-2 text-muted-foreground hover:text-secondary hover:bg-secondary/5 transition-all duration-200"
+        className="rounded-lg p-2.5 md:p-2 text-muted-foreground hover:text-secondary hover:bg-secondary/5 transition-all duration-200"
         aria-label="Share ayah"
       >
         {shared ? <Check className="size-4 text-accent" /> : <Share2 className="size-4" />}
@@ -170,7 +173,7 @@ export function AyahActions({ ayah, surah }: AyahActionsProps) {
 
       <button
         onClick={handleShareImage}
-        className="rounded-lg p-2 text-muted-foreground hover:text-secondary hover:bg-secondary/5 transition-all duration-200"
+        className="rounded-lg p-2.5 md:p-2 text-muted-foreground hover:text-secondary hover:bg-secondary/5 transition-all duration-200"
         aria-label="Save as image"
       >
         <ImageDown className="size-4" />

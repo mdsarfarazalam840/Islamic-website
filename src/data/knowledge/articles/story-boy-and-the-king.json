@@ -1,0 +1,68 @@
+{
+  "slug": "story-boy-and-the-king",
+  "category": "hadith-stories",
+  "featured": true,
+  "title": {
+    "en": "The Boy and the King",
+    "hi": "लड़का और बादशाह",
+    "ur": "لڑکا اور بادشاہ"
+  },
+  "summary": {
+    "en": "A believing boy, taught by a devout monk, whose faith in Allah brought healing and guidance to many. A tyrant king failed to kill him until the boy revealed the only way — and when the king killed him in Allah's name, the whole people believed, leading to the burning of the People of the Ditch.",
+    "hi": "एक ईमान वाला लड़का, जिसे एक भक्त संन्यासी ने सिखाया, जिसके अल्लाह पर ईमान ने बहुतों को चंगाई और मार्गदर्शन दिया। एक अत्याचारी बादशाह उसे मारने में असफल रहा जब तक लड़के ने एकमात्र तरीक़ा न बताया — और जब बादशाह ने उसे अल्लाह के नाम पर मारा, तो पूरी क़ौम ईमान लाई, जिससे खाई वालों का जलाया जाना हुआ।",
+    "ur": "ایک مومن لڑکا، جسے ایک عبادت گزار راہب نے سکھایا، جس کے اللہ پر ایمان نے بہتوں کو شفا اور ہدایت دی۔ ایک ظالم بادشاہ اسے قتل کرنے میں ناکام رہا یہاں تک کہ لڑکے نے واحد طریقہ بتایا — اور جب بادشاہ نے اسے اللہ کے نام پر قتل کیا، تو پوری قوم ایمان لائی، جس سے کھائی والوں کا جلایا جانا ہوا۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "The Prophet Muhammad ﷺ narrated the story preserved in Sahih Muslim of a king who had a sorcerer. When the sorcerer grew old, he asked the king to send him a boy to teach the craft. On his way to the sorcerer, the boy would pass a monk (a devout worshipper of Allah); he sat with him, was impressed by his words, and came to believe in Allah." },
+      { "kind": "heading", "level": 2, "text": "Faith that could not be hidden" },
+      { "kind": "p", "text": "The boy's faith grew until he could, by Allah's leave, heal the blind and the leper and cure the sick. He told those he treated plainly: it is not I who heal, but Allah — I only pray to Him, and He cures you, if you believe in Him. Many believed. When the king heard, he tortured the monk and the boy's other companions to death, then tried to kill the boy himself — throwing him from a mountain and casting him into the sea — but each time Allah saved him and destroyed those sent with him." },
+      { "kind": "heading", "level": 2, "text": "The final witness" },
+      { "kind": "p", "text": "The boy told the king: you will never kill me until you gather the people in one place, tie me to a tree, take an arrow from my quiver, say 'In the name of Allah, the Lord of the boy,' and shoot. The king did so; the arrow struck the boy and he died — and the people, seeing it, cried out, 'We believe in the Lord of the boy!' Enraged that the very thing he feared had come to pass, the king ordered ditches dug and filled with fire, casting into them everyone who would not recant. This is the event Surah Al-Buruj commemorates." },
+      { "kind": "verse", "surah": 85, "ayah": 4, "note": "'Cursed were the people of the ditch.'" },
+      { "kind": "verse", "surah": 85, "ayah": 8, "note": "They resented them only because they believed in Allah, the Exalted in Might, the Praiseworthy." },
+      { "kind": "heading", "level": 2, "text": "Lessons" },
+      { "kind": "list", "items": [
+        { "text": "One sincere believer can be a means of guidance for an entire people." },
+        { "text": "Healing, provision, and life are wholly in Allah's hands, not any creature's." },
+        { "text": "The believer may sacrifice his life so that the truth reaches others." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "पैगंबर मुहम्मद ﷺ ने सहीह मुस्लिम में सुरक्षित कथा सुनाई एक बादशाह की जिसके पास एक जादूगर था। जब जादूगर बूढ़ा हो गया, उसने बादशाह से कहा कि उसके पास एक लड़का भेजे जिसे वह यह विद्या सिखाए। जादूगर के पास जाते हुए, लड़का एक संन्यासी (अल्लाह के एक भक्त) के पास से गुज़रता; वह उसके पास बैठा, उसकी बातों से प्रभावित हुआ, और अल्लाह पर ईमान ले आया।" },
+      { "kind": "heading", "level": 2, "text": "जो ईमान छिप न सका" },
+      { "kind": "p", "text": "लड़के का ईमान बढ़ता गया यहाँ तक कि वह अल्लाह की अनुमति से अंधे और कोढ़ी को चंगा कर सकता और बीमारों को ठीक कर सकता था। वह जिनका इलाज करता उन्हें साफ़ बता देता: चंगा मैं नहीं करता, बल्कि अल्लाह — मैं केवल उससे दुआ करता हूँ, और वह तुम्हें ठीक करता है, अगर तुम उस पर ईमान लाओ। बहुत लोग ईमान लाए। जब बादशाह ने सुना, उसने संन्यासी और लड़के के अन्य साथियों को यातना देकर मार डाला, फिर स्वयं लड़के को मारने की कोशिश की — उसे पहाड़ से गिराया और समुद्र में डाला — पर हर बार अल्लाह ने उसे बचाया और उसके साथ भेजे गए लोगों को नष्ट कर दिया।" },
+      { "kind": "heading", "level": 2, "text": "अंतिम गवाही" },
+      { "kind": "p", "text": "लड़के ने बादशाह से कहा: तू मुझे कभी नहीं मार सकेगा जब तक तू लोगों को एक जगह इकट्ठा न करे, मुझे एक पेड़ से बाँध न दे, मेरे तरकश से एक तीर न ले, कहे 'अल्लाह के नाम से, लड़के के रब के,' और चलाए। बादशाह ने ऐसा किया; तीर लड़के को लगा और वह मर गया — और लोगों ने, यह देख कर, पुकारा, 'हम लड़के के रब पर ईमान लाए!' यह देख कर क्रोधित कि जिस चीज़ से वह डरता था वही हो गई, बादशाह ने खाइयाँ खुदवाईं और आग से भरवाईं, हर उस व्यक्ति को उनमें झोंकते हुए जो अपने ईमान से न फिरे। यही घटना है जिसे सूरह अल-बुरूज याद करती है।" },
+      { "kind": "verse", "surah": 85, "ayah": 4, "note": "'खाई वाले शापित हुए।'" },
+      { "kind": "verse", "surah": 85, "ayah": 8, "note": "उन्होंने उनसे केवल इसलिए बैर रखा क्योंकि वे अल्लाह पर ईमान लाए थे, जो प्रभुत्वशाली, प्रशंसित है।" },
+      { "kind": "heading", "level": 2, "text": "शिक्षाएँ" },
+      { "kind": "list", "items": [
+        { "text": "एक सच्चा ईमान वाला पूरी क़ौम के मार्गदर्शन का साधन बन सकता है।" },
+        { "text": "चंगाई, रोज़ी और जीवन पूरी तरह अल्लाह के हाथ में हैं, किसी सृष्टि के नहीं।" },
+        { "text": "ईमान वाला अपना जीवन बलिदान कर सकता है ताकि सत्य दूसरों तक पहुँचे।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "نبی کریم ﷺ نے صحیح مسلم میں محفوظ قصہ سنایا ایک بادشاہ کا جس کے پاس ایک جادوگر تھا۔ جب جادوگر بوڑھا ہو گیا، اس نے بادشاہ سے کہا کہ اس کے پاس ایک لڑکا بھیجے جسے وہ یہ فن سکھائے۔ جادوگر کے پاس جاتے ہوئے، لڑکا ایک راہب (اللہ کے ایک عبادت گزار) کے پاس سے گزرتا؛ وہ اس کے پاس بیٹھا، اس کی باتوں سے متاثر ہوا، اور اللہ پر ایمان لے آیا۔" },
+      { "kind": "heading", "level": 2, "text": "جو ایمان چھپ نہ سکا" },
+      { "kind": "p", "text": "لڑکے کا ایمان بڑھتا گیا یہاں تک کہ وہ اللہ کے حکم سے نابینا اور کوڑھی کو شفا دے سکتا اور بیماروں کو ٹھیک کر سکتا تھا۔ وہ جن کا علاج کرتا انہیں صاف بتا دیتا: شفا میں نہیں دیتا، بلکہ اللہ — میں صرف اس سے دعا کرتا ہوں، اور وہ تمہیں ٹھیک کرتا ہے، اگر تم اس پر ایمان لاؤ۔ بہت لوگ ایمان لائے۔ جب بادشاہ نے سنا، اس نے راہب اور لڑکے کے دیگر ساتھیوں کو اذیت دے کر مار ڈالا، پھر خود لڑکے کو مارنے کی کوشش کی — اسے پہاڑ سے گرایا اور سمندر میں ڈالا — مگر ہر بار اللہ نے اسے بچایا اور اس کے ساتھ بھیجے گئے لوگوں کو تباہ کر دیا۔" },
+      { "kind": "heading", "level": 2, "text": "آخری گواہی" },
+      { "kind": "p", "text": "لڑکے نے بادشاہ سے کہا: تو مجھے کبھی نہیں مار سکے گا جب تک تو لوگوں کو ایک جگہ جمع نہ کرے، مجھے ایک درخت سے باندھ نہ دے، میرے ترکش سے ایک تیر نہ لے، کہے 'اللہ کے نام سے، لڑکے کے رب کے،' اور چلائے۔ بادشاہ نے ایسا کیا؛ تیر لڑکے کو لگا اور وہ مر گیا — اور لوگوں نے، یہ دیکھ کر، پکارا، 'ہم لڑکے کے رب پر ایمان لائے!' یہ دیکھ کر غضب ناک کہ جس چیز سے وہ ڈرتا تھا وہی ہو گئی، بادشاہ نے خندقیں کھدوائیں اور آگ سے بھروائیں، ہر اُس شخص کو اُن میں جھونکتے ہوئے جو اپنے ایمان سے نہ پھرے۔ یہی واقعہ ہے جسے سورۃ البروج یاد کرتی ہے۔" },
+      { "kind": "verse", "surah": 85, "ayah": 4, "note": "'کھائی والے ملعون ہوئے۔'" },
+      { "kind": "verse", "surah": 85, "ayah": 8, "note": "انہوں نے اُن سے صرف اس لیے دشمنی رکھی کیونکہ وہ اللہ پر ایمان لائے تھے، جو غالب، قابلِ تعریف ہے۔" },
+      { "kind": "heading", "level": 2, "text": "اسباق" },
+      { "kind": "list", "items": [
+        { "text": "ایک سچا مومن پوری قوم کی ہدایت کا ذریعہ بن سکتا ہے۔" },
+        { "text": "شفا، رزق اور زندگی مکمل طور پر اللہ کے ہاتھ میں ہیں، کسی مخلوق کے نہیں۔" },
+        { "text": "مومن اپنی جان قربان کر سکتا ہے تاکہ سچائی دوسروں تک پہنچے۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "hadith", "collection": "muslim", "ref": "3005", "grade": "sahih" },
+    { "type": "quran", "ref": "85:1-11" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["story-ashab-al-ukhdud", "concept-tawhid", "concept-sabr"]
+}

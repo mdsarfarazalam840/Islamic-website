@@ -4,6 +4,7 @@ import { cn } from "@/lib/utils"
 import { langDir, langFont } from "@/lib/knowledge/lang"
 import { VerseBlockView } from "./VerseBlockView"
 import { HadithBlockView } from "./HadithBlockView"
+import { ArabicBlockView } from "./ArabicBlockView"
 import type { HydratedBlock, Language } from "@/types"
 
 interface BlockRendererProps {
@@ -67,6 +68,8 @@ export function BlockRenderer({ blocks, lang }: BlockRendererProps) {
             return <VerseBlockView key={i} block={block} lang={lang} />
           case "hadith":
             return <HadithBlockView key={i} block={block} lang={lang} />
+          case "arabic":
+            return <ArabicBlockView key={i} block={block} lang={lang} />
         }
       })}
     </div>

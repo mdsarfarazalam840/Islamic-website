@@ -1,0 +1,71 @@
+{
+  "slug": "seerah-trench",
+  "category": "seerah",
+  "title": {
+    "en": "The Battle of the Trench (Al-Khandaq)",
+    "hi": "ख़ंदक़ की लड़ाई (अल-अहज़ाब)",
+    "ur": "غزوہ خندق (الاحزاب)"
+  },
+  "summary": {
+    "en": "A confederate army of ten thousand besieged Madinah. On Salman al-Farisi's advice the Muslims dug a great trench the enemy could not cross. After weeks of siege and severe hardship, Allah sent a fierce wind that scattered the confederates without a pitched battle.",
+    "hi": "दस हज़ार का एक संयुक्त सैन्य दल मदीना को घेर बैठा। सलमान अल-फ़ारिसी की सलाह पर मुसलमानों ने एक बड़ी ख़ंदक़ खोदी जिसे दुश्मन पार न कर सका। हफ़्तों की घेराबंदी और घोर कठिनाई के बाद, अल्लाह ने एक प्रचंड आँधी भेजी जिसने बिना किसी खुले युद्ध के संयुक्त दल को तितर-बितर कर दिया।",
+    "ur": "دس ہزار کا ایک متحدہ لشکر مدینہ کو گھیر بیٹھا۔ سلمان الفارسی کے مشورے پر مسلمانوں نے ایک بڑی خندق کھودی جسے دشمن پار نہ کر سکا۔ ہفتوں کے محاصرے اور شدید تنگی کے بعد، اللہ نے ایک تیز آندھی بھیجی جس نے بغیر کسی کھلی جنگ کے متحدہ لشکر کو منتشر کر دیا۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "In the fifth year after Hijrah, the Quraysh joined with other tribes and Jewish factions to form a confederate army — al-Ahzab — of about ten thousand, the largest force yet raised against the Muslims. Their aim was to end Islam once and for all by overwhelming Madinah." },
+      { "kind": "p", "text": "The Persian companion Salman al-Farisi proposed a strategy unknown to the Arabs: digging a wide trench (khandaq) across the exposed approaches to the city. The Prophet ﷺ and the companions dug it themselves, enduring hunger so severe they tied stones to their stomachs, yet raising their voices in remembrance and poetry." },
+      { "kind": "heading", "level": 2, "text": "The siege and the test" },
+      { "kind": "p", "text": "The confederates arrived and were stunned by the trench, which their cavalry could not cross. The siege dragged on for weeks. Cold, fear, hunger, and the treachery of a tribe within pressed the believers hard — a moment the Qur'an describes vividly." },
+      { "kind": "verse", "surah": 33, "ayah": 10, "note": "'When they came at you from above and below, and eyes shifted in fear, and hearts reached the throats, and you assumed about Allah various assumptions.'" },
+      { "kind": "verse", "surah": 33, "ayah": 25, "note": "'And Allah repelled those who disbelieved in their rage; they gained no good. Allah sufficed the believers in battle, and Allah is Ever-Powerful, Exalted in Might.'" },
+      { "kind": "heading", "level": 2, "text": "Deliverance" },
+      { "kind": "p", "text": "When the situation was at its most dire, Allah sent a bitterly cold wind and unseen forces that overturned the enemy's cooking pots, tore down their tents, and filled their hearts with dread. Their alliance fractured and they withdrew in disarray, defeated without a decisive clash of arms — a victory granted by Allah alone." },
+      { "kind": "heading", "level": 2, "text": "Lessons" },
+      { "kind": "list", "items": [
+        { "text": "Consultation (shura) and sound strategy are part of faith, not opposed to trust in Allah." },
+        { "text": "Allah's help arrives at the moment of greatest hardship for those who hold firm." },
+        { "text": "The believers' unity and patience under siege were rewarded with deliverance." }
+      ] }
+    ],
+    "hi": [
+      { "kind": "p", "text": "हिजरत के पाँचवें वर्ष, क़ुरैश ने अन्य क़बीलों और यहूदी गुटों से मिल कर एक संयुक्त सैन्य दल बनाया — अल-अहज़ाब — लगभग दस हज़ार का, मुसलमानों के विरुद्ध अब तक की सबसे बड़ी सेना। उनका लक्ष्य मदीना पर हावी होकर इस्लाम को हमेशा के लिए ख़त्म करना था।" },
+      { "kind": "p", "text": "फ़ारसी सहाबी सलमान अल-फ़ारिसी ने अरबों के लिए अनजानी एक रणनीति सुझाई: शहर के खुले रास्तों पर एक चौड़ी ख़ंदक़ (खाई) खोदना। पैगंबर ﷺ और सहाबा ने इसे ख़ुद खोदा, इतनी घोर भूख सहते हुए कि उन्होंने अपने पेटों पर पत्थर बाँधे, फिर भी ज़िक्र और कविता में अपनी आवाज़ें बुलंद कीं।" },
+      { "kind": "heading", "level": 2, "text": "घेराबंदी और परीक्षा" },
+      { "kind": "p", "text": "संयुक्त दल आया और ख़ंदक़ देख कर हक्का-बक्का रह गया, जिसे उनके घुड़सवार पार न कर सके। घेराबंदी हफ़्तों खिंची। ठंड, डर, भूख, और भीतर के एक क़बीले के विश्वासघात ने ईमान वालों को कठोरता से दबाया — एक क्षण जिसे क़ुरआन सजीव रूप से बयान करता है।" },
+      { "kind": "verse", "surah": 33, "ayah": 10, "note": "'जब वे तुम पर ऊपर से और नीचे से आ पड़े, और आँखें डर से फिर गईं, और दिल कंठ तक आ गए, और तुम अल्लाह के बारे में तरह-तरह के गुमान करने लगे।'" },
+      { "kind": "verse", "surah": 33, "ayah": 25, "note": "'और अल्लाह ने इनकार करने वालों को उनके क्रोध सहित लौटा दिया; उन्होंने कोई भलाई न पाई। अल्लाह ने ईमान वालों को युद्ध में काफ़ी हो गया, और अल्लाह सर्वशक्तिमान, प्रभुत्वशाली है।'" },
+      { "kind": "heading", "level": 2, "text": "छुटकारा" },
+      { "kind": "p", "text": "जब स्थिति सबसे भयावह थी, अल्लाह ने एक कड़ाके की ठंडी आँधी और अनदेखी शक्तियाँ भेजीं जिन्होंने दुश्मन की हाँडियाँ उलट दीं, उनके ख़ेमे उखाड़ दिए, और उनके दिल दहशत से भर दिए। उनका गठबंधन टूट गया और वे अस्त-व्यस्त होकर लौट गए, हथियारों के निर्णायक टकराव के बिना परास्त — केवल अल्लाह की दी हुई विजय।" },
+      { "kind": "heading", "level": 2, "text": "शिक्षाएँ" },
+      { "kind": "list", "items": [
+        { "text": "परामर्श (शूरा) और सुदृढ़ रणनीति ईमान का हिस्सा हैं, अल्लाह पर भरोसे के विरुद्ध नहीं।" },
+        { "text": "अल्लाह की मदद उनके लिए सबसे बड़ी कठिनाई के क्षण में आती है जो दृढ़ रहते हैं।" },
+        { "text": "घेराबंदी में ईमान वालों की एकता और सब्र को छुटकारे से नवाज़ा गया।" }
+      ] }
+    ],
+    "ur": [
+      { "kind": "p", "text": "ہجرت کے پانچویں سال، قریش نے دیگر قبیلوں اور یہودی گروہوں سے مل کر ایک متحدہ لشکر بنایا — الاحزاب — تقریباً دس ہزار کا، مسلمانوں کے خلاف اب تک کی سب سے بڑی فوج۔ اُن کا مقصد مدینہ پر غالب آ کر اسلام کو ہمیشہ کے لیے ختم کرنا تھا۔" },
+      { "kind": "p", "text": "فارسی صحابی سلمان الفارسی نے عربوں کے لیے انجانی ایک حکمتِ عملی تجویز کی: شہر کے کھلے راستوں پر ایک چوڑی خندق کھودنا۔ نبی ﷺ اور صحابہ نے اسے خود کھودا، اتنی شدید بھوک سہتے ہوئے کہ انہوں نے اپنے پیٹوں پر پتھر باندھے، پھر بھی ذکر اور شعر میں اپنی آوازیں بلند کیں۔" },
+      { "kind": "heading", "level": 2, "text": "محاصرہ اور آزمائش" },
+      { "kind": "p", "text": "متحدہ لشکر آیا اور خندق دیکھ کر ششدر رہ گیا، جسے اُن کے سوار پار نہ کر سکے۔ محاصرہ ہفتوں کھنچا۔ سردی، خوف، بھوک، اور اندر کے ایک قبیلے کی غداری نے مومنوں کو سختی سے دبایا — ایک لمحہ جسے قرآن جیتی جاگتی صورت میں بیان کرتا ہے۔" },
+      { "kind": "verse", "surah": 33, "ayah": 10, "note": "'جب وہ تم پر اوپر سے اور نیچے سے آ پڑے، اور آنکھیں خوف سے پھر گئیں، اور دل گلوں تک آ گئے، اور تم اللہ کے بارے میں طرح طرح کے گمان کرنے لگے۔'" },
+      { "kind": "verse", "surah": 33, "ayah": 25, "note": "'اور اللہ نے منکروں کو اُن کے غصے سمیت لوٹا دیا؛ انہوں نے کوئی بھلائی نہ پائی۔ اللہ مومنوں کو جنگ میں کافی ہو گیا، اور اللہ سب پر قادر، غالب ہے۔'" },
+      { "kind": "heading", "level": 2, "text": "نجات" },
+      { "kind": "p", "text": "جب صورتِ حال سب سے سنگین تھی، اللہ نے ایک شدید ٹھنڈی آندھی اور اَن دیکھی قوتیں بھیجیں جنہوں نے دشمن کی ہانڈیاں الٹ دیں، اُن کے خیمے اکھاڑ دیے، اور اُن کے دل دہشت سے بھر دیے۔ اُن کا اتحاد ٹوٹ گیا اور وہ درہم برہم ہو کر لوٹ گئے، ہتھیاروں کے فیصلہ کن تصادم کے بغیر شکست خوردہ — صرف اللہ کی دی ہوئی فتح۔" },
+      { "kind": "heading", "level": 2, "text": "اسباق" },
+      { "kind": "list", "items": [
+        { "text": "مشورہ (شوریٰ) اور مضبوط حکمتِ عملی ایمان کا حصہ ہیں، اللہ پر بھروسے کے خلاف نہیں۔" },
+        { "text": "اللہ کی مدد اُن کے لیے سب سے بڑی مشکل کے لمحے میں آتی ہے جو ثابت قدم رہتے ہیں۔" },
+        { "text": "محاصرے میں مومنوں کی وحدت اور صبر کو نجات سے نوازا گیا۔" }
+      ] }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "33:9-11" },
+    { "type": "quran", "ref": "33:25" },
+    { "type": "hadith", "collection": "bukhari", "ref": "4104", "grade": "sahih" },
+    { "type": "seerah" }
+  ],
+  "relatedSlugs": ["seerah-uhud", "seerah-hudaybiyyah", "concept-tawakkul"]
+}
