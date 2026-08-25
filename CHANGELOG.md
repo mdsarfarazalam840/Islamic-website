@@ -1,3 +1,13 @@
+## [0.3.0] - 2026-08-25
+
+### Features
+- feat: added saved button for all the pages and fixed some bugs (a26810c)
+
+### Other
+- Added kalimas and Azaans in the knowledge Base (7c001e9)
+- Added more knowledge base (39bbc2d)
+
+
 ## [Unreleased]
 
 ### Features
