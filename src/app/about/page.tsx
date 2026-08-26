@@ -1,5 +1,5 @@
 import type { Metadata } from "next"
-import { BookOpen, Heart, BookMarked, Library, Video, Code } from "lucide-react"
+import { Heart, BookMarked, Library, Video, Code } from "lucide-react"
 
 export const metadata: Metadata = {
   title: "About — Noor",
@@ -67,7 +67,7 @@ export default function AboutPage() {
       <div className="text-center py-10">
         <hr className="gold-divider mb-8" />
         <p className="text-xl md:text-2xl font-display text-gold-light/60 leading-relaxed italic">
-          "نُورٌ عَلَىٰ نُورٍ يَهْدِي ٱللَّهُ لِنُورِهِۦ مَن يَشَآءُ"
+          &quot;نُورٌ عَلَىٰ نُورٍ يَهْدِي ٱللَّهُ لِنُورِهِۦ مَن يَشَآءُ&quot;
         </p>
         <p className="text-sm text-muted-foreground mt-3">
           Light upon light — Allah guides to His light whom He wills.

@@ -107,22 +107,19 @@ const COLLECTIONS = [
   },
 ]
 
-async function fetchJson(url: string): Promise<any> {
+async function fetchJson<T>(url: string): Promise<T> {
   const res = await fetch(url)
   if (!res.ok) throw new Error(`Failed to fetch ${url}: ${res.status}`)
-  return res.json()
+  return res.json() as Promise<T>
 }
 
 async function fetchEdition(editionName: string): Promise<ApiEdition> {
   const url = `${CDN}/editions/${editionName}.min.json`
-  return fetchJson(url)
+  return fetchJson<ApiEdition>(url)
 }
 
-function mergeHadiths(
-  arabic: ApiEdition,
-  english: ApiEdition,
-  urdu: ApiEdition | null,
-): {
+/** One hadith as written to the per-book JSON files. */
+interface MergedHadith {
   number: number
   arabic: string
   english: string
@@ -133,8 +130,14 @@ function mergeHadiths(
   chapterId: number
   bookName: string
   chapterName: string
-}[] {
-  const merged: any[] = []
+}
+
+function mergeHadiths(
+  arabic: ApiEdition,
+  english: ApiEdition,
+  urdu: ApiEdition | null,
+): MergedHadith[] {
+  const merged: MergedHadith[] = []
   const sections = english.metadata.sections
 
   const engMap = new Map<number, ApiHadith>()
@@ -267,7 +270,7 @@ async function main() {
       const merged = mergeHadiths(arabic, english, urdu)
       console.log(`  Merged: ${merged.length} hadiths`)
 
-      const groupedByBook: Record<number, any[]> = {}
+      const groupedByBook: Record<number, MergedHadith[]> = {}
       for (const hadith of merged) {
         if (!groupedByBook[hadith.bookId]) {
           groupedByBook[hadith.bookId] = []
@@ -300,12 +303,12 @@ async function main() {
   }
 
   // Build combined hadith file + search index for all collections (used by client-side search)
-  let allHadithsCombined: any[] = []
+  const allHadithsCombined: (MergedHadith & { collection: string })[] = []
   for (const collection of COLLECTIONS) {
     const combinedPath = path.join(OUTPUT_DIR, collection.id, `${collection.id}-all.json`)
     if (fs.existsSync(combinedPath)) {
-      const data = JSON.parse(fs.readFileSync(combinedPath, "utf-8"))
-      allHadithsCombined.push(...data.map((h: any) => ({ ...h, collection: collection.id })))
+      const data = JSON.parse(fs.readFileSync(combinedPath, "utf-8")) as MergedHadith[]
+      allHadithsCombined.push(...data.map((h) => ({ ...h, collection: collection.id })))
     }
   }
 

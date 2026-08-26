@@ -1,6 +1,8 @@
 "use client"
 
 import Link from "next/link"
+import { useRealtime } from "@/components/realtime/RealtimeProvider"
+import { LivePulse } from "@/components/shared/LivePulse"
 import type { Surah } from "@/types"
 
 interface SurahCardProps {
@@ -9,6 +11,10 @@ interface SurahCardProps {
 
 export function SurahCard({ surah }: SurahCardProps) {
   const isMeccan = surah.revelationType === "meccan"
+  // Off the shared presence snapshot — no request of its own, so putting this on
+  // all 114 cards costs nothing.
+  const { bySurah } = useRealtime()
+  const readers = bySurah.get(surah.number)?.readers ?? 0
 
   return (
     <Link
@@ -29,6 +35,15 @@ export function SurahCard({ surah }: SurahCardProps) {
             </span>
             {" · "}{surah.ayahCount} verses
             {surah.juz.length > 0 && ` · Juz ${surah.juz.join(", ")}`}
+            {readers > 0 && (
+              <span
+                className="ml-1.5 inline-flex items-center gap-1 align-middle text-emerald/80"
+                title={`${readers} reading now`}
+              >
+                <LivePulse />
+                <span className="tabular-nums">{readers}</span>
+              </span>
+            )}
           </p>
         </div>
       </div>

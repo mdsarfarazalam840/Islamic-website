@@ -30,12 +30,26 @@ function readCollectionMeta(collectionId: string): HadithCollectionMeta | null {
   return JSON.parse(data)
 }
 
+/** Raw shape of one entry in `public/data/hadith/<collection>/books/book-N.json`. */
+interface RawHadith {
+  number: number
+  arabic: string
+  english: string
+  urdu?: string
+  narrator: string
+  grade: string
+  bookId: number
+  chapterId: number
+  bookName: string
+  chapterName: string
+}
+
 function readBookHadiths(collectionId: string, bookId: number): Hadith[] {
   const filePath = path.join(DATA_DIR, collectionId, "books", `book-${bookId}.json`)
   if (!fs.existsSync(filePath)) return []
   const data = fs.readFileSync(filePath, "utf-8")
-  const raw = JSON.parse(data)
-  return raw.map((h: any) => ({
+  const raw = JSON.parse(data) as RawHadith[]
+  return raw.map((h) => ({
     id: `${collectionId}-${h.number}`,
     collection: collectionId as HadithCollectionId,
     bookId: h.bookId,

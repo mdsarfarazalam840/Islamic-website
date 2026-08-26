@@ -31,3 +31,19 @@ export interface Juz {
   surah: number
   ayah: number
 }
+
+/**
+ * One audio edition from the reciter catalog (scripts/fetch-reciters.ts).
+ * A bitrate is non-null only when that shape is actually published for the
+ * edition: ayahBitrate means per-ayah files exist, so playback can follow the
+ * text verse by verse; surahBitrate means one file per surah.
+ */
+export interface Reciter {
+  id: string
+  name: string
+  nameArabic: string
+  language: string
+  type: string
+  ayahBitrate: number | null
+  surahBitrate: number | null
+}

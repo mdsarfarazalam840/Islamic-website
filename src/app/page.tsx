@@ -4,6 +4,7 @@ import { buttonVariants } from "@/components/ui/button"
 import { DynamicHero } from "@/components/three/DynamicHero"
 import { getAllSurahs } from "@/lib/quran/surahs"
 import { AyahOfTheDay } from "@/components/home/AyahOfTheDay"
+import { LiveActivity } from "@/components/home/LiveActivity"
 import { ContinueSection } from "@/components/saved/ContinueSection"
 
 const quickLinks = [
@@ -206,6 +207,14 @@ export default function HomePage() {
       {/* Ayah of the Day */}
       <section className="mx-auto max-w-3xl w-full px-4 sm:px-6">
         <AyahOfTheDay />
+      </section>
+
+      {/* Sacred Margin */}
+      <div className="sacred-margin" />
+
+      {/* Happening now — renders nothing until presence has something real */}
+      <section className="mx-auto max-w-3xl w-full px-4 sm:px-6">
+        <LiveActivity />
       </section>
 
       {/* Sacred Margin */}

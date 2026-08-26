@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next"
 import { getAllSurahs } from "@/lib/quran/surahs"
 import { scholars } from "@/config/scholars"
-import { getAllHadiths, getCollection } from "@/lib/hadith/translations"
+import { getCollection } from "@/lib/hadith/translations"
 import { getAllArticleMeta } from "@/lib/knowledge/articles"
 import { KNOWLEDGE_CATEGORY_IDS } from "@/lib/knowledge/categories"
 

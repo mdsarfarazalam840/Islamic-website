@@ -1,0 +1,1649 @@
+[
+  {
+    "id": "ar.abdulbasitmurattal",
+    "name": "Abdul Basit",
+    "nameArabic": "عبد الباسط عبد الصمد المرتل",
+    "language": "ar",
+    "type": "translation",
+    "ayahBitrate": 192,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.abdulsamad",
+    "name": "Abdul Samad",
+    "nameArabic": "عبدالباسط عبدالصمد",
+    "language": "ar",
+    "type": "versebyverse",
+    "ayahBitrate": 64,
+    "surahBitrate": null
+  },
+  {
+    "id": "ar.abdullahbasfar",
+    "name": "Abdullah Basfar",
+    "nameArabic": "عبد الله بصفر",
+    "language": "ar",
+    "type": "versebyverse",
+    "ayahBitrate": 192,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.abdurrahmaansudais",
+    "name": "Abdurrahmaan As-Sudais",
+    "nameArabic": "عبدالرحمن السديس",
+    "language": "ar",
+    "type": "versebyverse",
+    "ayahBitrate": 192,
+    "surahBitrate": null
+  },
+  {
+    "id": "ar.shaatree",
+    "name": "Abu Bakr Ash-Shaatree",
+    "nameArabic": "أبو بكر الشاطري",
+    "language": "ar",
+    "type": "versebyverse",
+    "ayahBitrate": 128,
+    "surahBitrate": null
+  },
+  {
+    "id": "ar.ahmedajamy",
+    "name": "Ahmed ibn Ali al-Ajamy",
+    "nameArabic": "أحمد بن علي العجمي",
+    "language": "ar",
+    "type": "versebyverse",
+    "ayahBitrate": 128,
+    "surahBitrate": null
+  },
+  {
+    "id": "ar.alafasy",
+    "name": "Alafasy",
+    "nameArabic": "مشاري العفاسي",
+    "language": "ar",
+    "type": "versebyverse",
+    "ayahBitrate": 128,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.alafasy-2",
+    "name": "Alafasy",
+    "nameArabic": "مشاري العفاسي",
+    "language": "ar",
+    "type": "versebyverse",
+    "ayahBitrate": 128,
+    "surahBitrate": null
+  },
+  {
+    "id": "ar.aymanswoaid",
+    "name": "Ayman Sowaid",
+    "nameArabic": "أيمن سويد",
+    "language": "ar",
+    "type": "versebyverse",
+    "ayahBitrate": 64,
+    "surahBitrate": null
+  },
+  {
+    "id": "ar.hanirifai",
+    "name": "Hani Rifai",
+    "nameArabic": "هاني الرفاعي",
+    "language": "ar",
+    "type": "versebyverse",
+    "ayahBitrate": 192,
+    "surahBitrate": null
+  },
+  {
+    "id": "ar.hudhaify",
+    "name": "Hudhaify",
+    "nameArabic": "علي بن عبدالرحمن الحذيفي",
+    "language": "ar",
+    "type": "versebyverse",
+    "ayahBitrate": 128,
+    "surahBitrate": null
+  },
+  {
+    "id": "ar.hudhaify-2",
+    "name": "Hudhaify",
+    "nameArabic": "علي بن عبدالرحمن الحذيفي",
+    "language": "ar",
+    "type": "versebyverse",
+    "ayahBitrate": 128,
+    "surahBitrate": null
+  },
+  {
+    "id": "ar.husary",
+    "name": "Husary",
+    "nameArabic": "محمود خليل الحصري",
+    "language": "ar",
+    "type": "versebyverse",
+    "ayahBitrate": 128,
+    "surahBitrate": null
+  },
+  {
+    "id": "ar.husary-2",
+    "name": "Husary",
+    "nameArabic": "محمود خليل الحصري",
+    "language": "ar",
+    "type": "versebyverse",
+    "ayahBitrate": 128,
+    "surahBitrate": null
+  },
+  {
+    "id": "ar.husarymujawwad",
+    "name": "Husary (Mujawwad)",
+    "nameArabic": "محمود خليل الحصري (المجود)",
+    "language": "ar",
+    "type": "versebyverse",
+    "ayahBitrate": 128,
+    "surahBitrate": null
+  },
+  {
+    "id": "ar.husarymujawwad-2",
+    "name": "Husary (Mujawwad)",
+    "nameArabic": "محمود خليل الحصري (المجود)",
+    "language": "ar",
+    "type": "versebyverse",
+    "ayahBitrate": 128,
+    "surahBitrate": null
+  },
+  {
+    "id": "ar.ibrahimakhbar",
+    "name": "Ibrahim Akhdar",
+    "nameArabic": "إبراهيم الأخضر",
+    "language": "ar",
+    "type": "versebyverse",
+    "ayahBitrate": 32,
+    "surahBitrate": null
+  },
+  {
+    "id": "ar.mahermuaiqly",
+    "name": "Maher Al Muaiqly",
+    "nameArabic": "ماهر المعيقلي",
+    "language": "ar",
+    "type": "versebyverse",
+    "ayahBitrate": 128,
+    "surahBitrate": null
+  },
+  {
+    "id": "ar.mahermuaiqly-2",
+    "name": "Maher Al Muaiqly",
+    "nameArabic": "ماهر المعيقلي",
+    "language": "ar",
+    "type": "versebyverse",
+    "ayahBitrate": 128,
+    "surahBitrate": null
+  },
+  {
+    "id": "ar.minshawi",
+    "name": "Minshawi",
+    "nameArabic": "محمد صديق المنشاوي",
+    "language": "ar",
+    "type": "translation",
+    "ayahBitrate": 128,
+    "surahBitrate": null
+  },
+  {
+    "id": "ar.minshawi-2",
+    "name": "Minshawi",
+    "nameArabic": "محمد صديق المنشاوي",
+    "language": "ar",
+    "type": "translation",
+    "ayahBitrate": 128,
+    "surahBitrate": null
+  },
+  {
+    "id": "ar.minshawimujawwad",
+    "name": "Minshawy (Mujawwad)",
+    "nameArabic": "محمد صديق المنشاوي (المجود)",
+    "language": "ar",
+    "type": "translation",
+    "ayahBitrate": 64,
+    "surahBitrate": null
+  },
+  {
+    "id": "ar.muhammadayyoub",
+    "name": "Muhammad Ayyoub",
+    "nameArabic": "محمد أيوب",
+    "language": "ar",
+    "type": "versebyverse",
+    "ayahBitrate": 128,
+    "surahBitrate": null
+  },
+  {
+    "id": "ar.muhammadayyoub-2",
+    "name": "Muhammad Ayyoub",
+    "nameArabic": "محمد أيوب",
+    "language": "ar",
+    "type": "versebyverse",
+    "ayahBitrate": 128,
+    "surahBitrate": null
+  },
+  {
+    "id": "ar.muhammadjibreel",
+    "name": "Muhammad Jibreel",
+    "nameArabic": "محمد جبريل",
+    "language": "ar",
+    "type": "versebyverse",
+    "ayahBitrate": 128,
+    "surahBitrate": null
+  },
+  {
+    "id": "ar.muhammadjibreel-2",
+    "name": "Muhammad Jibreel",
+    "nameArabic": "محمد جبريل",
+    "language": "ar",
+    "type": "versebyverse",
+    "ayahBitrate": 128,
+    "surahBitrate": null
+  },
+  {
+    "id": "ar.parhizgar",
+    "name": "Parhizgar",
+    "nameArabic": "شهریار پرهیزگار",
+    "language": "ar",
+    "type": "versebyverse",
+    "ayahBitrate": 48,
+    "surahBitrate": null
+  },
+  {
+    "id": "ar.saoodshuraym",
+    "name": "Saood bin Ibraaheem Ash-Shuraym",
+    "nameArabic": "سعود الشريم",
+    "language": "ar",
+    "type": "versebyverse",
+    "ayahBitrate": 64,
+    "surahBitrate": null
+  },
+  {
+    "id": "ar.abdulazizazzahrani",
+    "name": "Abdul Aziz az-Zahrani",
+    "nameArabic": "عبد العزيز الزهراني",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.abdulbariaththubaity",
+    "name": "Abdul Bari ath-Thubaity",
+    "nameArabic": "عبد الباري الثبيتي",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.abdulbarimohammed",
+    "name": "Abdul Bari Mohammed",
+    "nameArabic": "عبد الباري محمد",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.abdulbasitmujawwad",
+    "name": "Abdul Basit Abdus-Samad (Mujawwad)",
+    "nameArabic": "عبد الباسط عبد الصمد (مجوَّد)",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.abdulkareemalhazmi",
+    "name": "Abdul Kareem al-Hazmi",
+    "nameArabic": "عبد الكريم الحازمي",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.abdulmohsenalharthy",
+    "name": "Abdul Mohsen al-Harthy",
+    "nameArabic": "عبد المحسن الحارثي",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.abdulmunimabdulmubdi",
+    "name": "Abdul Munim Abdul Mubdi",
+    "nameArabic": "عبد المنعم عبد المبدئ",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.abdulwadoodhaneef",
+    "name": "Abdul Wadood Haneef",
+    "nameArabic": "عبد الودود حنيف",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.abdullahkhulaifi",
+    "name": "Abdullah al-Khulaifi",
+    "nameArabic": "عبد الله الخليفي",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.abdullahalmatrood",
+    "name": "Abdullah al-Matrood",
+    "nameArabic": "عبد الله المطرود",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.abdullahawadaljuhani",
+    "name": "Abdullah Awad al-Juhani",
+    "nameArabic": "عبد الله عواد الجهني",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.abdullahkhayat",
+    "name": "Abdullah Khayat",
+    "nameArabic": "عبد الله خياط",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.abdurrasheedsufiabialhaarithanalkasaaee",
+    "name": "Abdur-Rasheed Sufi (Abul-Harith from al-Kisa'i)",
+    "nameArabic": "عبد الرشيد صوفي (أبو الحارث عن الكسائي)",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.abdurrasheedsufiaddoorianabiamr",
+    "name": "Abdur-Rasheed Sufi (ad-Doori from Abu Amr)",
+    "nameArabic": "عبد الرشيد صوفي (الدوري عن أبي عمرو)",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.abdurrasheedsufisoosi",
+    "name": "Abdur-Rasheed Sufi (as-Soosi)",
+    "nameArabic": "عبد الرشيد صوفي (السوسي)",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.abdurrasheedsufishubahanasim",
+    "name": "Abdur-Rasheed Sufi (Shu'bah from Asim)",
+    "nameArabic": "عبد الرشيد صوفي (شعبة عن عاصم)",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.abuabdullahmuniraltounsi",
+    "name": "Abu Abdullah Munir at-Tounsi",
+    "nameArabic": "أبو عبد الله منير التونسي",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.abubakraldhabi",
+    "name": "Abu Bakr adh-Dhabi",
+    "nameArabic": "أبو بكر الذهبي",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.adilkalbani",
+    "name": "Adil al-Kalbani",
+    "nameArabic": "عادل الكلباني",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.ahmadalhawashy",
+    "name": "Ahmad al-Hawashy",
+    "nameArabic": "أحمد الحواشي",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.ahmadkhaderaltarabulsi",
+    "name": "Ahmad Khader at-Tarabulsi",
+    "nameArabic": "أحمد خضر الطرابلسي",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.ahmadsulaiman",
+    "name": "Ahmad Sulaiman",
+    "nameArabic": "أحمد سليمان",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.ahmedalajmi",
+    "name": "Ahmed al-Ajmi",
+    "nameArabic": "أحمد العجمي",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.ahmedalhammad",
+    "name": "Ahmed al-Hammad",
+    "nameArabic": "أحمد الحماد",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.ahmedalmisbahi",
+    "name": "Ahmed al-Misbahi",
+    "nameArabic": "أحمد المصباحي",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.ahmedamir",
+    "name": "Ahmed Amir",
+    "nameArabic": "أحمد عامر",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.ahmedmohamedsalama",
+    "name": "Ahmed Mohamed Salama",
+    "nameArabic": "أحمد محمد سلامة",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.ahmedsaber",
+    "name": "Ahmed Saber",
+    "nameArabic": "أحمد صابر",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.alashryomran",
+    "name": "al-Ashry Omran",
+    "nameArabic": "العشري عمران",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.alfatehmuhammadzubair",
+    "name": "al-Fateh Muhammad Zubair",
+    "nameArabic": "الفاتح محمد الزبير",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.alhusaynialazazi",
+    "name": "al-Husayni al-Azazi",
+    "nameArabic": "الحسيني العزازي",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.alhusaynialazazichildren",
+    "name": "al-Husayni al-Azazi (with children)",
+    "nameArabic": "الحسيني العزازي (مع الأطفال)",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.obeikan",
+    "name": "al-Obeikan",
+    "nameArabic": "العبيكان",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.alzainmohamedahmed",
+    "name": "al-Zain Mohamed Ahmed",
+    "nameArabic": "الزين محمد أحمد",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.aliabdurrahmanalhuthaify",
+    "name": "Ali Abdur-Rahman al-Huthaify",
+    "nameArabic": "علي عبد الرحمن الحذيفي",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.aliabdurrahmanalhuthaifyqaloon",
+    "name": "Ali Abdur-Rahman al-Huthaify (Qaloon)",
+    "nameArabic": "علي عبد الرحمن الحذيفي (قالون)",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.alihajjajsouissi",
+    "name": "Ali Hajjaj Souissi",
+    "nameArabic": "علي حجاج السويسي",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.oimaoqataris",
+    "name": "ar.oimaoqataris",
+    "nameArabic": "ar.oimaoqataris",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.aymanswed",
+    "name": "Ayman Swed",
+    "nameArabic": "أيمن سويد",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.azizalili",
+    "name": "Aziz Alili",
+    "nameArabic": "عزيز عليلي",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.basselabdulrahmanraoui",
+    "name": "Bassel Abdul-Rahman ar-Raoui",
+    "nameArabic": "باسل عبد الرحمن الراوي",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.benkirane",
+    "name": "Benkirane",
+    "nameArabic": "بنكيران",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.darwishfarajdarwishalattar",
+    "name": "Darwish Faraj Darwish al-Attar",
+    "nameArabic": "درويش فرج درويش العطار",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.emadalmansary",
+    "name": "Emad al-Mansary",
+    "nameArabic": "عماد المنصري",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.ezzatsabri",
+    "name": "Ezzat Sabri",
+    "nameArabic": "عزت صبري",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.faresabbad",
+    "name": "Fares Abbad",
+    "nameArabic": "فارس عباد",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.fouadalkhamiri",
+    "name": "Fouad al-Khamiri",
+    "nameArabic": "فؤاد الخامري",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.hamadsinan",
+    "name": "Hamad Sinan",
+    "nameArabic": "حمد سنان",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.hamdyalsayedtolbasaad",
+    "name": "Hamdy al-Sayed Tolba Saad",
+    "nameArabic": "حمدي السيد طلبة سعد",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.haniarrifai",
+    "name": "Hani ar-Rifai",
+    "nameArabic": "هاني الرفاعي",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.hasanhashem",
+    "name": "Hasan Hashem",
+    "nameArabic": "حسن هاشم",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.hassansaleh",
+    "name": "Hassan Saleh",
+    "nameArabic": "حسن صالح",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.hatemfarid",
+    "name": "Hatem Farid",
+    "nameArabic": "حاتم فريد",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.ibrahimaldossari",
+    "name": "Ibrahim ad-Dossari",
+    "nameArabic": "إبراهيم الدوسري",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.ibrahimalakhdar",
+    "name": "Ibrahim al-Akhdar",
+    "nameArabic": "إبراهيم الأخضر",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.ibrahimaljormy",
+    "name": "Ibrahim al-Jormy",
+    "nameArabic": "إبراهيم الجرمي",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.ilhantok",
+    "name": "Ilhan Tok",
+    "nameArabic": "إلهان توك",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.imadzuhairhafez",
+    "name": "Imad Zuhair Hafez",
+    "nameArabic": "عماد زهير حافظ",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.jamaanalosaimi",
+    "name": "Jamaan al-Osaimi",
+    "nameArabic": "جمعان العصيمي",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.jamalshakerabdullah",
+    "name": "Jamal Shaker Abdullah",
+    "nameArabic": "جمال شاكر عبد الله",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.jazzaalswaileh",
+    "name": "Jazza al-Swaileh",
+    "nameArabic": "جزاع الصويلح",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.kamel",
+    "name": "Kamel",
+    "nameArabic": "كامل",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.khaledalqahtani",
+    "name": "Khaled al-Qahtani",
+    "nameArabic": "خالد القحطاني",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.khaledbarakat",
+    "name": "Khaled Barakat",
+    "nameArabic": "خالد بركات",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.khalidabdulkafi",
+    "name": "Khalid Abdul-Kafi",
+    "nameArabic": "خالد عبد الكافي",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.khalidaljalil",
+    "name": "Khalid al-Jalil",
+    "nameArabic": "خالد الجليل",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.khalidalmohanna",
+    "name": "Khalid al-Mohanna",
+    "nameArabic": "خالد المهنا",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.khalifaaltunaiji",
+    "name": "Khalifa at-Tunaiji",
+    "nameArabic": "خليفة الطنيجي",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.laayounelkouchi",
+    "name": "Laayoun el-Kouchi",
+    "nameArabic": "العيون الكوشي",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.lesaintcorantraduitenfrancais",
+    "name": "Le Saint Coran traduit en français",
+    "nameArabic": "القرآن الكريم مترجمًا بالفرنسية",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.mahershakhashiro",
+    "name": "Maher Shakhashiro",
+    "nameArabic": "ماهر شخاشيرو",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.mahmoodalrifai",
+    "name": "Mahmood al-Rifai",
+    "nameArabic": "محمود الرفاعي",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.mahmoudalialbanna",
+    "name": "Mahmoud Ali al-Banna",
+    "nameArabic": "محمود علي البنا",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.mahmoudelsheimy",
+    "name": "Mahmoud el-Sheimy",
+    "nameArabic": "محمود الشيمي",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.mahmoudsaaddarouich",
+    "name": "Mahmoud Saad Darouich",
+    "nameArabic": "محمود سعد درويش",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.mahmoudsayedeltayeb",
+    "name": "Mahmoud Sayed el-Tayeb",
+    "nameArabic": "محمود سيد الطيب",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.misharyrashidalafasy",
+    "name": "Mishary Rashid Alafasy",
+    "nameArabic": "مشاري راشد العفاسي",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.moeedhalharthi",
+    "name": "Moeedh al-Harthi",
+    "nameArabic": "معيض الحارثي",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.mohamedabdelaziz",
+    "name": "Mohamed Abdel-Aziz",
+    "nameArabic": "محمد عبد العزيز",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.mohamedabdelhakimsaadalabdullah",
+    "name": "Mohamed Abdel-Hakim Saad al-Abdullah",
+    "nameArabic": "محمد عبد الحكيم سعد العبد الله",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.mohamedaljaberyalheyani",
+    "name": "Mohamed al-Jabery al-Heyani",
+    "nameArabic": "محمد الجابري الحياني",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.mohamedalmohisni",
+    "name": "Mohamed al-Mohisni",
+    "nameArabic": "محمد المحيسني",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.mohamedtablawi",
+    "name": "Mohamed at-Tablawi",
+    "nameArabic": "محمد الطبلاوي",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.mohamedelkantaoui",
+    "name": "Mohamed el-Kantaoui",
+    "nameArabic": "محمد القنطاوي",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.mohamedhassan",
+    "name": "Mohamed Hassan",
+    "nameArabic": "محمد حسان",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.mohamedmaabad",
+    "name": "Mohamed Maabad",
+    "nameArabic": "محمد معبد",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.mohamedosmankhan",
+    "name": "Mohamed Osman Khan",
+    "nameArabic": "محمد عثمان خان",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.mohamedshaabanabuqarn",
+    "name": "Mohamed Shaaban Abu Qarn",
+    "nameArabic": "محمد شعبان أبو قرن",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.mohammadismaeelalmuqaddim",
+    "name": "Mohammad Ismaeel al-Muqaddim",
+    "nameArabic": "محمد إسماعيل المقدم",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.mohammadrachadalshareef",
+    "name": "Mohammad Rachad al-Shareef",
+    "nameArabic": "محمد رشاد الشريف",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.mohammedbinsalehabuzaid",
+    "name": "Mohammed bin Saleh Abu Zaid",
+    "nameArabic": "محمد بن صالح أبو زيد",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.muftahalsaltany",
+    "name": "Muftah al-Saltany",
+    "nameArabic": "مفتاح السلطني",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.muhammadabdulkareem",
+    "name": "Muhammad Abdul-Kareem",
+    "nameArabic": "محمد عبد الكريم",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.muhammadalaalimaldokali",
+    "name": "Muhammad al-Aalim ad-Dokali",
+    "nameArabic": "محمد العالم الدوكالي",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.muhammadalluhaidan",
+    "name": "Muhammad al-Luhaidan",
+    "nameArabic": "محمد اللحيدان",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.muhammadalmehysni",
+    "name": "Muhammad al-Mehysni",
+    "nameArabic": "محمد المحيسني",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.muhammadanwarshahat",
+    "name": "Muhammad Anwar Shahat",
+    "nameArabic": "محمد أنور شحات",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.muhammadalsubayyil",
+    "name": "Muhammad as-Subayyil",
+    "nameArabic": "محمد السبيل",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.muhammadayyub",
+    "name": "Muhammad Ayyub",
+    "nameArabic": "محمد أيوب",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.muhammadsalehalimshah",
+    "name": "Muhammad Saleh Alim Shah",
+    "nameArabic": "محمد صالح عالم شاه",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.muhammadsiddiqalminshawimujawwad",
+    "name": "Muhammad Siddiq al-Minshawi (Mujawwad)",
+    "nameArabic": "محمد صديق المنشاوي (مجوَّد)",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.muhammadsulaimanpatel",
+    "name": "Muhammad Sulaiman Patel",
+    "nameArabic": "محمد سليمان باتل",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.musabilal",
+    "name": "Musa Bilal",
+    "nameArabic": "موسى بلال",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.mustafaallahouni",
+    "name": "Mustafa al-Lahouni",
+    "nameArabic": "مصطفى اللاهوني",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.mustafaismail",
+    "name": "Mustafa Ismail",
+    "nameArabic": "مصطفى إسماعيل",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.mustafaraadalazzawi",
+    "name": "Mustafa Raad al-Azzawi",
+    "nameArabic": "مصطفى رعد العزاوي",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.mustaphagharbi",
+    "name": "Mustapha Gharbi",
+    "nameArabic": "مصطفى غربي",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.nabilarrifai",
+    "name": "Nabil ar-Rifai",
+    "nameArabic": "نبيل الرفاعي",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.nasseralqatami",
+    "name": "Nasser al-Qatami",
+    "nameArabic": "ناصر القطامي",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.neamahalhassan",
+    "name": "Neamah al-Hassan",
+    "nameArabic": "نعمة الحسن",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.omaralkazabri",
+    "name": "Omar al-Kazabri",
+    "nameArabic": "عمر القزابري",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.osamabinalialghanim",
+    "name": "Osama bin Ali al-Ghanim",
+    "nameArabic": "أسامة بن علي الغانم",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.rachidbelalia",
+    "name": "Rachid Belalia",
+    "nameArabic": "رشيد بلعالية",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.saberabdulhakam",
+    "name": "Saber Abdul-Hakam",
+    "nameArabic": "صابر عبد الحكم",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.sadaqatali",
+    "name": "Sadaqat Ali",
+    "nameArabic": "صداقت علي",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.sahlyasin",
+    "name": "Sahl Yasin",
+    "nameArabic": "سهل ياسين",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.saidalshaalan",
+    "name": "Said ash-Shaalan",
+    "nameArabic": "سعيد الشعلان",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.salahalbudair",
+    "name": "Salah al-Budair",
+    "nameArabic": "صلاح البدير",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.salahalhashem",
+    "name": "Salah al-Hashem",
+    "nameArabic": "صلاح الهاشم",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.salahbaothman",
+    "name": "Salah Ba-Othman",
+    "nameArabic": "صلاح باعثمان",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.samirbelaachya",
+    "name": "Samir Belaachya",
+    "nameArabic": "سمير بلعشية",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.saudalshuraim",
+    "name": "Saud ash-Shuraim",
+    "nameArabic": "سعود الشريم",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.sayedramadan",
+    "name": "Sayed Ramadan",
+    "nameArabic": "سيد رمضان",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.shahriarparhizgar",
+    "name": "Shahriar Parhizgar",
+    "nameArabic": "شهريار پرهيزگار",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.sudaisshuraymnaeemsultan",
+    "name": "Sudais & Shuraym (with Naeem Sultan translation)",
+    "nameArabic": "السديس والشريم (مع ترجمة نعيم سلطان)",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.tamerislam",
+    "name": "Tamer Islam",
+    "nameArabic": "تامر إسلام",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.tareqabdulganidaawob",
+    "name": "Tareq Abdul-Gani Daawob",
+    "nameArabic": "طارق عبد الغني دعوب",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.tawfeeqassayegh",
+    "name": "Tawfeeq as-Sayegh",
+    "nameArabic": "توفيق الصايغ",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.turkiebeidalmarri",
+    "name": "Turki Ebeid al-Marri",
+    "nameArabic": "تركي عبيد المري",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.waeldesouky",
+    "name": "Wael ad-Desouky",
+    "nameArabic": "وائل الدسوقي",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.waelradwanqureshi",
+    "name": "Wael Radwan Qureshi",
+    "nameArabic": "وائل رضوان قريشي",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.waleednaehi",
+    "name": "Waleed an-Naehi",
+    "nameArabic": "وليد الناهي",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.waleedidreesalmaneese",
+    "name": "Waleed Idrees al-Maneese",
+    "nameArabic": "وليد إدريس المنيسي",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.waleedsamiraliabdulmajidsorour",
+    "name": "Waleed Samir Ali Abdul-Majid Sorour",
+    "nameArabic": "وليد سمير علي عبد المجيد سرور",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.walidalshatti",
+    "name": "Walid ash-Shatti",
+    "nameArabic": "وليد الشطي",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.walidfathibashta",
+    "name": "Walid Fathi Bashta",
+    "nameArabic": "وليد فتحي بشتة",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.yahyahawwa",
+    "name": "Yahya Hawwa",
+    "nameArabic": "يحيى حوى",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.yassenaljazairi",
+    "name": "Yassen al-Jazairi",
+    "nameArabic": "ياسين الجزائري",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.yasseraldossari",
+    "name": "Yasser ad-Dossari",
+    "nameArabic": "ياسر الدوسري",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.yasseralmazroyee",
+    "name": "Yasser al-Mazroyee",
+    "nameArabic": "ياسر المزروعي",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.yasserqureshi",
+    "name": "Yasser Qureshi",
+    "nameArabic": "ياسر قريشي",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.yassersalama",
+    "name": "Yasser Salama",
+    "nameArabic": "ياسر سلامة",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.yassersarhaneldeeb",
+    "name": "Yasser Sarhan el-Deeb",
+    "nameArabic": "ياسر سرحان الديب",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.yousufalshoaey",
+    "name": "Yousuf ash-Shoaey",
+    "nameArabic": "يوسف الشويعي",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ar.yousufbinnoahahmad",
+    "name": "Yousuf bin Noah Ahmad",
+    "nameArabic": "يوسف بن نوح أحمد",
+    "language": "ar",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "zh.chinese",
+    "name": "Chinese",
+    "nameArabic": "中文",
+    "language": "zh",
+    "type": "versebyverse",
+    "ayahBitrate": 128,
+    "surahBitrate": null
+  },
+  {
+    "id": "tr.vakfi-audio",
+    "name": "Diyanet Vakfı",
+    "nameArabic": "Diyanet Vakfı",
+    "language": "tr",
+    "type": "translation",
+    "ayahBitrate": 128,
+    "surahBitrate": null
+  },
+  {
+    "id": "ru.kuliev-audio",
+    "name": "Elmir Kuliev by 1MuslimApp",
+    "nameArabic": "Эльмир Кулиев (1MuslimApp)",
+    "language": "ru",
+    "type": "versebyverse",
+    "ayahBitrate": 128,
+    "surahBitrate": null
+  },
+  {
+    "id": "en.walk",
+    "name": "Ibrahim Walk",
+    "nameArabic": "Ibrahim Walk",
+    "language": "en",
+    "type": "versebyverse",
+    "ayahBitrate": 192,
+    "surahBitrate": null
+  },
+  {
+    "id": "kk.khalifahaltai-audio",
+    "name": "Kazakh Translation Audio by Khalifah Altai",
+    "nameArabic": "Қазақ - Халифа Алтайдың",
+    "language": "kk",
+    "type": "versebyverse",
+    "ayahBitrate": 128,
+    "surahBitrate": null
+  },
+  {
+    "id": "en.misharyrashidalafasyenglishtranslationsaheehibrahimwalk",
+    "name": "Mishary Rashid Alafasy with Saheeh International translation (Ibrahim Walk)",
+    "nameArabic": "Mishary Rashid Alafasy with Saheeh International translation (Ibrahim Walk)",
+    "language": "en",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "en.muhammadayyubenglishtranslationmuhsinkhanmikaalwaters",
+    "name": "Muhammad Ayyub with Muhsin Khan translation (Mikaal Waters)",
+    "nameArabic": "Muhammad Ayyub with Muhsin Khan translation (Mikaal Waters)",
+    "language": "en",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "ur.khan",
+    "name": "Shamshad Ali Khan",
+    "nameArabic": "شمشاد علی خان",
+    "language": "ur",
+    "type": "versebyverse",
+    "ayahBitrate": 64,
+    "surahBitrate": null
+  },
+  {
+    "id": "en.sudaisandshuraymenglishtranslationpickthallaslamathar",
+    "name": "Sudais & Shuraym with Pickthall translation (Aslam Athar)",
+    "nameArabic": "Sudais & Shuraym with Pickthall translation (Aslam Athar)",
+    "language": "en",
+    "type": "surahbysurah",
+    "ayahBitrate": null,
+    "surahBitrate": 128
+  },
+  {
+    "id": "fr.leclerc",
+    "name": "Youssouf Leclerc",
+    "nameArabic": "Youssouf Leclerc",
+    "language": "fr",
+    "type": "versebyverse",
+    "ayahBitrate": 128,
+    "surahBitrate": null
+  }
+]

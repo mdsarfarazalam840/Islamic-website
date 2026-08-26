@@ -38,6 +38,9 @@ export function usePrayerNotifications() {
     nextPrayerTime: null,
   })
   const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null)
+  // Mirrors state.nextPrayerTime so the polling interval can read it without
+  // being torn down and recreated on every state change.
+  const nextPrayerTimeRef = useRef<Date | null>(null)
 
   const scheduleNotifications = useCallback(async (latitude: number, longitude: number) => {
     const platform = detectPlatform()
@@ -61,6 +64,7 @@ export function usePrayerNotifications() {
 
     if (upcoming.length === 0) return
 
+    nextPrayerTimeRef.current = upcoming[0].time
     setState({
       enabled: true,
       nextPrayer: upcoming[0].name,
@@ -118,6 +122,7 @@ export function usePrayerNotifications() {
 
   const disable = useCallback(async () => {
     storeConfig({ enabled: false, latitude: 0, longitude: 0 })
+    nextPrayerTimeRef.current = null
     setState({ enabled: false, nextPrayer: null, nextPrayerTime: null })
 
     const platform = detectPlatform()
@@ -133,22 +138,25 @@ export function usePrayerNotifications() {
   }, [])
 
   useEffect(() => {
-    const config = getStoredConfig()
-    if (config?.enabled) {
-      scheduleNotifications(config.latitude, config.longitude)
+    // Restoring a stored subscription talks to the OS notification APIs, so the
+    // work (and the state update that follows it) happens off the effect body.
+    async function restoreStoredSchedule() {
+      const config = getStoredConfig()
+      if (config?.enabled) {
+        await scheduleNotifications(config.latitude, config.longitude)
+      }
     }
+    restoreStoredSchedule()
 
+    // Once the pending prayer has passed, roll the schedule forward. Reads the
+    // ref rather than doing side effects inside a setState updater.
     intervalRef.current = setInterval(() => {
-      setState((prev) => {
-        if (!prev.nextPrayerTime) return prev
-        if (new Date() > prev.nextPrayerTime) {
-          const cfg = getStoredConfig()
-          if (cfg?.enabled) {
-            scheduleNotifications(cfg.latitude, cfg.longitude)
-          }
-        }
-        return prev
-      })
+      const next = nextPrayerTimeRef.current
+      if (!next || new Date() <= next) return
+      const cfg = getStoredConfig()
+      if (cfg?.enabled) {
+        scheduleNotifications(cfg.latitude, cfg.longitude)
+      }
     }, 60_000)
 
     return () => {

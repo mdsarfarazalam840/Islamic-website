@@ -20,7 +20,7 @@ interface AyahDisplayProps {
 export function AyahDisplay({ ayah, surah, translationLang, showTranslation, index }: AyahDisplayProps) {
   const isFirstAyah = ayah.ayahNumber === 1 && index === 0
   const { level } = useFontSize()
-  const { playingAyahId, isPlaying, playAyah } = useAudioPlayer()
+  const { playingAyahId, isPlaying, playAyah, canPlayAyah } = useAudioPlayer()
   const isActive = playingAyahId === ayah.number
   const isThisPlaying = isActive && isPlaying
 
@@ -48,11 +48,19 @@ export function AyahDisplay({ ayah, surah, translationLang, showTranslation, ind
             </span>
             <button
               onClick={() => playAyah(ayah.number)}
+              disabled={!canPlayAyah}
+              title={
+                canPlayAyah
+                  ? undefined
+                  : "This reciter only has full-surah audio — pick a verse-by-verse reciter to play single ayahs"
+              }
               className={cn(
                 "flex size-8 shrink-0 items-center justify-center rounded-lg border transition-all duration-200",
-                isActive
-                  ? "border-gold-dim/40 bg-gold-dim/20 text-gold-light"
-                  : "border-border/20 text-muted-foreground hover:border-gold-dim/20 hover:text-gold-light hover:bg-gold-dim/10",
+                !canPlayAyah
+                  ? "cursor-not-allowed border-border/20 text-muted-foreground/40"
+                  : isActive
+                    ? "border-gold-dim/40 bg-gold-dim/20 text-gold-light"
+                    : "border-border/20 text-muted-foreground hover:border-gold-dim/20 hover:text-gold-light hover:bg-gold-dim/10",
               )}
               aria-label={isThisPlaying ? `Pause ayah ${ayah.ayahNumber}` : `Play ayah ${ayah.ayahNumber}`}
             >

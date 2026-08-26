@@ -118,7 +118,7 @@ export function SearchBar({ placeholder = "Search the Quran...", className }: Se
   }, [])
 
   return (
-    <div ref={containerRef} className={cn("relative", className)} role="combobox" aria-expanded={open} aria-haspopup="listbox">
+    <div ref={containerRef} className={cn("relative", className)} role="combobox" aria-expanded={open} aria-controls="search-results" aria-haspopup="listbox">
       <div className="relative">
         {loading ? (
           <Loader2 className="absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted-foreground animate-spin" />
@@ -165,6 +165,7 @@ export function SearchBar({ placeholder = "Search the Quran...", className }: Se
           ))}
           <li
             role="option"
+            aria-selected={false}
             onClick={() => { router.push(`/search?q=${encodeURIComponent(query)}`); setOpen(false) }}
             className="flex items-center justify-center gap-2 rounded-md px-3 py-2 text-sm text-muted-foreground hover:bg-muted/50 cursor-pointer border-t border-border"
           >
