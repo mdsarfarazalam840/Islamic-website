@@ -3,6 +3,7 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query"
 import { useState, useEffect } from "react"
 import { ThemeProvider } from "next-themes"
+import { RealtimeProvider } from "@/components/realtime/RealtimeProvider"
 import { assetPath } from "@/lib/utils"
 
 export function Providers({ children }: { children: React.ReactNode }) {
@@ -46,7 +47,9 @@ export function Providers({ children }: { children: React.ReactNode }) {
         enableSystem
         disableTransitionOnChange
       >
-        {children}
+        {/* Owns the site's single Realtime connection; every live count on every
+            page derives from the one presence snapshot it keeps. */}
+        <RealtimeProvider>{children}</RealtimeProvider>
       </ThemeProvider>
     </QueryClientProvider>
   )

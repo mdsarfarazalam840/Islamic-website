@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { BookOpen, MessageSquareText, Video } from "lucide-react"
+import { LiveVisitors } from "@/components/shared/LiveVisitors"
 
 const footerLinks = [
   {
@@ -55,10 +55,11 @@ export function Footer() {
           ))}
         </div>
         <hr className="gold-divider my-10" />
-        <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
           <p className="text-xs text-muted-foreground/60">
             &copy; {new Date().getFullYear()} Noor. All rights reserved.
           </p>
+          <LiveVisitors />
           <p className="text-xs text-muted-foreground/60 flex items-center gap-1">
             Made with <span className="text-gold-light">&#9829;</span> for the Ummah
           </p>

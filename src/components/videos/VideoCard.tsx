@@ -33,6 +33,8 @@ export function VideoCard({ video, onPlay, index = 0 }: VideoCardProps) {
       aria-label={`Play ${video.title}`}
     >
       <div className="relative aspect-video bg-space-mid/30 overflow-hidden">
+        {/* Remote YouTube thumbnail: the static export has no image optimizer. */}
+        {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={video.thumbnail}
           alt={video.title}

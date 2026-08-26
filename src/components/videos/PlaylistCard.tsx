@@ -28,6 +28,8 @@ export function PlaylistCard({ playlist, onPlay, index = 0 }: PlaylistCardProps)
         <div className="absolute inset-x-2 -top-1 h-2 rounded-t-md bg-space-mid/60" />
         <div className="absolute inset-x-1 top-0 h-2 rounded-t-md bg-space-mid/80" />
         {playlist.thumbnail ? (
+          // Remote YouTube thumbnail: the static export has no image optimizer.
+          // eslint-disable-next-line @next/next/no-img-element
           <img
             src={playlist.thumbnail}
             alt={playlist.title}

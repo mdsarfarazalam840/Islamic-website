@@ -16,19 +16,34 @@ interface ApiSurah {
 interface ApiAyah {
   number: number
   text: string
-  surah: { number: number }
   numberInSurah: number
-  juz: number
-  manzil: number
-  page: number
-  ruku: number
-  hizbQuarter: number
+  juz?: number
 }
 
-async function fetchJson(url: string): Promise<any> {
+/** A surah as returned inside a full-Quran edition response. */
+interface ApiQuranSurah {
+  number: number
+  ayahs: ApiAyah[]
+}
+
+interface ApiResponse<T> {
+  data: T
+}
+
+/** One ayah as written to the per-surah JSON files. */
+interface MergedAyah {
+  number: number
+  surahNumber: number
+  ayahNumber: number
+  juz: number
+  arabic: string
+  translations: { en: string; hi: string; ur: string }
+}
+
+async function fetchJson<T>(url: string): Promise<T> {
   const res = await fetch(url)
   if (!res.ok) throw new Error(`Failed to fetch ${url}: ${res.status}`)
-  return res.json()
+  return res.json() as Promise<T>
 }
 
 function mapRevelationType(t: "Meccan" | "Medinan"): "meccan" | "medinan" {
@@ -37,8 +52,8 @@ function mapRevelationType(t: "Meccan" | "Medinan"): "meccan" | "medinan" {
 
 async function fetchSurahs() {
   console.log("Fetching surah list...")
-  const data = await fetchJson(`${API_BASE}/surah`)
-  const surahs = data.data.map((s: ApiSurah) => ({
+  const data = await fetchJson<ApiResponse<ApiSurah[]>>(`${API_BASE}/surah`)
+  const surahs = data.data.map((s) => ({
     number: s.number,
     name: s.englishName,
     nameArabic: s.name,
@@ -52,9 +67,11 @@ async function fetchSurahs() {
 
 async function fetchTranslation(edition: string): Promise<Record<number, string>> {
   console.log(`  Fetching translation: ${edition}...`)
-  const data = await fetchJson(`${API_BASE}/quran/${edition}`)
+  const data = await fetchJson<ApiResponse<{ surahs: ApiQuranSurah[] }>>(
+    `${API_BASE}/quran/${edition}`,
+  )
   const result: Record<number, string> = {}
-  for (const ayah of data.data.surahs.flatMap((s: any) => s.ayahs)) {
+  for (const ayah of data.data.surahs.flatMap((s) => s.ayahs)) {
     result[ayah.number] = ayah.text
   }
   return result
@@ -62,7 +79,9 @@ async function fetchTranslation(edition: string): Promise<Record<number, string>
 
 async function fetchArabic(): Promise<Record<number, { text: string; surah: number; ayahInSurah: number; juz: number }>> {
   console.log("Fetching Arabic text...")
-  const data = await fetchJson(`${API_BASE}/quran/quran-uthmani`)
+  const data = await fetchJson<ApiResponse<{ surahs: ApiQuranSurah[] }>>(
+    `${API_BASE}/quran/quran-uthmani`,
+  )
   const result: Record<number, { text: string; surah: number; ayahInSurah: number; juz: number }> = {}
   for (const surah of data.data.surahs) {
     const surahNum = surah.number
@@ -80,7 +99,9 @@ async function fetchArabic(): Promise<Record<number, { text: string; surah: numb
 
 async function fetchJuzData(): Promise<{ surah: number; ayah: number }[]> {
   console.log("Fetching juz data...")
-  const data = await fetchJson(`${API_BASE}/juz`)
+  const data = await fetchJson<
+    ApiResponse<{ surah: { number: number }; ayah: { number: number } }[]>
+  >(`${API_BASE}/juz`)
   const juzStart: { surah: number; ayah: number }[] = []
   for (const juz of data.data) {
     juzStart.push({
@@ -143,7 +164,7 @@ async function main() {
     ur: await fetchTranslation(editions[2].key),
   }
 
-  const merged: any[] = []
+  const merged: MergedAyah[] = []
   for (const [ayahNum, info] of Object.entries(arabicData)) {
     merged.push({
       number: Number(ayahNum),
@@ -161,7 +182,7 @@ async function main() {
 
   merged.sort((a, b) => a.number - b.number)
 
-  const groupedBySurah: Record<number, any[]> = {}
+  const groupedBySurah: Record<number, MergedAyah[]> = {}
   for (const ayah of merged) {
     if (!groupedBySurah[ayah.surahNumber]) {
       groupedBySurah[ayah.surahNumber] = []

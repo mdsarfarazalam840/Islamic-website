@@ -30,7 +30,7 @@
 | 2.4 | Juz navigator | ✅ | Prev/next buttons, jump-to-juz chips, scroll-linked auto-detection via IntersectionObserver |
 | 2.5 | Ayah actions | ✅ | Bookmark (localStorage, reactive via useSyncExternalStore), copy to clipboard, share (Web Share API + fallback) |
 | 2.6 | Quran search | ✅ | Fuse.js fuzzy search on 6236 verses, weighted keys (en/hi/ur/arabic), language filter, results link to ayah anchors |
-| 2.7 | Audio integration | ✅ | External link to free Mishary Al-Afasy recitation (mp3quran.net) on each surah page |
+| 2.7 | Audio integration | ✅ | In-page player on every surah page; full reciter catalog (islamic.network CDN) with searchable picker, persisted choice, verse-by-verse sync (ayah highlight + auto-scroll + auto-advance) for per-ayah reciters and single-track playback for full-surah reciters |
 
 ### Files Created for Phase 2:
 

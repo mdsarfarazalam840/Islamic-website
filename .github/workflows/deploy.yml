@@ -61,6 +61,18 @@ jobs:
       #  - NEXT_PUBLIC_PAGEFIND_BUNDLE -> same-origin index path (search/pagefind.ts)
       NEXT_PUBLIC_BASE_PATH: /${{ github.event.repository.name }}
       NEXT_PUBLIC_PAGEFIND_BUNDLE: /${{ github.event.repository.name }}/pagefind
+      # Live layer (lib/supabase/client.ts, components/realtime). Add these under
+      # repo Settings -> Secrets and variables -> Actions. The anon key is meant to
+      # be public — RLS plus supabase/migrations/0001_site_stats.sql and
+      # 0002_visit_rate_limit.sql limit it to reading the counter and calling a
+      # rate-limited bump_visits(). Leave them unset and nothing live renders.
+      NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+      NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_ANON_KEY }}
+      # Optional kill switch. Set this repo variable to "off" to keep only the
+      # footer's online + visits numbers; presence writes fan out to every
+      # connected tab, so it is the lever for staying inside the Realtime message
+      # quota.
+      NEXT_PUBLIC_LIVE_DETAIL: ${{ vars.NEXT_PUBLIC_LIVE_DETAIL }}
     steps:
       - uses: actions/checkout@v4
         with:

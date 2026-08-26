@@ -1,12 +1,10 @@
 "use client"
 
-import { Play, Pause, Loader2, AlertCircle } from "lucide-react"
+import { Play, Pause, Loader2, AlertCircle, Headphones } from "lucide-react"
+import { useRealtime } from "@/components/realtime/RealtimeProvider"
 import { cn } from "@/lib/utils"
 import { useAudioPlayer } from "./AudioPlayerContext"
-
-interface SurahAudioPlayerProps {
-  reciterName: string
-}
+import { ReciterSelect } from "./ReciterSelect"
 
 function formatTime(seconds: number): string {
   if (!Number.isFinite(seconds) || seconds < 0) return "0:00"
@@ -15,7 +13,7 @@ function formatTime(seconds: number): string {
   return `${m}:${s.toString().padStart(2, "0")}`
 }
 
-export function SurahAudioPlayer({ reciterName }: SurahAudioPlayerProps) {
+export function SurahAudioPlayer() {
   const {
     isPlaying,
     status,
@@ -24,10 +22,15 @@ export function SurahAudioPlayer({ reciterName }: SurahAudioPlayerProps) {
     speed,
     position,
     total,
+    mode,
+    surahNumber,
     toggle,
     seek,
     cycleSpeed,
   } = useAudioPlayer()
+
+  const { bySurah } = useRealtime()
+  const listeners = bySurah.get(surahNumber)?.listeners ?? 0
 
   return (
     <div className="w-full max-w-md rounded-xl border border-border/50 bg-card px-4 py-3 shadow-sm">
@@ -56,15 +59,15 @@ export function SurahAudioPlayer({ reciterName }: SurahAudioPlayerProps) {
 
         <div className="flex min-w-0 flex-1 flex-col gap-1">
           <div className="flex items-center justify-between gap-2">
-            <span className="truncate text-xs font-medium text-foreground">
-              {reciterName}
-            </span>
+            <ReciterSelect className="flex-1" />
             <span className="shrink-0 text-[11px] tabular-nums text-muted-foreground">
               {status === "error"
                 ? "Unavailable"
-                : position > 0
-                  ? `Ayah ${position} / ${total}`
-                  : `${total} verses`}
+                : mode === "surah"
+                  ? "Full surah"
+                  : position > 0
+                    ? `Ayah ${position} / ${total}`
+                    : `${total} verses`}
             </span>
           </div>
 
@@ -82,6 +85,19 @@ export function SurahAudioPlayer({ reciterName }: SurahAudioPlayerProps) {
 
           <div className="flex items-center justify-between gap-2 text-[11px] tabular-nums text-muted-foreground">
             <span>{formatTime(currentTime)}</span>
+            {listeners > 0 && (
+              <span
+                className="flex items-center gap-1 text-emerald/80"
+                title={
+                  listeners === 1
+                    ? "1 person listening to this surah now"
+                    : `${listeners} people listening to this surah now`
+                }
+              >
+                <Headphones className="size-3" aria-hidden />
+                {listeners} listening
+              </span>
+            )}
             <span>{formatTime(duration)}</span>
           </div>
         </div>

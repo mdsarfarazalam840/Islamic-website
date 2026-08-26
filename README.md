@@ -42,6 +42,9 @@ A premium open-source Quran & Hadith platform — complete Quran with multilingu
 ### 📖 Quran Reader
 All 114 surahs with Arabic (Uthmani script) + English, Urdu, Hindi translations. Triptych layout: navigation sidebar | Arabic center panel | translation panel. Gold-illuminated ayah numbers, gold drop-caps, verse markers. Juz navigator with gold dot indicators. Ayah bookmarking, copy, and share.
 
+### 🔊 Recitation & Reciters
+Every audio edition on the islamic.network CDN (~190 reciters) is selectable from a searchable picker in the surah player, and the choice persists across surahs and reloads. Reciters that publish per-ayah audio play **in sync with the text** — the active verse is highlighted, the reader auto-scrolls to it (switching Juz when needed), playback auto-advances verse to verse, and every ayah has its own play button. Reciters that only publish full-surah recordings play as a single track. The catalog, including each edition's bitrate, is probed once at build time by `npm run fetch:reciters`, so nothing is guessed at runtime.
+
 ### 📜 Hadith Collections
 36,000+ authentic hadiths across 7 major collections — Bukhari, Muslim, Abu Dawud, Tirmidhi, Nasa'i, Ibn Majah, and Muwatta Malik. Sanad (narration chain) visualization. Grade badges: emerald (Sahih), gold (Hasan), muted (Da'if). Full-text search via Pagefind, plus direct hadith-number lookup.
 
@@ -61,6 +64,11 @@ A bare number can't tell you which of a collection's ~100 books holds it, so a b
 
 ### 🔖 Saved & Resume
 Bookmark any ayah, hadith, or Knowledge Base article, or hit **Save my spot** while reading to keep the exact verse/hadith you were on. The **Saved** tab (bottom nav on mobile, main nav on desktop) lists every bookmark with filters, plus a "pick up where you left off" row for the Quran, Hadith, Knowledge Base, and videos — each deep-linking straight back to the anchor you left. Reading positions are tracked automatically as you scroll. All of it lives in `localStorage`, per device, with no account required.
+
+### 👥 Live Visitors
+The footer shows how many people are reading right now and how many visits the site has had. "Reading now" is Supabase Realtime **presence** — every open tab tracks itself on a shared channel, so the number rises the moment someone lands and falls the moment they close the tab, with no polling and no timeout guesswork. The visit total is one Postgres row bumped once per browsing session and subscribed to over Realtime, so it ticks up for everyone already on the page.
+
+Optional: with no Supabase env vars the badge renders nothing rather than showing zeros, which is also what the desktop/mobile shells do when offline. See [Environment Variables](#environment-variables).
 
 ### 🎨 Noor Al-Quds Design System
 Chamber-based navigation — every page is a sacred chamber with unique lighting. Gold + deep navy palette. Vanishing navbar with floating lantern button. Three.js 3D environment (star particles, Kaaba model). Dark/Light modes.
@@ -172,10 +180,34 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
+### Environment Variables
+
+Everything works without these; each one switches on one optional piece. Put them in `.env.local` for development, and in **Settings → Secrets and variables → Actions** for the Pages deploy.
+
+| Variable | Purpose |
+| --- | --- |
+| `NEXT_PUBLIC_SUPABASE_URL` | Supabase project URL — enables the live layer: the footer badge, per-surah reader counts, trending surahs, the activity feed, and the audio listener count. |
+| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Supabase anon (publishable) key. Public by design; RLS limits it to reading the counter and calling `bump_visits()`. |
+| `NEXT_PUBLIC_LIVE_DETAIL` | Set to `off` to keep only the footer's online + visits numbers and switch the per-surah, trending, and activity features off. Presence updates fan out to every connected tab, so this is the lever to pull if the project's Realtime message quota comes into view. |
+| `NEXT_PUBLIC_BASE_PATH` | URL subpath for project-site hosting. Set by the deploy workflow; leave unset locally. |
+| `NEXT_PUBLIC_PAGEFIND_BUNDLE` | Where the search index is served from. Set by the deploy workflow. |
+
+For the live layer, run both migrations once in the Supabase SQL Editor, in order:
+
+- `supabase/migrations/0001_site_stats.sql` — the counter row, its RLS policies, and `bump_visits()`.
+- `supabase/migrations/0002_visit_rate_limit.sql` — rebuilds `bump_visits()` with a per-address daily
+  budget. Without it the RPC is a loop away from meaningless: the anon key ships in the client
+  bundle, so anyone could drive the counter anywhere and burn the project's request quota doing it.
+
+Visits are counted once per browser per UTC day, and capped at 20 per address per UTC day server-side
+(tunable via `public.visit_daily_cap()`). The cap is well above 1 on purpose — carrier NAT and office
+networks put many real readers behind a single address.
+
 ### Build Data
 
 ```bash
 npm run fetch:quran        # Quran JSON
+npm run fetch:reciters     # Reciter catalog + per-edition audio bitrates
 npm run fetch:hadith       # 7 Hadith collections
 npm run fetch:youtube      # Latest videos
 npm run build:pagefind     # Search index
@@ -220,7 +252,7 @@ src/
 │   └── about/              # About page
 ├── components/
 │   ├── layout/             # Navbar, Footer, Sidebar, MobileNav
-│   ├── quran/              # QuranReader, AyahDisplay, SurahCard, JuzNavigator
+│   ├── quran/              # QuranReader, AyahDisplay, SurahCard, JuzNavigator, SurahAudioPlayer, ReciterSelect
 │   ├── hadith/             # HadithCard, HadithChain, CollectionCard, HadithSearch
 │   ├── knowledge/          # ArticleView, BlockRenderer, VerseBlockView, HadithBlockView, SourceTagBadge
 │   ├── videos/             # VideoCard, VideoGrid, YouTubeEmbed, CategoryFilter
@@ -228,9 +260,9 @@ src/
 │   ├── three/              # HeroScene3D, KaabaModel, MosqueScene, StarParticles
 │   ├── ui/                 # shadcn primitives
 │   └── shared/             # ThemeToggle, BookmarkButton, SaveSpotButton, SearchBar, Breadcrumbs, ErrorBoundary
-├── config/                 # site.ts, scholars.ts, api.ts
+├── config/                 # site.ts, scholars.ts, api.ts, audio.ts (reciter catalog + CDN URLs)
 ├── lib/                    # Data layers (quran, hadith, youtube, knowledge, utils)
-├── hooks/                  # useBookmarks, useQuran, useYouTube, reading/hadith/article/video progress
+├── hooks/                  # useBookmarks, useQuran, useYouTube, useReciter, reading/hadith/article/video progress
 └── types/                  # TypeScript interfaces
 
 public/
@@ -241,10 +273,12 @@ public/
 └── sw.js                   # Service worker
 
 src/data/
-└── knowledge/articles/     # Knowledge Base articles (one JSON per article)
+├── knowledge/articles/     # Knowledge Base articles (one JSON per article)
+└── quran/                  # surahs.json, reciters.json (audio edition catalog)
 
 scripts/
 ├── fetch-quran-data.ts     # Quran JSON builder
+├── fetch-reciters.ts       # Reciter catalog + bitrate prober
 ├── fetch-hadith-data.ts    # Hadith JSON builder
 ├── fetch-youtube-data.ts   # YouTube scraper
 ├── build-pagefind-index.mjs
@@ -302,6 +336,8 @@ Gold is never flat — all gold elements use multi-stop gradients for metallic f
 | Data | Source | When |
 |------|--------|------|
 | Quran (Arabic + EN/UR/HI) | Public Quran APIs | Build → `public/data/quran/` |
+| Reciter catalog | alquran.cloud editions + islamic.network CDN probe | Build → `src/data/quran/reciters.json` |
+| Recitation audio | islamic.network CDN (per-ayah and per-surah MP3) | Streamed on demand in the browser |
 | Hadith (7 collections) | Public Hadith APIs | Build → `public/data/hadith/` |
 | Knowledge Base (EN/HI/UR) | Authored, source-graded articles | Hand-written → `src/data/knowledge/articles/` |
 | Scholar Videos | YouTube `/videos` tabs | Build + twice-daily cron → `public/data/youtube/` |

@@ -7,8 +7,8 @@ import { ArrowLeft, BookOpen } from "lucide-react"
 import { QuranReader } from "@/components/quran/QuranReader"
 import { SurahAudioPlayer } from "@/components/quran/SurahAudioPlayer"
 import { AudioPlayerProvider } from "@/components/quran/AudioPlayerContext"
+import { SurahPresence } from "@/components/quran/SurahPresence"
 import { FontSizeControls } from "@/components/shared/FontSizeControls"
-import { RECITER_NAME } from "@/config/audio"
 
 interface Props {
   params: Promise<{ surahNumber: string }>
@@ -83,6 +83,10 @@ export default async function SurahPage({ params }: Props) {
           {surah.juz.length > 0 && ` \u00b7 Juz ${surah.juz.join(", ")}`}
         </p>
 
+        {/* Name is handed down rather than looked up client-side: it travels in
+            this tab's presence payload so other pages can label the surah
+            without bundling the catalog. */}
+        <SurahPresence surah={surah.number} name={surah.name} />
       </div>
 
       {ayahs.length === 0 ? (
@@ -96,9 +100,9 @@ export default async function SurahPage({ params }: Props) {
           </p>
         </div>
       ) : (
-        <AudioPlayerProvider ayahs={ayahs}>
+        <AudioPlayerProvider ayahs={ayahs} surahNumber={surah.number}>
           <div className="flex justify-center mb-10">
-            <SurahAudioPlayer reciterName={RECITER_NAME} />
+            <SurahAudioPlayer />
           </div>
           <QuranReader surah={surah} ayahs={ayahs} />
         </AudioPlayerProvider>

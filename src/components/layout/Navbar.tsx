@@ -49,10 +49,15 @@ export function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll)
   }, [handleScroll])
 
-  useEffect(() => {
+  // Collapse both menus on navigation. Adjusting state during render (rather
+  // than in an effect) closes them in the same commit as the route change, so
+  // the open menu never flashes over the new page.
+  const [menuRoute, setMenuRoute] = useState(pathname)
+  if (menuRoute !== pathname) {
+    setMenuRoute(pathname)
     setMobileOpen(false)
     setLanternOpen(false)
-  }, [pathname])
+  }
 
   return (
     <>

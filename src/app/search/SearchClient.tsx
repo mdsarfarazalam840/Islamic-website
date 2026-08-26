@@ -497,6 +497,8 @@ export function SearchClient() {
                       className="group block rounded-xl border border-border/30 bg-card/50 p-4 transition-all duration-200 hover:border-secondary/20 hover:bg-card">
                       <div className="flex items-start gap-3">
                         <div className="shrink-0 w-24 aspect-video rounded-lg overflow-hidden bg-surface">
+                          {/* Remote YouTube thumbnail: the static export has no image optimizer. */}
+                          {/* eslint-disable-next-line @next/next/no-img-element */}
                           <img src={v.thumbnail} alt="" className="size-full object-cover" loading="lazy"
                             onError={(e) => { (e.target as HTMLImageElement).style.display = "none" }} />
                         </div>

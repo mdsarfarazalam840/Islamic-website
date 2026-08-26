@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useMemo, useState } from "react"
+import { useMemo, useState } from "react"
 import { VideoGrid } from "@/components/videos/VideoGrid"
 import { YouTubeEmbed } from "@/components/videos/YouTubeEmbed"
 import { ContinueWatching } from "@/components/videos/ContinueWatching"
@@ -18,6 +18,14 @@ export function VideosClient() {
   const [activeCategory, setActiveCategory] = useState("all")
   const [playingVideo, setPlayingVideo] = useState<Video | null>(null)
   const [page, setPage] = useState(1)
+  // Reset to the first page whenever the user switches categories. Adjusting
+  // state during render (rather than in an effect) avoids rendering one frame
+  // of the wrong page.
+  const [pagedCategory, setPagedCategory] = useState(activeCategory)
+  if (pagedCategory !== activeCategory) {
+    setPagedCategory(activeCategory)
+    setPage(1)
+  }
 
   const categories = getCategories()
 
@@ -28,12 +36,6 @@ export function VideosClient() {
         : (videos || []).filter((v) => v.category === activeCategory),
     [videos, activeCategory],
   )
-
-  // Reset to the first page whenever the filtered set changes (e.g. the user
-  // switches categories or the data finishes loading).
-  useEffect(() => {
-    setPage(1)
-  }, [activeCategory])
 
   const totalPages = Math.max(1, Math.ceil(filteredVideos.length / PAGE_SIZE))
   const currentPage = Math.min(page, totalPages)
