@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { BookOpen, MessageSquareText, Video, Search, ArrowRight, Library, BookMarked } from "lucide-react"
+import { BookOpen, MessageSquareText, Video, Search, ArrowRight, Library, BookMarked, CircleDot } from "lucide-react"
 import { buttonVariants } from "@/components/ui/button"
 import { DynamicHero } from "@/components/three/DynamicHero"
 import { getAllSurahs } from "@/lib/quran/surahs"
@@ -39,6 +39,14 @@ const quickLinks = [
     href: "/videos",
     gradient: "from-accent/20 to-accent/5",
     stats: "19 Scholars",
+  },
+  {
+    title: "Tasbih",
+    description: "Count your dhikr on an interactive tasbih with rounds and totals",
+    icon: CircleDot,
+    href: "/tasbih",
+    gradient: "from-emerald/20 to-emerald/5",
+    stats: "9 Dhikr · Tasbih of Fatimah",
   },
   {
     title: "Search",
@@ -126,9 +134,11 @@ export default function HomePage() {
         <ContinueSection heading="Pick up where you left off" className="mb-8" />
       </section>
 
-      {/* Quick Links — Five Chambers */}
+      {/* Quick Links — Six Chambers */}
       <section className="mx-auto max-w-7xl w-full px-4 sm:px-6">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
+        {/* Three across at lg and up: with six cards a five-column row would
+            leave one card stranded on a line of its own. */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {quickLinks.map(({ title, description, icon: Icon, href, gradient, stats }) => (
             <Link
               key={href}

@@ -1,0 +1,94 @@
+{
+  "slug": "salah-nafl-prayers",
+  "category": "salah",
+  "order": 5,
+  "title": {
+    "en": "Nafl Prayers — Tahajjud, Ishrāq, Tarāwīḥ and More",
+    "hi": "नफ़्ल नमाज़ें — तहज्जुद, इशराक़, तरावीह और बाक़ी",
+    "ur": "نفل نمازیں — تہجد، اشراق، تراویح اور دیگر"
+  },
+  "summary": {
+    "en": "The voluntary prayers a Muslim may add to the five: tahajjud in the depth of the night, ishrāq and ḍuḥā after sunrise, awwābīn after Maghrib, tahiyyat al-masjid, ṣalāt al-istikhārah, and tarāwīḥ in Ramadan.",
+    "hi": "पाँच नमाज़ों के अलावा जो नफ़्ल नमाज़ें पढ़ी जा सकती हैं: रात के आख़िरी हिस्से में तहज्जुद, सूरज निकलने के बाद इशराक़ और चाश्त, मग़रिब के बाद अव्वाबीन, तहिय्यतुल-मस्जिद, सलातुल-इस्तिख़ारा, और रमज़ान में तरावीह।",
+    "ur": "پانچ نمازوں کے علاوہ جو نفل نمازیں پڑھی جا سکتی ہیں: رات کے آخری حصے میں تہجد، سورج نکلنے کے بعد اشراق اور چاشت، مغرب کے بعد اوابین، تحیۃ المسجد، صلاۃ الاستخارہ، اور رمضان میں تراویح۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Nafl prayers carry no obligation. Nothing is owed for leaving them and no expiation is required, which is precisely what makes them valuable: they are given freely. The farḍ prayers are the debt a servant owes; the nafl are the gift they offer beyond it." },
+      { "kind": "heading", "level": 2, "text": "Tahajjud — the night prayer" },
+      { "kind": "p", "text": "Prayed after waking from sleep in the later part of the night, ideally in its final third. Two rakʿahs are enough; eight are the pattern reported most often from the Prophet ﷺ, prayed two by two. It is the most emphasised of all the voluntary prayers, and the Qur'an addresses the Prophet ﷺ about it directly." },
+      { "kind": "verse", "surah": 17, "ayah": 79, "note": "Rise for prayer in part of the night as an additional act — nāfilah — and your Lord may raise you to a praised station." },
+      { "kind": "verse", "surah": 51, "ayah": 18, "note": "Of the righteous: in the hours before dawn they would ask forgiveness." },
+      { "kind": "heading", "level": 2, "text": "Ishrāq and ḍuḥā (chāsht)" },
+      { "kind": "p", "text": "Ishrāq is two rakʿahs prayed a short while after sunrise, once the sun has risen clear of the horizon — traditionally by someone who stayed in the mosque from Fajr until then. Ḍuḥā, called chāsht in the subcontinent, comes later in the morning as the day warms, and is two to twelve rakʿahs. Neither prayer may be offered in the few minutes while the sun is actually rising." },
+      { "kind": "heading", "level": 2, "text": "Awwābīn — after Maghrib" },
+      { "kind": "p", "text": "Six rakʿahs after the sunnah of Maghrib, prayed in sets of two. The name comes from awwāb, one who keeps turning back to Allah, and this is the prayer of those who return to Him at the close of the day." },
+      { "kind": "heading", "level": 2, "text": "Tahiyyat al-masjid — greeting the mosque" },
+      { "kind": "p", "text": "Two rakʿahs on entering a mosque, before sitting down. If a farḍ or sunnah prayer is offered instead, that counts in its place — the point is that the mosque is not entered and sat in without prayer. It is omitted when the congregation has already begun or when the time is one in which prayer is not offered." },
+      { "kind": "heading", "level": 2, "text": "Ṣalāt al-istikhārah — seeking guidance" },
+      { "kind": "p", "text": "Two rakʿahs prayed when facing a decision, followed by a duʿāʾ asking Allah to make the matter easy if it is good and to turn it away if it is not. It replaces neither research nor consultation; it is what a believer adds to both." },
+      { "kind": "arabic", "text": "اللَّهُمَّ إِنِّي أَسْتَخِيرُكَ بِعِلْمِكَ، وَأَسْتَقْدِرُكَ بِقُدْرَتِكَ، وَأَسْأَلُكَ مِنْ فَضْلِكَ الْعَظِيمِ، فَإِنَّكَ تَقْدِرُ وَلَا أَقْدِرُ، وَتَعْلَمُ وَلَا أَعْلَمُ، وَأَنْتَ عَلَّامُ الْغُيُوبِ", "transliteration": "Allāhumma innī astakhīruka bi-ʿilmika, wa astaqdiruka bi-qudratika, wa asʾaluka min faḍlika'l-ʿaẓīm, fa-innaka taqdiru wa lā aqdiru, wa taʿlamu wa lā aʿlamu, wa anta ʿallāmu'l-ghuyūb", "translation": "O Allah, I seek Your guidance through Your knowledge, and Your help through Your power, and I ask You of Your immense bounty — for You have power and I have none, You know and I do not, and You are the Knower of all that is hidden.", "label": "The opening of the duʿāʾ of istikhārah" },
+      { "kind": "heading", "level": 2, "text": "Tarāwīḥ — the prayer of Ramadan" },
+      { "kind": "p", "text": "Prayed after ʿIshāʾ throughout Ramadan, in sets of two rakʿahs with a rest after each four — the word tarāwīḥ means those rests. Twenty rakʿahs is the number established in the practice of ʿUmar's time and followed in the Ḥanafī school; some pray eight, citing narrations of the Prophet's own night prayer. It is a sunnah muʾakkadah, and in most mosques the ḥāfiẓ completes the whole Qur'an across the month." },
+      { "kind": "heading", "level": 2, "text": "Ṣalāt al-tasbīḥ" },
+      { "kind": "p", "text": "Four rakʿahs in which the tasbīḥ Subḥānallāhi wa'l-ḥamdu li'llāhi wa lā ilāha illa'llāhu wa'llāhu akbar is said seventy-five times in each rakʿah, distributed across the standing, rukūʿ, sujūd and the sittings — three hundred times in all. It is reported as a prayer of great forgiveness, and scholars differ over the strength of the narration; those who accept it treat it as a virtue to seek, not an obligation." },
+      { "kind": "p", "text": "Two rakʿahs of nafl may also be prayed for almost any occasion — after wuḍūʾ, before travelling, on returning home, in need, or in thanks. Nothing limits the believer here except the times in which prayer is not offered: while the sun is rising, at its zenith, and while it is setting." }
+    ],
+    "hi": [
+      { "kind": "p", "text": "नफ़्ल नमाज़ों की कोई पाबंदी नहीं। छोड़ने पर कुछ लाज़िम नहीं आता और कोई कफ़्फ़ारा नहीं — और यही बात इन्हें क़ीमती बनाती है: ये अपनी मर्ज़ी से दी जाती हैं। फ़र्ज़ नमाज़ें वह क़र्ज़ हैं जो बंदे पर है; नफ़्ल वह तोहफ़ा है जो वह उसके ऊपर पेश करता है।" },
+      { "kind": "heading", "level": 2, "text": "तहज्जुद — रात की नमाज़" },
+      { "kind": "p", "text": "रात के आख़िरी हिस्से में नींद से उठकर पढ़ी जाती है, बेहतर है आख़िरी तिहाई में। दो रकअतें काफ़ी हैं; आठ रकअतें वह तरतीब है जो नबी ﷺ से सबसे ज़्यादा रिवायत हुई है, दो-दो करके। यह सब नफ़्ल नमाज़ों में सबसे ताकीद वाली है, और क़ुरआन ख़ुद नबी ﷺ को इसका हुक्म देता है।" },
+      { "kind": "verse", "surah": 17, "ayah": 79, "note": "रात के एक हिस्से में नमाज़ के लिए उठो — नाफ़िला के तौर पर — शायद तुम्हारा रब तुम्हें तारीफ़ के मक़ाम पर पहुँचा दे।" },
+      { "kind": "verse", "surah": 51, "ayah": 18, "note": "नेक लोगों के बारे में: वे सहर के वक़्त बख़्शिश माँगते थे।" },
+      { "kind": "heading", "level": 2, "text": "इशराक़ और चाश्त" },
+      { "kind": "p", "text": "इशराक़ दो रकअतें हैं जो सूरज निकलने के कुछ देर बाद पढ़ी जाती हैं, जब सूरज उफ़ुक़ से अच्छी तरह बुलंद हो जाए — रिवायती तौर पर उस शख़्स की नमाज़ जो फ़ज्र से उस वक़्त तक मस्जिद में बैठा रहे। चाश्त दिन चढ़ने पर पढ़ी जाती है और दो से बारह रकअतें तक है। दोनों में से कोई नमाज़ उन कुछ मिनटों में नहीं पढ़ी जाती जब सूरज तुलू हो रहा हो।" },
+      { "kind": "heading", "level": 2, "text": "अव्वाबीन — मग़रिब के बाद" },
+      { "kind": "p", "text": "मग़रिब की सुन्नत के बाद छह रकअतें, दो-दो करके। नाम अव्वाब से है, यानी वह जो बार-बार अल्लाह की तरफ़ लौटता है, और यह उन्हीं लोगों की नमाज़ है जो दिन ढलते वक़्त उसकी तरफ़ लौटते हैं।" },
+      { "kind": "heading", "level": 2, "text": "तहिय्यतुल-मस्जिद — मस्जिद का सलाम" },
+      { "kind": "p", "text": "मस्जिद में दाख़िल होकर बैठने से पहले दो रकअतें। अगर उसकी जगह कोई फ़र्ज़ या सुन्नत पढ़ ली जाए तो वह उसके क़ायम-मक़ाम हो जाती है — बात यह है कि मस्जिद में बिना नमाज़ के बैठा न जाए। जमाअत शुरू हो चुकी हो या मकरूह वक़्त हो तो यह छोड़ दी जाती है।" },
+      { "kind": "heading", "level": 2, "text": "सलातुल-इस्तिख़ारा — रहनुमाई तलब करना" },
+      { "kind": "p", "text": "किसी फ़ैसले के मौक़े पर दो रकअतें, उसके बाद यह दुआ कि अगर यह काम बेहतर हो तो अल्लाह उसे आसान कर दे और अगर न हो तो उसे हटा दे। यह न तहक़ीक़ की जगह लेती है और न मशवरे की; यह वह चीज़ है जो मोमिन दोनों के ऊपर बढ़ाता है।" },
+      { "kind": "arabic", "text": "اللَّهُمَّ إِنِّي أَسْتَخِيرُكَ بِعِلْمِكَ، وَأَسْتَقْدِرُكَ بِقُدْرَتِكَ، وَأَسْأَلُكَ مِنْ فَضْلِكَ الْعَظِيمِ، فَإِنَّكَ تَقْدِرُ وَلَا أَقْدِرُ، وَتَعْلَمُ وَلَا أَعْلَمُ، وَأَنْتَ عَلَّامُ الْغُيُوبِ", "transliteration": "Allāhumma innī astakhīruka bi-ʿilmika, wa astaqdiruka bi-qudratika, wa asʾaluka min faḍlika'l-ʿaẓīm, fa-innaka taqdiru wa lā aqdiru, wa taʿlamu wa lā aʿlamu, wa anta ʿallāmu'l-ghuyūb", "translation": "ऐ अल्लाह! मैं तेरे इल्म के ज़रिए तुझसे ख़ैर माँगता हूँ, तेरी क़ुदरत के ज़रिए तुझसे ताक़त माँगता हूँ, और तेरे बड़े फ़ज़्ल का सवाल करता हूँ — क्योंकि तू क़ुदरत रखता है और मैं नहीं, तू जानता है और मैं नहीं, और तू ही सब छिपी बातों का जानने वाला है।", "label": "दुआ-ए-इस्तिख़ारा का आग़ाज़" },
+      { "kind": "heading", "level": 2, "text": "तरावीह — रमज़ान की नमाज़" },
+      { "kind": "p", "text": "पूरे रमज़ान में इशा के बाद पढ़ी जाती है, दो-दो रकअतों में, और हर चार के बाद थोड़ा आराम — तरावीह का लफ़्ज़ इन्हीं आरामों से है। बीस रकअतें वह अदद है जो हज़रत उमर के ज़माने के अमल से साबित है और हनफ़ी मसलक में इसी पर अमल है; कुछ लोग आठ पढ़ते हैं, नबी ﷺ की रात की नमाज़ की रिवायात के हवाले से। यह सुन्नत-ए-मुअक्कदा है, और ज़्यादातर मस्जिदों में हाफ़िज़ महीने भर में पूरा क़ुरआन ख़त्म करता है।" },
+      { "kind": "heading", "level": 2, "text": "सलातुत-तस्बीह" },
+      { "kind": "p", "text": "चार रकअतें जिनमें हर रकअत में सुबहानअल्लाहि वल-हम्दु लिल्लाहि वला इलाहा इल्लल्लाहु वल्लाहु अकबर पचहत्तर बार पढ़ी जाती है — क़ियाम, रुकू, सजदे और बैठक में बाँटकर, कुल तीन सौ बार। यह बड़ी बख़्शिश की नमाज़ बताई गई है, और उलमा रिवायत की क़ुव्वत में मुख़्तलिफ़ हैं; जो इसे लेते हैं वे इसे तलब करने की फ़ज़ीलत मानते हैं, कोई लाज़िम चीज़ नहीं।" },
+      { "kind": "p", "text": "दो रकअत नफ़्ल तक़रीबन हर मौक़े पर पढ़ी जा सकती हैं — वुज़ू के बाद, सफ़र से पहले, घर लौटने पर, किसी हाजत में, या शुक्र में। यहाँ मोमिन पर कोई हद नहीं सिवाय उन वक़्तों की जिनमें नमाज़ नहीं पढ़ी जाती: सूरज तुलू होते वक़्त, ठीक दोपहर में, और सूरज डूबते वक़्त।" }
+    ],
+    "ur": [
+      { "kind": "p", "text": "نفل نمازوں کی کوئی پابندی نہیں۔ چھوڑنے پر کچھ لازم نہیں آتا اور کوئی کفارہ نہیں — اور یہی بات اِنہیں قیمتی بناتی ہے: یہ اپنی مرضی سے دی جاتی ہیں۔ فرض نمازیں وہ قرض ہیں جو بندے پر ہے؛ نفل وہ تحفہ ہے جو وہ اُس کے اوپر پیش کرتا ہے۔" },
+      { "kind": "heading", "level": 2, "text": "تہجد — رات کی نماز" },
+      { "kind": "p", "text": "رات کے آخری حصے میں نیند سے اٹھ کر پڑھی جاتی ہے، بہتر ہے آخری تہائی میں۔ دو رکعتیں کافی ہیں؛ آٹھ رکعتیں وہ ترتیب ہے جو نبی ﷺ سے سب سے زیادہ روایت ہوئی ہے، دو دو کر کے۔ یہ سب نفل نمازوں میں سب سے تاکید والی ہے، اور قرآن خود نبی ﷺ کو اِس کا حکم دیتا ہے۔" },
+      { "kind": "verse", "surah": 17, "ayah": 79, "note": "رات کے ایک حصے میں نماز کے لیے اٹھو — نافلہ کے طور پر — شاید تمہارا رب تمہیں تعریف کے مقام پر پہنچا دے۔" },
+      { "kind": "verse", "surah": 51, "ayah": 18, "note": "نیک لوگوں کے بارے میں: وہ سحر کے وقت بخشش مانگتے تھے۔" },
+      { "kind": "heading", "level": 2, "text": "اشراق اور چاشت" },
+      { "kind": "p", "text": "اشراق دو رکعتیں ہیں جو سورج نکلنے کے کچھ دیر بعد پڑھی جاتی ہیں، جب سورج افق سے اچھی طرح بلند ہو جائے — روایتی طور پر اُس شخص کی نماز جو فجر سے اُس وقت تک مسجد میں بیٹھا رہے۔ چاشت دن چڑھنے پر پڑھی جاتی ہے اور دو سے بارہ رکعتیں تک ہے۔ دونوں میں سے کوئی نماز اُن چند منٹوں میں نہیں پڑھی جاتی جب سورج طلوع ہو رہا ہو۔" },
+      { "kind": "heading", "level": 2, "text": "اوابین — مغرب کے بعد" },
+      { "kind": "p", "text": "مغرب کی سنت کے بعد چھ رکعتیں، دو دو کر کے۔ نام اوّاب سے ہے، یعنی وہ جو بار بار اللہ کی طرف لوٹتا ہے، اور یہ اُنہی لوگوں کی نماز ہے جو دن ڈھلتے وقت اُس کی طرف لوٹتے ہیں۔" },
+      { "kind": "heading", "level": 2, "text": "تحیۃ المسجد — مسجد کا سلام" },
+      { "kind": "p", "text": "مسجد میں داخل ہو کر بیٹھنے سے پہلے دو رکعتیں۔ اگر اُس کی جگہ کوئی فرض یا سنت پڑھ لی جائے تو وہ اُس کے قائم مقام ہو جاتی ہے — بات یہ ہے کہ مسجد میں بغیر نماز کے بیٹھا نہ جائے۔ جماعت شروع ہو چکی ہو یا مکروہ وقت ہو تو یہ چھوڑ دی جاتی ہے۔" },
+      { "kind": "heading", "level": 2, "text": "صلاۃ الاستخارہ — رہنمائی طلب کرنا" },
+      { "kind": "p", "text": "کسی فیصلے کے موقع پر دو رکعتیں، اُس کے بعد یہ دعا کہ اگر یہ کام بہتر ہو تو اللہ اُسے آسان کر دے اور اگر نہ ہو تو اُسے ہٹا دے۔ یہ نہ تحقیق کی جگہ لیتی ہے اور نہ مشورے کی؛ یہ وہ چیز ہے جو مومن دونوں کے اوپر بڑھاتا ہے۔" },
+      { "kind": "arabic", "text": "اللَّهُمَّ إِنِّي أَسْتَخِيرُكَ بِعِلْمِكَ، وَأَسْتَقْدِرُكَ بِقُدْرَتِكَ، وَأَسْأَلُكَ مِنْ فَضْلِكَ الْعَظِيمِ، فَإِنَّكَ تَقْدِرُ وَلَا أَقْدِرُ، وَتَعْلَمُ وَلَا أَعْلَمُ، وَأَنْتَ عَلَّامُ الْغُيُوبِ", "transliteration": "Allāhumma innī astakhīruka bi-ʿilmika, wa astaqdiruka bi-qudratika, wa asʾaluka min faḍlika'l-ʿaẓīm, fa-innaka taqdiru wa lā aqdiru, wa taʿlamu wa lā aʿlamu, wa anta ʿallāmu'l-ghuyūb", "translation": "اے اللہ! میں تیرے علم کے ذریعے تجھ سے خیر مانگتا ہوں، تیری قدرت کے ذریعے تجھ سے طاقت مانگتا ہوں، اور تیرے بڑے فضل کا سوال کرتا ہوں — کیونکہ تو قدرت رکھتا ہے اور میں نہیں، تو جانتا ہے اور میں نہیں، اور تو ہی سب چھپی باتوں کا جاننے والا ہے۔", "label": "دعائے استخارہ کا آغاز" },
+      { "kind": "heading", "level": 2, "text": "تراویح — رمضان کی نماز" },
+      { "kind": "p", "text": "پورے رمضان میں عشا کے بعد پڑھی جاتی ہے، دو دو رکعتوں میں، اور ہر چار کے بعد تھوڑا آرام — تراویح کا لفظ اِنہی آراموں سے ہے۔ بیس رکعتیں وہ عدد ہے جو حضرت عمر کے زمانے کے عمل سے ثابت ہے اور حنفی مسلک میں اِسی پر عمل ہے؛ کچھ لوگ آٹھ پڑھتے ہیں، نبی ﷺ کی رات کی نماز کی روایات کے حوالے سے۔ یہ سنتِ مؤکدہ ہے، اور زیادہ تر مسجدوں میں حافظ مہینے بھر میں پورا قرآن ختم کرتا ہے۔" },
+      { "kind": "heading", "level": 2, "text": "صلاۃ التسبیح" },
+      { "kind": "p", "text": "چار رکعتیں جن میں ہر رکعت میں سبحان اللہ والحمد للہ ولا الہ الا اللہ واللہ اکبر پچہتر بار پڑھی جاتی ہے — قیام، رکوع، سجدے اور بیٹھک میں بانٹ کر، کل تین سو بار۔ یہ بڑی بخشش کی نماز بتائی گئی ہے، اور علما روایت کی قوت میں مختلف ہیں؛ جو اِسے لیتے ہیں وہ اِسے طلب کرنے کی فضیلت مانتے ہیں، کوئی لازم چیز نہیں۔" },
+      { "kind": "p", "text": "دو رکعت نفل تقریباً ہر موقع پر پڑھی جا سکتی ہیں — وضو کے بعد، سفر سے پہلے، گھر لوٹنے پر، کسی حاجت میں، یا شکر میں۔ یہاں مومن پر کوئی حد نہیں سوائے اُن اوقات کی جن میں نماز نہیں پڑھی جاتی: سورج طلوع ہوتے وقت، ٹھیک دوپہر میں، اور سورج ڈوبتے وقت۔" }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "17:79" },
+    { "type": "quran", "ref": "51:18" },
+    { "type": "hadith", "collection": "bukhari", "ref": "1120", "grade": "sahih" },
+    { "type": "hadith", "collection": "bukhari", "ref": "1166", "grade": "sahih" },
+    { "type": "hadith", "collection": "bukhari", "ref": "1167", "grade": "sahih" },
+    { "type": "hadith", "collection": "abudawud", "ref": "1297", "grade": "hasan" }
+  ],
+  "relatedSlugs": [
+    "salah-types-of-prayer",
+    "salah-witr-and-qunut",
+    "salah-five-daily-prayers",
+    "salah-what-to-recite"
+  ]
+}

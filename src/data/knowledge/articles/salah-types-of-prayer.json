@@ -1,0 +1,109 @@
+{
+  "slug": "salah-types-of-prayer",
+  "category": "salah",
+  "order": 2,
+  "featured": true,
+  "title": {
+    "en": "Types of Prayer — Farḍ, Wājib, Sunnah and Nafl",
+    "hi": "नमाज़ के प्रकार — फ़र्ज़, वाजिब, सुन्नत और नफ़्ल",
+    "ur": "نماز کی اقسام — فرض، واجب، سنت اور نفل"
+  },
+  "summary": {
+    "en": "Not every prayer carries the same weight. Islamic law sorts ṣalāh into farḍ, wājib, sunnah muʾakkadah, sunnah ghayr muʾakkadah and nafl — and knowing which is which tells you what you are answerable for and what is pure gain.",
+    "hi": "हर नमाज़ का दर्जा एक जैसा नहीं है। शरीअत नमाज़ को फ़र्ज़, वाजिब, सुन्नत मुअक्कदा, सुन्नत ग़ैर-मुअक्कदा और नफ़्ल में बाँटती है — और यह जानना बताता है कि किस चीज़ की पूछ होगी और कौन सी चीज़ ख़ालिस नफ़ा है।",
+    "ur": "ہر نماز کا درجہ ایک جیسا نہیں ہے۔ شریعت نماز کو فرض، واجب، سنت مؤکدہ، سنت غیر مؤکدہ اور نفل میں تقسیم کرتی ہے — اور یہ جاننا بتاتا ہے کہ کس چیز کی پوچھ ہوگی اور کون سی چیز خالص نفع ہے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "\"How many types of prayer are there?\" is really a question about obligation. The five daily prayers are one category; the prayers the Prophet ﷺ kept alongside them are another; and what a worshipper adds out of longing is a third. The categories below are the standard Ḥanafī grading, and the other Sunnī schools use two or three broad levels — obligatory, recommended, voluntary — that map onto the same practice." },
+      { "kind": "heading", "level": 2, "text": "1. Farḍ — the obligatory" },
+      { "kind": "p", "text": "Farḍ is established by decisive evidence and abandoning it without excuse is a grave sin. It splits into two kinds. Farḍ ʿayn falls on each individual: the five daily prayers, and the Friday prayer for those it applies to. Farḍ kifāyah falls on the community — if enough people do it, the duty is discharged for the rest; the funeral prayer is the clearest example." },
+      { "kind": "list", "items": [
+        { "text": "Farḍ ʿayn — the five daily prayers (17 rakʿahs), and Jumuʿah in place of Ẓuhr." },
+        { "text": "Farḍ kifāyah — ṣalāt al-janāzah, the prayer over the dead." }
+      ] },
+      { "kind": "heading", "level": 2, "text": "2. Wājib — the binding" },
+      { "kind": "p", "text": "In Ḥanafī usage wājib sits just below farḍ: the evidence is strong but not decisive, so leaving it is sinful yet it does not carry farḍ's full weight. Witr after ʿIshāʾ is the standing example, and the two ʿĪd prayers are placed here too. Most other schools call witr and ʿĪd emphatic sunnah rather than wājib — a difference in label more than in practice, since both camps tell you to pray them." },
+      { "kind": "heading", "level": 2, "text": "3. Sunnah muʾakkadah — the emphasised sunnah" },
+      { "kind": "p", "text": "These are the prayers the Prophet ﷺ kept up without fail, and abandoning them habitually is blameworthy. Twelve rakʿahs a day belong here, and the reward attached to them is a house in Paradise." },
+      { "kind": "hadith", "collection": "tirmidhi", "hadith": 415, "note": "The twelve sunnah rakʿahs of a day and night, listed prayer by prayer, and the house in Paradise promised for them." },
+      { "kind": "list", "items": [
+        { "text": "2 before Fajr — the most emphasised of them all." },
+        { "text": "4 before Ẓuhr and 2 after." },
+        { "text": "2 after Maghrib." },
+        { "text": "2 after ʿIshāʾ." }
+      ] },
+      { "kind": "heading", "level": 2, "text": "4. Sunnah ghayr muʾakkadah — the non-emphasised sunnah" },
+      { "kind": "p", "text": "Prayers the Prophet ﷺ prayed often but not always: the four before ʿAṣr and the four before ʿIshāʾ. Praying them earns reward; leaving them carries no blame. This is the category most people mean when they say a prayer is \"sunnah, but optional.\"" },
+      { "kind": "heading", "level": 2, "text": "5. Nafl — the voluntary" },
+      { "kind": "p", "text": "Nafl is everything offered beyond what is asked: tahajjud in the last third of the night, the ḍuḥā prayer after sunrise, tahiyyat al-masjid on entering a mosque, ṣalāt al-tasbīḥ, istikhārah, and any two rakʿahs a worshipper simply wants to pray. The Qur'an calls the night prayer an addition — nāfilah — offered freely, and ties it to being raised in rank." },
+      { "kind": "verse", "surah": 17, "ayah": 79, "note": "Rise in the night for an additional prayer — the Qur'an's own word for a nafl." },
+      { "kind": "heading", "level": 2, "text": "Why the grading matters" },
+      { "kind": "p", "text": "The order is a hierarchy of repair, not a menu. A missed farḍ must be made up; a missed sunnah cannot substitute for it. And the nafl has a role of its own: what is deficient in the obligatory prayers is completed on the Day of Judgement from the voluntary ones — which is precisely why the sunnah and nafl are worth keeping." }
+    ],
+    "hi": [
+      { "kind": "p", "text": "\"नमाज़ के कितने प्रकार हैं?\" दरअसल यह सवाल ज़िम्मेदारी का है। पाँच रोज़ाना नमाज़ें एक दर्जा हैं; वे नमाज़ें जो नबी ﷺ उनके साथ पढ़ते रहे, दूसरा दर्जा; और जो बंदा शौक़ से ख़ुद बढ़ाता है, तीसरा। नीचे दी गई तक़सीम हनफ़ी मसलक की मानी हुई तरतीब है, और बाक़ी सुन्नी मसलक दो-तीन बड़े दर्जों — फ़र्ज़, मुस्तहब, नफ़्ल — में बाँटते हैं जो अमल में इसी पर आ जाते हैं।" },
+      { "kind": "heading", "level": 2, "text": "1. फ़र्ज़ — जो लाज़िम है" },
+      { "kind": "p", "text": "फ़र्ज़ क़तई दलील से साबित होता है और बिना उज़्र छोड़ना बड़ा गुनाह है। इसकी दो क़िस्में हैं। फ़र्ज़-ए-ऐन हर फ़र्द पर अलग से आता है: पाँच रोज़ाना नमाज़ें, और जिन पर लागू हो उनके लिए जुमा। फ़र्ज़-ए-किफ़ाया पूरी जमात पर आता है — अगर काफ़ी लोग अदा कर दें तो बाक़ी से ज़िम्मेदारी उठ जाती है; इसकी सबसे साफ़ मिसाल नमाज़-ए-जनाज़ा है।" },
+      { "kind": "list", "items": [
+        { "text": "फ़र्ज़-ए-ऐन — पाँच रोज़ाना नमाज़ें (17 रकअतें), और ज़ुहर की जगह जुमा।" },
+        { "text": "फ़र्ज़-ए-किफ़ाया — सलात-उल-जनाज़ा, मुर्दे पर नमाज़।" }
+      ] },
+      { "kind": "heading", "level": 2, "text": "2. वाजिब — जो पाबंद करता है" },
+      { "kind": "p", "text": "हनफ़ी इस्तेमाल में वाजिब फ़र्ज़ से ज़रा नीचे बैठता है: दलील मज़बूत है मगर क़तई नहीं, इसलिए छोड़ना गुनाह है फिर भी उस पर फ़र्ज़ का पूरा बोझ नहीं। इशा के बाद वित्र इसकी असल मिसाल है, और दोनों ईद की नमाज़ें भी यहीं रखी जाती हैं। ज़्यादातर दूसरे मसलक वित्र और ईद को वाजिब के बजाय सुन्नत मुअक्कदा कहते हैं — यह नाम का फ़र्क़ है, अमल का नहीं, क्योंकि दोनों तरफ़ से पढ़ने का ही कहा जाता है।" },
+      { "kind": "heading", "level": 2, "text": "3. सुन्नत मुअक्कदा — ताकीदी सुन्नत" },
+      { "kind": "p", "text": "ये वे नमाज़ें हैं जिन्हें नबी ﷺ नागा किए बिना पढ़ते रहे, और इन्हें आदतन छोड़ना क़ाबिल-ए-मलामत है। दिन में बारह रकअतें इसी में आती हैं, और उन पर जो इनाम रखा गया है वह जन्नत में एक घर है।" },
+      { "kind": "hadith", "collection": "tirmidhi", "hadith": 415, "note": "दिन-रात की बारह सुन्नत रकअतें, एक-एक नमाज़ के हिसाब से गिनाई गईं, और उन पर जन्नत में घर का वादा।" },
+      { "kind": "list", "items": [
+        { "text": "फ़ज्र से पहले 2 — इन सब में सबसे ज़्यादा ताकीदी।" },
+        { "text": "ज़ुहर से पहले 4 और बाद में 2।" },
+        { "text": "मग़रिब के बाद 2।" },
+        { "text": "इशा के बाद 2।" }
+      ] },
+      { "kind": "heading", "level": 2, "text": "4. सुन्नत ग़ैर-मुअक्कदा — ग़ैर-ताकीदी सुन्नत" },
+      { "kind": "p", "text": "वे नमाज़ें जो नबी ﷺ अक्सर पढ़ते थे मगर हमेशा नहीं: अस्र से पहले चार और इशा से पहले चार। पढ़ने पर सवाब है; छोड़ने पर मलामत नहीं। जब लोग कहते हैं कि कोई नमाज़ \"सुन्नत है, मगर मर्ज़ी की\" तो अक्सर यही दर्जा मुराद होता है।" },
+      { "kind": "heading", "level": 2, "text": "5. नफ़्ल — जो अपनी मर्ज़ी से" },
+      { "kind": "p", "text": "नफ़्ल वह सब है जो माँगे गए से आगे पेश किया जाए: रात के आख़िरी तिहाई में तहज्जुद, सूरज निकलने के बाद चाश्त, मस्जिद में दाख़िल होते वक़्त तहिय्यत-उल-मस्जिद, सलात-उत-तस्बीह, इस्तिख़ारा, और कोई भी दो रकअतें जो बंदा बस पढ़ना चाहे। क़ुरआन ख़ुद रात की नमाज़ को एक इज़ाफ़ा — नाफ़िला — कहता है, जो अपनी ख़ुशी से पढ़ी जाए, और उसे दर्जे की बुलंदी से जोड़ता है।" },
+      { "kind": "verse", "surah": 17, "ayah": 79, "note": "रात में उठकर एक ज़ाइद नमाज़ पढ़ो — नफ़्ल के लिए क़ुरआन का अपना लफ़्ज़।" },
+      { "kind": "heading", "level": 2, "text": "यह तक़सीम क्यों अहम है" },
+      { "kind": "p", "text": "यह तरतीब कोई फ़ेहरिस्त नहीं, मरम्मत का दर्जा है। छूटी हुई फ़र्ज़ नमाज़ अदा करनी पड़ती है; छूटी सुन्नत उसकी जगह नहीं ले सकती। और नफ़्ल का अपना काम है: क़ियामत के दिन फ़र्ज़ नमाज़ों में जो कमी रह जाएगी वह नफ़्ल से पूरी की जाएगी — और यही वजह है कि सुन्नत और नफ़्ल निभाने के लायक़ हैं।" }
+    ],
+    "ur": [
+      { "kind": "p", "text": "\"نماز کی کتنی اقسام ہیں؟\" درحقیقت یہ سوال ذمہ داری کا ہے۔ پانچ روزانہ نمازیں ایک درجہ ہیں؛ وہ نمازیں جو نبی ﷺ اُن کے ساتھ پڑھتے رہے، دوسرا درجہ؛ اور جو بندہ شوق سے خود بڑھاتا ہے، تیسرا۔ نیچے دی گئی تقسیم حنفی مسلک کی مانی ہوئی ترتیب ہے، اور باقی سنی مسالک دو تین بڑے درجوں — فرض، مستحب، نفل — میں تقسیم کرتے ہیں جو عمل میں اِسی پر آ جاتے ہیں۔" },
+      { "kind": "heading", "level": 2, "text": "1. فرض — جو لازم ہے" },
+      { "kind": "p", "text": "فرض قطعی دلیل سے ثابت ہوتا ہے اور بغیر عذر چھوڑنا بڑا گناہ ہے۔ اِس کی دو قسمیں ہیں۔ فرضِ عین ہر فرد پر الگ سے آتا ہے: پانچ روزانہ نمازیں، اور جن پر لاگو ہو اُن کے لیے جمعہ۔ فرضِ کفایہ پوری جماعت پر آتا ہے — اگر کافی لوگ ادا کر دیں تو باقی سے ذمہ داری اٹھ جاتی ہے؛ اِس کی سب سے واضح مثال نمازِ جنازہ ہے۔" },
+      { "kind": "list", "items": [
+        { "text": "فرضِ عین — پانچ روزانہ نمازیں (17 رکعتیں)، اور ظہر کی جگہ جمعہ۔" },
+        { "text": "فرضِ کفایہ — صلاۃ الجنازہ، میت پر نماز۔" }
+      ] },
+      { "kind": "heading", "level": 2, "text": "2. واجب — جو پابند کرتا ہے" },
+      { "kind": "p", "text": "حنفی استعمال میں واجب فرض سے ذرا نیچے بیٹھتا ہے: دلیل مضبوط ہے مگر قطعی نہیں، اِس لیے چھوڑنا گناہ ہے پھر بھی اُس پر فرض کا پورا بوجھ نہیں۔ عشاء کے بعد وتر اِس کی اصل مثال ہے، اور دونوں عید کی نمازیں بھی یہیں رکھی جاتی ہیں۔ زیادہ تر دوسرے مسالک وتر اور عید کو واجب کے بجائے سنت مؤکدہ کہتے ہیں — یہ نام کا فرق ہے، عمل کا نہیں، کیونکہ دونوں طرف سے پڑھنے ہی کا کہا جاتا ہے۔" },
+      { "kind": "heading", "level": 2, "text": "3. سنت مؤکدہ — تاکیدی سنت" },
+      { "kind": "p", "text": "یہ وہ نمازیں ہیں جنہیں نبی ﷺ ناغہ کیے بغیر پڑھتے رہے، اور اِنہیں عادتاً چھوڑنا قابلِ ملامت ہے۔ دن میں بارہ رکعتیں اِسی میں آتی ہیں، اور اُن پر جو انعام رکھا گیا ہے وہ جنت میں ایک گھر ہے۔" },
+      { "kind": "hadith", "collection": "tirmidhi", "hadith": 415, "note": "دن رات کی بارہ سنت رکعتیں، ایک ایک نماز کے حساب سے گنائی گئیں، اور اُن پر جنت میں گھر کا وعدہ۔" },
+      { "kind": "list", "items": [
+        { "text": "فجر سے پہلے 2 — اِن سب میں سب سے زیادہ تاکیدی۔" },
+        { "text": "ظہر سے پہلے 4 اور بعد میں 2۔" },
+        { "text": "مغرب کے بعد 2۔" },
+        { "text": "عشاء کے بعد 2۔" }
+      ] },
+      { "kind": "heading", "level": 2, "text": "4. سنت غیر مؤکدہ — غیر تاکیدی سنت" },
+      { "kind": "p", "text": "وہ نمازیں جو نبی ﷺ اکثر پڑھتے تھے مگر ہمیشہ نہیں: عصر سے پہلے چار اور عشاء سے پہلے چار۔ پڑھنے پر ثواب ہے؛ چھوڑنے پر ملامت نہیں۔ جب لوگ کہتے ہیں کہ کوئی نماز \"سنت ہے، مگر مرضی کی\" تو اکثر یہی درجہ مراد ہوتا ہے۔" },
+      { "kind": "heading", "level": 2, "text": "5. نفل — جو اپنی مرضی سے" },
+      { "kind": "p", "text": "نفل وہ سب ہے جو مانگے گئے سے آگے پیش کیا جائے: رات کے آخری تہائی میں تہجد، طلوعِ آفتاب کے بعد چاشت، مسجد میں داخل ہوتے وقت تحیۃ المسجد، صلاۃ التسبیح، استخارہ، اور کوئی بھی دو رکعتیں جو بندہ بس پڑھنا چاہے۔ قرآن خود رات کی نماز کو ایک اضافہ — نافلہ — کہتا ہے، جو اپنی خوشی سے پڑھی جائے، اور اُسے درجے کی بلندی سے جوڑتا ہے۔" },
+      { "kind": "verse", "surah": 17, "ayah": 79, "note": "رات میں اٹھ کر ایک زائد نماز پڑھو — نفل کے لیے قرآن کا اپنا لفظ۔" },
+      { "kind": "heading", "level": 2, "text": "یہ تقسیم کیوں اہم ہے" },
+      { "kind": "p", "text": "یہ ترتیب کوئی فہرست نہیں، مرمت کا درجہ ہے۔ چھوٹی ہوئی فرض نماز ادا کرنی پڑتی ہے؛ چھوٹی سنت اُس کی جگہ نہیں لے سکتی۔ اور نفل کا اپنا کام ہے: قیامت کے دن فرض نمازوں میں جو کمی رہ جائے گی وہ نفل سے پوری کی جائے گی — اور یہی وجہ ہے کہ سنت اور نفل نبھانے کے لائق ہیں۔" }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "17:79" },
+    { "type": "hadith", "collection": "tirmidhi", "ref": "415", "grade": "sahih" }
+  ],
+  "relatedSlugs": [
+    "salah-five-daily-prayers",
+    "salah-witr-and-qunut",
+    "salah-nafl-prayers",
+    "salah-jumuah-eid-janazah"
+  ]
+}

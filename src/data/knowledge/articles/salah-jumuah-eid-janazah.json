@@ -1,0 +1,92 @@
+{
+  "slug": "salah-jumuah-eid-janazah",
+  "category": "salah",
+  "order": 6,
+  "title": {
+    "en": "Jumuʿah, the Two ʿĪds, and Ṣalāt al-Janāzah",
+    "hi": "जुमा, दोनों ईदें, और नमाज़-ए-जनाज़ा",
+    "ur": "جمعہ، دونوں عیدیں، اور نمازِ جنازہ"
+  },
+  "summary": {
+    "en": "The three prayers that are never prayed alone: the Friday prayer that replaces Ẓuhr, the two ʿĪd prayers with their extra takbīrs, and the funeral prayer — with the duʿāʾ recited over the deceased.",
+    "hi": "वे तीन नमाज़ें जो कभी अकेले नहीं पढ़ी जातीं: जुमा जो ज़ुहर की जगह आती है, दोनों ईद की नमाज़ें अपनी ज़ाइद तकबीरों के साथ, और नमाज़-ए-जनाज़ा — मय्यत पर पढ़ी जाने वाली दुआ के साथ।",
+    "ur": "وہ تین نمازیں جو کبھی اکیلے نہیں پڑھی جاتیں: جمعہ جو ظہر کی جگہ آتی ہے، دونوں عید کی نمازیں اپنی زائد تکبیروں کے ساتھ، اور نمازِ جنازہ — میت پر پڑھی جانے والی دعا کے ساتھ۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Most prayers may be offered alone. These three cannot: each requires a congregation, and each has a shape of its own." },
+      { "kind": "heading", "level": 2, "text": "Jumuʿah — the Friday prayer" },
+      { "kind": "p", "text": "On Friday the Ẓuhr prayer is replaced by Jumuʿah: a khuṭbah delivered by the imām, then two rakʿahs prayed aloud behind him. It is farḍ on every adult male Muslim who is resident and able to attend, and it cannot be prayed alone — someone who misses it prays four rakʿahs of Ẓuhr instead." },
+      { "kind": "verse", "surah": 62, "ayah": 9, "note": "When the call to prayer is made on Friday, hasten to the remembrance of Allah and leave off trade." },
+      { "kind": "p", "text": "The sunnah around it is substantial: bathing, wearing clean clothes, using fragrance, coming early, and sitting quietly while the khuṭbah is delivered. Speaking during the khuṭbah is not permitted; the sermon is part of the prayer, not an interval before it." },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 877, "note": "On the bathing of Friday — one of the practices attached to the Jumuʿah prayer." },
+      { "kind": "p", "text": "In the Ḥanafī pattern, four rakʿahs of sunnah are prayed before Jumuʿah and four after, followed by two more, so the Friday sequence is longer than an ordinary Ẓuhr." },
+      { "kind": "heading", "level": 2, "text": "The two ʿĪd prayers" },
+      { "kind": "p", "text": "ʿĪd al-Fiṭr, on the first of Shawwāl, and ʿĪd al-Aḍḥā, on the tenth of Dhū'l-Ḥijjah. Both are two rakʿahs, prayed in congregation in the morning after sunrise, and in the Ḥanafī school both are wājib. There is no adhān and no iqāmah for them." },
+      { "kind": "p", "text": "What distinguishes them are the extra takbīrs: three in the first rakʿah, before the recitation, and three in the second, after the recitation and before rukūʿ. The khuṭbah comes after the prayer rather than before it — the reverse of Jumuʿah." },
+      { "kind": "p", "text": "On ʿĪd al-Fiṭr, ṣadaqat al-fiṭr is due before the prayer, and it is sunnah to eat something sweet before leaving for the ʿĪdgāh. On ʿĪd al-Aḍḥā, nothing is eaten until after the prayer, and the qurbānī follows it." },
+      { "kind": "heading", "level": 2, "text": "Ṣalāt al-janāzah — the funeral prayer" },
+      { "kind": "p", "text": "A farḍ kifāyah: an obligation on the community rather than on each individual, discharged once a group has prayed it. It has no rukūʿ, no sujūd and no recitation of the Qur'an aloud. The worshippers stand throughout, and the whole prayer is four takbīrs long." },
+      { "kind": "p", "text": "After the first takbīr the thanāʾ is said; after the second, the durūd as in any prayer; after the third, the duʿāʾ for the deceased; after the fourth, the salām — and the prayer is over." },
+      { "kind": "arabic", "text": "اللَّهُمَّ اغْفِرْ لِحَيِّنَا وَمَيِّتِنَا، وَشَاهِدِنَا وَغَائِبِنَا، وَصَغِيرِنَا وَكَبِيرِنَا، وَذَكَرِنَا وَأُنْثَانَا. اللَّهُمَّ مَنْ أَحْيَيْتَهُ مِنَّا فَأَحْيِهِ عَلَى الْإِسْلَامِ، وَمَنْ تَوَفَّيْتَهُ مِنَّا فَتَوَفَّهُ عَلَى الْإِيمَانِ", "transliteration": "Allāhumma'ghfir li-ḥayyinā wa mayyitinā, wa shāhidinā wa ghāʾibinā, wa ṣaghīrinā wa kabīrinā, wa dhakarinā wa unthānā. Allāhumma man aḥyaytahu minnā fa-aḥyihi ʿala'l-Islām, wa man tawaffaytahu minnā fa-tawaffahu ʿala'l-īmān.", "translation": "O Allah, forgive our living and our dead, those present and those absent, our young and our old, our males and our females. O Allah, whoever of us You keep alive, keep them alive upon Islam, and whoever of us You take, take them upon faith.", "label": "Duʿāʾ for the deceased — after the third takbīr" },
+      { "kind": "p", "text": "A different duʿāʾ is said for a child who has not reached the age of understanding, since the supplication for forgiveness does not apply; it asks instead that the child be made an intercessor and a reward for the parents." },
+      { "kind": "p", "text": "Following the funeral, burying the body, and standing in this prayer are all counted among the rights a Muslim owes another. The Prophet ﷺ named following a funeral procession as one of them." },
+      { "kind": "heading", "level": 2, "text": "Other congregational prayers" },
+      { "kind": "p", "text": "Two more are prayed together when the occasion arises: ṣalāt al-istisqāʾ, asking for rain in a drought, and the two eclipse prayers — ṣalāt al-kusūf for a solar eclipse and al-khusūf for a lunar one. Both eclipse prayers are sunnah, prayed in congregation with long recitation, and the Prophet ﷺ prayed them at length when the sun was eclipsed in Madinah." }
+    ],
+    "hi": [
+      { "kind": "p", "text": "ज़्यादातर नमाज़ें अकेले पढ़ी जा सकती हैं। ये तीन नहीं: हर एक के लिए जमाअत ज़रूरी है, और हर एक की अपनी शक्ल है।" },
+      { "kind": "heading", "level": 2, "text": "जुमा — जुमे की नमाज़" },
+      { "kind": "p", "text": "जुमे के दिन ज़ुहर की जगह जुमा आती है: इमाम का ख़ुत्बा, फिर उसके पीछे दो रकअतें जो बुलंद आवाज़ से पढ़ी जाती हैं। यह हर बालिग़ मुसलमान मर्द पर फ़र्ज़ है जो मुक़ीम हो और शामिल हो सके, और अकेले नहीं पढ़ी जा सकती — जिससे रह जाए वह उसकी जगह ज़ुहर की चार रकअतें पढ़े।" },
+      { "kind": "verse", "surah": 62, "ayah": 9, "note": "जुमे के दिन जब नमाज़ के लिए अज़ान दी जाए तो अल्लाह के ज़िक्र की तरफ़ दौड़ो और ख़रीद-फ़रोख़्त छोड़ दो।" },
+      { "kind": "p", "text": "इसके आस-पास की सुन्नतें बहुत हैं: ग़ुस्ल करना, साफ़ कपड़े पहनना, ख़ुशबू लगाना, जल्दी आना, और ख़ुत्बे के दौरान ख़ामोश बैठना। ख़ुत्बे के दौरान बात करना जायज़ नहीं; ख़ुत्बा नमाज़ का हिस्सा है, उससे पहले का वक़्फ़ा नहीं।" },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 877, "note": "जुमे के ग़ुस्ल के बारे में — जुमा की नमाज़ से जुड़े अमल में से एक।" },
+      { "kind": "p", "text": "हनफ़ी तरतीब में जुमा से पहले चार रकअत सुन्नत और बाद में चार, फिर दो और पढ़ी जाती हैं, इसलिए जुमे की तरतीब आम ज़ुहर से लंबी है।" },
+      { "kind": "heading", "level": 2, "text": "दोनों ईद की नमाज़ें" },
+      { "kind": "p", "text": "ईद-उल-फ़ित्र, एक शव्वाल को, और ईद-उल-अज़हा, दस ज़िल-हिज्जा को। दोनों दो रकअतें हैं, सूरज निकलने के बाद सुबह जमाअत के साथ पढ़ी जाती हैं, और हनफ़ी मसलक में दोनों वाजिब हैं। इनके लिए न अज़ान है न इक़ामत।" },
+      { "kind": "p", "text": "इनकी ख़ासियत ज़ाइद तकबीरें हैं: पहली रकअत में क़िरअत से पहले तीन, और दूसरी रकअत में क़िरअत के बाद रुकू से पहले तीन। ख़ुत्बा नमाज़ के बाद होता है, पहले नहीं — जुमा के उलट।" },
+      { "kind": "p", "text": "ईद-उल-फ़ित्र में सदक़ा-ए-फ़ित्र नमाज़ से पहले अदा करना है, और ईदगाह जाने से पहले कुछ मीठा खाना सुन्नत है। ईद-उल-अज़हा में नमाज़ से पहले कुछ नहीं खाया जाता, और क़ुर्बानी उसके बाद होती है।" },
+      { "kind": "heading", "level": 2, "text": "नमाज़-ए-जनाज़ा" },
+      { "kind": "p", "text": "यह फ़र्ज़-ए-किफ़ाया है: हर फ़र्द पर नहीं बल्कि पूरी जमाअत पर लाज़िम, और एक गिरोह के पढ़ लेने से अदा हो जाती है। इसमें न रुकू है, न सजदा, और न बुलंद आवाज़ से क़ुरआन की क़िरअत। सब खड़े रहते हैं, और पूरी नमाज़ चार तकबीरों की है।" },
+      { "kind": "p", "text": "पहली तकबीर के बाद सना पढ़ी जाती है; दूसरी के बाद दुरूद, जैसे हर नमाज़ में; तीसरी के बाद मय्यत के लिए दुआ; चौथी के बाद सलाम — और नमाज़ ख़त्म।" },
+      { "kind": "arabic", "text": "اللَّهُمَّ اغْفِرْ لِحَيِّنَا وَمَيِّتِنَا، وَشَاهِدِنَا وَغَائِبِنَا، وَصَغِيرِنَا وَكَبِيرِنَا، وَذَكَرِنَا وَأُنْثَانَا. اللَّهُمَّ مَنْ أَحْيَيْتَهُ مِنَّا فَأَحْيِهِ عَلَى الْإِسْلَامِ، وَمَنْ تَوَفَّيْتَهُ مِنَّا فَتَوَفَّهُ عَلَى الْإِيمَانِ", "transliteration": "Allāhumma'ghfir li-ḥayyinā wa mayyitinā, wa shāhidinā wa ghāʾibinā, wa ṣaghīrinā wa kabīrinā, wa dhakarinā wa unthānā. Allāhumma man aḥyaytahu minnā fa-aḥyihi ʿala'l-Islām, wa man tawaffaytahu minnā fa-tawaffahu ʿala'l-īmān.", "translation": "ऐ अल्लाह! हमारे ज़िंदों और हमारे मुर्दों को बख़्श दे, हाज़िर और ग़ायब को, छोटों और बड़ों को, मर्दों और औरतों को। ऐ अल्लाह! हममें से जिसे तू ज़िंदा रखे उसे इस्लाम पर ज़िंदा रख, और जिसे उठा ले उसे ईमान पर उठा।", "label": "मय्यत के लिए दुआ — तीसरी तकबीर के बाद" },
+      { "kind": "p", "text": "जो बच्चा समझ की उम्र तक नहीं पहुँचा उसके लिए दूसरी दुआ पढ़ी जाती है, क्योंकि बख़्शिश की दुआ उस पर लागू नहीं होती; उसमें यह माँगा जाता है कि वह बच्चा माँ-बाप के लिए सिफ़ारिश करने वाला और अज्र बने।" },
+      { "kind": "p", "text": "जनाज़े के साथ जाना, दफ़्न करना, और इस नमाज़ में खड़ा होना — ये सब उन हक़ों में शामिल हैं जो एक मुसलमान का दूसरे पर है। नबी ﷺ ने जनाज़े के साथ चलने को इन्हीं हक़ों में गिना।" },
+      { "kind": "heading", "level": 2, "text": "और जमाअत वाली नमाज़ें" },
+      { "kind": "p", "text": "दो और नमाज़ें मौक़े पर जमाअत से पढ़ी जाती हैं: सलातुल-इस्तिस्क़ा, क़हत के वक़्त बारिश की दुआ के लिए, और गहन की दो नमाज़ें — सूरज गहन के लिए सलातुल-कुसूफ़ और चाँद गहन के लिए ख़ुसूफ़। गहन की दोनों नमाज़ें सुन्नत हैं, जमाअत के साथ लंबी क़िरअत से पढ़ी जाती हैं, और नबी ﷺ ने मदीना में सूरज गहन के वक़्त इसे बहुत लंबा पढ़ा।" }
+    ],
+    "ur": [
+      { "kind": "p", "text": "زیادہ تر نمازیں اکیلے پڑھی جا سکتی ہیں۔ یہ تین نہیں: ہر ایک کے لیے جماعت ضروری ہے، اور ہر ایک کی اپنی شکل ہے۔" },
+      { "kind": "heading", "level": 2, "text": "جمعہ — جمعے کی نماز" },
+      { "kind": "p", "text": "جمعے کے دن ظہر کی جگہ جمعہ آتی ہے: امام کا خطبہ، پھر اُس کے پیچھے دو رکعتیں جو بلند آواز سے پڑھی جاتی ہیں۔ یہ ہر بالغ مسلمان مرد پر فرض ہے جو مقیم ہو اور شامل ہو سکے، اور اکیلے نہیں پڑھی جا سکتی — جس سے رہ جائے وہ اُس کی جگہ ظہر کی چار رکعتیں پڑھے۔" },
+      { "kind": "verse", "surah": 62, "ayah": 9, "note": "جمعے کے دن جب نماز کے لیے اذان دی جائے تو اللہ کے ذکر کی طرف دوڑو اور خرید و فروخت چھوڑ دو۔" },
+      { "kind": "p", "text": "اِس کے آس پاس کی سنتیں بہت ہیں: غسل کرنا، صاف کپڑے پہننا، خوشبو لگانا، جلدی آنا، اور خطبے کے دوران خاموش بیٹھنا۔ خطبے کے دوران بات کرنا جائز نہیں؛ خطبہ نماز کا حصہ ہے، اُس سے پہلے کا وقفہ نہیں۔" },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 877, "note": "جمعے کے غسل کے بارے میں — جمعہ کی نماز سے جڑے اعمال میں سے ایک۔" },
+      { "kind": "p", "text": "حنفی ترتیب میں جمعہ سے پہلے چار رکعت سنت اور بعد میں چار، پھر دو مزید پڑھی جاتی ہیں، اِس لیے جمعے کی ترتیب عام ظہر سے لمبی ہے۔" },
+      { "kind": "heading", "level": 2, "text": "دونوں عید کی نمازیں" },
+      { "kind": "p", "text": "عید الفطر، یکم شوال کو، اور عید الاضحیٰ، دس ذی الحجہ کو۔ دونوں دو رکعتیں ہیں، سورج نکلنے کے بعد صبح جماعت کے ساتھ پڑھی جاتی ہیں، اور حنفی مسلک میں دونوں واجب ہیں۔ اِن کے لیے نہ اذان ہے نہ اقامت۔" },
+      { "kind": "p", "text": "اِن کی خاصیت زائد تکبیریں ہیں: پہلی رکعت میں قراءت سے پہلے تین، اور دوسری رکعت میں قراءت کے بعد رکوع سے پہلے تین۔ خطبہ نماز کے بعد ہوتا ہے، پہلے نہیں — جمعہ کے برعکس۔" },
+      { "kind": "p", "text": "عید الفطر میں صدقۂ فطر نماز سے پہلے ادا کرنا ہے، اور عیدگاہ جانے سے پہلے کچھ میٹھا کھانا سنت ہے۔ عید الاضحیٰ میں نماز سے پہلے کچھ نہیں کھایا جاتا، اور قربانی اُس کے بعد ہوتی ہے۔" },
+      { "kind": "heading", "level": 2, "text": "نمازِ جنازہ" },
+      { "kind": "p", "text": "یہ فرضِ کفایہ ہے: ہر فرد پر نہیں بلکہ پوری جماعت پر لازم، اور ایک گروہ کے پڑھ لینے سے ادا ہو جاتی ہے۔ اِس میں نہ رکوع ہے، نہ سجدہ، اور نہ بلند آواز سے قرآن کی قراءت۔ سب کھڑے رہتے ہیں، اور پوری نماز چار تکبیروں کی ہے۔" },
+      { "kind": "p", "text": "پہلی تکبیر کے بعد ثنا پڑھی جاتی ہے؛ دوسری کے بعد درود، جیسے ہر نماز میں؛ تیسری کے بعد میت کے لیے دعا؛ چوتھی کے بعد سلام — اور نماز ختم۔" },
+      { "kind": "arabic", "text": "اللَّهُمَّ اغْفِرْ لِحَيِّنَا وَمَيِّتِنَا، وَشَاهِدِنَا وَغَائِبِنَا، وَصَغِيرِنَا وَكَبِيرِنَا، وَذَكَرِنَا وَأُنْثَانَا. اللَّهُمَّ مَنْ أَحْيَيْتَهُ مِنَّا فَأَحْيِهِ عَلَى الْإِسْلَامِ، وَمَنْ تَوَفَّيْتَهُ مِنَّا فَتَوَفَّهُ عَلَى الْإِيمَانِ", "transliteration": "Allāhumma'ghfir li-ḥayyinā wa mayyitinā, wa shāhidinā wa ghāʾibinā, wa ṣaghīrinā wa kabīrinā, wa dhakarinā wa unthānā. Allāhumma man aḥyaytahu minnā fa-aḥyihi ʿala'l-Islām, wa man tawaffaytahu minnā fa-tawaffahu ʿala'l-īmān.", "translation": "اے اللہ! ہمارے زندوں اور ہمارے مُردوں کو بخش دے، حاضر اور غائب کو، چھوٹوں اور بڑوں کو، مردوں اور عورتوں کو۔ اے اللہ! ہم میں سے جسے تو زندہ رکھے اُسے اسلام پر زندہ رکھ، اور جسے اٹھا لے اُسے ایمان پر اٹھا۔", "label": "میت کے لیے دعا — تیسری تکبیر کے بعد" },
+      { "kind": "p", "text": "جو بچہ سمجھ کی عمر تک نہیں پہنچا اُس کے لیے دوسری دعا پڑھی جاتی ہے، کیونکہ بخشش کی دعا اُس پر لاگو نہیں ہوتی؛ اُس میں یہ مانگا جاتا ہے کہ وہ بچہ ماں باپ کے لیے سفارش کرنے والا اور اجر بنے۔" },
+      { "kind": "p", "text": "جنازے کے ساتھ جانا، دفن کرنا، اور اِس نماز میں کھڑا ہونا — یہ سب اُن حقوق میں شامل ہیں جو ایک مسلمان کا دوسرے پر ہے۔ نبی ﷺ نے جنازے کے ساتھ چلنے کو اِنہی حقوق میں گنا۔" },
+      { "kind": "heading", "level": 2, "text": "مزید جماعت والی نمازیں" },
+      { "kind": "p", "text": "دو مزید نمازیں موقع پر جماعت سے پڑھی جاتی ہیں: صلاۃ الاستسقاء، قحط کے وقت بارش کی دعا کے لیے، اور گرہن کی دو نمازیں — سورج گرہن کے لیے صلاۃ الکسوف اور چاند گرہن کے لیے خسوف۔ گرہن کی دونوں نمازیں سنت ہیں، جماعت کے ساتھ لمبی قراءت سے پڑھی جاتی ہیں، اور نبی ﷺ نے مدینہ میں سورج گرہن کے وقت اِسے بہت لمبا پڑھا۔" }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "62:9" },
+    { "type": "hadith", "collection": "bukhari", "ref": "877", "grade": "sahih" },
+    { "type": "hadith", "collection": "bukhari", "ref": "956", "grade": "sahih" },
+    { "type": "hadith", "collection": "abudawud", "ref": "3201", "grade": "hasan" }
+  ],
+  "relatedSlugs": [
+    "salah-types-of-prayer",
+    "salah-five-daily-prayers",
+    "salah-what-to-recite",
+    "salah-travel-and-missed-prayers"
+  ]
+}

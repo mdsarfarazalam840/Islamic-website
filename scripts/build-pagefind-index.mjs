@@ -29,6 +29,7 @@ const OUTPUT_DIR = path.resolve("public/pagefind")
 // src/lib/knowledge/categories.ts, which is TS and can't be imported here).
 const KNOWLEDGE_CATEGORY_NAMES = {
   basics: "The Basics",
+  salah: "Salah & Namaz",
   concepts: "Core Concepts",
   creed: "Kalimas & Creed",
   prophets: "The Prophets",

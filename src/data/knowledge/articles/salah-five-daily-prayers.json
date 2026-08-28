@@ -1,0 +1,122 @@
+{
+  "slug": "salah-five-daily-prayers",
+  "category": "salah",
+  "order": 1,
+  "featured": true,
+  "title": {
+    "en": "How Many Prayers? The Five Daily Ṣalāh",
+    "hi": "कितनी नमाज़ें हैं? पाँच रोज़ाना नमाज़ें",
+    "ur": "کتنی نمازیں ہیں؟ پانچ روزانہ نمازیں"
+  },
+  "summary": {
+    "en": "Five prayers a day are obligatory on every adult Muslim — Fajr, Ẓuhr, ʿAṣr, Maghrib and ʿIshāʾ — seventeen farḍ rakʿahs in total. This is when each one falls, how many rakʿahs it carries, and where the number five comes from.",
+    "hi": "हर बालिग़ मुसलमान पर दिन में पाँच नमाज़ें फ़र्ज़ हैं — फ़ज्र, ज़ुहर, अस्र, मग़रिब और इशा — कुल सत्रह फ़र्ज़ रकअतें। यह बताता है कि हर नमाज़ का वक़्त कब है, उसमें कितनी रकअतें हैं, और पाँच का यह गिनती कहाँ से आई।",
+    "ur": "ہر بالغ مسلمان پر دن میں پانچ نمازیں فرض ہیں — فجر، ظہر، عصر، مغرب اور عشاء — کل سترہ فرض رکعتیں۔ یہ بتاتا ہے کہ ہر نماز کا وقت کب ہے، اُس میں کتنی رکعتیں ہیں، اور پانچ کا یہ عدد کہاں سے آیا۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "The answer to \"how many prayers are there?\" is five — and the number is not a later calculation. It was fixed for the community in a single night, and every generation since has prayed the same five." },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 46, "note": "A man asks the Prophet ﷺ what Allah has made obligatory on him. The answer begins with the five prayers — and when he asks whether there is more, he is told no, unless he chooses to give more voluntarily." },
+      { "kind": "heading", "level": 2, "text": "Fifty reduced to five" },
+      { "kind": "p", "text": "On the night of the Isrāʾ and Miʿrāj the prayer was first given as fifty a day. The Prophet ﷺ returned to his Lord repeatedly, and it was lightened until it stood at five — with the reward of fifty left intact. That is why the five are treated as immovable: they are already a concession." },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 349, "note": "The night journey, where fifty daily prayers were reduced to five while the reward of fifty remained." },
+      { "kind": "heading", "level": 2, "text": "The five, and when each falls" },
+      { "kind": "p", "text": "The Qur'an marks the prayers by the movement of the sun rather than by the clock, which is why prayer times shift with the season and the place." },
+      { "kind": "verse", "surah": 17, "ayah": 78, "note": "Prayer from the sun's decline through the darkening of the night, and the dawn recitation — the frame the five times sit inside." },
+      { "kind": "list", "items": [
+        { "text": "Fajr — from true dawn until sunrise." },
+        { "text": "Ẓuhr — from just after the sun passes its zenith until the ʿAṣr time begins." },
+        { "text": "ʿAṣr — from mid-afternoon until sunset." },
+        { "text": "Maghrib — from sunset until the evening twilight is gone." },
+        { "text": "ʿIshāʾ — from the end of twilight until true dawn, though it is best not delayed past midnight." }
+      ] },
+      { "kind": "verse", "surah": 4, "ayah": 103, "note": "Prayer is decreed at fixed times — the reason a prayer is prayed at its time and not at convenience." },
+      { "kind": "heading", "level": 2, "text": "How many rakʿahs in each" },
+      { "kind": "p", "text": "Only the farḍ rakʿahs are obligatory: two at Fajr, four at Ẓuhr, four at ʿAṣr, three at Maghrib and four at ʿIshāʾ — seventeen in a day. The sunnah and nafl rakʿahs listed beside them are what the Prophet ﷺ prayed around the farḍ, and the counts below are those taught in the Ḥanafī school, which is the pattern most widely followed in the subcontinent. Other schools order the same voluntary prayers differently — the seventeen farḍ rakʿahs are agreed by all." },
+      { "kind": "list", "items": [
+        { "text": "Fajr — 2 sunnah muʾakkadah, then 2 farḍ. Total 4." },
+        { "text": "Ẓuhr — 4 sunnah muʾakkadah, 4 farḍ, 2 sunnah muʾakkadah, 2 nafl. Total 12." },
+        { "text": "ʿAṣr — 4 sunnah ghayr muʾakkadah, then 4 farḍ. Total 8." },
+        { "text": "Maghrib — 3 farḍ, then 2 sunnah muʾakkadah and 2 nafl. Total 7." },
+        { "text": "ʿIshāʾ — 4 sunnah ghayr muʾakkadah, 4 farḍ, 2 sunnah muʾakkadah, 2 nafl, then 3 witr and 2 nafl. Total 17." }
+      ] },
+      { "kind": "heading", "level": 2, "text": "Why the times are guarded" },
+      { "kind": "p", "text": "Praying on time is named in the Qur'an as the mark of the believers and, in the same breath, its neglect is named as the ruin of the hypocrite. The five are the daily structure the rest of a Muslim's worship is hung on — everything else in this section is built around them." },
+      { "kind": "verse", "surah": 2, "ayah": 238, "note": "Guard the prayers, and stand before Allah devoutly." }
+    ],
+    "hi": [
+      { "kind": "p", "text": "\"कितनी नमाज़ें हैं?\" का जवाब है पाँच — और यह गिनती बाद में निकाला गया कोई हिसाब नहीं है। यह उम्मत के लिए एक ही रात में तय हो गई, और उसके बाद हर नस्ल ने वही पाँच पढ़ी हैं।" },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 46, "note": "एक शख़्स नबी ﷺ से पूछता है कि अल्लाह ने उस पर क्या फ़र्ज़ किया है। जवाब पाँच नमाज़ों से शुरू होता है — और जब वह पूछता है कि इससे ज़्यादा कुछ है, तो उसे बताया जाता है कि नहीं, सिवाय इसके कि वह ख़ुद अपनी मर्ज़ी से ज़्यादा करे।" },
+      { "kind": "heading", "level": 2, "text": "पचास घटकर पाँच" },
+      { "kind": "p", "text": "इसरा और मिराज की रात नमाज़ पहले दिन में पचास दी गई थी। नबी ﷺ बार-बार अपने रब की तरफ़ लौटे, और यह हल्की की जाती रही यहाँ तक कि पाँच पर आ गई — और पचास का सवाब बरक़रार रखा गया। इसी वजह से इन पाँच को अटल समझा जाता है: यह पहले से ही एक रिआयत हैं।" },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 349, "note": "शब-ए-मिराज, जहाँ पचास रोज़ाना नमाज़ें पाँच कर दी गईं और पचास का सवाब बाक़ी रहा।" },
+      { "kind": "heading", "level": 2, "text": "पाँच नमाज़ें और उनके वक़्त" },
+      { "kind": "p", "text": "क़ुरआन नमाज़ों को घड़ी से नहीं, सूरज की गर्दिश से मुक़र्रर करता है — इसलिए नमाज़ के वक़्त मौसम और जगह के साथ बदलते हैं।" },
+      { "kind": "verse", "surah": 17, "ayah": 78, "note": "सूरज ढलने से रात के अंधेरे तक की नमाज़, और सुबह की क़िरअत — वही चौखटा जिसके अंदर पाँचों वक़्त बैठते हैं।" },
+      { "kind": "list", "items": [
+        { "text": "फ़ज्र — सुबह सादिक़ से सूरज निकलने तक।" },
+        { "text": "ज़ुहर — सूरज ढलने के फ़ौरन बाद से अस्र का वक़्त शुरू होने तक।" },
+        { "text": "अस्र — दोपहर बाद से सूरज डूबने तक।" },
+        { "text": "मग़रिब — सूरज डूबने से शाम की सुर्ख़ी ख़त्म होने तक।" },
+        { "text": "इशा — शफ़क़ ख़त्म होने से सुबह सादिक़ तक, हालाँकि आधी रात से आगे टालना बेहतर नहीं।" }
+      ] },
+      { "kind": "verse", "surah": 4, "ayah": 103, "note": "नमाज़ मुक़र्रर वक़्तों पर फ़र्ज़ की गई है — यही वजह है कि नमाज़ अपने वक़्त पर पढ़ी जाती है, सहूलत पर नहीं।" },
+      { "kind": "heading", "level": 2, "text": "हर नमाज़ में कितनी रकअतें" },
+      { "kind": "p", "text": "फ़र्ज़ सिर्फ़ फ़र्ज़ रकअतें हैं: फ़ज्र में दो, ज़ुहर में चार, अस्र में चार, मग़रिब में तीन और इशा में चार — दिन में सत्रह। उनके साथ लिखी सुन्नत और नफ़्ल रकअतें वे हैं जो नबी ﷺ फ़र्ज़ के आगे-पीछे पढ़ते थे, और नीचे दी गई गिनती हनफ़ी मसलक की सिखाई हुई है, जो बर्रे-सग़ीर में सबसे ज़्यादा राइज है। दूसरे मसलक इन्हीं नफ़्ल नमाज़ों को कुछ और तरतीब से गिनते हैं — सत्रह फ़र्ज़ रकअतों पर सब मुत्तफ़िक़ हैं।" },
+      { "kind": "list", "items": [
+        { "text": "फ़ज्र — 2 सुन्नत मुअक्कदा, फिर 2 फ़र्ज़। कुल 4।" },
+        { "text": "ज़ुहर — 4 सुन्नत मुअक्कदा, 4 फ़र्ज़, 2 सुन्नत मुअक्कदा, 2 नफ़्ल। कुल 12।" },
+        { "text": "अस्र — 4 सुन्नत ग़ैर-मुअक्कदा, फिर 4 फ़र्ज़। कुल 8।" },
+        { "text": "मग़रिब — 3 फ़र्ज़, फिर 2 सुन्नत मुअक्कदा और 2 नफ़्ल। कुल 7।" },
+        { "text": "इशा — 4 सुन्नत ग़ैर-मुअक्कदा, 4 फ़र्ज़, 2 सुन्नत मुअक्कदा, 2 नफ़्ल, फिर 3 वित्र और 2 नफ़्ल। कुल 17।" }
+      ] },
+      { "kind": "heading", "level": 2, "text": "वक़्तों की हिफ़ाज़त क्यों" },
+      { "kind": "p", "text": "वक़्त पर नमाज़ पढ़ना क़ुरआन में मोमिनों की पहचान बताया गया है, और उसी सिलसिले में उसकी बे-परवाही मुनाफ़िक़ की तबाही कही गई है। ये पाँच वह रोज़ाना ढाँचा हैं जिस पर मुसलमान की बाक़ी सारी इबादत टँगी है — इस हिस्से की हर चीज़ इन्हीं के इर्द-गिर्द बनी है।" },
+      { "kind": "verse", "surah": 2, "ayah": 238, "note": "नमाज़ों की हिफ़ाज़त करो, और अल्लाह के सामने अदब से खड़े हो।" }
+    ],
+    "ur": [
+      { "kind": "p", "text": "\"کتنی نمازیں ہیں؟\" کا جواب ہے پانچ — اور یہ عدد بعد میں نکالا گیا کوئی حساب نہیں ہے۔ یہ امت کے لیے ایک ہی رات میں طے ہو گیا، اور اُس کے بعد ہر نسل نے وہی پانچ پڑھی ہیں۔" },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 46, "note": "ایک شخص نبی ﷺ سے پوچھتا ہے کہ اللہ نے اُس پر کیا فرض کیا ہے۔ جواب پانچ نمازوں سے شروع ہوتا ہے — اور جب وہ پوچھتا ہے کہ اِس سے زیادہ کچھ ہے، تو اُسے بتایا جاتا ہے کہ نہیں، سوائے اِس کے کہ وہ خود اپنی مرضی سے زیادہ کرے۔" },
+      { "kind": "heading", "level": 2, "text": "پچاس گھٹ کر پانچ" },
+      { "kind": "p", "text": "شبِ اسرا و معراج میں نماز پہلے دن میں پچاس دی گئی تھی۔ نبی کریم ﷺ بار بار اپنے رب کی طرف لوٹے، اور یہ ہلکی کی جاتی رہی یہاں تک کہ پانچ پر آ گئی — اور پچاس کا ثواب برقرار رکھا گیا۔ اِسی وجہ سے اِن پانچ کو اٹل سمجھا جاتا ہے: یہ پہلے ہی ایک رعایت ہیں۔" },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 349, "note": "شبِ معراج، جہاں پچاس روزانہ نمازیں پانچ کر دی گئیں اور پچاس کا ثواب باقی رہا۔" },
+      { "kind": "heading", "level": 2, "text": "پانچ نمازیں اور اُن کے اوقات" },
+      { "kind": "p", "text": "قرآن نمازوں کو گھڑی سے نہیں، سورج کی گردش سے متعین کرتا ہے — اِسی لیے نماز کے اوقات موسم اور جگہ کے ساتھ بدلتے ہیں۔" },
+      { "kind": "verse", "surah": 17, "ayah": 78, "note": "سورج ڈھلنے سے رات کے اندھیرے تک کی نماز، اور صبح کی قراءت — وہی چوکھٹا جس کے اندر پانچوں اوقات بیٹھتے ہیں۔" },
+      { "kind": "list", "items": [
+        { "text": "فجر — صبح صادق سے طلوعِ آفتاب تک۔" },
+        { "text": "ظہر — سورج ڈھلنے کے فوراً بعد سے عصر کا وقت شروع ہونے تک۔" },
+        { "text": "عصر — دوپہر بعد سے غروبِ آفتاب تک۔" },
+        { "text": "مغرب — غروبِ آفتاب سے شام کی سرخی ختم ہونے تک۔" },
+        { "text": "عشاء — شفق ختم ہونے سے صبح صادق تک، اگرچہ آدھی رات سے آگے ٹالنا بہتر نہیں۔" }
+      ] },
+      { "kind": "verse", "surah": 4, "ayah": 103, "note": "نماز مقرر اوقات پر فرض کی گئی ہے — یہی وجہ ہے کہ نماز اپنے وقت پر پڑھی جاتی ہے، سہولت پر نہیں۔" },
+      { "kind": "heading", "level": 2, "text": "ہر نماز میں کتنی رکعتیں" },
+      { "kind": "p", "text": "فرض صرف فرض رکعتیں ہیں: فجر میں دو، ظہر میں چار، عصر میں چار، مغرب میں تین اور عشاء میں چار — دن میں سترہ۔ اُن کے ساتھ لکھی سنت اور نفل رکعتیں وہ ہیں جو نبی ﷺ فرض کے آگے پیچھے پڑھتے تھے، اور نیچے دی گئی گنتی حنفی مسلک کی سکھائی ہوئی ہے، جو برِصغیر میں سب سے زیادہ رائج ہے۔ دوسرے مسالک اِنہی نفل نمازوں کو کچھ اور ترتیب سے گنتے ہیں — سترہ فرض رکعتوں پر سب متفق ہیں۔" },
+      { "kind": "list", "items": [
+        { "text": "فجر — 2 سنت مؤکدہ، پھر 2 فرض۔ کل 4۔" },
+        { "text": "ظہر — 4 سنت مؤکدہ، 4 فرض، 2 سنت مؤکدہ، 2 نفل۔ کل 12۔" },
+        { "text": "عصر — 4 سنت غیر مؤکدہ، پھر 4 فرض۔ کل 8۔" },
+        { "text": "مغرب — 3 فرض، پھر 2 سنت مؤکدہ اور 2 نفل۔ کل 7۔" },
+        { "text": "عشاء — 4 سنت غیر مؤکدہ، 4 فرض، 2 سنت مؤکدہ، 2 نفل، پھر 3 وتر اور 2 نفل۔ کل 17۔" }
+      ] },
+      { "kind": "heading", "level": 2, "text": "اوقات کی حفاظت کیوں" },
+      { "kind": "p", "text": "وقت پر نماز پڑھنا قرآن میں مومنوں کی پہچان بتایا گیا ہے، اور اُسی سلسلے میں اُس کی بے پروائی منافق کی تباہی کہی گئی ہے۔ یہ پانچ وہ روزانہ ڈھانچہ ہیں جس پر مسلمان کی باقی ساری عبادت ٹنگی ہے — اِس حصے کی ہر چیز اِنہی کے گرد بنی ہے۔" },
+      { "kind": "verse", "surah": 2, "ayah": 238, "note": "نمازوں کی حفاظت کرو، اور اللہ کے سامنے ادب سے کھڑے ہو۔" }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "17:78" },
+    { "type": "quran", "ref": "4:103" },
+    { "type": "quran", "ref": "2:238" },
+    { "type": "hadith", "collection": "bukhari", "ref": "46", "grade": "sahih" },
+    { "type": "hadith", "collection": "bukhari", "ref": "349", "grade": "sahih" }
+  ],
+  "relatedSlugs": [
+    "salah-types-of-prayer",
+    "salah-what-to-recite",
+    "basics-salah",
+    "basics-wudu",
+    "basics-how-to-pray"
+  ]
+}
