@@ -1,0 +1,461 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "Quran Website — Static Build and Delivery Architecture",
+    "locale": "en",
+    "quality_profile": "showcase",
+    "repository": {
+      "url": "https://github.com/mdsarfarazalam840/Islamic-website",
+      "revision": "1e8d15f9c6ef77d45432688768ef07cd31b565e0"
+    },
+    "views": [
+      {
+        "id": "build-pipeline",
+        "label": "Build-time ingestion",
+        "focus": [
+          "contentApis",
+          "youtube",
+          "fetchScripts",
+          "pagefindIndexer",
+          "nextBuild"
+        ],
+        "note": "Every content source is pulled during CI; the deployed site never calls these APIs."
+      },
+      {
+        "id": "deploy-and-serve",
+        "label": "Deploy and serve",
+        "focus": [
+          "nextBuild",
+          "pages",
+          "staticData",
+          "pagefindIndex",
+          "browser"
+        ],
+        "note": "One Pages artifact carries the exported HTML, the JSON corpus, and the search index."
+      },
+      {
+        "id": "search-path",
+        "label": "Client-side search",
+        "focus": [
+          "pagefindIndexer",
+          "pagefindIndex",
+          "browser"
+        ],
+        "note": "Search runs in the browser against a same-origin Pagefind bundle."
+      },
+      {
+        "id": "live-layer",
+        "label": "Live visitor layer",
+        "focus": [
+          "browser",
+          "supabase"
+        ],
+        "note": "The only runtime network dependency the deployed site has, and it is optional."
+      },
+      {
+        "id": "app-shells",
+        "label": "Desktop and mobile shells",
+        "focus": [
+          "nextBuild",
+          "shells"
+        ],
+        "note": "Tauri and Capacitor package the same export instead of loading the hosted site."
+      }
+    ]
+  },
+  "components": [
+    {
+      "id": "youtube",
+      "type": "external",
+      "label": "YouTube",
+      "sublabel": "channel scrape + Data API",
+      "brand": "youtube",
+      "pos": [
+        40,
+        60
+      ],
+      "size": [
+        175,
+        82
+      ],
+      "sources": [
+        {
+          "path": "scripts/fetch-youtube-data.ts",
+          "label": "Scraper + playlist fetch"
+        }
+      ]
+    },
+    {
+      "id": "contentApis",
+      "type": "external",
+      "label": "Quran + Hadith APIs",
+      "sublabel": "alquran.cloud + jsDelivr",
+      "tag": "build-time",
+      "pos": [
+        40,
+        250
+      ],
+      "size": [
+        175,
+        82
+      ],
+      "sources": [
+        {
+          "path": "scripts/fetch-quran-data.ts",
+          "label": "Quran text + translations"
+        },
+        {
+          "path": "scripts/fetch-hadith-data.ts",
+          "label": "Hadith collections"
+        }
+      ]
+    },
+    {
+      "id": "fetchScripts",
+      "type": "backend",
+      "label": "Fetch scripts",
+      "sublabel": "tsx scripts/fetch-*.ts",
+      "pos": [
+        305,
+        250
+      ],
+      "size": [
+        175,
+        82
+      ],
+      "sources": [
+        {
+          "path": "package.json",
+          "label": "fetch:* and build:* scripts"
+        },
+        {
+          "path": "scripts/build-hadith-number-index.mjs",
+          "label": "Hadith number index"
+        }
+      ]
+    },
+    {
+      "id": "pagefindIndexer",
+      "type": "backend",
+      "label": "Pagefind indexer",
+      "sublabel": "npm run build:pagefind",
+      "tag": "~43k files",
+      "pos": [
+        305,
+        440
+      ],
+      "size": [
+        175,
+        82
+      ],
+      "sources": [
+        {
+          "path": "scripts/build-pagefind-index.mjs",
+          "label": "Index build"
+        }
+      ]
+    },
+    {
+      "id": "nextBuild",
+      "type": "backend",
+      "label": "Next.js static export",
+      "sublabel": "next build, output export",
+      "brand": "next-js",
+      "tag": "basePath set",
+      "pos": [
+        570,
+        250
+      ],
+      "size": [
+        175,
+        82
+      ],
+      "sources": [
+        {
+          "path": "next.config.ts",
+          "label": "export + basePath config"
+        },
+        {
+          "path": ".github/workflows/deploy.yml",
+          "label": "Build and prune steps"
+        }
+      ]
+    },
+    {
+      "id": "shells",
+      "type": "frontend",
+      "label": "Noor app shells",
+      "sublabel": "Tauri desktop + Capacitor",
+      "pos": [
+        570,
+        440
+      ],
+      "size": [
+        175,
+        82
+      ],
+      "sources": [
+        {
+          "path": "scripts/build-apps.mjs",
+          "label": "Shell packaging"
+        },
+        {
+          "path": ".github/workflows/apps.yml",
+          "label": "Release workflow"
+        }
+      ]
+    },
+    {
+      "id": "staticData",
+      "type": "database",
+      "label": "Static JSON corpus",
+      "sublabel": "out/data: quran, hadith",
+      "tag": "*-all.json cut",
+      "pos": [
+        835,
+        60
+      ],
+      "size": [
+        175,
+        82
+      ],
+      "sources": [
+        {
+          "path": ".github/workflows/deploy.yml",
+          "label": "Prune step deletes *-all.json"
+        }
+      ]
+    },
+    {
+      "id": "pages",
+      "type": "cloud",
+      "label": "GitHub Pages",
+      "sublabel": "project site on a subpath",
+      "brand": "github",
+      "pos": [
+        835,
+        250
+      ],
+      "size": [
+        175,
+        82
+      ],
+      "sources": [
+        {
+          "path": ".github/workflows/deploy.yml",
+          "label": "v* tag + twice-daily cron"
+        }
+      ]
+    },
+    {
+      "id": "pagefindIndex",
+      "type": "database",
+      "label": "Pagefind bundle",
+      "sublabel": "out/pagefind/",
+      "pos": [
+        835,
+        440
+      ],
+      "size": [
+        175,
+        82
+      ],
+      "sources": [
+        {
+          "path": "src/app/search/pagefind.ts",
+          "label": "Runtime bundle loader"
+        }
+      ]
+    },
+    {
+      "id": "supabase",
+      "type": "database",
+      "label": "Supabase",
+      "sublabel": "Postgres + Realtime",
+      "brand": "supabase",
+      "tag": "optional",
+      "pos": [
+        1100,
+        60
+      ],
+      "size": [
+        175,
+        82
+      ],
+      "sources": [
+        {
+          "path": "src/lib/supabase/client.ts",
+          "label": "Lazy browser client"
+        },
+        {
+          "path": "supabase/migrations/0001_site_stats.sql",
+          "label": "site_stats + bump_visits()"
+        }
+      ]
+    },
+    {
+      "id": "browser",
+      "type": "frontend",
+      "label": "Browser app",
+      "sublabel": "Next 16 router, React 19",
+      "brand": "react",
+      "pos": [
+        1100,
+        250
+      ],
+      "size": [
+        175,
+        82
+      ],
+      "sources": [
+        {
+          "path": "src/app/layout.tsx",
+          "label": "Root layout"
+        },
+        {
+          "path": "src/app/search/SearchClient.tsx",
+          "label": "Search client"
+        }
+      ]
+    }
+  ],
+  "boundaries": [
+    {
+      "kind": "region",
+      "label": "GitHub Actions runners — deploy.yml (v* tag, twice-daily cron) and apps.yml",
+      "wraps": [
+        "fetchScripts",
+        "pagefindIndexer",
+        "nextBuild",
+        "shells"
+      ]
+    },
+    {
+      "kind": "region",
+      "label": "GitHub Pages artifact — one origin, repo subpath",
+      "wraps": [
+        "staticData",
+        "pages",
+        "pagefindIndex"
+      ]
+    },
+    {
+      "kind": "security-group",
+      "label": "RLS: read site_stats, bump_visits() only",
+      "wraps": [
+        "supabase"
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "youtube-to-scripts",
+      "from": "youtube",
+      "to": "fetchScripts",
+      "label": "scrape, no key"
+    },
+    {
+      "id": "apis-to-scripts",
+      "from": "contentApis",
+      "to": "fetchScripts",
+      "label": "REST fetch",
+      "variant": "emphasis",
+      "labelDy": 30
+    },
+    {
+      "id": "scripts-to-pagefind",
+      "from": "fetchScripts",
+      "to": "pagefindIndexer",
+      "label": "writes public/data",
+      "labelDy": 40
+    },
+    {
+      "id": "pagefind-to-build",
+      "from": "pagefindIndexer",
+      "to": "nextBuild",
+      "label": "public/pagefind"
+    },
+    {
+      "id": "build-to-pages",
+      "from": "nextBuild",
+      "to": "pages",
+      "label": "uploads out/",
+      "variant": "emphasis"
+    },
+    {
+      "id": "pages-hosts-data",
+      "from": "pages",
+      "to": "staticData",
+      "label": "hosts /data/**",
+      "labelDy": -40
+    },
+    {
+      "id": "pages-hosts-index",
+      "from": "pages",
+      "to": "pagefindIndex",
+      "label": "hosts /pagefind/**",
+      "labelDy": 40
+    },
+    {
+      "id": "build-to-shells",
+      "from": "nextBuild",
+      "to": "shells",
+      "label": "embeds out/",
+      "variant": "dashed",
+      "labelDy": 40
+    },
+    {
+      "id": "pages-to-browser",
+      "from": "pages",
+      "to": "browser",
+      "label": "HTML + JSON",
+      "variant": "emphasis"
+    },
+    {
+      "id": "browser-to-supabase",
+      "from": "browser",
+      "to": "supabase",
+      "label": "bump_visits() RPC",
+      "variant": "security",
+      "labelDx": -50
+    },
+    {
+      "id": "supabase-to-browser",
+      "from": "supabase",
+      "to": "browser",
+      "label": "Realtime counter",
+      "labelDx": 44,
+      "labelDy": 55
+    }
+  ],
+  "cards": [
+    {
+      "dot": "cyan",
+      "title": "Build-time ingestion",
+      "items": [
+        "Quran, hadith, and YouTube data are fetched in CI only",
+        "A twice-daily cron re-scrapes latest uploads, then redeploys",
+        "A failed channel fetch falls back to mock data"
+      ]
+    },
+    {
+      "dot": "emerald",
+      "title": "One-origin delivery",
+      "items": [
+        "Export, JSON corpus, and ~43k-file index ship as one artifact",
+        "Build-only *-all.json is pruned to stay under the 1 GB cap",
+        "out/.nojekyll keeps Jekyll from dropping _next/"
+      ]
+    },
+    {
+      "dot": "violet",
+      "title": "Runtime and release",
+      "items": [
+        "The client fetches per-surah and per-book JSON only",
+        "Saved items and reading progress stay in localStorage",
+        "Only v* tags deploy; rollback ships a known-good tag"
+      ]
+    }
+  ]
+}
