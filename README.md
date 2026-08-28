@@ -28,6 +28,7 @@ A premium open-source Quran & Hadith platform — complete Quran with multilingu
 
 - [Features](#features)
 - [Architecture](#architecture)
+  - [System Overview](#system-overview) · [Data Flow](#data-flow) · [Component Structure](#component-structure)
 - [Tech Stack](#tech-stack)
 - [Getting Started](#getting-started)
 - [Project Structure](#project-structure)
@@ -79,6 +80,18 @@ Chamber-based navigation — every page is a sacred chamber with unique lighting
 ---
 
 ## Architecture
+
+### System Overview
+
+<a href="https://mdsarfarazalam840.github.io/Islamic-website/architecture/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/architecture/quran-website-architecture.visual-check.2048x1320.dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="docs/architecture/quran-website-architecture.visual-check.2048x1320.light.png">
+    <img alt="Quran Website — static build and delivery architecture: build-time ingestion, one-origin delivery, runtime and release" src="docs/architecture/quran-website-architecture.visual-check.2048x1320.light.png">
+  </picture>
+</a>
+
+**[▶ Open the interactive diagram](https://mdsarfarazalam840.github.io/Islamic-website/architecture/)** — 5 guided views (build-time ingestion, deploy and rollback, client-side fetching, live visitors, desktop shells), path highlighting, dark/light themes, and PNG/SVG export. Source: [`docs/architecture/`](docs/architecture/).
 
 ### Data Flow
 
