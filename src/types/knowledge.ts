@@ -18,6 +18,7 @@ export interface LocalizedText {
 
 export type KnowledgeCategory =
   | "basics"
+  | "salah"
   | "prophets"
   | "quranic"
   | "surahs"

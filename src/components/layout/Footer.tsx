@@ -15,6 +15,7 @@ const footerLinks = [
     title: "Resources",
     links: [
       { label: "Search", href: "/search" },
+      { label: "Tasbih", href: "/tasbih" },
       { label: "About", href: "/about" },
     ],
   },

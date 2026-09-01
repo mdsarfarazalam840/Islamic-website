@@ -25,6 +25,7 @@ const HADITH_DIR = path.resolve("public/data/hadith")
 
 const CATEGORIES = [
   "basics",
+  "salah",
   "concepts",
   "creed",
   "prophets",

@@ -1,0 +1,93 @@
+{
+  "slug": "salah-travel-and-missed-prayers",
+  "category": "salah",
+  "order": 7,
+  "title": {
+    "en": "Prayer on a Journey, in Congregation, and When It Is Missed",
+    "hi": "सफ़र में, जमाअत में, और छूट जाने पर नमाज़",
+    "ur": "سفر میں، جماعت میں، اور چھوٹ جانے پر نماز"
+  },
+  "summary": {
+    "en": "Qaṣr — the shortened prayer of a traveller; the reward of praying in congregation; and qaḍāʾ — what to do about a prayer that has been missed or slept through.",
+    "hi": "क़स्र — मुसाफ़िर की छोटी की गई नमाज़; जमाअत से पढ़ने का सवाब; और क़ज़ा — उस नमाज़ का क्या करें जो छूट गई या सोते में निकल गई।",
+    "ur": "قصر — مسافر کی مختصر کی گئی نماز؛ جماعت سے پڑھنے کا ثواب؛ اور قضا — اُس نماز کا کیا کریں جو چھوٹ گئی یا سوتے میں نکل گئی۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "The five prayers are fixed, but the law around them makes room for real life: for the traveller, for the one who oversleeps, and for the one who cannot reach a mosque." },
+      { "kind": "heading", "level": 2, "text": "Qaṣr — the traveller's prayer" },
+      { "kind": "p", "text": "A traveller shortens the four-rakʿah farḍ prayers to two. Ẓuhr, ʿAṣr and ʿIshāʾ become two rakʿahs each; Fajr stays at two and Maghrib at three, since neither is a four-rakʿah prayer. Witr is prayed as normal." },
+      { "kind": "verse", "surah": 4, "ayah": 101, "note": "When you travel through the land, there is no blame in shortening the prayer." },
+      { "kind": "p", "text": "In the Ḥanafī school a journey counts once the destination is roughly forty-eight miles — about seventy-seven kilometres — away, and the traveller shortens from the point of leaving the town until returning or until intending to stay fifteen days or more in one place. Shortening is not optional here but the established form of the prayer for a traveller." },
+      { "kind": "p", "text": "The sunnah prayers may be left during travel when there is difficulty, though the two before Fajr are kept. If a traveller prays behind a resident imām, they follow the imām in full and do not shorten." },
+      { "kind": "heading", "level": 2, "text": "Praying in congregation" },
+      { "kind": "p", "text": "The farḍ prayer in congregation carries many times the reward of praying it alone, and the men of a locality are expected to pray it in the mosque wherever they can. The virtue is not only in the reward: the congregation is what keeps the five prayers a public, shared act rather than a private one." },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 645, "note": "The prayer in congregation compared with the prayer of a person alone." },
+      { "kind": "p", "text": "Whoever arrives after the imām has begun joins wherever the congregation is and completes the remaining rakʿahs after the imām's salām. Rakʿahs missed at the start are prayed at the end." },
+      { "kind": "heading", "level": 2, "text": "Qaḍāʾ — a prayer that was missed" },
+      { "kind": "p", "text": "A missed prayer is not written off. It is prayed as soon as it is remembered or as soon as the person wakes, and there is no sin in the delay itself when the cause was sleep or genuine forgetfulness." },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 597, "note": "Whoever forgets a prayer should pray it when they remember it — there is no expiation for it other than that." },
+      { "kind": "verse", "surah": 20, "ayah": 14, "note": "Establish the prayer for My remembrance — the command the qaḍāʾ ultimately answers to." },
+      { "kind": "p", "text": "Missed prayers are made up in order where several are owed, and only the farḍ rakʿahs and witr are made up — the sunnah and nafl of a past prayer are not. Someone with years of missed prayers behind them makes them up gradually, alongside the current prayers, rather than all at once." },
+      { "kind": "p", "text": "Deliberately abandoning a prayer while able to pray it is a serious matter and the qaḍāʾ does not erase the fact of having left it; sincere repentance is part of the response. But the door does not close. The one who returns to prayer after years away begins from where they stand." },
+      { "kind": "heading", "level": 2, "text": "When illness makes standing hard" },
+      { "kind": "p", "text": "Someone who cannot stand prays sitting; someone who cannot sit prays lying down, moving the head for rukūʿ and sujūd; and someone who cannot even do that prays with the intention and the words alone. The prayer is not dropped for weakness — its form bends to what the body can give." },
+      { "kind": "p", "text": "The same principle governs the substitutions elsewhere in prayer: tayammum in place of wuḍūʾ when water is unavailable, praying in whatever direction is best judged when the qiblah cannot be determined, and praying on a moving vehicle when nothing else is possible. In every case the prayer continues in a reduced form rather than being missed." }
+    ],
+    "hi": [
+      { "kind": "p", "text": "पाँच नमाज़ें मुक़र्रर हैं, लेकिन उनके अहकाम असल ज़िंदगी की गुंजाइश रखते हैं: मुसाफ़िर के लिए, उसके लिए जो सोता रह जाए, और उसके लिए जो मस्जिद तक न पहुँच सके।" },
+      { "kind": "heading", "level": 2, "text": "क़स्र — मुसाफ़िर की नमाज़" },
+      { "kind": "p", "text": "मुसाफ़िर चार रकअत वाली फ़र्ज़ नमाज़ों को दो कर देता है। ज़ुहर, अस्र और इशा दो-दो रकअतें हो जाती हैं; फ़ज्र दो ही रहती है और मग़रिब तीन, क्योंकि इनमें से कोई चार रकअत की नमाज़ नहीं। वित्र आम तौर पर पढ़ी जाती है।" },
+      { "kind": "verse", "surah": 4, "ayah": 101, "note": "जब तुम ज़मीन में सफ़र करो तो नमाज़ में कमी करने में कोई हरज नहीं।" },
+      { "kind": "p", "text": "हनफ़ी मसलक में सफ़र वहाँ से शुरू माना जाता है जब मंज़िल तक़रीबन अड़तालीस मील — क़रीब सत्तत्तर किलोमीटर — दूर हो, और मुसाफ़िर शहर से निकलने से लेकर वापस आने तक, या एक जगह पंद्रह दिन या उससे ज़्यादा ठहरने की नीयत करने तक, क़स्र करता है। यहाँ क़स्र इख़्तियारी नहीं बल्कि मुसाफ़िर के लिए नमाज़ की मुक़र्रर शक्ल है।" },
+      { "kind": "p", "text": "सफ़र में तंगी हो तो सुन्नतें छोड़ी जा सकती हैं, अलबत्ता फ़ज्र की दो सुन्नतें पढ़ी जाती हैं। अगर मुसाफ़िर मुक़ीम इमाम के पीछे पढ़े तो पूरी नमाज़ इमाम के साथ पढ़ेगा, क़स्र नहीं करेगा।" },
+      { "kind": "heading", "level": 2, "text": "जमाअत से पढ़ना" },
+      { "kind": "p", "text": "जमाअत के साथ फ़र्ज़ नमाज़ का सवाब अकेले पढ़ने से कई गुना है, और मोहल्ले के मर्दों से यही तवक़्क़ो है कि जहाँ मुमकिन हो मस्जिद में पढ़ें। फ़ज़ीलत सिर्फ़ सवाब में नहीं: जमाअत ही वह चीज़ है जो पाँच नमाज़ों को ज़ाती अमल के बजाय एक इजतिमाई अमल बनाए रखती है।" },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 645, "note": "जमाअत की नमाज़ और अकेले की नमाज़ का मुक़ाबला।" },
+      { "kind": "p", "text": "जो इमाम के शुरू करने के बाद पहुँचे वह जमाअत जहाँ हो वहीं शामिल हो जाए और इमाम के सलाम के बाद बाक़ी रकअतें पूरी करे। शुरू में छूटी रकअतें आख़िर में पढ़ी जाती हैं।" },
+      { "kind": "heading", "level": 2, "text": "क़ज़ा — छूटी हुई नमाज़" },
+      { "kind": "p", "text": "छूटी नमाज़ माफ़ नहीं होती। याद आते ही या नींद से उठते ही पढ़ ली जाती है, और जब वजह नींद या सच में भूल हो तो इस देर पर कोई गुनाह नहीं।" },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 597, "note": "जो नमाज़ भूल जाए वह याद आने पर पढ़ ले — इसके सिवा उसका कोई कफ़्फ़ारा नहीं।" },
+      { "kind": "verse", "surah": 20, "ayah": 14, "note": "मेरी याद के लिए नमाज़ क़ायम करो — वही हुक्म जिसका जवाब आख़िरकार क़ज़ा है।" },
+      { "kind": "p", "text": "जब कई नमाज़ें ज़िम्मे हों तो क़ज़ा तरतीब से पढ़ी जाती है, और सिर्फ़ फ़र्ज़ रकअतें और वित्र की क़ज़ा है — गुज़री नमाज़ की सुन्नत और नफ़्ल की नहीं। जिसके ज़िम्मे बरसों की नमाज़ें हों वह उन्हें एक साथ नहीं बल्कि मौजूदा नमाज़ों के साथ-साथ धीरे-धीरे अदा करे।" },
+      { "kind": "p", "text": "पढ़ने की ताक़त के बावजूद जानबूझकर नमाज़ छोड़ना संगीन बात है और क़ज़ा उस छोड़ने को मिटा नहीं देती; सच्ची तौबा उसका हिस्सा है। लेकिन दरवाज़ा बंद नहीं होता। जो बरसों बाद नमाज़ की तरफ़ लौटे वह वहीं से शुरू करे जहाँ खड़ा है।" },
+      { "kind": "heading", "level": 2, "text": "जब बीमारी में खड़ा होना मुश्किल हो" },
+      { "kind": "p", "text": "जो खड़ा न हो सके वह बैठकर पढ़े; जो बैठ न सके वह लेटकर पढ़े और रुकू-सजदे के लिए सिर से इशारा करे; और जो यह भी न कर सके वह सिर्फ़ नीयत और अल्फ़ाज़ से पढ़े। कमज़ोरी की वजह से नमाज़ साक़ित नहीं होती — उसकी शक्ल इस पर ढल जाती है जो बदन दे सके।" },
+      { "kind": "p", "text": "नमाज़ की और रुख़्सतें भी इसी उसूल पर हैं: पानी न मिले तो वुज़ू की जगह तयम्मुम, क़िबला मालूम न हो तो जिस तरफ़ ग़ालिब गुमान हो उसी तरफ़ पढ़ना, और चलती सवारी पर पढ़ना जब कोई और सूरत न हो। हर सूरत में नमाज़ छूटती नहीं, कम शक्ल में जारी रहती है।" }
+    ],
+    "ur": [
+      { "kind": "p", "text": "پانچ نمازیں مقرر ہیں، لیکن اُن کے احکام اصل زندگی کی گنجائش رکھتے ہیں: مسافر کے لیے، اُس کے لیے جو سوتا رہ جائے، اور اُس کے لیے جو مسجد تک نہ پہنچ سکے۔" },
+      { "kind": "heading", "level": 2, "text": "قصر — مسافر کی نماز" },
+      { "kind": "p", "text": "مسافر چار رکعت والی فرض نمازوں کو دو کر دیتا ہے۔ ظہر، عصر اور عشا دو دو رکعتیں ہو جاتی ہیں؛ فجر دو ہی رہتی ہے اور مغرب تین، کیونکہ اِن میں سے کوئی چار رکعت کی نماز نہیں۔ وتر عام طور پر پڑھی جاتی ہے۔" },
+      { "kind": "verse", "surah": 4, "ayah": 101, "note": "جب تم زمین میں سفر کرو تو نماز میں کمی کرنے میں کوئی حرج نہیں۔" },
+      { "kind": "p", "text": "حنفی مسلک میں سفر وہاں سے شروع مانا جاتا ہے جب منزل تقریباً اڑتالیس میل — قریب ستتر کلومیٹر — دور ہو، اور مسافر شہر سے نکلنے سے لے کر واپس آنے تک، یا ایک جگہ پندرہ دن یا اُس سے زیادہ ٹھہرنے کی نیت کرنے تک، قصر کرتا ہے۔ یہاں قصر اختیاری نہیں بلکہ مسافر کے لیے نماز کی مقرر شکل ہے۔" },
+      { "kind": "p", "text": "سفر میں تنگی ہو تو سنتیں چھوڑی جا سکتی ہیں، البتہ فجر کی دو سنتیں پڑھی جاتی ہیں۔ اگر مسافر مقیم امام کے پیچھے پڑھے تو پوری نماز امام کے ساتھ پڑھے گا، قصر نہیں کرے گا۔" },
+      { "kind": "heading", "level": 2, "text": "جماعت سے پڑھنا" },
+      { "kind": "p", "text": "جماعت کے ساتھ فرض نماز کا ثواب اکیلے پڑھنے سے کئی گنا ہے، اور محلے کے مردوں سے یہی توقع ہے کہ جہاں ممکن ہو مسجد میں پڑھیں۔ فضیلت صرف ثواب میں نہیں: جماعت ہی وہ چیز ہے جو پانچ نمازوں کو ذاتی عمل کے بجائے ایک اجتماعی عمل بنائے رکھتی ہے۔" },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 645, "note": "جماعت کی نماز اور اکیلے کی نماز کا مقابلہ۔" },
+      { "kind": "p", "text": "جو امام کے شروع کرنے کے بعد پہنچے وہ جماعت جہاں ہو وہیں شامل ہو جائے اور امام کے سلام کے بعد باقی رکعتیں پوری کرے۔ شروع میں چھوٹی رکعتیں آخر میں پڑھی جاتی ہیں۔" },
+      { "kind": "heading", "level": 2, "text": "قضا — چھوٹی ہوئی نماز" },
+      { "kind": "p", "text": "چھوٹی نماز معاف نہیں ہوتی۔ یاد آتے ہی یا نیند سے اٹھتے ہی پڑھ لی جاتی ہے، اور جب وجہ نیند یا واقعی بھول ہو تو اِس دیر پر کوئی گناہ نہیں۔" },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 597, "note": "جو نماز بھول جائے وہ یاد آنے پر پڑھ لے — اِس کے سوا اُس کا کوئی کفارہ نہیں۔" },
+      { "kind": "verse", "surah": 20, "ayah": 14, "note": "میری یاد کے لیے نماز قائم کرو — وہی حکم جس کا جواب بالآخر قضا ہے۔" },
+      { "kind": "p", "text": "جب کئی نمازیں ذمے ہوں تو قضا ترتیب سے پڑھی جاتی ہے، اور صرف فرض رکعتیں اور وتر کی قضا ہے — گزری نماز کی سنت اور نفل کی نہیں۔ جس کے ذمے برسوں کی نمازیں ہوں وہ اُنہیں ایک ساتھ نہیں بلکہ موجودہ نمازوں کے ساتھ ساتھ آہستہ آہستہ ادا کرے۔" },
+      { "kind": "p", "text": "پڑھنے کی طاقت کے باوجود جان بوجھ کر نماز چھوڑنا سنگین بات ہے اور قضا اُس چھوڑنے کو مٹا نہیں دیتی؛ سچی توبہ اُس کا حصہ ہے۔ لیکن دروازہ بند نہیں ہوتا۔ جو برسوں بعد نماز کی طرف لوٹے وہ وہیں سے شروع کرے جہاں کھڑا ہے۔" },
+      { "kind": "heading", "level": 2, "text": "جب بیماری میں کھڑا ہونا مشکل ہو" },
+      { "kind": "p", "text": "جو کھڑا نہ ہو سکے وہ بیٹھ کر پڑھے؛ جو بیٹھ نہ سکے وہ لیٹ کر پڑھے اور رکوع سجدے کے لیے سر سے اشارہ کرے؛ اور جو یہ بھی نہ کر سکے وہ صرف نیت اور الفاظ سے پڑھے۔ کمزوری کی وجہ سے نماز ساقط نہیں ہوتی — اُس کی شکل اِس پر ڈھل جاتی ہے جو بدن دے سکے۔" },
+      { "kind": "p", "text": "نماز کی دیگر رخصتیں بھی اِسی اصول پر ہیں: پانی نہ ملے تو وضو کی جگہ تیمم، قبلہ معلوم نہ ہو تو جس طرف غالب گمان ہو اُسی طرف پڑھنا، اور چلتی سواری پر پڑھنا جب کوئی اور صورت نہ ہو۔ ہر صورت میں نماز چھوٹتی نہیں، کم شکل میں جاری رہتی ہے۔" }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "4:101" },
+    { "type": "quran", "ref": "20:14" },
+    { "type": "hadith", "collection": "bukhari", "ref": "645", "grade": "sahih" },
+    { "type": "hadith", "collection": "bukhari", "ref": "597", "grade": "sahih" },
+    { "type": "hadith", "collection": "bukhari", "ref": "1090", "grade": "sahih" }
+  ],
+  "relatedSlugs": [
+    "salah-five-daily-prayers",
+    "salah-jumuah-eid-janazah",
+    "salah-types-of-prayer",
+    "basics-wudu"
+  ]
+}

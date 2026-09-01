@@ -8,6 +8,7 @@ import {
   Footprints,
   Quote,
   BadgeCheck,
+  Compass,
   type LucideIcon,
 } from "lucide-react"
 
@@ -37,6 +38,20 @@ export const KNOWLEDGE_CATEGORIES: KnowledgeCategoryInfo[] = [
       en: "The five pillars, the six articles of faith, and the essentials of worship.",
       hi: "इस्लाम के पाँच स्तंभ, ईमान के छह अनुच्छेद, और इबादत की आवश्यक बातें।",
       ur: "اسلام کے پانچ ارکان، ایمان کے چھ اجزاء، اور عبادت کے بنیادی مسائل۔",
+    },
+  },
+  {
+    id: "salah",
+    icon: Compass,
+    label: {
+      en: "Ṣalāh & Namaz",
+      hi: "नमाज़",
+      ur: "نماز",
+    },
+    blurb: {
+      en: "How many prayers there are, the kinds of prayer — farḍ, wājib, sunnah and nafl — and every word recited in them, with its reference.",
+      hi: "कितनी नमाज़ें हैं, नमाज़ के प्रकार — फ़र्ज़, वाजिब, सुन्नत और नफ़्ल — और उनमें पढ़ी जाने वाली हर दुआ, संदर्भ के साथ।",
+      ur: "کتنی نمازیں ہیں، نماز کی اقسام — فرض، واجب، سنت اور نفل — اور اُن میں پڑھی جانے والی ہر دعا، حوالے کے ساتھ۔",
     },
   },
   {

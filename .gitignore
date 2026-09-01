@@ -64,7 +64,7 @@ test*
 !src/components/ui/testimonials-card.tsx
 .opencode*
 graphify*
-docs/
+docs/superpowers/
 
 opencode.json
 skills-lock.json

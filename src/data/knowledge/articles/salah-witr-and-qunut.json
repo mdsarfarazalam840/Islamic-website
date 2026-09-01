@@ -1,0 +1,76 @@
+{
+  "slug": "salah-witr-and-qunut",
+  "category": "salah",
+  "order": 4,
+  "title": {
+    "en": "Witr and the Duʿāʾ al-Qunūt",
+    "hi": "वित्र और दुआ-ए-क़ुनूत",
+    "ur": "وتر اور دعائے قنوت"
+  },
+  "summary": {
+    "en": "The prayer that closes the night: how many rakʿahs witr has, how the third rakʿah differs, and the two well-known wordings of the duʿāʾ al-qunūt in Arabic with their meaning.",
+    "hi": "वह नमाज़ जो रात को ख़त्म करती है: वित्र की कितनी रकअतें हैं, तीसरी रकअत में क्या फ़र्क़ है, और दुआ-ए-क़ुनूत के दो मशहूर अल्फ़ाज़ अरबी में उनके मानी के साथ।",
+    "ur": "وہ نماز جو رات کو ختم کرتی ہے: وتر کی کتنی رکعتیں ہیں، تیسری رکعت میں کیا فرق ہے، اور دعائے قنوت کے دو مشہور الفاظ عربی میں اُن کے معنی کے ساتھ۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Witr is prayed after ʿIshāʾ and is the last prayer of the night. Its name means \"the odd one\" — an odd number of rakʿahs, so that the day's prayer ends on an odd count." },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 990, "note": "A man asked the Prophet ﷺ about the night prayer: pray two rakʿahs at a time, and when you fear the dawn is near, pray one rakʿah as witr." },
+      { "kind": "heading", "level": 2, "text": "How many rakʿahs" },
+      { "kind": "p", "text": "In the Ḥanafī school witr is three rakʿahs, prayed with a single salām at the end, and it is wājib — not merely sunnah. The first two rakʿahs are like any other prayer; after the tashahhud of the second rakʿah the worshipper stands for the third." },
+      { "kind": "p", "text": "The other schools hold witr to be an emphatic sunnah rather than wājib, and allow one, three, five, seven or nine rakʿahs, with a single rakʿah being the shortest valid witr. Both positions rest on sound narrations, and the difference is one of grading rather than of substance." },
+      { "kind": "heading", "level": 2, "text": "The third rakʿah — qunūt" },
+      { "kind": "p", "text": "In the third rakʿah, after al-Fātiḥah and a further passage, the worshipper says the takbīr, raises the hands, and then recites the duʿāʾ al-qunūt while still standing — before going into rukūʿ. This standing supplication is what gives the rakʿah its distinct shape." },
+      { "kind": "arabic", "text": "اللَّهُمَّ إِنَّا نَسْتَعِينُكَ وَنَسْتَغْفِرُكَ وَنُؤْمِنُ بِكَ وَنَتَوَكَّلُ عَلَيْكَ وَنُثْنِي عَلَيْكَ الْخَيْرَ، وَنَشْكُرُكَ وَلَا نَكْفُرُكَ، وَنَخْلَعُ وَنَتْرُكُ مَنْ يَفْجُرُكَ.\nاللَّهُمَّ إِيَّاكَ نَعْبُدُ وَلَكَ نُصَلِّي وَنَسْجُدُ، وَإِلَيْكَ نَسْعَى وَنَحْفِدُ، وَنَرْجُو رَحْمَتَكَ وَنَخْشَى عَذَابَكَ، إِنَّ عَذَابَكَ بِالْكُفَّارِ مُلْحِقٌ", "transliteration": "Allāhumma innā nastaʿīnuka wa nastaghfiruka wa nuʾminu bika wa natawakkalu ʿalayka wa nuthnī ʿalayka'l-khayr, wa nashkuruka wa lā nakfuruka, wa nakhlaʿu wa natruku man yafjuruk.\nAllāhumma iyyāka naʿbudu wa laka nuṣallī wa nasjudu, wa ilayka nasʿā wa naḥfid, wa narjū raḥmataka wa nakhshā ʿadhābaka, inna ʿadhābaka bi'l-kuffāri mulḥiq.", "translation": "O Allah, we seek Your help and Your forgiveness, we believe in You and rely upon You, and we praise You with all good. We thank You and we are not ungrateful to You, and we cast off and abandon whoever disobeys You.\nO Allah, You alone we worship, for You we pray and prostrate, to You we strive and hasten. We hope for Your mercy and fear Your punishment — surely Your punishment overtakes those who reject faith.", "label": "Duʿāʾ al-Qunūt — the wording taught in the subcontinent" },
+      { "kind": "arabic", "text": "اللَّهُمَّ اهْدِنِي فِيمَنْ هَدَيْتَ، وَعَافِنِي فِيمَنْ عَافَيْتَ، وَتَوَلَّنِي فِيمَنْ تَوَلَّيْتَ، وَبَارِكْ لِي فِيمَا أَعْطَيْتَ، وَقِنِي شَرَّ مَا قَضَيْتَ، إِنَّكَ تَقْضِي وَلَا يُقْضَى عَلَيْكَ، إِنَّهُ لَا يَذِلُّ مَنْ وَالَيْتَ، تَبَارَكْتَ رَبَّنَا وَتَعَالَيْتَ", "transliteration": "Allāhumma ihdinī fīman hadayt, wa ʿāfinī fīman ʿāfayt, wa tawallanī fīman tawallayt, wa bārik lī fīmā aʿṭayt, wa qinī sharra mā qaḍayt, innaka taqḍī wa lā yuqḍā ʿalayk, innahu lā yadhillu man wālayt, tabārakta Rabbanā wa taʿālayt", "translation": "O Allah, guide me among those You have guided, grant me health among those You have granted health, take me into Your care among those You have taken into Your care, bless me in what You have given, and protect me from the evil of what You have decreed. You decree and none decrees against You. Whoever You befriend is never humiliated. Blessed are You, our Lord, and exalted.", "label": "Duʿāʾ al-Qunūt — the wording taught to Ḥasan ibn ʿAlī" },
+      { "kind": "hadith", "collection": "tirmidhi", "hadith": 464, "note": "The Prophet ﷺ taught this duʿāʾ to his grandson Ḥasan ibn ʿAlī to say in witr." },
+      { "kind": "p", "text": "Either wording is sufficient, and many pray both. Someone who has not yet memorised any of it may make a simple supplication in their own words, or say Rabbighfir lī repeatedly, until the wording is learnt." },
+      { "kind": "heading", "level": 2, "text": "If qunūt is forgotten" },
+      { "kind": "p", "text": "Forgetting the qunūt does not invalidate the prayer. If the worshipper realises after going into rukūʿ, they do not return to standing; they complete the prayer and perform sajdah sahw — the two prostrations of forgetfulness — after the final tashahhud, then say the salām." },
+      { "kind": "p", "text": "Witr may be prayed any time after ʿIshāʾ until the break of dawn. Anyone who intends to pray tahajjud late in the night is best delaying witr until after it, so that witr genuinely ends the night's prayer." }
+    ],
+    "hi": [
+      { "kind": "p", "text": "वित्र इशा के बाद पढ़ी जाती है और रात की आख़िरी नमाज़ है। इसका नाम माने \"ताक़\" — रकअतों की ताक़ गिनती, ताकि दिन की नमाज़ ताक़ अदद पर ख़त्म हो।" },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 990, "note": "एक शख़्स ने नबी ﷺ से रात की नमाज़ के बारे में पूछा: दो-दो रकअतें पढ़ो, और जब सुबह होने का अंदेशा हो तो एक रकअत वित्र पढ़ लो।" },
+      { "kind": "heading", "level": 2, "text": "कितनी रकअतें" },
+      { "kind": "p", "text": "हनफ़ी मसलक में वित्र तीन रकअतें हैं, आख़िर में एक ही सलाम के साथ, और यह वाजिब है — सिर्फ़ सुन्नत नहीं। पहली दो रकअतें किसी और नमाज़ जैसी होती हैं; दूसरी रकअत के तशहुद के बाद बंदा तीसरी के लिए खड़ा होता है।" },
+      { "kind": "p", "text": "बाक़ी मसलक वित्र को वाजिब के बजाय सुन्नत-ए-मुअक्कदा मानते हैं, और एक, तीन, पाँच, सात या नौ रकअतें जायज़ रखते हैं, जिसमें एक रकअत सबसे छोटी दुरुस्त वित्र है। दोनों राय सहीह रिवायात पर हैं, और फ़र्क़ दर्जे का है, असल का नहीं।" },
+      { "kind": "heading", "level": 2, "text": "तीसरी रकअत — क़ुनूत" },
+      { "kind": "p", "text": "तीसरी रकअत में अल-फ़ातिहा और एक और क़िरअत के बाद बंदा तकबीर कहता है, हाथ उठाता है, और खड़े ही खड़े दुआ-ए-क़ुनूत पढ़ता है — रुकू में जाने से पहले। यही खड़े होकर की जाने वाली दुआ इस रकअत को अलग शक्ल देती है।" },
+      { "kind": "arabic", "text": "اللَّهُمَّ إِنَّا نَسْتَعِينُكَ وَنَسْتَغْفِرُكَ وَنُؤْمِنُ بِكَ وَنَتَوَكَّلُ عَلَيْكَ وَنُثْنِي عَلَيْكَ الْخَيْرَ، وَنَشْكُرُكَ وَلَا نَكْفُرُكَ، وَنَخْلَعُ وَنَتْرُكُ مَنْ يَفْجُرُكَ.\nاللَّهُمَّ إِيَّاكَ نَعْبُدُ وَلَكَ نُصَلِّي وَنَسْجُدُ، وَإِلَيْكَ نَسْعَى وَنَحْفِدُ، وَنَرْجُو رَحْمَتَكَ وَنَخْشَى عَذَابَكَ، إِنَّ عَذَابَكَ بِالْكُفَّارِ مُلْحِقٌ", "transliteration": "Allāhumma innā nastaʿīnuka wa nastaghfiruka wa nuʾminu bika wa natawakkalu ʿalayka wa nuthnī ʿalayka'l-khayr, wa nashkuruka wa lā nakfuruka, wa nakhlaʿu wa natruku man yafjuruk.\nAllāhumma iyyāka naʿbudu wa laka nuṣallī wa nasjudu, wa ilayka nasʿā wa naḥfid, wa narjū raḥmataka wa nakhshā ʿadhābaka, inna ʿadhābaka bi'l-kuffāri mulḥiq.", "translation": "ऐ अल्लाह! हम तुझसे मदद माँगते हैं और तुझसे बख़्शिश चाहते हैं, तुझ पर ईमान रखते हैं और तुझ पर भरोसा करते हैं, और तेरी अच्छी तारीफ़ करते हैं। हम तेरा शुक्र करते हैं और नाशुक्री नहीं करते, और जो तेरी नाफ़रमानी करे उसे छोड़ देते हैं।\nऐ अल्लाह! हम तेरी ही इबादत करते हैं, तेरे लिए नमाज़ पढ़ते और सजदा करते हैं, तेरी ही तरफ़ दौड़ते और लपकते हैं। हम तेरी रहमत की उम्मीद रखते हैं और तेरे अज़ाब से डरते हैं — बेशक तेरा अज़ाब इनकार करने वालों को पहुँचने वाला है।", "label": "दुआ-ए-क़ुनूत — बर्रे-सग़ीर में सिखाए जाने वाले अल्फ़ाज़" },
+      { "kind": "arabic", "text": "اللَّهُمَّ اهْدِنِي فِيمَنْ هَدَيْتَ، وَعَافِنِي فِيمَنْ عَافَيْتَ، وَتَوَلَّنِي فِيمَنْ تَوَلَّيْتَ، وَبَارِكْ لِي فِيمَا أَعْطَيْتَ، وَقِنِي شَرَّ مَا قَضَيْتَ، إِنَّكَ تَقْضِي وَلَا يُقْضَى عَلَيْكَ، إِنَّهُ لَا يَذِلُّ مَنْ وَالَيْتَ، تَبَارَكْتَ رَبَّنَا وَتَعَالَيْتَ", "transliteration": "Allāhumma ihdinī fīman hadayt, wa ʿāfinī fīman ʿāfayt, wa tawallanī fīman tawallayt, wa bārik lī fīmā aʿṭayt, wa qinī sharra mā qaḍayt, innaka taqḍī wa lā yuqḍā ʿalayk, innahu lā yadhillu man wālayt, tabārakta Rabbanā wa taʿālayt", "translation": "ऐ अल्लाह! मुझे उनमें हिदायत दे जिन्हें तूने हिदायत दी, मुझे उनमें आफ़ियत दे जिन्हें तूने आफ़ियत दी, मुझे उनमें अपनी सरपरस्ती में ले जिन्हें तूने ली, जो तूने दिया उसमें बरकत दे, और जो तूने मुक़र्रर किया उसकी बुराई से मुझे बचा। तू ही फ़ैसला करता है और तेरे ख़िलाफ़ कोई फ़ैसला नहीं होता। जिसे तू दोस्त बना ले वह कभी ज़लील नहीं होता। ऐ हमारे रब! तू बरकत वाला और बुलंद है।", "label": "दुआ-ए-क़ुनूत — हसन बिन अली को सिखाए गए अल्फ़ाज़" },
+      { "kind": "hadith", "collection": "tirmidhi", "hadith": 464, "note": "नबी ﷺ ने यह दुआ अपने नवासे हसन बिन अली को वित्र में पढ़ने के लिए सिखाई।" },
+      { "kind": "p", "text": "कोई एक भी अल्फ़ाज़ काफ़ी हैं, और बहुत लोग दोनों पढ़ते हैं। जिसे अभी कुछ भी याद न हो वह अपने अल्फ़ाज़ में सादा दुआ कर सकता है, या रब्बिग़फ़िर ली बार-बार पढ़ सकता है, जब तक अल्फ़ाज़ याद न हो जाएँ।" },
+      { "kind": "heading", "level": 2, "text": "अगर क़ुनूत भूल जाए" },
+      { "kind": "p", "text": "क़ुनूत भूलने से नमाज़ बातिल नहीं होती। अगर रुकू में जाने के बाद याद आए तो खड़े होने की तरफ़ न लौटे; नमाज़ पूरी करे और आख़िरी तशहुद के बाद सजदा-ए-सहव — भूल के दो सजदे — करके सलाम फेरे।" },
+      { "kind": "p", "text": "वित्र इशा के बाद से सुबह सादिक़ तक किसी भी वक़्त पढ़ी जा सकती है। जो रात के आख़िरी हिस्से में तहज्जुद का इरादा रखता हो, उसके लिए बेहतर है कि वित्र उसके बाद पढ़े, ताकि वित्र सच में रात की नमाज़ को ख़त्म करे।" }
+    ],
+    "ur": [
+      { "kind": "p", "text": "وتر عشا کے بعد پڑھی جاتی ہے اور رات کی آخری نماز ہے۔ اِس کا نام معنی \"طاق\" — رکعتوں کی طاق گنتی، تاکہ دن کی نماز طاق عدد پر ختم ہو۔" },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 990, "note": "ایک شخص نے نبی ﷺ سے رات کی نماز کے بارے میں پوچھا: دو دو رکعتیں پڑھو، اور جب صبح ہونے کا اندیشہ ہو تو ایک رکعت وتر پڑھ لو۔" },
+      { "kind": "heading", "level": 2, "text": "کتنی رکعتیں" },
+      { "kind": "p", "text": "حنفی مسلک میں وتر تین رکعتیں ہیں، آخر میں ایک ہی سلام کے ساتھ، اور یہ واجب ہے — صرف سنت نہیں۔ پہلی دو رکعتیں کسی اور نماز جیسی ہوتی ہیں؛ دوسری رکعت کے تشہد کے بعد بندہ تیسری کے لیے کھڑا ہوتا ہے۔" },
+      { "kind": "p", "text": "باقی مسالک وتر کو واجب کے بجائے سنتِ مؤکدہ مانتے ہیں، اور ایک، تین، پانچ، سات یا نو رکعتیں جائز رکھتے ہیں، جن میں ایک رکعت سب سے مختصر درست وتر ہے۔ دونوں رائے صحیح روایات پر ہیں، اور فرق درجے کا ہے، اصل کا نہیں۔" },
+      { "kind": "heading", "level": 2, "text": "تیسری رکعت — قنوت" },
+      { "kind": "p", "text": "تیسری رکعت میں الفاتحہ اور ایک اور قراءت کے بعد بندہ تکبیر کہتا ہے، ہاتھ اٹھاتا ہے، اور کھڑے کھڑے دعائے قنوت پڑھتا ہے — رکوع میں جانے سے پہلے۔ یہی کھڑے ہو کر کی جانے والی دعا اِس رکعت کو الگ شکل دیتی ہے۔" },
+      { "kind": "arabic", "text": "اللَّهُمَّ إِنَّا نَسْتَعِينُكَ وَنَسْتَغْفِرُكَ وَنُؤْمِنُ بِكَ وَنَتَوَكَّلُ عَلَيْكَ وَنُثْنِي عَلَيْكَ الْخَيْرَ، وَنَشْكُرُكَ وَلَا نَكْفُرُكَ، وَنَخْلَعُ وَنَتْرُكُ مَنْ يَفْجُرُكَ.\nاللَّهُمَّ إِيَّاكَ نَعْبُدُ وَلَكَ نُصَلِّي وَنَسْجُدُ، وَإِلَيْكَ نَسْعَى وَنَحْفِدُ، وَنَرْجُو رَحْمَتَكَ وَنَخْشَى عَذَابَكَ، إِنَّ عَذَابَكَ بِالْكُفَّارِ مُلْحِقٌ", "transliteration": "Allāhumma innā nastaʿīnuka wa nastaghfiruka wa nuʾminu bika wa natawakkalu ʿalayka wa nuthnī ʿalayka'l-khayr, wa nashkuruka wa lā nakfuruka, wa nakhlaʿu wa natruku man yafjuruk.\nAllāhumma iyyāka naʿbudu wa laka nuṣallī wa nasjudu, wa ilayka nasʿā wa naḥfid, wa narjū raḥmataka wa nakhshā ʿadhābaka, inna ʿadhābaka bi'l-kuffāri mulḥiq.", "translation": "اے اللہ! ہم تجھ سے مدد مانگتے ہیں اور تجھ سے بخشش چاہتے ہیں، تجھ پر ایمان رکھتے ہیں اور تجھ پر بھروسا کرتے ہیں، اور تیری اچھی تعریف کرتے ہیں۔ ہم تیرا شکر کرتے ہیں اور ناشکری نہیں کرتے، اور جو تیری نافرمانی کرے اُسے چھوڑ دیتے ہیں۔\nاے اللہ! ہم تیری ہی عبادت کرتے ہیں، تیرے لیے نماز پڑھتے اور سجدہ کرتے ہیں، تیری ہی طرف دوڑتے اور لپکتے ہیں۔ ہم تیری رحمت کی امید رکھتے ہیں اور تیرے عذاب سے ڈرتے ہیں — بے شک تیرا عذاب انکار کرنے والوں کو پہنچنے والا ہے۔", "label": "دعائے قنوت — برِصغیر میں سکھائے جانے والے الفاظ" },
+      { "kind": "arabic", "text": "اللَّهُمَّ اهْدِنِي فِيمَنْ هَدَيْتَ، وَعَافِنِي فِيمَنْ عَافَيْتَ، وَتَوَلَّنِي فِيمَنْ تَوَلَّيْتَ، وَبَارِكْ لِي فِيمَا أَعْطَيْتَ، وَقِنِي شَرَّ مَا قَضَيْتَ، إِنَّكَ تَقْضِي وَلَا يُقْضَى عَلَيْكَ، إِنَّهُ لَا يَذِلُّ مَنْ وَالَيْتَ، تَبَارَكْتَ رَبَّنَا وَتَعَالَيْتَ", "transliteration": "Allāhumma ihdinī fīman hadayt, wa ʿāfinī fīman ʿāfayt, wa tawallanī fīman tawallayt, wa bārik lī fīmā aʿṭayt, wa qinī sharra mā qaḍayt, innaka taqḍī wa lā yuqḍā ʿalayk, innahu lā yadhillu man wālayt, tabārakta Rabbanā wa taʿālayt", "translation": "اے اللہ! مجھے اُن میں ہدایت دے جنہیں تو نے ہدایت دی، مجھے اُن میں عافیت دے جنہیں تو نے عافیت دی، مجھے اُن میں اپنی سرپرستی میں لے جنہیں تو نے لیا، جو تو نے دیا اُس میں برکت دے، اور جو تو نے مقرر کیا اُس کی برائی سے مجھے بچا۔ تو ہی فیصلہ کرتا ہے اور تیرے خلاف کوئی فیصلہ نہیں ہوتا۔ جسے تو دوست بنا لے وہ کبھی ذلیل نہیں ہوتا۔ اے ہمارے رب! تو برکت والا اور بلند ہے۔", "label": "دعائے قنوت — حسن بن علی کو سکھائے گئے الفاظ" },
+      { "kind": "hadith", "collection": "tirmidhi", "hadith": 464, "note": "نبی ﷺ نے یہ دعا اپنے نواسے حسن بن علی کو وتر میں پڑھنے کے لیے سکھائی۔" },
+      { "kind": "p", "text": "کوئی ایک بھی الفاظ کافی ہیں، اور بہت لوگ دونوں پڑھتے ہیں۔ جسے ابھی کچھ بھی یاد نہ ہو وہ اپنے الفاظ میں سادہ دعا کر سکتا ہے، یا رب اغفر لی بار بار پڑھ سکتا ہے، جب تک الفاظ یاد نہ ہو جائیں۔" },
+      { "kind": "heading", "level": 2, "text": "اگر قنوت بھول جائے" },
+      { "kind": "p", "text": "قنوت بھولنے سے نماز باطل نہیں ہوتی۔ اگر رکوع میں جانے کے بعد یاد آئے تو کھڑے ہونے کی طرف نہ لوٹے؛ نماز پوری کرے اور آخری تشہد کے بعد سجدۂ سہو — بھول کے دو سجدے — کر کے سلام پھیرے۔" },
+      { "kind": "p", "text": "وتر عشا کے بعد سے صبح صادق تک کسی بھی وقت پڑھی جا سکتی ہے۔ جو رات کے آخری حصے میں تہجد کا ارادہ رکھتا ہو، اُس کے لیے بہتر ہے کہ وتر اُس کے بعد پڑھے، تاکہ وتر واقعی رات کی نماز کو ختم کرے۔" }
+    ]
+  },
+  "sources": [
+    { "type": "hadith", "collection": "bukhari", "ref": "990", "grade": "sahih" },
+    { "type": "hadith", "collection": "tirmidhi", "ref": "464", "grade": "hasan" },
+    { "type": "hadith", "collection": "abudawud", "ref": "1425", "grade": "hasan" }
+  ],
+  "relatedSlugs": [
+    "salah-types-of-prayer",
+    "salah-nafl-prayers",
+    "salah-what-to-recite",
+    "salah-five-daily-prayers"
+  ]
+}
