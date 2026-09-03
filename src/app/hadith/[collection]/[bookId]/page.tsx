@@ -3,6 +3,7 @@ import Link from "next/link"
 import { notFound } from "next/navigation"
 import { ArrowLeft, BookOpen } from "lucide-react"
 import { getCollection, getBooksForCollection } from "@/lib/hadith/translations"
+import { getHindiTafseerBookCount } from "@/lib/hadith/hindiCoverage"
 import { HadithBookClient } from "@/components/hadith/HadithBookClient"
 import { FontSizeControls } from "@/components/shared/FontSizeControls"
 
@@ -50,6 +51,10 @@ export default async function BookPage({ params }: Props) {
   const book = books.find((b) => b.id === Number(bookId))
   if (!book) notFound()
 
+  // Hindi tafseer is matched onto our hadiths from hadeethenc.com by Arabic text,
+  // so it covers only part of any book. Say how much up front.
+  const hindiCount = getHindiTafseerBookCount(collection, book.id)
+
   return (
     <div className="mx-auto max-w-4xl px-4 sm:px-6 py-8">
       <Link
@@ -74,6 +79,12 @@ export default async function BookPage({ params }: Props) {
           <p className="text-sm text-muted-foreground mt-1">
             {meta.name} &middot; {book.hadithCount} hadith{book.hadithCount !== 1 ? "s" : ""}
           </p>
+          {hindiCount > 0 && (
+            <p className="text-xs text-gold-dim/70 mt-1">
+              हिन्दी तफ़सीर · Hindi explanation available for {hindiCount} of {book.hadithCount}{" "}
+              hadith{book.hadithCount !== 1 ? "s" : ""} in this book
+            </p>
+          )}
         </div>
       </div>
 

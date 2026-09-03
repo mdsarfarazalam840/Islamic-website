@@ -13,6 +13,7 @@
     "lint": "eslint",
     "fetch:quran": "tsx scripts/fetch-quran-data.ts",
     "fetch:hadith": "tsx scripts/fetch-hadith-data.ts && npm run build:hadith-index",
+    "fetch:hadith-hindi": "tsx scripts/fetch-hadith-hindi-tafseer.ts",
     "fetch:reciters": "tsx scripts/fetch-reciters.ts",
     "fetch:youtube": "tsx scripts/fetch-youtube-data.ts",
     "build:pagefind": "node scripts/build-pagefind-index.mjs",

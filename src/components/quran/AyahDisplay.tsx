@@ -98,7 +98,11 @@ export function AyahDisplay({ ayah, surah, translationLang, showTranslation, ind
           </div>
         )}
 
-        <TafsirPanel surahNumber={ayah.surahNumber} ayahNumber={ayah.ayahNumber} />
+        <TafsirPanel
+          surahNumber={ayah.surahNumber}
+          ayahNumber={ayah.ayahNumber}
+          preferredLang={translationLang}
+        />
       </div>
     </motion.div>
   )

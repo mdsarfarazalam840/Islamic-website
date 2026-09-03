@@ -7,6 +7,7 @@ import { cn } from "@/lib/utils"
 import { useBookmarks } from "@/hooks/useBookmarks"
 import { useFontSize, getFontSizeClass } from "@/hooks/useFontSize"
 import { getGradeBadge } from "@/lib/hadith/references"
+import { HadithTafseerPanel } from "./HadithTafseerPanel"
 import type { Hadith } from "@/types"
 
 interface HadithCardProps {
@@ -157,6 +158,12 @@ export function HadithCard({ hadith, index = 0 }: HadithCardProps) {
           {hadith.urdu}
         </p>
       )}
+
+      <HadithTafseerPanel
+        collection={hadith.collection}
+        bookId={hadith.bookId}
+        hadithNumber={hadith.hadithNumber}
+      />
 
       <div className="mt-3 pt-3 border-t border-gold-dim/10 flex flex-wrap gap-x-4 gap-y-1 text-[11px] text-muted-foreground">
         <span>{hadith.reference.collection}</span>

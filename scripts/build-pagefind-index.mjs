@@ -115,8 +115,31 @@ async function main() {
       continue
     }
     const hadiths = JSON.parse(fs.readFileSync(colAllPath, "utf-8"))
+    // Hindi tafseer lives in per-book sidecars (partial coverage, matched from
+    // hadeethenc.com). Load the collection's sidecars once so the Hindi text and
+    // explanation are searchable alongside the hadith they belong to.
+    const hindiDir = path.join(HADITH_DIR, col, "hindi")
+    const hindiByNumber = new Map()
+    if (fs.existsSync(hindiDir)) {
+      for (const file of fs.readdirSync(hindiDir).filter((f) => f.endsWith(".json"))) {
+        const book = JSON.parse(fs.readFileSync(path.join(hindiDir, file), "utf-8"))
+        for (const [number, entry] of Object.entries(book)) {
+          hindiByNumber.set(
+            number,
+            [entry.text, entry.explanation, ...(entry.hints ?? [])].filter(Boolean).join("  "),
+          )
+        }
+      }
+    }
     const records = hadiths.map((h) => {
-      const parts = [h.english, h.arabic, h.urdu, h.narrator, h.bookName]
+      const parts = [
+        h.english,
+        h.arabic,
+        h.urdu,
+        h.narrator,
+        h.bookName,
+        hindiByNumber.get(String(h.number)),
+      ]
         .filter(Boolean)
         .join("  ")
       return {

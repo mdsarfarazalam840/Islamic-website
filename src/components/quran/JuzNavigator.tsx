@@ -3,9 +3,12 @@
 import { ChevronLeft, ChevronRight } from "lucide-react"
 import { cn } from "@/lib/utils"
 
-interface JuzBoundary {
+export interface JuzBoundary {
   juz: number
+  /** First ayah of this juz within the surah. */
   ayahNumber: number
+  /** Last ayah of this juz within the surah. */
+  endAyahNumber: number
 }
 
 interface JuzNavigatorProps {
@@ -55,22 +58,32 @@ export function JuzNavigator({ currentJuz, boundaries, onJump }: JuzNavigatorPro
         </button>
       </div>
 
+      {/*
+        A labelled list of the surah's juz with their ayah ranges. This replaced a
+        row of unlabelled dots, which gave no clue which juz held which ayah — the
+        reason reaching a known ayah meant clicking through them one at a time.
+
+        A native select rather than the Base UI wrapper in `components/ui/select.tsx`:
+        that wrapper exports no Root, has no consumer anywhere in the repo, and omits
+        the Positioner its version needs, so it would have to be rebuilt before it
+        could be used here. Native also gives keyboard and mobile pickers for free.
+      */}
       {boundaries.length > 1 && (
-        <div className="flex items-center gap-1.5 justify-center">
-          {boundaries.map((b) => (
-            <button
-              key={b.juz}
-              onClick={() => onJump(b.juz)}
-              className={cn(
-                "size-2.5 rounded-full transition-all duration-200",
-                b.juz === currentJuz
-                  ? "bg-gold-light gold-ring-glow scale-125"
-                  : "bg-gold-dim/30 hover:bg-gold-dim/50"
-              )}
-              aria-label={`Jump to Juz ${b.juz}`}
-              title={`Juz ${b.juz}`}
-            />
-          ))}
+        <div className="relative">
+          <select
+            value={currentJuz}
+            onChange={(e) => onJump(Number(e.target.value))}
+            aria-label="Jump to juz"
+            className="w-full appearance-none rounded-lg border border-border/20 bg-space-mid/20 px-3 py-2 pr-8 text-xs text-foreground outline-none focus:border-gold-dim/40 transition-colors cursor-pointer"
+          >
+            {boundaries.map((b) => (
+              <option key={b.juz} value={b.juz}>
+                Juz {b.juz} &middot; ayah {b.ayahNumber}
+                {b.endAyahNumber > b.ayahNumber ? `–${b.endAyahNumber}` : ""}
+              </option>
+            ))}
+          </select>
+          <ChevronRight className="pointer-events-none absolute right-2.5 top-1/2 size-3.5 -translate-y-1/2 rotate-90 text-gold-dim/60" />
         </div>
       )}
     </div>

@@ -8,6 +8,8 @@ import type { Ayah, Surah } from "@/types"
 import { AyahDisplay } from "./AyahDisplay"
 import { TranslationTabs } from "./TranslationTabs"
 import { JuzNavigator } from "./JuzNavigator"
+import type { JuzBoundary } from "./JuzNavigator"
+import { AyahJump } from "./AyahJump"
 import { getAllSurahs } from "@/lib/quran/surahs"
 import { cn } from "@/lib/utils"
 import { useFontSize, getFontSizeClass } from "@/hooks/useFontSize"
@@ -26,6 +28,9 @@ export function QuranReader({ surah, ayahs }: QuranReaderProps) {
   const [translationLang, setTranslationLang] = useState<TranslationLang>("en")
   const [showTranslation, setShowTranslation] = useState(true)
   const [currentJuz, setCurrentJuz] = useState<number>(ayahs[0]?.juz ?? 1)
+  // Element to scroll to once it has rendered. Switching juz and scrolling can't
+  // happen in one pass — the target isn't in the DOM until the new juz renders.
+  const [pendingScrollId, setPendingScrollId] = useState<string | null>(null)
   const { level } = useFontSize()
   const versesRef = useRef<HTMLDivElement>(null)
   const { playingAyahId } = useAudioPlayer()
@@ -51,16 +56,66 @@ export function QuranReader({ surah, ayahs }: QuranReaderProps) {
     return () => clearTimeout(timer)
   }, [playingAyahId, ayahs, currentJuz])
 
+  // Resolve a deep link on mount. Two forms arrive here: `?ayah=N`, a within-surah
+  // number produced by the reference jump box on /quran, and `#ayah-N`, the global
+  // ayah anchor already emitted by search results, bookmarks and share links.
+  //
+  // Both used to be handled by a scroll-only effect, which meant any link into a
+  // juz other than the surah's first landed on the wrong content: the reader shows
+  // one juz at a time, so the target element simply wasn't in the DOM. Switching
+  // juz first is what makes those links work.
+  //
+  // `window.location` rather than `useSearchParams`: this is a static export, where
+  // the search params hook would force a Suspense boundary and a client-only render
+  // of the whole reader for a value that is only read once.
+  //
+  // Read in a frame callback rather than in the effect body. The URL is an external
+  // system feeding state that is read exactly once, and letting the hydrated render
+  // commit first makes the juz switch an ordinary update instead of a render
+  // cascading out of the first one.
   useEffect(() => {
-    const hash = window.location.hash
-    if (!hash) return
-    const id = hash.slice(1)
-    const timer = setTimeout(() => {
-      const el = document.getElementById(id)
-      el?.scrollIntoView({ behavior: "smooth", block: "start" })
+    const frame = requestAnimationFrame(() => {
+      const params = new URLSearchParams(window.location.search)
+      const withinSurah = Number(params.get("ayah"))
+      const hash = window.location.hash
+      const globalMatch = hash.match(/^#ayah-(\d+)$/)
+
+      const target = withinSurah
+        ? ayahs.find((a) => a.ayahNumber === withinSurah)
+        : globalMatch
+          ? ayahs.find((a) => a.number === Number(globalMatch[1]))
+          : undefined
+
+      if (target) {
+        setCurrentJuz(target.juz)
+        setPendingScrollId(`ayah-${target.number}`)
+        return
+      }
+      // Some other anchor on the page (tafsir panel, section heading): scroll only.
+      if (hash) setPendingScrollId(hash.slice(1))
+    })
+    return () => cancelAnimationFrame(frame)
+  }, [ayahs])
+
+  // Scroll to whatever the last jump asked for, once it exists. The target may not
+  // be in the DOM yet: switching juz re-renders, and AnimatePresence mode="wait"
+  // holds the new juz back until the old one has faded out. So retry briefly
+  // instead of scrolling once and giving up.
+  useEffect(() => {
+    if (!pendingScrollId) return
+    let attempts = 0
+    const timer = setInterval(() => {
+      const el = document.getElementById(pendingScrollId)
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth", block: "start" })
+        setPendingScrollId(null)
+        return
+      }
+      // ~2s of trying. Past that the id isn't going to appear (a stale anchor).
+      if (++attempts >= 20) setPendingScrollId(null)
     }, 100)
-    return () => clearTimeout(timer)
-  }, [])
+    return () => clearInterval(timer)
+  }, [pendingScrollId])
 
   // Track the top-most visible ayah as the user scrolls and persist it as
   // reading progress. The rootMargin defines an "active band" near the top of
@@ -99,12 +154,19 @@ export function QuranReader({ surah, ayahs }: QuranReaderProps) {
     return () => observer.disconnect()
   }, [ayahs, surah.number, surah.name, currentJuz])
 
+  // One entry per juz this surah spans, with the ayah range it covers, so the
+  // navigator can label each option instead of showing anonymous dots.
   const juzBoundaries = useMemo(() => {
-    const boundaries: { juz: number; ayahNumber: number }[] = []
-    for (let i = 0; i < ayahs.length; i++) {
-      if (i === 0 || ayahs[i].juz !== ayahs[i - 1].juz) {
-        boundaries.push({ juz: ayahs[i].juz, ayahNumber: ayahs[i].ayahNumber })
-      }
+    const boundaries: JuzBoundary[] = []
+    for (const ayah of ayahs) {
+      const last = boundaries[boundaries.length - 1]
+      if (last && last.juz === ayah.juz) last.endAyahNumber = ayah.ayahNumber
+      else
+        boundaries.push({
+          juz: ayah.juz,
+          ayahNumber: ayah.ayahNumber,
+          endAyahNumber: ayah.ayahNumber,
+        })
     }
     return boundaries
   }, [ayahs])
@@ -112,10 +174,20 @@ export function QuranReader({ surah, ayahs }: QuranReaderProps) {
   const jumpToJuz = (juz: number) => {
     setCurrentJuz(juz)
     const firstInJuz = ayahs.find((a) => a.juz === juz)
-    if (firstInJuz) {
-      const el = document.getElementById(`ayah-${firstInJuz.number}`)
-      el?.scrollIntoView({ behavior: "smooth", block: "start" })
-    }
+    if (firstInJuz) setPendingScrollId(`ayah-${firstInJuz.number}`)
+  }
+
+  /** Jump to an ayah by its within-surah number. False when it isn't loaded. */
+  const goToAyah = (ayahNumber: number) => {
+    const target = ayahs.find((a) => a.ayahNumber === ayahNumber)
+    if (!target) return false
+    setCurrentJuz(target.juz)
+    setPendingScrollId(`ayah-${target.number}`)
+    // Leave a shareable anchor and drop any `?ayah=` the reader arrived with, so
+    // the URL describes where the reader actually is. replaceState keeps the back
+    // button pointing at the previous page rather than each jump.
+    window.history.replaceState(null, "", `${window.location.pathname}#ayah-${target.number}`)
+    return true
   }
 
   const filteredAyahs = ayahs.filter((a) => a.juz === currentJuz)
@@ -158,6 +230,8 @@ export function QuranReader({ surah, ayahs }: QuranReaderProps) {
           boundaries={juzBoundaries}
           onJump={jumpToJuz}
         />
+
+        <AyahJump max={surah.ayahCount} onJump={goToAyah} />
 
         {/* Surah navigation */}
         <div className="flex gap-2">

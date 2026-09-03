@@ -35,6 +35,10 @@ apps/mobile/ios/
 .DS_Store
 *.pem
 
+# raw hadeethenc.com responses cached by npm run fetch:hadith-hindi (~5k files;
+# lets re-runs and match-threshold tuning skip the ~20 min network pass)
+/.cache/
+
 # debug
 npm-debug.log*
 yarn-debug.log*
