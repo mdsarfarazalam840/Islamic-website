@@ -9,6 +9,19 @@
 /** The three authored languages. Shared across the app; re-exported from src/types/index.ts. */
 export type Language = "en" | "hi" | "ur"
 
+/**
+ * What a reader can choose to *see*. Hinglish is Hindi in Latin script
+ * (`hi-Latn` in BCP-47) — a script, not a fourth authored language. No source
+ * ships it and no data file carries it; it is derived from the Hindi text by
+ * src/lib/translit/hinglish.ts at render time.
+ *
+ * Keeping it out of `Language` is the point: `Language` describes what the data
+ * actually has, so every article file and every data lookup stays three-keyed
+ * instead of growing a fourth key nothing ever fills. Resolve a DisplayLang to
+ * the language whose data backs it with `dataLang()` in src/lib/lang.ts.
+ */
+export type DisplayLang = Language | "hi-Latn"
+
 /** A localized string: the same text in each supported language. */
 export interface LocalizedText {
   en: string

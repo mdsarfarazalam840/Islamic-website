@@ -46,28 +46,3 @@ export function getAyah(globalNumber: number): Ayah | undefined {
 export function getAyahByRef(surahNumber: number, ayahNumber: number): Ayah | undefined {
   return getSurahAyahs(surahNumber).find((a) => a.ayahNumber === ayahNumber)
 }
-
-export function getJuzAyahs(juzNumber: number): Ayah[] {
-  return getAllAyahs().filter((a) => a.juz === juzNumber)
-}
-
-export function getJuzBoundaries(): { juz: number; surah: number; ayah: number }[] {
-  const ayahs = getAllAyahs()
-  const boundaries: { juz: number; surah: number; ayah: number }[] = []
-  let currentJuz = 1
-  for (const ayah of ayahs) {
-    if (ayah.juz > currentJuz) {
-      boundaries.push({ juz: currentJuz, surah: ayah.surahNumber, ayah: ayah.ayahNumber })
-      currentJuz = ayah.juz
-    }
-  }
-  if (boundaries.length === 0) {
-    for (let j = 1; j <= 30; j++) {
-      const first = ayahs.find((a) => a.juz === j)
-      if (first) {
-        boundaries.push({ juz: j, surah: first.surahNumber, ayah: first.ayahNumber })
-      }
-    }
-  }
-  return boundaries
-}

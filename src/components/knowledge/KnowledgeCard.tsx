@@ -4,11 +4,11 @@ import { cn } from "@/lib/utils"
 import { pick, langDir, langFont } from "@/lib/knowledge/lang"
 import { getCategoryInfo } from "@/lib/knowledge/categories"
 import { SourceTagBadge } from "./SourceTagBadge"
-import type { KnowledgeArticleMeta, Language } from "@/types"
+import type { KnowledgeArticleMeta, DisplayLang } from "@/types"
 
 interface KnowledgeCardProps {
   article: KnowledgeArticleMeta
-  lang: Language
+  lang: DisplayLang
 }
 
 // How many source badges to show on a teaser before collapsing to "+N".

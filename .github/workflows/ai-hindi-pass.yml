@@ -1,0 +1,233 @@
+name: AI Hindi pass
+
+# Runs scripts/ai-hindi-pass.ts against the Anthropic Message Batch API to
+# correct (or, where none exists, produce) the Hindi text behind every Hindi and
+# Hinglish surface on the site: Quran ayah translations, surah names, the Hindi
+# tafsir snapshot, the hadith corpus, and the knowledge base.
+#
+# Hinglish is never written by this workflow. It is derived from Devanagari at
+# render time by src/lib/translit/hinglish.ts, so every correction landed here
+# improves the Hinglish view for free and nothing can drift out of sync.
+#
+# The run is fully resumable. A GitHub-hosted job is killed at 360 minutes while
+# the Batch API's ceiling is 24 hours, so the script checkpoints each batch id to
+# the `batch-state` branch the moment it is created. Anthropic retains batch
+# results for 29 days keyed by custom_id, which makes the batch id the cache: a
+# re-dispatch with mode=resume picks up exactly where the last run stopped and
+# re-pays for nothing.
+#
+# Output lands on a branch and opens a pull request — never straight on main.
+# Machine edits to scripture get read before they ship.
+#
+# ONE-TIME SETUP:
+#   1. Settings -> Secrets and variables -> Actions -> New repository secret:
+#        ANTHROPIC_API_KEY
+#      (RELEASE_TOKEN already exists — versioning.yml uses it.)
+#   2. Create the state branch once, with no history shared with main:
+#        git switch --orphan batch-state
+#        git commit --allow-empty -m "chore: batch state branch"
+#        git push -u origin batch-state
+#        git switch -
+#   3. `/.batch-state/` is already in .gitignore, so the second checkout below
+#      never shows up as untracked noise.
+#
+# TYPICAL USE:
+#   mode=selftest                                   # free, no key: id/slot checks
+#   mode=estimate sample=0                          # free: what would the full run cost
+#   mode=submit   sample=200  sections=quran        # ~$1, read the diff, judge quality
+#   mode=submit   sample=0                          # the real pass (~$200 on Opus 5)
+#   mode=resume                                     # only if the 330-min cap was hit
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "selftest/estimate cost nothing. submit spends money. resume finishes an interrupted pass for free."
+        type: choice
+        options: [selftest, estimate, submit, resume]
+        default: selftest
+      model:
+        description: "Model id"
+        type: choice
+        options: [claude-opus-5, claude-sonnet-5, claude-haiku-4-5]
+        default: claude-opus-5
+      sections:
+        description: "Comma-separated: quran,surah,tafsir,hadith,knowledge. Blank = all five."
+        required: false
+      sample:
+        description: "Units per section. 0 = full corpus (the expensive one). Defaults to a 200-unit sample."
+        default: "200"
+      collections:
+        description: "Hadith collections only. Comma-separated; blank = all seven."
+        required: false
+  # Safety net. Batches usually end within the hour but the ceiling is 24h, and
+  # this catches a pass that died mid-flight without anyone noticing. The script
+  # exits in seconds when there is no state file or every chunk is written, so an
+  # idle tick is nearly free. Minute 23 avoids top-of-hour scheduler congestion,
+  # matching deploy.yml's convention.
+  #
+  # Delete this block once the corpus has been done — a standing cron for a
+  # one-time job is dead weight.
+  schedule:
+    - cron: "23 */6 * * *"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+# Two of these at once would clobber the state branch and race on the output
+# branch. Queue rather than cancel, so an in-flight chunk finishes and
+# checkpoints.
+concurrency:
+  group: ai-hindi-pass
+  cancel-in-progress: false
+
+jobs:
+  pass:
+    runs-on: ubuntu-latest
+    # GitHub kills a job at 360 minutes. The script stops at DEADLINE_MINUTES
+    # (330) under its own control, leaving headroom for the commit steps below.
+    timeout-minutes: 350
+    env:
+      # A scheduled tick is always a resume; only a human submits.
+      MODE: ${{ github.event_name == 'schedule' && 'resume' || inputs.mode }}
+      STATE_DIR: .batch-state
+    steps:
+      # The Quran, hadith and tafsir corpora are committed, so a plain checkout is
+      # all the input the script needs — no fetch step, no network beyond the
+      # Anthropic API.
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          # RELEASE_TOKEN (a PAT) rather than GITHUB_TOKEN so the eventual merge
+          # of this PR reaches versioning.yml, which tags, which triggers
+          # deploy.yml.
+          token: ${{ secrets.RELEASE_TOKEN }}
+
+      - uses: actions/checkout@v4
+        with:
+          ref: batch-state
+          path: .batch-state
+          token: ${{ secrets.RELEASE_TOKEN }}
+
+      # One pass = one branch = one pull request, even when the pass spans
+      # several runs. A submit run mints the branch name and the script records
+      # it in the state file; every later resume reads it back out.
+      - name: Resolve output branch
+        id: branch
+        run: |
+          BRANCH=""
+          if [ "$MODE" != "submit" ] && [ -f .batch-state/ai-hindi-pass.json ]; then
+            BRANCH=$(jq -r '.branch // empty' .batch-state/ai-hindi-pass.json)
+          fi
+          if [ -z "$BRANCH" ]; then
+            BRANCH="ai/hindi-pass-${{ github.run_id }}"
+          fi
+          echo "name=$BRANCH" >> "$GITHUB_OUTPUT"
+          echo "Output branch: $BRANCH"
+
+      # Start from whatever the pass has already landed, so a resume adds to its
+      # PR instead of reverting it.
+      - name: Check out existing pass branch
+        run: |
+          BRANCH="${{ steps.branch.outputs.name }}"
+          if git ls-remote --exit-code --heads origin "$BRANCH" >/dev/null 2>&1; then
+            git fetch origin "$BRANCH"
+            git checkout -B "$BRANCH" "origin/$BRANCH"
+            echo "Resuming on existing $BRANCH"
+          else
+            git checkout -B "$BRANCH"
+            echo "Created $BRANCH"
+          fi
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+
+      - name: Run the pass
+        env:
+          # Only submit/resume need the key; selftest and estimate run without one.
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          MODEL: ${{ inputs.model || 'claude-opus-5' }}
+          SECTIONS: ${{ inputs.sections }}
+          SAMPLE: ${{ inputs.sample || '200' }}
+          COLLECTIONS: ${{ inputs.collections }}
+          PASS_BRANCH: ${{ steps.branch.outputs.name }}
+          # A scheduled tick should be quick; a dispatched run may wait out the
+          # batch. Either way the script stops cleanly and checkpoints.
+          DEADLINE_MINUTES: ${{ github.event_name == 'schedule' && '20' || '330' }}
+        run: npm run ai:hindi
+
+      # Checkpoint first and unconditionally. If the data commit below fails, the
+      # batch ids still survive and a resume costs nothing.
+      - name: Checkpoint batch state
+        if: always()
+        working-directory: .batch-state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --quiet --cached; then
+            echo "state unchanged"
+            exit 0
+          fi
+          git commit -m "chore: AI Hindi pass checkpoint (run ${{ github.run_id }})"
+          git push origin HEAD:batch-state
+
+      - name: Commit corrections
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data src/data
+          if git diff --quiet --cached; then
+            echo "no corrections to commit"
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git commit -m "feat(hindi): AI pass over ${{ inputs.sections || 'all sections' }} (run ${{ github.run_id }})"
+          git push origin "HEAD:${{ steps.branch.outputs.name }}"
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Open or update the pull request
+        if: steps.commit.outputs.pushed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+          BRANCH: ${{ steps.branch.outputs.name }}
+          MODEL: ${{ inputs.model || 'claude-opus-5' }}
+          SECTIONS_LABEL: ${{ inputs.sections || 'quran, surah, tafsir, hadith, knowledge' }}
+          SAMPLE_LABEL: ${{ inputs.sample || 'full corpus' }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          if gh pr view "$BRANCH" >/dev/null 2>&1; then
+            echo "PR already open for $BRANCH; the new commit is on it."
+            exit 0
+          fi
+          cat > /tmp/pr-body.md <<EOF
+          Machine-generated Hindi corrections from \`scripts/ai-hindi-pass.ts\`.
+
+          - model: \`$MODEL\`
+          - sections: $SECTIONS_LABEL
+          - sample: $SAMPLE_LABEL
+          - run: $RUN_URL
+
+          Proofread sections (Quran ayah translations, tafsir, knowledge base) were
+          restricted to mechanical repairs — broken conjuncts, orphan matras, missing
+          nuqta — and any output that changed length by more than 2x was rejected in
+          favour of the original. Hadith text and surah names are new machine
+          translation; hadith entries record which source field they came from in
+          \`textSource\`.
+
+          Hinglish is not in this diff: it is derived from Devanagari at render time,
+          so these corrections improve the Hinglish view without a second copy on disk.
+
+          Read the diff before merging. Merging triggers versioning.yml, which pauses
+          on the \`release\` environment gate before deploy.yml ships it.
+          EOF
+          gh pr create \
+            --base "${{ github.event.repository.default_branch }}" \
+            --head "$BRANCH" \
+            --title "Hindi/Hinglish AI pass ($MODEL)" \
+            --body-file /tmp/pr-body.md

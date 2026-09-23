@@ -3,18 +3,31 @@
 import { useState, useCallback } from "react"
 import { ChevronDown, ChevronUp, Loader2 } from "lucide-react"
 import { cn } from "@/lib/utils"
+import { dataLang, displayText } from "@/lib/lang"
+import type { DisplayLang } from "@/types"
 import { fetchTafsir, TAFSIR_EDITIONS, type TafsirSlug } from "@/lib/quran/tafsir"
 
 interface TafsirPanelProps {
   surahNumber: number
   ayahNumber: number // within-surah
+  /** Reader's current translation language; picks the matching edition first. */
+  preferredLang?: DisplayLang
 }
 
-export function TafsirPanel({ surahNumber, ayahNumber }: TafsirPanelProps) {
+export function TafsirPanel({ surahNumber, ayahNumber, preferredLang }: TafsirPanelProps) {
   const [open, setOpen] = useState(false)
-  const [activeSlug, setActiveSlug] = useState<TafsirSlug>(TAFSIR_EDITIONS[0].slug)
+  // Null until the reader picks an edition by hand; until then the panel follows
+  // whichever translation language they're reading in.
+  const [pickedSlug, setPickedSlug] = useState<TafsirSlug | null>(null)
   const [texts, setTexts] = useState<Partial<Record<TafsirSlug, string | null>>>({})
   const [loading, setLoading] = useState(false)
+
+  // Hinglish has no edition of its own: it reads the Hindi one and is
+  // transliterated on the way out.
+  const editionLang = preferredLang && dataLang(preferredLang)
+  const defaultSlug =
+    TAFSIR_EDITIONS.find((e) => e.lang === editionLang)?.slug ?? TAFSIR_EDITIONS[0].slug
+  const activeSlug = pickedSlug ?? defaultSlug
 
   const load = useCallback(
     async (slug: TafsirSlug) => {
@@ -35,7 +48,7 @@ export function TafsirPanel({ surahNumber, ayahNumber }: TafsirPanelProps) {
 
   const handleEdition = useCallback(
     async (slug: TafsirSlug) => {
-      setActiveSlug(slug)
+      setPickedSlug(slug)
       await load(slug)
     },
     [load],
@@ -94,7 +107,7 @@ export function TafsirPanel({ surahNumber, ayahNumber }: TafsirPanelProps) {
                 Tafsir not available for this verse.
               </span>
             ) : (
-              <p>{text}</p>
+              <p>{displayText(text ?? "", preferredLang ?? "en")}</p>
             )}
           </div>
         </div>

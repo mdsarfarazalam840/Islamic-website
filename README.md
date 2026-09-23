@@ -222,11 +222,31 @@ networks put many real readers behind a single address.
 npm run fetch:quran        # Quran JSON
 npm run fetch:reciters     # Reciter catalog + per-edition audio bitrates
 npm run fetch:hadith       # 7 Hadith collections
+npm run fetch:tafsir-hindi # Hindi tafsir snapshot (hindi-mokhtasar, 114 files)
 npm run fetch:youtube      # Latest videos
 npm run build:pagefind     # Search index
 npm run build:hadith-index # Hadith number → book lookup (34 KB)
 npm run fetch:all          # All of the above
 ```
+
+### Hindi / Hinglish AI pass
+
+`npm run ai:hindi` proofreads (and where none exists, produces) the Devanagari
+behind every Hindi and Hinglish surface: Quran ayah translations, surah names,
+the Hindi tafsir snapshot, the hadith corpus, and the knowledge base. It is
+env-driven and normally run from the **AI Hindi pass** workflow rather than
+locally. Hinglish itself is never written to disk — it is derived from
+Devanagari at render time by `src/lib/translit/hinglish.ts`.
+
+```bash
+MODE=selftest npm run ai:hindi              # free: id/slot checks over the corpus
+MODE=estimate SAMPLE=0 npm run ai:hindi     # free: token + cost projection
+```
+
+Proofread sections are restricted to mechanical repairs (broken conjuncts,
+orphan matras, missing nuqta); any output that changes length by more than 2x is
+rejected in favour of the original. Costing and mechanics are in `hindiplan.md`.
+
 
 ### Production Build
 

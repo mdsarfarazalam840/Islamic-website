@@ -4,16 +4,19 @@ import { useState } from "react"
 import { BookOpen, Search, Filter } from "lucide-react"
 import { SurahCard } from "@/components/quran/SurahCard"
 import { ContinueReading } from "@/components/quran/ContinueReading"
+import { QuranReferenceSearch } from "@/components/quran/QuranReferenceSearch"
 import { cn } from "@/lib/utils"
 import type { Surah } from "@/types"
+import type { JuzEntry } from "@/lib/quran/juz"
 
 interface QuranIndexClientProps {
   surahs: Surah[]
+  juzIndex: JuzEntry[]
 }
 
 type FilterType = "all" | "meccan" | "medinan"
 
-export function QuranIndexClient({ surahs }: QuranIndexClientProps) {
+export function QuranIndexClient({ surahs, juzIndex }: QuranIndexClientProps) {
   const [query, setQuery] = useState("")
   const [filter, setFilter] = useState<FilterType>("all")
 
@@ -35,6 +38,8 @@ export function QuranIndexClient({ surahs }: QuranIndexClientProps) {
   return (
     <>
       <ContinueReading />
+
+      <QuranReferenceSearch surahs={surahs} juzIndex={juzIndex} className="mb-8" />
 
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
         <div className="flex items-center gap-3">

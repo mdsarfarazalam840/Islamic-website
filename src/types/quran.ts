@@ -21,6 +21,15 @@ export interface Surah {
   name: string
   nameArabic: string
   nameTranslated: string
+  /**
+   * Hindi forms, written by scripts/ai-hindi-pass.ts (section "surah"):
+   * `nameHi` is the name in Devanagari ("अल-फ़ातिहा"), `nameTranslatedHi` its
+   * meaning ("खोलने वाली"). Optional because the upstream catalog
+   * (scripts/fetch-quran-data.ts) carries neither — a fresh fetch leaves them
+   * absent and every caller must fall back to the English pair.
+   */
+  nameHi?: string
+  nameTranslatedHi?: string
   revelationType: "meccan" | "medinan"
   ayahCount: number
   juz: number[]

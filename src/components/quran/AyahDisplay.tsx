@@ -2,17 +2,18 @@
 
 import { motion } from "framer-motion"
 import { Play, Pause } from "lucide-react"
-import type { Ayah, Surah } from "@/types"
+import type { Ayah, Surah, DisplayLang } from "@/types"
 import { AyahActions } from "./AyahActions"
 import { TafsirPanel } from "./TafsirPanel"
 import { useAudioPlayer } from "./AudioPlayerContext"
 import { cn } from "@/lib/utils"
+import { dataLang, displayText } from "@/lib/lang"
 import { useFontSize, getFontSizeClass } from "@/hooks/useFontSize"
 
 interface AyahDisplayProps {
   ayah: Ayah
   surah: Surah
-  translationLang: "en" | "hi" | "ur"
+  translationLang: DisplayLang
   showTranslation: boolean
   index: number
 }
@@ -23,6 +24,9 @@ export function AyahDisplay({ ayah, surah, translationLang, showTranslation, ind
   const { playingAyahId, isPlaying, playAyah, canPlayAyah } = useAudioPlayer()
   const isActive = playingAyahId === ayah.number
   const isThisPlaying = isActive && isPlaying
+  // Hinglish reads the Hindi translation and transliterates it; every other
+  // language passes through displayText unchanged.
+  const translation = displayText(ayah.translations[dataLang(translationLang)], translationLang)
 
   return (
     <motion.div
@@ -93,12 +97,16 @@ export function AyahDisplay({ ayah, surah, translationLang, showTranslation, ind
         {showTranslation && (
           <div className="mt-4 border-t border-gold-dim/10 pt-4">
             <p className={cn("leading-relaxed text-muted-foreground", getFontSizeClass(level, "translation"))}>
-              {ayah.translations[translationLang] || "Translation not available"}
+              {translation || "Translation not available"}
             </p>
           </div>
         )}
 
-        <TafsirPanel surahNumber={ayah.surahNumber} ayahNumber={ayah.ayahNumber} />
+        <TafsirPanel
+          surahNumber={ayah.surahNumber}
+          ayahNumber={ayah.ayahNumber}
+          preferredLang={translationLang}
+        />
       </div>
     </motion.div>
   )
