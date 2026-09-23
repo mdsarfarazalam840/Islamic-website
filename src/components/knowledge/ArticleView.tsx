@@ -1,10 +1,11 @@
 "use client"
 
-import { useEffect, useState } from "react"
+import { useEffect, useMemo, useState } from "react"
 import Link from "next/link"
 import { ArrowRight } from "lucide-react"
 import { cn } from "@/lib/utils"
-import { pick, langDir, langFont } from "@/lib/knowledge/lang"
+import { pick, langDir, langFont, displayBlocks } from "@/lib/knowledge/lang"
+import { dataLang } from "@/lib/lang"
 import { getCategoryInfo } from "@/lib/knowledge/categories"
 import { Breadcrumbs } from "@/components/shared/Breadcrumbs"
 import { SaveArticleButton } from "@/components/shared/SaveSpotButton"
@@ -13,7 +14,7 @@ import { KnowledgeLanguageTabs } from "./KnowledgeLanguageTabs"
 import { BlockRenderer } from "./BlockRenderer"
 import { SourceTagBadge } from "./SourceTagBadge"
 import { SourceLegend } from "./SourceLegend"
-import type { HydratedArticle, KnowledgeArticleMeta, Language } from "@/types"
+import type { HydratedArticle, KnowledgeArticleMeta, DisplayLang } from "@/types"
 
 interface ArticleViewProps {
   article: HydratedArticle
@@ -22,10 +23,16 @@ interface ArticleViewProps {
 
 /** Full article page body. Owns the KB-local language state; everything renders from it. */
 export function ArticleView({ article, related }: ArticleViewProps) {
-  const [lang, setLang] = useState<Language>("en")
+  const [lang, setLang] = useState<DisplayLang>("en")
   const info = getCategoryInfo(article.category)
   const dir = langDir(lang)
   const font = langFont(lang)
+
+  // Hinglish reads the Hindi body and is transliterated once here, so every
+  // block view below stays language-agnostic and receives text in the script it
+  // should render. Direction and font are the same as Hindi's, hence dataLang.
+  const bodyLang = dataLang(lang)
+  const body = useMemo(() => displayBlocks(article.body[bodyLang], lang), [article, bodyLang, lang])
 
   // Opening an article is the whole progress signal — articles are short enough
   // that there's no scroll position worth tracking, unlike the Quran and hadith
@@ -80,7 +87,7 @@ export function ArticleView({ article, related }: ArticleViewProps) {
         </div>
       )}
 
-      <BlockRenderer blocks={article.body[lang]} lang={lang} />
+      <BlockRenderer blocks={body} lang={bodyLang} />
 
       {related.length > 0 && (
         <section className="mt-12 pt-8 border-t border-gold-dim/10">

@@ -39,6 +39,10 @@ apps/mobile/ios/
 # lets re-runs and match-threshold tuning skip the ~20 min network pass)
 /.cache/
 
+# batch-state branch, checked out here by .github/workflows/ai-hindi-pass.yml so
+# the AI pass can checkpoint Anthropic batch ids without touching main's history
+/.batch-state/
+
 # debug
 npm-debug.log*
 yarn-debug.log*

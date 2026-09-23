@@ -4,7 +4,7 @@ import { useState, useMemo, useEffect, useRef } from "react"
 import Link from "next/link"
 import { motion, AnimatePresence } from "framer-motion"
 import { BookOpen, Languages, ChevronLeft, ChevronRight } from "lucide-react"
-import type { Ayah, Surah } from "@/types"
+import type { Ayah, Surah, DisplayLang } from "@/types"
 import { AyahDisplay } from "./AyahDisplay"
 import { TranslationTabs } from "./TranslationTabs"
 import { JuzNavigator } from "./JuzNavigator"
@@ -22,10 +22,8 @@ interface QuranReaderProps {
   ayahs: Ayah[]
 }
 
-type TranslationLang = "en" | "hi" | "ur"
-
 export function QuranReader({ surah, ayahs }: QuranReaderProps) {
-  const [translationLang, setTranslationLang] = useState<TranslationLang>("en")
+  const [translationLang, setTranslationLang] = useState<DisplayLang>("en")
   const [showTranslation, setShowTranslation] = useState(true)
   const [currentJuz, setCurrentJuz] = useState<number>(ayahs[0]?.juz ?? 1)
   // Element to scroll to once it has rendered. Switching juz and scrolling can't

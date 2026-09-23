@@ -20,6 +20,15 @@ export interface HindiTafseer {
   grade: string
   /** hadeethenc.com id this came from, for attribution. */
   sourceId: string
+  /**
+   * Set when `text` is a machine translation written by
+   * scripts/ai-hindi-pass.ts, naming the field it was translated from: "ur" for
+   * the Urdu (the scholarly translation of the Arabic, and the usual case), "en"
+   * for the ~2,700 hadiths that have no Urdu and had to go through English.
+   * Absent on hadeethenc-authored entries. Provenance is weaker under "en", and
+   * the UI should be able to say so rather than presenting both identically.
+   */
+  textSource?: "ur" | "en"
 }
 
 /** hadith number (as a string key) → its Hindi entry. */

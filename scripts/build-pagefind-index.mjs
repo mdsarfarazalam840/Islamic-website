@@ -10,8 +10,9 @@
  * Output: `public/pagefind/` — a fragment-based index the browser loads on
  * demand (tens of KB per query) instead of downloading the whole corpus.
  *
- * Plain ESM (.mjs) + `node`: the `pagefind` package is ESM-only and tsx's
- * TS path resolver can't load its export map, so we skip tsx here.
+ * Plain ESM (.mjs), run through tsx (`node --import tsx`) so it can import the
+ * Hinglish transliterator, which is TypeScript. tsx is only a loader here — the
+ * ESM-only `pagefind` package still resolves through its own export map.
  *
  * Run after the data exists. The folder lives in `public/`, so `next build`
  * copies it into `out/`. See package.json scripts.
@@ -19,8 +20,12 @@
 import fs from "node:fs"
 import path from "node:path"
 import * as pagefind from "pagefind"
+// Relative, with the extension: this file is not TypeScript, so the "@/" alias
+// is not in play.
+import { toHinglish } from "../src/lib/translit/hinglish.ts"
 
 const QURAN_DIR = path.resolve("public/data/quran")
+const TAFSIR_DIR = path.resolve("public/data/tafsir/hindi-mokhtasar")
 const HADITH_DIR = path.resolve("public/data/hadith")
 const KNOWLEDGE_DIR = path.resolve("src/data/knowledge/articles")
 const OUTPUT_DIR = path.resolve("public/pagefind")
@@ -51,6 +56,17 @@ const COLLECTION_DISPLAY = {
   malik: "Muwatta Malik",
 }
 
+/**
+ * Hinglish (Hindi in Latin script) for a Devanagari string, or undefined when
+ * there is nothing to convert.
+ *
+ * Indexed *alongside* the Devanagari, not instead of it: a reader who has the
+ * Hinglish tab selected types "rahmaan", and that has to find the same ayah as
+ * रहमान. Pagefind matches the raw indexed content, so both spellings have to be
+ * present in the record.
+ */
+const hinglish = (hindi) => (hindi ? toHinglish(hindi) : undefined)
+
 async function main() {
   console.log("=== Build Pagefind Index ===\n")
 
@@ -78,8 +94,31 @@ async function main() {
   if (fs.existsSync(quranAllPath)) {
     console.log("Indexing Quran ayahs...")
     const ayahs = JSON.parse(fs.readFileSync(quranAllPath, "utf-8"))
+
+    // Hindi tafsir (hindi-mokhtasar), snapshotted per surah by
+    // scripts/fetch-tafsir-hindi.ts. Folded into the ayah's own record rather
+    // than indexed separately: the tafsir is only ever read from that ayah's
+    // panel, so a second record would just be a duplicate hit for the same verse.
+    const tafsirBySurah = new Map()
+    if (fs.existsSync(TAFSIR_DIR)) {
+      for (const file of fs.readdirSync(TAFSIR_DIR).filter((f) => f.endsWith(".json"))) {
+        const surah = Number(file.match(/\d+/)[0])
+        tafsirBySurah.set(surah, JSON.parse(fs.readFileSync(path.join(TAFSIR_DIR, file), "utf-8")))
+      }
+      console.log(`  (with Hindi tafsir from ${tafsirBySurah.size} surah files)`)
+    }
+
     const quranRecords = ayahs.map((a) => {
-      const parts = [a.arabic, a.translations?.en, a.translations?.ur, a.translations?.hi]
+      const tafsir = tafsirBySurah.get(a.surahNumber)?.[String(a.ayahNumber)]
+      const parts = [
+        a.arabic,
+        a.translations?.en,
+        a.translations?.ur,
+        a.translations?.hi,
+        hinglish(a.translations?.hi),
+        tafsir,
+        hinglish(tafsir),
+      ]
         .filter(Boolean)
         .join("  ")
       return {
@@ -124,10 +163,10 @@ async function main() {
       for (const file of fs.readdirSync(hindiDir).filter((f) => f.endsWith(".json"))) {
         const book = JSON.parse(fs.readFileSync(path.join(hindiDir, file), "utf-8"))
         for (const [number, entry] of Object.entries(book)) {
-          hindiByNumber.set(
-            number,
-            [entry.text, entry.explanation, ...(entry.hints ?? [])].filter(Boolean).join("  "),
-          )
+          const hindi = [entry.text, entry.explanation, ...(entry.hints ?? [])]
+            .filter(Boolean)
+            .join("  ")
+          hindiByNumber.set(number, [hindi, hinglish(hindi)].filter(Boolean).join("  "))
         }
       }
     }
@@ -192,10 +231,14 @@ async function main() {
     const records = files.map((file) => {
       const a = JSON.parse(fs.readFileSync(path.join(KNOWLEDGE_DIR, file), "utf-8"))
       const langs = ["en", "ur", "hi"]
+      const hindiText = [a.title?.hi, a.summary?.hi, ...blocksToText(a.body?.hi)]
+        .filter(Boolean)
+        .join("  ")
       const content = [
         ...langs.map((l) => a.title?.[l]),
         ...langs.map((l) => a.summary?.[l]),
         ...langs.flatMap((l) => blocksToText(a.body?.[l])),
+        hinglish(hindiText),
       ]
         .filter(Boolean)
         .join("  ")

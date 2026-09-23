@@ -4,6 +4,7 @@ export type { Video, Playlist, PlaylistVideo, Scholar } from "./video"
 export type { DhikrPreset, DhikrSequenceStep } from "./tasbih"
 export type {
   Language,
+  DisplayLang,
   LocalizedText,
   KnowledgeCategory,
   HadithGrade,

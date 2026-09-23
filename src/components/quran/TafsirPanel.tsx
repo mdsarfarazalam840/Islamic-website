@@ -3,13 +3,15 @@
 import { useState, useCallback } from "react"
 import { ChevronDown, ChevronUp, Loader2 } from "lucide-react"
 import { cn } from "@/lib/utils"
-import { fetchTafsir, TAFSIR_EDITIONS, type TafsirLang, type TafsirSlug } from "@/lib/quran/tafsir"
+import { dataLang, displayText } from "@/lib/lang"
+import type { DisplayLang } from "@/types"
+import { fetchTafsir, TAFSIR_EDITIONS, type TafsirSlug } from "@/lib/quran/tafsir"
 
 interface TafsirPanelProps {
   surahNumber: number
   ayahNumber: number // within-surah
   /** Reader's current translation language; picks the matching edition first. */
-  preferredLang?: TafsirLang
+  preferredLang?: DisplayLang
 }
 
 export function TafsirPanel({ surahNumber, ayahNumber, preferredLang }: TafsirPanelProps) {
@@ -20,8 +22,11 @@ export function TafsirPanel({ surahNumber, ayahNumber, preferredLang }: TafsirPa
   const [texts, setTexts] = useState<Partial<Record<TafsirSlug, string | null>>>({})
   const [loading, setLoading] = useState(false)
 
+  // Hinglish has no edition of its own: it reads the Hindi one and is
+  // transliterated on the way out.
+  const editionLang = preferredLang && dataLang(preferredLang)
   const defaultSlug =
-    TAFSIR_EDITIONS.find((e) => e.lang === preferredLang)?.slug ?? TAFSIR_EDITIONS[0].slug
+    TAFSIR_EDITIONS.find((e) => e.lang === editionLang)?.slug ?? TAFSIR_EDITIONS[0].slug
   const activeSlug = pickedSlug ?? defaultSlug
 
   const load = useCallback(
@@ -102,7 +107,7 @@ export function TafsirPanel({ surahNumber, ayahNumber, preferredLang }: TafsirPa
                 Tafsir not available for this verse.
               </span>
             ) : (
-              <p>{text}</p>
+              <p>{displayText(text ?? "", preferredLang ?? "en")}</p>
             )}
           </div>
         </div>

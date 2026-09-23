@@ -3,12 +3,12 @@ import { ArrowRight } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { pick, langDir, langFont } from "@/lib/knowledge/lang"
 import type { KnowledgeCategoryInfo } from "@/lib/knowledge/categories"
-import type { Language } from "@/types"
+import type { DisplayLang } from "@/types"
 
 interface KnowledgeCategoryCardProps {
   info: KnowledgeCategoryInfo
   count: number
-  lang: Language
+  lang: DisplayLang
 }
 
 /** Landing tile for one Knowledge Base category. */

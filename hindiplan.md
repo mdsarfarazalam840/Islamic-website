@@ -1,6 +1,6 @@
 # Hinglish and Hindi coverage — findings and plan
 
-Status: plan, ready to implement. Rewritten 2026-09-03 after auditing every data source for Hinglish, measuring real Urdu and Hindi coverage across the corpus, and prototyping a Devanagari → Hinglish transliterator against live repo data. Revised the same day so the paid translation pass runs unattended in GitHub Actions rather than on a local machine — see "Running Layer 2 in GitHub Actions".
+Status: Layer 1 built and merged into the working tree on 2026-09-18 (transliterator, display-language plumbing, UI, search index). Layer 2's *machinery* was built on 2026-09-23 and widened past hadith — see "Running Layer 2 in GitHub Actions" — but no paid run has been made yet. Layer 3 is still a plan. Rewritten 2026-09-03 after auditing every data source for Hinglish, measuring real Urdu and Hindi coverage across the corpus, and prototyping a Devanagari → Hinglish transliterator against live repo data. Revised the same day so the paid translation pass runs unattended in GitHub Actions rather than on a local machine — see "Running Layer 2 in GitHub Actions".
 
 Supersedes the 2026-09-01 version of this file, which was Hindi-only and contained one measurably wrong coverage claim (see "Corrections to the previous version").
 
@@ -135,7 +135,7 @@ Storage of the reader's choice stays a single value. A reader who picks Hinglish
 
 ## The transliterator — specification and measured results
 
-Prototyped as a dependency-free probe at `.cache/translit-probe.mjs` (gitignored) and run against live repo data. It is roughly 90–150 lines and needs no library.
+**Built.** `src/lib/translit/hinglish.ts`, ~280 lines, dependency-free and browser-safe (no `node:*`, no I/O) because the same module is imported by client components and by the Pagefind build. Tests in `src/lib/translit/hinglish.test.ts`, 17 cases, run by `npm test`.
 
 Algorithm:
 
@@ -147,24 +147,25 @@ Algorithm:
 6. **Override lexicon** for the words a table cannot get right — high-frequency function words and Arabic/Persian loans (`में` → *mein*, `नहीं` → *nahi*, `फ़ैसला` → *faisla*, `काफ़िर` → *kafir*). Expect to seed ~200 entries; each one is cheap and permanent.
 7. `।` becomes `.`; non-Devanagari characters, including Latin and punctuation, pass through untouched.
 
-Measured output, straight from the probe on real repo data:
+Measured output, from the shipped module on real repo data:
 
 | Devanagari (on disk) | Hinglish (derived) |
 | --- | --- |
-| अल्लाह के नाम से जो रहमान व रहीम है। | allaah ke naam se jo rahmaan va rahim hai. |
-| रोज़े जज़ा का मालिक है। | roze jaza ka malik hai. |
-| और मोहताजों को खिलाने के लिए (लोगों को) आमादा नहीं करता | aur mohtajon ko khilane ke lie (logon ko) amada nahi karta |
+| अल्लाह के नाम से जो रहमान व रहीम है। | Allah ke naam se jo rahmaan va raheem hai. |
+| तारीफ़ अल्लाह ही के लिये है जो तमाम क़ायनात का रब है। | taarif Allah hi ke liye hai jo tamaam qaaynaat ka rab hai. |
+| अल्लाह पर ईमान — ईमान का पहला अनुच्छेद (KB title) | Allah par imaan — imaan ka pahla anuchchhed |
 
-A cached hadeethenc Hindi entry and a knowledge-base `summary.hi` both transliterated cleanly too. This is comfortably good enough to ship, and better than any Urdu-sourced transliteration can be.
+**Defects from the prototype, all now fixed and covered by tests:** the incomplete matra table (closed by the corpus invariant), `tarif` → `taarif` (word-initial exemption from the open-syllable rule, guarded by `i === 0 && u.length >= 2` so monosyllabic `का` still reads *ka*), `quraaan` → `qiraat`-style vowel-run collapsing, `vaaky` → `vaakya` (cluster-final semivowel kept, while `सब्र` still drops to *sabr*), and the nuqta-less source spellings (`काफिर`, `फरमाए`), which the override lexicon now carries under both spellings. `resolveLongA` must run *after* schwa deletion — it is the deleted schwa that closes the syllable.
 
-**Known defects, all fixable, all to be covered by tests before shipping:**
+**Two invariant tests do the real work**, one over all 6,236 Quran Hindi translations and one over every authored Hindi string in the 133 knowledge articles: *no Devanagari code point may survive transliteration*. Both skip rather than fail when the data is absent, so a fresh clone that has not run `fetch:quran` still passes.
 
-- `ॊ` (U+094A) and other rare matras pass through raw, producing `aasamaanaॊn`. Fix: complete the matra table, then assert the invariant — *no Devanagari code point survives in output* — over the entire Quran Hindi corpus. That single test catches every future gap in the table.
-- `tarif` should be `taarif` — word-initial syllables need exemption from the open-syllable rule.
-- `quraaan` — vowel sequences need collapsing at unit boundaries.
-- `vaaky` should be `vaakya` — keep the cluster-final schwa when the second cluster member is a semivowel (`य`/`व`), while `सब्र` → `sabr` must keep dropping it.
-- `kaaphiron`, `pharmae` — caused by nuqta-less source spelling (`काफिर` for `काफ़िर`). This is what the override lexicon is for.
-- `mahaantam` where `mahantam` reads better — a long-a edge case, low frequency.
+**Remaining known defects,** none blocking:
+
+- `क़ायनात` → *qaaynaat* where *qaynaat* reads better. The word-initial exemption over-applies when the next consonant loses its schwa. Low frequency; an override entry fixes any specific word.
+- `mahaantam` where *mahantam* reads better — the same long-a edge, also low frequency.
+- The override lexicon is ~60 entries, not the ~200 estimated. Grow it as real text surfaces problems rather than speculatively.
+
+**Data-quality finding, worth acting on separately:** the alquran.cloud Hindi translation contains genuinely malformed Devanagari — `अौर` (अ + ौ) for `और`, matras after a virama (`हडड्ी`), doubled viramas (`गिरफ््तार`), word-initial matras (`ुम`) and word-initial nuqta (`़ज़बाह`), plus `साीधा`, `बेिहश्त`, `बनाऊॅगा`. This is broken in the Devanagari view today, not only in Hinglish. The transliterator recovers from each case (attaching orphan marks to the preceding unit, which yields *aur* and *haddi* rather than mojibake), and the malformed words are pinned in a test, but the source data itself is still wrong and nobody has fixed it.
 
 ## Search
 
@@ -177,6 +178,13 @@ Append derived Hinglish to the searchable `content` of each record type, alongsi
 - Knowledge: `langs = ["en", "ur", "hi"]` — add the Hinglish of the `hi` fields.
 
 Index size grows by roughly the Hinglish character count, which is comparable to the Devanagari it derives from. Against a ~400 MB artifact this is not a concern, but measure it after the first build rather than assuming.
+
+**Built.** All three record types now carry Hinglish, and `build:pagefind` runs under `node --import tsx`. Two things the plan got wrong:
+
+- The script's own header claimed tsx could not resolve the ESM-only `pagefind` export map, which is why it ran under plain `node`. Retested: `node --import tsx` loads both `pagefind` and the TypeScript transliterator without complaint. The comment was stale and has been corrected.
+- The hadith half is inert today. `public/data/hadith/<collection>/hindi/` does not exist yet, so `hindiByNumber` is empty and the Hinglish it would add is nothing. That code path only starts producing once Layer 2 or Layer 3 writes the sidecars.
+
+First build after the change: 6,236 ayahs + 36,390 hadiths + 133 articles, `public/pagefind/` at 189 MB.
 
 ## Options for the hadith gap
 
@@ -238,6 +246,85 @@ Keep the matched ~7% and say plainly on the rest that Hindi is unavailable.
 The result: complete Hinglish text coverage, authored explanation where it genuinely exists, machine translation disclosed as such, and no generated text passed off as scholarship. The 203 no-source hadiths stay Arabic-only with an explicit note.
 
 ## Running Layer 2 in GitHub Actions
+
+**Built 2026-09-23, and wider than this section originally scoped.** The shipped
+files are `scripts/ai-hindi-pass.ts` and `.github/workflows/ai-hindi-pass.yml`.
+The four constraints below and the state-branch design were kept verbatim; what
+changed is scope, model, and where the output lands.
+
+The ask that drove the widening: *correct every Hindi/Hinglish surface with AI,
+not just hadith.* So the script is section-driven, and each section declares
+whether it is a **proofread** or a **translate** job:
+
+| Section | Job | Source → target | Units |
+| --- | --- | --- | --- |
+| `quran` | proofread | `public/data/quran/*.json` → `translations.hi` | 6,236 |
+| `surah` | translate | `src/data/quran/surahs.json` → `nameHi`, `nameTranslatedHi` | 114 |
+| `tafsir` | proofread | `public/data/tafsir/hindi-mokhtasar/surah-*.json` | 6,236 |
+| `hadith` | translate | `<col>-all` `urdu` (else `english`) → `hindi/book-*.json` | 36,187 |
+| `knowledge` | proofread | every authored `hi` string in the 133 articles | 133 |
+
+The proofread/translate split is the safety line. Proofread sections already
+have Hindi, so the model may only repair mechanical damage — the exact defects
+"Data-quality finding" records (`अौर`, `हडड्ी`, `गिरफ््तार`, `ुम`, `साीधा`) —
+and is forbidden from rewording, retranslating or modernising. A length guard
+enforces it: any proofread output below 0.5x or above 2x the original is
+discarded and the original kept, counted, and reported. Translate sections have
+no Hindi to preserve, so no guard applies beyond "output must be Devanagari".
+
+Four things this section got wrong or left out, now settled:
+
+- **Tafsir had nothing on disk to correct.** `fetchTafsir()` pulled every
+  edition from jsDelivr at runtime. `scripts/fetch-tafsir-hindi.ts` now
+  snapshots `hindi-mokhtasar` into `public/data/tafsir/hindi-mokhtasar/surah-N.json`
+  (114 files, 4.7 MB, **6,236/6,236 ayahs — full coverage**, which this plan
+  never measured). `fetchTafsir()` prefers the local copy for that one slug and
+  falls back to the CDN; the other five editions are untouched. The snapshot is
+  also folded into each ayah's Pagefind record, so tafsir text is searchable in
+  Devanagari and Hinglish for the first time (index 189 MB → 196 MB).
+- **Output opens a pull request, it does not commit to `main`.** 36k machine
+  edits to scripture should be read before they ship. The workflow pushes
+  `ai/hindi-pass-<run_id>`, records that branch name in the state file so every
+  resume lands on the same PR, and opens it with `gh pr create`. Merging then
+  triggers `versioning.yml` → the `release` gate → `deploy.yml`, exactly as
+  before. This also sidesteps the branch-protection problem the old section
+  flagged as "check before the first full run".
+- **Model is `claude-opus-5`, not Haiku.** Measured by `MODE=estimate SAMPLE=0`
+  against the real corpus: 31.55M input / 9.55M output tokens, **~$198 batched**
+  across all five sections. Hadith is ~$150 of that; the other four together are
+  under $50. (The old $153 hadith figure holds.)
+- **Structured output is forced with a tool, not asked for in prose.** Every
+  request carries one `emit` tool with an `{ out: string[] }` schema and
+  `tool_choice: {type: "tool"}`, so the model cannot return fences or prose and
+  the array shape is validated before it reaches us. `custom_id` encodes the
+  write-back target (`hadith-bukhari-97-7563-ur`, `tafsir-2-255`), which is why
+  the state file needs no per-unit bookkeeping at all — just one row per chunk.
+
+`MODE` has two free modes in front of the two that cost money:
+
+```
+MODE=selftest   every custom_id unique, legal (≤64 chars, [A-Za-z0-9_-]) and
+                parsing back to a target that exists; knowledge slot walker
+                symmetric between collect and apply. No key, no writes.
+MODE=estimate   unit counts, character counts, token projection, dollar figure.
+MODE=submit     builds and POSTs batches, checkpointing each id before the next.
+MODE=resume     polls recorded batches and writes what has ended. Exits in
+                seconds when nothing is pending, so the cron tick is ~free.
+```
+
+A collision or an illegal character in one `custom_id` fails the whole
+2,000-request chunk, and a knowledge article whose slot count shifts between
+collect and apply would write corrected strings into the wrong fields. Both are
+silent-until-expensive, which is why `selftest` exists and why it runs over the
+full corpus regardless of `SAMPLE`. It passes today on all 42,906 units.
+
+`SAMPLE` defaults to 200 both in the script and in the workflow input, so a full
+run takes the deliberate keystroke of typing `0`.
+
+The original design sketch follows. It is kept for the reasoning behind the
+state branch, the 29-day result retention, and the 360-minute ceiling — all of
+which the shipped workflow implements as described. The YAML below is **not**
+the file that ships.
 
 The translation pass must not depend on a laptop staying awake. It runs on GitHub's runners, and the design is shaped by four hard constraints:
 
@@ -441,30 +528,48 @@ Only the *producer* of the sidecars changes. Under B a new script fills every ha
 
 ## Implementation steps
 
-**Layer 1 — transliterator (free, do first)**
+**Layer 1 — transliterator (free, do first) — DONE 2026-09-18**
 
-1. Read the relevant guide under `node_modules/next/dist/docs/` before touching any component — this Next.js version differs from training-data conventions, per `AGENTS.md`.
-2. Write `src/lib/translit/hinglish.ts` from the spec above. Pure functions, no imports, no `node:*`. Promote the probe at `.cache/translit-probe.mjs` rather than rewriting from scratch, applying the long-a post-pass and the `i`/`u` scheme (the saved probe still carries the rejected `ee`/`oo` mapping).
-3. Write `src/lib/translit/hinglish.test.ts`: golden cases for each schwa rule, each nuqta form, and each override; plus the corpus invariant — run every one of the 6,236 Quran Hindi translations through and assert no Devanagari code point survives in the output. Fix the matra table until it passes.
-4. Add `DisplayLang` and `dataLang` to `src/types/knowledge.ts`; wire `LanguageSwitcher`, `TranslationTabs`, `QuranReader`, `KnowledgeLanguageTabs`, and `src/lib/knowledge/lang.ts`.
-5. Switch `build:pagefind` to `node --import tsx scripts/build-pagefind-index.mjs`; append Hinglish to Quran, hadith, and knowledge content.
-6. `npm test`, `npm run build:pagefind`, `npm run build:static`. Spot-check Hinglish rendering on an ayah, a tafsir panel, and an article, and search for a Latin-script Hindi word to confirm the index took.
+1. ~~Read the relevant guide under `node_modules/next/dist/docs/` before touching any component~~ — done; `01-getting-started/05-server-and-client-components.md`. Nothing here crosses the server/client boundary: every component touched was already `"use client"`, and the transliterator is a pure function imported into that bundle.
+2. ~~Write `src/lib/translit/hinglish.ts`~~ — done, from scratch rather than by promoting the probe.
+3. ~~Write `src/lib/translit/hinglish.test.ts`~~ — done: 17 tests, including the two corpus invariants. `npm test` is 87 passing.
+4. ~~Add `DisplayLang` and `dataLang`; wire the UI~~ — done, and the real touch points differed from the guess above:
+   - `src/types/knowledge.ts` — `DisplayLang = Language | "hi-Latn"`, re-exported from `src/types/index.ts`. `Language` untouched, so every data file and lookup stays three-keyed.
+   - `src/lib/lang.ts` (new) — `dataLang`, `displayText`, `displayDir`, `displayFont`, `DISPLAY_LANG_LABELS`. The whole display layer is these five exports.
+   - `src/lib/knowledge/lang.ts` — `langDir`/`langFont`/`pick` widened to `DisplayLang` and delegated to the above. `pick` is the single funnel for all knowledge-base strings; one change covers 133 articles. Gained `displayBlocks`, which transliterates a hydrated body once so the block views stay language-agnostic.
+   - `ArticleView`, `KnowledgeIndexClient` — state widened to `DisplayLang`; `ArticleView` resolves `article.body[dataLang(lang)]` and runs it through `displayBlocks`, then passes the resolved `Language` down. `BlockRenderer`, `VerseBlockView`, `HadithBlockView` and `ArabicBlockView` needed no changes at all.
+   - `KnowledgeCard`, `KnowledgeCategoryCard` — prop widened; they already go through `pick`.
+   - `KnowledgeLanguageTabs`, `TranslationTabs` — four tabs from `DISPLAY_LANG_LABELS`. `TranslationTabs` is now a 2×2 grid; four labels do not fit across the reader's side panel.
+   - `QuranReader` — the local `TranslationLang` alias is gone, replaced by `DisplayLang`.
+   - `AyahDisplay` (**not in the original list**) — carried its own `"en" | "hi" | "ur"` prop; now resolves through `dataLang` and `displayText`.
+   - `TafsirPanel` (**not in the original list**) — `preferredLang` widened; Hinglish selects the Hindi edition and transliterates its text on the way out.
+   - `LanguageSwitcher` was **left alone deliberately.** It writes `localStorage["noor-language"]` and dispatches `noor:languageChange`, and nothing in the app reads either one — the control is inert, and it offers an "Arabic" option no view honours. Adding Hinglish to it would ship a switch that does nothing. Either wire it up or delete it; that is a separate decision.
+5. ~~Switch `build:pagefind` to tsx; append Hinglish to the index~~ — done. See "Search".
+6. `npm test` (87 passing), `npx tsc --noEmit` and `npm run lint` (both clean), `npm run build:pagefind` (rebuilt). Still to do by hand: look at an ayah, a tafsir panel, an article and a Latin-script search hit in a browser.
 
-**Layer 2 — hadith translation (needs a key; runs in GitHub Actions)**
+Not done, and arguably part of Layer 1: `HadithTafseerPanel` has no language control at all — it is hard-coded Hindi, Devanagari labels included. A reader on the Hinglish tab elsewhere in the app still gets Devanagari there. Wiring it needs new UI (a script toggle), not just a `displayText` call, so it is folded into the Layer 2 relabelling step below.
 
-7. Do the one-time setup from the workflow header: add the `ANTHROPIC_API_KEY` secret, create the orphan `batch-state` branch, add `/.batch-state/` to `.gitignore`.
-8. Write `scripts/translate-hadith-hindi.ts` with two modes, both driven by environment variables so the workflow needs no argument parsing:
-   - **submit** — read `public/data/hadith/<col>/<col>-all.json`, take `urdu` (falling back to `english` for the 2,720 that lack it, recording which source was used per record), chunk into ~5,000-request batches keyed by `custom_id = <collection>:<hadithNumber>`, POST each, and write the batch id to `$STATE_DIR` **before** moving to the next chunk. Honour `SAMPLE` and `COLLECTIONS`.
-   - **resume** — read the state file, `GET /v1/messages/batches/{id}` for each unwritten chunk, stream `results_url` (JSONL) when `processing_status == "ended"`, write the sidecars, mark the chunk `written`, checkpoint. Exit 0 immediately when there is no state file or nothing is pending, so the scheduled tick is cheap.
-   - Both modes stop cleanly at `DEADLINE_MINUTES` so the workflow's commit steps still run.
-9. Add `"translate:hadith-hindi": "tsx scripts/translate-hadith-hindi.ts"` to `package.json` scripts.
-10. Prompt: translate Urdu to Hindi, Devanagari output, preserve religious terminology, no commentary or expansion, return the translation only. Keep the system prompt byte-identical across requests so prompt caching applies on top of the 50% batch discount.
-11. Add `.github/workflows/translate-hadith-hindi.yml` as specified above. Dispatch `sample=200` against `claude-haiku-4-5` and `claude-sonnet-5`, read both outputs, pick one — then dispatch `sample=0` for the full corpus.
-12. Results write into the existing `public/data/hadith/<col>/hindi/book-<bookId>.json` shape, keeping hadeethenc's `explanation`/`hints`/`attribution`/`grade` where a match exists and leaving them absent otherwise. The client (`hindiTafseer.ts`) needs no change.
+**Layer 2 — the AI pass (needs a key; runs in GitHub Actions) — MACHINERY DONE 2026-09-23, NO PAID RUN YET**
+
+Steps 8–12 were built as one section-driven pass over all five surfaces rather than a hadith-only script; see "Running Layer 2 in GitHub Actions" for what changed and why.
+
+7. **Still to do, and it blocks everything below.** One-time setup: add the `ANTHROPIC_API_KEY` repository secret, and create the orphan `batch-state` branch:
+   ```bash
+   git switch --orphan batch-state
+   git commit --allow-empty -m "chore: batch state branch"
+   git push -u origin batch-state
+   git switch -
+   ```
+   `/.batch-state/` is already in `.gitignore`.
+8. ~~Write the script with submit/resume modes, env-driven~~ — done as `scripts/ai-hindi-pass.ts`, with `selftest` and `estimate` added in front of the two paid modes. `custom_id` encodes the write-back target, so the state file carries one row per chunk and no per-unit bookkeeping. Chunk size is 2,000 (not 5,000) for finer checkpointing. Both paid modes stop cleanly at `DEADLINE_MINUTES`.
+9. ~~Add the npm script~~ — done: `ai:hindi` (plus `fetch:tafsir-hindi` for the tafsir snapshot the pass reads).
+10. ~~Prompt~~ — done, two of them: a proofread prompt that enumerates the permitted mechanical repairs and forbids rewording, and a translate prompt that pins religious register (नमाज़/रोज़ा/ईमान over Sanskritised substitutes). Both are byte-identical per section across requests. Note prompt caching does **not** apply: at ~450 tokens these sit under the 1,024-token minimum, so no `cache_control` block is sent — the 50% batch discount is the only discount in play.
+11. ~~Add the workflow~~ — done as `.github/workflows/ai-hindi-pass.yml`. Next action once step 7 is complete: dispatch `mode=selftest`, then `mode=estimate sample=0`, then `mode=submit sample=200 sections=quran` (~$1) and read that diff before committing to the full corpus.
+12. ~~Sidecar write-back~~ — done, and `hindiTafseer.ts` did need one change after all: a new optional `textSource: "ur" | "en"` records which field a machine translation came from, since provenance through English is weaker and the UI should be able to say so. `explanation`/`hints`/`attribution`/`grade` are preserved where hadeethenc matched.
 13. Update `hindi-tafseer-coverage.json` to report authored-explanation coverage rather than text coverage; adjust the book-header note accordingly.
-14. Relabel `HadithTafseerPanel` per the UI section, add the machine-translation disclosure, and add the explicit note for the 203 no-source hadiths.
+14. Relabel `HadithTafseerPanel` per the UI section, add the machine-translation disclosure (now able to distinguish `textSource`), and add the explicit note for the 203 no-source hadiths.
 15. Once the corpus is done, delete the `schedule:` block from the workflow — it is a one-time job and a standing cron for it is dead weight. The `batch-state` branch can stay as a record of what was submitted and when.
-16. Confirm the ship: the data commit triggers `versioning.yml`, which pauses on the `release` environment gate; approve it, and `deploy.yml` runs on the resulting tag. Then check `out/data/hadith/<col>/hindi/` is present in the artifact.
+16. Confirm the ship: merging the PR triggers `versioning.yml`, which pauses on the `release` environment gate; approve it, and `deploy.yml` runs on the resulting tag. Then check `out/data/hadith/<col>/hindi/` and `out/data/tafsir/` are present in the artifact — the deploy prune only deletes `*-all.json`, so both should survive.
 
 **Layer 3 — hadeethenc (free, already mostly built)**
 
@@ -484,8 +589,9 @@ The full pass is ~10 minutes of network against hadeethenc.com (`REQUEST_DELAY_M
 
 1. **Vowel scheme sign-off.** The `i`/`u` choice (over `ee`/`oo`) and the long-a rule were picked by comparing sample output, not by a native reader's judgement. Worth ten minutes of review on the sample table above before the golden tests bake it in — changing it afterwards means rewriting every test case.
 2. **What `hi` defaults to.** Should a reader who picks "Hindi" see Devanagari (current behaviour, with Hinglish as a separate fourth option in the switcher), or should Hinglish become the default rendering of Hindi with Devanagari as the alternate? This is an audience question, not a technical one — the code supports either, and it is one line in the switcher.
-3. **Model for Layer 2**, after reading the sample: Haiku 4.5 at ~$31 batched, or Sonnet 5 at ~$92.
-4. **Whether Layer 2 happens at all.** Layers 1 and 3 are free and key-less. If the project must stay free, ship those two and take option A's mechanical Urdu → Devanagari as the hadith fallback, accepting rougher text.
+3. ~~**Model for Layer 2.**~~ Settled: `claude-opus-5`, chosen deliberately over the cheaper options because the proofread sections edit scripture and a weaker model's false positives cost more than the price difference. Measured at ~$198 batched for all five sections. The workflow still offers Sonnet 5 and Haiku 4.5 in its dropdown, so a section can be run cheaper if a sample shows the gap is not worth paying for.
+4. **Whether the paid run happens at all.** Unchanged, and now the only remaining gate. Layers 1 and 3 are free and key-less; `selftest` and `estimate` are free too. Nothing costs money until someone dispatches `mode=submit`.
+5. **How much of the ~$198 to spend at once.** The sections are independent and priced very differently: `quran` + `surah` + `tafsir` + `knowledge` together are under $50 and touch text readers see on the busiest pages; `hadith` alone is ~$150. Running the cheap four first is a defensible first purchase, and it also produces a real diff to judge the proofread guard against before committing to the expensive one.
 
 ## Corrections to the previous version
 
