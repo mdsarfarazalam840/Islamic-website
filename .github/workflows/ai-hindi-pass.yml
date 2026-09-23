@@ -68,8 +68,7 @@ on:
   #
   # Delete this block once the corpus has been done — a standing cron for a
   # one-time job is dead weight.
-  schedule:
-    - cron: "23 */6 * * *"
+  
 
 permissions:
   contents: write
