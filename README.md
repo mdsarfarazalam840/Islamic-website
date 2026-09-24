@@ -245,7 +245,11 @@ MODE=estimate SAMPLE=0 npm run ai:hindi     # free: token + cost projection
 
 Proofread sections are restricted to mechanical repairs (broken conjuncts,
 orphan matras, missing nuqta); any output that changes length by more than 2x is
-rejected in favour of the original. Costing and mechanics are in `hindiplan.md`.
+rejected in favour of the original.
+
+**Full runbook: [`docs/ai-hindi-pass.md`](docs/ai-hindi-pass.md)** — setup, run
+order, transports, relay compatibility, costs, troubleshooting. Design rationale
+and cost derivation are in `hindiplan.md`.
 
 
 ### Production Build
