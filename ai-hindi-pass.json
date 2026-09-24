@@ -1,0 +1,17 @@
+{
+  "model": "claude-opus-5",
+  "sections": [
+    "surah"
+  ],
+  "sample": 200,
+  "startedAt": "2026-09-24T12:08:58.674Z",
+  "branch": "ai/hindi-pass-35997184269",
+  "chunks": [],
+  "usage": {
+    "input": 0,
+    "output": 0
+  },
+  "applied": 0,
+  "rejected": 0,
+  "errored": 0
+}
