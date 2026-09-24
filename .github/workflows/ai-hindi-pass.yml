@@ -49,8 +49,11 @@ on:
       model:
         description: "Model id"
         type: choice
-        options: [claude-opus-5, claude-sonnet-5, claude-haiku-4-5]
+        options: [claude-opus-5, claude-opus-4-8, claude-sonnet-5, claude-haiku-4-5]
         default: claude-opus-5
+      base_url:
+        description: "API endpoint. Default is the AgentRouter relay; clear it only to use Anthropic direct."
+        default: "https://agentrouter.org"
       transport:
         description: "auto = batch on Anthropic, sync on a relay. Relays have no batch endpoint."
         type: choice
@@ -160,21 +163,27 @@ jobs:
 
       - name: Run the pass
         env:
-          # Anthropic direct. Only submit/resume need it; selftest and estimate
-          # run without any credential.
+          # Anthropic direct. Only used when the endpoint below IS Anthropic;
+          # the script refuses to send a relay token there.
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          # Relay route. Set the ANTHROPIC_BASE_URL repository *variable* (e.g.
-          # https://agentrouter.org) and the ANTHROPIC_AUTH_TOKEN secret to send
-          # requests through a proxy instead. Leave both unset for Anthropic.
+          # The endpoint, resolved most-specific-first:
+          #   dispatch input  ->  repository variable  ->  the AgentRouter relay
           #
-          # Known limitation, learned the expensive way: a relay can accept the
-          # key, accept forced tool use, answer English fine, and still return
-          # `content-blocked` for any request carrying Devanagari. This corpus is
-          # entirely Devanagari, so such a relay can process none of it. The
-          # script's preflight sends one Devanagari request and stops in seconds
-          # if that is the case, before anything is submitted.
-          ANTHROPIC_BASE_URL: ${{ vars.ANTHROPIC_BASE_URL }}
+          # The relay is the default deliberately. An unset `vars` expression
+          # renders as an empty string, which used to fall through to the
+          # script's own Anthropic default and send the relay token to
+          # api.anthropic.com — a guaranteed 401 and a credential where it does
+          # not belong. Defaulting here instead of relying on a variable someone
+          # has to remember to set removes that failure mode.
+          ANTHROPIC_BASE_URL: ${{ inputs.base_url || vars.ANTHROPIC_BASE_URL || 'https://agentrouter.org' }}
           ANTHROPIC_AUTH_TOKEN: ${{ secrets.ANTHROPIC_AUTH_TOKEN }}
+          # Known limitation of the relay route, learned the expensive way: it
+          # can accept the credential, handle tool use, answer English fine, and
+          # still return `content-blocked` for Devanagari — intermittently, so
+          # byte-identical requests succeed in one window and fail in another.
+          # The script's preflight measures the rate over PREFLIGHT_SAMPLES
+          # requests and aborts at 0% before anything is submitted. See
+          # docs/ai-hindi-pass.md.
           # auto = batch against Anthropic (half price, resumable by batch id),
           # sync against anything else (relays have no /v1/messages/batches).
           TRANSPORT: ${{ inputs.transport || 'auto' }}
