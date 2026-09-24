@@ -1147,18 +1147,44 @@ async function preflight() {
 
   const rate = Math.round((100 * ok) / PREFLIGHT_SAMPLES)
   if (ok === 0) {
+    // Point at the actual cause. The two common failures look identical in the
+    // summary line and are unrelated: a 401 is the wrong credential for this
+    // endpoint, content-blocked is the endpoint refusing Devanagari. Guessing
+    // sends people off to fix the wrong thing.
+    const isAuth = /401|authentication_error|invalid x-api-key|API key is invalid/i.test(
+      lastError,
+    )
+    let advice: string
+    if (isAuth && IS_ANTHROPIC_DIRECT) {
+      advice = [
+        "  The endpoint rejected the credential - an auth problem, not a content one.",
+        "  You are pointed at Anthropic. If you meant to use a relay, set ANTHROPIC_BASE_URL",
+        "  to it: an unset GitHub Actions vars expression renders as an empty string and",
+        "  falls through to the Anthropic default, which is how a relay token ends up here.",
+        "  If you did mean Anthropic, check ANTHROPIC_API_KEY and that the account has credit.",
+      ].join("\n")
+    } else if (isAuth) {
+      advice = [
+        "  The endpoint rejected the credential - an auth problem, not a content one.",
+        `  Check ANTHROPIC_AUTH_TOKEN is the token for ${BASE_URL} and has not expired.`,
+      ].join("\n")
+    } else if (/content-blocked/i.test(lastError)) {
+      advice = [
+        `  ${BASE_URL} is refusing Devanagari. Every unit here is Devanagari, so nothing`,
+        "  would land. This was measured to be intermittent - the same request succeeds in",
+        "  some windows and fails in others - so retrying later is worth doing. If tools are",
+        "  in play, STRUCTURED=json avoids the one reliably-blocked shape. Otherwise use a",
+        "  provider that passes Hindi through. See docs/ai-hindi-pass.md.",
+      ].join("\n")
+    } else {
+      advice = `  Endpoint ${BASE_URL} is not usable for this job right now.`
+    }
     throw new Error(
-      `Preflight: 0/${PREFLIGHT_SAMPLES} succeeded against ${API_BASE}.
-` +
-        `  Last error: ${lastError}
-` +
-        `  This endpoint cannot process the corpus right now. If the error says
-` +
-        `  content-blocked, the provider is refusing Devanagari — every unit here is
-` +
-        `  Devanagari, so nothing would land. Either point ANTHROPIC_BASE_URL at
-` +
-        `  api.anthropic.com, or use a provider that passes Hindi through.`,
+      [
+        `Preflight: 0/${PREFLIGHT_SAMPLES} succeeded against ${API_BASE}.`,
+        `  Last error: ${lastError}`,
+        advice,
+      ].join("\n"),
     )
   }
 
@@ -1368,6 +1394,22 @@ async function main() {
   if (!CREDENTIAL) {
     throw new Error(
       "No credential. Set ANTHROPIC_API_KEY (Anthropic direct) or ANTHROPIC_AUTH_TOKEN (relay).",
+    )
+  }
+
+  // Refuse the one misconfiguration that looks like a bad key and is really a
+  // wrong endpoint. ANTHROPIC_AUTH_TOKEN is the relay credential; if it is the
+  // only one set and we are pointed at Anthropic, the base URL was lost (an
+  // unset GitHub Actions `vars` expression renders as an empty string, which
+  // lands here) — and sending a third-party token to Anthropic both guarantees
+  // a 401 and puts the credential somewhere it does not belong.
+  if (IS_ANTHROPIC_DIRECT && AUTH_TOKEN && !API_KEY) {
+    throw new Error(
+      `ANTHROPIC_AUTH_TOKEN is set but the endpoint is ${BASE_URL}.\n` +
+        `  That token belongs to a relay, not to Anthropic, so this would 401 — and the\n` +
+        `  token would have been sent to Anthropic on the way. Refusing.\n` +
+        `  Set ANTHROPIC_BASE_URL to your relay (e.g. https://agentrouter.org), or use\n` +
+        `  ANTHROPIC_API_KEY if you really mean to call Anthropic direct.`,
     )
   }
 

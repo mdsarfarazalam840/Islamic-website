@@ -76,21 +76,40 @@ git switch -
 
 ### 3. Credentials — pick one route
 
-**Anthropic direct (recommended).** Settings → Secrets and variables → Actions →
-New repository secret:
+The workflow defaults its endpoint to **`https://agentrouter.org`**, resolved
+most-specific-first:
 
-- `ANTHROPIC_API_KEY` = your key from console.anthropic.com
+```
+dispatch input `base_url`  ->  repository variable ANTHROPIC_BASE_URL  ->  https://agentrouter.org
+```
 
-Leave `ANTHROPIC_BASE_URL` unset. You get the `batch` transport: half price,
-results retained 29 days, resumable for free.
+It is defaulted in the workflow rather than left to a repository variable on
+purpose. An unset `${{ vars.X }}` expression renders as an **empty string**, which
+used to fall through to the script's own Anthropic default — so a run configured
+for the relay silently called `api.anthropic.com` with the relay token and 401'd.
 
-**Through a relay.** Set both:
+**Relay (the default).** Settings → Secrets and variables → Actions:
 
-- repository **variable** `ANTHROPIC_BASE_URL` = e.g. `https://agentrouter.org`
-- repository **secret** `ANTHROPIC_AUTH_TOKEN` = the relay's token
+- secret `ANTHROPIC_AUTH_TOKEN` = your relay token
 
-You get the `sync` transport. Read the compatibility section below first — not
-every relay can do this job at all.
+Nothing else. You get the `sync` transport and `STRUCTURED=json`. Read the relay
+compatibility section below — as measured, this route currently cannot complete
+the job.
+
+**Anthropic direct.** Set the secret and clear the endpoint:
+
+- secret `ANTHROPIC_API_KEY` = your key from console.anthropic.com
+- clear the `base_url` dispatch input, **and** set the repository variable
+  `ANTHROPIC_BASE_URL` to `https://api.anthropic.com` (or delete the variable and
+  clear the input — the input default is what you are overriding)
+
+You get the `batch` transport: half price, results retained 29 days, resumable
+for free.
+
+**The guard.** If `ANTHROPIC_AUTH_TOKEN` is the only credential set *and* the
+endpoint resolves to Anthropic, the script refuses to start rather than sending a
+third-party token to Anthropic for a guaranteed 401. Set the base URL, or use
+`ANTHROPIC_API_KEY` if Anthropic is genuinely what you want.
 
 `RELEASE_TOKEN` already exists; `versioning.yml` uses it.
 
@@ -130,6 +149,14 @@ Note that a local shell may already export `ANTHROPIC_BASE_URL` /
 `ANTHROPIC_AUTH_TOKEN` for Claude Code. If so, the script picks them up and
 routes through that relay. The first line of output always states the endpoint
 and transport it resolved — read it before assuming.
+
+Unlike the workflow, the **script's** own default endpoint is
+`https://api.anthropic.com`; the relay default lives in the workflow input. So a
+local run with neither variable set targets Anthropic.
+
+`scripts/` is excluded in `tsconfig.json`, so `npx tsc --noEmit` does **not**
+type-check this file. `npm run ai:hindi` (tsx/esbuild) is what catches syntax
+errors in it — run `MODE=selftest` after editing.
 
 ---
 
@@ -292,9 +319,15 @@ Prompt caching does **not** apply: the system prompts are ~450 tokens, under the
 
 ## Troubleshooting
 
-**`401 API key is invalid`** — the key does not match the endpoint. An
-AgentRouter token sent to `api.anthropic.com` produces exactly this. Check the
-first line of output: it prints the resolved endpoint and transport.
+**`401 API key is invalid`** — the credential does not match the endpoint. Check
+the first line of output, which prints the resolved endpoint and transport. An
+AgentRouter token sent to `api.anthropic.com` produces exactly this; the
+preflight now says so explicitly instead of blaming content.
+
+**`ANTHROPIC_AUTH_TOKEN is set but the endpoint is https://api.anthropic.com`** —
+the guard. Your base URL was lost (most likely an unset `vars` expression
+rendering empty). Set `base_url` / `ANTHROPIC_BASE_URL` to your relay, or switch
+to `ANTHROPIC_API_KEY`.
 
 **`404 Invalid URL (POST /v1/messages/batches)`** — the endpoint has no batch
 API. Set `TRANSPORT=sync`, or let `auto` handle it by leaving it alone.
