@@ -51,6 +51,19 @@ on:
         type: choice
         options: [claude-opus-5, claude-sonnet-5, claude-haiku-4-5]
         default: claude-opus-5
+      transport:
+        description: "auto = batch on Anthropic, sync on a relay. Relays have no batch endpoint."
+        type: choice
+        options: [auto, batch, sync]
+        default: auto
+      structured:
+        description: "How output is forced. auto = emit tool on Anthropic, prompt-only JSON on a relay."
+        type: choice
+        options: [auto, tool, json]
+        default: auto
+      concurrency:
+        description: "Sync transport only: in-flight requests. Lower this on 429s."
+        default: "6"
       sections:
         description: "Comma-separated: quran,surah,tafsir,hadith,knowledge. Blank = all five."
         required: false
@@ -147,27 +160,52 @@ jobs:
 
       - name: Run the pass
         env:
-          # Only submit/resume need the key; selftest and estimate run without one.
+          # Anthropic direct. Only submit/resume need it; selftest and estimate
+          # run without any credential.
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Relay route. Set the ANTHROPIC_BASE_URL repository *variable* (e.g.
+          # https://agentrouter.org) and the ANTHROPIC_AUTH_TOKEN secret to send
+          # requests through a proxy instead. Leave both unset for Anthropic.
+          #
+          # Known limitation, learned the expensive way: a relay can accept the
+          # key, accept forced tool use, answer English fine, and still return
+          # `content-blocked` for any request carrying Devanagari. This corpus is
+          # entirely Devanagari, so such a relay can process none of it. The
+          # script's preflight sends one Devanagari request and stops in seconds
+          # if that is the case, before anything is submitted.
+          ANTHROPIC_BASE_URL: ${{ vars.ANTHROPIC_BASE_URL }}
+          ANTHROPIC_AUTH_TOKEN: ${{ secrets.ANTHROPIC_AUTH_TOKEN }}
+          # auto = batch against Anthropic (half price, resumable by batch id),
+          # sync against anything else (relays have no /v1/messages/batches).
+          TRANSPORT: ${{ inputs.transport || 'auto' }}
+          # auto = forced emit tool on Anthropic, prompt-only JSON on a relay.
+          # The tested relay blocked 8/8 requests that combined `tools` with
+          # Devanagari while passing the same payload without them.
+          STRUCTURED: ${{ inputs.structured || 'auto' }}
           MODEL: ${{ inputs.model || 'claude-opus-5' }}
           SECTIONS: ${{ inputs.sections }}
           SAMPLE: ${{ inputs.sample || '200' }}
           COLLECTIONS: ${{ inputs.collections }}
           PASS_BRANCH: ${{ steps.branch.outputs.name }}
+          # Sync transport only. Relays throttle harder than Anthropic, so this
+          # is the first knob to turn down on repeated 429s.
+          CONCURRENCY: ${{ inputs.concurrency || '6' }}
           # A scheduled tick should be quick; a dispatched run may wait out the
           # batch. Either way the script stops cleanly and checkpoints.
           DEADLINE_MINUTES: ${{ github.event_name == 'schedule' && '20' || '330' }}
         run: npm run ai:hindi
 
-      # Checkpoint first and unconditionally. If the data commit below fails, the
-      # batch ids still survive and a resume costs nothing.
+      # Batch ids first and unconditionally: an id that is not on disk is an id
+      # we paid for and cannot collect. Scoped to the state JSON on purpose —
+      # the sync ledger is checkpointed separately, after the data it describes
+      # has actually been pushed.
       - name: Checkpoint batch state
         if: always()
         working-directory: .batch-state
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A
+          git add ai-hindi-pass.json 2>/dev/null || true
           if git diff --quiet --cached; then
             echo "state unchanged"
             exit 0
@@ -177,6 +215,7 @@ jobs:
 
       - name: Commit corrections
         id: commit
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -189,6 +228,24 @@ jobs:
           git commit -m "feat(hindi): AI pass over ${{ inputs.sections || 'all sections' }} (run ${{ github.run_id }})"
           git push origin "HEAD:${{ steps.branch.outputs.name }}"
           echo "pushed=true" >> "$GITHUB_OUTPUT"
+
+      # The sync transport's "already applied" ledger. Ordering is the whole
+      # point: this only runs once the corrections it describes are pushed, so
+      # the worst case is redoing one flush, never a run that skips units whose
+      # output was never committed.
+      - name: Checkpoint applied ledger
+        if: always() && steps.commit.outcome == 'success'
+        working-directory: .batch-state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --quiet --cached; then
+            echo "ledger unchanged"
+            exit 0
+          fi
+          git commit -m "chore: AI Hindi pass applied ledger (run ${{ github.run_id }})"
+          git push origin HEAD:batch-state
 
       - name: Open or update the pull request
         if: steps.commit.outputs.pushed == 'true'
