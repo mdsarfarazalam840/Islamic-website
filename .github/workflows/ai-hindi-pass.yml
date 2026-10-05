@@ -54,6 +54,11 @@ on:
       base_url:
         description: "API endpoint. Default is the AgentRouter relay; clear it only to use Anthropic direct."
         default: "https://agentrouter.org"
+      runner:
+        description: "ubuntu-latest egresses from datacenter IPs some relays block. Use self-hosted if yours does."
+        type: choice
+        options: [ubuntu-latest, self-hosted]
+        default: ubuntu-latest
       transport:
         description: "auto = batch on Anthropic, sync on a relay. Relays have no batch endpoint."
         type: choice
@@ -99,7 +104,11 @@ concurrency:
 
 jobs:
   pass:
-    runs-on: ubuntu-latest
+    # GitHub-hosted runners egress from datacenter IP ranges, which the WAFs in
+    # front of some relays serve an HTML challenge page to — the request then
+    # fails in CI while working fine from a laptop. Dispatch with
+    # runner=self-hosted to run on a machine the endpoint accepts.
+    runs-on: ${{ inputs.runner || 'ubuntu-latest' }}
     # GitHub kills a job at 360 minutes. The script stops at DEADLINE_MINUTES
     # (330) under its own control, leaving headroom for the commit steps below.
     timeout-minutes: 350
@@ -177,6 +186,10 @@ jobs:
           # has to remember to set removes that failure mode.
           ANTHROPIC_BASE_URL: ${{ inputs.base_url || vars.ANTHROPIC_BASE_URL || 'https://agentrouter.org' }}
           ANTHROPIC_AUTH_TOKEN: ${{ secrets.ANTHROPIC_AUTH_TOKEN }}
+          # Optional. Set the HTTPS_PROXY repository secret to route requests
+          # through a proxy the endpoint accepts — the other way (besides a
+          # self-hosted runner) to get past a WAF that blocks runner IPs.
+          HTTPS_PROXY: ${{ secrets.HTTPS_PROXY }}
           # Known limitation of the relay route, learned the expensive way: it
           # can accept the credential, handle tool use, answer English fine, and
           # still return `content-blocked` for Devanagari — intermittently, so
