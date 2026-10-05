@@ -268,6 +268,73 @@ it has the batch endpoint.
 
 ---
 
+## Running when the endpoint blocks CI
+
+A relay can work perfectly from your own machine and fail on every GitHub
+Actions run, with this in the log:
+
+```
+Last error: Unexpected token '<', "<!doctype "... is not valid JSON
+```
+
+That is the endpoint answering with a **web page instead of an API response** —
+a WAF challenge or block page, frequently with HTTP 200 so nothing looks wrong
+until the JSON parse fails. `agentrouter.org` sits behind Alibaba Cloud WAF
+(`Set-Cookie: acw_tc=…`), and WAFs in that class challenge datacenter IP ranges
+by default. GitHub-hosted runners egress from exactly those ranges. Your
+credential, your payload and the corpus are all irrelevant to it.
+
+The script now detects this: it reads every response as text first, names the
+WAF when the headers identify one, and retries (an interstitial sometimes
+clears) before failing with the remedy list below.
+
+**You cannot change a GitHub-hosted runner's IP.** Three real options:
+
+### 1. Run it locally and commit the result (simplest)
+
+The script is the same code the workflow runs; only the credentials come from
+the environment.
+
+```bash
+export ANTHROPIC_BASE_URL=https://agentrouter.org
+export ANTHROPIC_AUTH_TOKEN=<your relay token>
+
+MODE=selftest npm run ai:hindi
+MODE=submit SAMPLE=200 SECTIONS=quran npm run ai:hindi
+
+git checkout -b ai/hindi-pass-local
+git add public/data src/data
+git commit -m "feat(hindi): AI pass over quran (local run)"
+git push -u origin ai/hindi-pass-local
+gh pr create --base main --fill
+```
+
+The `.batch-state/` ledger is written locally too, so `MODE=resume` works the
+same way across sessions. This is the recommended path while the relay blocks
+CI.
+
+### 2. Self-hosted runner
+
+Register a runner on a machine the endpoint accepts
+(Settings → Actions → Runners → New self-hosted runner), then dispatch with
+**`runner=self-hosted`**. The workflow's `runs-on` is
+`${{ inputs.runner || 'ubuntu-latest' }}`, so nothing else changes — you keep
+the PR automation, the state branch and the resume behaviour.
+
+### 3. Proxy
+
+Set the repository **secret** `HTTPS_PROXY` to a proxy the endpoint accepts.
+The script installs an undici `ProxyAgent` when that variable is present —
+Node's global `fetch` ignores proxy environment variables, so this has to be
+done explicitly. It logs the proxy host (never the credentials).
+
+Caveat: `undici` is not a declared dependency; it is present transitively and
+pinned by `package.json` `overrides`. The import is best-effort — if it cannot
+be resolved the script warns and continues direct rather than failing the run.
+Declare it in `devDependencies` if you intend to rely on this.
+
+---
+
 ## Environment variables
 
 | Variable | Default | Meaning |
@@ -282,8 +349,9 @@ it has the batch endpoint.
 | `ANTHROPIC_API_KEY` | — | Anthropic direct; sent as `x-api-key` |
 | `ANTHROPIC_AUTH_TOKEN` | — | Relay; sent as `Authorization: Bearer` (and `x-api-key`) |
 | `ANTHROPIC_BASE_URL` | `https://api.anthropic.com` | Trailing `/v1` optional |
-| `API_RETRIES` | `4` | Attempts per request. Covers 429, 5xx and `content-blocked`. Each retry is charged |
+| `API_RETRIES` | `4` | Attempts per request. Covers 429, 5xx, `content-blocked` and HTML interstitials. Each retry is charged |
 | `PREFLIGHT_SAMPLES` | `5` | Requests used to measure the endpoint before committing |
+| `HTTPS_PROXY` | — | Routes all requests through a proxy (undici `ProxyAgent`). See "Running when the endpoint blocks CI" |
 | `CONCURRENCY` | `6` | Sync only. First knob to lower on 429s |
 | `FLUSH_EVERY` | `100` | Sync only. Units per disk write |
 | `CHUNK_SIZE` | `2000` | Batch only. Requests per batch |
@@ -335,6 +403,11 @@ API. Set `TRANSPORT=sync`, or let `auto` handle it by leaving it alone.
 **`unauthorized client detected`** — relay client fingerprinting. Should not
 happen now that the Claude Code headers are sent; if it does, the relay wants
 something further.
+
+**`Unexpected token '<', "<!doctype "... is not valid JSON`** — the endpoint
+returned a web page. Bot/IP protection in front of it; see "Running when the
+endpoint blocks CI". Newer runs report this properly instead of as a parse
+error.
 
 **`content-blocked`** — the relay refusing the request. It is treated as
 retryable (`API_RETRIES`) because byte-identical requests were measured

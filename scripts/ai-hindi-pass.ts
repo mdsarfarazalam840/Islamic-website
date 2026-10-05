@@ -217,6 +217,36 @@ interface PassState {
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms))
 
+/**
+ * Route every request through HTTPS_PROXY when one is set.
+ *
+ * Why this is here: a relay behind a WAF can serve an HTML challenge page to
+ * GitHub-hosted runners (datacenter IPs) while answering the same request fine
+ * from a laptop. A proxy the endpoint accepts is one of the few ways to keep the
+ * job in CI. Node's global fetch ignores the proxy environment variables, so the
+ * dispatcher has to be swapped explicitly.
+ *
+ * undici is not a declared dependency — it is present transitively and pinned by
+ * package.json "overrides". So this is opt-in and best-effort: with no
+ * HTTPS_PROXY set nothing happens, and if undici cannot be resolved it warns and
+ * continues direct rather than failing the run.
+ */
+async function installProxy() {
+  const proxy = process.env.HTTPS_PROXY || process.env.https_proxy
+  if (!proxy) return
+  try {
+    const { ProxyAgent, setGlobalDispatcher } = await import("undici")
+    setGlobalDispatcher(new ProxyAgent(proxy))
+    // Host only — a proxy URL can carry credentials.
+    log(`Proxying requests via ${new URL(proxy).host}`)
+  } catch (err) {
+    console.warn(
+      `  ⚠ HTTPS_PROXY is set but undici could not be loaded (${(err as Error).message}).`,
+    )
+    console.warn("  ⚠ Continuing without a proxy — requests will go direct.")
+  }
+}
+
 function pastDeadline(): boolean {
   return Date.now() - STARTED_AT > DEADLINE_MINUTES * 60_000
 }
@@ -700,7 +730,49 @@ function apiHeaders(): Record<string, string> {
  */
 function isRetryable(status: number, body: string): boolean {
   if (status === 429 || status >= 500) return true
-  return status === 400 && body.includes("content-blocked")
+  if (status === 400 && body.includes("content-blocked")) return true
+  // An interstitial can clear on a retry — and if the IP is simply blocked, the
+  // attempts are cheap (no tokens are consumed) and fail fast.
+  return looksLikeHtml(body)
+}
+
+/** A body that is a web page rather than an API response. */
+function looksLikeHtml(body: string): boolean {
+  return /^\s*(<!doctype|<html|<head|<script)/i.test(body)
+}
+
+/**
+ * Explain a non-JSON response, which is almost never an API error.
+ *
+ * The case this exists for: a relay sitting behind a WAF serves a challenge or
+ * block page — HTML, often with HTTP 200 — to datacenter IP ranges. The request
+ * works from a laptop and fails on a GitHub-hosted runner, and the only symptom
+ * without this message is `Unexpected token '<'`, which points nowhere useful.
+ *
+ * States what happened only. The remedy is preflight()'s job, so that callers
+ * which surface both do not print it twice.
+ */
+function describeNonJson(url: string, res: Response, body: string): string {
+  const parts = [
+    `${url} -> ${res.status} returned ${res.headers.get("content-type") ?? "no content-type"}, not JSON.`,
+  ]
+  if (looksLikeHtml(body)) {
+    const title = body.match(/<title[^>]*>([^<]{1,120})<\/title>/i)?.[1]?.trim()
+    parts.push(`  Body is an HTML page${title ? `: "${title}"` : ""} — bot/IP protection, not an API response.`)
+
+    // Name the WAF when it identifies itself. Both of these front relays
+    // commonly, and both block cloud egress ranges by default.
+    const setCookie = res.headers.get("set-cookie") ?? ""
+    const server = res.headers.get("server") ?? ""
+    if (setCookie.includes("acw_tc") || server.includes("Tengine")) {
+      parts.push("  Headers indicate Alibaba Cloud WAF.")
+    } else if (res.headers.get("cf-ray") || /cloudflare/i.test(server)) {
+      parts.push("  Headers indicate Cloudflare.")
+    }
+  } else {
+    parts.push(`  First bytes: ${JSON.stringify(body.slice(0, 200))}`)
+  }
+  return parts.join("\n")
 }
 
 async function api<T>(url: string, init?: RequestInit): Promise<T> {
@@ -708,13 +780,30 @@ async function api<T>(url: string, init?: RequestInit): Promise<T> {
   // the chunk, and a checkpoint is only written once the call succeeds.
   for (let attempt = 0; ; attempt++) {
     const res = await fetch(url, { ...init, headers: apiHeaders() })
-    if (res.ok) return (await res.json()) as T
+    // Read as text first either way: a 2xx carrying HTML is exactly the failure
+    // this needs to describe, and res.json() would throw an opaque parse error.
     const body = await res.text()
-    if (!isRetryable(res.status, body) || attempt >= API_RETRIES) {
-      throw new Error(`${init?.method ?? "GET"} ${url} -> ${res.status}: ${body.slice(0, 400)}`)
+    const method = init?.method ?? "GET"
+
+    if (res.ok && !looksLikeHtml(body)) {
+      try {
+        return JSON.parse(body) as T
+      } catch {
+        throw new Error(describeNonJson(`${method} ${url}`, res, body))
+      }
+    }
+
+    const fatal = !isRetryable(res.status, body) || attempt >= API_RETRIES
+    if (fatal) {
+      throw new Error(
+        res.ok || looksLikeHtml(body)
+          ? describeNonJson(`${method} ${url}`, res, body)
+          : `${method} ${url} -> ${res.status}: ${body.slice(0, 400)}`,
+      )
     }
     const wait = Math.min(60_000, 2 ** attempt * 2000)
-    log(`  API ${res.status}, retrying in ${wait / 1000}s (attempt ${attempt + 1}/${API_RETRIES})`)
+    const what = looksLikeHtml(body) ? "HTML interstitial" : `${res.status}`
+    log(`  API ${what}, retrying in ${wait / 1000}s (attempt ${attempt + 1}/${API_RETRIES})`)
     await sleep(wait)
   }
 }
@@ -1129,11 +1218,18 @@ async function preflight() {
         headers: apiHeaders(),
         body,
       })
-      if (!res.ok) {
-        lastError = `${res.status}: ${(await res.text()).slice(0, 200)}`
+      // Text first: a WAF interstitial arrives as HTML, sometimes with a 2xx,
+      // and res.json() would turn that into an opaque "Unexpected token '<'".
+      const text = await res.text()
+      if (looksLikeHtml(text) || (res.ok && !text.trim().startsWith("{"))) {
+        lastError = describeNonJson(`POST ${API_BASE}/messages`, res, text)
         continue
       }
-      const out = readOut((await res.json()) as AnthropicMessage)
+      if (!res.ok) {
+        lastError = `${res.status}: ${text.slice(0, 200)}`
+        continue
+      }
+      const out = readOut(JSON.parse(text) as AnthropicMessage)
       if (Array.isArray(out) && out.length === 1 && typeof out[0] === "string" && out[0].trim()) {
         ok++
         sample ||= out[0]
@@ -1141,7 +1237,7 @@ async function preflight() {
         lastError = "response carried no usable output array"
       }
     } catch (err) {
-      lastError = (err as Error).message.slice(0, 200)
+      lastError = (err as Error).message.slice(0, 400)
     }
   }
 
@@ -1175,6 +1271,19 @@ async function preflight() {
         "  some windows and fails in others - so retrying later is worth doing. If tools are",
         "  in play, STRUCTURED=json avoids the one reliably-blocked shape. Otherwise use a",
         "  provider that passes Hindi through. See docs/ai-hindi-pass.md.",
+      ].join("\n")
+    } else if (/HTML page|not JSON/i.test(lastError)) {
+      advice = [
+        "  The endpoint answered with a web page, not an API response. That is bot/IP",
+        "  protection in front of it, not a problem with your credential or the corpus.",
+        "  GitHub-hosted runners egress from datacenter ranges that these filters",
+        "  routinely challenge, which is why the same request works from your own machine.",
+        "  Three ways round it, cheapest first:",
+        "    1. Run the pass locally - npm run ai:hindi - and commit the result.",
+        "    2. Dispatch with runner=self-hosted after registering a runner on a machine",
+        "       the endpoint accepts.",
+        "    3. Set HTTPS_PROXY to a proxy the endpoint accepts and re-dispatch.",
+        "  See docs/ai-hindi-pass.md, \"Running when the endpoint blocks CI\".",
       ].join("\n")
     } else {
       advice = `  Endpoint ${BASE_URL} is not usable for this job right now.`
@@ -1390,6 +1499,8 @@ async function main() {
     estimate(buildPlan(SAMPLE))
     return
   }
+
+  await installProxy()
 
   if (!CREDENTIAL) {
     throw new Error(
