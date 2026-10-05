@@ -277,6 +277,26 @@ function summary(line: string) {
   if (file) fs.appendFileSync(file, line + "\n")
 }
 
+/**
+ * Put a preflight abort on the Actions summary page, not only in the step log.
+ *
+ * A run that dies in preflight did no work and has nothing else to report, and
+ * the cause is almost always outside the repository — a credential in the wrong
+ * slot, a WAF challenging the runner's IP, a provider refusing the script. Those
+ * are worth seeing without opening the log.
+ */
+function reportUnusable(lastError: string, advice: string) {
+  summary("### ❌ Endpoint unusable — nothing was submitted")
+  summary("")
+  summary(`\`${API_BASE}\` failed all ${PREFLIGHT_SAMPLES} preflight requests.`)
+  summary("")
+  summary("```")
+  summary(lastError)
+  summary("```")
+  summary("")
+  summary(advice.replace(/^ {2}/gm, ""))
+}
+
 // --- Prompts ---------------------------------------------------------------
 //
 // Byte-identical per section across every request, which is what lets the API
@@ -1288,6 +1308,7 @@ async function preflight() {
     } else {
       advice = `  Endpoint ${BASE_URL} is not usable for this job right now.`
     }
+    reportUnusable(lastError, advice)
     throw new Error(
       [
         `Preflight: 0/${PREFLIGHT_SAMPLES} succeeded against ${API_BASE}.`,

@@ -247,6 +247,33 @@ Because it is not a property of the request, the script treats
 `content-blocked` as **retryable** (`API_RETRIES`, default 4, exponential
 backoff) rather than fatal. Note that each retry is charged.
 
+### Measured verdict on agentrouter.org
+
+Every route and model it offers was tested with the same credential. English
+passes everywhere; Devanagari passes nowhere.
+
+| Route | Model | English | Devanagari |
+| --- | --- | --- | --- |
+| `/v1/messages` | `claude-opus-5` + `tools` | ok | 0/8 |
+| `/v1/messages` | `claude-opus-5`, no tools | ok | 0/20 |
+| `/v1/chat/completions` | `claude-opus-5` | 3/3 | 0/3 |
+| `/v1/chat/completions` | `deepseek-v4-flash` | 3/3 | 0/3 |
+| `/v1/chat/completions` | `gpt-6-astra` | 3/3 | 0/3 |
+
+The filter sits at the gateway, ahead of route and model selection, so there is
+no combination of inputs that avoids it. Separately, its Alibaba Cloud WAF
+serves an HTML challenge page to GitHub-hosted runner IPs, so CI hits a second
+wall before even reaching the first.
+
+No change in this repository can fix either. Encoding the Devanagari to slip
+past the content filter would be circumventing a provider control on your own
+account and is deliberately not implemented.
+
+If you want this route, the fix is on their side: ask support (the Discord link
+in their error bodies) to lift the Devanagari filter and allowlist the runner
+ranges. Until then, use a provider that passes Hindi through — Anthropic direct
+works, has the batch endpoint, and is half the price.
+
 ### What the script does about it
 
 `MODE=submit` runs a **preflight**: `PREFLIGHT_SAMPLES` (default 5) identical
