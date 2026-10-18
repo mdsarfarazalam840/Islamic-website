@@ -9,6 +9,7 @@ import { SurahAudioPlayer } from "@/components/quran/SurahAudioPlayer"
 import { AudioPlayerProvider } from "@/components/quran/AudioPlayerContext"
 import { SurahPresence } from "@/components/quran/SurahPresence"
 import { FontSizeControls } from "@/components/shared/FontSizeControls"
+import { serializeJsonLd } from "@/lib/utils/seo"
 
 interface Props {
   params: Promise<{ surahNumber: string }>
@@ -55,7 +56,7 @@ export default async function SurahPage({ params }: Props) {
     <div className="mx-auto max-w-5xl px-4 sm:px-6 py-8">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: serializeJsonLd(jsonLd) }}
       />
       <Link
         href="/quran"
