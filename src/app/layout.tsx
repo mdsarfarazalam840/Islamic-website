@@ -5,6 +5,7 @@ import { ErrorBoundary } from "@/components/shared/ErrorBoundary"
 import { Footer } from "@/components/layout/Footer"
 import { MobileNav } from "@/components/layout/MobileNav"
 import { Providers } from "@/components/providers"
+import { serializeJsonLd } from "@/lib/utils/seo"
 import "./globals.css"
 
 const inter = Inter({
@@ -67,7 +68,7 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-title" content="Noor" />
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          dangerouslySetInnerHTML={{ __html: serializeJsonLd(jsonLd) }}
         />
       </head>
       <body className="min-h-dvh flex flex-col bg-background text-foreground antialiased" suppressHydrationWarning>

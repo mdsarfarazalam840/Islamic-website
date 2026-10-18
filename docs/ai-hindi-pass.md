@@ -51,6 +51,178 @@ them is exactly what this pass does not do.
 
 ---
 
+## Done without the API
+
+All five sections were completed locally, deterministically, with no model and no
+provider. This started because the relay could not run the job (see "Relay
+compatibility"), but it did not stay a fallback: for the proofread sections rules
+were the better approach outright, and for the hadith corpus Urdu and Hindi turn
+out to be one language in two scripts, which makes the bulk of the job
+transliteration rather than translation.
+
+| Section | How | Status |
+| --- | --- | --- |
+| `quran` | `scripts/fix-devanagari.ts` | done — 0 defects remain |
+| `tafsir` | `scripts/fix-devanagari.ts` | done — 0 defects remain |
+| `knowledge` | `scripts/fix-devanagari.ts` | done — 0 defects remain |
+| `surah` | `scripts/add-surah-hindi.ts` | done — 114/114 authored |
+| `hadith` | `scripts/apply-hadith-hindi.ts` | 352 hand-checked, including all 37 the articles cite |
+| `hadith` | `scripts/translit-hadith.ts` | 33,305 transliterated — 92.5% of the corpus has Hindi |
+
+### Why rules beat the model here
+
+The proofread job was never a judgement call. `scripts/scan-devanagari.ts`
+measured the corpus by structural rule — sequences that cannot occur in
+well-formed Devanagari — and found the damage was a handful of mechanical
+encoding faults repeated thousands of times:
+
+| Fault | Hits | Repair |
+| --- | --- | --- |
+| `ॉ` (U+0949) where `ाँ` belongs | 359 | `हालॉकि` → `हालाँकि` |
+| `ॅ` (U+0945) where `ँ` belongs | 46 | `हॅसी` → `हँसी` |
+| virama before nuqta | 27 | `कुफ़्र` → `कुफ़्र` |
+| stacked / doubled matras | 28 | `काे` → `को`, `कुत्ताा` → `कुत्ता` |
+| matra on a full vowel | 14 | `अौर` → `और` |
+| word-initial orphan nuqta | 5 | `़ज़िना` → `ज़िना` |
+| `Â` latin-1 mis-decode | 4 | `Âुदा` → `ख़ुदा` |
+
+Rules win on every axis that matters for scripture: identical output every run,
+the whole change readable as a diff, no possibility of rewording, no API, no
+cost. **511 repairs across 445 strings in 86 files**, and re-running now reports
+zero changes — it is idempotent.
+
+Everything a rule could not settle is listed explicitly in `WORD_FIXES`,
+`PHRASE_FIXES` and `KEEP`, so each judgement call is visible in one place
+instead of buried in a prompt.
+
+### Reading the diff is the point
+
+`--preview=N` prints before/after pairs. Use it before `--write`; it caught two
+of my own errors that a summary table would have hidden:
+
+- `वक्त` → `वक़्त` fired **278 times** and was wrong. The nuqta is optional on
+  waqt, and `(वक्ते ़ज़िबाह)` is izafat — correct as written. That is a spelling
+  preference, exactly what a proofread pass must not do.
+- `हॉल` → `हाँल` was wrong: `हॉल` is the correct Hindi spelling of English
+  "hall". `ॉ` is the regular vowel in loanwords, which is what `KEEP` is for.
+
+A third was caught by reading context: `हव्ी` is `हड्डी` ("bones", Q37:53,
+Arabic عظام), not `वह्य`.
+
+Verify any time:
+
+```bash
+npx tsx scripts/scan-devanagari.ts          # 6 hits, all correct loanwords
+npx tsx scripts/scan-devanagari.ts --list   # रिकॉर्ड, कॉपी, हॉल
+```
+
+### Surah names
+
+`scripts/add-surah-hindi.ts` carries all 114 Hindi names and meanings, authored
+directly and keyed by surah number so a re-fetched catalog cannot shift the
+mapping. `nameHi` / `nameTranslatedHi` are optional on the `Surah` type, so a
+re-fetch degrades to the English pair rather than rendering blank.
+
+Wired through `surahMatches()` in `src/lib/quran/surahs.ts` — one matcher shared
+by the index filter, `useQuran` and `searchSurahs`, replacing three divergent
+copies. A reader can find Al-Fatiha by `faatiha`, `फ़ातिहा`, `kholne`, `18`,
+`الكهف` or `the cave`. Hinglish is derived at match time, never stored.
+`src/lib/quran/surahs.test.ts` covers it (9 tests, including a well-formedness
+check over all 228 authored strings).
+
+### Hadith — the hand-checked set
+
+`scripts/apply-hadith-hindi.ts` applies the batches in `scripts/data/hadith-hindi/`
+— **352 hand-checked translations**, including all **37 the knowledge base
+cites**. They are translated from the Urdu wherever it exists (one hop from the
+Arabic, not two) and from the English for the 215 Nasai hadiths that have no
+Urdu. Isnad chains are kept, because they are part of the stored text and
+dropping them would change what the hadith is.
+
+The cited 37 were the starting point because those are the ones appearing inside
+Hindi articles a reader actually opens, where the hadith was rendering in English
+only. The script writes the same sidecars the AI pass would —
+`public/data/hadith/<collection>/hindi/book-<bookId>.json` with
+`textSource: "ur"` or `"en"` — so nothing is throwaway, and any
+hadeethenc-authored `explanation` / `hints` / `attribution` / `grade` already
+present is preserved.
+
+Two guards, both of which failed usefully during authoring:
+
+- The cited set is **derived from the articles**, not hard-coded, so the script
+  throws if an article adds a citation with no translation. It caught three
+  entries lost to a bad edit.
+- Every translation goes through the same structural Devanagari check as the
+  corpus. A typo in the table is a build failure, not a silently broken glyph.
+
+Side effect worth noting: `scripts/build-pagefind-index.mjs` has always read
+these sidecars, but the code path was inert because none existed. It now indexes
+real Hindi and Hinglish.
+
+### Hadith — transliterating the rest
+
+The corpus is 36,390 hadiths and 33,467 of them carry an Urdu translation. Urdu
+and Hindi are the same language in two scripts, so converting those is a script
+problem, not a translation problem — which puts it back in reach of rules, with
+the same properties that made rules win on the proofread pass.
+`src/lib/translit/urdu.ts` does the conversion and `scripts/translit-hadith.ts`
+applies it:
+
+```bash
+npm run translit:hadith                       # report only
+npx tsx scripts/translit-hadith.ts --write    # apply
+npx tsx scripts/translit-hadith.ts --misses=80  # lexicon worklist
+npx tsx scripts/translit-hadith.ts --sample=3   # eyeball before/after
+```
+
+**33,305 hadiths transliterated.** With the 352 hand-checked ones that is 33,657
+of 36,390 — **92.5% of the corpus now has Hindi text**, at no API cost.
+
+The hard part is that Urdu omits short vowels: `کتاب` writes k-t-ā-b and the
+reader supplies "kitāb", with nothing in the string to rule out "kutub". No
+letter-level rule recovers that, so the design is a lexicon first (authoritative,
+and the only way to get short vowels right) with a letter-level fallback behind
+it. A lexicon is viable because the corpus is formulaic — isnad chains and
+honorifics repeat endlessly, so the top 1,000 word types cover 88% of all tokens.
+Multi-word honorifics are matched before single words, because they are not
+compositional: `صلی اللہ علیہ وسلم` is one unit whose `اللہ` is already inside
+"सल्लल्लाहु".
+
+**Quality is measured, not assumed.** Every run reports lexicon coverage against
+letter-level fallback, so the claim is checkable rather than asserted. Currently
+**723 lexicon entries carry 83.99% of 3,778,890 word tokens**; the remaining
+16.01% goes through the fallback. `--misses` prints the highest-frequency unknown
+words, which is the worklist for growing the lexicon where it pays most — one
+entry fixes every occurrence corpus-wide. The tail is long and flat: 33,151
+distinct unknowns, the most frequent appearing 480 times, so the top 40 are only
+0.49% of tokens. Coverage past this point is earned a few hundred entries at a
+time, not in one jump.
+
+Precedence is explicit, and the three scripts that write these sidecars agree on
+it: hand-checked translations beat hadeethenc's own Hindi, which beats
+transliteration. Re-running after a hand batch lands correctly **downgrades** that
+hadith from machine output to hand-checked text.
+
+Transliterations are marked `textSource: "ur-translit"` rather than passed off as
+checked text, and `HadithTafseerPanel` discloses that under the text — "उर्दू से
+मशीनी लिप्यंतरण, अभी अनचेका · machine transliteration of the Urdu, not
+reviewed". hadeethenc is credited only on entries that actually carry their
+explanation, since most entries are now Hindi text alone and crediting them there
+would be a false citation.
+
+### What is left
+
+- **2,733 hadiths still have no Hindi** — 2,505 that are English-only (which is
+  translation, not transliteration, so out of scope for a transliterator), the
+  203 with no source at all, and 25 where the `ur` field holds Arabic, a corpus
+  defect. These are the only ones a model would still buy anything on, and at
+  that size it is no longer Batch-API-scale work.
+- **Review.** 33,305 hadiths of machine output are unreviewed by construction.
+  The lexicon worklist is the cheapest way to improve them in bulk; the
+  disclosure in the UI is what keeps the state honest until then.
+
+---
+
 ## One-time setup
 
 ### 1. Get the workflow onto the default branch
@@ -402,6 +574,10 @@ list price with the batch discount applied:
 | hadith | 36,187 | 18.05M | ~$150 |
 | knowledge | 133 | 0.23M | ~$8 |
 | **total** | **42,906** | **21.0M** | **~$198** |
+
+This is what the pass *would* cost. None of it has been spent: every section was
+done locally instead (see "Done without the API"), so the table is now the price
+of a job that is already finished rather than a bill that is pending.
 
 31.55M input / 9.55M output tokens. On the `sync` transport there is no batch
 discount, so double it — and on a relay you are billed that provider's rate,

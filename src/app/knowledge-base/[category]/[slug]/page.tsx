@@ -7,6 +7,7 @@ import { getCategoryInfo } from "@/lib/knowledge/categories"
 import { hydrateArticle } from "@/lib/knowledge/hydrate"
 import { getCollectionDisplayName } from "@/lib/hadith/collections"
 import { ArticleView } from "@/components/knowledge/ArticleView"
+import { serializeJsonLd } from "@/lib/utils/seo"
 import type { SourceTag } from "@/types"
 
 interface Props {
@@ -74,7 +75,7 @@ export default async function KnowledgeArticlePage({ params }: Props) {
     <div className="mx-auto max-w-3xl px-4 sm:px-6 py-8">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: serializeJsonLd(jsonLd) }}
       />
       <Link
         href={`/knowledge-base/${article.category}`}

@@ -21,14 +21,22 @@ export interface HindiTafseer {
   /** hadeethenc.com id this came from, for attribution. */
   sourceId: string
   /**
-   * Set when `text` is a machine translation written by
-   * scripts/ai-hindi-pass.ts, naming the field it was translated from: "ur" for
-   * the Urdu (the scholarly translation of the Arabic, and the usual case), "en"
-   * for the ~2,700 hadiths that have no Urdu and had to go through English.
-   * Absent on hadeethenc-authored entries. Provenance is weaker under "en", and
-   * the UI should be able to say so rather than presenting both identically.
+   * How `text` was produced, when it was not authored by hadeethenc:
+   *
+   *   "ur"          translated from the Urdu — the scholarly translation of the
+   *                 Arabic, so one hop. Hand-checked.
+   *   "en"          translated from the English, for the ~2,700 hadiths with no
+   *                 Urdu. Two hops, so weaker provenance.
+   *   "ur-translit" machine transliteration of the Urdu by
+   *                 src/lib/translit/urdu.ts. Urdu and Hindi are one language in
+   *                 two scripts, so this is script conversion rather than
+   *                 translation — but it is unreviewed, and short vowels are
+   *                 guessed wherever the lexicon has no entry.
+   *
+   * Absent on hadeethenc-authored entries. The UI should disclose the weaker
+   * three rather than presenting all four identically.
    */
-  textSource?: "ur" | "en"
+  textSource?: "ur" | "en" | "ur-translit"
 }
 
 /** hadith number (as a string key) → its Hindi entry. */

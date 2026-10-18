@@ -5,6 +5,7 @@ import { BookOpen, Search, Filter } from "lucide-react"
 import { SurahCard } from "@/components/quran/SurahCard"
 import { ContinueReading } from "@/components/quran/ContinueReading"
 import { QuranReferenceSearch } from "@/components/quran/QuranReferenceSearch"
+import { surahMatches } from "@/lib/quran/surahs"
 import { cn } from "@/lib/utils"
 import type { Surah } from "@/types"
 import type { JuzEntry } from "@/lib/quran/juz"
@@ -22,14 +23,7 @@ export function QuranIndexClient({ surahs, juzIndex }: QuranIndexClientProps) {
 
   const filtered = surahs.filter((s) => {
     if (filter !== "all" && s.revelationType !== filter) return false
-    if (!query) return true
-    const q = query.toLowerCase()
-    return (
-      s.name.toLowerCase().includes(q) ||
-      s.nameTranslated.toLowerCase().includes(q) ||
-      s.nameArabic.includes(query) ||
-      s.number.toString().includes(q)
-    )
+    return surahMatches(s, query)
   })
 
   const meccanCount = surahs.filter((s) => s.revelationType === "meccan").length

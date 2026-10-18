@@ -16,6 +16,7 @@ import {
 import { useDebounce } from "@/hooks/useDebounce"
 import { loadVideosForSearch } from "./videoData"
 import { getPagefind, type PagefindResultData } from "./pagefind"
+import { splitSearchExcerpt } from "@/lib/search/safe-excerpt"
 import type { Ayah, Hadith, Video as VideoType } from "@/types"
 
 const SEARCH_OPTIONS = {
@@ -34,6 +35,16 @@ const PAGE_SIZE = 10
 
 // A single un-hydrated Pagefind hit: the fragment is fetched lazily via data().
 type PagefindRef = { id: string; data: () => Promise<PagefindResultData> }
+
+function SafeSearchExcerpt({ excerpt }: { excerpt: string }) {
+  return (
+    <>
+      {splitSearchExcerpt(excerpt).map((segment, index) =>
+        segment.highlighted ? <mark key={index}>{segment.text}</mark> : segment.text,
+      )}
+    </>
+  )
+}
 
 interface QuranResult {
   type: "quran"
@@ -395,7 +406,7 @@ export function SearchClient() {
                         </div>
                         <ArrowRight className="size-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity shrink-0" />
                       </div>
-                      {r.excerpt && <p className="text-sm text-muted-foreground leading-relaxed pf-excerpt" dangerouslySetInnerHTML={{ __html: r.excerpt }} />}
+                      {r.excerpt && <p className="text-sm text-muted-foreground leading-relaxed pf-excerpt"><SafeSearchExcerpt excerpt={r.excerpt} /></p>}
                     </Link>
                   )
                 })}
@@ -433,7 +444,7 @@ export function SearchClient() {
                         <ArrowRight className="size-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity shrink-0" />
                       </div>
                       {h.narrator && <p className="text-xs text-muted-foreground/60 mb-1.5 italic">Narrated by {h.narrator}</p>}
-                      {r.excerpt && <p className="text-sm text-foreground leading-relaxed line-clamp-3 pf-excerpt" dangerouslySetInnerHTML={{ __html: r.excerpt }} />}
+                      {r.excerpt && <p className="text-sm text-foreground leading-relaxed line-clamp-3 pf-excerpt"><SafeSearchExcerpt excerpt={r.excerpt} /></p>}
                     </Link>
                   )
                 })}
@@ -467,7 +478,7 @@ export function SearchClient() {
                       </div>
                       <ArrowRight className="size-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity shrink-0" />
                     </div>
-                    {r.excerpt && <p className="text-sm text-muted-foreground leading-relaxed line-clamp-3 pf-excerpt" dangerouslySetInnerHTML={{ __html: r.excerpt }} />}
+                    {r.excerpt && <p className="text-sm text-muted-foreground leading-relaxed line-clamp-3 pf-excerpt"><SafeSearchExcerpt excerpt={r.excerpt} /></p>}
                   </Link>
                 ))}
               </div>
