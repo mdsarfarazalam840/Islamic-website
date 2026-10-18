@@ -86,3 +86,8 @@ skills-lock.json
 .superpowers/sdd/task-1-report.md
 .superpowers/sdd/task-2-brief.md
 .superpowers/sdd/task-2-report.md
+
+
+probe-*.mjs
+serve-*.mjs
+opencode.json

@@ -500,6 +500,18 @@ interface TafseerRecord {
   attribution: string
   grade: string
   sourceId: string
+  /**
+   * Set when `text` did not come from hadeethenc — see the `textSource` doc in
+   * src/lib/hadith/hindiTafseer.ts. This script does not produce it, but it must
+   * know about it: the sidecars it writes are shared with
+   * scripts/apply-hadith-hindi.ts and scripts/translit-hadith.ts.
+   */
+  textSource?: "ur" | "en" | "ur-translit"
+}
+
+/** hadeethenc owns these five fields and nothing else in the sidecar. */
+function stripEncFields(entry: TafseerRecord): TafseerRecord {
+  return { ...entry, explanation: "", hints: [], attribution: "", grade: "", sourceId: "" }
 }
 
 // --- Main ------------------------------------------------------------------
@@ -596,12 +608,53 @@ async function main() {
 
     const outDir = path.join(HADITH_DIR, collection, "hindi")
     fs.mkdirSync(outDir, { recursive: true })
-    // Stale sidecars would keep claiming coverage this run didn't produce.
-    for (const file of fs.readdirSync(outDir).filter((f) => f.startsWith("book-") && f.endsWith(".json"))) {
-      fs.rmSync(path.join(outDir, file))
+
+    // These sidecars are shared with scripts/apply-hadith-hindi.ts and
+    // scripts/translit-hadith.ts, which own `text` and `textSource` and between
+    // them fill most of the corpus. Deleting the files — as this script used to —
+    // threw all of that away on every run. Instead, clear the five
+    // hadeethenc-owned fields so no entry keeps claiming coverage this run did
+    // not produce, and leave everything else standing.
+    const merged = new Map<number, Record<string, TafseerRecord>>()
+    for (const file of fs.readdirSync(outDir).filter((f) => /^book-\d+\.json$/.test(f))) {
+      const bookId = Number(file.slice(5, -5))
+      const records = JSON.parse(
+        fs.readFileSync(path.join(outDir, file), "utf-8"),
+      ) as Record<string, TafseerRecord>
+      const kept: Record<string, TafseerRecord> = {}
+      for (const [number, entry] of Object.entries(records)) {
+        // An absent textSource means hadeethenc wrote the text as well, so that
+        // entry is wholly this run's to re-state or drop.
+        if (!entry.textSource) continue
+        kept[number] = stripEncFields(entry)
+      }
+      merged.set(bookId, kept)
     }
+
     for (const [bookId, records] of byBook) {
-      fs.writeFileSync(path.join(outDir, `book-${bookId}.json`), JSON.stringify(records))
+      const target = merged.get(bookId) ?? {}
+      for (const [number, fresh] of Object.entries(records)) {
+        const existing = target[number]
+        // Hand-checked translations outrank hadeethenc's own Hindi, the same
+        // precedence apply-hadith-hindi.ts applies. Machine transliteration does
+        // not, so it yields to the matched text.
+        target[number] =
+          existing?.textSource === "ur" || existing?.textSource === "en"
+            ? { ...fresh, text: existing.text, textSource: existing.textSource }
+            : fresh
+      }
+      merged.set(bookId, target)
+    }
+
+    for (const [bookId, records] of merged) {
+      const file = path.join(outDir, `book-${bookId}.json`)
+      // A book stripped down to nothing would otherwise sit there as an empty
+      // object the client still pays a request for.
+      if (!Object.keys(records).length) {
+        fs.rmSync(file, { force: true })
+        continue
+      }
+      fs.writeFileSync(file, JSON.stringify(records, null, 2))
     }
   }
 

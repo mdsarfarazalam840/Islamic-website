@@ -11,6 +11,7 @@ import { JuzNavigator } from "./JuzNavigator"
 import type { JuzBoundary } from "./JuzNavigator"
 import { AyahJump } from "./AyahJump"
 import { getAllSurahs } from "@/lib/quran/surahs"
+import { dataLang, displayText } from "@/lib/lang"
 import { cn } from "@/lib/utils"
 import { useFontSize, getFontSizeClass } from "@/hooks/useFontSize"
 import { saveReadingProgress } from "@/hooks/useReadingProgress"
@@ -32,6 +33,29 @@ export function QuranReader({ surah, ayahs }: QuranReaderProps) {
   const { level } = useFontSize()
   const versesRef = useRef<HTMLDivElement>(null)
   const { playingAyahId } = useAudioPlayer()
+
+  // Surah name and meaning follow the reader's language choice, but only for
+  // Hindi and Hinglish: those are the two the data has. `nameHi` /
+  // `nameTranslatedHi` are optional on the Surah type — the upstream catalog
+  // (scripts/fetch-quran-data.ts) ships neither, they are authored by
+  // scripts/add-surah-hindi.ts — so a missing value falls back to the English
+  // pair rather than rendering blank after a re-fetch. Urdu has no authored
+  // name, so it falls back too; showing it Devanagari would be worse than
+  // showing it Latin.
+  const useHindiName = dataLang(translationLang) === "hi"
+
+  const surahName = useMemo(
+    () => (useHindiName && surah.nameHi ? displayText(surah.nameHi, translationLang) : surah.name),
+    [surah.name, surah.nameHi, translationLang, useHindiName],
+  )
+
+  const surahMeaning = useMemo(
+    () =>
+      useHindiName && surah.nameTranslatedHi
+        ? displayText(surah.nameTranslatedHi, translationLang)
+        : surah.nameTranslated,
+    [surah.nameTranslated, surah.nameTranslatedHi, translationLang, useHindiName],
+  )
 
   // Follow the recitation: when the playing ayah changes, make sure its Juz is
   // the one on screen (the reader renders a single Juz at a time), then scroll
@@ -262,10 +286,10 @@ export function QuranReader({ surah, ayahs }: QuranReaderProps) {
             {surah.nameArabic}
           </h2>
           <p className="text-lg font-display text-foreground mt-2 font-semibold">
-            {surah.name}
+            {surahName}
           </p>
           <p className="text-sm text-muted-foreground mt-1">
-            {surah.nameTranslated}
+            {surahMeaning}
           </p>
         </div>
 

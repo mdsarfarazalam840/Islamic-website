@@ -17,12 +17,28 @@ type State =
   | { status: "error" }
 
 /**
- * Hindi explanation for one hadith, collapsed until asked for.
+ * How the Hindi `text` was produced, said out loud. Four provenances share this
+ * panel and they are not equally trustworthy — the transliteration is machine
+ * output with guessed short vowels, so presenting it identically to a
+ * hand-checked translation would misrepresent it. See the `textSource` doc in
+ * src/lib/hadith/hindiTafseer.ts.
+ */
+const TEXT_PROVENANCE: Record<NonNullable<HindiTafseer["textSource"]>, string> = {
+  ur: "उर्दू अनुवाद से · translated from the Urdu",
+  en: "अंग्रेज़ी अनुवाद से · translated from the English",
+  "ur-translit": "उर्दू से मशीनी लिप्यंतरण, अभी अनचेका · machine transliteration of the Urdu, not reviewed",
+}
+
+/**
+ * Hindi text and explanation for one hadith, collapsed until asked for.
  *
- * Coverage is partial by nature: the source (hadeethenc.com) is a curated set of
- * a few thousand hadiths joined to our ~34k by Arabic text matching, so a miss is
- * ordinary. The panel says so plainly rather than staying silent, which would
- * leave a reader wondering whether it failed to load.
+ * The two halves have very different coverage. The hadith text itself is Hindi
+ * for nearly the whole corpus, mostly by transliteration from the Urdu. The
+ * explanation comes from hadeethenc.com — a curated set of a few thousand
+ * hadiths joined to our ~34k by Arabic text matching — so a hadith with text but
+ * no explanation is the ordinary case, not a failure. The panel renders whichever
+ * halves exist and labels where the text came from, rather than leaving a reader
+ * to guess whether something failed to load or was never reviewed.
  */
 export function HadithTafseerPanel({ collection, bookId, hadithNumber }: HadithTafseerPanelProps) {
   const [open, setOpen] = useState(false)
@@ -49,7 +65,7 @@ export function HadithTafseerPanel({ collection, bookId, hadithNumber }: HadithT
         className="flex w-full items-center justify-between text-xs font-medium text-muted-foreground hover:text-gold-light transition-colors"
         aria-expanded={open}
       >
-        <span className="uppercase tracking-wider">हिन्दी तफ़सीर · Hindi tafseer</span>
+        <span className="uppercase tracking-wider">हिन्दी · Hindi</span>
         {open ? <ChevronUp className="size-3.5" /> : <ChevronDown className="size-3.5" />}
       </button>
 
@@ -70,15 +86,21 @@ export function HadithTafseerPanel({ collection, bookId, hadithNumber }: HadithT
 
           {state.status === "ready" && !state.entry && (
             <span className="text-xs text-muted-foreground/60">
-              इस हदीस के लिए हिन्दी तफ़सीर उपलब्ध नहीं है. / Hindi tafseer not available for this
-              hadith.
+              इस हदीस के लिए हिन्दी उपलब्ध नहीं है. / Hindi not available for this hadith.
             </span>
           )}
 
           {state.status === "ready" && state.entry && (
             <div className="space-y-3">
               {state.entry.text && (
-                <p className="text-foreground/90">{state.entry.text}</p>
+                <div>
+                  <p className="text-foreground/90">{state.entry.text}</p>
+                  {state.entry.textSource && (
+                    <p className="mt-1.5 text-[10px] text-muted-foreground/60">
+                      {TEXT_PROVENANCE[state.entry.textSource]}
+                    </p>
+                  )}
+                </div>
               )}
 
               {state.entry.explanation && (
@@ -106,11 +128,19 @@ export function HadithTafseerPanel({ collection, bookId, hadithNumber }: HadithT
                 </div>
               )}
 
-              <div className="border-t border-border/10 pt-3 flex flex-wrap gap-x-4 gap-y-1 text-[11px] text-muted-foreground/70">
-                {state.entry.attribution && <span>{state.entry.attribution}</span>}
-                {state.entry.grade && <span>{state.entry.grade}</span>}
-                <span>स्रोत / Source: hadeethenc.com</span>
-              </div>
+              {/*
+                hadeethenc is credited only when something here is actually
+                theirs. Most entries are now Hindi text alone, where the source
+                is the corpus Urdu and the note under the text already says so —
+                crediting hadeethenc for those would be a false citation.
+              */}
+              {(state.entry.sourceId || state.entry.attribution || state.entry.grade) && (
+                <div className="border-t border-border/10 pt-3 flex flex-wrap gap-x-4 gap-y-1 text-[11px] text-muted-foreground/70">
+                  {state.entry.attribution && <span>{state.entry.attribution}</span>}
+                  {state.entry.grade && <span>{state.entry.grade}</span>}
+                  {state.entry.sourceId && <span>स्रोत / Source: hadeethenc.com</span>}
+                </div>
+              )}
             </div>
           )}
         </div>

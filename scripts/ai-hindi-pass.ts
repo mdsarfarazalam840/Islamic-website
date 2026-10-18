@@ -1,6 +1,8 @@
 import fs from "node:fs"
 import path from "node:path"
 
+import { isArabicNotUrdu } from "../src/lib/translit/urdu"
+
 /**
  * AI correction / translation pass over every Hindi surface in the repo.
  *
@@ -120,6 +122,18 @@ const COLLECTIONS_FILTER = (process.env.COLLECTIONS || "")
   .map((s) => s.trim())
   .filter(Boolean)
 
+/**
+ * Collect only hadiths that have no Hindi text yet.
+ *
+ * Without this the hadith section is all-or-nothing: it would re-translate the
+ * 33,305 already transliterated from the Urdu and the 352 hand-checked ones,
+ * overwriting better text with a worse hop and paying ~$150 to do it. With it,
+ * the section is exactly the leftovers — the English-only hadiths, which are a
+ * translation job no rule can do. Existing text always wins, whatever produced
+ * it, because every other source is one hop from the Arabic and this one is two.
+ */
+const ONLY_MISSING = process.env.ONLY_MISSING === "1"
+
 const STATE_DIR = process.env.STATE_DIR || ".batch-state"
 const STATE_FILE = path.join(STATE_DIR, "ai-hindi-pass.json")
 /** Sync-transport ledger: one applied unit id per line, per section. */
@@ -139,6 +153,9 @@ const POLL_SECONDS = Number(process.env.POLL_SECONDS ?? "60")
 /** Sync transport: in-flight requests. Relays throttle harder than Anthropic,
  *  so this stays low by default and is the first knob to turn on 429s. */
 const CONCURRENCY = Number(process.env.CONCURRENCY ?? "6")
+
+/** Sync transport: unusable replies in a row before the run stops itself. */
+const UNUSABLE_STREAK_LIMIT = Number(process.env.UNUSABLE_STREAK_LIMIT ?? "8")
 
 /** Sync transport: write results to disk (and to the ledger) every N units, so
  *  a killed job loses at most this many. */
@@ -541,13 +558,26 @@ const hadithSection: SectionDef = {
     for (const col of cols) {
       for (const file of hadithBookFiles(col)) {
         const hadiths = readJson<HadithEntry[]>(file)
+        // One sidecar read per book, so ONLY_MISSING costs a file open rather
+        // than one per hadith.
+        const sidecarFile = path.join(HADITH_DIR, col, "hindi", path.basename(file))
+        const sidecar: Record<string, HindiSidecarEntry> =
+          ONLY_MISSING && fs.existsSync(sidecarFile)
+            ? readJson<Record<string, HindiSidecarEntry>>(sidecarFile)
+            : {}
         for (const h of hadiths) {
-          const urdu = h.urdu?.trim()
+          // The 25 `urdu` fields holding classical Arabic go through the English
+          // instead. Sent as "ur" they were Arabic translated under an Urdu
+          // label, and the relay content-blocks Arabic input on every attempt,
+          // so they could never land and the pass could never finish.
+          const raw = h.urdu?.trim()
+          const urdu = raw && !isArabicNotUrdu(raw) ? raw : undefined
           const english = h.english?.trim()
           const src = urdu ? "ur" : english ? "en" : null
           // The ~203 hadiths with neither stay Arabic-only: a corpus gap, not a
           // pipeline gap, and inventing text for them is exactly what we don't do.
           if (!src) continue
+          if (ONLY_MISSING && sidecar[String(h.number)]?.text?.trim()) continue
           const bookId = h.bookId ?? Number(path.basename(file).match(/\d+/)![0])
           units.push({
             id: safeId(`hadith-${col}-${bookId}-${h.number}-${src}`),
@@ -565,7 +595,12 @@ const hadithSection: SectionDef = {
       if (!out[0]) continue
       const parts = splitId(id)[1].split("-")
       const src = parts.pop() as "ur" | "en"
-      const number = parts.pop()!
+      // safeId() turned the "." of sub-numbered hadiths (Bukhari 690.2 — 77 of
+      // them across the corpus) into "_". Sidecars, the reader and ONLY_MISSING
+      // all key by String(h.number), so writing "690_2" left the translation
+      // invisible on the site and counted as missing forever. Hadith numbers
+      // are numeric, so "." is the only character safeId can have replaced.
+      const number = parts.pop()!.replace(/_/g, ".")
       const bookId = parts.pop()!
       const col = parts.join("-")
       const key = `${col}/${bookId}`
@@ -795,6 +830,50 @@ function describeNonJson(url: string, res: Response, body: string): string {
   return parts.join("\n")
 }
 
+/**
+ * Reassemble a streamed Messages response into the object a non-streamed call
+ * returns, so callers cannot tell the two apart: content blocks in order, text
+ * and tool input accumulated from their deltas, usage from message_start plus
+ * message_delta. Thinking deltas are dropped; nothing here reads them.
+ */
+function messageFromSse(body: string): { message: AnthropicMessage } | { error: string } {
+  type Block = { type: string; text?: string; input?: { out?: unknown }; json?: string }
+  const blocks: Block[] = []
+  const usage: NonNullable<AnthropicMessage["usage"]> = {}
+  let stopReason: string | undefined
+  for (const line of body.split("\n")) {
+    // Events normally arrive as `data:` lines, but the relay also writes a bare
+    // error object straight into a 200 stream ("Concurrency limit exceeded for
+    // account"). Skipping it reads as an empty reply that is never retried.
+    const payload = line.startsWith("data:") ? line.slice(5) : line.trimStart().startsWith("{") ? line : null
+    if (payload === null) continue
+    let ev: any // eslint-disable-line @typescript-eslint/no-explicit-any
+    try {
+      ev = JSON.parse(payload)
+    } catch {
+      continue
+    }
+    if (ev.type === "message_start") Object.assign(usage, ev.message?.usage)
+    else if (ev.type === "message_delta") {
+      Object.assign(usage, ev.usage)
+      stopReason = ev.delta?.stop_reason ?? stopReason
+    } else if (ev.type === "content_block_start") blocks[ev.index] = { ...ev.content_block, text: ev.content_block.text ?? "" }
+    else if (ev.type === "content_block_delta" && blocks[ev.index]) {
+      if (ev.delta.type === "text_delta") blocks[ev.index].text += ev.delta.text
+      if (ev.delta.type === "input_json_delta") blocks[ev.index].json = (blocks[ev.index].json ?? "") + ev.delta.partial_json
+    } else if (ev.type === "error") return { error: ev.error?.message ?? "stream error" }
+  }
+  for (const block of blocks) {
+    if (block?.json === undefined) continue
+    try {
+      block.input = JSON.parse(block.json)
+    } catch {
+      // Incomplete tool input reads as no output, which readOut() already handles.
+    }
+  }
+  return { message: { content: blocks.filter(Boolean), usage, stop_reason: stopReason } }
+}
+
 async function api<T>(url: string, init?: RequestInit): Promise<T> {
   // Retry on transient failures — a 5xx or 429 hours into a run must not lose
   // the chunk, and a checkpoint is only written once the call succeeds.
@@ -804,6 +883,18 @@ async function api<T>(url: string, init?: RequestInit): Promise<T> {
     // this needs to describe, and res.json() would throw an opaque parse error.
     const body = await res.text()
     const method = init?.method ?? "GET"
+
+    if (res.ok && (res.headers.get("content-type") ?? "").includes("text/event-stream")) {
+      const streamed = messageFromSse(body)
+      if ("message" in streamed) return streamed.message as T
+      // An error event mid-stream (overload, upstream reset) is the streamed
+      // form of a 5xx, so it gets the same retries.
+      if (attempt >= API_RETRIES) throw new Error(`${method} ${url} -> stream error: ${streamed.error}`)
+      const wait = Math.min(60_000, 2 ** attempt * 2000)
+      log(`  API stream error, retrying in ${wait / 1000}s (attempt ${attempt + 1}/${API_RETRIES})`)
+      await sleep(wait)
+      continue
+    }
 
     if (res.ok && !looksLikeHtml(body)) {
       try {
@@ -851,9 +942,15 @@ function buildParams(unit: Unit, section: SectionDef) {
   const chars = unit.strings.reduce((n, s) => n + s.length, 0)
   return {
     model: MODEL,
-    // Devanagari is well under one token per character, so budgeting a token
-    // per source character is a safe ceiling. Unused budget costs nothing.
-    max_tokens: Math.min(32_000, Math.max(1024, chars + 512)),
+    // Thinking shares this budget and can't be relied on to be off: it is the
+    // default from Claude Opus 5 on, and the relay keeps it on even when a
+    // request disables it or lowers effort (claude-opus-5-5 measured ~900-1,000
+    // thinking tokens on a 589-char hadith at every effort level). Sized for the
+    // answer alone, the thinking ate the whole budget and the reply came back as
+    // one empty thinking block — billed, and unusable. So: the answer at well
+    // over a token per source character, plus a fixed allowance for thinking.
+    // Unused budget costs nothing.
+    max_tokens: Math.min(32_000, Math.ceil(chars * 1.5) + 4096),
     temperature: 0,
     system: section.system,
     // Omitted entirely under STRUCTURED=json — the prompt carries the format
@@ -866,7 +963,13 @@ function buildParams(unit: Unit, section: SectionDef) {
     messages: [
       {
         role: "user" as const,
-        content: JSON.stringify({ in: unit.strings }),
+        // Off Anthropic the instructions ride in the user turn too. The relay
+        // was seen dropping `system` for a stretch of a run: the model got bare
+        // JSON, asked what to do with it, and every reply was paid for and
+        // unusable. Anthropic honours `system`, so it is not repeated there.
+        content: IS_ANTHROPIC_DIRECT
+          ? JSON.stringify({ in: unit.strings })
+          : `${section.system}\n\n${JSON.stringify({ in: unit.strings })}`,
       },
     ],
   }
@@ -879,6 +982,7 @@ function buildRequest(unit: Unit, section: SectionDef) {
 interface AnthropicMessage {
   content?: { type: string; text?: string; input?: { out?: unknown } }[]
   usage?: { input_tokens?: number; output_tokens?: number }
+  stop_reason?: string
 }
 
 /**
@@ -990,6 +1094,11 @@ function checkUnit(
     kept.push(ok ? candidate : original)
     if (!ok) rejected++
   }
+  // Keeping the original is only a safe fallback when the original is already
+  // Hindi. For a translation it is the source language: writing it would put
+  // English in a Hindi field and mark the unit done, so it would never be
+  // retried. Treat it as unusable instead, which leaves it for a later run.
+  if (rejected && !section.proofread) return null
   return { kept, rejected }
 }
 
@@ -1222,8 +1331,20 @@ function selftest(plan: { section: SectionDef; units: Unit[] }[]): number {
  * Aborts at 0%. Warns and continues otherwise — the sync transport tolerates
  * per-unit failure, leaving anything that did not land out of the ledger for a
  * later resume, so a degraded endpoint is slow and wasteful rather than fatal.
+ *
+ * `PREFLIGHT_SAMPLES=0` skips the check. The probe sends Devanagari *input*,
+ * which is the right shape for the four proofread sections but not for the
+ * English-only hadith leftovers, where the input is English and only the output
+ * is Devanagari. An endpoint that filters on input would fail this probe and
+ * still do that job, so the escape hatch exists to find out. It disables the
+ * only guard against a 0%-success run, so measure a couple of units with
+ * `SAMPLE` before turning it loose on the corpus.
  */
 async function preflight() {
+  if (PREFLIGHT_SAMPLES <= 0) {
+    log(`Preflight skipped (PREFLIGHT_SAMPLES=0) — ${API_BASE} is unmeasured.`)
+    return
+  }
   const probe: Unit = { id: "preflight", strings: ["अल्लाह के नाम से जो रहमान व रहीम है।"] }
   const body = JSON.stringify(buildParams(probe, quranSection))
   log(`Preflight: ${PREFLIGHT_SAMPLES} Devanagari request(s) to ${API_BASE} (structured=${STRUCTURED}) ...`)
@@ -1357,6 +1478,13 @@ async function runSync(plan: { section: SectionDef; units: Unit[] }[], state: Pa
     let cursor = 0
     let appliedHere = 0
     let stopped = false
+    // Unusable replies in a row, across all workers. A single one is noise; a
+    // streak means the endpoint itself has gone bad — the relay was seen
+    // dropping `system` for a stretch, and every request in it was paid for
+    // and wasted. Stopping leaves the rest for a later run instead of spending
+    // the budget pool on nothing.
+    let unusableStreak = 0
+    let tripped = false
 
     // Synchronous from first statement to last, so no worker can add to
     // `pending` midway through a write.
@@ -1383,9 +1511,14 @@ async function runSync(plan: { section: SectionDef; units: Unit[] }[], state: Pa
         if (i >= todo.length) return
         const unit = todo[i]
         try {
+          // Streamed so the connection carries bytes while the model works. A
+          // relay holds a non-streamed reply until generation ends, and its
+          // gateway answers 504 first on long units — after the upstream has
+          // already been paid for. Batches must not stream, so it is set here
+          // rather than in buildParams().
           const message = await api<AnthropicMessage>(`${API_BASE}/messages`, {
             method: "POST",
-            body: JSON.stringify(buildParams(unit, section)),
+            body: JSON.stringify({ ...buildParams(unit, section), stream: true }),
           })
           state.usage.input += message.usage?.input_tokens ?? 0
           state.usage.output += message.usage?.output_tokens ?? 0
@@ -1393,9 +1526,18 @@ async function runSync(plan: { section: SectionDef; units: Unit[] }[], state: Pa
           const checked = checkUnit(readOut(message), inputs.get(unit.id), section)
           if (!checked) {
             // Unusable shape. Left out of the ledger so a later run retries it.
+            // Logged with the start of the reply, because a unit that fails the
+            // same way every run costs a paid request each time and never lands.
             state.rejected++
+            const reply = (message.content ?? []).map((b) => b.text ?? "").join("")
+            log(
+              `  ⚠ ${unit.id}: unusable reply (stop ${message.stop_reason ?? "?"}, ${message.usage?.output_tokens ?? "?"} out), ` +
+                `left for retry — ${reply.replace(/\s+/g, " ").slice(0, 100)}`,
+            )
+            if (++unusableStreak >= UNUSABLE_STREAK_LIMIT) tripped = stopped = true
             continue
           }
+          unusableStreak = 0
           state.rejected += checked.rejected
           pending.set(unit.id, checked.kept)
           pendingIds.push(unit.id)
@@ -1411,6 +1553,13 @@ async function runSync(plan: { section: SectionDef; units: Unit[] }[], state: Pa
     await Promise.all(Array.from({ length: Math.max(1, CONCURRENCY) }, worker))
     flush()
 
+    if (tripped) {
+      log(
+        `Stopped in "${section.name}": ${UNUSABLE_STREAK_LIMIT} unusable replies in a row, so the endpoint ` +
+          `is misbehaving rather than the units. Each one was paid for. Resume later with mode=resume.`,
+      )
+      return
+    }
     if (stopped) {
       log(`Deadline reached in "${section.name}" — re-dispatch mode=resume to continue for free.`)
       return

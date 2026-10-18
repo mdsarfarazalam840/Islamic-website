@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useCallback, useRef } from "react"
 import type { Ayah, Surah } from "@/types"
-import { getAllSurahs } from "@/lib/quran/surahs"
+import { getAllSurahs, surahMatches } from "@/lib/quran/surahs"
 import { assetPath } from "@/lib/utils"
 
 export function useSurahAyahs(surahNumber: number) {
@@ -74,13 +74,7 @@ export function useSurahList() {
 
   const filtered = surahs.filter((s) => {
     if (revelationFilter !== "all" && s.revelationType !== revelationFilter) return false
-    if (!query) return true
-    const q = query.toLowerCase()
-    return (
-      s.name.toLowerCase().includes(q) ||
-      s.nameTranslated.toLowerCase().includes(q) ||
-      s.nameArabic.includes(query)
-    )
+    return surahMatches(s, query)
   })
 
   return { surahs: filtered, query, setQuery, revelationFilter, setRevelationFilter, total: surahs.length }
