@@ -57,7 +57,7 @@
 - [ ] Download manager UI component
 
 ### Phase 4: CI/CD ✅
-- [x] `.github/workflows/apps.yml` — build on tag push
+- [x] `.github/workflows/apps.yml` — build on tag push *(removed 2026-10-18; native builds are local-only for now — see Log)*
 - [x] Windows build job (windows-latest)
 - [x] macOS build job (macos-latest)
 - [x] Android build job (ubuntu-latest)
@@ -78,6 +78,7 @@
 |------|---------------|
 | 2026-07-30 | Design approved. Spec written. Ready for implementation planning. |
 | 2026-07-30 | Phase 0 complete: Tauri + Capacitor scaffolded, platform layer created, CI workflow added. |
+| 2026-10-18 | Removed `.github/workflows/apps.yml` (Windows/macOS/Linux/Android builds). Release pipeline is now web-only: `versioning.yml` tags + publishes the GitHub Release, and the `v*` tag push triggers `deploy.yml` to ship that tag to GitHub Pages. Native installers must be built locally until a dedicated app-release workflow is reintroduced. |
 
 ---
 
