@@ -1,3 +1,27 @@
+## [0.4.0] - 2026-10-18
+
+### Features
+- feat: added hindi translation in all of the section and fixed 404 page not found (49f2d89)
+- feat(hindi): AI correction pass over all Hindi surfaces (dfe4cdd)
+- feat: Added tasbih pages and rakahs in the knowledge base (85d8e8e)
+
+### Bug Fixes
+- fix: vulnerabilities fixed for PROD environment (d5d641e)
+- fix: deleted the scheduled cron job (588a82d)
+
+### Other
+- chore: remove native app release workflow (3995c5f)
+- updated all the things for ai pass (44a51d4)
+- fixed bugs in CI (4c3086d)
+- fixed more bugs in yml files (3dac79d)
+- some corrections (515b5a3)
+- hindi plan added (080981c)
+- Added some more files for translation (26476d4)
+- Added archi in Readme (237f1fa)
+- Added architecture in the docs (74ad18a)
+- fixed all vulnerabilities (3108250)
+
+
 ## [0.3.0] - 2026-08-25
 
 ### Features
