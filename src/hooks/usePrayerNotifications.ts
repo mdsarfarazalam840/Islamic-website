@@ -2,6 +2,13 @@
 
 import { useCallback, useEffect, useRef, useState } from "react"
 import { detectPlatform } from "@/lib/platform"
+import {
+  calculatePrayerSchedule,
+  DEFAULT_PRAYER_SETTINGS,
+  type PrayerCalculationMethod,
+  type PrayerMadhhab,
+  type PrayerSettings,
+} from "@/lib/prayer"
 
 interface PrayerNotificationState {
   enabled: boolean
@@ -15,6 +22,8 @@ interface StoredConfig {
   enabled: boolean
   latitude: number
   longitude: number
+  calculationMethod?: PrayerCalculationMethod
+  madhhab?: PrayerMadhhab
 }
 
 function getStoredConfig(): StoredConfig | null {
@@ -42,27 +51,19 @@ export function usePrayerNotifications() {
   // being torn down and recreated on every state change.
   const nextPrayerTimeRef = useRef<Date | null>(null)
 
-  const scheduleNotifications = useCallback(async (latitude: number, longitude: number) => {
+  const scheduleNotifications = useCallback(async (settings: PrayerSettings) => {
     const platform = detectPlatform()
-    const { CalculationMethod, Coordinates, PrayerTimes } = await import("adhan")
-
-    const params = CalculationMethod.MuslimWorldLeague()
-    const coordinates = new Coordinates(latitude, longitude)
     const today = new Date()
-    const prayerTimes = new PrayerTimes(coordinates, today, params)
-
-    const prayers: Array<{ name: string; time: Date }> = [
-      { name: "Fajr", time: prayerTimes.fajr },
-      { name: "Dhuhr", time: prayerTimes.dhuhr },
-      { name: "Asr", time: prayerTimes.asr },
-      { name: "Maghrib", time: prayerTimes.maghrib },
-      { name: "Isha", time: prayerTimes.isha },
-    ]
+    const prayers = calculatePrayerSchedule(today, settings).prayers
 
     const now = new Date()
     const upcoming = prayers.filter((p) => p.time > now)
 
-    if (upcoming.length === 0) return
+    if (upcoming.length === 0) {
+      const tomorrow = new Date(today)
+      tomorrow.setDate(tomorrow.getDate() + 1)
+      upcoming.push(calculatePrayerSchedule(tomorrow, settings).prayers[0])
+    }
 
     nextPrayerTimeRef.current = upcoming[0].time
     setState({
@@ -112,12 +113,39 @@ export function usePrayerNotifications() {
           }, delay)
         }
       }
+    } else if (typeof Notification !== "undefined") {
+      const permission = Notification.permission === "granted"
+        ? "granted"
+        : await Notification.requestPermission()
+
+      if (permission === "granted") {
+        for (const prayer of upcoming) {
+          const delay = prayer.time.getTime() - now.getTime()
+          setTimeout(() => {
+            new Notification(`Prayer Time — ${prayer.name}`, {
+              body: `It is time for ${prayer.name} prayer.`,
+            })
+          }, delay)
+        }
+      }
     }
   }, [])
 
-  const enable = useCallback(async (latitude: number, longitude: number) => {
-    storeConfig({ enabled: true, latitude, longitude })
-    await scheduleNotifications(latitude, longitude)
+  const enable = useCallback(async (
+    latitude: number,
+    longitude: number,
+    calculationMethod: PrayerCalculationMethod = DEFAULT_PRAYER_SETTINGS.calculationMethod,
+    madhhab: PrayerMadhhab = DEFAULT_PRAYER_SETTINGS.madhhab,
+  ) => {
+    const settings: PrayerSettings = {
+      ...DEFAULT_PRAYER_SETTINGS,
+      latitude,
+      longitude,
+      calculationMethod,
+      madhhab,
+    }
+    storeConfig({ enabled: true, latitude, longitude, calculationMethod, madhhab })
+    await scheduleNotifications(settings)
   }, [scheduleNotifications])
 
   const disable = useCallback(async () => {
@@ -143,7 +171,13 @@ export function usePrayerNotifications() {
     async function restoreStoredSchedule() {
       const config = getStoredConfig()
       if (config?.enabled) {
-        await scheduleNotifications(config.latitude, config.longitude)
+        await scheduleNotifications({
+          ...DEFAULT_PRAYER_SETTINGS,
+          latitude: config.latitude,
+          longitude: config.longitude,
+          calculationMethod: config.calculationMethod ?? DEFAULT_PRAYER_SETTINGS.calculationMethod,
+          madhhab: config.madhhab ?? DEFAULT_PRAYER_SETTINGS.madhhab,
+        })
       }
     }
     restoreStoredSchedule()
@@ -155,7 +189,13 @@ export function usePrayerNotifications() {
       if (!next || new Date() <= next) return
       const cfg = getStoredConfig()
       if (cfg?.enabled) {
-        scheduleNotifications(cfg.latitude, cfg.longitude)
+        scheduleNotifications({
+          ...DEFAULT_PRAYER_SETTINGS,
+          latitude: cfg.latitude,
+          longitude: cfg.longitude,
+          calculationMethod: cfg.calculationMethod ?? DEFAULT_PRAYER_SETTINGS.calculationMethod,
+          madhhab: cfg.madhhab ?? DEFAULT_PRAYER_SETTINGS.madhhab,
+        })
       }
     }, 60_000)
 
