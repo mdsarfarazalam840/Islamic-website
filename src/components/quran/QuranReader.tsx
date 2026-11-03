@@ -15,6 +15,7 @@ import { dataLang, displayText } from "@/lib/lang"
 import { cn } from "@/lib/utils"
 import { useFontSize, getFontSizeClass } from "@/hooks/useFontSize"
 import { saveReadingProgress } from "@/hooks/useReadingProgress"
+import { recordKhatmahAyah } from "@/lib/khatmah"
 import { SaveQuranSpotButton } from "@/components/shared/SaveSpotButton"
 import { useAudioPlayer } from "./AudioPlayerContext"
 
@@ -166,6 +167,7 @@ export function QuranReader({ surah, ayahs }: QuranReaderProps) {
             ayahNumber: ayah.ayahNumber,
             ayahId: ayah.number,
           })
+          recordKhatmahAyah(ayah.number)
         }
       },
       { rootMargin: "-100px 0px -55% 0px", threshold: 0 },
