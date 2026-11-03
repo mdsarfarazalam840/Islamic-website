@@ -17,6 +17,8 @@ export interface JuzEntry {
   startGlobal: number
   endSurah: number
   endAyah: number
+  /** Global ayah number of the juz's final ayah. */
+  endGlobal: number
 }
 
 let cache: JuzEntry[] | null = null
@@ -35,6 +37,7 @@ export function getJuzIndex(): JuzEntry[] {
         startGlobal: ayah.number,
         endSurah: ayah.surahNumber,
         endAyah: ayah.ayahNumber,
+        endGlobal: ayah.number,
       })
       return
     }
@@ -42,6 +45,7 @@ export function getJuzIndex(): JuzEntry[] {
     // ayah seen for a juz is its end.
     existing.endSurah = ayah.surahNumber
     existing.endAyah = ayah.ayahNumber
+    existing.endGlobal = ayah.number
   }
 
   // Per-surah files rather than quran-all.json: this runs at build time only, and

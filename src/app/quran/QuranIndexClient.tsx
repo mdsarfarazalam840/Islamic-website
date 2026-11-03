@@ -1,7 +1,8 @@
 "use client"
 
 import { useState } from "react"
-import { BookOpen, Search, Filter } from "lucide-react"
+import { BookOpen, Search, Filter, Flag } from "lucide-react"
+import Link from "next/link"
 import { SurahCard } from "@/components/quran/SurahCard"
 import { ContinueReading } from "@/components/quran/ContinueReading"
 import { QuranReferenceSearch } from "@/components/quran/QuranReferenceSearch"
@@ -32,6 +33,12 @@ export function QuranIndexClient({ surahs, juzIndex }: QuranIndexClientProps) {
   return (
     <>
       <ContinueReading />
+
+      <Link href="/khatmah" className="mb-8 flex items-center gap-4 rounded-xl border border-gold-dim/20 bg-gold-dim/5 p-4 transition-colors hover:border-gold-dim/40 hover:bg-gold-dim/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring">
+        <span className="flex size-10 shrink-0 items-center justify-center rounded-lg border border-gold-dim/20 bg-gold-dim/15 text-gold-light"><Flag className="size-5" aria-hidden="true" /></span>
+        <span className="min-w-0 flex-1"><span className="block text-[10px] font-medium uppercase tracking-wider text-gold-light">Quran Khatmah</span><span className="mt-1 block truncate text-sm font-medium text-foreground">Create a reading plan with daily goals, Juz progress, and streaks</span></span>
+        <span className="text-xs font-medium text-gold-light">Open plan</span>
+      </Link>
 
       <QuranReferenceSearch surahs={surahs} juzIndex={juzIndex} className="mb-8" />
 

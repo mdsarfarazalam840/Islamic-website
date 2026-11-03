@@ -3,7 +3,7 @@
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { useState, useEffect, useCallback } from "react"
-import { Menu, X, Search, BookOpen, Video, MessageSquareText, Home, Library, Bookmark, CircleDot, Clock3, Heart } from "lucide-react"
+import { Menu, X, Search, BookOpen, Video, MessageSquareText, Home, Library, Bookmark, CircleDot, Clock3, Heart, Flag } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { ThemeToggle } from "@/components/shared/ThemeToggle"
 import { cn } from "@/lib/utils"
@@ -11,6 +11,7 @@ import { motion, AnimatePresence } from "framer-motion"
 
 const navLinks = [
   { href: "/quran", label: "Quran", icon: BookOpen },
+  { href: "/khatmah", label: "Khatmah", icon: Flag },
   { href: "/hadith", label: "Hadith", icon: MessageSquareText },
   { href: "/knowledge-base", label: "Knowledge", icon: Library },
   { href: "/videos", label: "Videos", icon: Video },
