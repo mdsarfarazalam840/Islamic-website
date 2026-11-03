@@ -1,11 +1,12 @@
 import Link from "next/link"
-import { BookOpen, MessageSquareText, Video, Search, ArrowRight, Library, BookMarked, CircleDot } from "lucide-react"
+import { BookOpen, MessageSquareText, Video, Search, ArrowRight, Library, BookMarked, CircleDot, Heart } from "lucide-react"
 import { buttonVariants } from "@/components/ui/button"
 import { DynamicHero } from "@/components/three/DynamicHero"
 import { getAllSurahs } from "@/lib/quran/surahs"
 import { AyahOfTheDay } from "@/components/home/AyahOfTheDay"
 import { LiveActivity } from "@/components/home/LiveActivity"
 import { ContinueSection } from "@/components/saved/ContinueSection"
+import { DUA_ENTRIES } from "@/lib/duas"
 
 const quickLinks = [
   {
@@ -47,6 +48,14 @@ const quickLinks = [
     href: "/tasbih",
     gradient: "from-emerald/20 to-emerald/5",
     stats: "9 Dhikr · Tasbih of Fatimah",
+  },
+  {
+    title: "Duas & Adhkar",
+    description: "Keep daily supplications close with Arabic, meanings, references, and audio",
+    icon: Heart,
+    href: "/duas",
+    gradient: "from-gold-dim/20 to-gold-dim/5",
+    stats: `14 Categories · ${DUA_ENTRIES.length} Recitations & Hadiths`,
   },
   {
     title: "Search",

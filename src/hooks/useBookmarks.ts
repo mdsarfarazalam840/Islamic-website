@@ -5,7 +5,7 @@ import { getAllSurahs } from "@/lib/quran/surahs"
 
 const STORAGE_KEY = "noor-bookmarks"
 
-export type BookmarkKind = "ayah" | "hadith" | "article"
+export type BookmarkKind = "ayah" | "hadith" | "article" | "dua"
 
 export interface Bookmark {
   id: string

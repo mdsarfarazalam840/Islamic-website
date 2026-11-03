@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { BookOpen, MessageSquareText, Library, X } from "lucide-react"
+import { BookOpen, MessageSquareText, Library, Heart, X } from "lucide-react"
 import type { LucideIcon } from "lucide-react"
 import type { Bookmark, BookmarkKind } from "@/hooks/useBookmarks"
 import { formatRelativeTime } from "@/lib/utils"
@@ -10,6 +10,7 @@ const icons: Record<BookmarkKind, LucideIcon> = {
   ayah: BookOpen,
   hadith: MessageSquareText,
   article: Library,
+  dua: Heart,
 }
 
 interface SavedItemCardProps {

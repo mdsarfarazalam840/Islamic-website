@@ -9,7 +9,7 @@ import { cn } from "@/lib/utils"
 
 type FilterType = "all" | BookmarkKind
 
-// "Learn" rather than "Knowledge" so all four chips plus "Clear all" fit on a
+// "Learn" rather than "Knowledge" so the chips plus "Clear all" fit on a
 // 360px screen without the last one being cut off; it also matches the label the
 // mobile nav uses for the same section.
 const filters: { value: FilterType; label: string }[] = [
@@ -17,6 +17,7 @@ const filters: { value: FilterType; label: string }[] = [
   { value: "ayah", label: "Quran" },
   { value: "hadith", label: "Hadith" },
   { value: "article", label: "Learn" },
+  { value: "dua", label: "Duas" },
 ]
 
 /**
@@ -50,7 +51,7 @@ export function SavedClient() {
           </div>
 
           {bookmarks.length > 0 && (
-            // Four filters plus "Clear all" overflow a 360px screen on one line,
+            // The filters plus "Clear all" overflow a 360px screen on one line,
             // so the filter group scrolls horizontally and the clear button sits
             // outside it where it stays reachable.
             <div className="flex items-center gap-2 min-w-0">
