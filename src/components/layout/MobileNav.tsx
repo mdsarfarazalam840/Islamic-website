@@ -2,15 +2,15 @@
 
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { BookOpen, MessageSquareText, Video, Search, Bookmark, Library, Clock3 } from "lucide-react"
+import { BookOpen, MessageSquareText, Video, Search, Bookmark, Library, Clock3, Heart } from "lucide-react"
 import { useBookmarks } from "@/hooks/useBookmarks"
 import { useReadingProgress } from "@/hooks/useReadingProgress"
 import { useHadithProgress } from "@/hooks/useHadithProgress"
 import { useArticleProgress } from "@/hooks/useArticleProgress"
 import { cn } from "@/lib/utils"
 
-// Seven tabs keeps the main tools one tap away on mobile. `short` is what the
-// tab actually renders, so labels stay readable at roughly 50px per tab.
+// Eight tabs keep the main tools one tap away on mobile. `short` is what the
+// tab actually renders, so labels stay readable in the compact bottom bar.
 const mobileLinks = [
   { href: "/saved", label: "Saved", short: "Saved", icon: Bookmark },
   { href: "/quran", label: "Quran", short: "Quran", icon: BookOpen },
@@ -18,6 +18,7 @@ const mobileLinks = [
   { href: "/knowledge-base", label: "Knowledge", short: "Learn", icon: Library },
   { href: "/videos", label: "Videos", short: "Videos", icon: Video },
   { href: "/prayer", label: "Prayer", short: "Prayer", icon: Clock3 },
+  { href: "/duas", label: "Duas", short: "Duas", icon: Heart },
   { href: "/search", label: "Search", short: "Search", icon: Search },
 ]
 
@@ -37,7 +38,7 @@ export function MobileNav() {
     <nav className="fixed bottom-0 inset-x-0 z-50 md:hidden border-t border-gold-dim/15 bg-space-navy/90 backdrop-blur-xl" aria-label="Mobile navigation">
       {/* Equal-width grid prevents wider labels from pushing the last tab out of
           view. The theme toggle stays in the top bar. */}
-      <div className="grid grid-cols-7 items-stretch h-16 px-1">
+      <div className="grid grid-cols-8 items-stretch h-16 px-1">
         {mobileLinks.map(({ href, label, short, icon: Icon }) => {
           const isActive = pathname === href || (href !== "/" && pathname.startsWith(href))
           return (

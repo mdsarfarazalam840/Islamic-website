@@ -3,7 +3,7 @@
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { useState, useEffect, useCallback } from "react"
-import { Menu, X, Search, BookOpen, Video, MessageSquareText, Home, Library, Bookmark, CircleDot, Clock3 } from "lucide-react"
+import { Menu, X, Search, BookOpen, Video, MessageSquareText, Home, Library, Bookmark, CircleDot, Clock3, Heart } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { ThemeToggle } from "@/components/shared/ThemeToggle"
 import { cn } from "@/lib/utils"
@@ -16,6 +16,7 @@ const navLinks = [
   { href: "/videos", label: "Videos", icon: Video },
   { href: "/tasbih", label: "Tasbih", icon: CircleDot },
   { href: "/prayer", label: "Prayer", icon: Clock3 },
+  { href: "/duas", label: "Duas", icon: Heart },
   { href: "/saved", label: "Saved", icon: Bookmark },
   { href: "/search", label: "Search", icon: Search },
 ]

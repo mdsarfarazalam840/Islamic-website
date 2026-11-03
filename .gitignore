@@ -71,6 +71,10 @@ install.ps1
 test*
 !src/components/ui/testimonials-card.tsx
 .opencode*
+!.opencode/
+!.opencode/.gitignore
+!.opencode/commands/
+!.opencode/commands/*.md
 graphify*
 docs/superpowers/
 
@@ -91,3 +95,5 @@ skills-lock.json
 probe-*.mjs
 serve-*.mjs
 opencode.json
+.specify/
+.opencode/
