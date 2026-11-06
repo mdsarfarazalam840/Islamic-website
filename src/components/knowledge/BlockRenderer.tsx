@@ -2,6 +2,7 @@
 
 import { cn } from "@/lib/utils"
 import { langDir, langFont } from "@/lib/knowledge/lang"
+import { useFontSize, getFontSizeClass } from "@/hooks/useFontSize"
 import { VerseBlockView } from "./VerseBlockView"
 import { HadithBlockView } from "./HadithBlockView"
 import { ArabicBlockView } from "./ArabicBlockView"
@@ -16,6 +17,10 @@ interface BlockRendererProps {
 export function BlockRenderer({ blocks, lang }: BlockRendererProps) {
   const dir = langDir(lang)
   const font = langFont(lang)
+  const { level } = useFontSize()
+  const bodySize = getFontSizeClass(level, "knowledgeBody")
+  const headingSize = getFontSizeClass(level, "knowledgeHeading")
+  const subheadingSize = getFontSizeClass(level, "knowledgeSubheading")
 
   return (
     <div className="space-y-4">
@@ -23,7 +28,11 @@ export function BlockRenderer({ blocks, lang }: BlockRendererProps) {
         switch (block.kind) {
           case "p":
             return (
-              <p key={i} dir={dir} className={cn(font, "leading-relaxed text-foreground/90")}>
+              <p
+                key={i}
+                dir={dir}
+                className={cn(font, bodySize, "leading-relaxed text-foreground/90")}
+              >
                 {block.text}
               </p>
             )
@@ -32,7 +41,11 @@ export function BlockRenderer({ blocks, lang }: BlockRendererProps) {
               <h2
                 key={i}
                 dir={dir}
-                className={cn(font, "text-xl font-display font-semibold text-gold-light mt-8 mb-1")}
+                className={cn(
+                  font,
+                  headingSize,
+                  "font-display font-semibold text-gold-light mt-8 mb-1",
+                )}
               >
                 {block.text}
               </h2>
@@ -40,7 +53,11 @@ export function BlockRenderer({ blocks, lang }: BlockRendererProps) {
               <h3
                 key={i}
                 dir={dir}
-                className={cn(font, "text-lg font-display font-semibold text-foreground mt-6 mb-1")}
+                className={cn(
+                  font,
+                  subheadingSize,
+                  "font-display font-semibold text-foreground mt-6 mb-1",
+                )}
               >
                 {block.text}
               </h3>
@@ -52,6 +69,7 @@ export function BlockRenderer({ blocks, lang }: BlockRendererProps) {
                 dir={dir}
                 className={cn(
                   font,
+                  bodySize,
                   "space-y-1.5 text-foreground/90",
                   dir === "rtl" ? "pr-5" : "pl-5",
                   "list-disc marker:text-gold-dim",

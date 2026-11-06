@@ -3,6 +3,7 @@
 import Link from "next/link"
 import { ArrowUpRight, Quote } from "lucide-react"
 import { cn } from "@/lib/utils"
+import { useFontSize, getFontSizeClass } from "@/hooks/useFontSize"
 import type { HydratedHadithBlock, Language } from "@/types"
 
 interface HadithBlockViewProps {
@@ -34,6 +35,9 @@ function gradeLabel(grade: string): string {
 export function HadithBlockView({ block, lang }: HadithBlockViewProps) {
   const showUrdu = lang === "ur" && block.urdu.trim().length > 0
   const grade = gradeLabel(block.grade)
+  const { level } = useFontSize()
+  const arabicSize = getFontSizeClass(level, "knowledgeArabic")
+  const bodySize = getFontSizeClass(level, "knowledgeBody")
 
   return (
     <figure className="my-6 rounded-xl border border-border/20 bg-card/40 p-5">
@@ -66,17 +70,23 @@ export function HadithBlockView({ block, lang }: HadithBlockViewProps) {
       )}
 
       {block.arabic && (
-        <p className="font-arabic text-foreground leading-[2.2] text-right mb-3" dir="rtl">
+        <p
+          className={cn("font-arabic text-foreground leading-[2.2] text-right mb-3", arabicSize)}
+          dir="rtl"
+        >
           {block.arabic}
         </p>
       )}
 
       {showUrdu ? (
-        <p className="font-arabic leading-relaxed text-foreground/90" dir="rtl">
+        <p
+          className={cn("font-arabic leading-relaxed text-foreground/90", bodySize)}
+          dir="rtl"
+        >
           {block.urdu}
         </p>
       ) : (
-        <p className="leading-relaxed text-foreground/90">{block.english}</p>
+        <p className={cn("leading-relaxed text-foreground/90", bodySize)}>{block.english}</p>
       )}
 
       {block.note && (

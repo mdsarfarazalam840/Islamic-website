@@ -38,6 +38,14 @@ export const FONT_SIZES = {
   hadithArabic: ["text-base", "text-lg", "text-xl", "text-2xl", "text-3xl"] as const,
   // Translation text (EN/UR)
   translation: ["text-xs", "text-sm", "text-sm", "text-base", "text-lg"] as const,
+  // Knowledge Base body text (paragraphs, lists, translations)
+  knowledgeBody: ["text-sm", "text-base", "text-base", "text-lg", "text-xl"] as const,
+  // Knowledge Base article headings (h2)
+  knowledgeHeading: ["text-lg", "text-xl", "text-xl", "text-2xl", "text-3xl"] as const,
+  // Knowledge Base article subheadings (h3)
+  knowledgeSubheading: ["text-base", "text-lg", "text-lg", "text-xl", "text-2xl"] as const,
+  // Knowledge Base embedded Arabic (verses, duʿāʾ, kalimas)
+  knowledgeArabic: ["text-xl", "text-2xl", "text-2xl", "text-3xl", "text-4xl"] as const,
 } as const
 
 export function getFontSizeClass(level: number, type: keyof typeof FONT_SIZES): string {
