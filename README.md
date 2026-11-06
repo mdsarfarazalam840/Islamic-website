@@ -2,7 +2,9 @@
 
 # Noor — نور
 
-
+<img src="docs\noor-3d-logo.gif"
+       width="400"
+       alt="Noor 3D Animated Logo"/>
 
 **نُورٌ عَلَىٰ نُورٍ** — *Light upon light.*
 
