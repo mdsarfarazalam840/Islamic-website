@@ -1,3 +1,18 @@
+## [0.5.0] - 2026-11-06
+
+### Features
+- feat: Added font size control to Knowledge articles, same mechanism as Quran reader. (b7a0f95)
+- feat: Added janāzah in knowledge section (2cdd206)
+- feat: Added khatmah pages (452abee)
+- feat: added prayer section in the pages (090926f)
+
+### Bug Fixes
+- fix: vulnerabilities fixed (80bb539)
+
+### Other
+- added: duas & adhkar library added (9b2af82)
+
+
 ## [0.4.0] - 2026-10-18
 
 ### Features
