@@ -2,6 +2,7 @@
 
 import { cn } from "@/lib/utils"
 import { langDir, langFont } from "@/lib/knowledge/lang"
+import { useFontSize, getFontSizeClass } from "@/hooks/useFontSize"
 import type { ArabicBlock, Language } from "@/types"
 
 interface ArabicBlockViewProps {
@@ -18,6 +19,9 @@ interface ArabicBlockViewProps {
 export function ArabicBlockView({ block, lang }: ArabicBlockViewProps) {
   const dir = langDir(lang)
   const font = langFont(lang)
+  const { level } = useFontSize()
+  const arabicSize = getFontSizeClass(level, "knowledgeArabic")
+  const bodySize = getFontSizeClass(level, "knowledgeBody")
 
   return (
     <figure className="my-6 rounded-xl border border-gold-dim/20 bg-gold-dim/5 p-6 scriptorium-glow">
@@ -36,7 +40,10 @@ export function ArabicBlockView({ block, lang }: ArabicBlockViewProps) {
       {/* whitespace-pre-line so a multi-line text — the azaan, called line by
           line — keeps its line breaks. Single-line blocks are unaffected. */}
       <p
-        className="font-arabic whitespace-pre-line text-foreground leading-[2.2] text-right text-2xl"
+        className={cn(
+          "font-arabic whitespace-pre-line text-foreground leading-[2.2] text-right",
+          arabicSize,
+        )}
         dir="rtl"
       >
         {block.text}
@@ -44,7 +51,10 @@ export function ArabicBlockView({ block, lang }: ArabicBlockViewProps) {
 
       {block.transliteration && (
         <p
-          className="mt-4 whitespace-pre-line text-sm italic leading-relaxed text-gold-light/90"
+          className={cn(
+            "mt-4 whitespace-pre-line italic leading-relaxed text-gold-light/90",
+            bodySize,
+          )}
           dir="ltr"
         >
           {block.transliteration}
@@ -54,7 +64,11 @@ export function ArabicBlockView({ block, lang }: ArabicBlockViewProps) {
       {block.translation && (
         <p
           dir={dir}
-          className={cn("mt-3 whitespace-pre-line leading-relaxed text-muted-foreground", font)}
+          className={cn(
+            "mt-3 whitespace-pre-line leading-relaxed text-muted-foreground",
+            font,
+            bodySize,
+          )}
         >
           {block.translation}
         </p>

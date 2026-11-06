@@ -7,6 +7,7 @@ import { getCategoryInfo } from "@/lib/knowledge/categories"
 import { hydrateArticle } from "@/lib/knowledge/hydrate"
 import { getCollectionDisplayName } from "@/lib/hadith/collections"
 import { ArticleView } from "@/components/knowledge/ArticleView"
+import { FontSizeControls } from "@/components/shared/FontSizeControls"
 import { serializeJsonLd } from "@/lib/utils/seo"
 import type { SourceTag } from "@/types"
 
@@ -86,6 +87,8 @@ export default async function KnowledgeArticlePage({ params }: Props) {
       </Link>
 
       <ArticleView article={hydrated} related={related} />
+
+      <FontSizeControls />
     </div>
   )
 }

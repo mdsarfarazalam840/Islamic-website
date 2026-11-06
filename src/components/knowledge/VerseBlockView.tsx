@@ -4,6 +4,7 @@ import Link from "next/link"
 import { ArrowUpRight } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { langDir, langFont } from "@/lib/knowledge/lang"
+import { useFontSize, getFontSizeClass } from "@/hooks/useFontSize"
 import type { HydratedVerseBlock, Language } from "@/types"
 
 interface VerseBlockViewProps {
@@ -20,17 +21,26 @@ export function VerseBlockView({ block, lang }: VerseBlockViewProps) {
   const translation = block.translations[lang]?.trim() || block.translations.en
   const transDir = langDir(lang)
   const transFont = langFont(lang)
+  const { level } = useFontSize()
+  const arabicSize = getFontSizeClass(level, "knowledgeArabic")
+  const bodySize = getFontSizeClass(level, "knowledgeBody")
 
   return (
     <figure className="my-6 rounded-xl border border-gold-dim/20 bg-gold-dim/5 p-6 scriptorium-glow">
-      <p className="font-arabic text-foreground leading-[2.2] text-right text-2xl" dir="rtl">
+      <p
+        className={cn(
+          "font-arabic text-foreground leading-[2.2] text-right",
+          arabicSize,
+        )}
+        dir="rtl"
+      >
         {block.arabic}
         <span className="text-gold-dim/60 text-lg mr-2">﴿{block.ayah}﴾</span>
       </p>
 
       <p
         dir={transDir}
-        className={cn("mt-4 leading-relaxed text-muted-foreground", transFont)}
+        className={cn("mt-4 leading-relaxed text-muted-foreground", transFont, bodySize)}
       >
         {translation}
       </p>
