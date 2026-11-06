@@ -2,13 +2,19 @@
 
 # Noor — نور
 
+
+
 **نُورٌ عَلَىٰ نُورٍ** — *Light upon light.*
 
 A premium open-source Quran & Hadith platform — complete Quran with multilingual translations, seven authentic Hadith collections (36,000+ hadiths), a trilingual Knowledge Base, and a curated Islamic video library. Fully static, zero runtime cost.
 
+<img
+  src="docs\noor_github_showcase.gif"
+  width="100%"
+  alt="Noor Islamic Website Animated Showcase"
+/>
 
-
-<img width="1831" height="955" alt="image" src="https://github.com/user-attachments/assets/57b6f040-261a-499e-abbb-d4bc44fc8321" />
+<!-- <img width="1831" height="955" alt="image" src="https://github.com/user-attachments/assets/57b6f040-261a-499e-abbb-d4bc44fc8321" /> -->
 
 
 
