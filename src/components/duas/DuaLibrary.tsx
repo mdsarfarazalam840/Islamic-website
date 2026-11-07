@@ -142,6 +142,7 @@ export function DuaLibrary() {
   const [favoritesOnly, setFavoritesOnly] = useState(false)
   const [currentPage, setCurrentPage] = useState(1)
   const chaptersRef = useRef<HTMLDetailsElement>(null)
+  const filtersRef = useRef<HTMLDivElement>(null)
   const { bookmarks } = useBookmarks()
   const favoriteIds = useMemo(() => new Set(bookmarks.filter((bookmark) => bookmark.type === "dua").map((bookmark) => bookmark.id)), [bookmarks])
 
@@ -166,7 +167,9 @@ export function DuaLibrary() {
 
   function goToPage(page: number) {
     setCurrentPage(Math.min(Math.max(1, page), totalPages))
-    requestAnimationFrame(() => window.scrollTo({ top: 0, behavior: "smooth" }))
+    requestAnimationFrame(() =>
+      filtersRef.current?.scrollIntoView({ behavior: "smooth", block: "start" }),
+    )
   }
 
   function selectChapter(chapter: number | "all") {
@@ -228,7 +231,7 @@ export function DuaLibrary() {
           })}
         </section>
 
-        <div className="mb-6 flex flex-col gap-3">
+        <div ref={filtersRef} className="mb-6 flex scroll-mt-20 flex-col gap-3">
           <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center">
             <div className="flex min-h-11 shrink-0 flex-wrap items-center gap-1 rounded-lg border border-input bg-background/60 p-1" role="group" aria-label="Filter by source">
               <button type="button" onClick={() => { setActiveSource("all"); setActiveChapter("all"); setCurrentPage(1) }} aria-pressed={activeSource === "all"} className={cn("whitespace-nowrap rounded-md px-3 py-2 text-xs font-medium transition-colors", activeSource === "all" ? "bg-gold-dim/15 text-gold-light" : "text-muted-foreground hover:text-foreground")}>All sources</button>
