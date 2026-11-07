@@ -39,6 +39,7 @@ A premium open-source Quran & Hadith platform — complete Quran with multilingu
   - [System Overview](#system-overview) · [Data Flow](#data-flow) · [Component Structure](#component-structure)
 - [Tech Stack](#tech-stack)
 - [Getting Started](#getting-started)
+- [Android App](#android-app)
 - [Project Structure](#project-structure)
 - [CI/CD](#cicd)
 - [Design System](#design-system)
@@ -279,6 +280,345 @@ python tests/phase6_polish.py
 ```
 
 ---
+
+## Android App
+
+Noor ships as a native Android app built with **Capacitor 7**. The Android
+container wraps the same static export the website uses, so the app has feature
+parity with the mobile web experience while every content file is bundled
+inside the APK. Reading works with no network connection.
+
+| Layer | Choice |
+| --- | --- |
+| Container | Capacitor 7.6 (Android WebView) |
+| Web bundle | Next.js static export (`out/`) copied to `apps/mobile/www` |
+| App ID | `com.noor.quran` |
+| Min / target SDK | 23 / 35 |
+| Language | Java (bridge activity) + TypeScript (web app) |
+| Native plugins | Local Notifications, Share, Filesystem, Splash Screen, Status Bar |
+
+### What works offline
+
+| Offline | Needs internet |
+| --- | --- |
+| All 114 surahs: Arabic + English, Hindi, Urdu | Recitation audio (islamic.network CDN) |
+| All 7 hadith collections and per-book pages | YouTube scholar videos |
+| Knowledge Base articles, duas, tasbih, khatmah | Live visitor counter (Supabase) |
+| Prayer times (computed on device with `adhan`) | — |
+| Global search (Pagefind index is bundled) | — |
+| Bookmarks, saved spots, reading progress (`localStorage`) | — |
+
+The YouTube catalogue and video cards still render offline; only playback
+needs a connection. The live footer badge stays hidden when Supabase is not
+reachable, which is the intended native behaviour.
+
+### Prerequisites
+
+- Node.js 22+ and npm
+- Android Studio (project is tested with Android Studio 2026.2.2)
+- Android SDK Platform **35**, Build-Tools **35.0.0**, Platform-Tools
+- JDK **21** (Android Studio's bundled JBR also works)
+- A device or emulator on Android 6.0+ (API 23+). Use API 35+ to test
+  edge-to-edge behaviour.
+- About 3 GB free disk for `out/`, `www/`, copied assets, Gradle caches and the
+  APK.
+
+Install the SDK pieces from Android Studio: **Settings → Languages & Frameworks
+→ Android SDK → SDK Platforms / SDK Tools**, or from a terminal:
+
+```bash
+sdkmanager "platforms;android-35" "build-tools;35.0.0" "platform-tools"
+```
+
+The build finds the SDK through `ANDROID_HOME`, `ANDROID_SDK_ROOT`, or
+`apps/mobile/android/local.properties` (`sdk.dir=...`). Android Studio creates
+that file automatically; it is git-ignored.
+
+### Build the APK
+
+From the repository root, after `npm install`:
+
+```bash
+npm run app:android:apk       # full: web export + Capacitor sync + debug APK
+```
+
+Pipeline:
+
+```mermaid
+graph LR
+    A[npm run build:static] --> B[out/]
+    B -->|drop unused hadith-all.json| C[apps/mobile/www/]
+    C -->|npx cap sync android| D[android/app/src/main/assets/public]
+    D -->|gradlew assembleDebug| E[app-debug.apk]
+```
+
+The debug APK is written to:
+
+```text
+apps/mobile/android/app/build/outputs/apk/debug/app-debug.apk
+```
+
+Build commands:
+
+| Command | What it does |
+| --- | --- |
+| `npm run app:android` | Rebuilds web export, syncs Capacitor, no Gradle build |
+| `npm run app:android:apk` | Full fresh build and debug APK |
+| `npm run app:android:fast` | Skips the web rebuild, re-syncs `out/` and builds the APK |
+| `npm run app:android:icons` | Regenerates launcher icons, splash screens and the notification icon |
+| `npm run test:android` | Installs the debug APK and runs the Playwright smoke test |
+
+The first build downloads Gradle 8.11.1 and Android dependencies, so expect
+10–20 minutes. Later builds are much faster; use `app:android:fast` while only
+native code changed.
+
+> [!NOTE]
+> The app bundles roughly 445 MB of local content (Quran, hadith, Pagefind
+> index). The debug APK is large and installation on a slow emulator can take a
+> minute. `hadith-all.json` (~85 MB) is deliberately excluded because no client
+> code fetches it; the app reads per-book files instead.
+
+### Build the release APK (for GitHub Releases)
+
+A release APK is signed with a production keystore so it can be published to
+GitHub Releases and installed/updated on devices. The keystore and signing
+credentials are **not committed** — keep them safe, you need the same keystore
+to sign future updates.
+
+From the repository root, after `npm install`:
+
+```bash
+npm run app:android:release   # web export + Capacitor sync + signed release APK
+```
+
+Pipeline (release variant uses `assembleRelease` and the signing config):
+
+```mermaid
+graph LR
+    A[npm run build:static] --> B[out/]
+    B -->|drop unused hadith-all.json| C[apps/mobile/www/]
+    C -->|npx cap sync android| D[android/app/src/main/assets/public]
+    D -->|gradlew assembleRelease| E[app-release.apk]
+```
+
+The signed release APK is written to:
+
+```text
+apps/mobile/android/app/build/outputs/apk/release/app-release.apk
+```
+
+First-time setup (one-off): the release keystore is generated automatically on
+first release build via `scripts/build-apps.mjs`, or you can create it manually
+with `keytool`. Signing credentials live in the git-ignored
+`apps/mobile/android/app/signing.properties`. Do not commit the keystore or
+`signing.properties` — losing the keystore means you cannot publish update
+APKs for existing installs.
+
+Build commands:
+
+| Command | What it does |
+| --- | --- |
+| `npm run app:android:apk` | Full fresh build and **debug** APK |
+| `npm run app:android:fast` | Skips the web rebuild, re-syncs `out/` and builds the **debug** APK |
+| `npm run app:android:release` | Full fresh build and signed **release** APK |
+
+### Run in Android Studio
+
+```bash
+cd apps/mobile
+npx cap open android
+```
+
+Then pick a device/emulator and press **Run**. Android Studio uses the same
+`android/` project that the CLI builds.
+
+To run from the command line:
+
+```bash
+# list AVDs, start one
+emulator -list-avds
+emulator -avd <avd-name>
+
+# install and launch
+adb install -r apps/mobile/android/app/build/outputs/apk/debug/app-debug.apk
+adb shell am start -n com.noor.quran/.MainActivity
+```
+
+Useful ADB commands:
+
+```bash
+adb devices
+adb logcat -c
+adb logcat | findstr /i "Capacitor chromium Console"   # PowerShell
+adb shell pm clear com.noor.quran                       # reset bookmarks/settings
+adb uninstall com.noor.quran
+```
+
+### Testing
+
+#### 1. Automated WebView smoke test
+
+`scripts/android-smoke.mjs` installs the debug APK, connects Playwright to the
+real Android WebView over Chrome DevTools Protocol, and verifies:
+
+- the home page renders,
+- Quran surah data loads from bundled JSON (Arabic + English),
+- an ayah bookmark is written to `localStorage`,
+- hadith collections and a hadith book load,
+- Knowledge Base, duas, tasbih and prayer pages render,
+- Pagefind search returns results from the bundled index.
+
+```bash
+npm run test:android
+```
+
+Screenshots are saved to `test-results/android/`. Debug builds expose WebView
+debugging automatically; release builds do not.
+
+Add `--offline` to also turn airplane mode on, reload a surah and confirm
+reading still works:
+
+```bash
+node scripts/android-smoke.mjs --offline
+```
+
+#### 2. Manual device checklist
+
+Run through this before shipping a build:
+
+1. Fresh install → launch → app opens on the Noor home page.
+2. Quran → open Al-Fatihah → verify Arabic, English, Hindi, Urdu tabs.
+3. Bookmark an ayah → open **Saved** → bookmark is listed.
+4. Read part of a surah → go back to **Saved** → resume row returns to it.
+5. Hadith → open Bukhari → open a book → verses and grades render.
+6. Knowledge Base → open an article → verse and hadith blocks deep-link.
+7. Duas → play a dua (online) → favourite it.
+8. Tasbih → count, change dhikr, reset.
+9. Prayer → grant notification permission → times match the selected city.
+10. Search → search `mercy` and `Bukhari 1` → results open the right page.
+11. Enable airplane mode → force-stop and relaunch → repeat steps 2, 5, 6, 10.
+12. Rotate the device and open the app switcher → no white flash or layout
+    break.
+13. Kill the app and relaunch → bookmarks and progress survive.
+
+#### 3. Offline verification from ADB
+
+```bash
+adb shell cmd connectivity airplane-mode enable
+adb shell am force-stop com.noor.quran
+adb shell am start -n com.noor.quran/.MainActivity
+# browse Quran, hadith, knowledge base, search
+adb shell cmd connectivity airplane-mode disable
+```
+
+Expected failures while offline: recitation audio and video playback. Nothing
+else should break.
+
+#### 4. Inspecting the WebView
+
+With a debug build running, open `chrome://inspect/#devices` in Chrome (or
+`edge://inspect` in Edge). The `Noor` WebView appears under the connected
+device. Console errors, network requests and localStorage are all inspectable.
+
+Manual CDP forwarding, if you need it:
+
+```bash
+adb shell cat /proc/net/unix | findstr webview_devtools_remote
+adb forward tcp:9222 localabstract:webview_devtools_remote_<pid>
+```
+
+#### 5. Web test suite
+
+The Android app shares the web codebase. Run the normal checks from the
+repository root before rebuilding the APK:
+
+```bash
+npm test
+npm run lint
+```
+
+### Release build
+
+Debug APKs are signed with the debug key and are only for local testing. For a
+shareable build, generate a keystore once and configure a release signing
+config:
+
+```bash
+keytool -genkeypair -v \
+  -keystore noor-release.jks \
+  -alias noor \
+  -keyalg RSA -keysize 2048 -validity 10000
+```
+
+Then either use Android Studio **Build → Generate Signed App Bundle / APK**, or
+add a `signingConfigs.release` block to
+`apps/mobile/android/app/build.gradle` and run:
+
+```bash
+cd apps/mobile/android
+./gradlew assembleRelease
+```
+
+Output: `apps/mobile/android/app/build/outputs/apk/release/app-release.apk`.
+Bump `versionCode` and `versionName` in `app/build.gradle` for every release.
+Never commit the keystore or its passwords. The generated `android/` directory
+is committed; the copied web assets (`android/app/src/main/assets/public`) and
+`www/` are git-ignored.
+
+### Rebuilding after changes
+
+| Changed | Command |
+| --- | --- |
+| Any `src/`, `public/`, data JSON | `npm run app:android:fast` (after one full build) |
+| `capacitor.config.ts` or plugins | `npx cap sync android` in `apps/mobile` |
+| Android native code, manifest, resources | Build in Android Studio, or `gradlew assembleDebug` |
+| App name, icons, splash | Edit resources / run `app:android:icons`, then rebuild |
+| New Capacitor plugin | `npm install <plugin>` in `apps/mobile`, then `npx cap sync android` |
+
+A full `npm run app:android:apk` is the safe option whenever the web bundle or
+data changed, because it regenerates `out/` and copies it into the native
+project.
+
+### Troubleshooting
+
+| Symptom | Fix |
+| --- | --- |
+| `SDK location not found` | Create `apps/mobile/android/local.properties` with `sdk.dir=<path>` or set `ANDROID_HOME` |
+| `Unsupported class file major version` | Use JDK 21 (`JAVA_HOME`), not an older JDK |
+| Gradle download timed out | Retry; the wrapper resumes from `~/.gradle/wrapper/dists` |
+| Gradle runs out of memory | Add `org.gradle.jvmargs=-Xmx4g` to `apps/mobile/android/gradle.properties` |
+| `INSTALL_FAILED_INSUFFICIENT_STORAGE` | Wipe the emulator (`-wipe-data`) or use a larger data partition |
+| Blank/white screen after splash | Check `adb logcat`; re-run `npx cap sync android`; confirm `assets/public/index.html` exists |
+| Route shows 404/not found | Rebuild `out/` then sync; routes depend on `trailingSlash: true` |
+| Search returns nothing | Confirm `apps/mobile/www/pagefind/pagefind.js` exists and check the WebView console |
+| Audio/video fails | Expected offline; re-enable network |
+| Status bar covers the app | Keep `android.adjustMarginsForEdgeToEdge: "force"` in `capacitor.config.ts` |
+| App not installed | Uninstall the old build or check the device has enough free space |
+| Emulator is very slow | Enable WHPX/Hyper-V and use a device image matching the host CPU |
+
+### Android project layout
+
+```text
+apps/mobile/
+├── android/                    # committed native project
+│   ├── app/src/main/
+│   │   ├── assets/public/      # copied web bundle (git-ignored)
+│   │   ├── java/com/noor/quran/MainActivity.java
+│   │   └── res/                # icons, splash, colors, notification icon
+│   ├── build.gradle            # AGP 8.7.2
+│   └── variables.gradle        # SDK versions
+├── www/                        # pruned static export (git-ignored)
+├── capacitor.config.ts
+└── package.json
+
+scripts/
+├── build-apps.mjs              # static export -> www -> cap sync -> Gradle
+├── generate-android-icons.mjs  # launcher/splash/notification assets
+└── android-smoke.mjs           # Playwright CDP smoke test
+```
+
+---
+
 
 ## Project Structure
 

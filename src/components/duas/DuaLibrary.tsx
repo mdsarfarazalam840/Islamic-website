@@ -72,13 +72,18 @@ let activeAudio: HTMLAudioElement | null = null
 function AudioButton({ duaId, text, audioUrl }: { duaId: string; text: string; audioUrl?: string }) {
   const [speaking, setSpeaking] = useState(false)
   const audioRef = useRef<HTMLAudioElement | null>(null)
-  const speechSupported = typeof window === "undefined" || "speechSynthesis" in window
+  const speechSupported = typeof window !== "undefined" && "speechSynthesis" in window
+
+  // Web Speech API is unavailable on Android WebView; no-op when unsupported.
+  function cancelSpeech() {
+    if (speechSupported) window.speechSynthesis.cancel()
+  }
 
   useEffect(() => {
     const audio = audioRef.current
     return () => {
       audio?.pause()
-      if (typeof window !== "undefined") window.speechSynthesis.cancel()
+      cancelSpeech()
     }
   }, [])
 
@@ -97,12 +102,12 @@ function AudioButton({ duaId, text, audioUrl }: { duaId: string; text: string; a
 
     if (!speechSupported || typeof window === "undefined") return
     if (speaking) {
-      window.speechSynthesis.cancel()
+      cancelSpeech()
       setSpeaking(false)
       return
     }
 
-    window.speechSynthesis.cancel()
+    cancelSpeech()
     const utterance = new SpeechSynthesisUtterance(text)
     utterance.lang = "ar-SA"
     utterance.rate = 0.78

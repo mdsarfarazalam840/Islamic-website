@@ -15,7 +15,6 @@ target/
 
 # capacitor
 apps/mobile/www/
-apps/mobile/android/
 apps/mobile/ios/
 
 # testing
@@ -34,6 +33,14 @@ apps/mobile/ios/
 # misc
 .DS_Store
 *.pem
+
+# Android Studio / IntelliJ artifacts
+apps/mobile/.idea/
+
+# release signing (kept out of git — required to rebuild/publish updates)
+apps/mobile/android/app/noor-release-key.jks
+apps/mobile/android/app/signing.properties
+apps/mobile/android/signing.properties
 
 # raw hadeethenc.com responses cached by npm run fetch:hadith-hindi (~5k files;
 # lets re-runs and match-threshold tuning skip the ~20 min network pass)
