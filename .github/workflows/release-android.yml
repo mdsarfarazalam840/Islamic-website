@@ -54,6 +54,10 @@ jobs:
       - name: Install npm dependencies
         run: npm ci
 
+      - name: Install mobile (Capacitor) dependencies
+        run: npm ci
+        working-directory: apps/mobile
+
       - name: Prepare release signing
         env:
           NOOR_RELEASE_KEYSTORE: ${{ secrets.NOOR_RELEASE_KEYSTORE }}
