@@ -2,8 +2,10 @@
 
 import { useEffect, useMemo, useRef, useState } from "react"
 import {
+  BookMarked,
   BookOpen,
   Check,
+  ChevronDown,
   CloudRain,
   Compass,
   Heart,
@@ -70,13 +72,18 @@ let activeAudio: HTMLAudioElement | null = null
 function AudioButton({ duaId, text, audioUrl }: { duaId: string; text: string; audioUrl?: string }) {
   const [speaking, setSpeaking] = useState(false)
   const audioRef = useRef<HTMLAudioElement | null>(null)
-  const speechSupported = typeof window === "undefined" || "speechSynthesis" in window
+  const speechSupported = typeof window !== "undefined" && "speechSynthesis" in window
+
+  // Web Speech API is unavailable on Android WebView; no-op when unsupported.
+  function cancelSpeech() {
+    if (speechSupported) window.speechSynthesis.cancel()
+  }
 
   useEffect(() => {
     const audio = audioRef.current
     return () => {
       audio?.pause()
-      if (typeof window !== "undefined") window.speechSynthesis.cancel()
+      cancelSpeech()
     }
   }, [])
 
@@ -95,12 +102,12 @@ function AudioButton({ duaId, text, audioUrl }: { duaId: string; text: string; a
 
     if (!speechSupported || typeof window === "undefined") return
     if (speaking) {
-      window.speechSynthesis.cancel()
+      cancelSpeech()
       setSpeaking(false)
       return
     }
 
-    window.speechSynthesis.cancel()
+    cancelSpeech()
     const utterance = new SpeechSynthesisUtterance(text)
     utterance.lang = "ar-SA"
     utterance.rate = 0.78
@@ -139,6 +146,8 @@ export function DuaLibrary() {
   const [search, setSearch] = useState("")
   const [favoritesOnly, setFavoritesOnly] = useState(false)
   const [currentPage, setCurrentPage] = useState(1)
+  const chaptersRef = useRef<HTMLDetailsElement>(null)
+  const filtersRef = useRef<HTMLDivElement>(null)
   const { bookmarks } = useBookmarks()
   const favoriteIds = useMemo(() => new Set(bookmarks.filter((bookmark) => bookmark.type === "dua").map((bookmark) => bookmark.id)), [bookmarks])
 
@@ -160,6 +169,19 @@ export function DuaLibrary() {
   const pageDuas = visibleDuas.slice((effectivePage - 1) * PAGE_SIZE, effectivePage * PAGE_SIZE)
   const firstVisible = visibleDuas.length === 0 ? 0 : (effectivePage - 1) * PAGE_SIZE + 1
   const lastVisible = Math.min(effectivePage * PAGE_SIZE, visibleDuas.length)
+
+  function goToPage(page: number) {
+    setCurrentPage(Math.min(Math.max(1, page), totalPages))
+    requestAnimationFrame(() =>
+      filtersRef.current?.scrollIntoView({ behavior: "smooth", block: "start" }),
+    )
+  }
+
+  function selectChapter(chapter: number | "all") {
+    setActiveChapter(chapter)
+    setCurrentPage(1)
+    if (chaptersRef.current) chaptersRef.current.open = false
+  }
 
   return (
     <div className="relative min-h-[calc(100dvh-4rem)] overflow-hidden geometric-bg">
@@ -214,46 +236,92 @@ export function DuaLibrary() {
           })}
         </section>
 
-        <div className="mb-7 flex flex-col gap-3 lg:flex-row lg:items-center">
-          <div className="flex min-h-11 shrink-0 flex-wrap items-center gap-1 rounded-lg border border-input bg-background/60 p-1" role="group" aria-label="Filter by source">
-            <button type="button" onClick={() => { setActiveSource("all"); setActiveChapter("all"); setCurrentPage(1) }} aria-pressed={activeSource === "all"} className={cn("whitespace-nowrap rounded-md px-3 py-2 text-xs font-medium transition-colors", activeSource === "all" ? "bg-gold-dim/15 text-gold-light" : "text-muted-foreground hover:text-foreground")}>All sources</button>
-            <button type="button" onClick={() => { setActiveSource("hisn"); setActiveChapter("all"); setCurrentPage(1) }} aria-pressed={activeSource === "hisn"} className={cn("whitespace-nowrap rounded-md px-3 py-2 text-xs font-medium transition-colors", activeSource === "hisn" ? "bg-gold-dim/15 text-gold-light" : "text-muted-foreground hover:text-foreground")}>Hisn al-Muslim · {DUAS.length}</button>
-            <button type="button" onClick={() => { setActiveSource("hadith"); setActiveChapter("all"); setCurrentPage(1) }} aria-pressed={activeSource === "hadith"} className={cn("whitespace-nowrap rounded-md px-3 py-2 text-xs font-medium transition-colors", activeSource === "hadith" ? "bg-gold-dim/15 text-gold-light" : "text-muted-foreground hover:text-foreground")}>Hadith · {HADITH_DUAS.length}</button>
-          </div>
-          <label className="relative block flex-1">
-            <span className="sr-only">Search duas</span>
-            <Search className="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" aria-hidden="true" />
-            <input
-              value={search}
-              onChange={(event) => { setSearch(event.target.value); setCurrentPage(1) }}
-              placeholder="Search Arabic, transliteration, meaning, or reference…"
-              className="h-11 w-full rounded-lg border border-input bg-background/60 pl-10 pr-10 text-sm outline-none transition focus:border-gold-dim focus:ring-2 focus:ring-ring/40"
-            />
-            {search && <button type="button" onClick={() => { setSearch(""); setCurrentPage(1) }} className="absolute right-2 top-1/2 flex size-8 -translate-y-1/2 items-center justify-center rounded-md text-muted-foreground hover:bg-muted hover:text-foreground" aria-label="Clear search"><X className="size-4" /></button>}
-          </label>
-          <label className="flex min-h-11 items-center gap-2 rounded-lg border border-input bg-background/60 px-3 text-sm text-muted-foreground focus-within:border-gold-dim focus-within:ring-2 focus-within:ring-ring/40">
-            <span className="sr-only">Filter by chapter</span>
-            <BookOpen className="size-4 shrink-0 text-gold-dim" aria-hidden="true" />
-            <select
-              value={activeChapter}
-              onChange={(event) => { setActiveChapter(event.target.value === "all" ? "all" : Number(event.target.value)); setCurrentPage(1) }}
-              className="min-w-0 bg-transparent outline-none"
+        <div ref={filtersRef} className="mb-6 flex scroll-mt-20 flex-col gap-3">
+          <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center">
+            <div className="flex min-h-11 shrink-0 flex-wrap items-center gap-1 rounded-lg border border-input bg-background/60 p-1" role="group" aria-label="Filter by source">
+              <button type="button" onClick={() => { setActiveSource("all"); setActiveChapter("all"); setCurrentPage(1) }} aria-pressed={activeSource === "all"} className={cn("whitespace-nowrap rounded-md px-3 py-2 text-xs font-medium transition-colors", activeSource === "all" ? "bg-gold-dim/15 text-gold-light" : "text-muted-foreground hover:text-foreground")}>All sources</button>
+              <button type="button" onClick={() => { setActiveSource("hisn"); setActiveChapter("all"); setCurrentPage(1) }} aria-pressed={activeSource === "hisn"} className={cn("whitespace-nowrap rounded-md px-3 py-2 text-xs font-medium transition-colors", activeSource === "hisn" ? "bg-gold-dim/15 text-gold-light" : "text-muted-foreground hover:text-foreground")}>Hisn al-Muslim · {DUAS.length}</button>
+              <button type="button" onClick={() => { setActiveSource("hadith"); setActiveChapter("all"); setCurrentPage(1) }} aria-pressed={activeSource === "hadith"} className={cn("whitespace-nowrap rounded-md px-3 py-2 text-xs font-medium transition-colors", activeSource === "hadith" ? "bg-gold-dim/15 text-gold-light" : "text-muted-foreground hover:text-foreground")}>Hadith · {HADITH_DUAS.length}</button>
+            </div>
+            <label className="relative block min-w-0 flex-1 sm:basis-64">
+              <span className="sr-only">Search duas</span>
+              <Search className="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" aria-hidden="true" />
+              <input
+                value={search}
+                onChange={(event) => { setSearch(event.target.value); setCurrentPage(1) }}
+                placeholder="Search Arabic, transliteration, meaning, or reference…"
+                className="h-11 w-full rounded-lg border border-input bg-background/60 pl-10 pr-10 text-sm outline-none transition focus:border-gold-dim focus:ring-2 focus:ring-ring/40"
+              />
+              {search && <button type="button" onClick={() => { setSearch(""); setCurrentPage(1) }} className="absolute right-2 top-1/2 flex size-8 -translate-y-1/2 items-center justify-center rounded-md text-muted-foreground hover:bg-muted hover:text-foreground" aria-label="Clear search"><X className="size-4" /></button>}
+            </label>
+            <button
+              type="button"
+              onClick={() => { setFavoritesOnly((value) => !value); setCurrentPage(1) }}
+              className={cn("inline-flex min-h-11 shrink-0 items-center justify-center gap-2 rounded-lg border px-4 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring", favoritesOnly ? "border-gold-dim/40 bg-gold-dim/10 text-gold-light" : "border-input text-muted-foreground hover:border-gold-dim/30 hover:text-gold-light")}
+              aria-pressed={favoritesOnly}
             >
-              <option value="all">All 132 chapters</option>
-              {DUA_CHAPTERS.map((chapter) => (
-                <option key={chapter.id} value={chapter.number}>{chapter.number}. {chapter.title}</option>
-              ))}
-            </select>
-          </label>
-          <button
-            type="button"
-            onClick={() => { setFavoritesOnly((value) => !value); setCurrentPage(1) }}
-            className={cn("inline-flex min-h-11 items-center justify-center gap-2 rounded-lg border px-4 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring", favoritesOnly ? "border-gold-dim/40 bg-gold-dim/10 text-gold-light" : "border-input text-muted-foreground hover:border-gold-dim/30 hover:text-gold-light")}
-            aria-pressed={favoritesOnly}
-          >
-            {favoritesOnly ? <Check className="size-4" aria-hidden="true" /> : <Heart className="size-4" aria-hidden="true" />}
-            Favorites{favoriteIds.size > 0 && ` · ${favoriteIds.size}`}
-          </button>
+              {favoritesOnly ? <Check className="size-4" aria-hidden="true" /> : <Heart className="size-4" aria-hidden="true" />}
+              Favorites{favoriteIds.size > 0 && ` · ${favoriteIds.size}`}
+            </button>
+          </div>
+
+          <details ref={chaptersRef} className="group rounded-xl border border-gold-dim/15 bg-card/40">
+            <summary className="flex cursor-pointer list-none items-center gap-2 p-4 text-sm font-medium text-foreground transition-colors hover:text-gold-light [&::-webkit-details-marker]:hidden">
+              <BookMarked className="size-4 shrink-0 text-gold-light" aria-hidden="true" />
+              <span className="min-w-0 truncate">
+                {activeChapter === "all"
+                  ? `Browse all ${DUA_CHAPTERS.length} chapters`
+                  : `Chapter ${activeChapter} · ${DUA_CHAPTERS.find((chapter) => chapter.number === activeChapter)?.title ?? ""}`}
+              </span>
+              {activeChapter !== "all" && (
+                <span className="shrink-0 rounded-full bg-gold-dim/15 px-2 py-0.5 text-[10px] font-semibold text-gold-light">Filtered</span>
+              )}
+              <ChevronDown className="ml-auto size-4 shrink-0 text-muted-foreground transition-transform group-open:rotate-180" aria-hidden="true" />
+            </summary>
+            <div className="border-t border-gold-dim/10 p-4">
+              <div className="max-h-80 overflow-y-auto">
+                <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-3">
+                  <button
+                    type="button"
+                    onClick={() => selectChapter("all")}
+                    aria-pressed={activeChapter === "all"}
+                    className={cn(
+                      "group/chapter flex items-center justify-between rounded-lg border p-3 text-left transition-all",
+                      activeChapter === "all"
+                        ? "border-gold-dim/30 bg-gold-dim/10"
+                        : "border-border/20 bg-space-mid/20 hover:border-gold-dim/30 hover:bg-gold-dim/5",
+                    )}
+                  >
+                    <div className="flex min-w-0 items-center gap-2">
+                      <span className="flex size-6 shrink-0 items-center justify-center rounded bg-gold-dim/10 text-[10px] font-medium text-gold-light">All</span>
+                      <span className="truncate text-xs text-foreground transition-colors group-hover/chapter:text-gold-light">All chapters</span>
+                    </div>
+                    <span className="ml-2 shrink-0 text-[10px] text-muted-foreground">{DUA_ENTRIES.length}</span>
+                  </button>
+                  {DUA_CHAPTERS.map((chapter) => (
+                    <button
+                      key={chapter.id}
+                      type="button"
+                      onClick={() => selectChapter(chapter.number)}
+                      aria-pressed={activeChapter === chapter.number}
+                      className={cn(
+                        "group/chapter flex items-center justify-between rounded-lg border p-3 text-left transition-all",
+                        activeChapter === chapter.number
+                          ? "border-gold-dim/30 bg-gold-dim/10"
+                          : "border-border/20 bg-space-mid/20 hover:border-gold-dim/30 hover:bg-gold-dim/5",
+                      )}
+                    >
+                      <div className="flex min-w-0 items-center gap-2">
+                        <span className="flex size-6 shrink-0 items-center justify-center rounded bg-gold-dim/10 text-[10px] font-medium text-gold-light">{chapter.number}</span>
+                        <span className="truncate text-xs text-foreground transition-colors group-hover/chapter:text-gold-light">{chapter.title}</span>
+                      </div>
+                      <span className="ml-2 shrink-0 text-[10px] text-muted-foreground">{chapter.entryCount}</span>
+                    </button>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </details>
         </div>
 
         <section className="space-y-5" aria-label="Dua collection">
@@ -267,7 +335,7 @@ export function DuaLibrary() {
                     <span className={cn("flex size-9 shrink-0 items-center justify-center rounded-lg", categoryColors[dua.category])}><Icon className="size-4" aria-hidden="true" /></span>
             <div className="min-w-0"><p className="truncate text-sm font-semibold text-foreground">{dua.title}</p><p className="mt-0.5 truncate text-xs text-gold-dim">{category?.label} · {dua.source === "hadith" ? "Hadith source" : `Chapter ${dua.chapterNumber}`}</p></div>
                   </div>
-                  <div className="flex items-center gap-1">
+                  <div className="flex shrink-0 items-center gap-1">
                     <AudioButton duaId={dua.id} text={dua.arabic} audioUrl={dua.audioUrl} />
                     <BookmarkButton type="dua" id={dua.id} reference={dua.title} text={dua.translation.slice(0, 100)} href={`/duas#${dua.id}`} className="text-muted-foreground hover:text-gold-light" />
                   </div>
@@ -301,7 +369,7 @@ export function DuaLibrary() {
         {visibleDuas.length > 0 && (
           <div className="mt-7 flex flex-col items-center gap-2">
             <p className="text-xs text-muted-foreground">Showing {firstVisible}–{lastVisible} of {visibleDuas.length} recitations</p>
-            <Pagination currentPage={effectivePage} totalPages={totalPages} onPageChange={setCurrentPage} />
+            <Pagination currentPage={effectivePage} totalPages={totalPages} onPageChange={goToPage} />
           </div>
         )}
 

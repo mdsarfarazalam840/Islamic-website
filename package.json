@@ -31,8 +31,14 @@
     "app:build": "node scripts/build-apps.mjs",
     "app:desktop": "node scripts/build-apps.mjs desktop",
     "app:mobile": "node scripts/build-apps.mjs mobile",
+    "app:android": "node scripts/build-apps.mjs android",
+    "app:android:apk": "node scripts/build-apps.mjs android --apk",
+    "app:android:fast": "node scripts/build-apps.mjs android --skip-web --apk",
+    "app:android:release": "node scripts/build-apps.mjs android --release --apk",
+    "app:android:icons": "node scripts/generate-android-icons.mjs",
+    "test:android": "node scripts/android-smoke.mjs --apk apps/mobile/android/app/build/outputs/apk/debug/app-debug.apk",
     "app:dev:desktop": "npm run build:static && npx tauri dev",
-    "app:sync:mobile": "npm run build:static && node scripts/build-apps.mjs mobile"
+    "app:sync:mobile": "node scripts/build-apps.mjs mobile --skip-web"
   },
   "dependencies": {
     "@base-ui/react": "^1.6.0",

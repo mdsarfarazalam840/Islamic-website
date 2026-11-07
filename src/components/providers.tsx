@@ -5,6 +5,7 @@ import { useState, useEffect } from "react"
 import { ThemeProvider } from "next-themes"
 import { RealtimeProvider } from "@/components/realtime/RealtimeProvider"
 import { assetPath } from "@/lib/utils"
+import { isNative } from "@/lib/platform"
 
 export function Providers({ children }: { children: React.ReactNode }) {
   const [queryClient] = useState(
@@ -20,6 +21,10 @@ export function Providers({ children }: { children: React.ReactNode }) {
   )
 
   useEffect(() => {
+    // Native shells (Capacitor/Tauri) already ship the whole static bundle
+    // locally. A service worker there only adds a second cache that can serve
+    // stale chunks after an app update, so registration stays web-only.
+    if (isNative()) return
     if (!("serviceWorker" in navigator)) return
 
     if (process.env.NODE_ENV === "production") {

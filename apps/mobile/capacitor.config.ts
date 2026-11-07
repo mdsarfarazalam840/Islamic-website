@@ -3,9 +3,15 @@ import type { CapacitorConfig } from "@capacitor/cli";
 const config: CapacitorConfig = {
   appId: "com.noor.quran",
   appName: "Noor",
-  webDir: "../../out",
+  webDir: "www",
   server: {
     androidScheme: "https",
+  },
+  android: {
+    backgroundColor: "#050a14",
+    // Android 15+ draws the WebView edge-to-edge. Reserve the status and
+    // navigation bar insets natively so the existing mobile CSS keeps working.
+    adjustMarginsForEdgeToEdge: "force",
   },
   plugins: {
     SplashScreen: {

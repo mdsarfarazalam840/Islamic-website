@@ -1,0 +1,111 @@
+name: Build Release APK
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+    inputs:
+      tag_name:
+        description: 'Release tag (e.g. v1.0.0). Leave empty to use the current ref.'
+        required: false
+        default: ''
+
+env:
+  NOOR_APP_DIR: ${{ github.workspace }}/apps/mobile/android
+  NOOR_WWW_DIR: ${{ github.workspace }}/apps/mobile/www
+  NOOR_OUT_DIR: ${{ github.workspace }}/out
+
+jobs:
+  build-release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Java 21
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '21'
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install Android SDK command-line tools
+        run: |
+          mkdir -p $HOME/android-sdk/cmdline-tools
+          wget -q https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip -O cmdline-tools.zip
+          unzip -q cmdline-tools.zip -d $HOME/android-sdk/cmdline-tools
+          mv $HOME/android-sdk/cmdline-tools/cmdline-tools $HOME/android-sdk/cmdline-tools/tools
+          echo "ANDROID_HOME=$HOME/android-sdk" >> $GITHUB_ENV
+          echo "ANDROID_SDK_ROOT=$HOME/android-sdk" >> $GITHUB_ENV
+
+      - name: Install Android SDK components
+        run: |
+          yes | $HOME/android-sdk/cmdline-tools/tools/bin/sdkmanager --sdk_root=$HOME/android-sdk \
+            "platform-tools" "platforms;android-35" "build-tools;35.0.0"
+
+      - name: Install npm dependencies
+        run: npm ci
+
+      - name: Prepare release signing
+        if: env.NOOR_RELEASE_KEYSTORE != ''
+        run: |
+          echo "${{ secrets.NOOR_RELEASE_KEYSTORE }}" | base64 -d > apps/mobile/android/app/noor-release-key.jks
+          {
+            echo "key.store=noor-release-key.jks"
+            echo "key.store.password=${{ secrets.NOOR_RELEASE_KEYSTORE_PASSWORD }}"
+            echo "key.alias=noor"
+            echo "key.password=${{ secrets.NOOR_RELEASE_KEY_PASSWORD }}"
+          } > apps/mobile/android/app/signing.properties
+          echo "Signing config written to apps/mobile/android/app/signing.properties"
+
+      - name: Build release APK
+        run: npm run app:android:release
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ""
+          NEXT_PUBLIC_SUPABASE_ANON_KEY: ""
+          NEXT_PUBLIC_PAGEFIND_BUNDLE: ""
+          NEXT_PUBLIC_BASE_PATH: ""
+          JAVA_OPTS: -Xmx1536m
+
+      - name: Show APK path
+        id: apk_path
+        run: |
+          APK="apps/mobile/android/app/build/outputs/apk/release/app-release.apk"
+          if [ ! -f "$APK" ]; then echo "::error::Release APK not found at $APK"; exit 1; fi
+          echo "apk_path=$APK" >> $GITHUB_OUTPUT
+          echo "APK size: $(du -h "$APK" | cut -f1)"
+
+      - name: Create GitHub Release and upload APK
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.event.inputs.tag_name || github.ref_name }}
+          name: Noor ${{ github.event.inputs.tag_name || github.ref_name }}
+          body: |
+            ## Noor Quran — Android Release
+
+            Signed release APK for GitHub Releases.
+
+            ### Install
+            ```bash
+            adb install -r app-release.apk
+            ```
+
+            ### Offline-first
+            All Quran, hadith, Pagefind search index, duas, knowledge base and prayer
+            content is bundled inside the APK. No network connection is required for
+            reading. Only recitation audio and YouTube video playback need internet.
+
+            ### Signing
+            Signed with the project release keystore. Use the same keystore for all
+            future updates so existing installs can upgrade.
+          files: ${{ steps.apk_path.outputs.apk_path }}
+          draft: false
+          prerelease: false

@@ -26,7 +26,7 @@ export function Footer() {
     <footer className="border-t border-gold-dim/20 bg-space-deep">
       {/* Extra bottom padding clears the fixed MobileNav, which would otherwise
           cover the copyright line — the footer, not main, is the last element. */}
-      <div className="mx-auto max-w-7xl px-4 pt-16 pb-32 sm:px-6 md:pb-16">
+      <div className="mx-auto max-w-7xl px-4 pt-16 pb-32 sm:px-6 xl:pb-16">
         <div className="grid grid-cols-2 gap-10 md:grid-cols-4">
           <div className="col-span-2 md:col-span-1">
             <Link href="/" className="flex items-center gap-2 mb-4">

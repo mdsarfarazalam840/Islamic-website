@@ -38,15 +38,18 @@
 - [ ] Test macOS build (.dmg)
 
 ### Phase 2: Mobile (Capacitor)
-- [x] `capacitor.config.ts` — webDir → `../../out`
-- [ ] Android project init (`npx cap add android`)
+- [x] `capacitor.config.ts` — webDir → `www` (staged export), offline env, edge-to-edge margins
+- [x] Android project init (`npx cap add android`) — `apps/mobile/android/`
 - [ ] iOS project init (`npx cap add ios`) — requires Mac
 - [x] `@capacitor/local-notifications` — prayer times
 - [x] `@capacitor/filesystem` — download manager
 - [x] `@capacitor/share` — native share
 - [ ] Background audio plugin for recitation
-- [x] Splash screen + status bar config
-- [ ] Test Android build (.apk)
+- [x] Splash screen + status bar config (custom icons/splash/notification from SVG mark)
+- [x] Offline-first web export (Supabase/Pagefind-remote env blanked)
+- [x] Skip service-worker registration on native (`src/components/providers.tsx`)
+- [x] Test Android build (.apk) — debug APK 250.8 MB + signed release APK ~233 MB
+- [x] E2E smoke test (`scripts/android-smoke.mjs`) — 9 checks incl. airplane-mode reading
 - [ ] Test iOS build (requires Mac + Xcode)
 
 ### Phase 3: Web App Integration Layer
@@ -79,6 +82,8 @@
 | 2026-07-30 | Design approved. Spec written. Ready for implementation planning. |
 | 2026-07-30 | Phase 0 complete: Tauri + Capacitor scaffolded, platform layer created, CI workflow added. |
 | 2026-10-18 | Removed `.github/workflows/apps.yml` (Windows/macOS/Linux/Android builds). Release pipeline is now web-only: `versioning.yml` tags + publishes the GitHub Release, and the `v*` tag push triggers `deploy.yml` to ship that tag to GitHub Pages. Native installers must be built locally until a dedicated app-release workflow is reintroduced. |
+| 2026-11-07 | Android Phase 2 complete: Capacitor 7 app wraps Next.js static export in `www/`; offline-first export (Supabase/Pagefind-remote blanked); `hadith-all.json` excluded; custom icons/splash/notification from SVG; edge-to-edge margins forced; debug APK 250.8 MB built and installed on emulator API 37; `scripts/android-smoke.mjs` E2E WebView test passes 9/9 checks incl. airplane-mode reading; README Android section complete. |
+| 2026-11-07 | Release APK support added: `keytool`-generated release keystore (git-ignored) + `signing.properties`; Gradle `signingConfigs.release` wired into `app/build.gradle`; `app:android:release` npm script and `build-apps.mjs --release` flag; signed `app-release.apk` (~233 MB) built at `apps/mobile/android/app/build/outputs/apk/release/app-release.apk`, signer CN=Noor Quran. Ready for GitHub Releases. |
 
 ---
 
