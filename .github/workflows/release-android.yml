@@ -55,14 +55,21 @@ jobs:
         run: npm ci
 
       - name: Prepare release signing
-        if: ${{ secrets.NOOR_RELEASE_KEYSTORE != '' }}
+        env:
+          NOOR_RELEASE_KEYSTORE: ${{ secrets.NOOR_RELEASE_KEYSTORE }}
+          NOOR_RELEASE_KEYSTORE_PASSWORD: ${{ secrets.NOOR_RELEASE_KEYSTORE_PASSWORD }}
+          NOOR_RELEASE_KEY_PASSWORD: ${{ secrets.NOOR_RELEASE_KEY_PASSWORD }}
         run: |
-          echo "${{ secrets.NOOR_RELEASE_KEYSTORE }}" | base64 -d > apps/mobile/android/app/noor-release-key.jks
+          if [ -z "${NOOR_RELEASE_KEYSTORE}" ]; then
+            echo "::error::Release signing secrets not configured. Add NOOR_RELEASE_KEYSTORE, NOOR_RELEASE_KEYSTORE_PASSWORD, NOOR_RELEASE_KEY_PASSWORD to repository secrets."
+            exit 1
+          fi
+          echo "${NOOR_RELEASE_KEYSTORE}" | base64 -d > apps/mobile/android/app/noor-release-key.jks
           {
             echo "key.store=noor-release-key.jks"
-            echo "key.store.password=${{ secrets.NOOR_RELEASE_KEYSTORE_PASSWORD }}"
+            echo "key.store.password=${NOOR_RELEASE_KEYSTORE_PASSWORD}"
             echo "key.alias=noor"
-            echo "key.password=${{ secrets.NOOR_RELEASE_KEY_PASSWORD }}"
+            echo "key.password=${NOOR_RELEASE_KEY_PASSWORD}"
           } > apps/mobile/android/app/signing.properties
           echo "Signing config written to apps/mobile/android/app/signing.properties"
 
