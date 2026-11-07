@@ -72,6 +72,10 @@ function syncMobile({ androidOnly = false, buildApk = false } = {}) {
     const task = wantsRelease ? "assembleRelease" : "assembleDebug"
     const flavor = wantsRelease ? "Release" : "debug"
     console.log(`\n--- Building ${flavor} APK ---`)
+    // gradlew needs +x in CI (checkout strips exec bits on some runners)
+    if (process.platform !== "win32") {
+      run(`chmod +x ${GRADLEW}`, androidDir)
+    }
     run(`${GRADLEW} ${task}${GRADLE_DAEMON_FLAG}`, androidDir)
     const apkPath = resolve(androidDir, `app/build/outputs/apk/${flavor.toLowerCase()}/app-${flavor.toLowerCase()}.apk`)
     console.log(`\nAPK: ${apkPath}`)
