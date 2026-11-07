@@ -35,7 +35,7 @@ export function MobileNav() {
     bookmarks.length > 0 || !!quranProgress || !!hadithProgress || !!articleProgress
 
   return (
-    <nav className="fixed bottom-0 inset-x-0 z-50 md:hidden border-t border-gold-dim/15 bg-space-navy/90 backdrop-blur-xl" aria-label="Mobile navigation">
+    <nav className="fixed bottom-0 inset-x-0 z-50 xl:hidden border-t border-gold-dim/15 bg-space-navy/90 backdrop-blur-xl" aria-label="Mobile navigation">
       {/* Equal-width grid prevents wider labels from pushing the last tab out of
           view. The theme toggle stays in the top bar. */}
       <div className="grid grid-cols-8 items-stretch h-16 px-1">

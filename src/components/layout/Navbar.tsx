@@ -93,7 +93,7 @@ export function Navbar() {
             </span>
           </Link>
 
-          <nav className="hidden md:flex items-center gap-1" aria-label="Main navigation">
+          <nav className="hidden xl:flex items-center gap-1" aria-label="Main navigation">
             {navLinks.map(({ href, label, icon: Icon }) => {
               const isActive = pathname === href || (href !== "/" && pathname.startsWith(href))
               return (
@@ -125,7 +125,7 @@ export function Navbar() {
             <Button
               variant="ghost"
               size="icon"
-              className="md:hidden"
+              className="xl:hidden"
               onClick={() => setMobileOpen(!mobileOpen)}
               aria-label={mobileOpen ? "Close menu" : "Open menu"}
             >
@@ -135,7 +135,7 @@ export function Navbar() {
         </div>
 
         {mobileOpen && (
-          <div className="md:hidden border-t border-border/50 glass" role="dialog" aria-label="Navigation menu">
+          <div className="xl:hidden border-t border-border/50 glass" role="dialog" aria-label="Navigation menu">
             <nav className="flex flex-col gap-1 p-4" aria-label="Mobile navigation">
               {navLinks.map(({ href, label, icon: Icon }) => {
                 const isActive = pathname === href || (href !== "/" && pathname.startsWith(href))
@@ -170,7 +170,7 @@ export function Navbar() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 20 }}
             transition={{ duration: 0.3, ease: "easeOut" }}
-            className="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 hidden md:block"
+            className="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 hidden xl:block"
           >
             <div
               className="flex flex-col items-center"
