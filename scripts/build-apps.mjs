@@ -36,6 +36,11 @@ const offlineEnv = {
 const GRADLEW = process.platform === "win32" ? "gradlew.bat" : "./gradlew"
 // CI runs headless; disable the Gradle daemon so the build process exits cleanly.
 const GRADLE_DAEMON_FLAG = process.env.CI ? " --no-daemon" : ""
+// Capacitor CLI binary (installed in apps/mobile). npx cap is unreliable in CI,
+// so invoke the local binary directly.
+const CAP = process.platform === "win32"
+  ? resolve(root, "apps/mobile/node_modules/.bin/cap.cmd")
+  : resolve(root, "apps/mobile/node_modules/.bin/cap")
 
 console.log(`Building Noor apps (target: ${target})`)
 
@@ -61,7 +66,7 @@ function syncMobile({ androidOnly = false, buildApk = false } = {}) {
     filter: (src) => !src.endsWith(skipped),
   })
 
-  run(androidOnly ? "npx cap sync android" : "npx cap sync", resolve(root, "apps/mobile"))
+  run(`"${CAP}" ${androidOnly ? "sync android" : "sync"}`, resolve(root, "apps/mobile"))
 
   if (buildApk) {
     const task = wantsRelease ? "assembleRelease" : "assembleDebug"
