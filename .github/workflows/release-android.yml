@@ -55,7 +55,7 @@ jobs:
         run: npm ci
 
       - name: Prepare release signing
-        if: env.NOOR_RELEASE_KEYSTORE != ''
+        if: ${{ secrets.NOOR_RELEASE_KEYSTORE != '' }}
         run: |
           echo "${{ secrets.NOOR_RELEASE_KEYSTORE }}" | base64 -d > apps/mobile/android/app/noor-release-key.jks
           {
@@ -67,13 +67,14 @@ jobs:
           echo "Signing config written to apps/mobile/android/app/signing.properties"
 
       - name: Build release APK
+        timeout-minutes: 30
         run: npm run app:android:release
         env:
+          CI: "true"
           NEXT_PUBLIC_SUPABASE_URL: ""
           NEXT_PUBLIC_SUPABASE_ANON_KEY: ""
           NEXT_PUBLIC_PAGEFIND_BUNDLE: ""
           NEXT_PUBLIC_BASE_PATH: ""
-          JAVA_OPTS: -Xmx1536m
 
       - name: Show APK path
         id: apk_path
