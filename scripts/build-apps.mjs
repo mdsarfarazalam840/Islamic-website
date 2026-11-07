@@ -34,13 +34,10 @@ const offlineEnv = {
 }
 
 const GRADLEW = process.platform === "win32" ? "gradlew.bat" : "./gradlew"
+// CI runs headless; disable the Gradle daemon so the build process exits cleanly.
+const GRADLE_DAEMON_FLAG = process.env.CI ? " --no-daemon" : ""
 
 console.log(`Building Noor apps (target: ${target})`)
-
-if (!existsSync(outDir)) {
-  console.log("Static export not found - building web app first...")
-  run("npm run build:static", root, offlineEnv)
-}
 
 function syncMobile({ androidOnly = false, buildApk = false } = {}) {
   console.log("\n--- Syncing Capacitor mobile ---")
@@ -70,7 +67,7 @@ function syncMobile({ androidOnly = false, buildApk = false } = {}) {
     const task = wantsRelease ? "assembleRelease" : "assembleDebug"
     const flavor = wantsRelease ? "Release" : "debug"
     console.log(`\n--- Building ${flavor} APK ---`)
-    run(`${GRADLEW} ${task}`, androidDir)
+    run(`${GRADLEW} ${task}${GRADLE_DAEMON_FLAG}`, androidDir)
     const apkPath = resolve(androidDir, `app/build/outputs/apk/${flavor.toLowerCase()}/app-${flavor.toLowerCase()}.apk`)
     console.log(`\nAPK: ${apkPath}`)
     if (!existsSync(apkPath)) {
