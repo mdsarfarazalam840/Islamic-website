@@ -164,6 +164,11 @@ export function DuaLibrary() {
   const firstVisible = visibleDuas.length === 0 ? 0 : (effectivePage - 1) * PAGE_SIZE + 1
   const lastVisible = Math.min(effectivePage * PAGE_SIZE, visibleDuas.length)
 
+  function goToPage(page: number) {
+    setCurrentPage(Math.min(Math.max(1, page), totalPages))
+    requestAnimationFrame(() => window.scrollTo({ top: 0, behavior: "smooth" }))
+  }
+
   function selectChapter(chapter: number | "all") {
     setActiveChapter(chapter)
     setCurrentPage(1)
@@ -356,7 +361,7 @@ export function DuaLibrary() {
         {visibleDuas.length > 0 && (
           <div className="mt-7 flex flex-col items-center gap-2">
             <p className="text-xs text-muted-foreground">Showing {firstVisible}–{lastVisible} of {visibleDuas.length} recitations</p>
-            <Pagination currentPage={effectivePage} totalPages={totalPages} onPageChange={setCurrentPage} />
+            <Pagination currentPage={effectivePage} totalPages={totalPages} onPageChange={goToPage} />
           </div>
         )}
 
