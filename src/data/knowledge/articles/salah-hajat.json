@@ -1,0 +1,120 @@
+{
+  "slug": "salah-hajat",
+  "category": "salah",
+  "order": 11,
+  "title": {
+    "en": "Ṣalāt al-Ḥājah — Namāz-e-Ḥājat, the Prayer of Need",
+    "hi": "सलातुल-हाजत — नमाज़-ए-हाजत",
+    "ur": "صلاۃ الحاجت — نمازِ حاجت"
+  },
+  "summary": {
+    "en": "What to do with a need that will not leave you alone: two rakʿahs and a duʿāʾ, the wording narrated from the Prophet ﷺ, the supplication taught to the blind man, and the manners of asking — with an honest note on the strength of each narration.",
+    "hi": "उस हाजत का क्या करें जो पीछा न छोड़े: दो रकअतें और एक दुआ, नबी ﷺ से रिवायत अल्फ़ाज़, नेत्रहीन सहाबी को सिखाई गई दुआ, और सवाल करने के आदाब — हर रिवायत की क़ुव्वत पर साफ़ बात के साथ।",
+    "ur": "اُس حاجت کا کیا کریں جو پیچھا نہ چھوڑے: دو رکعتیں اور ایک دعا، نبی ﷺ سے روایت الفاظ، نابینا صحابی کو سکھائی گئی دعا، اور سوال کرنے کے آداب — ہر روایت کی قوت پر صاف بات کے ساتھ۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Ḥājah means a need — the thing that keeps you awake. The Sunnah does not ask the believer to pretend it is small, and it does not ask them to carry it in silence. It asks them to make wuḍūʾ, pray two rakʿahs, and then ask." },
+      { "kind": "verse", "surah": 21, "ayah": 83, "note": "And Ayyūb, when he called to his Lord: I am afflicted with distress, and You are the most merciful of the merciful." },
+      { "kind": "hadith", "collection": "tirmidhi", "hadith": 479, "note": "Whoever has a need from Allah, or from any of His creation, let him make wuḍūʾ well, pray two rakʿahs, praise Allah, send blessings on the Prophet ﷺ, and then say the duʿāʾ." },
+      { "kind": "heading", "level": 2, "text": "How it is prayed" },
+      { "kind": "list", "items": [
+        { "text": "Make a proper wuḍūʾ and face the qiblah." },
+        { "text": "Intend two rakʿahs of nafl for this need. The intention stays in the heart." },
+        { "text": "Pray as any two-rakʿah prayer: al-Fātiḥah and any passage in each rakʿah." },
+        { "text": "After the salām, praise Allah and send blessings on the Prophet ﷺ — and only then state the need." },
+        { "text": "Ask in your own words, in any language. Arabic is not a condition for duʿāʾ." }
+      ] },
+      { "kind": "p", "text": "Two rakʿahs is the pattern in the narration; some scholars mention four. It is nafl, prayed alone, and may be repeated as often as the need and the heart require — there is no fixed count beyond that. It is a prayer offered for a cause, which is why later scholars allowed it in the hours when prayer is otherwise disliked." },
+      { "kind": "heading", "level": 2, "text": "The duʿāʾ of ḥājah" },
+      { "kind": "arabic", "text": "لَا إِلَهَ إِلَّا اللَّهُ الْحَلِيمُ الْكَرِيمُ، سُبْحَانَ اللَّهِ رَبِّ الْعَرْشِ الْعَظِيمِ، الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ، أَسْأَلُكَ مُوجِبَاتِ رَحْمَتِكَ، وَعَزَائِمَ مَغْفِرَتِكَ، وَالْغَنِيمَةَ مِنْ كُلِّ بِرٍّ، وَالسَّلَامَةَ مِنْ كُلِّ إِثْمٍ، لَا تَدَعْ لِي ذَنْبًا إِلَّا غَفَرْتَهُ، وَلَا هَمًّا إِلَّا فَرَّجْتَهُ، وَلَا حَاجَةً هِيَ لَكَ رِضًا إِلَّا قَضَيْتَهَا، يَا أَرْحَمَ الرَّاحِمِينَ", "transliteration": "Lā ilāha illa'llāhu'l-Ḥalīmu'l-Karīm. Subḥāna'llāhi Rabbi'l-ʿArshi'l-ʿAẓīm. Al-ḥamdu li'llāhi Rabbi'l-ʿālamīn. Asʾaluka mūjibāti raḥmatik, wa ʿazāʾima maghfiratik, wa'l-ghanīmata min kulli birr, wa's-salāmata min kulli ithm. Lā tadaʿ lī dhanban illā ghafartah, wa lā hamman illā farrajtah, wa lā ḥājatan hiya laka riḍan illā qaḍaytahā, yā arḥama'r-rāḥimīn.", "translation": "There is no god but Allah, the Forbearing, the Generous. Glory be to Allah, Lord of the mighty Throne. All praise is for Allah, Lord of all the worlds. I ask You for what obliges Your mercy, for the resolve to earn Your forgiveness, for a share of every good, and for safety from every sin. Leave no sin of mine unforgiven, no worry of mine unrelieved, and no need that pleases You unfulfilled, O Most Merciful of the merciful.", "label": "Duʿāʾ al-ḥājah — narrated from ʿAbdullāh ibn Abī Awfā" },
+      { "kind": "p", "text": "This wording is reported in Tirmidhī and Ibn Mājah. Its chain contains a narrator whom some scholars weakened, which is why Tirmidhī calls it ḥasan gharīb while others discuss it; the practice has nonetheless been followed across the schools, because it concerns supplication and virtue rather than a ruling. Whoever is uneasy with the chain may simply pray the two rakʿahs and ask in their own words — the prayer and the asking are the sunnah either way." },
+      { "kind": "heading", "level": 2, "text": "The supplication taught to the blind man" },
+      { "kind": "p", "text": "A separate narration, from ʿUthmān ibn Ḥunayf, describes a blind man who came to the Prophet ﷺ and asked him to pray that his sight return. He was told to make his wuḍūʾ well, pray two rakʿahs, and say the words below. Scholars grade this narration ṣaḥīḥ, and it is cited both for praying at a time of need and for seeking a means through the Prophet ﷺ." },
+      { "kind": "arabic", "text": "اللَّهُمَّ إِنِّي أَسْأَلُكَ وَأَتَوَجَّهُ إِلَيْكَ بِمُحَمَّدٍ نَبِيِّ الرَّحْمَةِ، يَا مُحَمَّدُ إِنِّي قَدْ تَوَجَّهْتُ بِكَ إِلَى رَبِّي فِي حَاجَتِي هَذِهِ لِتُقْضَى، اللَّهُمَّ فَشَفِّعْهُ فِيَّ", "transliteration": "Allāhumma innī asʾaluka wa atawajjahu ilayka bi-Muḥammadin nabiyyi'r-raḥmah. Yā Muḥammad, innī qad tawajjahtu bika ilā Rabbī fī ḥājatī hādhihi li-tuqḍā. Allāhumma fa-shaffiʿhu fiyy.", "translation": "O Allah, I ask You and turn to You through Muhammad, the Prophet of mercy. O Muhammad, I have turned through you to my Lord concerning this need of mine, that it may be fulfilled. O Allah, accept his intercession for me.", "label": "The duʿāʾ taught to the blind Companion" },
+      { "kind": "p", "text": "The wording asks Allah by the Prophet ﷺ, and scholars have differed over it for centuries. Those who permit tawassul through him cite it as evidence; those who hold the wording particular to his lifetime recite only and ask Allah directly. What is not disputed is that a means is not an alternative to the One asked — the duʿāʾ is still addressed to Allah, who alone answers." },
+      { "kind": "heading", "level": 2, "text": "Manners of asking" },
+      { "kind": "list", "items": [
+        { "text": "Begin with praise of Allah and blessings on the Prophet ﷺ. A duʿāʾ that opens this way is more likely to be answered." },
+        { "text": "Face the qiblah, raise the hands, and ask with certainty — not as a test." },
+        { "text": "Do not ask for what is forbidden, or for the severing of a family tie." },
+        { "text": "Do not be impatient. The answer may be the thing itself, a delay that is better for you, or a harm turned away." },
+        { "text": "Keep the means as well. The prayer does not replace the work, the doctor, or the difficult conversation." }
+      ] },
+      { "kind": "verse", "surah": 2, "ayah": 186, "note": "When My servants ask you about Me — I am near. I answer the call of the caller when he calls." },
+      { "kind": "verse", "surah": 40, "ayah": 60, "note": "Your Lord says: call upon Me and I will answer you." },
+      { "kind": "p", "text": "The prayer of need is not a lever. It is the admission that the need is real, that the One being asked is nearer than the need itself, and that the answer — whenever it comes, and whatever shape it takes — will have been the right one." }
+    ],
+    "hi": [
+      { "kind": "p", "text": "हाजत का मतलब है ज़रूरत — वह चीज़ जो रात को सुलाती नहीं। सुन्नत मोमिन से यह नहीं कहती कि इसे छोटा समझो, और न यह कहती है कि इसे चुपचाप ढोते रहो। वह कहती है: वुज़ू करो, दो रकअतें पढ़ो, फिर माँगो।" },
+      { "kind": "verse", "surah": 21, "ayah": 83, "note": "और अय्यूब, जब उन्होंने अपने रब को पुकारा: मुझे तकलीफ़ पहुँची है, और तू रहम करने वालों में सब से बढ़कर रहम करने वाला है।" },
+      { "kind": "hadith", "collection": "tirmidhi", "hadith": 479, "note": "जिसे अल्लाह से, या उसकी मख़लूक़ में से किसी से कोई हाजत हो, वह अच्छी तरह वुज़ू करे, दो रकअतें पढ़े, अल्लाह की तारीफ़ करे, नबी ﷺ पर दुरूद भेजे, और यह दुआ पढ़े।" },
+      { "kind": "heading", "level": 2, "text": "कैसे पढ़ी जाती है" },
+      { "kind": "list", "items": [
+        { "text": "अच्छी तरह वुज़ू करो और क़िब्ले की तरफ़ रुख़ करो।" },
+        { "text": "इस हाजत के लिए दो रकअत नफ़्ल की नीयत करो। नीयत दिल में रहती है।" },
+        { "text": "किसी भी दो रकअत की तरह पढ़ो: हर रकअत में अल-फ़ातिहा और जो क़िरअत आती हो।" },
+        { "text": "सलाम के बाद अल्लाह की तारीफ़ करो और नबी ﷺ पर दुरूद भेजो — और उसके बाद ही हाजत बयान करो।" },
+        { "text": "अपने अल्फ़ाज़ में, किसी भी ज़बान में माँगो। दुआ के लिए अरबी शर्त नहीं।" }
+      ] },
+      { "kind": "p", "text": "रिवायत में दो रकअतें हैं; कुछ उलेमा चार का ज़िक्र करते हैं। यह नफ़्ल है, अकेले पढ़ी जाती है, और जितनी बार ज़रूरत और दिल कहे दोहराई जा सकती है — इसके आगे कोई गिनती मुक़र्रर नहीं। यह सबब पर पढ़ी जाने वाली नमाज़ है, इसलिए बाद के उलेमा ने उन वक़्तों में भी इजाज़त दी जब आम तौर पर नमाज़ मकरूह है।" },
+      { "kind": "heading", "level": 2, "text": "दुआ-ए-हाजत" },
+      { "kind": "arabic", "text": "لَا إِلَهَ إِلَّا اللَّهُ الْحَلِيمُ الْكَرِيمُ، سُبْحَانَ اللَّهِ رَبِّ الْعَرْشِ الْعَظِيمِ، الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ، أَسْأَلُكَ مُوجِبَاتِ رَحْمَتِكَ، وَعَزَائِمَ مَغْفِرَتِكَ، وَالْغَنِيمَةَ مِنْ كُلِّ بِرٍّ، وَالسَّلَامَةَ مِنْ كُلِّ إِثْمٍ، لَا تَدَعْ لِي ذَنْبًا إِلَّا غَفَرْتَهُ، وَلَا هَمًّا إِلَّا فَرَّجْتَهُ، وَلَا حَاجَةً هِيَ لَكَ رِضًا إِلَّا قَضَيْتَهَا، يَا أَرْحَمَ الرَّاحِمِينَ", "transliteration": "Lā ilāha illa'llāhu'l-Ḥalīmu'l-Karīm. Subḥāna'llāhi Rabbi'l-ʿArshi'l-ʿAẓīm. Al-ḥamdu li'llāhi Rabbi'l-ʿālamīn. Asʾaluka mūjibāti raḥmatik, wa ʿazāʾima maghfiratik, wa'l-ghanīmata min kulli birr, wa's-salāmata min kulli ithm. Lā tadaʿ lī dhanban illā ghafartah, wa lā hamman illā farrajtah, wa lā ḥājatan hiya laka riḍan illā qaḍaytahā, yā arḥama'r-rāḥimīn.", "translation": "अल्लाह के सिवा कोई माबूद नहीं, वह बुर्दबार और करीम है। पाक है अल्लाह, अज़ीम अर्श का रब। सारी तारीफ़ अल्लाह के लिए, सारे जहानों का रब। मैं तुझसे वह चीज़ माँगता हूँ जो तेरी रहमत को वाजिब कर दे, और वह इरादा जो तेरी बख़्शिश हासिल करे, और हर भलाई में हिस्सा, और हर गुनाह से सलामती। मेरा कोई गुनाह न छोड़ जिसे तू बख़्श दे, कोई ग़म न छोड़ जिसे तू दूर कर दे, और कोई ऐसी हाजत न छोड़ जो तुझे पसंद हो और तू पूरी न करे, ऐ रहम करने वालों में सब से रहम करने वाले।", "label": "दुआ-ए-हाजत — अब्दुल्लाह बिन अबी औफ़ा से रिवायत" },
+      { "kind": "p", "text": "यह अल्फ़ाज़ तिरमिज़ी और इब्न माजा में हैं। इसकी सनद में एक रावी है जिसे कुछ उलेमा ने ज़ईफ़ कहा, इसीलिए तिरमिज़ी इसे हसन ग़रीब कहते हैं और दूसरे उस पर बहस करते हैं; फिर भी मसलकों में इस पर अमल रहा है, क्योंकि यह दुआ और फ़ज़ीलत का मसला है, किसी हुक्म का नहीं। जिसे सनद पर इतमीनान न हो वह दो रकअतें पढ़कर अपने अल्फ़ाज़ में माँग ले — नमाज़ और सवाल दोनों हर हाल में सुन्नत हैं।" },
+      { "kind": "heading", "level": 2, "text": "नेत्रहीन सहाबी को सिखाई गई दुआ" },
+      { "kind": "p", "text": "एक अलग रिवायत, उस्मान बिन हुनैफ़ से, बताती है कि एक नेत्रहीन शख़्स नबी ﷺ के पास आया और कहा कि मेरी नज़र के लिए दुआ करें। उसे हुक्म हुआ कि अच्छी तरह वुज़ू करे, दो रकअतें पढ़े, और नीचे दी गई दुआ कहे। उलेमा इस रिवायत को सहीह कहते हैं, और इसे हाजत के वक़्त नमाज़ के लिए भी पेश करते हैं और नबी ﷺ के वसीले से दुआ के लिए भी।" },
+      { "kind": "arabic", "text": "اللَّهُمَّ إِنِّي أَسْأَلُكَ وَأَتَوَجَّهُ إِلَيْكَ بِمُحَمَّدٍ نَبِيِّ الرَّحْمَةِ، يَا مُحَمَّدُ إِنِّي قَدْ تَوَجَّهْتُ بِكَ إِلَى رَبِّي فِي حَاجَتِي هَذِهِ لِتُقْضَى، اللَّهُمَّ فَشَفِّعْهُ فِيَّ", "transliteration": "Allāhumma innī asʾaluka wa atawajjahu ilayka bi-Muḥammadin nabiyyi'r-raḥmah. Yā Muḥammad, innī qad tawajjahtu bika ilā Rabbī fī ḥājatī hādhihi li-tuqḍā. Allāhumma fa-shaffiʿhu fiyy.", "translation": "ऐ अल्लाह! मैं तुझसे माँगता हूँ और तेरी तरफ़ मुहम्मद, रहमत के नबी के वसीले से रुख़ करता हूँ। ऐ मुहम्मद! मैंने तेरे वसीले से अपने रब की तरफ़ इस हाजत में रुख़ किया है ताकि वह पूरी हो। ऐ अल्लाह! मेरे बारे में उनकी शफ़ाअत क़बूल कर।", "label": "नेत्रहीन सहाबी को सिखाई गई दुआ" },
+      { "kind": "p", "text": "इन अल्फ़ाज़ में अल्लाह से नबी ﷺ के ज़रिए सवाल है, और उलेमा सदियों से इसमें मुख़्तलिफ़ हैं। जो नबी ﷺ के वसीले को जायज़ मानते हैं वे इसे दलील बनाते हैं; जो इन अल्फ़ाज़ को आपकी ज़िंदगी के ख़ास मानते हैं वे सिर्फ़ दुआ करते हैं और अल्लाह से सीधे माँगते हैं। जिस बात में इख़्तिलाफ़ नहीं वह यह है कि वसीला उससे माँगे जाने वाले का बदल नहीं — दुआ फिर भी अल्लाह ही से है, और जवाब सिर्फ़ वही देता है।" },
+      { "kind": "heading", "level": 2, "text": "सवाल के आदाब" },
+      { "kind": "list", "items": [
+        { "text": "अल्लाह की तारीफ़ और नबी ﷺ पर दुरूद से शुरू करो। ऐसी दुआ क़बूल होने के ज़्यादा क़रीब होती है।" },
+        { "text": "क़िब्ले की तरफ़ मुँह, हाथ उठाकर, यक़ीन के साथ माँगो — आज़माइश के तौर पर नहीं।" },
+        { "text": "हराम चीज़ न माँगो, और न रिश्ते तोड़ने की दुआ करो।" },
+        { "text": "बेसब्र न हो। जवाब वही चीज़ हो सकती है, या देर जो तुम्हारे लिए बेहतर हो, या कोई बला जो टल जाए।" },
+        { "text": "असबाब भी अपने हाथ में रखो। नमाज़ काम, डॉक्टर, या मुश्किल बातचीत की जगह नहीं लेती।" }
+      ] },
+      { "kind": "verse", "surah": 2, "ayah": 186, "note": "जब मेरे बंदे मेरे बारे में पूछें — तो मैं क़रीब हूँ। जब पुकारने वाला पुकारता है, मैं उसकी पुकार सुनता हूँ।" },
+      { "kind": "verse", "surah": 40, "ayah": 60, "note": "तुम्हारे रब ने कहा: मुझे पुकारो, मैं तुम्हारी दुआ क़बूल करूँगा।" },
+      { "kind": "p", "text": "हाजत की नमाज़ कोई हैंडल नहीं है। यह इक़रार है कि हाजत सच्ची है, कि जिससे माँगा जा रहा है वह हाजत से भी ज़्यादा क़रीब है, और कि जवाब — जब भी आए, जिस शक्ल में भी आए — सही ही होगा।" }
+    ],
+    "ur": [
+      { "kind": "p", "text": "حاجت کا مطلب ہے ضرورت — وہ چیز جو رات کو سلائے نہیں۔ سنت مومن سے یہ نہیں کہتی کہ اُسے چھوٹا سمجھو، اور نہ یہ کہتی ہے کہ اُسے چپکے سے ڈھوتے رہو۔ وہ کہتی ہے: وضو کرو، دو رکعتیں پڑھو، پھر مانگو۔" },
+      { "kind": "verse", "surah": 21, "ayah": 83, "note": "اور ایوب، جب اُنہوں نے اپنے رب کو پکارا: مجھے تکلیف پہنچی ہے، اور تو رحم کرنے والوں میں سب سے بڑھ کر رحم کرنے والا ہے۔" },
+      { "kind": "hadith", "collection": "tirmidhi", "hadith": 479, "note": "جسے اللہ سے، یا اُس کی مخلوق میں سے کسی سے کوئی حاجت ہو، وہ اچھی طرح وضو کرے، دو رکعتیں پڑھے، اللہ کی تعریف کرے، نبی ﷺ پر درود بھیجے، اور یہ دعا پڑھے۔" },
+      { "kind": "heading", "level": 2, "text": "کیسے پڑھی جاتی ہے" },
+      { "kind": "list", "items": [
+        { "text": "اچھی طرح وضو کرو اور قبلے کی طرف رخ کرو۔" },
+        { "text": "اِس حاجت کے لیے دو رکعت نفل کی نیت کرو۔ نیت دل میں رہتی ہے۔" },
+        { "text": "کسی بھی دو رکعت کی طرح پڑھو: ہر رکعت میں الفاتحہ اور جو قرأت آتی ہو۔" },
+        { "text": "سلام کے بعد اللہ کی تعریف کرو اور نبی ﷺ پر درود بھیجو — اور اُس کے بعد ہی حاجت بیان کرو۔" },
+        { "text": "اپنے الفاظ میں، کسی بھی زبان میں مانگو۔ دعا کے لیے عربی شرط نہیں۔" }
+      ] },
+      { "kind": "p", "text": "روایت میں دو رکعتیں ہیں؛ بعض علماء چار کا ذکر کرتے ہیں۔ یہ نفل ہے، اکیلے پڑھی جاتی ہے، اور جتنی بار ضرورت اور دل کہے دہرائی جا سکتی ہے — اِس سے آگے کوئی گنتی مقرر نہیں۔ یہ سبب پر پڑھی جانے والی نماز ہے، اِس لیے بعد کے علماء نے اُن وقتوں میں بھی اجازت دی جب عام طور پر نماز مکروہ ہے۔" },
+      { "kind": "heading", "level": 2, "text": "دعائے حاجت" },
+      { "kind": "arabic", "text": "لَا إِلَهَ إِلَّا اللَّهُ الْحَلِيمُ الْكَرِيمُ، سُبْحَانَ اللَّهِ رَبِّ الْعَرْشِ الْعَظِيمِ، الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ، أَسْأَلُكَ مُوجِبَاتِ رَحْمَتِكَ، وَعَزَائِمَ مَغْفِرَتِكَ، وَالْغَنِيمَةَ مِنْ كُلِّ بِرٍّ، وَالسَّلَامَةَ مِنْ كُلِّ إِثْمٍ، لَا تَدَعْ لِي ذَنْبًا إِلَّا غَفَرْتَهُ، وَلَا هَمًّا إِلَّا فَرَّجْتَهُ، وَلَا حَاجَةً هِيَ لَكَ رِضًا إِلَّا قَضَيْتَهَا، يَا أَرْحَمَ الرَّاحِمِينَ", "transliteration": "Lā ilāha illa'llāhu'l-Ḥalīmu'l-Karīm. Subḥāna'llāhi Rabbi'l-ʿArshi'l-ʿAẓīm. Al-ḥamdu li'llāhi Rabbi'l-ʿālamīn. Asʾaluka mūjibāti raḥmatik, wa ʿazāʾima maghfiratik, wa'l-ghanīmata min kulli birr, wa's-salāmata min kulli ithm. Lā tadaʿ lī dhanban illā ghafartah, wa lā hamman illā farrajtah, wa lā ḥājatan hiya laka riḍan illā qaḍaytahā, yā arḥama'r-rāḥimīn.", "translation": "اللہ کے سوا کوئی معبود نہیں، وہ بردبار اور کریم ہے۔ پاک ہے اللہ، عظیم عرش کا رب۔ ساری تعریف اللہ کے لیے، سارے جہانوں کا رب۔ میں تجھ سے وہ چیز مانگتا ہوں جو تیری رحمت کو واجب کر دے، اور وہ ارادہ جو تیری بخشش حاصل کرے، اور ہر بھلائی میں حصہ، اور ہر گناہ سے سلامتی۔ میرا کوئی گناہ نہ چھوڑ جسے تو بخش دے، کوئی غم نہ چھوڑ جسے تو دور کر دے، اور کوئی ایسی حاجت نہ چھوڑ جو تجھے پسند ہو اور تو پوری نہ کرے، اے رحم کرنے والوں میں سب سے رحم کرنے والے۔", "label": "دعائے حاجت — عبداللہ بن ابی اوفیٰ سے روایت" },
+      { "kind": "p", "text": "یہ الفاظ ترمذی اور ابن ماجہ میں ہیں۔ اِس کی سند میں ایک راوی ہے جسے بعض علماء نے ضعیف کہا، اِس لیے ترمذی اِسے حسن غریب کہتے ہیں اور دوسرے اُس پر بحث کرتے ہیں؛ پھر بھی مسلکوں میں اِس پر عمل رہا ہے، کیونکہ یہ دعا اور فضیلت کا معاملہ ہے، کسی حکم کا نہیں۔ جسے سند پر اطمینان نہ ہو وہ دو رکعتیں پڑھ کر اپنے الفاظ میں مانگ لے — نماز اور سوال دونوں ہر حال میں سنت ہیں۔" },
+      { "kind": "heading", "level": 2, "text": "نابینا صحابی کو سکھائی گئی دعا" },
+      { "kind": "p", "text": "ایک الگ روایت، عثمان بن حنیف سے، بتاتی ہے کہ ایک نابینا شخص نبی ﷺ کے پاس آیا اور کہا کہ میری نظر کے لیے دعا کریں۔ اُسے حکم ہوا کہ اچھی طرح وضو کرے، دو رکعتیں پڑھے، اور نیچے دی گئی دعا کہے۔ علماء اِس روایت کو صحیح کہتے ہیں، اور اِسے حاجت کے وقت نماز کے لیے بھی پیش کرتے ہیں اور نبی ﷺ کے وسیلے سے دعا کے لیے بھی۔" },
+      { "kind": "arabic", "text": "اللَّهُمَّ إِنِّي أَسْأَلُكَ وَأَتَوَجَّهُ إِلَيْكَ بِمُحَمَّدٍ نَبِيِّ الرَّحْمَةِ، يَا مُحَمَّدُ إِنِّي قَدْ تَوَجَّهْتُ بِكَ إِلَى رَبِّي فِي حَاجَتِي هَذِهِ لِتُقْضَى، اللَّهُمَّ فَشَفِّعْهُ فِيَّ", "transliteration": "Allāhumma innī asʾaluka wa atawajjahu ilayka bi-Muḥammadin nabiyyi'r-raḥmah. Yā Muḥammad, innī qad tawajjahtu bika ilā Rabbī fī ḥājatī hādhihi li-tuqḍā. Allāhumma fa-shaffiʿhu fiyy.", "translation": "اے اللہ! میں تجھ سے مانگتا ہوں اور تیری طرف محمد، نبیِ رحمت کے وسیلے سے رخ کرتا ہوں۔ اے محمد! میں نے تیرے وسیلے سے اپنے رب کی طرف اِس حاجت میں رخ کیا ہے تاکہ وہ پوری ہو۔ اے اللہ! میرے بارے میں اُن کی شفاعت قبول کر۔", "label": "نابینا صحابی کو سکھائی گئی دعا" },
+      { "kind": "p", "text": "اِن الفاظ میں اللہ سے نبی ﷺ کے ذریعے سوال ہے، اور علماء صدیوں سے اِس میں مختلف ہیں۔ جو نبی ﷺ کے وسیلے کو جائز مانتے ہیں وہ اِسے دلیل بناتے ہیں؛ جو اِن الفاظ کو آپ کی زندگی کے خاص مانتے ہیں وہ صرف دعا کرتے ہیں اور اللہ سے سیدھا مانگتے ہیں۔ جس بات میں اختلاف نہیں وہ یہ ہے کہ وسیلہ اُس سے مانگے جانے والے کا بدل نہیں — دعا پھر بھی اللہ ہی سے ہے، اور جواب صرف وہی دیتا ہے۔" },
+      { "kind": "heading", "level": 2, "text": "سوال کے آداب" },
+      { "kind": "list", "items": [
+        { "text": "اللہ کی تعریف اور نبی ﷺ پر درود سے شروع کرو۔ ایسی دعا قبول ہونے کے زیادہ قریب ہوتی ہے۔" },
+        { "text": "قبلے کی طرف منہ، ہاتھ اٹھا کر، یقین کے ساتھ مانگو — آزمائش کے طور پر نہیں۔" },
+        { "text": "حرام چیز نہ مانگو، اور نہ رشتے توڑنے کی دعا کرو۔" },
+        { "text": "بےصبر نہ ہو۔ جواب وہی چیز ہو سکتی ہے، یا دیر جو تمہارے لیے بہتر ہو، یا کوئی بلا جو ٹل جائے۔" },
+        { "text": "اسباب بھی اپنے ہاتھ میں رکھو۔ نماز کام، ڈاکٹر، یا مشکل بات چیت کی جگہ نہیں لیتی۔" }
+      ] },
+      { "kind": "verse", "surah": 2, "ayah": 186, "note": "جب میرے بندے میرے بارے میں پوچھیں — تو میں قریب ہوں۔ جب پکارنے والا پکارتا ہے، میں اُس کی پکار سنتا ہوں۔" },
+      { "kind": "verse", "surah": 40, "ayah": 60, "note": "تمہارے رب نے کہا: مجھے پکارو، میں تمہاری دعا قبول کروں گا۔" },
+      { "kind": "p", "text": "حاجت کی نماز کوئی ہینڈل نہیں ہے۔ یہ اقرار ہے کہ حاجت سچی ہے، کہ جس سے مانگا جا رہا ہے وہ حاجت سے بھی زیادہ قریب ہے، اور کہ جواب — جب بھی آئے، جس صورت میں بھی آئے — صحیح ہی ہوگا۔" }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "2:186" },
+    { "type": "hadith", "collection": "tirmidhi", "ref": "479", "grade": "hasan" },
+    { "type": "hadith", "collection": "tirmidhi", "ref": "3578", "grade": "sahih" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["concept-dua", "concept-tawakkul", "salah-nafl-prayers"]
+}

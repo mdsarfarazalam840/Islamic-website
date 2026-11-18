@@ -1,0 +1,126 @@
+{
+  "slug": "salah-salam",
+  "category": "salah",
+  "order": 8,
+  "title": {
+    "en": "Salām — the Greeting of Peace, and How to Reply",
+    "hi": "सलाम — अमन की दुआ, और उसका जवाब",
+    "ur": "سلام — امن کی دعا، اور اُس کا جواب"
+  },
+  "summary": {
+    "en": "As-salāmu ʿalaykum is a duʿāʾ, not a word for hello: the three lengths of the greeting, the exact wording of the reply, what to say to a distorted greeting, and the manners that go with it — with the verse and the narrations behind each point.",
+    "hi": "अस्सलामु अलैकुम हैलो नहीं, एक दुआ है: सलाम की तीन शक्लें, जवाब के ठीक अल्फ़ाज़, बिगड़े हुए सलाम का जवाब, और उसके आदाब — हर बात के साथ आयत और रिवायत के हवाले।",
+    "ur": "السلام علیکم ہیلو نہیں، ایک دعا ہے: سلام کی تین صورتیں، جواب کے ٹھیک الفاظ، بگڑے ہوئے سلام کا جواب، اور اُس کے آداب — ہر بات کے ساتھ آیت اور روایت کے حوالے۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Salām is not a word for hello. As-salāmu ʿalaykum means \"peace be upon you\" — a duʿāʾ, a prayer said over the person in front of you before anything else is discussed. It is the first thing a Muslim hears when a child is born and the last words of every prayer; the worship that ends with the salām begins again with it in the street." },
+      { "kind": "verse", "surah": 4, "ayah": 86, "note": "When you are greeted with a greeting, greet with one better than it, or return the same. Surely Allah takes account of all things." },
+      { "kind": "heading", "level": 2, "text": "The words of the greeting" },
+      { "kind": "p", "text": "The greeting has three lengths, and each addition is a further prayer rather than a longer word: as-salāmu ʿalaykum; as-salāmu ʿalaykum wa raḥmatullāh; and the fullest form below. Nothing beyond this is established — \"wa maghfiratuhu\" appears in some narrations, but the scholars of hadith did not accept it as sound." },
+      { "kind": "arabic", "text": "السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ", "transliteration": "As-salāmu ʿalaykum wa raḥmatu'llāhi wa barakātuh.", "translation": "Peace be upon you, and the mercy of Allah, and His blessings.", "label": "The fullest form of the salām" },
+      { "kind": "hadith", "collection": "abudawud", "hadith": 5195, "note": "A man greeted the Prophet ﷺ and sat down; he said \"Ten.\" Another greeted with mercy added; he said \"Twenty.\" Another gave all three; he said \"Thirty.\" — the reward grows with the words." },
+      { "kind": "heading", "level": 2, "text": "How to reply" },
+      { "kind": "p", "text": "Replying is an obligation, not a courtesy — and the reply begins with wa, \"and\": wa ʿalaykum as-salām, \"and upon you be peace.\" Returning as-salāmu ʿalaykum as it was given is accepted by most scholars, but it loses the point of the answer, which is to place yourself inside the prayer the other person made for you." },
+      { "kind": "arabic", "text": "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ", "transliteration": "Wa ʿalaykumu's-salāmu wa raḥmatu'llāhi wa barakātuh.", "translation": "And upon you be peace, and the mercy of Allah, and His blessings.", "label": "The reply to the full greeting" },
+      { "kind": "p", "text": "The rule of the verse is simple: equal is enough, better is better. Someone who says only as-salāmu ʿalaykum should be answered with wa ʿalaykum as-salām wa raḥmatullāh; someone who gives all three should be answered with all three. In a group, one person's reply discharges the rest, though each reply carries its own reward." },
+      { "kind": "heading", "level": 2, "text": "Who greets whom" },
+      { "kind": "list", "items": [
+        { "text": "Greet those you know and those you do not — the greeting is not reserved for friends." },
+        { "text": "The one who greets first is the nearer of the two to Allah." },
+        { "text": "Greet children. The Prophet ﷺ passed a group of boys and greeted them." },
+        { "text": "On entering your own home, say as-salāmu ʿalaykum — the salām belongs to the household, not only to guests." },
+        { "text": "Greet before you speak. A handshake or an embrace comes after the words; it does not replace them." }
+      ] },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 6236, "note": "A man asked which traits of Islam are best. The Prophet ﷺ said: feed people, and greet those whom you know and those whom you do not." },
+      { "kind": "verse", "surah": 24, "ayah": 61, "note": "When you enter houses, greet one another with a greeting from Allah, blessed and good." },
+      { "kind": "heading", "level": 2, "text": "With people of other faiths" },
+      { "kind": "p", "text": "The Prophet ﷺ told the Companions that when the People of the Book greet with words that twist the salām into something else, the answer is simply wa ʿalaykum — \"and upon you.\" On beginning the greeting with a non-Muslim, the majority of scholars hold that it should not be done; a number of later scholars allowed it where there is a need or a close neighbour. What is not differed over is that a hostile greeting is never answered with more than its like." },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 6257, "note": "When they say \"as-sāmu ʿalaykum\" — death be upon you — answer only \"wa ʿalaykum\" — and upon you." },
+      { "kind": "heading", "level": 2, "text": "Manners that complete it" },
+      { "kind": "list", "items": [
+        { "text": "Say it clearly enough to be heard. A closed mouth with a raised hand is a gesture, not a salām." },
+        { "text": "Do not bow or touch the forehead to the ground when greeting — the salām is words, and prostration belongs to Allah alone." },
+        { "text": "Answer while facing the person; a reply thrown over the shoulder is not an answer." },
+        { "text": "If a letter or message carries the salām, answer it in your heart or aloud: wa ʿalayka's-salām." },
+        { "text": "Repeat the greeting when you part, and when you meet again after a time. Salām is not used once per person for life." }
+      ] },
+      { "kind": "p", "text": "Salām is the practice of a people who have nothing to prove to one another: the same words for the stranger and the friend, the child and the imām. Give it first, and the day begins with a prayer said over someone else." }
+    ],
+    "hi": [
+      { "kind": "p", "text": "सलाम कोई हैलो नहीं है। अस्सलामु अलैकुम का मतलब है \"तुम पर सलामती हो\" — यह एक दुआ है, जो बात शुरू होने से पहले सामने वाले के लिए की जाती है। यही पहला लफ़्ज़ है जो एक बच्चे के पैदा होने पर सुनाई जाता है, और हर नमाज़ का आख़िरी लफ़्ज़ भी; जो इबादत सलाम पर ख़त्म होती है, वह सड़क पर फिर शुरू हो जाती है।" },
+      { "kind": "verse", "surah": 4, "ayah": 86, "note": "जब तुम्हें कोई सलाम कहे तो उससे बेहतर सलाम लौटाओ, या वही दोहरा दो। बेशक अल्लाह हर चीज़ का हिसाब रखता है।" },
+      { "kind": "heading", "level": 2, "text": "सलाम के अल्फ़ाज़" },
+      { "kind": "p", "text": "सलाम की तीन शक्लें हैं, और हर इज़ाफ़ा लंबा लफ़्ज़ नहीं, एक और दुआ है: अस्सलामु अलैकुम; अस्सलामु अलैकुम व रहमतुल्लाह; और नीचे दी गई सबसे पूरी शक्ल। इससे आगे कुछ साबित नहीं — \"व मग़फ़िरतहु\" कुछ रिवायात में है, मगर मुहद्दिसीन ने उसे सही नहीं माना।" },
+      { "kind": "arabic", "text": "السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ", "transliteration": "As-salāmu ʿalaykum wa raḥmatu'llāhi wa barakātuh.", "translation": "तुम पर सलामती हो, और अल्लाह की रहमत, और उसकी बरकतें।", "label": "सलाम की सबसे पूरी शक्ल" },
+      { "kind": "hadith", "collection": "abudawud", "hadith": 5195, "note": "एक शख़्स ने नबी ﷺ को सलाम किया और बैठ गया; आप ने फ़रमाया \"दस।\" दूसरे ने रहमत बढ़ाकर सलाम किया; फ़रमाया \"बीस।\" तीसरे ने तीनों अल्फ़ाज़ कहे; फ़रमाया \"तीस।\" — नेकी अल्फ़ाज़ के साथ बढ़ती है।" },
+      { "kind": "heading", "level": 2, "text": "जवाब कैसे दें" },
+      { "kind": "p", "text": "जवाब देना फ़र्ज़ है, महज़ शिष्टाचार नहीं — और जवाब \"व\" से शुरू होता है: व अलैकुमुस-सलाम, यानी \"और तुम पर भी सलामती हो।\" जैसा सलाम मिला था वैसा ही लौटा देना भी अक्सर उलेमा के नज़दीक चल जाता है, मगर उसमें जवाब का असल मक़सद — ख़ुद को उस दुआ में शामिल करना — खो जाता है।" },
+      { "kind": "arabic", "text": "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ", "transliteration": "Wa ʿalaykumu's-salāmu wa raḥmatu'llāhi wa barakātuh.", "translation": "और तुम पर भी सलामती हो, और अल्लाह की रहमत, और उसकी बरकतें।", "label": "पूरे सलाम का जवाब" },
+      { "kind": "p", "text": "आयत का क़ायदा सीधा है: बराबर काफ़ी है, बेहतर और भी बेहतर। जो सिर्फ़ \"अस्सलामु अलैकुम\" कहे उसे \"व अलैकुमुस-सलाम व रहमतुल्लाह\" कहना चाहिए; जो तीनों अल्फ़ाज़ कहे उसे तीनों का जवाब दो। जमाअत में एक शख़्स का जवाब सबकी तरफ़ से काफ़ी हो जाता है, मगर हर जवाब की अपनी नेकी है।" },
+      { "kind": "heading", "level": 2, "text": "कौन सलाम करे" },
+      { "kind": "list", "items": [
+        { "text": "जान-पहचान वालों को भी और अजनबियों को भी सलाम करो — सलाम सिर्फ़ अपनों के लिए नहीं।" },
+        { "text": "जो पहले सलाम करे, वह दोनों में अल्लाह के ज़्यादा क़रीब है।" },
+        { "text": "बच्चों को सलाम करो। नबी ﷺ बच्चों की एक जमाअत के पास से गुज़रे और उन्हें सलाम किया।" },
+        { "text": "अपने घर में दाख़िल होते वक़्त \"अस्सलामु अलैकुम\" कहो — सलाम घरवालों का हक़ है, सिर्फ़ मेहमानों का नहीं।" },
+        { "text": "बात से पहले सलाम करो। हाथ मिलाना या गले लगना सलाम के बाद है, उसकी जगह नहीं।" }
+      ] },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 6236, "note": "किसी ने पूछा कि इस्लाम में सबसे अच्छा काम क्या है। नबी ﷺ ने फ़रमाया: लोगों को खाना खिलाओ, और जानने वाले और न जानने वाले, सबको सलाम करो।" },
+      { "kind": "verse", "surah": 24, "ayah": 61, "note": "जब घरों में दाख़िल हो तो एक-दूसरे को अल्लाह की तरफ़ से बरकत भरी पाक सलाम कहो।" },
+      { "kind": "heading", "level": 2, "text": "दूसरे मज़हब के लोगों के साथ" },
+      { "kind": "p", "text": "नबी ﷺ ने सहाबा को बताया कि अहले-किताब जब सलाम के अल्फ़ाज़ बिगाड़कर कुछ और कहें, तो जवाब सिर्फ़ \"व अलैकुम\" है — \"और तुम पर।\" ग़ैर-मुस्लिम को पहले सलाम करने के बारे में जुम्हूर उलेमा कहते हैं कि ऐसा न किया जाए; बाद के कई उलेमा ने ज़रूरत या पड़ोस के हक़ में इजाज़त दी है। जिस बात में इख़्तिलाफ़ नहीं, वह यह है कि बुरा सलाम कभी उससे बढ़कर जवाब का हक़दार नहीं।" },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 6257, "note": "जब वे \"अस्सामु अलैकुम\" कहें — यानी मौत तुम पर — तो सिर्फ़ \"व अलैकुम\" कहो — और तुम पर।" },
+      { "kind": "heading", "level": 2, "text": "सलाम को पूरा करने वाले आदाब" },
+      { "kind": "list", "items": [
+        { "text": "सलाम सुनाई देने लायक़ कहो। चुप मुँह और उठा हुआ हाथ सलाम नहीं, इशारा है।" },
+        { "text": "सलाम करते वक़्त झुकना या माथा ज़मीन पर रखना जायज़ नहीं — सलाम ज़बान का है, और सजदा सिर्फ़ अल्लाह का।" },
+        { "text": "जवाब देते वक़्त सामने वाले की तरफ़ देखो; कंधे के पीछे से दिया जवाब जवाब नहीं है।" },
+        { "text": "अगर ख़त या पैग़ाम में सलाम आया हो तो दिल में या ज़बान से जवाब दो: व अलैकस-सलाम।" },
+        { "text": "जुदा होते वक़्त, और लंबे अरसे बाद मिलने पर सलाम दोहराओ। सलाम ज़िंदगी में एक बार का काम नहीं।" }
+      ] },
+      { "kind": "p", "text": "सलाम उन लोगों का तरीक़ा है जिन्हें एक-दूसरे पर कोई रोब जताना नहीं है: अजनबी और दोस्त, बच्चे और इमाम, सबके लिए वही अल्फ़ाज़। पहले सलाम करो, और दिन किसी और के लिए की गई दुआ से शुरू हो जाता है।" }
+    ],
+    "ur": [
+      { "kind": "p", "text": "سلام کوئی ہیلو نہیں۔ ”السلام علیکم“ کا مطلب ہے ”تم پر سلامتی ہو“ — یہ ایک دعا ہے، جو بات شروع ہونے سے پہلے سامنے والے کے لیے کی جاتی ہے۔ یہی پہلا لفظ ہے جو بچے کی پیدائش پر سنایا جاتا ہے، اور ہر نماز کا آخری لفظ بھی؛ جو عبادت سلام پر ختم ہوتی ہے، وہی گلی میں پھر شروع ہو جاتی ہے۔" },
+      { "kind": "verse", "surah": 4, "ayah": 86, "note": "جب تمہیں کوئی سلام کہے تو اُس سے بہتر سلام لوٹاؤ، یا وہی دہرا دو۔ بیشک اللہ ہر چیز کا حساب رکھتا ہے۔" },
+      { "kind": "heading", "level": 2, "text": "سلام کے الفاظ" },
+      { "kind": "p", "text": "سلام کی تین صورتیں ہیں، اور ہر اضافہ لمبا لفظ نہیں، ایک اور دعا ہے: السلام علیکم؛ السلام علیکم ورحمۃ اللہ؛ اور نیچے دی گئی سب سے پوری صورت۔ اِس سے آگے کچھ ثابت نہیں — ”و مغفرتہ“ بعض روایات میں ہے، مگر محدثین نے اُسے صحیح نہیں مانا۔" },
+      { "kind": "arabic", "text": "السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ", "transliteration": "As-salāmu ʿalaykum wa raḥmatu'llāhi wa barakātuh.", "translation": "تم پر سلامتی ہو، اور اللہ کی رحمت، اور اُس کی برکتیں۔", "label": "سلام کی سب سے پوری صورت" },
+      { "kind": "hadith", "collection": "abudawud", "hadith": 5195, "note": "ایک شخص نے نبی ﷺ کو سلام کیا اور بیٹھ گیا؛ آپ نے فرمایا ”دس۔“ دوسرے نے رحمت بڑھا کر سلام کیا؛ فرمایا ”بیس۔“ تیسرے نے تینوں الفاظ کہے؛ فرمایا ”تیس۔“ — نیکی الفاظ کے ساتھ بڑھتی ہے۔" },
+      { "kind": "heading", "level": 2, "text": "جواب کیسے دیں" },
+      { "kind": "p", "text": "جواب دینا فرض ہے، محض شائستگی نہیں — اور جواب ”و“ سے شروع ہوتا ہے: وعلیکم السلام، یعنی ”اور تم پر بھی سلامتی ہو۔“ جیسا سلام ملا تھا ویسا ہی لوٹا دینا بھی اکثر علماء کے نزدیک چل جاتا ہے، مگر اُس میں جواب کا اصل مقصد — خود کو اُس دعا میں شامل کرنا — کھو جاتا ہے۔" },
+      { "kind": "arabic", "text": "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ", "transliteration": "Wa ʿalaykumu's-salāmu wa raḥmatu'llāhi wa barakātuh.", "translation": "اور تم پر بھی سلامتی ہو، اور اللہ کی رحمت، اور اُس کی برکتیں۔", "label": "پورے سلام کا جواب" },
+      { "kind": "p", "text": "آیت کا قاعدہ سیدھا ہے: برابر کافی ہے، بہتر اور بھی بہتر۔ جو صرف ”السلام علیکم“ کہے اُسے ”وعلیکم السلام ورحمۃ اللہ“ کہنا چاہیے؛ جو تینوں الفاظ کہے اُسے تینوں کا جواب دو۔ جماعت میں ایک شخص کا جواب سب کی طرف سے کافی ہو جاتا ہے، مگر ہر جواب کی اپنی نیکی ہے۔" },
+      { "kind": "heading", "level": 2, "text": "کون سلام کرے" },
+      { "kind": "list", "items": [
+        { "text": "جاننے والوں کو بھی اور اجنبیوں کو بھی سلام کرو — سلام صرف اپنوں کے لیے نہیں۔" },
+        { "text": "جو پہلے سلام کرے، وہ دونوں میں اللہ کے زیادہ قریب ہے۔" },
+        { "text": "بچوں کو سلام کرو۔ نبی ﷺ بچوں کی ایک جماعت کے پاس سے گزرے اور اُنہیں سلام کیا۔" },
+        { "text": "اپنے گھر میں داخل ہوتے وقت ”السلام علیکم“ کہو — سلام گھر والوں کا حق ہے، صرف مہمانوں کا نہیں۔" },
+        { "text": "بات سے پہلے سلام کرو۔ ہاتھ ملانا یا گلے لگانا سلام کے بعد ہے، اُس کی جگہ نہیں۔" }
+      ] },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 6236, "note": "کسی نے پوچھا کہ اسلام میں سب سے اچھا کام کیا ہے۔ نبی ﷺ نے فرمایا: لوگوں کو کھانا کھلاؤ، اور جاننے والے اور نہ جاننے والے سب کو سلام کرو۔" },
+      { "kind": "verse", "surah": 24, "ayah": 61, "note": "جب گھروں میں داخل ہو تو ایک دوسرے کو اللہ کی طرف سے برکت بھرا پاک سلام کہو۔" },
+      { "kind": "heading", "level": 2, "text": "دوسرے مذاہب کے لوگوں کے ساتھ" },
+      { "kind": "p", "text": "نبی ﷺ نے صحابہ کو بتایا کہ اہلِ کتاب جب سلام کے الفاظ بگاڑ کر کچھ اور کہیں، تو جواب صرف ”وعلیکم“ ہے — ”اور تم پر۔“ غیر مسلم کو پہلے سلام کرنے کے بارے میں جمہور علماء کہتے ہیں ایسا نہ کیا جائے؛ بعد کے کئی علماء نے ضرورت یا پڑوس کے حق میں اجازت دی ہے۔ جس بات میں اختلاف نہیں وہ یہ ہے کہ بُرا سلام کبھی اُس سے بڑھ کر جواب کا حق دار نہیں۔" },
+      { "kind": "hadith", "collection": "bukhari", "hadith": 6257, "note": "جب وہ ”السام علیکم“ کہیں — یعنی موت تم پر — تو صرف ”وعلیکم“ کہو — اور تم پر۔" },
+      { "kind": "heading", "level": 2, "text": "سلام کو مکمل کرنے والے آداب" },
+      { "kind": "list", "items": [
+        { "text": "سلام سنائی دینے کے لائق کہو۔ خاموش منہ اور اٹھا ہوا ہاتھ سلام نہیں، اشارہ ہے۔" },
+        { "text": "سلام کرتے وقت جھکنا یا ماتھا زمین پر رکھنا جائز نہیں — سلام زبان کا ہے، اور سجدہ صرف اللہ کا۔" },
+        { "text": "جواب دیتے وقت سامنے والے کی طرف دیکھو؛ کندھے کے پیچھے سے دیا جواب جواب نہیں ہے۔" },
+        { "text": "اگر خط یا پیغام میں سلام آیا ہو تو دل میں یا زبان سے جواب دو: وعلیک السلام۔" },
+        { "text": "جدا ہوتے وقت، اور لمبے عرصے بعد ملنے پر سلام دہراؤ۔ سلام زندگی میں ایک بار کا کام نہیں۔" }
+      ] },
+      { "kind": "p", "text": "سلام اُن لوگوں کا طریقہ ہے جنہیں ایک دوسرے پر کوئی رعب جتانا نہیں ہے: اجنبی اور دوست، بچے اور امام، سب کے لیے وہی الفاظ۔ پہلے سلام کرو، اور دن کسی اور کے لیے کی گئی دعا سے شروع ہو جاتا ہے۔" }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "4:86" },
+    { "type": "hadith", "collection": "bukhari", "ref": "6236", "grade": "sahih" },
+    { "type": "hadith", "collection": "abudawud", "ref": "5195", "grade": "sahih" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["salah-what-to-recite", "basics-how-to-pray", "salah-five-daily-prayers"]
+}

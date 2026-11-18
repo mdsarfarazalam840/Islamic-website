@@ -1,0 +1,96 @@
+{
+  "slug": "salah-shukr",
+  "category": "salah",
+  "order": 10,
+  "title": {
+    "en": "Ṣalāt al-Shukr — Shukrānā Namāz, the Prayer of Gratitude",
+    "hi": "सलातुश-शुक्र — शुकराना नमाज़",
+    "ur": "صلاۃ الشکر — شکرانہ نماز"
+  },
+  "summary": {
+    "en": "How a Muslim thanks Allah with the body: the two rakʿahs offered when a blessing arrives or a harm is averted, the single prostration of gratitude, what is said in it, and the occasions the Sunnah names — with references.",
+    "hi": "एक मुसलमान जिस्म से अल्लाह का शुक्र कैसे करता है: नेमत मिलने या बला टलने पर दो रकअतें, शुक्र का एक सजदा, उसमें क्या कहा जाए, और सुन्नत में बताए गए मौक़े — हवालों के साथ।",
+    "ur": "ایک مسلمان جسم سے اللہ کا شکر کیسے کرتا ہے: نعمت ملنے یا بلا ٹلنے پر دو رکعتیں، شکر کا ایک سجدہ، اُس میں کیا کہا جائے، اور سنت میں بتائے گئے موقعے — حوالوں کے ساتھ۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Shukr is not a sentence said after a favour. It is the heart recognising that the favour was never owed, the tongue naming the One who gave it, and the limbs being used in the purpose they were given for. The prayer of gratitude is the third of these turned into worship: the body saying thank you." },
+      { "kind": "verse", "surah": 14, "ayah": 7, "note": "Your Lord proclaimed: if you are grateful, I will surely give you more; but if you are ungrateful, My punishment is severe." },
+      { "kind": "heading", "level": 2, "text": "Shukrānā namāz — two rakʿahs of thanks" },
+      { "kind": "p", "text": "When a blessing arrives — a child, a recovery, a safe return, a need met — or a harm passes you by, the practice is to pray two rakʿahs and then thank Allah. The Ḥanafī fuqahāʾ consider the two rakʿahs the better way to express gratitude, more complete than a single prostration. No particular surah is fixed, it is prayed alone, and it is nafl: nothing is owed if it is left, which is exactly what makes it a gift rather than a debt." },
+      { "kind": "hadith", "collection": "tirmidhi", "hadith": 1578, "note": "When something pleased the Prophet ﷺ, or good news reached him, he would prostrate to Allah in gratitude." },
+      { "kind": "heading", "level": 2, "text": "Sajdah al-shukr — one prostration" },
+      { "kind": "p", "text": "The other form is a single prostration outside the prayer: no takbīr to open it and none to close it, no tashahhud, no salām. The schools differ over it. Imām Abū Ḥanīfah did not treat it as an established act and held that leaving it is better; his two companions, and the Shāfiʿī and Ḥanbalī schools, hold it to be a rewardable virtue. Those who perform it do so as gratitude, not as an obligation, and many scholars hold that purity and a covered body are not conditions, because it is not prayer." },
+      { "kind": "verse", "surah": 27, "ayah": 19, "note": "Sulaymān smiled at her words and said: My Lord, enable me to be grateful for the favour You have bestowed on me and on my parents, and to do good that pleases You." },
+      { "kind": "heading", "level": 2, "text": "What is said in it" },
+      { "kind": "arabic", "text": "سُبْحَانَ رَبِّيَ الْأَعْلَى، اللَّهُمَّ لَكَ سَجَدْتُ وَبِكَ آمَنْتُ وَلَكَ أَسْلَمْتُ، سَجَدَ وَجْهِيَ لِلَّذِي خَلَقَهُ وَصَوَّرَهُ وَشَقَّ سَمْعَهُ وَبَصَرَهُ، تَبَارَكَ اللَّهُ أَحْسَنُ الْخَالِقِينَ", "transliteration": "Subḥāna Rabbiya'l-Aʿlā. Allāhumma laka sajadtu wa bika āmant, wa laka aslamt, sajada wajhiya li'lladhī khalaqahu wa ṣawwarahu wa shaqqa samʿahu wa baṣarahu, tabāraka'llāhu aḥsanu'l-khāliqīn.", "translation": "Glory be to my Lord, the Most High. O Allah, to You I have prostrated, in You I believe, and to You I submit. My face has prostrated to the One who created it, shaped it, and gave it hearing and sight. Blessed is Allah, the best of creators.", "label": "The tasbīḥ of prostration, with which gratitude is expressed" },
+      { "kind": "p", "text": "No specific duʿāʾ is narrated for this prostration, so the scholars recommend the ordinary tasbīḥ of sujūd with words of thanks added — or simply al-ḥamdu lillāh, said with a present heart. Long formulas are not the measure here; the measure is that the person knows, while their forehead is on the ground, what they are being given." },
+      { "kind": "heading", "level": 2, "text": "Occasions worth a prayer" },
+      { "kind": "list", "items": [
+        { "text": "On receiving good news, before telling anyone else." },
+        { "text": "On recovering from illness, or on hearing that another has recovered." },
+        { "text": "On returning safely from a journey — the Prophet ﷺ would say the takbīr on every high ground on the way back." },
+        { "text": "On the birth of a child, or the completion of a marriage." },
+        { "text": "On a calamity that passed you by, or came lighter than it might have." },
+        { "text": "And daily, for the five prayers themselves — the greatest of the visible blessings is being able to stand in them." }
+      ] },
+      { "kind": "verse", "surah": 2, "ayah": 152, "note": "Remember Me and I will remember you; be grateful to Me, and do not deny My favour." },
+      { "kind": "p", "text": "Gratitude is measured less by how loudly it is said than by what happens next. Allah's promise is stated in the plainest terms: more. The one who thanks with the limbs keeps them busy in obedience, and the two rakʿahs of thanks are the shortest road between a blessing received and a blessing increased." }
+    ],
+    "hi": [
+      { "kind": "p", "text": "शुक्र कोई जुमला नहीं जो नेमत के बाद कह दिया जाए। शुक्र यह है कि दिल माने कि यह नेमत किसी हक़ में नहीं थी, ज़बान उसका नाम ले जिसने दी, और जिस्म उसी काम में लगे जिसके लिए वह मिला। शुक्र की नमाज़ इनमें से तीसरी बात को इबादत बना देती है: जिस्म का शुक्रिया।" },
+      { "kind": "verse", "surah": 14, "ayah": 7, "note": "तुम्हारे रब ने ऐलान किया: अगर शुक्र करोगे तो मैं तुम्हें और दूँगा; और अगर नाशुक्री करोगे तो मेरा अज़ाब सख़्त है।" },
+      { "kind": "heading", "level": 2, "text": "शुकराना नमाज़ — शुक्र की दो रकअतें" },
+      { "kind": "p", "text": "जब कोई नेमत मिले — औलाद, शिफ़ा, सफ़र से सही सलामत वापसी, कोई हाजत पूरी होना — या कोई बला टल जाए, तो दो रकअतें पढ़कर अल्लाह का शुक्र करना सुन्नत है। हनफ़ी फ़ुक़हा दो रकअतों को शुक्र ज़ाहिर करने का बेहतर तरीक़ा मानते हैं, एक सजदे से ज़्यादा पूरा। कोई ख़ास सूरह मुक़र्रर नहीं, अकेले पढ़ी जाती है, और नफ़्ल है: छोड़ देने पर कुछ लाज़िम नहीं — और यही इसे क़र्ज़ के बजाय तोहफ़ा बनाता है।" },
+      { "kind": "hadith", "collection": "tirmidhi", "hadith": 1578, "note": "जब नबी ﷺ को कोई बात ख़ुश कर देती, या कोई ख़ुशख़बरी पहुँचती, तो आप अल्लाह के लिए सजदा करते।" },
+      { "kind": "heading", "level": 2, "text": "सज्दा-ए-शुक्र — एक सजदा" },
+      { "kind": "p", "text": "दूसरी शक्ल नमाज़ के बाहर एक अकेला सजदा है: न शुरू में तकबीर, न आख़िर में, न तशहुद, न सलाम। मसलकों में इख़्तिलाफ़ है। इमाम अबू हनीफ़ा ने इसे साबित अमल नहीं माना और छोड़ देने को बेहतर कहा; उनके दो साथी, और शाफ़ई और हंबली मसलक, इसे सवाब का काम मानते हैं। जो इसे करते हैं वे शुक्र के तौर पर करते हैं, फ़र्ज़ के तौर पर नहीं, और कई उलेमा के नज़दीक इसमें पाकी और सतर शर्त नहीं, क्योंकि यह नमाज़ नहीं।" },
+      { "kind": "verse", "surah": 27, "ayah": 19, "note": "सुलैमान उसकी बात पर मुस्कुराए और कहा: ऐ मेरे रब! मुझे तौफ़ीक़ दे कि उस नेमत का शुक्र करूँ जो तूने मुझ पर और मेरे वालिदैन पर की, और वह नेकी करूँ जो तुझे पसंद हो।" },
+      { "kind": "heading", "level": 2, "text": "इसमें क्या कहा जाए" },
+      { "kind": "arabic", "text": "سُبْحَانَ رَبِّيَ الْأَعْلَى، اللَّهُمَّ لَكَ سَجَدْتُ وَبِكَ آمَنْتُ وَلَكَ أَسْلَمْتُ، سَجَدَ وَجْهِيَ لِلَّذِي خَلَقَهُ وَصَوَّرَهُ وَشَقَّ سَمْعَهُ وَبَصَرَهُ، تَبَارَكَ اللَّهُ أَحْسَنُ الْخَالِقِينَ", "transliteration": "Subḥāna Rabbiya'l-Aʿlā. Allāhumma laka sajadtu wa bika āmant, wa laka aslamt, sajada wajhiya li'lladhī khalaqahu wa ṣawwarahu wa shaqqa samʿahu wa baṣarahu, tabāraka'llāhu aḥsanu'l-khāliqīn.", "translation": "पाक है मेरा रब, सब से बुलंद। ऐ अल्लाह! मैंने तेरे लिए सजदा किया, तुझ पर ईमान लाया, और तेरे ही सुपुर्द हुआ। मेरा चेहरा उसके लिए सजदे में गया जिसने उसे पैदा किया, शक्ल दी, और सुनना और देखना बख़्शा। बरकत वाला है अल्लाह, सब से बेहतर पैदा करने वाला।", "label": "सजदे की तस्बीह, जिससे शुक्र ज़ाहिर किया जाता है" },
+      { "kind": "p", "text": "इस सजदे के लिए कोई ख़ास दुआ रिवायत में नहीं है, इसलिए उलेमा आम सजदे की तस्बीह के साथ शुक्र के अल्फ़ाज़ बढ़ाने की सलाह देते हैं — या सिर्फ़ \"अलहम्दु लिल्लाह\" हाज़िर दिल से। यहाँ लंबी दुआ मेयार नहीं; मेयार यह है कि माथा ज़मीन पर हो और बंदा जानता हो कि उसे क्या मिला है।" },
+      { "kind": "heading", "level": 2, "text": "किन मौक़ों पर पढ़ें" },
+      { "kind": "list", "items": [
+        { "text": "कोई ख़ुशख़बरी मिलने पर, किसी और को बताने से पहले।" },
+        { "text": "बीमारी से शिफ़ा मिलने पर, या किसी और के शिफ़ा की ख़बर पर।" },
+        { "text": "सफ़र से सही सलामत लौटने पर — नबी ﷺ वापसी में हर ऊँची ज़मीन पर तकबीर कहते थे।" },
+        { "text": "औलाद की पैदाइश पर, या निकाह पूरा होने पर।" },
+        { "text": "कोई बला टल जाने पर, या उम्मीद से हल्की गुज़र जाने पर।" },
+        { "text": "और रोज़ — पाँच नमाज़ों के लिए ही, क्योंकि ज़ाहिरी नेमतों में सबसे बड़ी यह है कि बंदा उनमें खड़ा हो सके।" }
+      ] },
+      { "kind": "verse", "surah": 2, "ayah": 152, "note": "मुझे याद रखो, मैं तुम्हें याद रखूँगा; मेरा शुक्र करो और नाशुक्री न करो।" },
+      { "kind": "p", "text": "शुक्र कितनी ऊँची आवाज़ में कहा गया, इससे कम और आगे क्या होता है, इससे ज़्यादा नापा जाता है। अल्लाह का वादा सब से साफ़ अल्फ़ाज़ में है: और ज़्यादा। जो जिस्म से शुक्र करता है वह उसे इताअत में लगाए रखता है, और शुक्र की दो रकअतें नेमत मिलने और नेमत बढ़ने के बीच का सबसे छोटा रास्ता हैं।" }
+    ],
+    "ur": [
+      { "kind": "p", "text": "شکر کوئی جملہ نہیں جو نعمت کے بعد کہہ دیا جائے۔ شکر یہ ہے کہ دل مانے کہ یہ نعمت کسی حق میں نہیں تھی، زبان اُس کا نام لے جس نے دی، اور جسم اُسی کام میں لگے جس کے لیے وہ ملا۔ شکر کی نماز اِن میں سے تیسری بات کو عبادت بنا دیتی ہے: جسم کا شکریہ۔" },
+      { "kind": "verse", "surah": 14, "ayah": 7, "note": "تمہارے رب نے اعلان کیا: اگر شکر کرو گے تو میں تمہیں اور دوں گا؛ اور اگر ناشکری کرو گے تو میرا عذاب سخت ہے۔" },
+      { "kind": "heading", "level": 2, "text": "شکرانہ نماز — شکر کی دو رکعتیں" },
+      { "kind": "p", "text": "جب کوئی نعمت ملے — اولاد، شفا، سفر سے صحیح سلامت واپسی، کوئی حاجت پوری ہونا — یا کوئی بلا ٹل جائے، تو دو رکعتیں پڑھ کر اللہ کا شکر کرنا سنت ہے۔ حنفی فقہاء دو رکعتوں کو شکر ظاہر کرنے کا بہتر طریقہ مانتے ہیں، ایک سجدے سے زیادہ مکمل۔ کوئی خاص سورت مقرر نہیں، اکیلے پڑھی جاتی ہے، اور نفل ہے: چھوڑ دینے پر کچھ لازم نہیں — اور یہی اِسے قرض کے بجائے تحفہ بناتا ہے۔" },
+      { "kind": "hadith", "collection": "tirmidhi", "hadith": 1578, "note": "جب نبی ﷺ کو کوئی بات خوش کر دیتی، یا کوئی خوشخبری پہنچتی، تو آپ اللہ کے لیے سجدہ کرتے۔" },
+      { "kind": "heading", "level": 2, "text": "سجدۂ شکر — ایک سجدہ" },
+      { "kind": "p", "text": "دوسری صورت نماز کے باہر ایک اکیلا سجدہ ہے: نہ شروع میں تکبیر، نہ آخر میں، نہ تشہد، نہ سلام۔ مسلکوں میں اختلاف ہے۔ امام ابو حنیفہ نے اِسے ثابت عمل نہیں مانا اور چھوڑ دینے کو بہتر کہا؛ اُن کے دو ساتھی، اور شافعی و حنبلی مسلک، اِسے ثواب کا کام مانتے ہیں۔ جو اِسے کرتے ہیں وہ شکر کے طور پر کرتے ہیں، فرض کے طور پر نہیں، اور کئی علماء کے نزدیک اِس میں پاکی اور ستر شرط نہیں، کیونکہ یہ نماز نہیں۔" },
+      { "kind": "verse", "surah": 27, "ayah": 19, "note": "سلیمان اُس کی بات پر مسکرائے اور کہا: اے میرے رب! مجھے توفیق دے کہ اُس نعمت کا شکر کروں جو تو نے مجھ پر اور میرے والدین پر کی، اور وہ نیکی کروں جو تجھے پسند ہو۔" },
+      { "kind": "heading", "level": 2, "text": "اِس میں کیا کہا جائے" },
+      { "kind": "arabic", "text": "سُبْحَانَ رَبِّيَ الْأَعْلَى، اللَّهُمَّ لَكَ سَجَدْتُ وَبِكَ آمَنْتُ وَلَكَ أَسْلَمْتُ، سَجَدَ وَجْهِيَ لِلَّذِي خَلَقَهُ وَصَوَّرَهُ وَشَقَّ سَمْعَهُ وَبَصَرَهُ، تَبَارَكَ اللَّهُ أَحْسَنُ الْخَالِقِينَ", "transliteration": "Subḥāna Rabbiya'l-Aʿlā. Allāhumma laka sajadtu wa bika āmant, wa laka aslamt, sajada wajhiya li'lladhī khalaqahu wa ṣawwarahu wa shaqqa samʿahu wa baṣarahu, tabāraka'llāhu aḥsanu'l-khāliqīn.", "translation": "پاک ہے میرا رب، سب سے بلند۔ اے اللہ! میں نے تیرے لیے سجدہ کیا، تجھ پر ایمان لایا، اور تیرے ہی سپرد ہوا۔ میرا چہرہ اُس کے لیے سجدے میں گیا جس نے اُسے پیدا کیا، صورت دی، اور سننا اور دیکھنا بخشا۔ برکت والا ہے اللہ، سب سے بہتر پیدا کرنے والا۔", "label": "سجدے کی تسبیح، جس سے شکر ظاہر کیا جاتا ہے" },
+      { "kind": "p", "text": "اِس سجدے کے لیے کوئی خاص دعا روایت میں نہیں ہے، اِس لیے علماء عام سجدے کی تسبیح کے ساتھ شکر کے الفاظ بڑھانے کی نصیحت کرتے ہیں — یا صرف ”الحمد للہ“ حاضر دل سے۔ یہاں لمبی دعا معیار نہیں؛ معیار یہ ہے کہ ماتھا زمین پر ہو اور بندہ جانتا ہو کہ اُسے کیا ملا ہے۔" },
+      { "kind": "heading", "level": 2, "text": "کن موقعوں پر پڑھیں" },
+      { "kind": "list", "items": [
+        { "text": "کوئی خوشخبری ملنے پر، کسی اور کو بتانے سے پہلے۔" },
+        { "text": "بیماری سے شفا ملنے پر، یا کسی اور کی شفا کی خبر پر۔" },
+        { "text": "سفر سے صحیح سلامت لوٹنے پر — نبی ﷺ واپسی میں ہر اونچی زمین پر تکبیر کہتے تھے۔" },
+        { "text": "اولاد کی پیدائش پر، یا نکاح مکمل ہونے پر۔" },
+        { "text": "کوئی بلا ٹل جانے پر، یا امید سے ہلکی گزر جانے پر۔" },
+        { "text": "اور روز — پانچ نمازوں کے لیے ہی، کیونکہ ظاہری نعمتوں میں سب سے بڑی یہ ہے کہ بندہ اُن میں کھڑا ہو سکے۔" }
+      ] },
+      { "kind": "verse", "surah": 2, "ayah": 152, "note": "مجھے یاد رکھو، میں تمہیں یاد رکھوں گا؛ میرا شکر کرو اور ناشکری نہ کرو۔" },
+      { "kind": "p", "text": "شکر کتنی اونچی آواز میں کہا گیا، اِس سے کم اور آگے کیا ہوتا ہے، اِس سے زیادہ ناپا جاتا ہے۔ اللہ کا وعدہ سب سے صاف الفاظ میں ہے: اور زیادہ۔ جو جسم سے شکر کرتا ہے وہ اُسے اطاعت میں لگائے رکھتا ہے، اور شکر کی دو رکعتیں نعمت ملنے اور نعمت بڑھنے کے درمیان سب سے چھوٹا راستہ ہیں۔" }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "14:7" },
+    { "type": "hadith", "collection": "tirmidhi", "ref": "1578", "grade": "hasan" },
+    { "type": "hadith", "collection": "abudawud", "ref": "2770", "grade": "sahih" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["concept-shukr", "salah-nafl-prayers", "concept-dua"]
+}
