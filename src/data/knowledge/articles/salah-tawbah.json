@@ -1,0 +1,117 @@
+{
+  "slug": "salah-tawbah",
+  "category": "salah",
+  "order": 9,
+  "title": {
+    "en": "Ṣalāt al-Tawbah — the Prayer of Repentance",
+    "hi": "सलातुत-तौबा — तौबा की नमाज़",
+    "ur": "صلاۃ التوبہ — توبہ کی نماز"
+  },
+  "summary": {
+    "en": "The two rakʿahs the Prophet ﷺ prescribed for the moment after a sin: how to pray them, when they may be offered, the five conditions of a valid repentance, and the strongest wording of istighfār — with its narrations.",
+    "hi": "गुनाह के बाद नबी ﷺ ने जो दो रकअतें बताईं: कैसे पढ़ें, कब पढ़ सकते हैं, सच्ची तौबा की पाँच शर्तें, और इस्तिग़फ़ार के सबसे मज़बूत अल्फ़ाज़ — रिवायतों के साथ।",
+    "ur": "گناہ کے بعد نبی ﷺ نے جو دو رکعتیں بتائیں: کیسے پڑھیں، کب پڑھ سکتے ہیں، سچی توبہ کی پانچ شرطیں، اور استغفار کے سب سے مضبوط الفاظ — روایتوں کے ساتھ۔"
+  },
+  "body": {
+    "en": [
+      { "kind": "p", "text": "Every son of Adam sins, and the difference between the one who is ruined and the one who is not is what happens in the next few minutes: the first turns away, the second turns back. The Sunnah gives that turning back a shape — wuḍūʾ, two rakʿahs, then asking forgiveness. This is ṣalāt al-tawbah, and it is the shortest road out of a bad hour." },
+      { "kind": "hadith", "collection": "abudawud", "hadith": 1521, "note": "No one commits a sin, then purifies himself, stands and prays two rakʿahs, and asks Allah's forgiveness, but Allah forgives him — then the Prophet ﷺ recited the verse of those who remember Allah and seek forgiveness." },
+      { "kind": "verse", "surah": 3, "ayah": 135, "note": "Those who, when they do something shameful or wrong themselves, remember Allah, seek forgiveness for their sins — and who forgives sins but Allah? — and do not persist in what they did while they know." },
+      { "kind": "heading", "level": 2, "text": "How it is prayed" },
+      { "kind": "list", "items": [
+        { "text": "Make a proper wuḍūʾ, as you would for any prayer." },
+        { "text": "Intend two rakʿahs of repentance in the heart. The intention is not spoken aloud." },
+        { "text": "Pray them alone. It is nafl; it is not offered in congregation and is not announced." },
+        { "text": "Recite al-Fātiḥah and any passage you know in each rakʿah. No particular surah is fixed." },
+        { "text": "After the salām, praise Allah, send blessings on the Prophet ﷺ, and ask forgiveness — in your own words in any language, or with the formulas below." }
+      ] },
+      { "kind": "p", "text": "Two rakʿahs is the number in the narration, and the four schools agree on it. Repeating the prayer after each fall is the point; it is neither a substitute for the istighfār that continues through the day nor a ritual that needs a witness. What matters is that the heart is present — a prayer said while already planning the sin again is a body without its soul." },
+      { "kind": "heading", "level": 2, "text": "When it may be prayed" },
+      { "kind": "p", "text": "Because this prayer is tied to a cause rather than to a time, later scholars — Ibn Taymiyyah among them — held that a prayer offered for a specific reason may be prayed in the hours when prayer is otherwise disliked, and the fatwā followed in the subcontinent takes this position. Others avoid those minutes out of caution. What is agreed is that delaying repentance is itself a fault: turning back is obligatory at once, and the two rakʿahs are the recommended way to begin." },
+      { "kind": "heading", "level": 2, "text": "What tawbah actually requires" },
+      { "kind": "list", "items": [
+        { "text": "Leaving the sin. Repentance while the sin continues is not repentance." },
+        { "text": "Regret for having done it." },
+        { "text": "A firm resolve not to return to it." },
+        { "text": "Restoring what was taken, or asking pardon of the person wronged, where the sin involved another person." },
+        { "text": "Not persisting in it knowingly — the verse joins forgiveness to those who do not carry on as before." }
+      ] },
+      { "kind": "verse", "surah": 66, "ayah": 8, "note": "O you who believe, turn to Allah with sincere repentance — tawbatan naṣūḥā — perhaps your Lord will remove your evil deeds." },
+      { "kind": "heading", "level": 2, "text": "The door is not closed" },
+      { "kind": "p", "text": "Repentance is accepted until the soul reaches the throat, and until the sun rises from where it sets. No sin is too large for the one who asks, and repeating the same sin does not close the door — though returning to it deliberately while calling it repentance is a contradiction the believer has to fight, not manage. Despair is the one thing the verse forbids outright." },
+      { "kind": "verse", "surah": 39, "ayah": 53, "note": "Say: O My servants who have wronged themselves, do not despair of the mercy of Allah. Surely He forgives all sins." },
+      { "kind": "arabic", "text": "اللَّهُمَّ أَنْتَ رَبِّي لَا إِلَهَ إِلَّا أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ، وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَيَّ، وَأَبُوءُ بِذَنْبِي فَاغْفِرْ لِي، فَإِنَّهُ لَا يَغْفِرُ الذُّنُوبَ إِلَّا أَنْتَ", "transliteration": "Allāhumma anta Rabbī lā ilāha illā ant, khalaqtanī wa anā ʿabduk, wa anā ʿalā ʿahdika wa waʿdika mā'staṭaʿt, aʿūdhu bika min sharri mā ṣanaʿt, abūʾu laka bi-niʿmatika ʿalayya wa abūʾu bi-dhanbī faghfir lī, fa-innahu lā yaghfiru'dh-dhunūba illā ant.", "translation": "O Allah, You are my Lord; there is no god but You. You created me and I am Your servant, and I keep Your covenant and promise as far as I can. I seek refuge in You from the evil I have done. I acknowledge Your favour upon me, and I acknowledge my sin — so forgive me, for none forgives sins but You.", "label": "Sayyid al-Istighfār — the master of seeking forgiveness" },
+      { "kind": "p", "text": "The Prophet ﷺ said that whoever says this during the day with certainty, and dies that day, will be among the people of Paradise; the same for the night. It holds the whole of repentance in one breath: the servant's smallness, the favour received, the sin admitted, and the mercy asked for. It belongs after the two rakʿahs as much as at any other hour." },
+      { "kind": "p", "text": "Tawbah is not a mood or a sentence repeated until the feeling passes. It is a decision that shows up in the next prayer, the next hour, and the next time the same door opens. The two rakʿahs are how the decision is made formal." }
+    ],
+    "hi": [
+      { "kind": "p", "text": "हर आदमी गुनाह करता है, और बर्बाद होने वाले और न होने वाले में फ़र्क़ यही है कि गुनाह के बाद के कुछ मिनटों में क्या होता है: एक मुँह फेर लेता है, दूसरा लौट आता है। सुन्नत इस लौटने को एक शक्ल देती है — वुज़ू, दो रकअतें, फिर बख़्शिश की तलब। यही सलातुत-तौबा है, और बुरे वक़्त से निकलने का सबसे छोटा रास्ता।" },
+      { "kind": "hadith", "collection": "abudawud", "hadith": 1521, "note": "जो गुनाह करे, फिर पाक हो, खड़ा होकर दो रकअतें पढ़े और अल्लाह से बख़्शिश माँगे — अल्लाह उसे बख़्श देता है। फिर नबी ﷺ ने उन लोगों की आयत पढ़ी जो अल्लाह को याद करके बख़्शिश माँगते हैं।" },
+      { "kind": "verse", "surah": 3, "ayah": 135, "note": "और वे लोग जो कोई बेहयाई या अपने ऊपर ज़ुल्म कर बैठें तो अल्लाह को याद करते हैं और अपने गुनाहों की बख़्शिश माँगते हैं — और अल्लाह के सिवा गुनाह कौन बख़्शेगा? — और जो किया उस पर जान-बूझकर अड़े नहीं रहते।" },
+      { "kind": "heading", "level": 2, "text": "कैसे पढ़ी जाती है" },
+      { "kind": "list", "items": [
+        { "text": "आम नमाज़ की तरह अच्छी तरह वुज़ू करो।" },
+        { "text": "दिल में तौबा की दो रकअतों की नीयत करो। नीयत ज़बान से नहीं कही जाती।" },
+        { "text": "अकेले पढ़ो। यह नफ़्ल है; न जमाअत से पढ़ी जाती है, न इसका ऐलान होता है।" },
+        { "text": "हर रकअत में अल-फ़ातिहा और जो क़िरअत आती हो पढ़ो। कोई ख़ास सूरह मुक़र्रर नहीं।" },
+        { "text": "सलाम के बाद अल्लाह की तारीफ़ करो, नबी ﷺ पर दुरूद भेजो, और बख़्शिश माँगो — अपने अल्फ़ाज़ में किसी भी ज़बान में, या नीचे दी गई दुआओं से।" }
+      ] },
+      { "kind": "p", "text": "रिवायत में दो ही रकअतें हैं, और चारों मसलक इस पर मुत्तफ़िक़ हैं। हर गुनाह के बाद इसे दोहराना ही मक़सद है; यह दिनभर चलने वाले इस्तिग़फ़ार की जगह नहीं लेती, और न ऐसी रस्म है जिसका गवाह चाहिए। असल यह है कि दिल हाज़िर हो — दोबारा गुनाह का इरादा रखकर पढ़ी गई नमाज़ जिस्म है जिसमें रूह नहीं।" },
+      { "kind": "heading", "level": 2, "text": "कब पढ़ सकते हैं" },
+      { "kind": "p", "text": "यह नमाज़ वक़्त के बजाय सबब से जुड़ी है, इसलिए बाद के उलेमा — इनमें इब्न तैमिया भी हैं — कहते हैं कि जो नमाज़ किसी सबब से पढ़ी जाती है वह उन वक़्तों में भी पढ़ी जा सकती है जब आम तौर पर नमाज़ मकरूह है; और बर्रे-सग़ीर में इसी पर फ़तवा है। कुछ लोग एहतियातन उन मिनटों से बचते हैं। जिस बात पर इत्तिफ़ाक़ है वह यह कि तौबा में देर करना ख़ुद एक ऐब है: तुरंत लौटना लाज़िम है, और दो रकअतें इसकी शुरुआत का मुस्तहब तरीक़ा।" },
+      { "kind": "heading", "level": 2, "text": "सच्ची तौबा की शर्तें" },
+      { "kind": "list", "items": [
+        { "text": "गुनाह छोड़ना। गुनाह जारी रखते हुए तौबा तौबा नहीं।" },
+        { "text": "किए पर पछताना।" },
+        { "text": "दोबारा न करने का पक्का इरादा।" },
+        { "text": "जो लिया था वापस करना, या जिसका हक़ मारा उससे मुआफ़ी माँगना, अगर गुनाह में कोई दूसरा शख़्स शामिल था।" },
+        { "text": "जान-बूझकर उस पर अड़े न रहना — आयत बख़्शिश को उन्हीं से जोड़ती है जो पहले जैसा नहीं करते रहते।" }
+      ] },
+      { "kind": "verse", "surah": 66, "ayah": 8, "note": "ऐ ईमान वालो! अल्लाह की तरफ़ सच्ची तौबा करो — शायद तुम्हारा रब तुम्हारी बुराइयाँ मिटा दे।" },
+      { "kind": "heading", "level": 2, "text": "दरवाज़ा बंद नहीं होता" },
+      { "kind": "p", "text": "तौबा उस वक़्त तक क़बूल है जब तक जान गले तक न पहुँचे, और जब तक सूरज मग़रिब से न निकले। माँगने वाले के लिए कोई गुनाह बड़ा नहीं, और एक ही गुनाह दोहराने से दरवाज़ा बंद नहीं होता — हालाँकि उसे तौबा कहते हुए जान-बूझकर लौटना वह तनाक़ुज़ है जिससे मोमिन को लड़ना है, सँभालना नहीं। मायूसी वही एक चीज़ है जिससे आयत साफ़ मना करती है।" },
+      { "kind": "verse", "surah": 39, "ayah": 53, "note": "कह दो: ऐ मेरे बंदो जिन्होंने अपनी जानों पर ज़ुल्म किया, अल्लाह की रहमत से मायूस न हो। बेशक वह सारे गुनाह बख़्श देता है।" },
+      { "kind": "arabic", "text": "اللَّهُمَّ أَنْتَ رَبِّي لَا إِلَهَ إِلَّا أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ، وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَيَّ، وَأَبُوءُ بِذَنْبِي فَاغْفِرْ لِي، فَإِنَّهُ لَا يَغْفِرُ الذُّنُوبَ إِلَّا أَنْتَ", "transliteration": "Allāhumma anta Rabbī lā ilāha illā ant, khalaqtanī wa anā ʿabduk, wa anā ʿalā ʿahdika wa waʿdika mā'staṭaʿt, aʿūdhu bika min sharri mā ṣanaʿt, abūʾu laka bi-niʿmatika ʿalayya wa abūʾu bi-dhanbī faghfir lī, fa-innahu lā yaghfiru'dh-dhunūba illā ant.", "translation": "ऐ अल्लाह! तू मेरा रब है, तेरे सिवा कोई माबूद नहीं। तूने मुझे पैदा किया और मैं तेरा बंदा हूँ, और जितना मुझसे बन पड़े तेरे अहद और वादे पर क़ायम हूँ। मैं उस बुराई से तेरी पनाह माँगता हूँ जो मैंने की। मैं अपने ऊपर तेरी नेमत का इक़रार करता हूँ और अपने गुनाह का भी — पस मुझे बख़्श दे, क्योंकि तेरे सिवा गुनाह कोई नहीं बख़्शता।", "label": "सैय्यिदुल-इस्तिग़फ़ार — बख़्शिश माँगने का सरदार" },
+      { "kind": "p", "text": "नबी ﷺ ने फ़रमाया कि जो इसे दिन में यक़ीन के साथ पढ़े और उसी दिन मर जाए, वह जन्नत वालों में से होगा; रात का भी यही हुक्म है। इसमें पूरी तौबा एक साँस में है: बंदे की छोटाई, मिली हुई नेमत, माना हुआ गुनाह, और माँगी हुई रहमत। यह दो रकअतों के बाद भी पढ़ी जाती है, और किसी भी और वक़्त भी।" },
+      { "kind": "p", "text": "तौबा कोई मिज़ाज नहीं है, न कोई जुमला जो एहसास बदलने तक दोहराया जाए। यह एक फ़ैसला है जो अगली नमाज़ में, अगले घंटे में, और अगली बार जब वही दरवाज़ा खुले, नज़र आता है। दो रकअतें उस फ़ैसले को रस्मी शक्ल देती हैं।" }
+    ],
+    "ur": [
+      { "kind": "p", "text": "ہر انسان گناہ کرتا ہے، اور برباد ہونے والے اور نہ ہونے والے میں فرق یہی ہے کہ گناہ کے بعد کے چند لمحوں میں کیا ہوتا ہے: ایک منہ پھیر لیتا ہے، دوسرا لوٹ آتا ہے۔ سنت اِس لوٹنے کو ایک صورت دیتی ہے — وضو، دو رکعتیں، پھر بخشش کی طلب۔ یہی صلاۃ التوبہ ہے، اور بُرے وقت سے نکلنے کا سب سے چھوٹا راستہ۔" },
+      { "kind": "hadith", "collection": "abudawud", "hadith": 1521, "note": "جو گناہ کرے، پھر پاک ہو، کھڑا ہو کر دو رکعتیں پڑھے اور اللہ سے بخشش مانگے — اللہ اُسے بخش دیتا ہے۔ پھر نبی ﷺ نے اُن لوگوں کی آیت پڑھی جو اللہ کو یاد کر کے بخشش مانگتے ہیں۔" },
+      { "kind": "verse", "surah": 3, "ayah": 135, "note": "اور وہ لوگ جو کوئی بےحیائی یا اپنی جانوں پر ظلم کر بیٹھیں تو اللہ کو یاد کرتے ہیں اور اپنے گناہوں کی بخشش مانگتے ہیں — اور اللہ کے سوا گناہ کون بخشےگا؟ — اور جو کیا اُس پر جان بوجھ کر اڑے نہیں رہتے۔" },
+      { "kind": "heading", "level": 2, "text": "کیسے پڑھی جاتی ہے" },
+      { "kind": "list", "items": [
+        { "text": "عام نماز کی طرح اچھی طرح وضو کرو۔" },
+        { "text": "دل میں توبہ کی دو رکعتوں کی نیت کرو۔ نیت زبان سے نہیں کہی جاتی۔" },
+        { "text": "اکیلے پڑھو۔ یہ نفل ہے؛ نہ جماعت سے پڑھی جاتی ہے، نہ اِس کا اعلان ہوتا ہے۔" },
+        { "text": "ہر رکعت میں الفاتحہ اور جو قرأت آتی ہو پڑھو۔ کوئی خاص سورت مقرر نہیں۔" },
+        { "text": "سلام کے بعد اللہ کی تعریف کرو، نبی ﷺ پر درود بھیجو، اور بخشش مانگو — اپنے الفاظ میں کسی بھی زبان میں، یا نیچے دی گئی دعاؤں سے۔" }
+      ] },
+      { "kind": "p", "text": "روایت میں دو ہی رکعتیں ہیں، اور چاروں مسلک اِس پر متفق ہیں۔ ہر گناہ کے بعد اِسے دہرانا ہی مقصود ہے؛ یہ دن بھر چلنے والے استغفار کی جگہ نہیں لیتی، اور نہ ایسی رسم ہے جس کا گواہ چاہیے۔ اصل یہ ہے کہ دل حاضر ہو — دوبارہ گناہ کا ارادہ رکھ کر پڑھی گئی نماز جسم ہے جس میں روح نہیں۔" },
+      { "kind": "heading", "level": 2, "text": "کب پڑھ سکتے ہیں" },
+      { "kind": "p", "text": "یہ نماز وقت کے بجائے سبب سے جڑی ہے، اِس لیے بعد کے علماء — اِن میں ابن تیمیہ بھی ہیں — کہتے ہیں کہ جو نماز کسی سبب سے پڑھی جاتی ہے وہ اُن وقتوں میں بھی پڑھی جا سکتی ہے جب عام طور پر نماز مکروہ ہے؛ اور برصغیر میں اِسی پر فتویٰ ہے۔ بعض لوگ احتیاطاً اُن لمحوں سے بچتے ہیں۔ جس بات پر اتفاق ہے وہ یہ کہ توبہ میں دیر کرنا خود ایک عیب ہے: فوراً لوٹنا لازم ہے، اور دو رکعتیں اِس کی ابتدا کا مستحب طریقہ۔" },
+      { "kind": "heading", "level": 2, "text": "سچی توبہ کی شرطیں" },
+      { "kind": "list", "items": [
+        { "text": "گناہ چھوڑنا۔ گناہ جاری رکھتے ہوئے توبہ، توبہ نہیں۔" },
+        { "text": "کیے پر پچھتانا۔" },
+        { "text": "دوبارہ نہ کرنے کا پکا ارادہ۔" },
+        { "text": "جو لیا تھا واپس کرنا، یا جس کا حق مارا اُس سے معافی مانگنا، اگر گناہ میں کوئی دوسرا شخص شامل تھا۔" },
+        { "text": "جان بوجھ کر اُس پر اڑے نہ رہنا — آیت بخشش کو اُنہی سے جوڑتی ہے جو پہلے جیسا نہیں کرتے رہتے۔" }
+      ] },
+      { "kind": "verse", "surah": 66, "ayah": 8, "note": "اے ایمان والو! اللہ کی طرف سچی توبہ کرو — شاید تمہارا رب تمہاری برائیاں مٹا دے۔" },
+      { "kind": "heading", "level": 2, "text": "دروازہ بند نہیں ہوتا" },
+      { "kind": "p", "text": "توبہ اُس وقت تک قبول ہے جب تک جان گلوں تک نہ پہنچے، اور جب تک سورج مغرب سے نہ نکلے۔ مانگنے والے کے لیے کوئی گناہ بڑا نہیں، اور ایک ہی گناہ دہرانے سے دروازہ بند نہیں ہوتا — البتہ اُسے توبہ کہتے ہوئے جان بوجھ کر لوٹنا وہ تضاد ہے جس سے مومن کو لڑنا ہے، سنبھالنا نہیں۔ مایوسی وہی ایک چیز ہے جس سے آیت صاف منع کرتی ہے۔" },
+      { "kind": "verse", "surah": 39, "ayah": 53, "note": "کہہ دو: اے میرے بندو جنہوں نے اپنی جانوں پر ظلم کیا، اللہ کی رحمت سے مایوس نہ ہو۔ بیشک وہ سارے گناہ بخش دیتا ہے۔" },
+      { "kind": "arabic", "text": "اللَّهُمَّ أَنْتَ رَبِّي لَا إِلَهَ إِلَّا أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ، وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَيَّ، وَأَبُوءُ بِذَنْبِي فَاغْفِرْ لِي، فَإِنَّهُ لَا يَغْفِرُ الذُّنُوبَ إِلَّا أَنْتَ", "transliteration": "Allāhumma anta Rabbī lā ilāha illā ant, khalaqtanī wa anā ʿabduk, wa anā ʿalā ʿahdika wa waʿdika mā'staṭaʿt, aʿūdhu bika min sharri mā ṣanaʿt, abūʾu laka bi-niʿmatika ʿalayya wa abūʾu bi-dhanbī faghfir lī, fa-innahu lā yaghfiru'dh-dhunūba illā ant.", "translation": "اے اللہ! تو میرا رب ہے، تیرے سوا کوئی معبود نہیں۔ تو نے مجھے پیدا کیا اور میں تیرا بندہ ہوں، اور جتنا مجھ سے بن پڑے تیرے عہد و وعدے پر قائم ہوں۔ میں اُس برائی سے تیری پناہ مانگتا ہوں جو میں نے کی۔ میں اپنے اوپر تیری نعمت کا اقرار کرتا ہوں اور اپنے گناہ کا بھی — پس مجھے بخش دے، کیونکہ تیرے سوا گناہ کوئی نہیں بخشتا۔", "label": "سید الاستغفار — بخشش مانگنے کا سردار" },
+      { "kind": "p", "text": "نبی ﷺ نے فرمایا کہ جو اِسے دن میں یقین کے ساتھ پڑھے اور اُسی دن مر جائے، وہ جنت والوں میں سے ہوگا؛ رات کا بھی یہی حکم ہے۔ اِس میں پوری توبہ ایک سانس میں ہے: بندے کی کوچائی، ملی ہوئی نعمت، مانا ہوا گناہ، اور مانگی ہوئی رحمت۔ یہ دو رکعتوں کے بعد بھی پڑھی جاتی ہے، اور کسی بھی اور وقت بھی۔" },
+      { "kind": "p", "text": "توبہ کوئی مزاج نہیں ہے، نہ کوئی جملہ جو احساس بدلنے تک دہرایا جائے۔ یہ ایک فیصلہ ہے جو اگلی نماز میں، اگلے گھنٹے میں، اور اگلی بار جب وہی دروازہ کھلے، نظر آتا ہے۔ دو رکعتیں اُس فیصلے کو رسمی صورت دیتی ہیں۔" }
+    ]
+  },
+  "sources": [
+    { "type": "quran", "ref": "3:135" },
+    { "type": "hadith", "collection": "abudawud", "ref": "1521", "grade": "sahih" },
+    { "type": "hadith", "collection": "tirmidhi", "ref": "2499", "grade": "hasan" },
+    { "type": "tafsir", "scholar": "Ibn Kathir" }
+  ],
+  "relatedSlugs": ["concept-tawbah", "salah-nafl-prayers", "salah-what-to-recite"]
+}

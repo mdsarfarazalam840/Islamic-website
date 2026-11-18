@@ -228,6 +228,32 @@ const OVERRIDES: Record<string, string> = {
   "कुफ्र": "kufr", // कुफ्र
   "रहीम": "raheem", // रहीम
   "वुजू": "wuzu", // वुजू
+  // --- Knowledge Base: words whose mechanical output reads wrong -------------
+  // Loanwords and Arabic-derived terms that the tables spell phonetically but a
+  // Hinglish reader does not recognise: *hailo* for hello, *minton* for minton.
+  // Nuqta letters here are written as base + U+093C because the authored corpus
+  // uses the decomposed form; a composed key above would never match it.
+  "हैलो": "hello", // हैलो
+  "जवाब": "jawab", // जवाब
+  "नमाज\u093C": "namaz", // नमाज़ (decomposed; the composed entry above only covers the other spelling)
+  "रहमतुल्लाह": "rehmatullah", // रहमतुल्लाह
+  "मग\u093Cफ\u093Cिरतहु": "maghfiratuhu", // मग़फ़िरतहु
+  "मुहद्दिसीन": "muhaddiseen", // मुहद्दिसीन
+  "बरकतें": "barkatein", // बरकतें
+  "चाहिए": "chahiye", // चाहिए
+  "इसलिए": "isliye", // इसलिए
+  "जाए": "jaaye", // जाए
+  "आए": "aaye", // आए
+  "किए": "kiye", // किए
+  "रकअतें": "rakatein", // रकअतें
+  "मज\u093Cब\u0942त": "mazboot", // मज़बूत
+  "मिनटों": "minaton", // मिनटों
+  "बेहयाई": "behayaai", // बेहयाई
+  "अड\u093Cे": "ade", // अड़े
+  "दुरूद": "durood", // दुरूद
+  "हनफ\u093Cी": "Hanafi", // हनफ़ी
+  "डॉक्टर": "doctor", // डॉक्टर
+  "हैंडल": "handle", // हैंडल
 }
 
 /** One syllable unit. `v: ""` = bare consonant (virama or deleted schwa). */
@@ -336,7 +362,8 @@ function units(word: string): Unit[] {
  *    (वाक्य → *vaakya*, while सब्र → *sabr* still drops);
  *  - medial inherent `a` drops when both neighbours carry a vowel, scanned right
  *    to left: *ra-ha-maan* → *rahmaan*, *ka-ra-ne* → *karne*, *u-sa-ke* → *uske*;
- *  - never the first syllable: नमाज़ stays *namaaz*, not *nmaaz*.
+ *  - never the first syllable: नमाज़ comes out *namaaz*, not *nmaaz* (the
+ *    override lexicon then settles the conventional spelling, *namaz*).
  */
 function deleteSchwas(u: Unit[]): void {
   const vowelled = u.filter((x) => x.v).length

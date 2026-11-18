@@ -9,7 +9,9 @@ import { toHinglish } from "./hinglish"
 // failing somewhere in a corpus.
 
 test("deletes the word-final inherent schwa, but not on monosyllables", () => {
-  assert.equal(toHinglish("नमाज़"), "namaaz")
+  // The override lexicon settles the spelling of this word (`namaz`), for both
+  // the composed and decomposed nuqta spellings the corpus uses.
+  assert.equal(toHinglish("नमाज़"), "namaz")
   assert.equal(toHinglish("का"), "ka")
   assert.equal(toHinglish("जो"), "jo")
   assert.equal(toHinglish("व"), "va")
