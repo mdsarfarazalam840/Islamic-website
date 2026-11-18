@@ -1,3 +1,10 @@
+## [0.5.1] - 2026-11-18
+
+### Other
+- add: added some more namaz (d4a79c1)
+- chore(deps): upgrade Next.js 16.4.2 to 16.4.6 (security) (a040567)
+
+
 ## [0.5.0] - 2026-11-06
 
 ### Features
