@@ -16,6 +16,7 @@ const footerLinks = [
     links: [
       { label: "Search", href: "/search" },
       { label: "Tasbih", href: "/tasbih" },
+      { label: "Live readers", href: "/live" },
       { label: "About", href: "/about" },
     ],
   },

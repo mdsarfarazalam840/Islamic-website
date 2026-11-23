@@ -8,7 +8,7 @@
 
 **نُورٌ عَلَىٰ نُورٍ** — *Light upon light.*
 
-A premium open-source Quran & Hadith platform — complete Quran with multilingual translations, seven authentic Hadith collections (36,000+ hadiths), a trilingual Knowledge Base, and a curated Islamic video library. Fully static, zero runtime cost.
+A premium open-source Quran & Hadith platform — complete Quran with multilingual translations, seven authentic Hadith collections (36,000+ hadiths), a trilingual Knowledge Base, and a curated Islamic video library. Fully static content, with one optional Cloudflare Worker for live presence.
 
 <img
   src="docs\noor_github_showcase.gif"
@@ -39,6 +39,7 @@ A premium open-source Quran & Hadith platform — complete Quran with multilingu
   - [System Overview](#system-overview) · [Data Flow](#data-flow) · [Component Structure](#component-structure)
 - [Tech Stack](#tech-stack)
 - [Getting Started](#getting-started)
+- [Live Visitors](#live-visitors)
 - [Android App](#android-app)
 - [Project Structure](#project-structure)
 - [CI/CD](#cicd)
@@ -76,9 +77,11 @@ A bare number can't tell you which of a collection's ~100 books holds it, so a b
 Bookmark any ayah, hadith, or Knowledge Base article, or hit **Save my spot** while reading to keep the exact verse/hadith you were on. The **Saved** tab (bottom nav on mobile, main nav on desktop) lists every bookmark with filters, plus a "pick up where you left off" row for the Quran, Hadith, Knowledge Base, and videos — each deep-linking straight back to the anchor you left. Reading positions are tracked automatically as you scroll. All of it lives in `localStorage`, per device, with no account required.
 
 ### 👥 Live Visitors
-The footer shows how many people are reading right now and how many visits the site has had. "Reading now" is Supabase Realtime **presence** — every open tab tracks itself on a shared channel, so the number rises the moment someone lands and falls the moment they close the tab, with no polling and no timeout guesswork. The visit total is one Postgres row bumped once per browsing session and subscribed to over Realtime, so it ticks up for everyone already on the page.
+The footer shows how many people are reading right now and how many visits the site has had, and [`/live`](src/app/live/page.tsx) shows the full breakdown: total readers, every page with someone on it, and the surahs being read. "Reading now" is a Cloudflare **Durable Object** (`workers/live`) holding one hibernatable WebSocket per tab, so the number rises the moment someone lands and falls the moment they close the tab. The visit total lives in the same object and is bumped once per browser per UTC day.
 
-Optional: with no Supabase env vars the badge renders nothing rather than showing zeros, which is also what the desktop/mobile shells do when offline. See [Environment Variables](#environment-variables).
+The site talks to that Worker over WebSocket + HTTP; it is deployed separately from the Pages site because Pages Functions cannot create or migrate Durable Objects. Protocol, deploy, and limits: [`workers/live/README.md`](workers/live/README.md); the full setup runbook is [Live Visitors](#live-visitors) below.
+
+Optional: with no `NEXT_PUBLIC_LIVE_URL` the badge renders nothing rather than showing zeros, which is also what the desktop/mobile shells do when offline. See [Environment Variables](#environment-variables).
 
 ### 🎨 Noor Al-Quds Design System
 Chamber-based navigation — every page is a sacred chamber with unique lighting. Gold + deep navy palette. Vanishing navbar with floating lantern button. Three.js 3D environment (star particles, Kaaba model). Dark/Light modes.
@@ -180,6 +183,7 @@ Every page is a chamber in a sacred building, each with its own lighting and moo
 | State | Zustand + TanStack Query |
 | Validation | Zod |
 | Hosting | GitHub Pages · PWA |
+| Live presence | Cloudflare Workers + Durable Objects (hibernatable WebSockets) |
 | CI/CD | GitHub Actions |
 | Fonts | Inter · Playfair Display · Noto Naskh Arabic |
 
@@ -204,26 +208,26 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ### Environment Variables
 
-Everything works without these; each one switches on one optional piece. Put them in `.env.local` for development, and in **Settings → Secrets and variables → Actions** for the Pages deploy.
+Everything works without these; each one switches on one optional piece. Put them in `.env.local` for development, and in **Settings → Secrets and variables → Actions → Variables** for the Pages deploy (every entry here is a `NEXT_PUBLIC_*` value, which ships to browsers — so they are repository variables, not secrets).
 
 | Variable | Purpose |
 | --- | --- |
-| `NEXT_PUBLIC_SUPABASE_URL` | Supabase project URL — enables the live layer: the footer badge, per-surah reader counts, trending surahs, the activity feed, and the audio listener count. |
-| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Supabase anon (publishable) key. Public by design; RLS limits it to reading the counter and calling `bump_visits()`. |
-| `NEXT_PUBLIC_LIVE_DETAIL` | Set to `off` to keep only the footer's online + visits numbers and switch the per-surah, trending, and activity features off. Presence updates fan out to every connected tab, so this is the lever to pull if the project's Realtime message quota comes into view. |
+| `NEXT_PUBLIC_LIVE_URL` | URL of the presence Worker (`workers/live`) — enables the live layer: the footer badge, per-surah reader counts, trending surahs, the activity feed, and the `/live` dashboard. |
+| `NEXT_PUBLIC_LIVE_DETAIL` | Set to `off` to publish only the page path. The online total, per-page counts, visits, and `/live` keep working; per-surah, trending, and activity go quiet. |
 | `NEXT_PUBLIC_BASE_PATH` | URL subpath for project-site hosting. Set by the deploy workflow; leave unset locally. |
 | `NEXT_PUBLIC_PAGEFIND_BUNDLE` | Where the search index is served from. Set by the deploy workflow. |
 
-For the live layer, run both migrations once in the Supabase SQL Editor, in order:
+For the live layer, deploy the Worker once and paste its URL into the Pages project:
 
-- `supabase/migrations/0001_site_stats.sql` — the counter row, its RLS policies, and `bump_visits()`.
-- `supabase/migrations/0002_visit_rate_limit.sql` — rebuilds `bump_visits()` with a per-address daily
-  budget. Without it the RPC is a loop away from meaningless: the anon key ships in the client
-  bundle, so anyone could drive the counter anywhere and burn the project's request quota doing it.
+```bash
+npm run live:deploy
+# Wrangler prints https://noor-live.<account>.workers.dev
+```
 
-Visits are counted once per browser per UTC day, and capped at 20 per address per UTC day server-side
-(tunable via `public.visit_daily_cap()`). The cap is well above 1 on purpose — carrier NAT and office
-networks put many real readers behind a single address.
+Then set `NEXT_PUBLIC_LIVE_URL` and rebuild. Restrict which origins may connect in
+`workers/live/wrangler.toml` (`ALLOWED_ORIGINS`) before going public. Visits are counted once per
+browser per UTC day, with a one-minute per-address throttle on the Worker; the Durable Object stores
+only the running total, never an address.
 
 ### Build Data
 
@@ -281,6 +285,126 @@ python tests/phase6_polish.py
 
 ---
 
+## Live Visitors
+
+Noor can show, in real time, **how many people are reading right now and which page each of them is on**. Everything else is static; this is the one piece that needs a running backend, and it is a single Cloudflare Worker holding one Durable Object — see [`workers/live`](workers/live/README.md).
+
+### Where the numbers appear
+
+| Surface | What it shows |
+| --- | --- |
+| Footer badge (every page) | `N reading now` · `M visits` |
+| [`/live`](src/app/live/page.tsx) | Live reader total, every active page with a count bar, the surahs being read, and the visit total |
+| Homepage activity feed | The most recent arrivals and what they opened |
+| Surah pages | Readers on this surah, and how many of them are listening |
+
+With no `NEXT_PUBLIC_LIVE_URL` — or in a native shell that is offline — the badge renders nothing rather than a zero, and `/live` explains that the counter is not connected.
+
+### How it works
+
+```mermaid
+graph LR
+    TAB[Reader tab] -->|wss /ws · ping every 25s| DO[PresenceHub<br/>Durable Object]
+    TAB -->|POST /visit · once per UTC day| DO
+    DO -->|snapshot · at most 1 per 800ms| TAB
+    DO -->|GET /stats · every 4s| DASH[/live dashboard]
+    DO -->|storage| STORE[(visit total)]
+```
+
+- One Durable Object instance named `global` owns every open socket. A connection is **one tab**; nothing identifies the reader.
+- Sockets use Cloudflare's **hibernation WebSocket API**, so an idle reader accrues no Durable Object duration. Each tab's page/reading state lives in its socket attachment and survives hibernation.
+- A tab pings every 25s; a socket silent for 75s is treated as gone, and a 30s alarm prunes it. The alarm exists only while sockets do, so an empty site lets the object sleep.
+- Broadcasts are coalesced to at most one per 800ms, so a burst of arrivals does not fan out a snapshot per event.
+- `RealtimeProvider` opens **one** shared socket for the whole site (footer badge, activity feed, per-surah counts). Only the `/live` dashboard polls `/stats`, every 4s, and it pauses while the tab is hidden.
+- Readers receive just their own page's count (`mine`); the full page list ships only to `/stats` and to dashboard sockets (`/ws?m=stats`), which are excluded from the totals.
+- `NEXT_PUBLIC_LIVE_DETAIL=off` publishes only the path: total, per-page counts, and visits keep working while per-surah counts, the feed, and the detail views go quiet.
+
+### Worker endpoints
+
+| Route | Method | Purpose |
+| --- | --- | --- |
+| `/health` | GET | Liveness probe; answered before the origin check |
+| `/stats` | GET | `{ total, pages[], surahs[], visits, ts }` for the dashboard |
+| `/ws?p=/quran/2` | GET + `Upgrade: websocket` | Reader socket; the server pushes snapshots |
+| `/ws?p=/&m=stats` | GET + `Upgrade: websocket` | Dashboard socket; also receives `pages` |
+| `/visit` | POST | Bumps the lifetime visit total (one per address per minute) |
+
+Client frames are tiny: `{"t":"ping"}` proves liveness, and `{"t":"track","u":"/quran/2","z":"quran","s":2,"n":"Al-Baqarah","p":false,"r":null}` updates the page and reading state. The full protocol is in [`workers/live/README.md`](workers/live/README.md).
+
+### Run it locally
+
+```bash
+npm run live:dev          # Worker on http://localhost:8787
+```
+
+Then point the site at it in `.env.local`:
+
+```bash
+NEXT_PUBLIC_LIVE_URL=http://localhost:8787
+```
+
+and start the site with `npm run dev`. Typecheck the Worker on its own with `npm run live:typecheck` — it has a separate `tsconfig`, and the site's typecheck excludes `workers/`.
+
+> [!IMPORTANT]
+> Counts live inside one Durable Object. If `.env.local` points at a deployed Worker and you also run `npm run live:dev`, the two sets of numbers never merge — point the site at one at a time.
+
+### Deploy it
+
+```bash
+npx wrangler login        # once per machine
+npm run live:deploy       # prints https://noor-live.<account>.workers.dev
+```
+
+The first deploy creates the Durable Object namespace and applies migration `v1`. Then set `NEXT_PUBLIC_LIVE_URL` to that URL and rebuild the site.
+
+CI does the same on any push to `main` that touches `workers/live/**`, via [`deploy-live.yml`](.github/workflows/deploy-live.yml). It needs:
+
+| Kind | Name | Value |
+| --- | --- | --- |
+| Secret | `CLOUDFLARE_API_TOKEN` | API token with *Workers Scripts: Edit* and *Durable Objects: Edit* |
+| Secret | `CLOUDFLARE_ACCOUNT_ID` | Your Cloudflare account ID |
+| Variable | `NEXT_PUBLIC_LIVE_URL` | The deployed Worker URL, read by `deploy.yml` when it builds the Pages site |
+
+Restrict who may connect before going public — `ALLOWED_ORIGINS` in [`workers/live/wrangler.toml`](workers/live/wrangler.toml) defaults to `*`:
+
+```toml
+[vars]
+ALLOWED_ORIGINS = "https://your-site.example,http://localhost:3000"
+```
+
+### Verify a deployment
+
+```bash
+curl https://noor-live.<account>.workers.dev/health   # {"ok":true}
+curl https://noor-live.<account>.workers.dev/stats    # total, pages, surahs, visits
+```
+
+Open the site in two tabs on the same surah, then check `/stats`: `total` should be 2 and that page's row should read 2. Close one tab and both drop. Visits are throttled per address per minute, and each browser asks for a bump only once per UTC day (`localStorage` key `noor-visit-day`).
+
+### Cost, limits, and scaling
+
+- Hibernating sockets are the point: idle readers accrue no Durable Object duration, so the Worker stays cheap between page views.
+- One instance accepts up to 5,000 concurrent connections (`MAX_CONNECTIONS`); beyond that the Worker answers `503`.
+- The visit total is the only persisted state (Durable Object storage). Everything else is in memory or in socket attachments and is rebuilt as readers connect, so a restart costs nothing but the activity feed.
+- If one object ever gets hot, shard on the page path (`getByName(path)`) and aggregate in a small directory object for `/stats`.
+
+### Privacy
+
+A connection is a tab. No IP, user agent, cookie, or account is stored or sent to the dashboard. `CF-Connecting-IP` is used only as an in-memory key for the one-minute visit throttle and is never persisted. Paths are sanitized on arrival and capped at 160 characters.
+
+### Troubleshooting
+
+| Symptom | Cause | Fix |
+| --- | --- | --- |
+| No footer badge, `/live` says the counter is not connected | `NEXT_PUBLIC_LIVE_URL` was unset when the bundle was built | set it in `.env.local` or in the repo variables, then rebuild — it is inlined at build time |
+| Badge shows 0 while `/stats` reports readers | that tab's socket never opened | check the console for the `wss://` error and make sure the site origin is in `ALLOWED_ORIGINS` |
+| Two different totals on two devices | one points at a local Worker, the other at the deployed one | point `NEXT_PUBLIC_LIVE_URL` at a single Worker |
+| Visit total does not move | that browser already bumped today (UTC), or the address hit the one-minute throttle | expected; try a private window |
+| `curl /stats` returns 403 after restricting origins | requests with no `Origin` header are rejected once `ALLOWED_ORIGINS` is not `*` | test with `-H "Origin: https://your-site.example"` |
+| Worker redeployed but the site shows old numbers | the Pages build did not receive the variable | set the repo variable and re-run `deploy.yml` |
+
+---
+
 ## Android App
 
 Noor ships as a native Android app built with **Capacitor 7**. The Android
@@ -303,14 +427,14 @@ inside the APK. Reading works with no network connection.
 | --- | --- |
 | All 114 surahs: Arabic + English, Hindi, Urdu | Recitation audio (islamic.network CDN) |
 | All 7 hadith collections and per-book pages | YouTube scholar videos |
-| Knowledge Base articles, duas, tasbih, khatmah | Live visitor counter (Supabase) |
+| Knowledge Base articles, duas, tasbih, khatmah | Live visitor counter (Cloudflare Worker) |
 | Prayer times (computed on device with `adhan`) | — |
 | Global search (Pagefind index is bundled) | — |
 | Bookmarks, saved spots, reading progress (`localStorage`) | — |
 
 The YouTube catalogue and video cards still render offline; only playback
-needs a connection. The live footer badge stays hidden when Supabase is not
-reachable, which is the intended native behaviour.
+needs a connection. The live footer badge stays hidden when the presence Worker
+is not reachable, which is the intended native behaviour.
 
 ### Prerequisites
 
@@ -634,6 +758,7 @@ src/
 │   ├── videos/             # Video library
 │   ├── search/             # Global search
 │   ├── saved/              # Bookmarks + resume positions
+│   ├── live/               # /live reader dashboard
 │   └── about/              # About page
 ├── components/
 │   ├── layout/             # Navbar, Footer, Sidebar, MobileNav
@@ -644,10 +769,12 @@ src/
 │   ├── saved/              # SavedClient, SavedItemCard, ContinueSection
 │   ├── three/              # HeroScene3D, KaabaModel, MosqueScene, StarParticles
 │   ├── ui/                 # shadcn primitives
+│   ├── live/               # LiveDashboard (total, per-page, per-surah readers)
+│   ├── realtime/           # RealtimeProvider (one shared presence socket)
 │   └── shared/             # ThemeToggle, BookmarkButton, SaveSpotButton, SearchBar, Breadcrumbs, ErrorBoundary
 ├── config/                 # site.ts, scholars.ts, api.ts, audio.ts (reciter catalog + CDN URLs)
-├── lib/                    # Data layers (quran, hadith, youtube, knowledge, utils)
-├── hooks/                  # useBookmarks, useQuran, useYouTube, useReciter, reading/hadith/article/video progress
+├── lib/                    # Data layers (quran, hadith, youtube, knowledge, live, utils)
+├── hooks/                  # useBookmarks, useQuran, useLiveStats, useLiveVisitors, useYouTube, useReciter, reading/hadith/article/video progress
 └── types/                  # TypeScript interfaces
 
 public/
@@ -668,13 +795,19 @@ scripts/
 ├── fetch-youtube-data.ts   # YouTube scraper
 ├── build-pagefind-index.mjs
 └── bump-version.js         # Conventional-commit versioning
+
+workers/live/               # Cloudflare Worker + Durable Object (live presence)
+├── src/index.ts            # PresenceHub DO + routes: /ws, /stats, /visit, /health
+├── wrangler.toml           # Worker name, DO binding, v1 sqlite migration, ALLOWED_ORIGINS
+├── tsconfig.json           # Worker-only typecheck config (npm run live:typecheck)
+└── README.md               # Protocol, deploy, cost, privacy
 ```
 
 ---
 
 ## CI/CD
 
-Two GitHub Actions workflows drive releases. Tags are the **single source of truth** for what is live.
+Three GitHub Actions workflows drive releases: two for the static site and one for the presence Worker. Tags are the **single source of truth** for what is live.
 
 ```mermaid
 graph LR
@@ -684,6 +817,8 @@ graph LR
     TAG --> |Trigger| DP[deploy.yml]
     SCHED[Cron · 06:07 / 18:07 UTC] -.-> DP
     MANUAL[workflow_dispatch] -.-> DP
+    MAIN --> |workers/live change| LDP[deploy-live.yml]
+    LDP --> |wrangler deploy| WK[Presence Worker + Durable Object]
     DP --> BUILD[npm ci + fetch + build]
     BUILD --> |Static export| PAGES[GitHub Pages]
 ```
@@ -695,6 +830,8 @@ graph LR
 > git push -f origin v1.2.0
 > ```
 > The tag push triggers deploy and ships that exact commit.
+
+**Live counter Worker:** [`deploy-live.yml`](.github/workflows/deploy-live.yml) deploys `workers/live` after `npm run live:typecheck` on any push to `main` that touches it, or on demand via *Run workflow*. It needs the `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` secrets, and the site picks up the Worker URL from the `NEXT_PUBLIC_LIVE_URL` variable. Setup details are in [Live Visitors](#live-visitors).
 
 ---
 
@@ -726,6 +863,7 @@ Gold is never flat — all gold elements use multi-stop gradients for metallic f
 | Hadith (7 collections) | Public Hadith APIs | Build → `public/data/hadith/` |
 | Knowledge Base (EN/HI/UR) | Authored, source-graded articles | Hand-written → `src/data/knowledge/articles/` |
 | Scholar Videos | YouTube `/videos` tabs | Build + twice-daily cron → `public/data/youtube/` |
+| Live readers + visits | Each visitor tab → Durable Object snapshot | Runtime; only the visit total is persisted |
 
 YouTube runs on GitHub's US runners. Per-channel failures fall back to bundled mock data.
 

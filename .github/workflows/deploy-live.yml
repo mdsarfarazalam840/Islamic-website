@@ -1,0 +1,41 @@
+name: Deploy live counter Worker
+
+# Ships the presence Durable Object in workers/live. Kept separate from the
+# Pages deploy because Pages Functions cannot create or migrate Durable Objects.
+#
+# One-time setup: repo Settings -> Secrets and variables -> Actions ->
+#   CLOUDFLARE_API_TOKEN   (Workers Scripts: Edit + Durable Objects: Edit)
+#   CLOUDFLARE_ACCOUNT_ID
+# Then set NEXT_PUBLIC_LIVE_URL (the deployed Worker URL) as a repo *variable*
+# so the Pages build connects to it.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "workers/live/**"
+      - ".github/workflows/deploy-live.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: noor-live-worker
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run live:typecheck
+      - run: npx wrangler deploy -c workers/live/wrangler.toml
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}

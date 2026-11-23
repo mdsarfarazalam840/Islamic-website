@@ -9,7 +9,7 @@ const numbers = new Intl.NumberFormat("en-US")
 
 /**
  * "N reading now · M visits" badge. Renders nothing until at least one of the
- * numbers is real, so a site built without Supabase env vars — or a native shell
+ * numbers is real, so a site built without a presence Worker URL — or a native shell
  * with no connection — shows no placeholder and no zeros.
  */
 export function LiveVisitors({ className }: { className?: string }) {
@@ -34,7 +34,7 @@ export function LiveVisitors({ className }: { className?: string }) {
         <span className="flex items-center gap-1.5">
           <Eye className="size-3" aria-hidden />
           <span className="tabular-nums">{numbers.format(visits)}</span>
-          visits
+          {visits === 1 ? "visit" : "visits"}
         </span>
       )}
     </p>

@@ -10,62 +10,56 @@ import {
   useState,
 } from "react"
 import { usePathname } from "next/navigation"
-import type { RealtimeChannel, RealtimePresenceState } from "@supabase/supabase-js"
-import { getSupabase } from "@/lib/supabase/client"
-
-/** Realtime channel every open tab joins. Presence on it is the "online now" set. */
-const PRESENCE_CHANNEL = "noor-live"
-/** Row holding the lifetime counter in public.site_stats. */
-const STATS_ROW = "total"
-/** localStorage marker holding the UTC day a visit was last counted on. */
-const VISIT_FLAG = "noor-visit-day"
 
 /**
- * Floor on the gap between presence writes from one tab. Every track() fans out
- * to every other connected tab, so a reader clicking through surahs would
- * otherwise multiply into a burst of messages; patches coalesce into one write
- * instead.
+ * Live presence now runs on a Cloudflare Durable Object (see `workers/live`)
+ * instead of Supabase Realtime. One hibernatable WebSocket per tab carries
+ * everything: the online total, per-page and per-surah counts, the arrival
+ * feed, and the lifetime visit counter.
+ *
+ * Nothing here identifies a reader. A connection is a tab; the only state it
+ * reports is the page path and optional reading detail.
  */
-const TRACK_INTERVAL_MS = 3000
-/**
- * Presence replays the whole existing member list as join events on subscribe
- * and after every reconnect. Joins seen within this window of SUBSCRIBED are
- * that backlog, not real arrivals, so they are counted but never shown in the
- * feed.
- */
-const JOIN_GRACE_MS = 2000
-/** How many activity lines to keep. */
-const FEED_LIMIT = 6
 
 /**
- * NEXT_PUBLIC_LIVE_DETAIL=off collapses the presence payload to a bare
- * heartbeat: the footer's online + visits numbers keep working, and the
- * per-surah, trending, and activity features go dark. It exists because
- * presence fan-out grows with both traffic and concurrency — this is the lever
- * to pull if the project's Realtime message quota comes into view.
+ * Base URL of the presence Worker, e.g. https://noor-live.example.workers.dev.
+ * Unset means no live layer: every number stays null and each live component
+ * renders nothing instead of a row of zeros.
+ */
+const LIVE_URL = process.env.NEXT_PUBLIC_LIVE_URL?.trim().replace(/\/+$/, "") || ""
+
+/**
+ * NEXT_PUBLIC_LIVE_DETAIL=off collapses track messages to path + section. The
+ * online total, per-page counts, and visits keep working; per-surah counts and
+ * the activity feed go quiet.
  */
 const DETAIL = process.env.NEXT_PUBLIC_LIVE_DETAIL?.trim().toLowerCase() !== "off"
 
 const BASE_PATH =
   process.env.NEXT_PUBLIC_BASE_PATH?.trim().replace(/\/$/, "") || ""
 
+/** Keepalive cadence. The Worker prunes a socket after 75s of silence. */
+const HEARTBEAT_MS = 25_000
+/**
+ * Floor on the gap between track writes from one tab. Every write fans out a
+ * snapshot to every connected tab, so a reader clicking through surahs would
+ * otherwise multiply into a burst; patches coalesce into one write instead.
+ */
+const TRACK_INTERVAL_MS = 3000
+const RECONNECT_MIN_MS = 1000
+const RECONNECT_MAX_MS = 30_000
+/** localStorage marker holding the UTC day a visit was last counted on. */
+const VISIT_FLAG = "noor-visit-day"
+const FEED_LIMIT = 6
+
 /**
  * What one tab publishes about itself. Keys are single letters because this
- * object is delivered to every other connected tab on each write; nothing here
- * identifies a reader.
- *
- * Declared as a type alias rather than an interface on purpose: the realtime
- * SDK's generics require an implicit index signature, which interfaces do not
- * get.
+ * object is delivered to every connected tab on each write.
  */
 export type PresencePayload = {
   /** Surah being read, null everywhere else on the site. */
   s: number | null
-  /**
-   * Surah name. Carried in the payload so that consumers — including the footer,
-   * which every page loads — can label a surah without importing the 114-entry
-   * catalog from `@/lib/quran/surahs`.
-   */
+  /** Surah name, carried so consumers need no catalog import. */
   n: string | null
   /** True while recitation audio is actually playing. */
   p: boolean
@@ -75,7 +69,11 @@ export type PresencePayload = {
   z: string
 }
 
-type PresenceEntry = PresencePayload & { presence_ref: string }
+/** Wire shape of the presence payload plus the page the tab is on. */
+type TrackPayload = PresencePayload & {
+  /** Normalized page path, with the deploy basePath already stripped. */
+  u: string
+}
 
 export interface SurahActivity {
   surah: number
@@ -87,7 +85,7 @@ export interface SurahActivity {
 }
 
 export interface ActivityEvent {
-  /** Presence ref of the join — unique per arrival, so it works as a React key. */
+  /** Unique per arrival, so it works as a React key. */
   id: string
   surah: number | null
   name: string | null
@@ -96,20 +94,33 @@ export interface ActivityEvent {
   section: string
 }
 
+/** Snapshot broadcast by the Durable Object. */
+interface SnapshotMessage {
+  type: "snapshot"
+  total: number
+  visits: number
+  surahs: SurahActivity[]
+  activity: ActivityEvent[]
+  ts: number
+  mine?: { path: string; readers: number }
+}
+
 export interface RealtimeValue {
-  /** Tabs currently connected, or null until the first presence sync lands. */
+  /** Tabs currently connected, or null until the first snapshot lands. */
   online: number | null
   /** Lifetime visit count, or null until it has been read. */
   visits: number | null
-  /** Live per-surah counts, keyed by surah number. Every live number derives from this. */
+  /** Live per-surah counts. Every surah number derives from this. */
   bySurah: ReadonlyMap<number, SurahActivity>
   /** Newest-first arrivals, capped at FEED_LIMIT. */
   activity: readonly ActivityEvent[]
+  /** Tabs on this exact page, or null until the first snapshot lands. */
+  page: number | null
   /**
    * Publish something about this tab. Patches merge into one payload and are
    * throttled, so callers can fire freely on every render-driven change.
    */
-  report: (patch: Partial<PresencePayload>) => void
+  report: (patch: Partial<TrackPayload>) => void
 }
 
 const EMPTY_SURAHS: ReadonlyMap<number, SurahActivity> = new Map()
@@ -124,6 +135,7 @@ const RealtimeContext = createContext<RealtimeValue>({
   visits: null,
   bySurah: EMPTY_SURAHS,
   activity: [],
+  page: null,
   report: () => {},
 })
 
@@ -132,12 +144,16 @@ export function useRealtime(): RealtimeValue {
 }
 
 /** First path segment, with the deploy basePath stripped if the router kept it. */
-function sectionOf(pathname: string): string {
+function relativePath(pathname: string): string {
   const rel =
     BASE_PATH && pathname.startsWith(BASE_PATH)
       ? pathname.slice(BASE_PATH.length)
       : pathname
-  return rel.split("/").filter(Boolean)[0] ?? "home"
+  return rel.startsWith("/") ? rel : `/${rel}`
+}
+
+function sectionOf(pathname: string): string {
+  return relativePath(pathname).split("/").filter(Boolean)[0] ?? "home"
 }
 
 function utcDay(): string {
@@ -162,89 +178,72 @@ function markCountedToday(): void {
   }
 }
 
-function toEvent(entry: PresenceEntry): ActivityEvent {
-  return {
-    id: entry.presence_ref,
-    surah: typeof entry.s === "number" ? entry.s : null,
-    name: typeof entry.n === "string" ? entry.n : null,
-    reciter: typeof entry.r === "string" ? entry.r : null,
-    listening: entry.p === true,
-    section: typeof entry.z === "string" ? entry.z : "home",
+/** WebSocket URL for a page, or null when the Worker is not configured. */
+function socketUrl(path: string): string | null {
+  if (!LIVE_URL) return null
+  try {
+    const url = new URL(LIVE_URL)
+    url.protocol = url.protocol === "https:" ? "wss:" : "ws:"
+    url.pathname = `${url.pathname.replace(/\/$/, "")}/ws`
+    url.search = ""
+    url.searchParams.set("p", path)
+    return url.toString()
+  } catch {
+    return null
   }
 }
 
-/**
- * Fold a presence snapshot into per-surah counts. Only the newest entry per
- * presence key is read: a tab that just re-tracked briefly has both its old and
- * new meta in the state, and counting both would show one reader as two.
- */
-function deriveSurahs(
-  state: RealtimePresenceState<PresencePayload>,
-): ReadonlyMap<number, SurahActivity> {
-  const map = new Map<number, SurahActivity>()
-  for (const entries of Object.values(state)) {
-    const entry = entries[entries.length - 1]
-    if (!entry || typeof entry.s !== "number") continue
-    const row = map.get(entry.s) ?? {
-      surah: entry.s,
-      name: typeof entry.n === "string" ? entry.n : `Surah ${entry.s}`,
-      readers: 0,
-      listeners: 0,
-    }
-    row.readers += 1
-    if (entry.p === true) row.listeners += 1
-    map.set(entry.s, row)
-  }
-  return map
+/** Worker base URL for the two HTTP endpoints (stats, visit). */
+function apiUrl(path: string): string {
+  return `${LIVE_URL}${path}`
 }
 
 /**
- * Owns the site's single Realtime connection.
+ * Owns the site's single live connection.
  *
- * One channel carries everything: presence gives the online count, the
- * per-surah reader and listener counts, and the activity feed, while a
- * postgres_changes binding on the same channel keeps the lifetime visit total
- * ticking. Nothing here polls, and no feature adds a second connection —
- * consumers read `useRealtime()` and derive what they need from the one
- * snapshot.
- *
- * All numbers stay null when Supabase is not configured, which is what makes
- * every live component render nothing rather than a row of zeros.
+ * The provider reconnects with capped exponential backoff, reconnects on tab
+ * visibility, and sends a keepalive ping well inside the Worker's 75s stale
+ * window. Every live component reads `useRealtime()`; none opens its own
+ * socket or request.
  */
 export function RealtimeProvider({ children }: { children: React.ReactNode }) {
+  const pathname = usePathname()
+
   const [online, setOnline] = useState<number | null>(null)
   const [visits, setVisits] = useState<number | null>(null)
+  const [page, setPage] = useState<number | null>(null)
   const [bySurah, setBySurah] =
     useState<ReadonlyMap<number, SurahActivity>>(EMPTY_SURAHS)
   const [activity, setActivity] = useState<readonly ActivityEvent[]>([])
 
-  const channelRef = useRef<RealtimeChannel | null>(null)
-  const pending = useRef<PresencePayload>({
+  const socketRef = useRef<WebSocket | null>(null)
+  const pending = useRef<TrackPayload>({
+    u: relativePath(pathname),
+    z: sectionOf(pathname),
     s: null,
     n: null,
     p: false,
     r: null,
-    z: "home",
   })
   const lastSent = useRef(0)
   const trackTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
-  /** False from each SUBSCRIBED until the replayed presence backlog has passed. */
-  const feedReady = useRef(false)
-  const graceTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
 
   const flush = useCallback(() => {
-    const channel = channelRef.current
-    if (!channel) return
+    const socket = socketRef.current
+    if (!socket || socket.readyState !== WebSocket.OPEN) return
     lastSent.current = Date.now()
-    void channel.track(DETAIL ? pending.current : {})
+    const payload = DETAIL
+      ? pending.current
+      : { u: pending.current.u, z: pending.current.z }
+    socket.send(JSON.stringify({ t: "track", ...payload }))
   }, [])
 
   const report = useCallback(
-    (patch: Partial<PresencePayload>) => {
+    (patch: Partial<TrackPayload>) => {
       pending.current = { ...pending.current, ...patch }
-      // Before SUBSCRIBED there is nothing to write to; the first flush picks the
-      // merged payload up. With detail off the payload is never sent at all.
-      if (!channelRef.current || !DETAIL) return
+      // Before the socket opens there is nothing to write to; the first flush
+      // picks the merged payload up.
+      if (!socketRef.current || socketRef.current.readyState !== WebSocket.OPEN) return
       const wait = TRACK_INTERVAL_MS - (Date.now() - lastSent.current)
       if (wait <= 0) {
         flush()
@@ -261,98 +260,154 @@ export function RealtimeProvider({ children }: { children: React.ReactNode }) {
   )
 
   useEffect(() => {
+    if (!LIVE_URL) return
+
     let cancelled = false
-    let teardown: (() => void) | undefined
+    let socket: WebSocket | null = null
+    let heartbeat: ReturnType<typeof setInterval> | null = null
+    let retryTimer: ReturnType<typeof setTimeout> | null = null
+    let attempt = 0
 
-    void (async () => {
-      const supabase = await getSupabase()
-      if (!supabase || cancelled) return
+    const stopHeartbeat = () => {
+      if (heartbeat !== null) {
+        clearInterval(heartbeat)
+        heartbeat = null
+      }
+    }
 
-      // Presence needs a key that is unique per tab: reusing one key across tabs
-      // would collapse them into a single "online" entry.
-      const channel = supabase.channel(PRESENCE_CHANNEL, {
-        config: { presence: { key: crypto.randomUUID() } },
-      })
+    const connect = () => {
+      if (cancelled) return
+      const url = socketUrl(pending.current.u)
+      if (!url) return
 
-      channel
-        .on("presence", { event: "sync" }, () => {
-          const state = channel.presenceState<PresencePayload>()
-          setOnline(Object.keys(state).length)
-          setBySurah(deriveSurahs(state))
-        })
-        .on<PresencePayload>("presence", { event: "join" }, ({ newPresences }) => {
-          if (!feedReady.current || !DETAIL) return
-          setActivity((prev) =>
-            [...newPresences.map(toEvent), ...prev].slice(0, FEED_LIMIT),
-          )
-        })
-        .on(
-          "postgres_changes",
-          { event: "UPDATE", schema: "public", table: "site_stats" },
-          (payload) => {
-            const next = (payload.new as { id?: string; visits?: number }) ?? {}
-            if (next.id === STATS_ROW && typeof next.visits === "number") {
-              setVisits(next.visits)
-            }
-          },
-        )
+      socket = new WebSocket(url)
+      socketRef.current = socket
 
-      // Assigned before subscribing so the status callback's flush() finds it.
-      channelRef.current = channel
-
-      channel.subscribe((status) => {
-        if (status !== "SUBSCRIBED") return
-        feedReady.current = false
-        if (graceTimer.current) clearTimeout(graceTimer.current)
-        graceTimer.current = setTimeout(() => {
-          graceTimer.current = null
-          feedReady.current = true
-        }, JOIN_GRACE_MS)
+      socket.onopen = () => {
+        attempt = 0
         flush()
-      })
-
-      teardown = () => {
-        channelRef.current = null
-        void supabase.removeChannel(channel)
+        stopHeartbeat()
+        heartbeat = setInterval(() => {
+          if (socket?.readyState === WebSocket.OPEN) socket.send('{"t":"ping"}')
+        }, HEARTBEAT_MS)
       }
 
-      if (countedToday()) {
-        const { data } = await supabase
-          .from("site_stats")
-          .select("visits")
-          .eq("id", STATS_ROW)
-          .maybeSingle()
-        if (!cancelled && typeof data?.visits === "number") setVisits(data.visits)
+      socket.onmessage = (event) => {
+        if (typeof event.data !== "string") return
+        let data: SnapshotMessage
+        try {
+          data = JSON.parse(event.data) as SnapshotMessage
+        } catch {
+          return
+        }
+        if (data?.type !== "snapshot") return
+
+        setOnline(typeof data.total === "number" ? data.total : null)
+        setVisits(typeof data.visits === "number" ? data.visits : null)
+        setPage(typeof data.mine?.readers === "number" ? data.mine.readers : null)
+        setBySurah(
+          new Map(
+            (Array.isArray(data.surahs) ? data.surahs : []).map((row) => [
+              row.surah,
+              row,
+            ]),
+          ),
+        )
+        setActivity(
+          Array.isArray(data.activity) ? data.activity.slice(0, FEED_LIMIT) : [],
+        )
+      }
+
+      socket.onclose = () => {
+        stopHeartbeat()
+        if (socketRef.current === socket) socketRef.current = null
+        // Stale numbers would claim readers who already left.
+        setOnline(null)
+        setPage(null)
+        if (cancelled) return
+        const delay = Math.min(
+          RECONNECT_MAX_MS,
+          RECONNECT_MIN_MS * 2 ** attempt,
+        )
+        attempt += 1
+        retryTimer = setTimeout(connect, delay)
+      }
+
+      socket.onerror = () => {
+        socket?.close()
+      }
+    }
+
+    const onVisibility = () => {
+      if (document.hidden) return
+      const state = socket?.readyState
+      if (state === undefined || state === WebSocket.CLOSED) {
+        if (retryTimer !== null) clearTimeout(retryTimer)
+        attempt = 0
+        connect()
         return
       }
+      // Already connected: republish immediately so a long-hidden tab is not
+      // shown on the wrong page after it wakes.
+      if (state === WebSocket.OPEN) flush()
+    }
 
-      const { data, error } = await supabase.rpc("bump_visits")
-      if (error || typeof data !== "number") return
-      markCountedToday()
-      if (!cancelled) setVisits(data)
+    connect()
+    document.addEventListener("visibilitychange", onVisibility)
+
+    return () => {
+      cancelled = true
+      stopHeartbeat()
+      document.removeEventListener("visibilitychange", onVisibility)
+      if (retryTimer !== null) clearTimeout(retryTimer)
+      if (trackTimer.current) clearTimeout(trackTimer.current)
+      trackTimer.current = null
+      const current = socket
+      socketRef.current = null
+      current?.close(1000, "unmount")
+    }
+  }, [flush])
+
+  // Lifetime visits: one bump per tab per UTC day, read back for everyone else.
+  useEffect(() => {
+    if (!LIVE_URL) return
+    let cancelled = false
+
+    void (async () => {
+      try {
+        if (countedToday()) {
+          const response = await fetch(apiUrl("/stats"), { cache: "no-store" })
+          if (!response.ok) return
+          const data = (await response.json()) as { visits?: number }
+          if (!cancelled && typeof data.visits === "number") setVisits(data.visits)
+          return
+        }
+
+        const response = await fetch(apiUrl("/visit"), { method: "POST" })
+        if (!response.ok) return
+        const data = (await response.json()) as { visits?: number }
+        if (typeof data.visits !== "number") return
+        markCountedToday()
+        if (!cancelled) setVisits(data.visits)
+      } catch {
+        /* offline — the badge simply keeps its last value */
+      }
     })()
 
     return () => {
       cancelled = true
-      if (trackTimer.current) clearTimeout(trackTimer.current)
-      if (graceTimer.current) clearTimeout(graceTimer.current)
-      trackTimer.current = null
-      graceTimer.current = null
-      feedReady.current = false
-      teardown?.()
     }
-  }, [flush])
+  }, [])
 
-  // Which part of the site this tab is in. Route changes are the main driver of
-  // presence writes, which is why report() throttles.
-  const pathname = usePathname()
+  // Route changes are the main driver of track writes, which is why report()
+  // throttles. The path rides along so the tab's page count moves with it.
   useEffect(() => {
-    report({ z: sectionOf(pathname) })
+    report({ u: relativePath(pathname), z: sectionOf(pathname) })
   }, [pathname, report])
 
   const value = useMemo<RealtimeValue>(
-    () => ({ online, visits, bySurah, activity, report }),
-    [online, visits, bySurah, activity, report],
+    () => ({ online, visits, bySurah, activity, page, report }),
+    [online, visits, bySurah, activity, page, report],
   )
 
   return (
