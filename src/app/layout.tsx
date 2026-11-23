@@ -60,7 +60,7 @@ export default function RootLayout({
       data-scroll-behavior="smooth"
     >
       <head>
-        <link rel="manifest" href="/manifest.json" />
+        <link rel="manifest" href={process.env.NEXT_PUBLIC_BASE_PATH + '/manifest.json'} />
         <meta name="theme-color" content="#0a1628" media="(prefers-color-scheme: dark)" />
         <meta name="theme-color" content="#f0ede5" media="(prefers-color-scheme: light)" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
