@@ -19,6 +19,8 @@ const eslintConfig = defineConfig([
     "apps/mobile/www/**", // capacitor web copy of out/
     "apps/mobile/android/**",
     "apps/mobile/ios/**",
+    // Standalone Cloudflare Worker with its own tsconfig/types.
+    "workers/**",
   ]),
   {
     rules: {

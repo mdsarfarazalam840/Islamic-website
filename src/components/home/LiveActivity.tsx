@@ -44,7 +44,7 @@ function lineFor(event: ActivityEvent): string {
  * this panel opens no connection and issues no request of its own.
  *
  * Renders nothing until there is something real to show, which is also what
- * keeps it invisible on a build without Supabase env vars.
+ * keeps it invisible on a build without a presence Worker URL.
  */
 export function LiveActivity({ className }: { className?: string }) {
   const { bySurah, activity, online } = useRealtime()

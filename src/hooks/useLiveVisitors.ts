@@ -12,8 +12,8 @@ export interface LiveStats {
 /**
  * The footer badge's two numbers.
  *
- * The channel, the presence tracking, and the visit bump all live in
- * `RealtimeProvider` — one connection is shared by every live feature on the
+ * The socket, the presence tracking, and the visit bump all live in
+ * `RealtimeProvider` - one connection is shared by every live feature on the
  * site, so this is just a read of that context.
  */
 export function useLiveVisitors(): LiveStats {
