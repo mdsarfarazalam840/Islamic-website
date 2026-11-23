@@ -185,8 +185,8 @@ function socketUrl(path: string): string | null {
     const url = new URL(LIVE_URL)
     url.protocol = url.protocol === "https:" ? "wss:" : "ws:"
     url.pathname = `${url.pathname.replace(/\/$/, "")}/ws`
-    url.search = ""
-    url.searchParams.set("p", path)
+    // Don't encode the path - only append if it's not the root
+    url.searchParams.set("p", path.startsWith("/") && path.length > 1 ? path.slice(1) : path)
     return url.toString()
   } catch {
     return null
