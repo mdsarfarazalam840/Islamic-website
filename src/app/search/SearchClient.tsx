@@ -164,6 +164,7 @@ export function SearchClient() {
   const [videoShown, setVideoShown] = useState(PAGE_SIZE)
   const [loadingMore, setLoadingMore] = useState<"quran" | "hadith" | "knowledge" | null>(null)
   const [loadingData, setLoadingData] = useState(false)
+  const [searchType, setSearchType] = useState<'quran' | 'hadith' | 'knowledge' | 'all'>('all')
   const inputRef = useRef<HTMLInputElement>(null)
   const debouncedQuery = useDebounce(query, 300)
   const trimmedQuery = debouncedQuery.trim()
@@ -241,10 +242,20 @@ export function SearchClient() {
       setLoadingData(true)
       try {
         const pf = await getPagefind()
+        // Build Pagefind filter string based on search type
+        let typeFilter: string | undefined
+        if (searchType === 'all') {
+          typeFilter = undefined // search all types
+        } else {
+          typeFilter = searchType // filter to single type
+        }
         const [quranSearch, hadithSearch, knowledgeSearch] = await Promise.all([
-          pf.search(trimmed, { filters: { type: "quran" } }),
-          pf.search(trimmed, { filters: { type: "hadith" } }),
-          pf.search(trimmed, { filters: { type: "knowledge" } }),
+          pf.search(trimmed, typeFilter ? { filters: { type: typeFilter } } : {})
+            .then((r) => r),
+          pf.search(trimmed, typeFilter ? { filters: { type: typeFilter } } : {})
+            .then((r) => r),
+          pf.search(trimmed, typeFilter ? { filters: { type: typeFilter } } : {})
+            .then((r) => r),
         ])
         if (cancelled) return
         const qRefs = quranSearch.results.slice(0, MAX_RESULTS)
@@ -337,6 +348,56 @@ export function SearchClient() {
           <h1 className="text-2xl font-display gold-gradient-text font-bold">Search</h1>
           <p className="text-sm text-muted-foreground">Search across Quran, Hadith, Knowledge Base, and Videos</p>
         </div>
+      </div>
+      {/* Search type filters */}
+      <div className="flex gap-2 mb-4" role="radiogroup" aria-label="Search type">
+        <label>
+          <input
+            type="radio"
+            name="search-type"
+            value="quran"
+            checked={searchType === 'quran' || searchType === 'all'}
+            onChange={(e) => setSearchType((e.target.value as 'quran' | 'hadith' | 'knowledge' | 'all'))}
+            className="hidden"
+          />
+          <span className={cn("inline-flex items-center gap-1 px-2 py-1 rounded border border-border/50 text-sm", searchType === 'quran' || searchType === 'all' ? 'bg-gold-dim/20' : '')}
+            >Quran</span>
+        </label>
+        <label>
+          <input
+            type="radio"
+            name="search-type"
+            value="hadith"
+            checked={searchType === 'hadith' || searchType === 'all'}
+            onChange={(e) => setSearchType((e.target.value as 'quran' | 'hadith' | 'knowledge' | 'all'))}
+            className="hidden"
+          />
+          <span className={cn("inline-flex items-center gap-1 px-2 py-1 rounded border border-border/50 text-sm", searchType === 'hadith' || searchType === 'all' ? 'bg-gold-dim/20' : '')}
+            >Hadith</span>
+        </label>
+        <label>
+          <input
+            type="radio"
+            name="search-type"
+            value="knowledge"
+            checked={searchType === 'knowledge' || searchType === 'all'}
+            onChange={(e) => setSearchType((e.target.value as 'quran' | 'hadith' | 'knowledge' | 'all'))}
+            className="hidden"
+          />
+          <span className={cn("inline-flex items-center gap-1 px-2 py-1 rounded border border-border/50 text-sm", searchType === 'knowledge' || searchType === 'all' ? 'bg-gold-dim/20' : '')}
+            >Knowledge</span>
+        </label>
+        <label>
+          <input
+            type="radio"
+            name="search-type"
+            value="all" checked
+            onChange={(e) => setSearchType('all')}
+            className="hidden"
+          />
+          <span className={cn("inline-flex items-center gap-1 px-2 py-1 rounded border border-border/50 text-sm", searchType === 'all' ? 'bg-gold-dim/20' : '')}
+            >All</span>
+        </label>
       </div>
 
       <div className="relative flex-1 mb-4">
