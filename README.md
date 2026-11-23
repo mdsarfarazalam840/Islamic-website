@@ -307,7 +307,7 @@ graph LR
     TAB[Reader tab] -->|wss /ws · ping every 25s| DO[PresenceHub<br/>Durable Object]
     TAB -->|POST /visit · once per UTC day| DO
     DO -->|snapshot · at most 1 per 800ms| TAB
-    DO -->|GET /stats · every 4s| DASH[/live dashboard]
+    DO -->|GET /stats · every 4s| DASH{"/live dashboard"}
     DO -->|storage| STORE[(visit total)]
 ```
 
