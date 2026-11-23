@@ -1,3 +1,9 @@
+## [0.6.0] - 2026-11-23
+
+### Features
+- feat: live reader counter on Cloudflare Durable Objects (cf9aa30)
+
+
 ## [0.5.1] - 2026-11-18
 
 ### Other
