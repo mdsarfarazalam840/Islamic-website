@@ -50,11 +50,10 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build-and-deploy:
+  # Build only. The deploy lives in its own job below — see the comment there for
+  # why the two must not share a job.
+  build:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     env:
       # Repo name = URL subpath. Both vars are read at build time:
       #  - NEXT_PUBLIC_BASE_PATH  -> next.config.ts basePath/assetPrefix
@@ -147,9 +146,34 @@ jobs:
       # Jekyll (GitHub Pages' default) ignores files/dirs starting with "_",
       # which would drop Next's _next/ asset folder. Disable it.
       - run: touch out/.nojekyll
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/configure-pages@v6
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: out
+          # v5 skips dot-prefixed files unless told otherwise, which would drop
+          # the .nojekyll created above. Keep v3's old behaviour explicitly.
+          include-hidden-files: true
+
+  # Deploy is a separate job, deliberately. actions/deploy-pages resolves the
+  # "github-pages" artifact by listing artifacts *for the current run* through
+  # the artifact service. When the upload and the deploy share a job, that
+  # listing can run a few hundred milliseconds after the upload was finalized
+  # and still come back empty — the log shows "Found 0 artifact(s)" followed by
+  # 'No artifacts named "github-pages" were found', which reads like a GitHub
+  # outage but is a race (actions/deploy-pages#451; the static starter is the
+  # only Pages template that uploads and deploys in one job). Splitting the jobs
+  # puts seconds between upload and lookup, which is the documented fix.
+  #
+  # Second benefit: a partial re-run is safe. "Re-run failed jobs" on this shape
+  # re-runs only the deploy, so the run keeps exactly one github-pages artifact.
+  # In the old single-job layout it re-uploaded and produced two, failing with
+  # 'Multiple artifacts named "github-pages" were unexpectedly found'.
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
