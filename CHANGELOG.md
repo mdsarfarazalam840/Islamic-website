@@ -1,3 +1,15 @@
+## [0.6.1] - 2026-11-25
+
+### Bug Fixes
+- fix: added mask in the worker URL (1bd1237)
+- fix: trying to fix the live counters (9ed5315)
+- fix: live counter fix done (05e0dfe)
+
+### Other
+- fixed: failures in jobs (43d9674)
+- add: added some more debug in workflow for live probes (95709bf)
+
+
 ## [0.6.0] - 2026-11-23
 
 ### Features
