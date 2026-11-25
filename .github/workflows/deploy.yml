@@ -86,29 +86,39 @@ jobs:
       # dead /live page fails here in seconds instead of after a full build.
       - name: Check live Worker URL is configured
         run: |
+          # This log is public (public repo), and so is every fork's. Register the
+          # hostname as a masked value before anything can echo it, then never
+          # print it: the checks below report *which* rule failed, not the value.
           url="${NEXT_PUBLIC_LIVE_URL%/}"
+          for secret in "$NEXT_PUBLIC_LIVE_URL" "$url" "${url#https://}"; do
+            [ -n "$secret" ] && echo "::add-mask::$secret"
+          done
           if [ -z "$url" ]; then
             echo "::error::NEXT_PUBLIC_LIVE_URL is empty. Add it as a repository VARIABLE (Settings -> Secrets and variables -> Actions -> Variables tab, NOT Secrets), value https://noor-live.<account>.workers.dev, then re-run this workflow."
             exit 1
           fi
           case "$url" in
             https://*) ;;
-            *) echo "::error::NEXT_PUBLIC_LIVE_URL must be an absolute https URL, got '$url'."; exit 1 ;;
+            *) echo "::error::NEXT_PUBLIC_LIVE_URL must be an absolute https:// URL (value masked)."; exit 1 ;;
           esac
           case "$url" in
-            */ws|*/stats|*/visit) echo "::error::NEXT_PUBLIC_LIVE_URL is the Worker base URL only - drop the '$url' path suffix."; exit 1 ;;
+            */ws|*/stats|*/visit) echo "::error::NEXT_PUBLIC_LIVE_URL ends with /ws, /stats or /visit - use the bare Worker origin, no path (value masked)."; exit 1 ;;
           esac
-          echo "::notice::Live Worker base URL: $url"
+          echo "::notice::Live Worker URL is set and well formed (host masked)."
       # Reachability probe. Warn-only: a Worker hiccup or a Cloudflare blip must
       # not block a site deploy, but a typo'd hostname should be visible in the
       # run log before anyone goes looking in the browser console.
       - name: Probe live Worker
         run: |
           url="${NEXT_PUBLIC_LIVE_URL%/}"
+          for secret in "$NEXT_PUBLIC_LIVE_URL" "$url" "${url#https://}"; do
+            [ -n "$secret" ] && echo "::add-mask::$secret"
+          done
+          # Only the Worker's own JSON body is echoed ({"ok":true}), never the URL.
           if out=$(curl -fsS -m 10 "$url/health"); then
-            echo "::notice::$url/health -> $out"
+            echo "::notice::Live Worker /health answered: $out"
           else
-            echo "::warning::$url/health did not answer. Check the Worker is deployed and the URL is exact."
+            echo "::warning::Live Worker /health did not answer (DNS, TLS or non-2xx). Check the Worker is deployed and the variable is exact - the host is masked here, so compare it in Settings -> Variables."
           fi
       - run: npm ci
       # Fetch each scholar's latest long-form videos by scraping their public
@@ -130,10 +140,13 @@ jobs:
         run: |
           url="${NEXT_PUBLIC_LIVE_URL%/}"
           host="${url#https://}"
+          for secret in "$NEXT_PUBLIC_LIVE_URL" "$url" "$host"; do
+            [ -n "$secret" ] && echo "::add-mask::$secret"
+          done
           if grep -rqs -- "$host" out/_next/static/chunks; then
-            echo "::notice::Live Worker URL inlined into out/_next/static/chunks."
+            echo "::notice::Live Worker host was inlined into out/_next/static/chunks."
           else
-            echo "::error::The build finished but '$host' is not in any client chunk, so /live would render the setup notice. Check that NEXT_PUBLIC_LIVE_URL is exported to the build step."
+            echo "::error::The build finished but the configured Worker host does not appear in any client chunk, so /live would render the setup notice. Check that NEXT_PUBLIC_LIVE_URL is exported to the build step (value masked)."
             exit 1
           fi
       # Prune build-only inputs from the artifact. The *-all.json files (Quran +
