@@ -80,6 +80,37 @@ jobs:
         with:
           node-version: 22
           cache: npm
+      # Fail fast instead of shipping a site that renders "Live counter is not
+      # connected" on /live. NEXT_PUBLIC_* is inlined at build time, so an empty
+      # value is silent: the build succeeds, the deploy succeeds, and the only
+      # symptom appears later in the browser. Anything that would produce a
+      # dead /live page fails here in seconds instead of after a full build.
+      - name: Check live Worker URL is configured
+        run: |
+          url="${NEXT_PUBLIC_LIVE_URL%/}"
+          if [ -z "$url" ]; then
+            echo "::error::NEXT_PUBLIC_LIVE_URL is empty. Add it as a repository VARIABLE (Settings -> Secrets and variables -> Actions -> Variables tab, NOT Secrets), value https://noor-live.<account>.workers.dev, then re-run this workflow."
+            exit 1
+          fi
+          case "$url" in
+            https://*) ;;
+            *) echo "::error::NEXT_PUBLIC_LIVE_URL must be an absolute https URL, got '$url'."; exit 1 ;;
+          esac
+          case "$url" in
+            */ws|*/stats|*/visit) echo "::error::NEXT_PUBLIC_LIVE_URL is the Worker base URL only - drop the '$url' path suffix."; exit 1 ;;
+          esac
+          echo "::notice::Live Worker base URL: $url"
+      # Reachability probe. Warn-only: a Worker hiccup or a Cloudflare blip must
+      # not block a site deploy, but a typo'd hostname should be visible in the
+      # run log before anyone goes looking in the browser console.
+      - name: Probe live Worker
+        run: |
+          url="${NEXT_PUBLIC_LIVE_URL%/}"
+          if out=$(curl -fsS -m 10 "$url/health"); then
+            echo "::notice::$url/health -> $out"
+          else
+            echo "::warning::$url/health did not answer. Check the Worker is deployed and the URL is exact."
+          fi
       - run: npm ci
       # Fetch each scholar's latest long-form videos by scraping their public
       # YouTube "/videos" tab into public/data/youtube/. Runs on GitHub's US
@@ -92,6 +123,20 @@ jobs:
       # writes public/pagefind/, which `next build` copies into out/pagefind/.
       - run: npm run build:pagefind
       - run: npm run build
+      # Belt and braces: the env guard above runs before the build, so this only
+      # fires if something inside Next itself dropped the variable (for example a
+      # config change that stops inlining process.env). Catches the exact failure
+      # that shipped an unconfigured /live page before.
+      - name: Verify live URL was inlined into the bundle
+        run: |
+          url="${NEXT_PUBLIC_LIVE_URL%/}"
+          host="${url#https://}"
+          if grep -rqs -- "$host" out/_next/static/chunks; then
+            echo "::notice::Live Worker URL inlined into out/_next/static/chunks."
+          else
+            echo "::error::The build finished but '$host' is not in any client chunk, so /live would render the setup notice. Check that NEXT_PUBLIC_LIVE_URL is exported to the build step."
+            exit 1
+          fi
       # Prune build-only inputs from the artifact. The *-all.json files (Quran +
       # each hadith collection, ~176 MB) are read at build time by build:pagefind
       # and lib/quran/translations.ts, then copied into out/ by `next build` — but
